@@ -2,7 +2,7 @@ name: Update Coin Configs
 
 on:
   push:
-    branches: [ "nogeo" ]
+    branches: [ "temp" ]
     paths-ignore:
       - 'utils/coins_config.json'
       - 'utils/electrum_scan_report.json'
