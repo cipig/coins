@@ -2,12 +2,10 @@ name: Update Coin Configs
 
 on:
   push:
-    branches: [ "nogeo" ]
+    branches: [ "myprice" ]
     paths-ignore:
       - 'utils/coins_config.json'
       - 'utils/electrum_scan_report.json'
-  schedule:
-    - cron:  '0 0 * * *'
 
 jobs:
   update_configs:
