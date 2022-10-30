@@ -333,8 +333,9 @@ class CoinConfig:
                     "fallback_swap_contract": contract_data["fallback_swap_contract"]
                 })
             if "rpc_nodes" in contract_data:
+                nodes = [i["url"] for i in contract_data["rpc_nodes"]]
                 self.data[self.ticker].update({
-                    "nodes": contract_data["rpc_nodes"]
+                    "nodes": nodes
                 })
 
     def get_explorers(self):
