@@ -3301,19 +3301,19 @@
     },
     "TKL": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "1.eu.tokel.electrum.dexstats.info:10077": [
                 true,
                 "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:10077": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -3322,8 +3322,8 @@
                 "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:11077": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3745,12 +3745,12 @@
         "ws": {}
     },
     "XRG": {
-        "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_total_all": 4,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
-        "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_total_ssl": 4,
+        "electrums_working_ssl": 4,
         "tcp": {},
         "ssl": {
             "blackie.c3-soft.com:52138": [
@@ -3758,6 +3758,14 @@
                 "Passed"
             ],
             "fulcrum.ergon.network:52138": [
+                true,
+                "Passed"
+            ],
+            "la.ask.systems:52138": [
+                true,
+                "Passed"
+            ],
+            "xrg_ful.googol.cash:52138": [
                 true,
                 "Passed"
             ]
