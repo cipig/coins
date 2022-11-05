@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 import os
 import sys
+import time
 import json
 import requests
 from scan_electrums import get_electrums_report
 
+current_time = time.time()
 script_path = os.path.abspath(os.path.dirname(__file__))
 repo_path = script_path.replace("/utils", "")
 os.chdir(script_path)
@@ -287,11 +289,10 @@ class CoinConfig:
             with open(f"../electrums/{coin}", "r") as f:
                 electrums = json.load(f)
                 valid_electrums = []
-
                 for x in ["tcp", "ssl"]:
                     # This also filers ws with tcp/ssl server it is grouped with if valid.
                     for k, v in electrum_scan_report[coin][x].items():
-                        if v[0]:
+                        if current_time - v["last_connection"] < 604800: # 1 week grace period
                             for electrum in electrums:
                                 if electrum["url"] == k:
                                     valid_electrums.append(electrum)
@@ -333,8 +334,9 @@ class CoinConfig:
                     "fallback_swap_contract": contract_data["fallback_swap_contract"]
                 })
             if "rpc_nodes" in contract_data:
+                nodes = [i["url"] for i in contract_data["rpc_nodes"]]
                 self.data[self.ticker].update({
-                    "nodes": contract_data["rpc_nodes"]
+                    "nodes": nodes
                 })
 
     def get_explorers(self):
@@ -404,7 +406,6 @@ def parse_coins_repo():
     print(f"They will not be included in the output")
     for coin in nodata:
         del coins_config[coin]
-
     return coins_config
 
 
