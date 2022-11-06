@@ -1823,7 +1823,7 @@
         "name": "Spice",
         "coinpaprika_id": "spice-spice",
         "coingecko_id": "spice",
-        "nomics_id": "spice-spice",
+        "nomics_id": "SPICE5",
         "explorer_url": "https://simpleledger.info/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "",
@@ -3310,6 +3310,30 @@
         ],
         "forex_id": "CAD"
     },
+    "CADC-OLD": {
+        "coin": "CADC-OLD",
+        "type": "Matic",
+        "name": "CAD Coin (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            "https://node.komodo.live:8080/polygon",
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network",
+            "https://rpc-mainnet.maticvigil.com"
+        ]
+    },
     "CADC-PLG20": {
         "coin": "CADC-PLG20",
         "type": "Matic",
@@ -3325,7 +3349,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57",
+        "contract_address": "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             "https://node.komodo.live:8080/polygon",
@@ -13377,33 +13401,6 @@
         ],
         "token_address_url": "tokentxns?a="
     },
-    "SMART": {
-        "coin": "SMART",
-        "type": "UTXO",
-        "name": "SmartCash",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://smart.tokenview.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum1.smartcash.cc:50001",
-                "contact": [
-                    {
-                        "github": "https://github.com/SmartCash/electrum-smart/issues"
-                    }
-                ]
-            }
-        ]
-    },
     "SMTF-OLD": {
         "coin": "SMTF-OLD",
         "type": "BEP-20",
@@ -16735,6 +16732,30 @@
         ],
         "forex_id": "SGD"
     },
+    "XSGD-OLD": {
+        "coin": "XSGD-OLD",
+        "type": "Matic",
+        "name": "StraitsX Singapore Dollar (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            "https://node.komodo.live:8080/polygon",
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network",
+            "https://rpc-mainnet.maticvigil.com"
+        ]
+    },
     "XSGD-PLG20": {
         "coin": "XSGD-PLG20",
         "type": "Matic",
@@ -16750,7 +16771,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2",
+        "contract_address": "0xDC3326e71D45186F113a2F448984CA0e8D201995",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             "https://node.komodo.live:8080/polygon",
