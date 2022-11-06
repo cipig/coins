@@ -2382,7 +2382,7 @@
         "name": "Spice",
         "coinpaprika_id": "spice-spice",
         "coingecko_id": "spice",
-        "nomics_id": "spice-spice",
+        "nomics_id": "SPICE5",
         "explorer_url": "https://simpleledger.info/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "",
@@ -2394,13 +2394,56 @@
         "slp_prefix": "simpleledger",
         "token_id": "4de69e374a8ed21cbddd47f2338cc0f479dc58daa2bbe11cd604ca488eca0ddf"
     },
+    "FLEXUSD-ERC20": {
+        "coin": "FLEXUSD-ERC20",
+        "type": "ERC-20",
+        "name": "flexUSD",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "flex-usd",
+        "nomics_id": "FLEXUSD",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xa774FFB4AF6B0A91331C084E1aebAE6Ad535e6F3",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ]
+    },
     "FLEXUSD-SLP": {
         "coin": "FLEXUSD-SLP",
         "type": "SLP",
         "name": "FlexUSD",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "flex-usd",
+        "nomics_id": "FLEXUSD",
         "explorer_url": "https://simpleledger.info/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "",
@@ -8285,6 +8328,18 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "electrum3.cipig.net:20054",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             }
         ],
         "is_segwit_on": false,
@@ -12983,9 +13038,6 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
-            },
-            {
-                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
