@@ -585,12 +585,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "electrumx-four.artbyte.live:50013"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -9122,6 +9116,24 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx01.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrum-xzc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx02.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrum-xzc/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx03.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -11774,7 +11786,7 @@
         "coin": "JPYC-AVX20",
         "type": "AVX-20",
         "name": "JPY Coin",
-        "coinpaprika_id": "fetch-ai",
+        "coinpaprika_id": "jpyc-jpy-coin-v2",
         "coingecko_id": "jpy-coin",
         "nomics_id": "JPYC2",
         "explorer_url": "https://cchain.explorer.avax.network/",
@@ -11803,7 +11815,7 @@
         "coin": "JPYC-PLG20",
         "type": "Matic",
         "name": "JPY Coin",
-        "coinpaprika_id": "test-coin",
+        "coinpaprika_id": "jpyc-jpy-coin-v2",
         "coingecko_id": "jpy-coin",
         "nomics_id": "JPYC2",
         "explorer_url": "https://polygonscan.com/",
@@ -12816,6 +12828,22 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx1.lightningcash-coin.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "merlin@lightningcash-coin.com"
+                    },
+                    {
+                        "discord": "merlin#7125"
+                    },
+                    {
+                        "twitter": "LightningCash_1"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx2.lightningcash-coin.com:50001",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -13680,29 +13708,9 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum5.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum5.getlynx.io:50004"
-            },
-            {
-                "url": "electrum6.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum6.getlynx.io:50004"
-            },
-            {
-                "url": "electrum7.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum7.getlynx.io:50004"
-            },
-            {
                 "url": "electrum8.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum8.getlynx.io:50004"
-            },
-            {
-                "url": "electrum9.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum9.getlynx.io:50004"
             }
         ]
     },
@@ -27308,6 +27316,15 @@
         "electrum": [
             {
                 "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
