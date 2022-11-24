@@ -585,12 +585,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "electrumx-four.artbyte.live:50013"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -3988,10 +3982,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "66.172.33.175:50001",
-                "protocol": "TCP"
-            },
             {
                 "url": "bsty-bkp.coinmunity.gold:50012",
                 "protocol": "SSL",
@@ -9122,6 +9112,24 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx01.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrum-xzc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx02.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrum-xzc/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx03.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -11050,6 +11058,38 @@
             }
         ]
     },
+    "ILN": {
+        "coin": "ILN",
+        "type": "Smart Chain",
+        "name": "Ilien",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "ILNPOS",
+        "explorer_url": "https://explorer.ilien.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum2.ilien.io:65011",
+                "contact": [
+                    {
+                        "email": "support@chainmake.rs"
+                    },
+                    {
+                        "discord": "siu - Chainmakers#3920"
+                    }
+                ],
+                "ws_url": "electrum2.ilien.io:30069"
+            }
+        ],
+        "asset": "ILN"
+    },
     "ILN-BEP20": {
         "coin": "ILN-BEP20",
         "type": "BEP-20",
@@ -11774,7 +11814,7 @@
         "coin": "JPYC-AVX20",
         "type": "AVX-20",
         "name": "JPY Coin",
-        "coinpaprika_id": "fetch-ai",
+        "coinpaprika_id": "jpyc-jpy-coin-v2",
         "coingecko_id": "jpy-coin",
         "nomics_id": "JPYC2",
         "explorer_url": "https://cchain.explorer.avax.network/",
@@ -11803,7 +11843,7 @@
         "coin": "JPYC-PLG20",
         "type": "Matic",
         "name": "JPY Coin",
-        "coinpaprika_id": "test-coin",
+        "coinpaprika_id": "jpyc-jpy-coin-v2",
         "coingecko_id": "jpy-coin",
         "nomics_id": "JPYC2",
         "explorer_url": "https://polygonscan.com/",
@@ -12815,6 +12855,22 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrumx1.lightningcash-coin.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "merlin@lightningcash-coin.com"
+                    },
+                    {
+                        "discord": "merlin#7125"
+                    },
+                    {
+                        "twitter": "LightningCash_1"
+                    }
+                ]
+            },
             {
                 "url": "electrumx2.lightningcash-coin.com:50001",
                 "protocol": "SSL",
@@ -27308,6 +27364,15 @@
         "electrum": [
             {
                 "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
