@@ -5370,6 +5370,17 @@
                         "discord": "honglu69#5911"
                     }
                 ]
+            },
+            {
+                "url": "electrum2.mooo.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
             }
         ]
     },
@@ -7148,6 +7159,29 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx1.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    },
+                    {
+                        "twitter": "coin_dimi"
+                    },
+                    {
+                        "reddit": "DiminutiveCoin_DIMI"
+                    },
+                    {
+                        "github": "MadCatMining"
+                    },
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "electrumx1.diminutivecoin.com:50013"
+            },
+            {
                 "url": "electrumx2.diminutivecoin.com:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -7933,16 +7967,10 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum1.egulden.org:50002",
+                "url": "holland.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
-                "ws_url": "electrum1.egulden.org:50004"
-            },
-            {
-                "url": "electrum2.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrum2.egulden.org:50004"
+                "ws_url": "holland.ecoincore.com:11019"
             },
             {
                 "url": "lenoir.ecoincore.com:11017",
@@ -12785,7 +12813,7 @@
         "coin": "LNC",
         "type": "UTXO",
         "name": "LightningCash",
-        "coinpaprika_id": "lnc-lightningcash",
+        "coinpaprika_id": "ltncg-lightning-cash",
         "coingecko_id": "lightningcash-gold",
         "nomics_id": "LNC3",
         "explorer_url": "https://explorer.lightningcash-coin.com/",
@@ -15401,6 +15429,17 @@
             },
             {
                 "url": "electrum1.mooo.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.mooo.com:10001",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -20804,6 +20843,18 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "1.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
                 "url": "2.eu.tokel.electrum.dexstats.info:10077",
                 "contact": [
                     {
@@ -20814,6 +20865,18 @@
                     }
                 ],
                 "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
+                "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
             },
             {
                 "url": "2.eu.tokel.electrum.dexstats.info:11077",
@@ -27748,34 +27811,6 @@
         "address_format": {
             "format": "standard"
         }
-    },
-    "ACTN": {
-        "coin": "ACTN",
-        "type": "Smart Chain",
-        "name": "Action Coin",
-        "coinpaprika_id": "actn-action-coin",
-        "coingecko_id": "action-coin",
-        "nomics_id": "ACTN",
-        "explorer_url": "https://exp.actioncoin.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrumx1.actioncoin.com:10001"
-            },
-            {
-                "url": "electrumx1.actioncoin.com:30001",
-                "ws_url": "electrumx1.actioncoin.com:20001",
-                "protocol": "SSL"
-            }
-        ],
-        "asset": "ACTN"
     },
     "ACTN-BEP20": {
         "coin": "ACTN-BEP20",
