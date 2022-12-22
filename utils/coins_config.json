@@ -15029,6 +15029,9 @@
         "sign_message_prefix": "Monacoin Signed Message:\n",
         "electrum": [
             {
+                "url": "133.167.67.203:50001"
+            },
+            {
                 "url": "electrumx.tamami-foundation.org:50001"
             }
         ],
@@ -23733,6 +23736,11 @@
             },
             {
                 "url": "fulcrum.ergon.network:52138",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "la.ask.systems:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
