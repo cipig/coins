@@ -14243,18 +14243,6 @@
                 "ws_url": "electrum1.cipig.net:30023"
             },
             {
-                "url": "electrum2.cipig.net:10023",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30023"
-            },
-            {
                 "url": "electrum3.cipig.net:10023",
                 "contact": [
                     {
@@ -14268,18 +14256,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20023",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20023",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -15028,6 +15004,9 @@
         "wallet_only": false,
         "sign_message_prefix": "Monacoin Signed Message:\n",
         "electrum": [
+            {
+                "url": "133.167.67.203:50001"
+            },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
             }
@@ -23737,6 +23716,11 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "la.ask.systems:52138",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "xrg_ful.googol.cash:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -27689,6 +27673,18 @@
                 "ws_url": "zombie.sirseven.me:30058"
             },
             {
+                "url": "zombie.sirseven.me:10133",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30059"
+            },
+            {
                 "url": "zombie.sirseven.me:20033",
                 "protocol": "SSL",
                 "contact": [
@@ -27700,6 +27696,19 @@
                     }
                 ],
                 "ws_url": "zombie.sirseven.me:30058"
+            },
+            {
+                "url": "zombie.sirseven.me:20133",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30059"
             }
         ],
         "asset": "ZOMBIE"
