@@ -1485,6 +1485,11 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
+            },
+            {
+                "url": "lenoir.ecoincore.com:12343",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "derivation_path": "m/44'/85'"
@@ -1650,14 +1655,6 @@
         "electrum": [
             {
                 "url": "electrum-eu.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "alamshafil@pm.me"
-                    }
-                ]
-            },
-            {
-                "url": "electrum-us.avn.network:50001",
                 "contact": [
                     {
                         "email": "alamshafil@pm.me"
@@ -5374,11 +5371,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "seattle.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "woolloomooloo.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -5434,11 +5426,6 @@
             },
             {
                 "url": "oakland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
@@ -8491,6 +8478,12 @@
         "currently_enabled": false,
         "wallet_only": false,
         "electrum": [
+            {
+                "url": "electrum3.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrum3.egulden.org:50004"
+            },
             {
                 "url": "holland.ecoincore.com:11017",
                 "protocol": "SSL",
@@ -20556,6 +20549,18 @@
         "sign_message_prefix": "Raven Signed Message:\n",
         "electrum": [
             {
+                "url": "electrum1.cipig.net:10051",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30051"
+            },
+            {
                 "url": "electrum2.cipig.net:10051",
                 "contact": [
                     {
@@ -20580,7 +20585,8 @@
                 "ws_url": "electrum3.cipig.net:30051"
             },
             {
-                "url": "electrum1.cipig.net:10051",
+                "url": "electrum1.cipig.net:20051",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "cipi@komodoplatform.com"
@@ -20588,8 +20594,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30051"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:20051",
@@ -20605,18 +20610,6 @@
             },
             {
                 "url": "electrum3.cipig.net:20051",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.cipig.net:20051",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -22760,6 +22753,14 @@
         "wallet_only": false,
         "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
+            {
+                "url": "1.eu.thc.electrum.dexstats.info:10020",
+                "contact": [
+                    {
+                        "discord": "CHMEX#0686"
+                    }
+                ]
+            },
             {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
                 "contact": [
@@ -25810,11 +25811,6 @@
             },
             {
                 "url": "xrg_ful.googol.cash:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "la.ask.systems:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
