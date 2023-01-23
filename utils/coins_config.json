@@ -9772,7 +9772,7 @@
         "name": "Filecoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "nomics_id": "",
+        "nomics_id": "FIL",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -10731,7 +10731,7 @@
         "name": "Frax Share",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "nomics_id": "",
+        "nomics_id": "FXS",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -10794,7 +10794,7 @@
         "name": "Frax Share",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "nomics_id": "",
+        "nomics_id": "FXS",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -10830,7 +10830,7 @@
         "name": "Frax Share",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "nomics_id": "",
+        "nomics_id": "FXS",
         "explorer_url": "https://cchain.explorer.avax.network/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -10859,7 +10859,7 @@
         "name": "Frax Share",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "nomics_id": "",
+        "nomics_id": "FXS",
         "explorer_url": "https://moonriver.moonscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -10887,7 +10887,7 @@
         "name": "Frax Share",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "nomics_id": "",
+        "nomics_id": "FXS",
         "explorer_url": "https://ftmscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -15642,7 +15642,7 @@
         "name": "Mask Network",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "nomics_id": "",
+        "nomics_id": "MASK2",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -15750,7 +15750,7 @@
         "name": "Mask Network",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "nomics_id": "",
+        "nomics_id": "MASK2",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -25242,7 +25242,7 @@
         "name": "USDD",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "nomics_id": "",
+        "nomics_id": "USDD2",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -26433,7 +26433,7 @@
         "name": "Wrapped Bitcoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "nomics_id": "",
+        "nomics_id": "WBTC",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -27029,7 +27029,7 @@
         "name": "XRP",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "nomics_id": "",
+        "nomics_id": "XRP",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -30813,6 +30813,15 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
+                "url": "tbch.loping.net:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
                 "url": "testnet.bitcoincash.network:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -31187,6 +31196,18 @@
                 "ws_url": "zombie.sirseven.me:30058"
             },
             {
+                "url": "zombie.sirseven.me:10133",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30059"
+            },
+            {
                 "url": "zombie.sirseven.me:20033",
                 "protocol": "SSL",
                 "contact": [
@@ -31198,6 +31219,19 @@
                     }
                 ],
                 "ws_url": "zombie.sirseven.me:30058"
+            },
+            {
+                "url": "zombie.sirseven.me:20133",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30059"
             }
         ],
         "asset": "ZOMBIE"
