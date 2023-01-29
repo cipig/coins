@@ -11379,7 +11379,7 @@
             {
                 "url": "electrum11.groestlcoin.org:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
+                "disable_cert_verification": false,
                 "ws_url": "electrum11.groestlcoin.org:50004",
                 "contact": [
                     {
@@ -11465,7 +11465,7 @@
             {
                 "url": "electrum11.groestlcoin.org:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
+                "disable_cert_verification": false,
                 "ws_url": "electrum11.groestlcoin.org:50004",
                 "contact": [
                     {
@@ -24133,6 +24133,18 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
+                "url": "1.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
                 "url": "2.eu.tokel.electrum.dexstats.info:10077",
                 "contact": [
                     {
@@ -24143,6 +24155,18 @@
                     }
                 ],
                 "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
+                "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
             },
             {
                 "url": "2.eu.tokel.electrum.dexstats.info:11077",
