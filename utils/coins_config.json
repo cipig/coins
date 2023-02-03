@@ -588,6 +588,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "electrumx-four.artbyte.live:50013"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -19616,45 +19622,6 @@
             "homepage": "https://peercoin.net"
         }
     },
-    "PPC-segwit": {
-        "coin": "PPC-segwit",
-        "type": "UTXO",
-        "name": "Peercoin",
-        "coinpaprika_id": "ppc-peercoin",
-        "coingecko_id": "peercoin",
-        "nomics_id": "PPC",
-        "explorer_url": "https://chainz.cryptoid.info/ppc/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "allingas.peercoinexplorer.net:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "allingas.peercoinexplorer.net:50004"
-            },
-            {
-                "url": "electrum.peercoinexplorer.net:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrum.peercoinexplorer.net:50004"
-            }
-        ],
-        "address_format": {
-            "format": "segwit"
-        },
-        "derivation_path": "m/44'/6'",
-        "trezor_coin": "Peercoin",
-        "links": {
-            "github": "https://github.com/peercoin/peercoin",
-            "homepage": "https://peercoin.net"
-        }
-    },
     "PPC-ERC20": {
         "coin": "PPC-ERC20",
         "type": "ERC-20",
@@ -26419,14 +26386,6 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
-                "url": "electrumx1.vaporumcoin.us:50001",
-                "contact": [
-                    {
-                        "github": "VaporumCoin"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.vaporumcoin.us:50001",
                 "contact": [
                     {
@@ -27132,11 +27091,6 @@
         "currently_enabled": false,
         "wallet_only": false,
         "electrum": [
-            {
-                "url": "blackie.c3-soft.com:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
             {
                 "url": "fulcrum.ergon.network:52138",
                 "protocol": "SSL",
