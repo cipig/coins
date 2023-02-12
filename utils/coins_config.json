@@ -576,12 +576,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "electrumx-four.artbyte.live:50013"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -3232,6 +3226,34 @@
         "token_address_url": "tokentxns?a=",
         "forex_id": "IDR",
         "derivation_path": "m/44'/714'"
+    },
+    "BITN": {
+        "coin": "BITN",
+        "type": "UTXO",
+        "name": "Bitnet",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "http://bitexplorer.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitnet Signed Message:\n",
+        "electrum": [
+            {
+                "url": "bitexplorer.io:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "c4pt#7855"
+                    }
+                ]
+            }
+        ]
     },
     "BLK": {
         "coin": "BLK",
