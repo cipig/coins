@@ -3272,6 +3272,34 @@
         "forex_id": "IDR",
         "derivation_path": "m/44'/714'"
     },
+    "BITN": {
+        "coin": "BITN",
+        "type": "UTXO",
+        "name": "Bitnet",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "http://bitexplorer.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitnet Signed Message:\n",
+        "electrum": [
+            {
+                "url": "bitexplorer.io:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "c4pt#7855"
+                    }
+                ]
+            }
+        ]
+    },
     "BLK": {
         "coin": "BLK",
         "type": "UTXO",
@@ -4437,6 +4465,101 @@
         ],
         "token_address_url": "tokentxns?a=",
         "derivation_path": "m/44'/714'"
+    },
+    "BTE": {
+        "coin": "BTE",
+        "type": "UTXO",
+        "name": "Bitweb",
+        "coinpaprika_id": "bte-bitweb",
+        "coingecko_id": "bitweb",
+        "nomics_id": "BTE3",
+        "explorer_url": "https://explorer.bitwebcore.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrumx6.scalaris.info:20001",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx7.scalaris.info:20001",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            }
+        ]
+    },
+    "BTE-segwit": {
+        "coin": "BTE-segwit",
+        "type": "UTXO",
+        "name": "Bitweb",
+        "coinpaprika_id": "bte-bitweb",
+        "coingecko_id": "bitweb",
+        "nomics_id": "BTE3",
+        "explorer_url": "https://explorer.bitwebcore.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrumx6.scalaris.info:20001",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx7.scalaris.info:20001",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            }
+        ],
+        "address_format": {
+            "format": "segwit"
+        }
     },
     "BTT-BEP20": {
         "coin": "BTT-BEP20",
@@ -13755,6 +13878,39 @@
         "forex_id": "GBP",
         "derivation_path": "m/44'/966'"
     },
+    "JGOLD-PLG20": {
+        "coin": "JGOLD-PLG20",
+        "type": "Matic",
+        "name": "Jarvis Gold",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x192Ef3FFF1708456D3A1F21354FA8d6bFd86b45c",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "XAU",
+        "derivation_path": "m/44'/966'"
+    },
     "JJPY-PLG20": {
         "coin": "JJPY-PLG20",
         "type": "Matic",
@@ -14208,6 +14364,39 @@
             }
         ],
         "forex_id": "TRY",
+        "derivation_path": "m/44'/966'"
+    },
+    "JUSD-PLG20": {
+        "coin": "JUSD-PLG20",
+        "type": "Matic",
+        "name": "Jarvis United States Dollar",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xc948EE9a0687C292ac4d8C1e2557aD652D6baf44",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "USD",
         "derivation_path": "m/44'/966'"
     },
     "JST-BEP20": {
@@ -20152,40 +20341,6 @@
             }
         ],
         "derivation_path": "m/44'/966'"
-    },
-    "PRUX": {
-        "coin": "PRUX",
-        "type": "UTXO",
-        "name": "PRUX",
-        "coinpaprika_id": "prux-prux-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "PRUX",
-        "explorer_url": "https://explorer.prux.info/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP"
-            },
-            {
-                "url": "txserver.live:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "txserver.live:50002",
-                "protocol": "SSL"
-            }
-        ]
     },
     "SHIB-BEP20": {
         "coin": "SHIB-BEP20",
@@ -26807,60 +26962,6 @@
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo"
     },
-    "GRMS": {
-        "coin": "GRMS",
-        "type": "Smart Chain",
-        "name": "GRMS",
-        "coinpaprika_id": "grms-grms",
-        "coingecko_id": "test-coin",
-        "nomics_id": "GRMS",
-        "explorer_url": "https://explorer.grms.pw/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "electrum": [
-            {
-                "url": "electrum.grms.pw:17485",
-                "contact": [
-                    {
-                        "github": "Miner113"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.grms.pw:17485",
-                "contact": [
-                    {
-                        "github": "Miner113"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.grms.pw:17485",
-                "contact": [
-                    {
-                        "github": "Miner113"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.grms.pw:17485",
-                "contact": [
-                    {
-                        "github": "Miner113"
-                    }
-                ]
-            }
-        ],
-        "asset": "GRMS",
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo"
-    },
     "VPRM": {
         "coin": "VPRM",
         "type": "Smart Chain",
@@ -26880,6 +26981,14 @@
         "electrum": [
             {
                 "url": "electrumx1.vaporumcoin.us:50001",
+                "contact": [
+                    {
+                        "github": "VaporumCoin"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.vaporumcoin.us:50001",
                 "contact": [
                     {
                         "github": "VaporumCoin"
@@ -27692,6 +27801,11 @@
         "currently_enabled": false,
         "wallet_only": false,
         "electrum": [
+            {
+                "url": "blackie.c3-soft.com:52138",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
             {
                 "url": "fulcrum.ergon.network:52138",
                 "protocol": "SSL",
@@ -31551,6 +31665,47 @@
             "format": "cashaddress",
             "network": "bchtest"
         }
+    },
+    "USBL": {
+        "coin": "USBL",
+        "type": "UTXO",
+        "name": "Balanced Dollar",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "USBL",
+        "explorer_url": "https://softbalanced.com:3001/insight/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "swap.softbalanced.com:50001",
+                "contact": [
+                    {
+                        "email": "dev@softbalanced.com"
+                    },
+                    {
+                        "discord": "softbalanced#4045"
+                    }
+                ]
+            },
+            {
+                "url": "swap.softbalanced.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "dev@softbalanced.com"
+                    },
+                    {
+                        "discord": "softbalanced#4045"
+                    }
+                ]
+            }
+        ]
     },
     "USDF": {
         "coin": "USDF",
