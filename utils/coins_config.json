@@ -8593,12 +8593,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "holland.ecoincore.com:11019"
-            },
-            {
-                "url": "lenoir.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ],
         "derivation_path": "m/44'/78'"
@@ -11481,18 +11475,6 @@
         "sign_message_prefix": "GroestCoin Signed Message:\n",
         "electrum": [
             {
-                "url": "electrum10.groestlcoin.org:50001",
-                "ws_url": "electrum10.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum12.groestlcoin.org:50001",
                 "ws_url": "electrum12.groestlcoin.org:50004",
                 "contact": [
@@ -11566,18 +11548,6 @@
         "currently_enabled": false,
         "wallet_only": false,
         "electrum": [
-            {
-                "url": "electrum10.groestlcoin.org:50001",
-                "ws_url": "electrum10.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
             {
                 "url": "electrum12.groestlcoin.org:50001",
                 "ws_url": "electrum12.groestlcoin.org:50004",
@@ -18090,50 +18060,6 @@
         ],
         "token_address_url": "tokentxns?a="
     },
-    "NATURE": {
-        "coin": "NATURE",
-        "type": "Smart Chain",
-        "name": "Nature Digital Currency",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://explorer.gf4n.xyz/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "electrum": [
-            {
-                "url": "electrum1.gf4n.xyz:10002",
-                "contact": [
-                    {
-                        "email": "admin@gf4n.xyz"
-                    },
-                    {
-                        "discord": "Aniquel#1721"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.gf4n.xyz:10002",
-                "contact": [
-                    {
-                        "email": "admin@gf4n.xyz"
-                    },
-                    {
-                        "discord": "Aniquel#1721"
-                    }
-                ]
-            }
-        ],
-        "asset": "NATURE",
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo"
-    },
     "NAV": {
         "coin": "NAV",
         "type": "UTXO",
@@ -22330,64 +22256,6 @@
         "token_address_url": "tokentxns?a=",
         "derivation_path": "m/44'/714'"
     },
-    "SIX": {
-        "coin": "SIX",
-        "type": "Smart Chain",
-        "name": "End Time Currency",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://explorer.sixcoin.site/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "electrum": [
-            {
-                "url": "electrum1.sixcoin.site:10001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "admin@sixcoin.site"
-                    },
-                    {
-                        "discord": "Aniquel#1721"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.sixcoin.site:10001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "admin@godstabernacle.xyz"
-                    },
-                    {
-                        "discord": "Aniquel#1721"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.sixcoin.site:10001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "ebarimjesus1@gmail.com"
-                    },
-                    {
-                        "discord": "Aniquel#1721"
-                    }
-                ]
-            }
-        ],
-        "asset": "SIX",
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo"
-    },
     "SMTF-v2": {
         "coin": "SMTF-v2",
         "type": "BEP-20",
@@ -24514,6 +24382,51 @@
         ],
         "derivation_path": "m/44'/83'"
     },
+    "TRX-BEP20_OLD": {
+        "coin": "TRX-BEP20_OLD",
+        "type": "BEP-20",
+        "name": "TRON (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "derivation_path": "m/44'/714'"
+    },
     "TRX-BEP20": {
         "coin": "TRX-BEP20",
         "type": "BEP-20",
@@ -24529,7 +24442,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
+        "contract_address": "0xCE7de646e7208a4Ef112cb6ed5038FA6cC6b12e3",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
