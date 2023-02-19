@@ -33,9 +33,5 @@ jobs:
             - Electrum scan report updated
           labels: |
             config-update
-          assignees: cipig
           reviewers: cipig
-          team-reviewers: |
-            owners
-            maintainers
           draft: false
