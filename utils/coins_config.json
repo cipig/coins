@@ -4356,15 +4356,6 @@
         "sign_message_prefix": "BitcoinZ Signed Message:\n",
         "electrum": [
             {
-                "url": "electrum1.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "ws_url": "electrum1.btcz.rocks:50004"
-            },
-            {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
                     {
@@ -8582,12 +8573,6 @@
         "currently_enabled": false,
         "wallet_only": false,
         "electrum": [
-            {
-                "url": "electrum3.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrum3.egulden.org:50004"
-            },
             {
                 "url": "holland.ecoincore.com:11017",
                 "protocol": "SSL",
@@ -18818,6 +18803,40 @@
         "forex_id": "NZD",
         "derivation_path": "m/44'/966'"
     },
+    "NYAN": {
+        "coin": "NYAN",
+        "type": "UTXO",
+        "name": "Nyancoin",
+        "coinpaprika_id": "nyan-nyancoin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "NYAN",
+        "explorer_url": "https://www.nyanchain.com/",
+        "explorer_tx_url": "tx.nyan?",
+        "explorer_address_url": "ad.nyan?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrumx.live:50020",
+                "protocol": "TCP"
+            },
+            {
+                "url": "txserver.live:50020",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50022",
+                "protocol": "SSL"
+            },
+            {
+                "url": "txserver.live:50022",
+                "protocol": "SSL"
+            }
+        ]
+    },
     "OCEAN-BEP20": {
         "coin": "OCEAN-BEP20",
         "type": "BEP-20",
@@ -20036,6 +20055,40 @@
             }
         ],
         "derivation_path": "m/44'/966'"
+    },
+    "PRUX": {
+        "coin": "PRUX",
+        "type": "UTXO",
+        "name": "PRUX",
+        "coinpaprika_id": "prux-prux-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "PRUX",
+        "explorer_url": "https://explorer.prux.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
+                "url": "txserver.live:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "txserver.live:50002",
+                "protocol": "SSL"
+            }
+        ]
     },
     "SHIB-BEP20": {
         "coin": "SHIB-BEP20",
