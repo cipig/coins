@@ -14227,6 +14227,100 @@
             "homepage": "https://kcc.io"
         }
     },
+    "KIP0001": {
+        "coin": "KIP0001",
+        "type": "Smart Chain",
+        "name": "KIP0001",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "http://116.203.120.163:8090/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10014",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:10014",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:10014",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.cipig.net:20014",
+                "protocol": "SSL",
+                "ws_url": "electrum1.cipig.net:30014",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20014",
+                "protocol": "SSL",
+                "ws_url": "electrum2.cipig.net:30014",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20014",
+                "protocol": "SSL",
+                "ws_url": "electrum3.cipig.net:30014",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "asset": "KIP0001",
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
+    },
     "KMD": {
         "coin": "KMD",
         "type": "Smart Chain",
