@@ -1,4 +1,4 @@
-name: Update Coin Configs
+name: Update Coin Configs and create 128x128 images in icons dir
 
 on:
   push:
@@ -16,6 +16,10 @@ jobs:
         shell: bash
         run:  ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
 
+      - name: Create 128x128 images in icons dir 
+        shell: bash
+        run:  ${GITHUB_WORKSPACE}/utils/icons_resize.sh
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
@@ -31,9 +35,5 @@ jobs:
             - Electrum scan report updated
           labels: |
             config-update
-          assignees: cipig
           reviewers: cipig
-          team-reviewers: |
-            owners
-            maintainers
           draft: false
