@@ -12475,6 +12475,18 @@
                     }
                 ],
                 "ws_url": "electrum1.ilien.io:30069"
+            },
+            {
+                "url": "electrum2.ilien.io:65011",
+                "contact": [
+                    {
+                        "email": "admin@ilien.io"
+                    },
+                    {
+                        "discord": "siu - Chainmakers#3920"
+                    }
+                ],
+                "ws_url": "electrum2.ilien.io:30069"
             }
         ],
         "asset": "ILN",
@@ -16081,6 +16093,11 @@
                 "url": "electrum8.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum8.getlynx.io:50004"
+            },
+            {
+                "url": "electrum9.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum9.getlynx.io:50004"
             }
         ]
     },
@@ -27415,6 +27432,11 @@
             },
             {
                 "url": "fulcrum.ergon.network:52138",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "la.ask.systems:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
