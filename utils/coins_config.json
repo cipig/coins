@@ -546,6 +546,12 @@
                 "ws_url": "elec-seeder-one.artbytecoin.org:50013"
             },
             {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "elec-seeder-two.artbytecoin.org:50013"
+            },
+            {
                 "url": "electrumx-four.artbyte.live:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -4779,6 +4785,79 @@
             }
         ],
         "derivation_path": "m/44'/966'"
+    },
+    "BTX": {
+        "coin": "BTX",
+        "type": "UTXO",
+        "name": "BitCore",
+        "coinpaprika_id": "btx-bitcore",
+        "coingecko_id": "bitcore",
+        "nomics_id": "BTX",
+        "explorer_url": "https://chainz.cryptoid.info/btx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "btx-electrumx.coinsmunity.com:50003"
+            }
+        ],
+        "derivation_path": "m/44'/160'",
+        "trezor_coin": "Bitcore",
+        "links": {
+            "github": "https://github.com/LIMXTEC/BitCore",
+            "homepage": "https://bitcore.cc"
+        }
+    },
+    "BTX-segwit": {
+        "coin": "BTX-segwit",
+        "type": "UTXO",
+        "name": "BitCore",
+        "coinpaprika_id": "btx-bitcore",
+        "coingecko_id": "bitcore",
+        "nomics_id": "BTX",
+        "explorer_url": "https://chainz.cryptoid.info/btx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "btx-electrumx.coinsmunity.com:50003"
+            }
+        ],
+        "address_format": {
+            "format": "segwit"
+        },
+        "derivation_path": "m/44'/160'",
+        "trezor_coin": "Bitcore",
+        "links": {
+            "github": "https://github.com/LIMXTEC/BitCore",
+            "homepage": "https://bitcore.cc"
+        }
     },
     "BTX-BEP20": {
         "coin": "BTX-BEP20",
