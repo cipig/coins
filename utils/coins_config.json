@@ -16583,11 +16583,6 @@
                 "ws_url": "electrum6.getlynx.io:50004"
             },
             {
-                "url": "electrum7.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum7.getlynx.io:50004"
-            },
-            {
                 "url": "electrum8.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum8.getlynx.io:50004"
@@ -18509,11 +18504,6 @@
                 "ws_url": "electrum2.nav.community:40004"
             },
             {
-                "url": "electrum3.nav.community:40002",
-                "protocol": "SSL",
-                "ws_url": "electrum3.nav.community:40004"
-            },
-            {
                 "url": "electrum4.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum4.nav.community:40004"
@@ -20026,7 +20016,8 @@
         "electrum": [
             {
                 "url": "electrum.thepandacoin.net:50002",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "electrum.thepandacoin.net:443"
             }
         ],
         "derivation_path": "m/44'/37'"
@@ -20049,7 +20040,8 @@
         "electrum": [
             {
                 "url": "electrum.thepandacoin.net:50002",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "electrum.thepandacoin.net:443"
             }
         ],
         "address_format": {
