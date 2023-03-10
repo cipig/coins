@@ -578,6 +578,12 @@
                 "ws_url": "elec-seeder-one.artbytecoin.org:50013"
             },
             {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "elec-seeder-two.artbytecoin.org:50013"
+            },
+            {
                 "url": "electrumx-four.artbyte.live:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -1578,11 +1584,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
-            },
-            {
-                "url": "lenoir.ecoincore.com:12343",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ],
         "derivation_path": "m/44'/85'"
@@ -4910,6 +4911,79 @@
             }
         ],
         "derivation_path": "m/44'/966'"
+    },
+    "BTX": {
+        "coin": "BTX",
+        "type": "UTXO",
+        "name": "BitCore",
+        "coinpaprika_id": "btx-bitcore",
+        "coingecko_id": "test-coin",
+        "nomics_id": "BTX",
+        "explorer_url": "https://chainz.cryptoid.info/btx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "btx-electrumx.coinsmunity.com:50003"
+            }
+        ],
+        "derivation_path": "m/44'/160'",
+        "trezor_coin": "Bitcore",
+        "links": {
+            "github": "https://github.com/LIMXTEC/BitCore",
+            "homepage": "https://bitcore.cc"
+        }
+    },
+    "BTX-segwit": {
+        "coin": "BTX-segwit",
+        "type": "UTXO",
+        "name": "BitCore",
+        "coinpaprika_id": "btx-bitcore",
+        "coingecko_id": "test-coin",
+        "nomics_id": "BTX",
+        "explorer_url": "https://chainz.cryptoid.info/btx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "btx-electrumx.coinsmunity.com:50003"
+            }
+        ],
+        "address_format": {
+            "format": "segwit"
+        },
+        "derivation_path": "m/44'/160'",
+        "trezor_coin": "Bitcore",
+        "links": {
+            "github": "https://github.com/LIMXTEC/BitCore",
+            "homepage": "https://bitcore.cc"
+        }
     },
     "BTX-BEP20": {
         "coin": "BTX-BEP20",
@@ -18504,6 +18578,11 @@
                 "ws_url": "electrum2.nav.community:40004"
             },
             {
+                "url": "electrum3.nav.community:40002",
+                "protocol": "SSL",
+                "ws_url": "electrum3.nav.community:40004"
+            },
+            {
                 "url": "electrum4.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum4.nav.community:40004"
@@ -19234,40 +19313,6 @@
         ],
         "forex_id": "NZD",
         "derivation_path": "m/44'/966'"
-    },
-    "NYAN": {
-        "coin": "NYAN",
-        "type": "UTXO",
-        "name": "Nyancoin",
-        "coinpaprika_id": "nyan-nyancoin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "NYAN",
-        "explorer_url": "https://www.nyanchain.com/",
-        "explorer_tx_url": "tx.nyan?",
-        "explorer_address_url": "ad.nyan?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "electrumx.live:50020",
-                "protocol": "TCP"
-            },
-            {
-                "url": "txserver.live:50020",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50022",
-                "protocol": "SSL"
-            },
-            {
-                "url": "txserver.live:50022",
-                "protocol": "SSL"
-            }
-        ]
     },
     "OCEAN-BEP20": {
         "coin": "OCEAN-BEP20",
@@ -21895,6 +21940,101 @@
         "links": {
             "homepage": "https://augur.net"
         }
+    },
+    "REQ-ERC20": {
+        "coin": "REQ-ERC20",
+        "type": "ERC-20",
+        "name": "Request",
+        "coinpaprika_id": "req-request-network",
+        "coingecko_id": "request-network",
+        "nomics_id": "REQ",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x8f8221aFbB33998d8584A2B05749bA73c37a938a",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "derivation_path": "m/44'/60'"
+    },
+    "REQ-PLG20": {
+        "coin": "REQ-PLG20",
+        "type": "Matic",
+        "name": "Request",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "REQ",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xB25e20De2F2eBb4CfFD4D16a55C7B395e8a94762",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "derivation_path": "m/44'/966'"
     },
     "REVS": {
         "coin": "REVS",
