@@ -19953,27 +19953,8 @@
         "wallet_only": false,
         "electrum": [
             {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL",
-                "ws_url": "electrumx.live:30010",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -29057,11 +29038,6 @@
         "currently_enabled": false,
         "wallet_only": false,
         "electrum": [
-            {
-                "url": "electrumx2.runonflux.io:50001",
-                "protocol": "TCP",
-                "ws_url": "electrumx2.runonflux.io:50004"
-            },
             {
                 "url": "electrumx.runonflux.io:50002",
                 "protocol": "SSL",
