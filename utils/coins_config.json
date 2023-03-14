@@ -3286,7 +3286,7 @@
         "coin": "BITN",
         "type": "UTXO",
         "name": "Bitnet",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "bit-bitnet",
         "coingecko_id": "",
         "nomics_id": "",
         "explorer_url": "http://bitexplorer.io/",
@@ -8579,12 +8579,6 @@
                 "ws_url": "electrum3.egulden.org:50004"
             },
             {
-                "url": "holland.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "holland.ecoincore.com:11019"
-            },
-            {
                 "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -9912,11 +9906,20 @@
         "sign_message_prefix": "Firo Signed Message:\n",
         "electrum": [
             {
+                "url": "electrumx.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx01.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "github": "https://github.com/firoorg/electrum-xzc/issues"
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ]
             },
@@ -9925,7 +9928,7 @@
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "github": "https://github.com/firoorg/electrum-xzc/issues"
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ]
             },
@@ -9934,7 +9937,16 @@
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "github": "https://github.com/firoorg/electrum-xzc/issues"
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx05.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ]
             }
@@ -19962,28 +19974,9 @@
                 ]
             },
             {
-                "url": "txserver.live:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.live:50012",
                 "protocol": "SSL",
                 "ws_url": "electrumx.live:30010",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
-                "url": "txserver.live:50002",
-                "protocol": "SSL",
-                "ws_url": "txserver.live:30001",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -27867,28 +27860,6 @@
         "token_address_url": "tokentxns?a=",
         "derivation_path": "m/44'/714'"
     },
-    "XVC-OLD": {
-        "coin": "XVC-OLD",
-        "type": "UTXO",
-        "name": "VanillaCash (old)",
-        "coinpaprika_id": "xvc-vcash",
-        "coingecko_id": "vcash",
-        "nomics_id": "XVC",
-        "explorer_url": "https://xvc.freicoin.info/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "electrum": [
-            {
-                "url": "failover.xvc.ewmcx.biz:50001",
-                "protocol": "TCP"
-            }
-        ]
-    },
     "XVC": {
         "coin": "XVC",
         "type": "UTXO",
@@ -31413,7 +31384,7 @@
         "coinpaprika_id": "ufo-uniform-fiscal-object",
         "coingecko_id": "ufocoin",
         "nomics_id": "UFO",
-        "explorer_url": "https://explorer.ufobject.com/",
+        "explorer_url": "https://chainz.cryptoid.info/ufo/",
         "explorer_tx_url": "tx.dws?",
         "explorer_address_url": "address.dws?",
         "supported": [],
@@ -31424,7 +31395,7 @@
         "sign_message_prefix": "UFO Signed Message:\n",
         "electrum": [
             {
-                "url": "seed1.ufocoin.net:55002",
+                "url": "electrumx1.ufobject.com:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -31433,7 +31404,52 @@
                 ]
             },
             {
-                "url": "seed2.ufocoin.net:55002",
+                "url": "electrumx2.ufobject.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.ufobject.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx4.ufobject.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx5.ufobject.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            },
+            {
+                "url": "seed1.ufocoin.net:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            },
+            {
+                "url": "seed2.ufocoin.net:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -31455,7 +31471,7 @@
         "coinpaprika_id": "ufo-uniform-fiscal-object",
         "coingecko_id": "ufocoin",
         "nomics_id": "UFO",
-        "explorer_url": "https://explorer.ufobject.com/",
+        "explorer_url": "https://chainz.cryptoid.info/ufo/",
         "explorer_tx_url": "tx.dws?",
         "explorer_address_url": "address.dws?",
         "supported": [],
@@ -31465,7 +31481,7 @@
         "wallet_only": false,
         "electrum": [
             {
-                "url": "seed1.ufocoin.net:55002",
+                "url": "electrumx1.ufobject.com:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -31474,7 +31490,52 @@
                 ]
             },
             {
-                "url": "seed2.ufocoin.net:55002",
+                "url": "electrumx2.ufobject.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.ufobject.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx4.ufobject.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx5.ufobject.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            },
+            {
+                "url": "seed1.ufocoin.net:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            },
+            {
+                "url": "seed2.ufocoin.net:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
