@@ -11430,6 +11430,31 @@
         ],
         "derivation_path": "m/44'/966'"
     },
+    "GNS-PLG20": {
+        "coin": "GNS-PLG20",
+        "type": "Matic",
+        "name": "Gains Network",
+        "coinpaprika_id": "gns-gains-network",
+        "coingecko_id": "gains-network",
+        "nomics_id": "GNS3",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xE5417Af564e4bFDA1c483642db72007871397896",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            }
+        ],
+        "derivation_path": "m/44'/966'"
+    },
     "GRS": {
         "coin": "GRS",
         "type": "UTXO",
