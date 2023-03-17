@@ -1513,6 +1513,11 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
+            },
+            {
+                "url": "lenoir.ecoincore.com:12343",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "derivation_path": "m/44'/85'"
@@ -4780,79 +4785,6 @@
             }
         ],
         "derivation_path": "m/44'/966'"
-    },
-    "BTX": {
-        "coin": "BTX",
-        "type": "UTXO",
-        "name": "BitCore",
-        "coinpaprika_id": "btx-bitcore",
-        "coingecko_id": "bitcore",
-        "nomics_id": "BTX",
-        "explorer_url": "https://chainz.cryptoid.info/btx/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "btx-electrumx.coinsmunity.com:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ],
-                "ws_url": "btx-electrumx.coinsmunity.com:50003"
-            }
-        ],
-        "derivation_path": "m/44'/160'",
-        "trezor_coin": "Bitcore",
-        "links": {
-            "github": "https://github.com/LIMXTEC/BitCore",
-            "homepage": "https://bitcore.cc"
-        }
-    },
-    "BTX-segwit": {
-        "coin": "BTX-segwit",
-        "type": "UTXO",
-        "name": "BitCore",
-        "coinpaprika_id": "btx-bitcore",
-        "coingecko_id": "bitcore",
-        "nomics_id": "BTX",
-        "explorer_url": "https://chainz.cryptoid.info/btx/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "btx-electrumx.coinsmunity.com:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ],
-                "ws_url": "btx-electrumx.coinsmunity.com:50003"
-            }
-        ],
-        "address_format": {
-            "format": "segwit"
-        },
-        "derivation_path": "m/44'/160'",
-        "trezor_coin": "Bitcore",
-        "links": {
-            "github": "https://github.com/LIMXTEC/BitCore",
-            "homepage": "https://bitcore.cc"
-        }
     },
     "BTX-BEP20": {
         "coin": "BTX-BEP20",
@@ -8577,6 +8509,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum3.egulden.org:50004"
+            },
+            {
+                "url": "holland.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "holland.ecoincore.com:11019"
             },
             {
                 "url": "lenoir.ecoincore.com:11017",
@@ -19974,9 +19912,28 @@
                 ]
             },
             {
+                "url": "txserver.live:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.live:50012",
                 "protocol": "SSL",
                 "ws_url": "electrumx.live:30010",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "txserver.live:50002",
+                "protocol": "SSL",
+                "ws_url": "txserver.live:30001",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -26707,7 +26664,10 @@
         "sign_message_prefix": "Vertcoin Signed Message:\n",
         "electrum": [
             {
-                "url": "electrumx.javerity.com:5885"
+                "url": "vtc-cce-1.coinomi.net:5028"
+            },
+            {
+                "url": "vtc-cce-2.coinomi.net:5028"
             }
         ],
         "derivation_path": "m/44'/28'",
@@ -26734,7 +26694,10 @@
         "wallet_only": false,
         "electrum": [
             {
-                "url": "electrumx.javerity.com:5885"
+                "url": "vtc-cce-1.coinomi.net:5028"
+            },
+            {
+                "url": "vtc-cce-2.coinomi.net:5028"
             }
         ],
         "address_format": {
