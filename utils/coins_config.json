@@ -4785,6 +4785,79 @@
         ],
         "derivation_path": "m/44'/966'"
     },
+    "BTX": {
+        "coin": "BTX",
+        "type": "UTXO",
+        "name": "BitCore",
+        "coinpaprika_id": "btx-bitcore",
+        "coingecko_id": "test-coin",
+        "nomics_id": "BTX",
+        "explorer_url": "https://chainz.cryptoid.info/btx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "btx-electrumx.coinsmunity.com:50003"
+            }
+        ],
+        "derivation_path": "m/44'/160'",
+        "trezor_coin": "Bitcore",
+        "links": {
+            "github": "https://github.com/LIMXTEC/BitCore",
+            "homepage": "https://bitcore.cc"
+        }
+    },
+    "BTX-segwit": {
+        "coin": "BTX-segwit",
+        "type": "UTXO",
+        "name": "BitCore",
+        "coinpaprika_id": "btx-bitcore",
+        "coingecko_id": "test-coin",
+        "nomics_id": "BTX",
+        "explorer_url": "https://chainz.cryptoid.info/btx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "btx-electrumx.coinsmunity.com:50003"
+            }
+        ],
+        "address_format": {
+            "format": "segwit"
+        },
+        "derivation_path": "m/44'/160'",
+        "trezor_coin": "Bitcore",
+        "links": {
+            "github": "https://github.com/LIMXTEC/BitCore",
+            "homepage": "https://bitcore.cc"
+        }
+    },
     "BTX-BEP20": {
         "coin": "BTX-BEP20",
         "type": "BEP-20",
@@ -5713,6 +5786,51 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             }
         ]
+    },
+    "CFX-BEP20": {
+        "coin": "CFX-BEP20",
+        "type": "BEP-20",
+        "name": "Conflux",
+        "coinpaprika_id": "cfx-conflux-network",
+        "coingecko_id": "conflux-token",
+        "nomics_id": "CFX2",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x045c4324039dA91c52C55DF5D785385Aab073DcF",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "derivation_path": "m/44'/714'"
     },
     "CHTA": {
         "coin": "CHTA",
@@ -24739,6 +24857,60 @@
             "homepage": "https://www.trusttoken.com"
         }
     },
+    "TUSD-AVX20": {
+        "coin": "TUSD-AVX20",
+        "type": "AVX-20",
+        "name": "TrueUSD",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "TUSD",
+        "explorer_url": "https://cchain.explorer.avax.network/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB",
+        "parent_coin": "AVAX",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/avalanche",
+                "gui_auth": true
+            },
+            {
+                "url": "https://api.avax.network/ext/bc/C/rpc"
+            }
+        ],
+        "derivation_path": "m/44'/9000'"
+    },
+    "TUSD-FTM20": {
+        "coin": "TUSD-FTM20",
+        "type": "FTM-20",
+        "name": "TrueUSD",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "TUSD",
+        "explorer_url": "https://ftmscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x9879aBDea01a879644185341F7aF7d8343556B7a",
+        "parent_coin": "FTM",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://rpc.ftm.tools/"
+            }
+        ],
+        "derivation_path": "m/44'/1007'"
+    },
     "TUSD-HCO20": {
         "coin": "TUSD-HCO20",
         "type": "HecoChain",
@@ -31878,9 +32050,34 @@
         "currently_enabled": false,
         "wallet_only": false,
         "light_wallet_d_servers": [
-            "https://zombie.sirseven.me:443"
+            "https://zombie.sirseven.me:443",
+            "https://zombie.dragonhound.info:443"
         ],
         "electrum": [
+            {
+                "url": "zombie.dragonhound.info:10033",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ],
+                "ws_url": "zombie.dragonhound.info:30058"
+            },
+            {
+                "url": "zombie.dragonhound.info:10133",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ],
+                "ws_url": "zombie.dragonhound.info:30059"
+            },
             {
                 "url": "zombie.sirseven.me:10033",
                 "contact": [
@@ -31904,6 +32101,32 @@
                     }
                 ],
                 "ws_url": "zombie.sirseven.me:30059"
+            },
+            {
+                "url": "zombie.dragonhound.info:20033",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ],
+                "ws_url": "zombie.dragonhound.info:30058"
+            },
+            {
+                "url": "zombie.dragonhound.info:20133",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ],
+                "ws_url": "zombie.dragonhound.info:30059"
             },
             {
                 "url": "zombie.sirseven.me:20033",
