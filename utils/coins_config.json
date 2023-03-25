@@ -28987,6 +28987,28 @@
         ],
         "derivation_path": "m/44'/2301'"
     },
+    "XVG": {
+        "coin": "XVG",
+        "type": "UTXO",
+        "name": "Verge",
+        "coinpaprika_id": "xvg-verge",
+        "coingecko_id": "verge",
+        "nomics_id": "XVG",
+        "explorer_url": "https://xvgblockexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "VERGE Signed Message:\n",
+        "electrum": [
+            {
+                "url": "88.99.26.209:5036"
+            }
+        ]
+    },
     "XVS-BEP20": {
         "coin": "XVS-BEP20",
         "type": "BEP-20",
@@ -32876,18 +32898,6 @@
                 "ws_url": "zombie.dragonhound.info:30058"
             },
             {
-                "url": "zombie.dragonhound.info:10133",
-                "contact": [
-                    {
-                        "email": "smk@komodoplatform.com"
-                    },
-                    {
-                        "discord": "smk#7640"
-                    }
-                ],
-                "ws_url": "zombie.dragonhound.info:30059"
-            },
-            {
                 "url": "zombie.sirseven.me:10033",
                 "contact": [
                     {
@@ -32898,18 +32908,6 @@
                     }
                 ],
                 "ws_url": "zombie.sirseven.me:30058"
-            },
-            {
-                "url": "zombie.sirseven.me:10133",
-                "contact": [
-                    {
-                        "email": "igor@komodoplatform.com"
-                    },
-                    {
-                        "discord": "Sir Seven#7158"
-                    }
-                ],
-                "ws_url": "zombie.sirseven.me:30059"
             },
             {
                 "url": "zombie.dragonhound.info:20033",
@@ -32925,19 +32923,6 @@
                 "ws_url": "zombie.dragonhound.info:30058"
             },
             {
-                "url": "zombie.dragonhound.info:20133",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "smk@komodoplatform.com"
-                    },
-                    {
-                        "discord": "smk#7640"
-                    }
-                ],
-                "ws_url": "zombie.dragonhound.info:30059"
-            },
-            {
                 "url": "zombie.sirseven.me:20033",
                 "protocol": "SSL",
                 "contact": [
@@ -32949,19 +32934,6 @@
                     }
                 ],
                 "ws_url": "zombie.sirseven.me:30058"
-            },
-            {
-                "url": "zombie.sirseven.me:20133",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "igor@komodoplatform.com"
-                    },
-                    {
-                        "discord": "Sir Seven#7158"
-                    }
-                ],
-                "ws_url": "zombie.sirseven.me:30059"
             }
         ],
         "asset": "ZOMBIE"
