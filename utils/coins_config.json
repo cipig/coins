@@ -3327,6 +3327,14 @@
         "sign_message_prefix": "BlackCoin Signed Message:\n",
         "electrum": [
             {
+                "url": "electrum1.blackcoin.nl:10001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20001",
                 "contact": [
                     {
@@ -3341,6 +3349,17 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
+            },
+            {
+                "url": "electrum1.blackcoin.nl:10002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "electrum1.blackcoin.nl:10004"
             },
             {
                 "url": "electrum2.blackcoin.nl:20002",
@@ -17040,11 +17059,6 @@
                 "url": "electrum6.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum6.getlynx.io:50004"
-            },
-            {
-                "url": "electrum8.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum8.getlynx.io:50004"
             },
             {
                 "url": "electrum9.getlynx.io:50002",
@@ -32986,6 +33000,18 @@
                 "ws_url": "zombie.dragonhound.info:30058"
             },
             {
+                "url": "zombie.dragonhound.info:10133",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ],
+                "ws_url": "zombie.dragonhound.info:30059"
+            },
+            {
                 "url": "zombie.sirseven.me:10033",
                 "contact": [
                     {
@@ -32996,6 +33022,18 @@
                     }
                 ],
                 "ws_url": "zombie.sirseven.me:30058"
+            },
+            {
+                "url": "zombie.sirseven.me:10133",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30059"
             },
             {
                 "url": "zombie.dragonhound.info:20033",
@@ -33011,6 +33049,19 @@
                 "ws_url": "zombie.dragonhound.info:30058"
             },
             {
+                "url": "zombie.dragonhound.info:20133",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ],
+                "ws_url": "zombie.dragonhound.info:30059"
+            },
+            {
                 "url": "zombie.sirseven.me:20033",
                 "protocol": "SSL",
                 "contact": [
@@ -33022,6 +33073,19 @@
                     }
                 ],
                 "ws_url": "zombie.sirseven.me:30058"
+            },
+            {
+                "url": "zombie.sirseven.me:20133",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30059"
             }
         ],
         "asset": "ZOMBIE"
