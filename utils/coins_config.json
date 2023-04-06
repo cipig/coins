@@ -20749,6 +20749,61 @@
         ],
         "token_address_url": "tokentxns?a="
     },
+    "LSWAP-BEP20": {
+        "coin": "LSWAP-BEP20",
+        "type": "BEP-20",
+        "name": "LoopSwap",
+        "coinpaprika_id": "lswap-loopswap",
+        "coingecko_id": "loopswap",
+        "livecoinwatch_id": "LSWAP",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "LoopSwap",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x3F8a14f5a3Ee2F4A3Ed61cCF5EEA3c9535C090C8"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0x3F8a14f5a3Ee2F4A3Ed61cCF5EEA3c9535C090C8",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a="
+    },
     "LTC": {
         "coin": "LTC",
         "type": "UTXO",
@@ -21006,6 +21061,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/191'",
         "electrum": [
             {
                 "url": "electrum5.getlynx.io:50002",
@@ -35801,6 +35857,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/77'",
         "electrum": [
             {
                 "url": "88.99.26.209:5036"
