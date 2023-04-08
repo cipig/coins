@@ -745,12 +745,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
-            },
-            {
-                "url": "electrumx-four.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-four.artbyte.live:50013"
             }
         ]
     },
@@ -10812,12 +10806,6 @@
                 "ws_url": "electrum2.egulden.org:50004"
             },
             {
-                "url": "electrum3.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrum3.egulden.org:50004"
-            },
-            {
                 "url": "holland.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -14512,6 +14500,16 @@
                         "discord": "orpheas#1503"
                     }
                 ]
+            },
+            {
+                "url": "electrum.maxpuig.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ],
+                "ws_url": "electrum.maxpuig.com:50004"
             },
             {
                 "url": "fr.garlium.crapules.org:50002",
@@ -32202,11 +32200,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "electrumx.uis.ewmcx.info:50001",
-                "protocol": "TCP",
-                "ws_url": "electrumx.uis.ewmcx.info:50004"
-            },
             {
                 "url": "failover.trc-uis.ewmcx.biz:50002",
                 "protocol": "SSL",
