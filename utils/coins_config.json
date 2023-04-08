@@ -9625,12 +9625,6 @@
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx.dgc.ewmcx.org:50003"
-            },
-            {
-                "url": "failover.dgc.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.dgc.ewmcx.biz:50003"
             }
         ]
     },
@@ -24506,6 +24500,54 @@
         ],
         "forex_id": "NZD"
     },
+    "NYAN": {
+        "coin": "NYAN",
+        "type": "UTXO",
+        "name": "Nyancoin",
+        "coinpaprika_id": "nyan-nyancoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://www.nyanchain.com/",
+        "explorer_tx_url": "tx.nyan?",
+        "explorer_address_url": "ad.nyan?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Nyancoin",
+        "rpcport": 33700,
+        "pubtype": 45,
+        "p2shtype": 5,
+        "wiftype": 173,
+        "txfee": 10000,
+        "segwit": false,
+        "bech32_hrp": "ny",
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.live:50020",
+                "protocol": "TCP"
+            },
+            {
+                "url": "txserver.live:50020",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50022",
+                "protocol": "SSL"
+            },
+            {
+                "url": "txserver.live:50022",
+                "protocol": "SSL"
+            }
+        ]
+    },
     "OCEAN-BEP20": {
         "coin": "OCEAN-BEP20",
         "type": "BEP-20",
@@ -25998,8 +26040,27 @@
         },
         "electrum": [
             {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
+                "ws_url": "electrumx.live:30010",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
