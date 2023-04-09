@@ -40246,6 +40246,15 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
+                "url": "tbch.loping.net:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
                 "url": "testnet.bitcoincash.network:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -41516,8 +41525,8 @@
         "coingecko_id": "",
         "livecoinwatch_id": "",
         "explorer_url": "https://evr.cryptoscope.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/?txid=",
+        "explorer_address_url": "address/?address=",
         "supported": [],
         "active": false,
         "is_testnet": false,
