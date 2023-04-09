@@ -40246,15 +40246,6 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
-                "url": "tbch.loping.net:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
                 "url": "testnet.bitcoincash.network:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -41514,6 +41505,91 @@
             },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
+            }
+        ]
+    },
+    "EVR": {
+        "coin": "EVR",
+        "type": "UTXO",
+        "name": "Evrmore Coin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://evr.cryptoscope.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Evrmore Signed Message:\n",
+        "fname": "Evrmore Coin",
+        "rpcport": 8819,
+        "pubtype": 33,
+        "p2shtype": 92,
+        "wiftype": 128,
+        "segwit": true,
+        "txfee": 1000000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 1,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/175'",
+        "links": {
+            "github": "https://github.com/EvrmoreOrg/Evrmore",
+            "homepage": "https://evrmorecoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum1-mainnet.evrmorecoin.org:50001",
+                "contact": [
+                    {
+                        "email": "hans_schm1dt@protonmail.com"
+                    },
+                    {
+                        "discord": "Hans_Schmidt#0745"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2-mainnet.evrmorecoin.org:50001",
+                "contact": [
+                    {
+                        "email": "hans_schm1dt@protonmail.com"
+                    },
+                    {
+                        "discord": "Hans_Schmidt#0745"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1-mainnet.evrmorecoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "hans_schm1dt@protonmail.com"
+                    },
+                    {
+                        "discord": "Hans_Schmidt#0745"
+                    }
+                ],
+                "ws_url": "electrum1-mainnet.evrmorecoin.org:50004"
+            },
+            {
+                "url": "electrum2-mainnet.evrmorecoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "hans_schm1dt@protonmail.com"
+                    },
+                    {
+                        "discord": "Hans_Schmidt#0745"
+                    }
+                ],
+                "ws_url": "electrum2-mainnet.evrmorecoin.org:50004"
             }
         ]
     }
