@@ -5401,6 +5401,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
         "fname": "Bitcoin",
         "rpcport": 8332,
         "pubtype": 0,
@@ -6923,6 +6924,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Canada eCoin Signed Message:\n",
         "fname": "Canada eCoin",
         "rpcport": 34330,
         "pubtype": 28,
@@ -9492,6 +9494,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "DigiByte Signed Message:\n",
         "fname": "Digibyte",
         "rpcport": 14022,
         "pubtype": 30,
@@ -12669,6 +12672,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "FujiCoin Signed Message:\n",
         "fname": "Fujicoin",
         "rpcport": 3776,
         "pubtype": 36,
@@ -13148,6 +13152,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Feathercoin Signed Message:\n",
         "fname": "Feathercoin",
         "rpcport": 9337,
         "pubtype": 14,
@@ -14466,7 +14471,7 @@
         "dust": 54600,
         "mm2": 1,
         "required_confirmations": 5,
-        "avg_blocktime": 41,
+        "avg_blocktime": 40,
         "protocol": {
             "type": "UTXO"
         },
@@ -15183,6 +15188,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "GroestCoin Signed Message:\n",
         "fname": "Groestlcoin",
         "rpcport": 1441,
         "pubtype": 36,
@@ -18345,7 +18351,7 @@
         "coin": "JJPY-PLG20",
         "type": "Matic",
         "name": "Jarvis Japanese Yen",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "jjpy-jarvis-synthetic-japanese-yen",
         "coingecko_id": "jarvis-synthetic-japanese-yen",
         "livecoinwatch_id": "JPY",
         "explorer_url": "https://polygonscan.com/",
@@ -19845,6 +19851,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "LBRYcrd Signed Message:\n",
         "fname": "LBRY Credits",
         "rpcport": 9245,
         "pubtype": 85,
@@ -21151,6 +21158,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
         "fname": "Litecoin",
         "rpcport": 9332,
         "pubtype": 48,
@@ -23245,6 +23253,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Monacoin Signed Message:\n",
         "fname": "MonaCoin",
         "rpcport": 9402,
         "pubtype": 50,
@@ -27080,6 +27089,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Qtum Signed Message:\n",
         "fname": "Qtum",
         "rpcport": 3889,
         "pubtype": 58,
@@ -30463,6 +30473,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Syscoin Signed Message:\n",
         "fname": "Syscoin",
         "rpcport": 8370,
         "pubtype": 63,
@@ -34564,13 +34575,10 @@
         },
         "electrum": [
             {
+                "url": "88.99.26.209:5028"
+            },
+            {
                 "url": "electrumx.javerity.com:5885"
-            },
-            {
-                "url": "vtc-cce-1.coinomi.net:5028"
-            },
-            {
-                "url": "vtc-cce-2.coinomi.net:5028"
             }
         ]
     },
@@ -34589,6 +34597,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Vertcoin Signed Message:\n",
         "fname": "Vertcoin",
         "rpcport": 5888,
         "pubtype": 71,
@@ -34615,13 +34624,10 @@
         },
         "electrum": [
             {
+                "url": "88.99.26.209:5028"
+            },
+            {
                 "url": "electrumx.javerity.com:5885"
-            },
-            {
-                "url": "vtc-cce-1.coinomi.net:5028"
-            },
-            {
-                "url": "vtc-cce-2.coinomi.net:5028"
             }
         ]
     },
@@ -40375,6 +40381,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "UFO Signed Message:\n",
         "fname": "Uniform Fiscal Object",
         "rpcport": 8087,
         "pubtype": 27,
