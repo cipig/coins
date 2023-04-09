@@ -40737,37 +40737,6 @@
             }
         ]
     },
-    "sTST": {
-        "coin": "sTST",
-        "type": "SLP",
-        "name": "sTST",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://testnet.simpleledger.info/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": true,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "sTST",
-        "protocol": {
-            "type": "SLPTOKEN",
-            "protocol_data": {
-                "decimals": 4,
-                "token_id": "037eb9fc8a5f0faed4e5c15c15e69cd9f5d8a87b5f11e0ba3dce17b562705d6c",
-                "platform": "tBCH",
-                "required_confirmations": 1,
-                "slp_prefix": "slptest"
-            }
-        },
-        "mm2": 1,
-        "slp_prefix": "slptest",
-        "token_id": "037eb9fc8a5f0faed4e5c15c15e69cd9f5d8a87b5f11e0ba3dce17b562705d6c",
-        "parent_coin": "tSLP"
-    },
     "XEC": {
         "coin": "XEC",
         "type": "UTXO",
