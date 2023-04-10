@@ -9628,6 +9628,12 @@
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx.dgc.ewmcx.org:50003"
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "failover.dgc.ewmcx.biz:50003"
             }
         ]
     },
@@ -16791,7 +16797,7 @@
         "name": "Ilien",
         "coinpaprika_id": "iln-ilien9195",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "ILN",
         "explorer_url": "https://explorer.ilien.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -16851,7 +16857,7 @@
         "name": "Ilien",
         "coinpaprika_id": "iln-ilien9195",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "ILN",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -16906,7 +16912,7 @@
         "name": "Ilien",
         "coinpaprika_id": "iln-ilien9195",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "ILN",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -24521,7 +24527,7 @@
         "name": "Nyancoin",
         "coinpaprika_id": "nyan-nyancoin",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "__NYAN",
         "explorer_url": "https://www.nyanchain.com/",
         "explorer_tx_url": "tx.nyan?",
         "explorer_address_url": "ad.nyan?",
