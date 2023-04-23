@@ -14494,6 +14494,16 @@
                 ]
             },
             {
+                "url": "au.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
                 "url": "ca.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -34540,7 +34550,7 @@
         "name": "Verium Reserve",
         "coinpaprika_id": "vrm-veriumreserve",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "VRM",
         "explorer_url": "https://explorer-vrm.vericonomy.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
