@@ -10631,16 +10631,6 @@
         },
         "electrum": [
             {
-                "url": "pink-deer-69.doi.works:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/namecoin/electrum-nmc/issues",
-                        "twitter": "example_username"
-                    }
-                ]
-            },
-            {
                 "url": "big-parrot-60.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -10650,28 +10640,6 @@
                     }
                 ],
                 "ws-url": "big-parrot-60.doi.works:50004"
-            },
-            {
-                "url": "itchy-jellyfish-89.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "itchy-jellyfish-89.doi.works:50004"
-            },
-            {
-                "url": "pink-deer-69.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/namecoin/electrum-nmc/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "pink-deer-69.doi.works:50004"
             },
             {
                 "url": "ugly-bird-70.doi.works:50002",
@@ -20696,10 +20664,6 @@
             {
                 "url": "electrumx2.widecoin.org:50001",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx3.widecoin.org:50001",
-                "protocol": "TCP"
             }
         ]
     },
@@ -20744,10 +20708,6 @@
             },
             {
                 "url": "electrumx2.widecoin.org:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx3.widecoin.org:50001",
                 "protocol": "TCP"
             }
         ]
@@ -31595,31 +31555,7 @@
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
             },
             {
-                "url": "2.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            },
-            {
-                "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -34597,6 +34533,52 @@
             }
         ],
         "token_address_url": "tokentxns?a="
+    },
+    "VRM": {
+        "coin": "VRM",
+        "type": "UTXO",
+        "name": "Verium Reserve",
+        "coinpaprika_id": "vrm-veriumreserve",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer-vrm.vericonomy.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Verium Reserve",
+        "rpcport": 33987,
+        "pubtype": 70,
+        "p2shtype": 132,
+        "wiftype": 198,
+        "txfee": 100000,
+        "force_min_relay_fee": true,
+        "isPoS": 1,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 240,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrum01-vrm.vericonomy.com:50001",
+                "contact": [
+                    {
+                        "email": "dev@vericoin.info"
+                    },
+                    {
+                        "twitter": "vericonomy"
+                    },
+                    {
+                        "github": "VeriConomy"
+                    }
+                ]
+            }
+        ]
     },
     "VRSC": {
         "coin": "VRSC",
