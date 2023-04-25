@@ -757,6 +757,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "electrumx-four.artbyte.live:50013"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -27910,13 +27916,13 @@
         "name": "NFTX",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "_NFTX",
         "explorer_url": "https://explorer.nftx.pw/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
         "active": false,
-        "is_testnet": true,
+        "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
         "sign_message_prefix": "Komodo Signed Message:\n",
@@ -27926,7 +27932,7 @@
         "txversion": 4,
         "overwintered": 1,
         "mm2": 1,
-        "required_confirmations": 1,
+        "required_confirmations": 4,
         "requires_notarization": false,
         "avg_blocktime": 60,
         "protocol": {
