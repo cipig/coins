@@ -10664,17 +10664,6 @@
                 "ws-url": "big-parrot-60.doi.works:50004"
             },
             {
-                "url": "itchy-jellyfish-89.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "itchy-jellyfish-89.doi.works:50004"
-            },
-            {
                 "url": "pink-deer-69.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -23236,9 +23225,6 @@
         "electrum": [
             {
                 "url": "133.167.67.203:50001"
-            },
-            {
-                "url": "electrumx.tamami-foundation.org:50001"
             }
         ]
     },
@@ -23286,9 +23272,6 @@
         "electrum": [
             {
                 "url": "133.167.67.203:50001"
-            },
-            {
-                "url": "electrumx.tamami-foundation.org:50001"
             }
         ]
     },
@@ -41325,7 +41308,7 @@
         "explorer_address_url": "",
         "supported": [],
         "active": false,
-        "is_testnet": true,
+        "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
         "sign_message_prefix": "Komodo Signed Message:\n",
