@@ -12664,7 +12664,7 @@
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                        "discord": "motty#8318"
                     }
                 ]
             },
@@ -12673,7 +12673,7 @@
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                        "discord": "motty#8318"
                     }
                 ]
             },
@@ -12682,18 +12682,20 @@
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                        "discord": "motty#8318"
                     }
-                ]
+                ],
+                "ws_url": "electrumx1.fujicoin.org:50005"
             },
             {
                 "url": "electrumx2.fujicoin.org:50003",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                        "discord": "motty#8318"
                     }
-                ]
+                ],
+                "ws_url": "electrumx2.fujicoin.org:50005"
             }
         ]
     },
@@ -12743,7 +12745,7 @@
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                        "discord": "motty#8318"
                     }
                 ]
             },
@@ -12752,7 +12754,7 @@
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                        "discord": "motty#8318"
                     }
                 ]
             },
@@ -12761,18 +12763,20 @@
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                        "discord": "motty#8318"
                     }
-                ]
+                ],
+                "ws_url": "electrumx1.fujicoin.org:50005"
             },
             {
                 "url": "electrumx2.fujicoin.org:50003",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                        "discord": "motty#8318"
                     }
-                ]
+                ],
+                "ws_url": "electrumx2.fujicoin.org:50005"
             }
         ]
     },
@@ -23285,6 +23289,9 @@
         "electrum": [
             {
                 "url": "133.167.67.203:50001"
+            },
+            {
+                "url": "electrumx.tamami-foundation.org:50001"
             }
         ]
     },
@@ -23332,6 +23339,9 @@
         "electrum": [
             {
                 "url": "133.167.67.203:50001"
+            },
+            {
+                "url": "electrumx.tamami-foundation.org:50001"
             }
         ]
     },
@@ -34655,52 +34665,6 @@
         ],
         "token_address_url": "tokentxns?a="
     },
-    "VRM": {
-        "coin": "VRM",
-        "type": "UTXO",
-        "name": "Verium Reserve",
-        "coinpaprika_id": "vrm-veriumreserve",
-        "coingecko_id": "",
-        "livecoinwatch_id": "VRM",
-        "explorer_url": "https://explorer-vrm.vericonomy.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Verium Reserve",
-        "rpcport": 33987,
-        "pubtype": 70,
-        "p2shtype": 132,
-        "wiftype": 198,
-        "txfee": 100000,
-        "force_min_relay_fee": true,
-        "isPoS": 1,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 240,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrum01-vrm.vericonomy.com:50001",
-                "contact": [
-                    {
-                        "email": "dev@vericoin.info"
-                    },
-                    {
-                        "twitter": "vericonomy"
-                    },
-                    {
-                        "github": "VeriConomy"
-                    }
-                ]
-            }
-        ]
-    },
     "VRSC": {
         "coin": "VRSC",
         "type": "Smart Chain",
@@ -35001,7 +34965,7 @@
         "overwintered": 1,
         "mm2": 1,
         "required_confirmations": 5,
-        "avg_blocktime": 1,
+        "avg_blocktime": 30,
         "protocol": {
             "type": "UTXO"
         },
