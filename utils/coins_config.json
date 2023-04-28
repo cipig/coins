@@ -7430,7 +7430,7 @@
         "name": "Chips",
         "coinpaprika_id": "chips-chips",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "__CHIPS",
         "explorer_url": "https://explorer.chips.cash/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -35915,9 +35915,6 @@
             "homepage": "https://primecoin.io"
         },
         "electrum": [
-            {
-                "url": "electrumx.gemmer.primecoin.org:50011"
-            },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
             },
