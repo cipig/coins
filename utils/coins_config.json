@@ -11962,6 +11962,45 @@
         ],
         "forex_id": "EUR"
     },
+    "EUROE-PLG20": {
+        "coin": "EUROE-PLG20",
+        "type": "Matic",
+        "name": "EUROe Stablecoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "EUROE",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "EUROe Stablecoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 6,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
+                "contract_address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974"
+            }
+        },
+        "derivation_path": "m/44'/966'",
+        "contract_address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            }
+        ]
+    },
     "EURS-ERC20": {
         "coin": "EURS-ERC20",
         "type": "ERC-20",
