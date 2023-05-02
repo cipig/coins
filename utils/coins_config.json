@@ -1980,11 +1980,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
-            },
-            {
-                "url": "lenoir.ecoincore.com:12343",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
@@ -14566,6 +14561,16 @@
                 "contact": [
                     {
                         "discord": "mecs#4770"
+                    }
+                ]
+            },
+            {
+                "url": "au.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
                     }
                 ]
             },
