@@ -2562,6 +2562,43 @@
             }
         ]
     },
+    "AYA": {
+        "coin": "AYA",
+        "type": "UTXO",
+        "name": "Aryacoin",
+        "coinpaprika_id": "aya-aryacoin",
+        "coingecko_id": "aryacoin",
+        "livecoinwatch_id": "AYA",
+        "explorer_url": "https://explorer.aryacoin.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Aryacoin Signed Message:\n",
+        "fname": "Aryacoin",
+        "rpcport": 9332,
+        "pubtype": 23,
+        "p2shtype": 5,
+        "wiftype": 176,
+        "txfee": 100000,
+        "dust": 54600,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "requires_notarization": true,
+        "avg_blocktime": 30,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/357'",
+        "electrum": [
+            {
+                "url": "88.99.26.209:5151"
+            }
+        ]
+    },
     "BABYDOGE-BEP20": {
         "coin": "BABYDOGE-BEP20",
         "type": "BEP-20",
