@@ -37385,6 +37385,11 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ]
     },
@@ -41824,10 +41829,10 @@
         "coin": "BKC",
         "type": "UTXO",
         "name": "Bunkercoin",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "bkc-bunkercoin",
         "coingecko_id": "",
         "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.bunkercoin.org/",
+        "explorer_url": "https://bkcexplorer.bunker.mt/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
