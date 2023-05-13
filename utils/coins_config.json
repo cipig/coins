@@ -2702,42 +2702,7 @@
         "derivation_path": "m/44'/357'",
         "electrum": [
             {
-                "url": "electrum1.aryacoin.io:2052",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "sales@aryacoin.io"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.aryacoin.io:2052",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "sales@aryacoin.io"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.aryacoin.io:2053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "sales@aryacoin.io"
-                    }
-                ],
-                "ws_url": "electrum1.aryacoin.io:2051"
-            },
-            {
-                "url": "electrum2.aryacoin.io:2053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "sales@aryacoin.io"
-                    }
-                ],
-                "ws_url": "electrum2.aryacoin.io:2051"
+                "url": "88.99.26.209:5151"
             }
         ]
     },
@@ -15389,18 +15354,6 @@
                 ]
             },
             {
-                "url": "electrum21.groestlcoin.org:50001",
-                "ws_url": "electrum21.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum22.groestlcoin.org:50001",
                 "ws_url": "electrum22.groestlcoin.org:50004",
                 "contact": [
@@ -15880,18 +15833,6 @@
             {
                 "url": "electrum20.groestlcoin.org:50001",
                 "ws_url": "electrum20.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum21.groestlcoin.org:50001",
-                "ws_url": "electrum21.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -20593,6 +20534,92 @@
             }
         ]
     },
+    "LCC": {
+        "coin": "LCC",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "test-coin",
+        "livecoinwatch_id": "LCC",
+        "explorer_url": "https://chainz.cryptoid.info/lcc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
+        "fname": "Litecoin Cash",
+        "rpcport": 62457,
+        "pubtype": 28,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "decimals": 7,
+        "fork_id": "0x40",
+        "signature_version": "base",
+        "txfee": 20000,
+        "segwit": true,
+        "bech32_hrp": "lcc",
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "electrum": [
+            {
+                "url": "88.99.26.209:5140",
+                "protocol": "TCP"
+            }
+        ]
+    },
+    "LCC-segwit": {
+        "coin": "LCC-segwit",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "test-coin",
+        "livecoinwatch_id": "LCC",
+        "explorer_url": "https://chainz.cryptoid.info/lcc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
+        "fname": "Litecoin Cash",
+        "rpcport": 62457,
+        "pubtype": 28,
+        "p2shtype": 5,
+        "wiftype": 176,
+        "decimals": 7,
+        "fork_id": "0x40",
+        "signature_version": "base",
+        "txfee": 20000,
+        "segwit": true,
+        "bech32_hrp": "lcc",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "LCC",
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "electrum": [
+            {
+                "url": "88.99.26.209:5140",
+                "protocol": "TCP"
+            }
+        ]
+    },
     "LDO-ERC20": {
         "coin": "LDO-ERC20",
         "type": "ERC-20",
@@ -20706,6 +20733,56 @@
         "nodes": [
             {
                 "url": "https://polygon-rpc.com"
+            }
+        ]
+    },
+    "LNC": {
+        "coin": "LNC",
+        "type": "UTXO",
+        "name": "LightningCash",
+        "coinpaprika_id": "ltncg-lightningcash-gold",
+        "coingecko_id": "lightningcash-gold",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.lightningcash-coin.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "LightningCash",
+        "rpcport": 9110,
+        "pubtype": 28,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "decimals": 8,
+        "signature_version": "base",
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "lnc",
+        "mm2": 1,
+        "required_confirmations": 6,
+        "avg_blocktime": 5,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx2.lightningcash-coin.com:50001",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "merlin@lightningcash-coin.com"
+                    },
+                    {
+                        "discord": "merlin#7125"
+                    },
+                    {
+                        "twitter": "LightningCash_1"
+                    }
+                ]
             }
         ]
     },
@@ -35678,6 +35755,98 @@
             }
         ]
     },
+    "VIA": {
+        "coin": "VIA",
+        "type": "UTXO",
+        "name": "Viacoin",
+        "coinpaprika_id": "via-viacoin",
+        "coingecko_id": "viacoin",
+        "livecoinwatch_id": "VIA",
+        "explorer_url": "https://explorer.viacoin.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Viacoin Signed Message:\n",
+        "fname": "Viacoin",
+        "rpcport": 5222,
+        "pubtype": 71,
+        "p2shtype": 33,
+        "wiftype": 199,
+        "txfee": 100000,
+        "dust": 54600,
+        "required_confirmations": 7,
+        "mature_confirmations": 3600,
+        "avg_blocktime": 24,
+        "segwit": true,
+        "bech32_hrp": "via",
+        "mm2": 1,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/14'",
+        "trezor_coin": "Viacoin",
+        "links": {
+            "github": "https://github.com/viacoin",
+            "homepage": "https://viacoin.org"
+        },
+        "electrum": [
+            {
+                "url": "88.99.26.209:5102"
+            }
+        ]
+    },
+    "VIA-segwit": {
+        "coin": "VIA-segwit",
+        "type": "UTXO",
+        "name": "Viacoin",
+        "coinpaprika_id": "via-viacoin",
+        "coingecko_id": "viacoin",
+        "livecoinwatch_id": "VIA",
+        "explorer_url": "https://explorer.viacoin.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Viacoin Signed Message:\n",
+        "fname": "Viacoin",
+        "rpcport": 5222,
+        "pubtype": 71,
+        "p2shtype": 33,
+        "wiftype": 199,
+        "txfee": 100000,
+        "dust": 54600,
+        "required_confirmations": 7,
+        "mature_confirmations": 3600,
+        "avg_blocktime": 24,
+        "segwit": true,
+        "bech32_hrp": "via",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "VIA",
+        "mm2": 1,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/14'",
+        "trezor_coin": "Viacoin",
+        "links": {
+            "github": "https://github.com/viacoin",
+            "homepage": "https://viacoin.org"
+        },
+        "electrum": [
+            {
+                "url": "88.99.26.209:5102"
+            }
+        ]
+    },
     "VITE-BEP20": {
         "coin": "VITE-BEP20",
         "type": "BEP-20",
@@ -38582,6 +38751,11 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ]
     },
@@ -43129,17 +43303,6 @@
                 ]
             },
             {
-                "url": "electrum2-mainnet.evrmorecoin.org:50001",
-                "contact": [
-                    {
-                        "email": "hans_schm1dt@protonmail.com"
-                    },
-                    {
-                        "discord": "Hans_Schmidt#0745"
-                    }
-                ]
-            },
-            {
                 "url": "electrum1-mainnet.evrmorecoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -43151,19 +43314,53 @@
                     }
                 ],
                 "ws_url": "electrum1-mainnet.evrmorecoin.org:50004"
-            },
+            }
+        ]
+    },
+    "BKC": {
+        "coin": "BKC",
+        "type": "UTXO",
+        "name": "Bunkercoin",
+        "coinpaprika_id": "bkc-bunkercoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://bkcexplorer.bunker.mt/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bunkercoin Signed Message:\n",
+        "fname": "Bunkercoin",
+        "rpcport": 22555,
+        "pubtype": 25,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "txfee": 1000000,
+        "force_min_relay_fee": true,
+        "dust": 1000000,
+        "mm2": 1,
+        "required_confirmations": 14,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/3'",
+        "links": {
+            "github": "https://github.com/bunkercoin/bunkercoin",
+            "homepage": "https://bunkercoin.org"
+        },
+        "electrum": [
             {
-                "url": "electrum2-mainnet.evrmorecoin.org:50002",
-                "protocol": "SSL",
+                "url": "bunkerelectrum.bunker.mt:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
-                        "email": "hans_schm1dt@protonmail.com"
-                    },
-                    {
-                        "discord": "Hans_Schmidt#0745"
+                        "discord": "bunkermatty#5308"
                     }
-                ],
-                "ws_url": "electrum2-mainnet.evrmorecoin.org:50004"
+                ]
             }
         ]
     }
