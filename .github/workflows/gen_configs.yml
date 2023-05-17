@@ -1,4 +1,4 @@
-name: Update Coin Configs
+name: Update Coin Configs and create 128x128 images in icons dir
 
 on:
   push:
@@ -13,6 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
+      - name: Create 128x128 images in icons dir
+        shell: bash
+        run:  ${GITHUB_WORKSPACE}/utils/icons_resize.sh
 
       - name: Generate configs
         shell: bash
@@ -33,9 +37,5 @@ jobs:
             - Electrum scan report updated
           labels: |
             config-update
-          assignees: cipig, smk762, gcharang
           reviewers: cipig, smk762, gcharang
-          team-reviewers: |
-            owners
-            maintainers
           draft: false
