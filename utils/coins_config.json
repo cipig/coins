@@ -5651,6 +5651,38 @@
                     }
                 ],
                 "ws_url": "electrumx.bitwebcore.net:20003"
+            },
+            {
+                "url": "electrumx6.scalaris.info:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ],
+                "ws_url": "electrumx6.scalaris.info:20003"
+            },
+            {
+                "url": "electrumx7.scalaris.info:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ],
+                "ws_url": "electrumx7.scalaris.info:20003"
             }
         ]
     },
@@ -5703,6 +5735,38 @@
                     }
                 ],
                 "ws_url": "electrumx.bitwebcore.net:20003"
+            },
+            {
+                "url": "electrumx6.scalaris.info:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ],
+                "ws_url": "electrumx6.scalaris.info:20003"
+            },
+            {
+                "url": "electrumx7.scalaris.info:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ],
+                "ws_url": "electrumx7.scalaris.info:20003"
             }
         ]
     },
@@ -14403,6 +14467,15 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
+                "url": "electrum.maxpuig.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "mecs#4770"
+                    }
+                ]
+            },
+            {
                 "url": "au.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -14411,6 +14484,16 @@
                         "discord": "orpheas#1503"
                     }
                 ]
+            },
+            {
+                "url": "electrum.maxpuig.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ],
+                "ws_url": "electrum.maxpuig.com:50004"
             },
             {
                 "url": "fr.garlium.crapules.org:50002",
@@ -27583,9 +27666,9 @@
                 "ws_url": "electrum02.reddcoin.com:50004"
             },
             {
-                "url": "electrum02.reddcoin.com:50002",
+                "url": "electrum03.reddcoin.com:50002",
                 "protocol": "SSL",
-                "ws_url": "electrum02.reddcoin.com:50004"
+                "ws_url": "electrum03.reddcoin.com:50004"
             }
         ]
     },
@@ -37293,11 +37376,6 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
