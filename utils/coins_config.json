@@ -14509,15 +14509,6 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
-                "url": "electrum.maxpuig.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "mecs#4770"
-                    }
-                ]
-            },
-            {
                 "url": "au.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -14526,16 +14517,6 @@
                         "discord": "orpheas#1503"
                     }
                 ]
-            },
-            {
-                "url": "electrum.maxpuig.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ],
-                "ws_url": "electrum.maxpuig.com:50004"
             },
             {
                 "url": "fr.garlium.crapules.org:50002",
@@ -25654,6 +25635,12 @@
             {
                 "url": "62.171.189.243:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "pot-duo.ewmcx.net:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "pot-duo.ewmcx.net:50013"
             }
         ]
     },
@@ -32652,8 +32639,14 @@
             {
                 "url": "failover.trc-uis.ewmcx.biz:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
+                "disable_cert_verification": false,
                 "ws_url": "failover.trc-uis.ewmcx.biz:50003"
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "uis-uno.ewmcx.net:50003"
             }
         ]
     },
@@ -36041,6 +36034,9 @@
         "electrum": [
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
+            },
+            {
+                "url": "electrumx.primecoin.org:50001"
             }
         ]
     },
