@@ -12068,6 +12068,42 @@
         ],
         "forex_id": "EUR"
     },
+    "EWT": {
+        "coin": "EWT",
+        "type": "EWT",
+        "name": "Energy Web",
+        "coinpaprika_id": "ewt-energy-web-token",
+        "coingecko_id": "energy-web-token",
+        "livecoinwatch_id": "EWT",
+        "explorer_url": "https://explorer.energyweb.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Energy Web",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 246,
+        "required_confirmations": 3,
+        "avg_blocktime": 5,
+        "protocol": {
+            "type": "ETH"
+        },
+        "derivation_path": "m/44'/246'",
+        "trezor_coin": "Energy Web",
+        "links": {
+            "homepage": "https://www.energyweb.org"
+        },
+        "swap_contract_address": "0x304896fc2F242f13dd852b412E7B60C5F495B79c",
+        "nodes": [
+            {
+                "url": "https://rpc.energyweb.org"
+            }
+        ]
+    },
     "FEI-ERC20": {
         "coin": "FEI-ERC20",
         "type": "ERC-20",
@@ -14509,6 +14545,15 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
+                "url": "electrum.maxpuig.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "mecs#4770"
+                    }
+                ]
+            },
+            {
                 "url": "au.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -14517,6 +14562,16 @@
                         "discord": "orpheas#1503"
                     }
                 ]
+            },
+            {
+                "url": "electrum.maxpuig.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ],
+                "ws_url": "electrum.maxpuig.com:50004"
             },
             {
                 "url": "fr.garlium.crapules.org:50002",
@@ -14826,18 +14881,6 @@
             {
                 "url": "electrum20.groestlcoin.org:50001",
                 "ws_url": "electrum20.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum21.groestlcoin.org:50001",
-                "ws_url": "electrum21.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -15315,18 +15358,6 @@
             {
                 "url": "electrum20.groestlcoin.org:50001",
                 "ws_url": "electrum20.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum21.groestlcoin.org:50001",
-                "ws_url": "electrum21.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
