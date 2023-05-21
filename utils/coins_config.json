@@ -4354,6 +4354,49 @@
         "token_address_url": "tokentxns?a=",
         "forex_id": "IDR"
     },
+    "BITN": {
+        "coin": "BITN",
+        "type": "UTXO",
+        "name": "Bitnet",
+        "coinpaprika_id": "bit-bitnet",
+        "coingecko_id": "",
+        "livecoinwatch_id": "________BIT",
+        "explorer_url": "https://bitexplorer.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitnet Signed Message:\n",
+        "fname": "Bitnet",
+        "rpcport": 9332,
+        "pubtype": 25,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "txfee": 700000,
+        "segwit": true,
+        "bech32_hrp": "bit",
+        "mm2": 1,
+        "required_confirmations": 1,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "bitexplorer.io:50001",
+                "protocol": "TCP",
+                "ws_url": "bitexplorer.io:50004",
+                "contact": [
+                    {
+                        "discord": "c4pt#7855"
+                    }
+                ]
+            }
+        ]
+    },
     "BLK": {
         "coin": "BLK",
         "type": "UTXO",
@@ -15686,18 +15729,6 @@
                 ]
             },
             {
-                "url": "electrum9.groestlcoin.org:50001",
-                "ws_url": "electrum9.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum11.groestlcoin.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -16153,18 +16184,6 @@
             {
                 "url": "electrum8.groestlcoin.org:50001",
                 "ws_url": "electrum8.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum9.groestlcoin.org:50001",
-                "ws_url": "electrum9.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -26619,6 +26638,12 @@
             {
                 "url": "62.171.189.243:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "pot-duo.ewmcx.net:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "pot-duo.ewmcx.net:50013"
             }
         ]
     },
@@ -33825,8 +33850,14 @@
             {
                 "url": "failover.trc-uis.ewmcx.biz:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
+                "disable_cert_verification": false,
                 "ws_url": "failover.trc-uis.ewmcx.biz:50003"
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "uis-uno.ewmcx.net:50003"
             }
         ]
     },
@@ -38783,11 +38814,6 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
@@ -43285,6 +43311,83 @@
             },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
+            }
+        ]
+    },
+    "MAZA": {
+        "coin": "MAZA",
+        "type": "UTXO",
+        "name": "MazaCoin",
+        "coinpaprika_id": "maza-maza",
+        "coingecko_id": "maza",
+        "livecoinwatch_id": "MAZA",
+        "explorer_url": "http://mazacha.in/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Mazacoin Signed Message:\n",
+        "fname": "MazaCoin",
+        "rpcport": 12832,
+        "pubtype": 50,
+        "p2shtype": 9,
+        "wiftype": 244,
+        "decimals": 8,
+        "signature_version": "base",
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "maza",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/13'",
+        "links": {
+            "github": "https://github.com/Mazacoin",
+            "homepage": "https://www.mazacoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrumx1.mazacha.in:50001",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.mazacha.in:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
+                    }
+                ],
+                "ws_url": "electrumx1.mazacha.in:50005"
+            },
+            {
+                "url": "electrumx2.mazacha.in:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
+                    }
+                ],
+                "ws_url": "electrumx2.mazacha.in:50005"
             }
         ]
     },
