@@ -17722,7 +17722,7 @@
         "name": "Jarvis Swiss Franc",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "CHF",
+        "livecoinwatch_id": "JCHF",
         "explorer_url": "https://cchain.explorer.avax.network/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -17761,7 +17761,7 @@
         "name": "Jarvis Swiss Franc",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "CHF",
+        "livecoinwatch_id": "JCHF",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -17816,7 +17816,7 @@
         "name": "Jarvis Swiss Franc",
         "coinpaprika_id": "",
         "coingecko_id": "jarvis-synthetic-swiss-franc",
-        "livecoinwatch_id": "CHF",
+        "livecoinwatch_id": "JCHF",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -17890,7 +17890,7 @@
         "name": "Jarvis Swiss Franc",
         "coinpaprika_id": "",
         "coingecko_id": "jarvis-synthetic-swiss-franc",
-        "livecoinwatch_id": "CHF",
+        "livecoinwatch_id": "JCHF",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -37485,6 +37485,11 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ]
     },
