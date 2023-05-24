@@ -761,6 +761,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "electrumx-four.artbyte.live:50013"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -14910,6 +14916,18 @@
                 ]
             },
             {
+                "url": "electrum18.groestlcoin.org:50001",
+                "ws_url": "electrum18.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
                 "url": "electrum19.groestlcoin.org:50001",
                 "ws_url": "electrum19.groestlcoin.org:50004",
                 "contact": [
@@ -15224,6 +15242,18 @@
             {
                 "url": "electrum8.groestlcoin.org:50001",
                 "ws_url": "electrum8.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum9.groestlcoin.org:50001",
+                "ws_url": "electrum9.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -15375,6 +15405,18 @@
                 ]
             },
             {
+                "url": "electrum18.groestlcoin.org:50001",
+                "ws_url": "electrum18.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
                 "url": "electrum19.groestlcoin.org:50001",
                 "ws_url": "electrum19.groestlcoin.org:50004",
                 "contact": [
@@ -15689,6 +15731,18 @@
             {
                 "url": "electrum8.groestlcoin.org:50001",
                 "ws_url": "electrum8.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum9.groestlcoin.org:50001",
+                "ws_url": "electrum9.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -20880,7 +20934,7 @@
         "name": "Widecoin",
         "coinpaprika_id": "wcn-widecoin",
         "coingecko_id": "widecoin",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "WCN",
         "explorer_url": "https://explorer.widecoin.org/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -20921,7 +20975,7 @@
         "name": "Widecoin",
         "coinpaprika_id": "wcn-widecoin",
         "coingecko_id": "widecoin",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "WCN",
         "explorer_url": "https://explorer.widecoin.org/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -35178,7 +35232,13 @@
                 "url": "88.99.26.209:5028"
             },
             {
-                "url": "electrumx.javerity.com:5885"
+                "url": "electrumx.javerity.com:5885",
+                "ws_url": "electrumx.javerity.com:5887",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ]
             }
         ]
     },
@@ -35227,7 +35287,13 @@
                 "url": "88.99.26.209:5028"
             },
             {
-                "url": "electrumx.javerity.com:5885"
+                "url": "electrumx.javerity.com:5885",
+                "ws_url": "electrumx.javerity.com:5887",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ]
             }
         ]
     },
@@ -37524,11 +37590,6 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
@@ -42062,53 +42123,6 @@
                     }
                 ],
                 "ws_url": "electrum2-mainnet.evrmorecoin.org:50004"
-            }
-        ]
-    },
-    "BKC": {
-        "coin": "BKC",
-        "type": "UTXO",
-        "name": "Bunkercoin",
-        "coinpaprika_id": "bkc-bunkercoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://bkcexplorer.bunker.mt/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Bunkercoin Signed Message:\n",
-        "fname": "Bunkercoin",
-        "rpcport": 22555,
-        "pubtype": 25,
-        "p2shtype": 22,
-        "wiftype": 158,
-        "txfee": 1000000,
-        "force_min_relay_fee": true,
-        "dust": 1000000,
-        "mm2": 1,
-        "required_confirmations": 14,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/3'",
-        "links": {
-            "github": "https://github.com/bunkercoin/bunkercoin",
-            "homepage": "https://bunkercoin.org"
-        },
-        "electrum": [
-            {
-                "url": "bunkerelectrum.bunker.mt:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "bunkermatty#5308"
-                    }
-                ]
             }
         ]
     }
