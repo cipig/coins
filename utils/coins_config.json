@@ -11296,12 +11296,6 @@
                 "ws_url": "electrum3.egulden.org:50004"
             },
             {
-                "url": "holland.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "holland.ecoincore.com:11019"
-            },
-            {
                 "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -22283,6 +22277,11 @@
                 "url": "electrum6.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum6.getlynx.io:50004"
+            },
+            {
+                "url": "electrum7.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum7.getlynx.io:50004"
             },
             {
                 "url": "electrum8.getlynx.io:50002",
@@ -38808,11 +38807,6 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
