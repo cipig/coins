@@ -36789,9 +36789,6 @@
         "electrum": [
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
-            },
-            {
-                "url": "electrumx.primecoin.org:50001"
             }
         ]
     },
@@ -38212,11 +38209,6 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
@@ -42381,25 +42373,7 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrumx1.actioncoin.com:10001",
-                "contact": [
-                    {
-                        "email": "support@actioncoin.com"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.actioncoin.com:10001",
-                "contact": [
-                    {
-                        "email": "support@actioncoin.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx1.actioncoin.com:30001",
-                "ws_url": "electrumx1.actioncoin.com:20001",
-                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "support@actioncoin.com"
