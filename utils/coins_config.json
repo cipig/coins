@@ -7919,6 +7919,50 @@
             }
         ]
     },
+    "CLC": {
+        "coin": "CLC",
+        "type": "Smart Chain",
+        "name": "Collider Coin",
+        "coinpaprika_id": "clc-collider-coin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://clc.explorer.dexstats.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "CLC",
+        "fname": "Collider Coin",
+        "rpcport": 31034,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "requires_notarization": false,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrumx.cryptocollider.com:10001",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ]
+            }
+        ]
+    },
     "COMP-AVX20": {
         "coin": "COMP-AVX20",
         "type": "AVX-20",
@@ -26682,6 +26726,57 @@
             }
         ]
     },
+    "PRUX": {
+        "coin": "PRUX",
+        "type": "UTXO",
+        "name": "PRUX",
+        "coinpaprika_id": "prux-prux-coin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.prux.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "PRUX",
+        "rpcport": 19595,
+        "pubtype": 55,
+        "p2shtype": 117,
+        "wiftype": 183,
+        "txfee": 10000,
+        "segwit": false,
+        "bech32_hrp": "pr",
+        "mm2": 1,
+        "required_confirmations": 9,
+        "avg_blocktime": 9,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
+                "ws_url": "electrumx.live:30010",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            }
+        ]
+    },
     "SHIB-BEP20": {
         "coin": "SHIB-BEP20",
         "type": "BEP-20",
@@ -36360,7 +36455,8 @@
                     {
                         "discord": "287952234317348865"
                     }
-                ]
+                ],
+                "ws_url": "electrumx1.electraprotocol.eu:50003"
             },
             {
                 "url": "electrumx2.electraprotocol.eu:50001",
@@ -36368,15 +36464,8 @@
                     {
                         "discord": "287952234317348865"
                     }
-                ]
-            },
-            {
-                "url": "electrumx3.electraprotocol.eu:50001",
-                "contact": [
-                    {
-                        "discord": "287952234317348865"
-                    }
-                ]
+                ],
+                "ws_url": "electrumx2.electraprotocol.eu:50003"
             }
         ]
     },
@@ -42649,17 +42738,6 @@
                 ]
             },
             {
-                "url": "explorer.crionic.org:50001",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
                 "url": "coin.crionic.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -42671,19 +42749,6 @@
                     }
                 ],
                 "ws_url": "coin.crionic.org:50005"
-            },
-            {
-                "url": "explorer.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ],
-                "ws_url": "explorer.crionic.org:50005"
             }
         ]
     },
