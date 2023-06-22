@@ -20354,18 +20354,6 @@
                 "ws_url": "electrum1.cipig.net:30019"
             },
             {
-                "url": "electrum2.cipig.net:10019",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30019"
-            },
-            {
                 "url": "electrum3.cipig.net:10019",
                 "contact": [
                     {
@@ -20379,18 +20367,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20019",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20019",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -38364,11 +38340,6 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
