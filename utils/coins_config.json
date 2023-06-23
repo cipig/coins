@@ -42085,6 +42085,11 @@
         "derivation_path": "m/44'/1899'",
         "electrum": [
             {
+                "url": "ecash.stackwallet.com:59002",
+                "protocol": "SSL",
+                "ws_url": "ecash.stackwallet.com:59004"
+            },
+            {
                 "url": "electrum.bitcoinabc.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
