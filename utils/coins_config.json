@@ -8678,112 +8678,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "CRYPTO": {
-        "coin": "CRYPTO",
-        "type": "Smart Chain",
-        "name": "Crypto777",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://crypto.kmdexplorer.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "CRYPTO",
-        "fname": "Crypto777",
-        "rpcport": 8516,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum1.cipig.net:10008",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum1.cipig.net:30008"
-            },
-            {
-                "url": "electrum2.cipig.net:10008",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30008"
-            },
-            {
-                "url": "electrum3.cipig.net:10008",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30008"
-            },
-            {
-                "url": "electrum1.cipig.net:20008",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20008",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:20008",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "CUMMIES-BEP20": {
         "coin": "CUMMIES-BEP20",
         "type": "BEP-20",
@@ -22296,6 +22190,66 @@
         ],
         "explorer_block_url": "block/"
     },
+    "LYNX": {
+        "coin": "LYNX",
+        "type": "UTXO",
+        "name": "Lynx",
+        "coinpaprika_id": "lynx-lynx",
+        "coingecko_id": "lynx",
+        "livecoinwatch_id": "LYNX",
+        "explorer_url": "https://chainz.cryptoid.info/lynx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Lynx Signed Message:\n",
+        "fname": "Lynx",
+        "rpcport": 9332,
+        "pubtype": 45,
+        "p2shtype": 22,
+        "wiftype": 173,
+        "txfee": 0,
+        "dust": 54600,
+        "segwit": false,
+        "mm2": 1,
+        "required_confirmations": 1,
+        "avg_blocktime": 1200,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/191'",
+        "electrum": [
+            {
+                "url": "electrum5.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum5.getlynx.io:50004"
+            },
+            {
+                "url": "electrum6.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum6.getlynx.io:50004"
+            },
+            {
+                "url": "electrum7.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum7.getlynx.io:50004"
+            },
+            {
+                "url": "electrum8.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum8.getlynx.io:50004"
+            },
+            {
+                "url": "electrum9.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum9.getlynx.io:50004"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "MANA-ERC20": {
         "coin": "MANA-ERC20",
         "type": "ERC-20",
@@ -24662,14 +24616,6 @@
         "derivation_path": "m/44'/130'",
         "electrum": [
             {
-                "url": "88.99.26.209:5061"
-            },
-            {
-                "url": "electrum.nav.community:40002",
-                "protocol": "SSL",
-                "ws_url": "electrum.nav.community:40004"
-            },
-            {
                 "url": "electrum2.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum2.nav.community:40004"
@@ -26490,46 +26436,6 @@
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "PIVX": {
-        "coin": "PIVX",
-        "type": "UTXO",
-        "name": "PIVX",
-        "coinpaprika_id": "pivx-pivx",
-        "coingecko_id": "pivx",
-        "livecoinwatch_id": "PIVX",
-        "explorer_url": "https://chainz.cryptoid.info/pivx/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "PIVX",
-        "rpcport": 51473,
-        "pubtype": 30,
-        "p2shtype": 13,
-        "wiftype": 212,
-        "txfee": 100000,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/119'",
-        "electrum": [
-            {
-                "url": "electrum01.pivx.org:50001",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "PND": {
         "coin": "PND",
@@ -36239,6 +36145,55 @@
                     },
                     {
                         "github": "Miner113"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "VPRM": {
+        "coin": "VPRM",
+        "type": "Smart Chain",
+        "name": "Vaporum",
+        "coinpaprika_id": "vprm-vaporum-coin",
+        "coingecko_id": "vaporum-coin",
+        "livecoinwatch_id": "VPRM",
+        "explorer_url": "http://explorer.vaporumcoin.us/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "VPRM",
+        "fname": "Vaporum",
+        "rpcport": 51609,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 30,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrumx1.vaporumcoin.us:50001",
+                "contact": [
+                    {
+                        "github": "VaporumCoin"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.vaporumcoin.us:50001",
+                "contact": [
+                    {
+                        "github": "VaporumCoin"
                     }
                 ]
             }
