@@ -22277,6 +22277,46 @@
         ],
         "explorer_block_url": "block/"
     },
+    "LYNX": {
+        "coin": "LYNX",
+        "type": "UTXO",
+        "name": "Lynx",
+        "coinpaprika_id": "lynx-lynx",
+        "coingecko_id": "lynx",
+        "livecoinwatch_id": "LYNX",
+        "explorer_url": "https://chainz.cryptoid.info/lynx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Lynx Signed Message:\n",
+        "fname": "Lynx",
+        "rpcport": 9332,
+        "pubtype": 45,
+        "p2shtype": 22,
+        "wiftype": 173,
+        "txfee": 0,
+        "dust": 54600,
+        "segwit": false,
+        "mm2": 1,
+        "required_confirmations": 1,
+        "avg_blocktime": 1200,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/191'",
+        "electrum": [
+            {
+                "url": "electrum7.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum7.getlynx.io:50004"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "MANA-ERC20": {
         "coin": "MANA-ERC20",
         "type": "ERC-20",
