@@ -3004,24 +3004,6 @@
     "derivation_path": "m/44'/966'"
   },
   {
-    "coin": "CRYPTO",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "CRYPTO",
-    "fname": "Crypto777",
-    "rpcport": 8516,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": true,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
     "coin": "CUMMIES-BEP20",
     "name": "cummies_bep20",
     "fname": "CumRocket",
@@ -3336,7 +3318,6 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
     "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
@@ -12042,6 +12023,25 @@
       }
     },
     "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "WLD-ERC20",
+    "name": "wld_erc20",
+    "fname": "Worldcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x163f8C2467924be0ae7B5347228CABF260318753"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "WOO-ERC20",
