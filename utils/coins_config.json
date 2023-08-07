@@ -2057,6 +2057,11 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
+            },
+            {
+                "url": "lenoir.ecoincore.com:12343",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -2246,49 +2251,6 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "AVN": {
-        "coin": "AVN",
-        "type": "UTXO",
-        "name": "Avian",
-        "coinpaprika_id": "avn-avian",
-        "coingecko_id": "avian-network",
-        "livecoinwatch_id": "_AVN",
-        "explorer_url": "https://explorer-us.avn.network/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Avian",
-        "rpcport": 7896,
-        "pubtype": 60,
-        "p2shtype": 122,
-        "wiftype": 128,
-        "segwit": false,
-        "fork_id": "0x40",
-        "signature_version": "base",
-        "txfee": 1000000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 30,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/921'",
-        "electrum": [
-            {
-                "url": "electrum-us.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "alamshafil@pm.me"
-                    }
-                ]
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "AVN-PLG20": {
@@ -10325,6 +10287,17 @@
                     }
                 ],
                 "ws_url": "electrumx1.diminutivecoin.com:50013"
+            },
+            {
+                "url": "electrumx2.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    }
+                ],
+                "ws_url": "electrumx2.diminutivecoin.com:50013"
             }
         ],
         "explorer_block_url": "block/"
@@ -10879,7 +10852,8 @@
         "electrum": [
             {
                 "url": "dogec-one.ewm-cx.com:50006",
-                "protocol": "TCP"
+                "protocol": "TCP",
+                "ws_url": "dogec-one.ewm-cx.com:50008"
             }
         ],
         "explorer_block_url": "block/"
@@ -32861,7 +32835,31 @@
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -36463,6 +36461,9 @@
                 "url": "88.99.26.209:5028"
             },
             {
+                "url": "electrumx-brn.webhop.me:55001"
+            },
+            {
                 "url": "electrumx.javerity.com:5885",
                 "ws_url": "electrumx.javerity.com:5887",
                 "contact": [
@@ -36517,6 +36518,9 @@
         "electrum": [
             {
                 "url": "88.99.26.209:5028"
+            },
+            {
+                "url": "electrumx-brn.webhop.me:55001"
             },
             {
                 "url": "electrumx.javerity.com:5885",
@@ -39521,6 +39525,12 @@
                 "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx2.runonflux.io:50004"
+            },
+            {
+                "url": "electrumx.runonflux.io:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrumx.runonflux.io:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -42310,6 +42320,15 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
+            {
+                "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
             {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
