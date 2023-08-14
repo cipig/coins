@@ -6988,12 +6988,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "holland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "holland.ecoincore.com:34335"
-            },
-            {
                 "url": "lenoir.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -7071,12 +7065,6 @@
                 "url": "chicago.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "holland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "holland.ecoincore.com:34335"
             },
             {
                 "url": "lenoir.ecoincore.com:34333",
@@ -15067,6 +15055,16 @@
                 ]
             },
             {
+                "url": "au.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
                 "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -15075,6 +15073,36 @@
                     }
                 ],
                 "ws_url": "electrum.maxpuig.com:50004"
+            },
+            {
+                "url": "fr.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
+                "url": "pl.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
+                "url": "uk.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -15368,18 +15396,6 @@
                 ]
             },
             {
-                "url": "electrum21.groestlcoin.org:50001",
-                "ws_url": "electrum21.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum22.groestlcoin.org:50001",
                 "ws_url": "electrum22.groestlcoin.org:50004",
                 "contact": [
@@ -15634,18 +15650,6 @@
             {
                 "url": "electrum6.groestlcoin.org:50001",
                 "ws_url": "electrum6.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum7.groestlcoin.org:50001",
-                "ws_url": "electrum7.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -15858,18 +15862,6 @@
                 ]
             },
             {
-                "url": "electrum21.groestlcoin.org:50001",
-                "ws_url": "electrum21.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum22.groestlcoin.org:50001",
                 "ws_url": "electrum22.groestlcoin.org:50004",
                 "contact": [
@@ -16124,18 +16116,6 @@
             {
                 "url": "electrum6.groestlcoin.org:50001",
                 "ws_url": "electrum6.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum7.groestlcoin.org:50001",
-                "ws_url": "electrum7.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -25651,15 +25631,6 @@
         },
         "derivation_path": "m/44'/119'",
         "electrum": [
-            {
-                "url": "electrum01.chainster.org:50001",
-                "ws_url": "electrum01.chainster.org:50003",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
-            },
             {
                 "url": "electrum02.chainster.org:50001",
                 "ws_url": "electrum02.chainster.org:50003",
@@ -41028,6 +40999,61 @@
                 "contact": [
                     {
                         "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "USBL": {
+        "coin": "USBL",
+        "type": "UTXO",
+        "name": "Balanced Dollar",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://softbalanced.com:3001/insight/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Balanced Dollar",
+        "confpath": "USERHOME/.bitdollar/bitdollar.conf",
+        "rpcport": 35573,
+        "pubtype": 65,
+        "p2shtype": 66,
+        "wiftype": 193,
+        "txfee": 0,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "swap.softbalanced.com:50001",
+                "contact": [
+                    {
+                        "email": "dev@softbalanced.com"
+                    },
+                    {
+                        "discord": "softbalanced#4045"
+                    }
+                ]
+            },
+            {
+                "url": "swap.softbalanced.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "dev@softbalanced.com"
+                    },
+                    {
+                        "discord": "softbalanced#4045"
                     }
                 ]
             }
