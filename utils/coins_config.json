@@ -2260,9 +2260,9 @@
         "coinpaprika_id": "avn-avian",
         "coingecko_id": "avian-network",
         "livecoinwatch_id": "_AVN",
-        "explorer_url": "https://explorer.avn.network/",
-        "explorer_tx_url": "tx/?txid=",
-        "explorer_address_url": "address/?address=",
+        "explorer_url": "https://explorer-us.avn.network/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -2286,6 +2286,14 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
+                "url": "electrum-ca.avn.network:50001",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ]
+            },
+            {
                 "url": "electrum-eu.avn.network:50001",
                 "contact": [
                     {
@@ -2302,12 +2310,14 @@
                 ]
             },
             {
-                "url": "electrum-ca.avn.network:50001",
+                "url": "electrum-ca.avn.network:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "contact@avn.network"
                     }
-                ]
+                ],
+                "ws_url": "electrum-ca.avn.network:50003"
             },
             {
                 "url": "electrum-eu.avn.network:50002",
@@ -2328,19 +2338,9 @@
                     }
                 ],
                 "ws_url": "electrum-us.avn.network:50003"
-            },
-            {
-                "url": "electrum-ca.avn.network:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ],
-                "ws_url": "electrum-ca.avn.network:50003"
             }
         ],
-        "explorer_block_url": "block/?blockhash="
+        "explorer_block_url": "block/"
     },
     "AVN-PLG20": {
         "coin": "AVN-PLG20",
@@ -15667,6 +15667,18 @@
                 ]
             },
             {
+                "url": "electrum7.groestlcoin.org:50001",
+                "ws_url": "electrum7.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
                 "url": "electrum8.groestlcoin.org:50001",
                 "ws_url": "electrum8.groestlcoin.org:50004",
                 "contact": [
@@ -16135,6 +16147,18 @@
             {
                 "url": "electrum6.groestlcoin.org:50001",
                 "ws_url": "electrum6.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum7.groestlcoin.org:50001",
+                "ws_url": "electrum7.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -21907,11 +21931,6 @@
                 "url": "electrum7.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum7.getlynx.io:50004"
-            },
-            {
-                "url": "electrum8.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum8.getlynx.io:50004"
             },
             {
                 "url": "electrum9.getlynx.io:50002",
@@ -36379,55 +36398,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.neurai.org:19011",
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ],
-                "ws_url": "electrumx1.neurai.org:19013"
-            },
-            {
-                "url": "electrumx2.neurai.org:19011",
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ],
-                "ws_url": "electrumx2.neurai.org:19013"
-            },
-            {
-                "url": "electrumx3.neurai.org:19011",
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ],
-                "ws_url": "electrumx3.neurai.org:19013"
-            },
-            {
-                "url": "electrumx4.neurai.org:19011",
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ],
-                "ws_url": "electrumx4.neurai.org:19013"
-            },
-            {
-                "url": "electrumx1.neurai.org:19012",
+                "url": "electrumx1.neurai.top:50001",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -36437,10 +36408,10 @@
                         "discord": "456566604809895947"
                     }
                 ],
-                "ws_url": "electrumx1.neurai.org:19014"
+                "ws_url": "electrumx1.neurai.top:50002"
             },
             {
-                "url": "electrumx2.neurai.org:19012",
+                "url": "electrumx2.neurai.top:50001",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -36450,10 +36421,10 @@
                         "discord": "456566604809895947"
                     }
                 ],
-                "ws_url": "electrumx2.neurai.org:19014"
+                "ws_url": "electrumx2.neurai.top:50002"
             },
             {
-                "url": "electrumx3.neurai.org:19012",
+                "url": "electrumx3.neurai.top:50001",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -36463,20 +36434,7 @@
                         "discord": "456566604809895947"
                     }
                 ],
-                "ws_url": "electrumx3.neurai.org:19014"
-            },
-            {
-                "url": "electrumx4.neurai.org:19012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ],
-                "ws_url": "electrumx4.neurai.org:19014"
+                "ws_url": "electrumx3.neurai.top:50002"
             }
         ],
         "explorer_block_url": "block/"
@@ -36560,6 +36518,11 @@
         },
         "derivation_path": "m/44'/2137'",
         "electrum": [
+            {
+                "url": "blackie.c3-soft.com:52138",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
             {
                 "url": "fulcrum.ergon.network:52138",
                 "protocol": "SSL",
@@ -41153,6 +41116,94 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "UFO": {
+        "coin": "UFO",
+        "type": "UTXO",
+        "name": "Uniform Fiscal Object",
+        "coinpaprika_id": "ufo-uniform-fiscal-object",
+        "coingecko_id": "ufocoin",
+        "livecoinwatch_id": "UFO",
+        "explorer_url": "https://chainz.cryptoid.info/ufo/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "UFO Signed Message:\n",
+        "fname": "Uniform Fiscal Object",
+        "rpcport": 8087,
+        "pubtype": 27,
+        "p2shtype": 68,
+        "wiftype": 155,
+        "txfee": 100000,
+        "segwit": true,
+        "bech32_hrp": "uf",
+        "mm2": 1,
+        "required_confirmations": 6,
+        "avg_blocktime": 1.5,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/202'",
+        "links": {
+            "github": "https://github.com/fiscalobject/ufo",
+            "homepage": "https://ufobject.com"
+        },
+        "electrum": [
+            {
+                "url": "btg.e4pool.com:50001"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
+    "UFO-segwit": {
+        "coin": "UFO-segwit",
+        "type": "UTXO",
+        "name": "Uniform Fiscal Object",
+        "coinpaprika_id": "ufo-uniform-fiscal-object",
+        "coingecko_id": "ufocoin",
+        "livecoinwatch_id": "UFO",
+        "explorer_url": "https://chainz.cryptoid.info/ufo/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "UFO Signed Message:\n",
+        "fname": "Uniform Fiscal Object",
+        "rpcport": 8087,
+        "pubtype": 27,
+        "p2shtype": 68,
+        "wiftype": 155,
+        "txfee": 100000,
+        "segwit": true,
+        "bech32_hrp": "uf",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "UFO",
+        "mm2": 1,
+        "required_confirmations": 6,
+        "avg_blocktime": 1.5,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/202'",
+        "links": {
+            "github": "https://github.com/fiscalobject/ufo",
+            "homepage": "https://ufobject.com"
+        },
+        "electrum": [
+            {
+                "url": "btg.e4pool.com:50001"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "USBL": {
         "coin": "USBL",
