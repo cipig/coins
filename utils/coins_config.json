@@ -11224,7 +11224,7 @@
         "type": "Smart Chain",
         "name": "DigitalPrice",
         "coinpaprika_id": "dp-digitalprice",
-        "coingecko_id": "digitalprice",
+        "coingecko_id": "test-coin",
         "livecoinwatch_id": "DP",
         "explorer_url": "https://dp.explorer.dexstats.info/",
         "explorer_tx_url": "",
@@ -32824,14 +32824,6 @@
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
         "electrum": [
-            {
-                "url": "1.eu.thc.electrum.dexstats.info:10020",
-                "contact": [
-                    {
-                        "discord": "CHMEX#0686"
-                    }
-                ]
-            },
             {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
                 "contact": [
