@@ -14813,7 +14813,7 @@
         "type": "ERC-20",
         "name": "Gala",
         "coinpaprika_id": "gala-gala",
-        "coingecko_id": "gala",
+        "coingecko_id": "test-coin",
         "livecoinwatch_id": "GALA",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "tx/",
@@ -42734,6 +42734,15 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
+            {
+                "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
             {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
