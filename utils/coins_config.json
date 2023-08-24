@@ -22801,7 +22801,7 @@
         "type": "UTXO",
         "name": "Lynx",
         "coinpaprika_id": "lynx-lynx",
-        "coingecko_id": "lynx",
+        "coingecko_id": "test-coin",
         "livecoinwatch_id": "LYNX",
         "explorer_url": "https://chainz.cryptoid.info/lynx/",
         "explorer_tx_url": "tx.dws?",
@@ -42782,15 +42782,6 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
-            {
-                "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
             {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
