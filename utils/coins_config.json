@@ -4686,7 +4686,7 @@
         "type": "UTXO",
         "name": "BlackCoin",
         "coinpaprika_id": "blk-blackcoin",
-        "coingecko_id": "test-coin",
+        "coingecko_id": "blackcoin",
         "livecoinwatch_id": "BLK",
         "explorer_url": "https://chainz.cryptoid.info/blk/",
         "explorer_tx_url": "tx.dws?",
@@ -4781,7 +4781,7 @@
         "type": "BEP-20",
         "name": "BlackCoin",
         "coinpaprika_id": "blk-blackcoin",
-        "coingecko_id": "test-coin",
+        "coingecko_id": "blackcoin",
         "livecoinwatch_id": "BLK",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
@@ -7389,12 +7389,6 @@
                 "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "woolloomooloo.ecoincore.com:34335"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -7446,12 +7440,6 @@
                 "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "woolloomooloo.ecoincore.com:34335"
             }
         ],
         "explorer_block_url": "block.dws?"
