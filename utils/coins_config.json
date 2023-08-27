@@ -15133,16 +15133,6 @@
                 ]
             },
             {
-                "url": "au.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
                 "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -15738,18 +15728,6 @@
                 ]
             },
             {
-                "url": "electrum6.groestlcoin.org:50001",
-                "ws_url": "electrum6.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum7.groestlcoin.org:50001",
                 "ws_url": "electrum7.groestlcoin.org:50004",
                 "contact": [
@@ -16218,18 +16196,6 @@
             {
                 "url": "electrum5.groestlcoin.org:50001",
                 "ws_url": "electrum5.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum6.groestlcoin.org:50001",
-                "ws_url": "electrum6.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -29991,18 +29957,6 @@
                 "ws_url": "electrum2.cipig.net:30011"
             },
             {
-                "url": "electrum3.cipig.net:10011",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30011"
-            },
-            {
                 "url": "electrum1.cipig.net:20011",
                 "protocol": "SSL",
                 "contact": [
@@ -30016,18 +29970,6 @@
             },
             {
                 "url": "electrum2.cipig.net:20011",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:20011",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -35116,34 +35058,6 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "el0.verus.io:17485",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ]
-            },
-            {
-                "url": "el1.verus.io:17485",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ]
-            },
-            {
                 "url": "el2.verus.io:17485",
                 "contact": [
                     {
@@ -35156,40 +35070,6 @@
                         "keybase": "bloodynora"
                     }
                 ]
-            },
-            {
-                "url": "el0.verus.io:17486",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false,
-                "ws_url": "el0.verus.io:17488"
-            },
-            {
-                "url": "el1.verus.io:17486",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false,
-                "ws_url": "el1.verus.io:17488"
             },
             {
                 "url": "el2.verus.io:17486",
@@ -35364,9 +35244,6 @@
                 "url": "88.99.26.209:5028"
             },
             {
-                "url": "electrumx-brn.webhop.me:55001"
-            },
-            {
                 "url": "electrumx.javerity.com:5885",
                 "ws_url": "electrumx.javerity.com:5887",
                 "contact": [
@@ -35421,9 +35298,6 @@
         "electrum": [
             {
                 "url": "88.99.26.209:5028"
-            },
-            {
-                "url": "electrumx-brn.webhop.me:55001"
             },
             {
                 "url": "electrumx.javerity.com:5885",
