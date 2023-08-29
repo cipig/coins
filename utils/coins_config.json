@@ -15738,18 +15738,6 @@
                 ]
             },
             {
-                "url": "electrum6.groestlcoin.org:50001",
-                "ws_url": "electrum6.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum7.groestlcoin.org:50001",
                 "ws_url": "electrum7.groestlcoin.org:50004",
                 "contact": [
@@ -16218,18 +16206,6 @@
             {
                 "url": "electrum5.groestlcoin.org:50001",
                 "ws_url": "electrum5.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum6.groestlcoin.org:50001",
-                "ws_url": "electrum6.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -29967,18 +29943,6 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrum1.cipig.net:10011",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum1.cipig.net:30011"
-            },
-            {
                 "url": "electrum2.cipig.net:10011",
                 "contact": [
                     {
@@ -29991,43 +29955,7 @@
                 "ws_url": "electrum2.cipig.net:30011"
             },
             {
-                "url": "electrum3.cipig.net:10011",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30011"
-            },
-            {
-                "url": "electrum1.cipig.net:20011",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.cipig.net:20011",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:20011",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -35364,9 +35292,6 @@
                 "url": "88.99.26.209:5028"
             },
             {
-                "url": "electrumx-brn.webhop.me:55001"
-            },
-            {
                 "url": "electrumx.javerity.com:5885",
                 "ws_url": "electrumx.javerity.com:5887",
                 "contact": [
@@ -35421,9 +35346,6 @@
         "electrum": [
             {
                 "url": "88.99.26.209:5028"
-            },
-            {
-                "url": "electrumx-brn.webhop.me:55001"
             },
             {
                 "url": "electrumx.javerity.com:5885",
@@ -41196,6 +41118,15 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
+            {
+                "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
             {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
