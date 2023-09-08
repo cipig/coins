@@ -1796,7 +1796,12 @@
         "currently_enabled": false,
         "wallet_only": false,
         "light_wallet_d_servers": [
-            "http://node1.chainkeeper.pro:443"
+            "https://pirate.spyglass.quest:9447",
+            "https://lightd1.pirate.black:443",
+            "https://piratelightd1.cryptoforge.cc:443",
+            "https://piratelightd2.cryptoforge.cc:443 ",
+            "https://piratelightd3.cryptoforge.cc:443",
+            "https://piratelightd4.cryptoforge.cc:443"
         ],
         "asset": "PIRATE",
         "fname": "Pirate",
@@ -7212,10 +7217,37 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
-                "url": "mumbai.ecoincore.com:34333",
+                "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "lenoir.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
-                "ws_url": "mumbai.ecoincore.com:34335"
+                "ws_url": "lenoir.ecoincore.com:34335"
+            },
+            {
+                "url": "miami.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "miami.ecoincore.com:34335"
+            },
+            {
+                "url": "oakland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "seattle.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "woolloomooloo.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "woolloomooloo.ecoincore.com:34335"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -7258,10 +7290,37 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
-                "url": "mumbai.ecoincore.com:34333",
+                "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "lenoir.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
-                "ws_url": "mumbai.ecoincore.com:34335"
+                "ws_url": "lenoir.ecoincore.com:34335"
+            },
+            {
+                "url": "miami.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "miami.ecoincore.com:34335"
+            },
+            {
+                "url": "oakland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "seattle.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "woolloomooloo.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "woolloomooloo.ecoincore.com:34335"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -25815,8 +25874,7 @@
         "derivation_path": "m/44'/37'",
         "electrum": [
             {
-                "url": "electrum.thepandacoin.net:50002",
-                "protocol": "SSL",
+                "url": "electrum.thepandacoin.net:50001",
                 "ws_url": "electrum.thepandacoin.net:443"
             }
         ],
