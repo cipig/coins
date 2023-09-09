@@ -15694,18 +15694,6 @@
                 ]
             },
             {
-                "url": "electrum31.groestlcoin.org:50001",
-                "ws_url": "electrum31.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum32.groestlcoin.org:50001",
                 "ws_url": "electrum32.groestlcoin.org:50004",
                 "contact": [
@@ -16162,18 +16150,6 @@
             {
                 "url": "electrum30.groestlcoin.org:50001",
                 "ws_url": "electrum30.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum31.groestlcoin.org:50001",
-                "ws_url": "electrum31.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -28042,11 +28018,6 @@
                 "ws_url": "electrum01.reddcoin.com:50004"
             },
             {
-                "url": "electrum02.reddcoin.com:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum02.reddcoin.com:50004"
-            },
-            {
                 "url": "electrum03.reddcoin.com:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum03.reddcoin.com:50004"
@@ -34648,14 +34619,6 @@
         },
         "electrum": [
             {
-                "url": "e1.validitytech.com:11001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "e2.validitytech.com:11001",
                 "contact": [
                     {
@@ -34670,17 +34633,6 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
-            },
-            {
-                "url": "e1.validitytech.com:11002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "ws_url": "e1.validitytech.com:11004"
             },
             {
                 "url": "e2.validitytech.com:11002",
@@ -35270,69 +35222,6 @@
                 ],
                 "disable_cert_verification": false,
                 "ws_url": "el2.verus.io:17488"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "GRMS": {
-        "coin": "GRMS",
-        "type": "Smart Chain",
-        "name": "GRMS",
-        "coinpaprika_id": "grms-grms",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.grms.pw/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "GRMS",
-        "fname": "GRMS",
-        "rpcport": 21687,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum1.grms.pw:17485",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ],
-                "ws_url": "electrum1.grms.pw:50004"
-            },
-            {
-                "url": "electrum1.grms.pw:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -42554,6 +42443,54 @@
                     }
                 ],
                 "ws_url": "electrum2-mainnet.evrmorecoin.org:50004"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BKC": {
+        "coin": "BKC",
+        "type": "UTXO",
+        "name": "Bunkercoin",
+        "coinpaprika_id": "bkc-bunkercoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://bkcexplorer.bunker.mt/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bunkercoin Signed Message:\n",
+        "fname": "Bunkercoin",
+        "rpcport": 22555,
+        "pubtype": 25,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "txfee": 1000000,
+        "force_min_relay_fee": true,
+        "dust": 1000000,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/3'",
+        "links": {
+            "github": "https://github.com/bunkercoin/bunkercoin",
+            "homepage": "https://bunkercoin.org"
+        },
+        "electrum": [
+            {
+                "url": "bunkerelectrum.bunker.mt:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "bunkermatty#5308"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
