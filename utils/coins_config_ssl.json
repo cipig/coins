@@ -1580,6 +1580,12 @@
         "currently_enabled": false,
         "wallet_only": false,
         "light_wallet_d_servers": [
+            "https://pirate.spyglass.quest:9447",
+            "https://lightd1.pirate.black:443",
+            "https://piratelightd1.cryptoforge.cc:443",
+            "https://piratelightd2.cryptoforge.cc:443",
+            "https://piratelightd3.cryptoforge.cc:443",
+            "https://piratelightd4.cryptoforge.cc:443",
             "https://electrum1.cipig.net:9447",
             "https://electrum2.cipig.net:9447",
             "https://electrum3.cipig.net:9447"
@@ -9161,6 +9167,29 @@
         },
         "electrum": [
             {
+                "url": "electrumx1.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    },
+                    {
+                        "twitter": "coin_dimi"
+                    },
+                    {
+                        "reddit": "DiminutiveCoin_DIMI"
+                    },
+                    {
+                        "github": "MadCatMining"
+                    },
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "electrumx1.diminutivecoin.com:50013"
+            },
+            {
                 "url": "electrumx2.diminutivecoin.com:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -13505,6 +13534,16 @@
         },
         "derivation_path": "m/44'/69420'",
         "electrum": [
+            {
+                "url": "au.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
             {
                 "url": "fr.garlium.crapules.org:50002",
                 "protocol": "SSL",
@@ -37326,16 +37365,6 @@
         },
         "electrum": [
             {
-                "url": "electrum.seed.mazanode.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
-                    }
-                ],
-                "ws_url": "electrum.seed.mazanode.com:50005"
-            },
-            {
                 "url": "electrumx.mazanode.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -37344,19 +37373,6 @@
                     }
                 ],
                 "ws_url": "electrumx.mazanode.com:50005"
-            },
-            {
-                "url": "electrumx2.mazacha.in:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@mazacoin.org"
-                    },
-                    {
-                        "discord": "sherm77#5923"
-                    }
-                ],
-                "ws_url": "electrumx2.mazacha.in:50005"
             }
         ],
         "explorer_block_url": "block/"
