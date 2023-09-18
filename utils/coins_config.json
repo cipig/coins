@@ -2118,11 +2118,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
-            },
-            {
-                "url": "lenoir.ecoincore.com:12343",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -7187,148 +7182,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "CDN": {
-        "coin": "CDN",
-        "type": "UTXO",
-        "name": "Canada eCoin",
-        "coinpaprika_id": "cdn-canada-ecoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "CDN",
-        "explorer_url": "https://chainz.cryptoid.info/cdn/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Canada eCoin Signed Message:\n",
-        "fname": "Canada eCoin",
-        "rpcport": 34330,
-        "pubtype": 28,
-        "p2shtype": 5,
-        "wiftype": 156,
-        "txfee": 200000,
-        "dust": 54600,
-        "segwit": true,
-        "bech32_hrp": "cdn",
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 300,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/34'",
-        "electrum": [
-            {
-                "url": "chicago.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "lenoir.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:34335"
-            },
-            {
-                "url": "miami.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "miami.ecoincore.com:34335"
-            },
-            {
-                "url": "oakland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "seattle.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "woolloomooloo.ecoincore.com:34335"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
-    "CDN-segwit": {
-        "coin": "CDN-segwit",
-        "type": "UTXO",
-        "name": "Canada eCoin",
-        "coinpaprika_id": "cdn-canada-ecoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "CDN",
-        "explorer_url": "https://chainz.cryptoid.info/cdn/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Canada eCoin Signed Message:\n",
-        "fname": "Canada eCoin",
-        "rpcport": 34330,
-        "pubtype": 28,
-        "p2shtype": 5,
-        "wiftype": 156,
-        "txfee": 200000,
-        "dust": 54600,
-        "segwit": true,
-        "bech32_hrp": "cdn",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "CDN",
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 300,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/34'",
-        "electrum": [
-            {
-                "url": "chicago.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "lenoir.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:34335"
-            },
-            {
-                "url": "miami.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "miami.ecoincore.com:34335"
-            },
-            {
-                "url": "oakland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "seattle.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "woolloomooloo.ecoincore.com:34335"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
     "CEL-ERC20": {
         "coin": "CEL-ERC20",
         "type": "ERC-20",
@@ -11315,12 +11168,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum3.egulden.org:50004"
-            },
-            {
-                "url": "holland.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "holland.ecoincore.com:11019"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -36274,96 +36121,6 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
-    },
-    "XMY": {
-        "coin": "XMY",
-        "type": "UTXO",
-        "name": "Myriad",
-        "coinpaprika_id": "xmy-myriad",
-        "coingecko_id": "myriadcoin",
-        "livecoinwatch_id": "XMY",
-        "explorer_url": "https://chainz.cryptoid.info/xmy/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Myriad",
-        "rpcport": 8332,
-        "pubtype": 50,
-        "p2shtype": 9,
-        "wiftype": 178,
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "my",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 240,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/90'",
-        "electrum": [
-            {
-                "url": "lenoir.ecoincore.com:10891",
-                "protocol": "TCP",
-                "ws_url": "lenoir.ecoincore.com:10894"
-            },
-            {
-                "url": "lenoir.ecoincore.com:10892",
-                "protocol": "SSL"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
-    "XMY-segwit": {
-        "coin": "XMY-segwit",
-        "type": "UTXO",
-        "name": "Myriad",
-        "coinpaprika_id": "xmy-myriad",
-        "coingecko_id": "myriadcoin",
-        "livecoinwatch_id": "XMY",
-        "explorer_url": "https://chainz.cryptoid.info/xmy/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Myriad",
-        "rpcport": 8332,
-        "pubtype": 50,
-        "p2shtype": 9,
-        "wiftype": 178,
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "my",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "XMY",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 240,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/90'",
-        "electrum": [
-            {
-                "url": "lenoir.ecoincore.com:10891",
-                "protocol": "TCP",
-                "ws_url": "lenoir.ecoincore.com:10894"
-            },
-            {
-                "url": "lenoir.ecoincore.com:10892",
-                "protocol": "SSL"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "XNA": {
         "coin": "XNA",
