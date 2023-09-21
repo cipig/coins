@@ -7377,6 +7377,12 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "lenoir.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:34335"
+            },
+            {
                 "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -7388,21 +7394,10 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "seattle.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "woolloomooloo.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "woolloomooloo.ecoincore.com:34335"
-            },
-            {
-                "url": "lenoir.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:34335"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -7450,6 +7445,12 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "lenoir.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:34335"
+            },
+            {
                 "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -7461,21 +7462,10 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "seattle.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "woolloomooloo.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "woolloomooloo.ecoincore.com:34335"
-            },
-            {
-                "url": "lenoir.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:34335"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -9225,19 +9215,6 @@
                         "discord": "ruaxxx#3151"
                     }
                 ]
-            },
-            {
-                "url": "electrum01.cyberyen.work:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum01.cyberyen.work:50004",
-                "contact": [
-                    {
-                        "email": "ruaxxx@ruaxxx.com"
-                    },
-                    {
-                        "discord": "ruaxxx#3151"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -9299,19 +9276,6 @@
                 "url": "electrum03.cyberyen.work:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum03.cyberyen.work:50004",
-                "contact": [
-                    {
-                        "email": "ruaxxx@ruaxxx.com"
-                    },
-                    {
-                        "discord": "ruaxxx#3151"
-                    }
-                ]
-            },
-            {
-                "url": "electrum01.cyberyen.work:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum01.cyberyen.work:50004",
                 "contact": [
                     {
                         "email": "ruaxxx@ruaxxx.com"
@@ -16162,18 +16126,6 @@
                 ]
             },
             {
-                "url": "electrum32.groestlcoin.org:50001",
-                "ws_url": "electrum32.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum11.groestlcoin.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -16618,18 +16570,6 @@
             {
                 "url": "electrum9.groestlcoin.org:50001",
                 "ws_url": "electrum9.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum32.groestlcoin.org:50001",
-                "ws_url": "electrum32.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -42961,25 +42901,6 @@
                 ]
             },
             {
-                "url": "electrum.seed.mazanode.com:50001",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx1.mazacha.in:50001",
-                "contact": [
-                    {
-                        "email": "contact@mazacoin.org"
-                    },
-                    {
-                        "discord": "sherm77#5923"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.mazanode.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -43001,29 +42922,6 @@
                     }
                 ],
                 "ws_url": "electrumx2.mazacha.in:50005"
-            },
-            {
-                "url": "electrum.seed.mazanode.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
-                    }
-                ],
-                "ws_url": "electrum.seed.mazanode.com:50005"
-            },
-            {
-                "url": "electrumx1.mazacha.in:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@mazacoin.org"
-                    },
-                    {
-                        "discord": "sherm77#5923"
-                    }
-                ],
-                "ws_url": "electrumx1.mazacha.in:50005"
             }
         ],
         "explorer_block_url": "block/"
