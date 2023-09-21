@@ -4010,6 +4010,46 @@
         "token_address_url": "token/",
         "explorer_block_url": "block/"
     },
+    "BBK": {
+        "coin": "BBK",
+        "type": "UTXO",
+        "name": "BitBlocks",
+        "coinpaprika_id": "bbk-bitblocks",
+        "coingecko_id": "",
+        "livecoinwatch_id": "BBK",
+        "explorer_url": "https://bbk.ccore.online/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "DarkNet Signed Message:\n",
+        "fname": "BitBlocks",
+        "rpcport": 59768,
+        "pubtype": 25,
+        "p2shtype": 85,
+        "wiftype": 107,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/BitBlocksProject/BitBlocks",
+            "homepage": "https://bitblocksproject.com"
+        },
+        "electrum": [
+            {
+                "url": "bbk-one.ewm-cx.net:50001",
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "BBK-BEP20": {
         "coin": "BBK-BEP20",
         "type": "BEP-20",
@@ -5367,22 +5407,8 @@
         },
         "electrum": [
             {
-                "url": "bsty-bkp.coinmunity.gold:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "bsty-bkp.coinmunity.gold:50013"
-            },
-            {
-                "url": "bsty-main.coinmunity.gold:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "bsty-main.coinmunity.gold:50013"
-            },
-            {
-                "url": "bsty-bkp.coinmunity.gold:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "bsty-bkp.coinmunity.gold:50013"
+                "url": "66.172.33.56:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -5422,22 +5448,8 @@
         },
         "electrum": [
             {
-                "url": "bsty-bkp.coinmunity.gold:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "bsty-bkp.coinmunity.gold:50013"
-            },
-            {
-                "url": "bsty-main.coinmunity.gold:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "bsty-main.coinmunity.gold:50013"
-            },
-            {
-                "url": "bsty-bkp.coinmunity.gold:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "bsty-bkp.coinmunity.gold:50013"
+                "url": "66.172.33.56:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -29566,18 +29578,7 @@
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
             },
             {
-                "url": "1.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            },
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -29587,7 +29588,18 @@
                         "discord": "chmex#0686"
                     }
                 ],
-                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
+                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
+                "url": "1.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
