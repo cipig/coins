@@ -23075,6 +23075,73 @@
         ],
         "explorer_block_url": "block/"
     },
+    "RXD": {
+        "coin": "RXD",
+        "type": "UTXO",
+        "name": "Radiant",
+        "coinpaprika_id": "rxd-radiant",
+        "coingecko_id": "radiant",
+        "livecoinwatch_id": "RXD",
+        "explorer_url": "https://radiantexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Radiant",
+        "rpcport": 7334,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 0.003,
+        "dust": 1e-07,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 300,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/0'",
+        "links": {
+            "github": "https://github.com/RadiantBlockchain",
+            "homepage": "https://radiantblockchain.org"
+        },
+        "electrum": [
+            {
+                "url": "electrumx-dex01.radiantexplorer.com:40001",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "info@radiant4people.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx-dex02.radiantexplorer.com:40001",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "info@radiant4people.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx-dex02.radiantexplorer.com:40001",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "info@radiant4people.com"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "DOC": {
         "coin": "DOC",
         "type": "Smart Chain",
