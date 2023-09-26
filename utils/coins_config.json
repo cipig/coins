@@ -14106,6 +14106,16 @@
                 "ws_url": "electrum.maxpuig.com:50004"
             },
             {
+                "url": "fr.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
                 "url": "pl.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -14619,18 +14629,6 @@
                 ]
             },
             {
-                "url": "electrum5.groestlcoin.org:50001",
-                "ws_url": "electrum5.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum7.groestlcoin.org:50001",
                 "ws_url": "electrum7.groestlcoin.org:50004",
                 "contact": [
@@ -15064,18 +15062,6 @@
             {
                 "url": "electrum40.groestlcoin.org:50001",
                 "ws_url": "electrum40.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.groestlcoin.org:50001",
-                "ws_url": "electrum5.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -32109,6 +32095,14 @@
         },
         "electrum": [
             {
+                "url": "e1.validitytech.com:11001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "e2.validitytech.com:11001",
                 "contact": [
                     {
@@ -32123,6 +32117,17 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
+            },
+            {
+                "url": "e1.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "e1.validitytech.com:11004"
             },
             {
                 "url": "e2.validitytech.com:11002",
@@ -37947,61 +37952,6 @@
                 "contact": [
                     {
                         "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "USBL": {
-        "coin": "USBL",
-        "type": "UTXO",
-        "name": "Balanced Dollar",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://softbalanced.com:3001/insight/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Balanced Dollar",
-        "confpath": "USERHOME/.bitdollar/bitdollar.conf",
-        "rpcport": 35573,
-        "pubtype": 65,
-        "p2shtype": 66,
-        "wiftype": 193,
-        "txfee": 0,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 150,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "swap.softbalanced.com:50001",
-                "contact": [
-                    {
-                        "email": "dev@softbalanced.com"
-                    },
-                    {
-                        "discord": "softbalanced#4045"
-                    }
-                ]
-            },
-            {
-                "url": "swap.softbalanced.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "dev@softbalanced.com"
-                    },
-                    {
-                        "discord": "softbalanced#4045"
                     }
                 ]
             }
