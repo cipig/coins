@@ -9800,15 +9800,15 @@
                 "ws-url": "itchy-jellyfish-89.doi.works:50004"
             },
             {
-                "url": "pink-deer-69.doi.works:50002",
+                "url": "ugly-bird-70.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "github": "https://github.com/namecoin/electrum-nmc/issues",
+                        "github": "https://github.com/doichain/electrum-doi/issues",
                         "twitter": "example_username"
                     }
                 ],
-                "ws-url": "pink-deer-69.doi.works:50004"
+                "ws-url": "ugly-bird-70.doi.works:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -30193,6 +30193,69 @@
         ],
         "explorer_block_url": "block/"
     },
+    "GRMS": {
+        "coin": "GRMS",
+        "type": "Smart Chain",
+        "name": "GRMS",
+        "coinpaprika_id": "grms-grms",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.grms.pw/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "GRMS",
+        "fname": "GRMS",
+        "rpcport": 21687,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrum1.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ],
+                "ws_url": "electrum1.grms.pw:50004"
+            },
+            {
+                "url": "electrum1.grms.pw:17485",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "VPRM": {
         "coin": "VPRM",
         "type": "Smart Chain",
@@ -31419,11 +31482,6 @@
         "electrum": [
             {
                 "url": "fulcrum.ergon.network:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "la.ask.systems:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
