@@ -21927,6 +21927,16 @@
                         "discord": "PRUX-Coin#1668"
                     }
                 ]
+            },
+            {
+                "url": "txserver.live:50002",
+                "protocol": "SSL",
+                "ws_url": "txserver.live:30001",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -33644,6 +33654,15 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
+            {
+                "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
             {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
