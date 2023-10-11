@@ -13656,6 +13656,96 @@
         ],
         "explorer_block_url": "block/"
     },
+    "GBX": {
+        "coin": "GBX",
+        "type": "UTXO",
+        "name": "GoByte",
+        "coinpaprika_id": "gbx-gobyte",
+        "coingecko_id": "gobyte",
+        "livecoinwatch_id": "GBX",
+        "explorer_url": "https://insight.gobyte.network/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkCoin Signed Message:\n",
+        "fname": "GoByte",
+        "confpath": "USERHOME/.gobytecore/gobyte.conf",
+        "rpcport": 12454,
+        "pubtype": 38,
+        "p2shtype": 10,
+        "wiftype": 198,
+        "segwit": false,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/176'",
+        "links": {
+            "github": "https://github.com/gobytecoin/gobyte",
+            "homepage": "https://gobyte.network"
+        },
+        "electrum": [
+            {
+                "url": "88.99.26.209:5128"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "GBX-BEP20": {
+        "coin": "GBX-BEP20",
+        "type": "BEP-20",
+        "name": "GoByte",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "GBX",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "GoByte",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x8E10F08C9A56a93B6adbfBcFda421919B3357596"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0x8E10F08C9A56a93B6adbfBcFda421919B3357596",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
     "GFT-BEP20": {
         "coin": "GFT-BEP20",
         "type": "BEP-20",
@@ -35289,6 +35379,11 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
