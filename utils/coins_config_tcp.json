@@ -25704,7 +25704,7 @@
         "name": "Spacecoin",
         "coinpaprika_id": "space-spacecoin7367",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "__________SPACE",
         "explorer_url": "https://explorer.spaceworks.co/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -32726,6 +32726,11 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
