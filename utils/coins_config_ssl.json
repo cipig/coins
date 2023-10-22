@@ -3577,19 +3577,6 @@
         "slp_prefix": "simpleledger",
         "electrum": [
             {
-                "url": "electrum1.cipig.net:20055",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum1.cipig.net:30055"
-            },
-            {
                 "url": "electrum2.cipig.net:20055",
                 "protocol": "SSL",
                 "contact": [
