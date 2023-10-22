@@ -5377,6 +5377,7 @@
     },
     "orderbook_ticker": "GRS",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 5,
     "avg_blocktime": 60,
     "protocol": {
@@ -10483,6 +10484,7 @@
     "fname": "Swipe",
     "rpcport": 80,
     "mm2": 1,
+    "wallet_only": true,
     "chain_id": 56,
     "avg_blocktime": 3,
     "required_confirmations": 3,
@@ -10501,6 +10503,7 @@
     "fname": "Swipe",
     "rpcport": 80,
     "mm2": 1,
+    "wallet_only": true,
     "chain_id": 1,
     "avg_blocktime": 15,
     "required_confirmations": 3,
