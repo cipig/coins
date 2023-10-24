@@ -5962,14 +5962,6 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
-                "url": "lenoir.ecoincore.com:34335",
-                "protocol": "WSS"
-            },
-            {
-                "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS"
-            },
-            {
                 "url": "woolloomooloo.ecoincore.com:34335",
                 "protocol": "WSS"
             }
@@ -6013,14 +6005,6 @@
         },
         "derivation_path": "m/44'/34'",
         "electrum": [
-            {
-                "url": "lenoir.ecoincore.com:34335",
-                "protocol": "WSS"
-            },
-            {
-                "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS"
-            },
             {
                 "url": "woolloomooloo.ecoincore.com:34335",
                 "protocol": "WSS"
@@ -8958,15 +8942,15 @@
         "derivation_path": "m/44'/78'",
         "electrum": [
             {
+                "url": "electrum1.egulden.org:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum3.egulden.org:50004",
                 "protocol": "WSS"
             },
             {
                 "url": "holland.ecoincore.com:11019",
-                "protocol": "WSS"
-            },
-            {
-                "url": "lenoir.ecoincore.com:11019",
                 "protocol": "WSS"
             }
         ],
@@ -11057,10 +11041,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.cipig.net:30054",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum2.cipig.net:30054",
                 "protocol": "WSS"
             },
@@ -11112,10 +11092,6 @@
             "homepage": "https://feathercoin.com"
         },
         "electrum": [
-            {
-                "url": "electrum1.cipig.net:30054",
-                "protocol": "WSS"
-            },
             {
                 "url": "electrum2.cipig.net:30054",
                 "protocol": "WSS"
@@ -17239,7 +17215,7 @@
         "pubtype": 45,
         "p2shtype": 22,
         "wiftype": 173,
-        "txfee": 0,
+        "txfee": 100000,
         "dust": 54600,
         "segwit": false,
         "mm2": 1,
