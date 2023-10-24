@@ -11385,7 +11385,7 @@
         "name": "Monerium EUR",
         "coinpaprika_id": "eure-monerium-eur-emoney",
         "coingecko_id": "monerium-eur-money",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "EUR",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -11441,7 +11441,7 @@
         "name": "Monerium EUR",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "EUR",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -35306,6 +35306,11 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
