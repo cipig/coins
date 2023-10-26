@@ -2236,14 +2236,6 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
-                "url": "electrum-ca.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ]
-            },
-            {
                 "url": "electrum-eu.avn.network:50001",
                 "contact": [
                     {
@@ -2258,16 +2250,6 @@
                         "email": "contact@avn.network"
                     }
                 ]
-            },
-            {
-                "url": "electrum-ca.avn.network:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ],
-                "ws_url": "electrum-ca.avn.network:50003"
             },
             {
                 "url": "electrum-eu.avn.network:50002",
@@ -14604,6 +14586,18 @@
                 ]
             },
             {
+                "url": "electrum30.groestlcoin.org:50001",
+                "ws_url": "electrum30.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
                 "url": "electrum34.groestlcoin.org:50001",
                 "ws_url": "electrum34.groestlcoin.org:50004",
                 "contact": [
@@ -15001,6 +14995,18 @@
             {
                 "url": "electrum3.groestlcoin.org:50001",
                 "ws_url": "electrum3.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum30.groestlcoin.org:50001",
+                "ws_url": "electrum30.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -28999,6 +29005,10 @@
                 ]
             },
             {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum1.cipig.net:20068",
                 "protocol": "SSL",
                 "contact": [
@@ -29106,6 +29116,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
             },
             {
                 "url": "electrum1.cipig.net:20068",
@@ -32570,20 +32584,6 @@
                 ]
             },
             {
-                "url": "el2.verus.io:17485",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ]
-            },
-            {
                 "url": "el0.verus.io:17486",
                 "protocol": "SSL",
                 "contact": [
@@ -32616,23 +32616,6 @@
                 ],
                 "disable_cert_verification": false,
                 "ws_url": "el1.verus.io:17488"
-            },
-            {
-                "url": "el2.verus.io:17486",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false,
-                "ws_url": "el2.verus.io:17488"
             }
         ],
         "explorer_block_url": "block/"
@@ -35194,11 +35177,6 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
