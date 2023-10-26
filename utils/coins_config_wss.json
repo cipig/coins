@@ -6347,15 +6347,15 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
+                "url": "holland.ecoincore.com:34335",
+                "protocol": "WSS"
+            },
+            {
                 "url": "lenoir.ecoincore.com:34335",
                 "protocol": "WSS"
             },
             {
                 "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS"
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34335",
                 "protocol": "WSS"
             }
         ],
@@ -6399,15 +6399,15 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
+                "url": "holland.ecoincore.com:34335",
+                "protocol": "WSS"
+            },
+            {
                 "url": "lenoir.ecoincore.com:34335",
                 "protocol": "WSS"
             },
             {
                 "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS"
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34335",
                 "protocol": "WSS"
             }
         ],
@@ -8819,48 +8819,6 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "DIMI": {
-        "coin": "DIMI",
-        "type": "UTXO",
-        "name": "Diminutive Coin",
-        "coinpaprika_id": "dimi-diminutive-coin",
-        "coingecko_id": "diminutive-coin",
-        "livecoinwatch_id": "DIMI",
-        "explorer_url": "https://explorer.diminutivecoin.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Diminutive Coin",
-        "rpcport": 49122,
-        "pubtype": 32,
-        "p2shtype": 30,
-        "wiftype": 181,
-        "isPoS": 1,
-        "txfee": 1000,
-        "segwit": false,
-        "mm2": 1,
-        "mature_confirmations": 75,
-        "required_confirmations": 7,
-        "avg_blocktime": 75,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrumx1.diminutivecoin.com:50013",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrumx2.diminutivecoin.com:50013",
-                "protocol": "WSS"
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "DIMI-BEP20": {
@@ -26155,7 +26113,7 @@
         "type": "BEP-20",
         "name": "HempCoin",
         "coinpaprika_id": "thc-hempcoin",
-        "coingecko_id": "",
+        "coingecko_id": "hempcoin-thc",
         "livecoinwatch_id": "THC",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
@@ -29263,14 +29221,6 @@
         "electrum": [
             {
                 "url": "el0.verus.io:17488",
-                "protocol": "WSS"
-            },
-            {
-                "url": "el1.verus.io:17488",
-                "protocol": "WSS"
-            },
-            {
-                "url": "el2.verus.io:17488",
                 "protocol": "WSS"
             }
         ],
