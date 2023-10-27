@@ -37026,7 +37026,7 @@
         "type": "UTXO",
         "name": "Zero",
         "coinpaprika_id": "zer-zero",
-        "coingecko_id": "",
+        "coingecko_id": "zero",
         "livecoinwatch_id": "ZER",
         "explorer_url": "https://insight.zerocurrency.io/insight/",
         "explorer_tx_url": "",
@@ -37135,7 +37135,7 @@
         "type": "BEP-20",
         "name": "Zero",
         "coinpaprika_id": "zer-zero",
-        "coingecko_id": "",
+        "coingecko_id": "zero",
         "livecoinwatch_id": "ZER",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
@@ -37217,11 +37217,6 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
