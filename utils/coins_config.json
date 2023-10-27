@@ -7076,6 +7076,12 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "holland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "holland.ecoincore.com:34335"
+            },
+            {
                 "url": "lenoir.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -7147,6 +7153,12 @@
                 "url": "chicago.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "holland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "holland.ecoincore.com:34335"
             },
             {
                 "url": "lenoir.ecoincore.com:34333",
@@ -9929,74 +9941,6 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "DIMI": {
-        "coin": "DIMI",
-        "type": "UTXO",
-        "name": "Diminutive Coin",
-        "coinpaprika_id": "dimi-diminutive-coin",
-        "coingecko_id": "diminutive-coin",
-        "livecoinwatch_id": "DIMI",
-        "explorer_url": "https://explorer.diminutivecoin.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Diminutive Coin",
-        "rpcport": 49122,
-        "pubtype": 32,
-        "p2shtype": 30,
-        "wiftype": 181,
-        "isPoS": 1,
-        "txfee": 1000,
-        "segwit": false,
-        "mm2": 1,
-        "mature_confirmations": 75,
-        "required_confirmations": 7,
-        "avg_blocktime": 75,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrumx1.diminutivecoin.com:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    },
-                    {
-                        "twitter": "coin_dimi"
-                    },
-                    {
-                        "reddit": "DiminutiveCoin_DIMI"
-                    },
-                    {
-                        "github": "MadCatMining"
-                    },
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ],
-                "ws_url": "electrumx1.diminutivecoin.com:50013"
-            },
-            {
-                "url": "electrumx2.diminutivecoin.com:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    }
-                ],
-                "ws_url": "electrumx2.diminutivecoin.com:50013"
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "DIMI-BEP20": {
@@ -15534,18 +15478,6 @@
                 ]
             },
             {
-                "url": "electrum7.groestlcoin.org:50001",
-                "ws_url": "electrum7.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum8.groestlcoin.org:50001",
                 "ws_url": "electrum8.groestlcoin.org:50004",
                 "contact": [
@@ -15955,18 +15887,6 @@
             {
                 "url": "electrum40.groestlcoin.org:50001",
                 "ws_url": "electrum40.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum7.groestlcoin.org:50001",
-                "ws_url": "electrum7.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -31180,7 +31100,7 @@
         "type": "Smart Chain",
         "name": "HempCoin",
         "coinpaprika_id": "thc-hempcoin",
-        "coingecko_id": "",
+        "coingecko_id": "hempcoin-thc",
         "livecoinwatch_id": "THC",
         "explorer_url": "https://thc.explorer.dexstats.info/",
         "explorer_tx_url": "",
@@ -31230,7 +31150,7 @@
         "type": "BEP-20",
         "name": "HempCoin",
         "coinpaprika_id": "thc-hempcoin",
-        "coingecko_id": "",
+        "coingecko_id": "hempcoin-thc",
         "livecoinwatch_id": "THC",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
@@ -34550,34 +34470,6 @@
                 ]
             },
             {
-                "url": "el1.verus.io:17485",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ]
-            },
-            {
-                "url": "el2.verus.io:17485",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ]
-            },
-            {
                 "url": "el0.verus.io:17486",
                 "protocol": "SSL",
                 "contact": [
@@ -34593,40 +34485,6 @@
                 ],
                 "disable_cert_verification": false,
                 "ws_url": "el0.verus.io:17488"
-            },
-            {
-                "url": "el1.verus.io:17486",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false,
-                "ws_url": "el1.verus.io:17488"
-            },
-            {
-                "url": "el2.verus.io:17486",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false,
-                "ws_url": "el2.verus.io:17488"
             }
         ],
         "explorer_block_url": "block/"
