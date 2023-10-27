@@ -6202,7 +6202,7 @@
         "type": "UTXO",
         "name": "BitCore",
         "coinpaprika_id": "btx-bitcore",
-        "coingecko_id": "",
+        "coingecko_id": "bitcore",
         "livecoinwatch_id": "BTX",
         "explorer_url": "https://chainz.cryptoid.info/btx/",
         "explorer_tx_url": "tx.dws?",
@@ -6252,7 +6252,7 @@
         "type": "UTXO",
         "name": "BitCore",
         "coinpaprika_id": "btx-bitcore",
-        "coingecko_id": "",
+        "coingecko_id": "bitcore",
         "livecoinwatch_id": "BTX",
         "explorer_url": "https://chainz.cryptoid.info/btx/",
         "explorer_tx_url": "tx.dws?",
@@ -6306,7 +6306,7 @@
         "type": "BEP-20",
         "name": "BitCore",
         "coinpaprika_id": "btx-bitcore",
-        "coingecko_id": "",
+        "coingecko_id": "bitcore",
         "livecoinwatch_id": "BTX",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
@@ -21586,6 +21586,11 @@
                 "url": "electrum7.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum7.getlynx.io:50004"
+            },
+            {
+                "url": "electrum8.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum8.getlynx.io:50004"
             },
             {
                 "url": "electrum9.getlynx.io:50002",
