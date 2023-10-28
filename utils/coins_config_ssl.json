@@ -22920,6 +22920,16 @@
                 "url": "electrum01.reddcoin.com:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum01.reddcoin.com:50004"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum02.reddcoin.com:50004"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum03.reddcoin.com:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -33328,15 +33338,6 @@
             },
             {
                 "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
-                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
