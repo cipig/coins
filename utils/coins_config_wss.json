@@ -2168,6 +2168,10 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
+                "url": "electrum-ca.avn.network:50003",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum-eu.avn.network:50003",
                 "protocol": "WSS"
             },
