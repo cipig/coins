@@ -24542,6 +24542,10 @@
             {
                 "url": "1.eu.tokel.electrum.dexstats.info:9077",
                 "protocol": "WSS"
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:9077",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -32289,6 +32293,10 @@
             "homepage": "https://coin.crionic.org"
         },
         "electrum": [
+            {
+                "url": "coin.crionic.org:50005",
+                "protocol": "WSS"
+            },
             {
                 "url": "explorer.crionic.org:50005",
                 "protocol": "WSS"

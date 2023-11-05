@@ -27140,6 +27140,19 @@
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:10077",
                 "contact": [
                     {
@@ -32635,6 +32648,11 @@
         },
         "electrum": [
             {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
             }
@@ -36060,6 +36078,19 @@
         },
         "electrum": [
             {
+                "url": "coin.crionic.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ],
+                "ws_url": "coin.crionic.org:50005"
+            },
+            {
                 "url": "explorer.crionic.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -36073,7 +36104,7 @@
                 "ws_url": "explorer.crionic.org:50005"
             },
             {
-                "url": "explorer.crionic.org:50001",
+                "url": "coin.crionic.org:50001",
                 "contact": [
                     {
                         "email": "diabatiis@gmail.com"
