@@ -4485,16 +4485,31 @@
         },
         "electrum": [
             {
-                "url": "164.90.162.44:50001",
+                "url": "electrum1.blocx.space:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "165.232.86.9:50001",
+                "url": "electrum2.blocx.space:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "67.205.145.195:50001",
+                "url": "electrum3.blocx.space:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.blocx.space:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum1.blocx.space:50004"
+            },
+            {
+                "url": "electrum2.blocx.space:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum2.blocx.space:50004"
+            },
+            {
+                "url": "electrum3.blocx.space:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum3.blocx.space:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -6794,7 +6809,7 @@
         "type": "UTXO",
         "name": "Canada eCoin",
         "coinpaprika_id": "cdn-canada-ecoin",
-        "coingecko_id": "",
+        "coingecko_id": "canada-ecoin",
         "livecoinwatch_id": "CDN",
         "explorer_url": "https://chainz.cryptoid.info/cdn/",
         "explorer_tx_url": "tx.dws?",
@@ -6875,7 +6890,7 @@
         "type": "UTXO",
         "name": "Canada eCoin",
         "coinpaprika_id": "cdn-canada-ecoin",
-        "coingecko_id": "",
+        "coingecko_id": "canada-ecoin",
         "livecoinwatch_id": "CDN",
         "explorer_url": "https://chainz.cryptoid.info/cdn/",
         "explorer_tx_url": "tx.dws?",
@@ -24684,7 +24699,7 @@
         "type": "UTXO",
         "name": "PRUX",
         "coinpaprika_id": "prux-prux-coin",
-        "coingecko_id": "",
+        "coingecko_id": "prux-coin",
         "livecoinwatch_id": "",
         "explorer_url": "https://explorer.prux.info/",
         "explorer_tx_url": "",
@@ -35471,11 +35486,6 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
