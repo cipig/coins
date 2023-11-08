@@ -2617,7 +2617,7 @@
         "type": "BEP-20",
         "name": "Aryacoin",
         "coinpaprika_id": "",
-        "coingecko_id": "aryacoin",
+        "coingecko_id": "",
         "livecoinwatch_id": "AYA",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
@@ -4378,6 +4378,55 @@
             },
             {
                 "url": "electrum2.blackcoin.nl:20014",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BLOCX": {
+        "coin": "BLOCX",
+        "type": "UTXO",
+        "name": "BLOCX.",
+        "coinpaprika_id": "blocx-blocx",
+        "coingecko_id": "blocx-2",
+        "livecoinwatch_id": "BLOCX",
+        "explorer_url": "https://explorer.blocx.space/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkCoin Signed Message:\n",
+        "fname": "BLOCX.",
+        "rpcport": 12973,
+        "pubtype": 25,
+        "p2shtype": 26,
+        "wiftype": 153,
+        "segwit": false,
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 180,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/BLOCXTECH/BLOCX",
+            "homepage": "https://blocx.tech"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.blocx.space:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.blocx.space:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum3.blocx.space:50004",
                 "protocol": "WSS"
             }
         ],
@@ -6404,7 +6453,7 @@
         "type": "UTXO",
         "name": "Canada eCoin",
         "coinpaprika_id": "cdn-canada-ecoin",
-        "coingecko_id": "",
+        "coingecko_id": "canada-ecoin",
         "livecoinwatch_id": "CDN",
         "explorer_url": "https://chainz.cryptoid.info/cdn/",
         "explorer_tx_url": "tx.dws?",
@@ -6452,7 +6501,7 @@
         "type": "UTXO",
         "name": "Canada eCoin",
         "coinpaprika_id": "cdn-canada-ecoin",
-        "coingecko_id": "",
+        "coingecko_id": "canada-ecoin",
         "livecoinwatch_id": "CDN",
         "explorer_url": "https://chainz.cryptoid.info/cdn/",
         "explorer_tx_url": "tx.dws?",
@@ -22262,7 +22311,7 @@
         "type": "UTXO",
         "name": "PRUX",
         "coinpaprika_id": "prux-prux-coin",
-        "coingecko_id": "",
+        "coingecko_id": "prux-coin",
         "livecoinwatch_id": "",
         "explorer_url": "https://explorer.prux.info/",
         "explorer_tx_url": "",
