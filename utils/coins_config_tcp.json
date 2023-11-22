@@ -36390,6 +36390,19 @@
         },
         "electrum": [
             {
+                "url": "coin.crionic.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ],
+                "ws_url": "coin.crionic.org:50005"
+            },
+            {
                 "url": "explorer.crionic.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -36403,7 +36416,7 @@
                 "ws_url": "explorer.crionic.org:50005"
             },
             {
-                "url": "explorer.crionic.org:50001",
+                "url": "coin.crionic.org:50001",
                 "contact": [
                     {
                         "email": "diabatiis@gmail.com"
