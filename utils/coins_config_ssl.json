@@ -29355,6 +29355,22 @@
                     }
                 ],
                 "ws_url": "electrum1.grms.pw:50004"
+            },
+            {
+                "url": "electrum2.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ],
+                "ws_url": "electrum2.grms.pw:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -34057,6 +34073,19 @@
                         "twitter": "bytesofman"
                     }
                 ]
+            },
+            {
+                "url": "fulcrum.pepipierre.fr:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "contact@e.cash"
+                    },
+                    {
+                        "twitter": "ecashofficial"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -34720,19 +34749,6 @@
             "homepage": "https://coin.crionic.org"
         },
         "electrum": [
-            {
-                "url": "coin.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ],
-                "ws_url": "coin.crionic.org:50005"
-            },
             {
                 "url": "explorer.crionic.org:50002",
                 "protocol": "SSL",
