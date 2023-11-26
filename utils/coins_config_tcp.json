@@ -4369,14 +4369,13 @@
                 "ws_url": "electrum1.blocx.space:50004"
             },
             {
-                "url": "electrum2.blocx.space:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum2.blocx.space:50004"
-            },
-            {
                 "url": "electrum3.blocx.space:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum3.blocx.space:50004"
+            },
+            {
+                "url": "electrum1.blocx.space:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -9431,9 +9430,9 @@
         "pubtype": 30,
         "p2shtype": 22,
         "wiftype": 158,
-        "txfee": 1000000,
+        "txfee": 0,
         "force_min_relay_fee": true,
-        "dust": 1000000,
+        "dust": 100000000,
         "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 60,
