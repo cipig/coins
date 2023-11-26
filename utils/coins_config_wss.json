@@ -4163,6 +4163,10 @@
                 "protocol": "WSS"
             },
             {
+                "url": "electrum2.blocx.space:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum3.blocx.space:50004",
                 "protocol": "WSS"
             }
@@ -20842,47 +20846,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "PRUX": {
-        "coin": "PRUX",
-        "type": "UTXO",
-        "name": "PRUX",
-        "coinpaprika_id": "prux-prux-coin",
-        "coingecko_id": "prux-coin",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.prux.info/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "PRUX",
-        "rpcport": 19595,
-        "pubtype": 55,
-        "p2shtype": 117,
-        "wiftype": 183,
-        "txfee": 10000,
-        "segwit": false,
-        "bech32_hrp": "pr",
-        "mm2": 1,
-        "required_confirmations": 9,
-        "avg_blocktime": 9,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrumx.live:30010",
-                "protocol": "WSS"
-            },
-            {
-                "url": "txserver.live:30001",
-                "protocol": "WSS"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "PYR-ERC20": {
         "coin": "PYR-ERC20",
         "type": "ERC-20",
@@ -29187,6 +29150,49 @@
         ],
         "explorer_block_url": "block/"
     },
+    "XVG": {
+        "coin": "XVG",
+        "type": "UTXO",
+        "name": "Verge",
+        "coinpaprika_id": "xvg-verge",
+        "coingecko_id": "verge",
+        "livecoinwatch_id": "XVG",
+        "explorer_url": "https://xvgblockexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "VERGE Signed Message:\n",
+        "fname": "Verge",
+        "isPoS": 1,
+        "rpcport": 20102,
+        "pubtype": 30,
+        "p2shtype": 33,
+        "wiftype": 158,
+        "decimals": 6,
+        "segwit": true,
+        "bech32_hrp": "vg",
+        "txfee": 400000,
+        "dust": 400000,
+        "force_min_relay_fee": true,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 30,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/77'",
+        "electrum": [
+            {
+                "url": "electrumx-verge.cloud:50004",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "XVS-BEP20": {
         "coin": "XVS-BEP20",
         "type": "BEP-20",
@@ -32545,51 +32551,6 @@
             },
             {
                 "url": "electrumx2.mazacha.in:50005",
-                "protocol": "WSS"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "CRNC": {
-        "coin": "CRNC",
-        "type": "UTXO",
-        "name": "CrionicCoin",
-        "coinpaprika_id": "crnc-crionic",
-        "coingecko_id": "crionic",
-        "livecoinwatch_id": "CRNC",
-        "explorer_url": "https://explorer.crionic.org/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Crioniccoin Signed Message:\n",
-        "fname": "CrionicCoin",
-        "rpcport": 4466,
-        "pubtype": 28,
-        "p2shtype": 45,
-        "wiftype": 176,
-        "decimals": 8,
-        "signature_version": "base",
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "crnc",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 20,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/192'",
-        "links": {
-            "github": "https://github.com/diabaths/Crionic-Coin",
-            "homepage": "https://coin.crionic.org"
-        },
-        "electrum": [
-            {
-                "url": "explorer.crionic.org:50005",
                 "protocol": "WSS"
             }
         ],
