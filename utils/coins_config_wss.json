@@ -4163,10 +4163,6 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum2.blocx.space:50004",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum3.blocx.space:50004",
                 "protocol": "WSS"
             }
@@ -8717,9 +8713,9 @@
         "pubtype": 30,
         "p2shtype": 22,
         "wiftype": 158,
-        "txfee": 1000000,
+        "txfee": 0,
         "force_min_relay_fee": true,
-        "dust": 1000000,
+        "dust": 100000000,
         "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 60,
