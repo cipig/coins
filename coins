@@ -3731,9 +3731,9 @@
     "pubtype": 30,
     "p2shtype": 22,
     "wiftype": 158,
-    "txfee": 1000000,
+    "txfee": 0,
     "force_min_relay_fee": true,
-    "dust": 1000000,
+    "dust": 100000000,
     "mm2": 1,
     "required_confirmations": 2,
     "avg_blocktime": 60,
@@ -3924,7 +3924,7 @@
     "pubtype": 33,
     "p2shtype": 40,
     "wiftype": 161,
-    "txfee": 0,
+    "txfee": 10000,
     "dust": 5460,
     "txversion": 7,
     "mm2": 1,
@@ -5183,6 +5183,28 @@
       }
     },
     "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "GLC",
+    "name": "goldcoin",
+    "fname": "Goldcoin",
+    "rpcport": 8122,
+    "pubtype": 32,
+    "p2shtype": 5,
+    "wiftype": 160,
+    "segwit": false,
+    "txfee": 100000,
+    "mm2": 1,
+    "sign_message_prefix": "Goldcoin (GLC) Signed Message:\n",
+    "required_confirmations": 3,
+    "avg_blocktime": 120,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "links": {
+      "github": "https://github.com/goldcoin/goldcoin",
+      "homepage": "https://www.goldcoinproject.org"
+    }
   },
   {
     "coin": "GLEEC",
@@ -10387,6 +10409,34 @@
       }
     },
     "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "SUM",
+    "name": "sumcoin",
+    "fname": "Sumcoin",
+    "isPoS": 1, 
+    "sign_message_prefix": "Sumcoin Signed Message:\n",
+    "rpcport": 3332,
+    "pubtype": 63, 
+    "p2shtype": 125, 
+    "wiftype": 187, 
+    "decimals": 6, 
+    "txfee": 0, 
+    "dust": 10000, 
+    "segwit": false, 
+    "bech32_hrp": "sum",
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/552'",
+    "trezor_coin": "Sumcoin",
+    "links": {
+      "github": "https://github.com/sumcoinlabs/sumcoin",
+      "homepage": "https://www.sumcoin.org"
+    }
   },
   {
     "coin": "SUPERNET",
