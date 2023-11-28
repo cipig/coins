@@ -15818,18 +15818,6 @@
                 ]
             },
             {
-                "url": "electrum8.groestlcoin.org:50001",
-                "ws_url": "electrum8.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum9.groestlcoin.org:50001",
                 "ws_url": "electrum9.groestlcoin.org:50004",
                 "contact": [
@@ -16215,18 +16203,6 @@
             {
                 "url": "electrum40.groestlcoin.org:50001",
                 "ws_url": "electrum40.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum8.groestlcoin.org:50001",
-                "ws_url": "electrum8.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -20360,19 +20336,10 @@
         "derivation_path": "m/44'/140'",
         "electrum": [
             {
-                "url": "electrum1.cipig.net:10067"
-            },
-            {
                 "url": "electrum2.cipig.net:10067"
             },
             {
                 "url": "electrum3.cipig.net:10067"
-            },
-            {
-                "url": "electrum1.cipig.net:20067",
-                "disable_cert_verification": false,
-                "protocol": "SSL",
-                "ws_url": "electrum1.cipig.net:30067"
             },
             {
                 "url": "electrum2.cipig.net:20067",
@@ -20426,19 +20393,10 @@
         "derivation_path": "m/44'/140'",
         "electrum": [
             {
-                "url": "electrum1.cipig.net:10067"
-            },
-            {
                 "url": "electrum2.cipig.net:10067"
             },
             {
                 "url": "electrum3.cipig.net:10067"
-            },
-            {
-                "url": "electrum1.cipig.net:20067",
-                "disable_cert_verification": false,
-                "protocol": "SSL",
-                "ws_url": "electrum1.cipig.net:30067"
             },
             {
                 "url": "electrum2.cipig.net:20067",
@@ -31103,6 +31061,10 @@
                 ]
             },
             {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum1.cipig.net:20068",
                 "protocol": "SSL",
                 "contact": [
@@ -31210,6 +31172,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
             },
             {
                 "url": "electrum1.cipig.net:20068",
@@ -41135,7 +41101,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "light_wallet_d_servers": [
-            "https://zombie.dragonhound.info:443"
+            "https://zombie.dragonhound.info:443",
+            "https://zombie.dragonhound.info:1443"
         ],
         "asset": "ZOMBIE",
         "fname": "Zombie",
@@ -41276,7 +41243,7 @@
         "type": "UTXO",
         "name": "Runebase",
         "coinpaprika_id": "runes-runebase",
-        "coingecko_id": "",
+        "coingecko_id": "runebase",
         "livecoinwatch_id": "",
         "explorer_url": "https://explorer.runebase.io/",
         "explorer_tx_url": "tx/",
