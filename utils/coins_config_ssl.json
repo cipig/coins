@@ -4554,58 +4554,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "BLOCX": {
-        "coin": "BLOCX",
-        "type": "UTXO",
-        "name": "BLOCX.",
-        "coinpaprika_id": "blocx-blocx",
-        "coingecko_id": "blocx-2",
-        "livecoinwatch_id": "BLOCX",
-        "explorer_url": "https://explorer.blocx.space/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "DarkCoin Signed Message:\n",
-        "fname": "BLOCX.",
-        "rpcport": 12973,
-        "pubtype": 25,
-        "p2shtype": 26,
-        "wiftype": 153,
-        "segwit": false,
-        "txfee": 1000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 180,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "links": {
-            "github": "https://github.com/BLOCXTECH/BLOCX",
-            "homepage": "https://blocx.tech"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.blocx.space:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum1.blocx.space:50004"
-            },
-            {
-                "url": "electrum2.blocx.space:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum2.blocx.space:50004"
-            },
-            {
-                "url": "electrum3.blocx.space:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum3.blocx.space:50004"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "BNB": {
         "coin": "BNB",
         "type": "BEP-20",
@@ -18202,12 +18150,6 @@
         "derivation_path": "m/44'/140'",
         "electrum": [
             {
-                "url": "electrum1.cipig.net:20067",
-                "disable_cert_verification": false,
-                "protocol": "SSL",
-                "ws_url": "electrum1.cipig.net:30067"
-            },
-            {
                 "url": "electrum2.cipig.net:20067",
                 "disable_cert_verification": false,
                 "protocol": "SSL",
@@ -18258,12 +18200,6 @@
         },
         "derivation_path": "m/44'/140'",
         "electrum": [
-            {
-                "url": "electrum1.cipig.net:20067",
-                "disable_cert_verification": false,
-                "protocol": "SSL",
-                "ws_url": "electrum1.cipig.net:30067"
-            },
             {
                 "url": "electrum2.cipig.net:20067",
                 "disable_cert_verification": false,
@@ -36458,7 +36394,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "light_wallet_d_servers": [
-            "https://zombie.dragonhound.info:443"
+            "https://zombie.dragonhound.info:443",
+            "https://zombie.dragonhound.info:1443"
         ],
         "asset": "ZOMBIE",
         "fname": "Zombie",
@@ -36577,7 +36514,7 @@
         "type": "UTXO",
         "name": "Runebase",
         "coinpaprika_id": "runes-runebase",
-        "coingecko_id": "",
+        "coingecko_id": "runebase",
         "livecoinwatch_id": "",
         "explorer_url": "https://explorer.runebase.io/",
         "explorer_tx_url": "tx/",
