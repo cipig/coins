@@ -23676,6 +23676,53 @@
         ],
         "explorer_block_url": "block/"
     },
+    "SUM": {
+        "coin": "SUM",
+        "type": "UTXO",
+        "name": "Sumcoin",
+        "coinpaprika_id": "sum-sumcoin",
+        "coingecko_id": "sumcoin",
+        "livecoinwatch_id": "SUM",
+        "explorer_url": "https://sumcoinexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Sumcoin Signed Message:\n",
+        "fname": "Sumcoin",
+        "isPoS": 1,
+        "rpcport": 3332,
+        "pubtype": 63,
+        "p2shtype": 125,
+        "wiftype": 187,
+        "decimals": 6,
+        "txfee": 0,
+        "dust": 10000,
+        "segwit": false,
+        "bech32_hrp": "sum",
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/552'",
+        "trezor_coin": "Sumcoin",
+        "links": {
+            "github": "https://github.com/sumcoinlabs/sumcoin",
+            "homepage": "https://www.sumcoin.org"
+        },
+        "electrum": [
+            {
+                "url": "sumpos.electrum-sum.org:50004",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "SUPERNET": {
         "coin": "SUPERNET",
         "type": "Smart Chain",
@@ -28790,6 +28837,52 @@
             },
             {
                 "url": "electrumx3.neurai.top:50002",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "XRG": {
+        "coin": "XRG",
+        "type": "UTXO",
+        "name": "Ergon",
+        "coinpaprika_id": "xrg-ergon",
+        "coingecko_id": "",
+        "livecoinwatch_id": "XRG",
+        "explorer_url": "https://explorer.ergon.network/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Ergon",
+        "rpcport": 2137,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 10,
+        "segwit": false,
+        "fork_id": "0x40",
+        "address_format": {
+            "format": "cashaddress",
+            "network": "ergon"
+        },
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/2137'",
+        "electrum": [
+            {
+                "url": "fulcrum.ergon.network:52140",
+                "protocol": "WSS"
+            },
+            {
+                "url": "la.ask.systems:52140",
                 "protocol": "WSS"
             }
         ],

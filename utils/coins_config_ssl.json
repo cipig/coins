@@ -25028,6 +25028,55 @@
         ],
         "explorer_block_url": "block/"
     },
+    "SUM": {
+        "coin": "SUM",
+        "type": "UTXO",
+        "name": "Sumcoin",
+        "coinpaprika_id": "sum-sumcoin",
+        "coingecko_id": "sumcoin",
+        "livecoinwatch_id": "SUM",
+        "explorer_url": "https://sumcoinexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Sumcoin Signed Message:\n",
+        "fname": "Sumcoin",
+        "isPoS": 1,
+        "rpcport": 3332,
+        "pubtype": 63,
+        "p2shtype": 125,
+        "wiftype": 187,
+        "decimals": 6,
+        "txfee": 0,
+        "dust": 10000,
+        "segwit": false,
+        "bech32_hrp": "sum",
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/552'",
+        "trezor_coin": "Sumcoin",
+        "links": {
+            "github": "https://github.com/sumcoinlabs/sumcoin",
+            "homepage": "https://www.sumcoin.org"
+        },
+        "electrum": [
+            {
+                "url": "sumpos.electrum-sum.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "sumpos.electrum-sum.org:50004"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "SUPERNET": {
         "coin": "SUPERNET",
         "type": "Smart Chain",
@@ -30325,12 +30374,25 @@
             {
                 "url": "fulcrum.ergon.network:52138",
                 "protocol": "SSL",
-                "disable_cert_verification": true
+                "ws_url": "fulcrum.ergon.network:52140",
+                "contact": [
+                    {
+                        "email": "licho@ergon.moe"
+                    },
+                    {
+                        "telegram": "licho92karol"
+                    }
+                ]
             },
             {
                 "url": "la.ask.systems:52138",
                 "protocol": "SSL",
-                "disable_cert_verification": true
+                "ws_url": "la.ask.systems:52140",
+                "contact": [
+                    {
+                        "telegram": "@fsmv0"
+                    }
+                ]
             },
             {
                 "url": "xrg_ful.googol.cash:52138",
