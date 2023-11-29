@@ -29369,22 +29369,6 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrum.grms.pw:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ],
-                "ws_url": "electrum.grms.pw:50004"
-            },
-            {
                 "url": "electrum1.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -29401,7 +29385,7 @@
                 "ws_url": "electrum1.grms.pw:50004"
             },
             {
-                "url": "electrum2.grms.pw:50002",
+                "url": "electrum3.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -29414,7 +29398,7 @@
                         "github": "Miner113"
                     }
                 ],
-                "ws_url": "electrum2.grms.pw:50004"
+                "ws_url": "electrum3.grms.pw:50004"
             }
         ],
         "explorer_block_url": "block/"
