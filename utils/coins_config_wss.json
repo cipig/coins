@@ -4860,6 +4860,92 @@
         "explorer_block_url": "block/",
         "forex_id": "BRL"
     },
+    "BSTY": {
+        "coin": "BSTY",
+        "type": "UTXO",
+        "name": "GlobalBoost-Y",
+        "coinpaprika_id": "bsty-globalboost-y",
+        "coingecko_id": "globalboost",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://insight.globalboost.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "GlobalBoost-Y",
+        "rpcport": 8225,
+        "pubtype": 77,
+        "p2shtype": 139,
+        "wiftype": 208,
+        "txfee": 200000,
+        "segwit": true,
+        "bech32_hrp": "gb",
+        "mm2": 1,
+        "required_confirmations": 1,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumserver01.globalboost.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50013",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BSTY-segwit": {
+        "coin": "BSTY-segwit",
+        "type": "UTXO",
+        "name": "GlobalBoost-Y",
+        "coinpaprika_id": "bsty-globalboost-y",
+        "coingecko_id": "globalboost",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://insight.globalboost.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "GlobalBoost-Y",
+        "rpcport": 8225,
+        "pubtype": 77,
+        "p2shtype": 139,
+        "wiftype": 208,
+        "txfee": 200000,
+        "segwit": true,
+        "bech32_hrp": "gb",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "BSTY",
+        "mm2": 1,
+        "required_confirmations": 1,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumserver01.globalboost.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50013",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "BTC": {
         "coin": "BTC",
         "type": "UTXO",
