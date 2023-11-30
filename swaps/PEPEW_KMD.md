@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/6015eb9eaf3277d6195e1a0264b4edacd1c3c2b95bfdaea40ef2c41f57de75f1)  
+[maker payment (PEPEW)](https://explorer.pepepow.org/tx/549cf211e73f6d0fd3e78448b529eab6acff2b7fb1bb1053b8c2d9a57f9ac62e)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/dd19ab6772f72df1f3a58014e4da1c3b16926829d42b7e500dd112de1c098679)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/f7b0c3087d47780c334384041b3384c683d1a3727581468784bb23ea9e8aa11f)  
+[maker payment spent (PEPEW)](https://explorer.pepepow.org/tx/93f0f296d00eeaa0e9201c726460f4a28d20506fb20378d935e446a606875c86)  

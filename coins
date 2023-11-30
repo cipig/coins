@@ -8856,6 +8856,29 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "PEPEW",
+    "name": "PEPEPOW",
+    "fname": "PEPEPOW",
+    "rpcport": 8834,
+    "pubtype": 55,
+    "p2shtype": 16,
+    "wiftype": 204,
+    "segwit": false,
+    "txfee": 1000,
+    "confpath": "USERHOME/.PEPEPOWcore/PEPEPOW.conf",
+    "mm2": 1,
+    "sign_message_prefix": "DarkCoin Signed Message:\n",
+    "required_confirmations": 8,
+    "avg_blocktime": 20,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "links": {
+      "github": "https://github.com/MattF42/PePe-core",
+      "homepage": "https://pepepow.org"
+    }
+  },
+  {
     "coin": "PIC",
     "name": "picacoin",
     "fname": "Picacoin",
