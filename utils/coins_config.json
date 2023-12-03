@@ -26433,11 +26433,6 @@
         },
         "electrum": [
             {
-                "url": "electrum01.reddcoin.com:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum01.reddcoin.com:50004"
-            },
-            {
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum02.reddcoin.com:50004"
@@ -35744,6 +35739,11 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
