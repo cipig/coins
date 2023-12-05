@@ -9922,15 +9922,15 @@
                 "ws-url": "itchy-jellyfish-89.doi.works:50004"
             },
             {
-                "url": "ugly-bird-70.doi.works:50002",
+                "url": "pink-deer-69.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "github": "https://github.com/namecoin/electrum-nmc/issues",
                         "twitter": "example_username"
                     }
                 ],
-                "ws-url": "ugly-bird-70.doi.works:50004"
+                "ws-url": "pink-deer-69.doi.works:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -24311,6 +24311,11 @@
             "homepage": "https://reddcoin.com"
         },
         "electrum": [
+            {
+                "url": "electrum01.reddcoin.com:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum01.reddcoin.com:50004"
+            },
             {
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL",
