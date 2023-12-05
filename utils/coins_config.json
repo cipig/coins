@@ -10987,7 +10987,7 @@
         "type": "Smart Chain",
         "name": "DigitalPrice",
         "coinpaprika_id": "dp-digitalprice",
-        "coingecko_id": "",
+        "coingecko_id": "digitalprice",
         "livecoinwatch_id": "DP",
         "explorer_url": "https://dp.explorer.dexstats.info/",
         "explorer_tx_url": "",
@@ -13119,6 +13119,15 @@
             "homepage": "https://firo.org"
         },
         "electrum": [
+            {
+                "url": "electrumx.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ]
+            },
             {
                 "url": "electrumx01.firo.org:50001",
                 "protocol": "TCP",
