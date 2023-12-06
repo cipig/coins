@@ -13925,8 +13925,8 @@
                 ]
             },
             {
-                "url": "electrum1.groestlcoin.org:50001",
-                "ws_url": "electrum1.groestlcoin.org:50004",
+                "url": "electrum12.groestlcoin.org:50001",
+                "ws_url": "electrum12.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -13937,8 +13937,8 @@
                 ]
             },
             {
-                "url": "electrum12.groestlcoin.org:50001",
-                "ws_url": "electrum12.groestlcoin.org:50004",
+                "url": "electrum13.groestlcoin.org:50001",
+                "ws_url": "electrum13.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -14008,8 +14008,8 @@
                 ]
             },
             {
-                "url": "electrum1.groestlcoin.org:50001",
-                "ws_url": "electrum1.groestlcoin.org:50004",
+                "url": "electrum12.groestlcoin.org:50001",
+                "ws_url": "electrum12.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -14020,8 +14020,8 @@
                 ]
             },
             {
-                "url": "electrum12.groestlcoin.org:50001",
-                "ws_url": "electrum12.groestlcoin.org:50004",
+                "url": "electrum13.groestlcoin.org:50001",
+                "ws_url": "electrum13.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -33045,6 +33045,11 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
