@@ -10014,15 +10014,15 @@
                 "ws-url": "itchy-jellyfish-89.doi.works:50004"
             },
             {
-                "url": "ugly-bird-70.doi.works:50002",
+                "url": "pink-deer-69.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "github": "https://github.com/namecoin/electrum-nmc/issues",
                         "twitter": "example_username"
                     }
                 ],
-                "ws-url": "ugly-bird-70.doi.works:50004"
+                "ws-url": "pink-deer-69.doi.works:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -30876,7 +30876,7 @@
         "type": "UTXO",
         "name": "Verium Reserve",
         "coinpaprika_id": "vrm-veriumreserve",
-        "coingecko_id": "",
+        "coingecko_id": "veriumreserve",
         "livecoinwatch_id": "VRM",
         "explorer_url": "https://explorer-vrm.vericonomy.com/",
         "explorer_tx_url": "",
@@ -33488,11 +33488,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
