@@ -14653,6 +14653,16 @@
                         "discord": "orpheas#1503"
                     }
                 ]
+            },
+            {
+                "url": "uk.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -14800,18 +14810,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.groestlcoin.org:50001",
-                "ws_url": "electrum1.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum12.groestlcoin.org:50001",
                 "ws_url": "electrum12.groestlcoin.org:50004",
                 "contact": [
@@ -14886,18 +14884,6 @@
             {
                 "url": "electrum19.groestlcoin.org:50001",
                 "ws_url": "electrum19.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.groestlcoin.org:50001",
-                "ws_url": "electrum2.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -15195,18 +15181,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.groestlcoin.org:50001",
-                "ws_url": "electrum1.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum12.groestlcoin.org:50001",
                 "ws_url": "electrum12.groestlcoin.org:50004",
                 "contact": [
@@ -15281,18 +15255,6 @@
             {
                 "url": "electrum19.groestlcoin.org:50001",
                 "ws_url": "electrum19.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.groestlcoin.org:50001",
-                "ws_url": "electrum2.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -35765,6 +35727,11 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
