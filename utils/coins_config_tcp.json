@@ -11897,16 +11897,6 @@
                 "ws_url": "electrumx1.fujicoin.org:50005"
             },
             {
-                "url": "electrumx2.fujicoin.org:50003",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "motty#8318"
-                    }
-                ],
-                "ws_url": "electrumx2.fujicoin.org:50005"
-            },
-            {
                 "url": "electrumx1.fujicoin.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -11968,16 +11958,6 @@
                     }
                 ],
                 "ws_url": "electrumx1.fujicoin.org:50005"
-            },
-            {
-                "url": "electrumx2.fujicoin.org:50003",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "motty#8318"
-                    }
-                ],
-                "ws_url": "electrumx2.fujicoin.org:50005"
             },
             {
                 "url": "electrumx1.fujicoin.org:50001",
@@ -33018,11 +32998,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
