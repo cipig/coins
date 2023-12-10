@@ -12626,6 +12626,15 @@
                 ]
             },
             {
+                "url": "electrumx2.fujicoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.fujicoin.org:50003",
                 "protocol": "SSL",
                 "contact": [
@@ -12634,6 +12643,16 @@
                     }
                 ],
                 "ws_url": "electrumx1.fujicoin.org:50005"
+            },
+            {
+                "url": "electrumx2.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ],
+                "ws_url": "electrumx2.fujicoin.org:50005"
             }
         ],
         "explorer_block_url": "block/"
@@ -12689,6 +12708,15 @@
                 ]
             },
             {
+                "url": "electrumx2.fujicoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.fujicoin.org:50003",
                 "protocol": "SSL",
                 "contact": [
@@ -12697,6 +12725,16 @@
                     }
                 ],
                 "ws_url": "electrumx1.fujicoin.org:50005"
+            },
+            {
+                "url": "electrumx2.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ],
+                "ws_url": "electrumx2.fujicoin.org:50005"
             }
         ],
         "explorer_block_url": "block/"
@@ -35599,6 +35637,11 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
