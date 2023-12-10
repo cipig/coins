@@ -7065,7 +7065,7 @@
         "type": "UTXO",
         "name": "Chips",
         "coinpaprika_id": "chips-chips",
-        "coingecko_id": "",
+        "coingecko_id": "chips",
         "livecoinwatch_id": "__CHIPS",
         "explorer_url": "https://explorer.chips.cash/",
         "explorer_tx_url": "",
@@ -20954,7 +20954,7 @@
         "type": "UTXO",
         "name": "Nengcoin",
         "coinpaprika_id": "neng-nengcoin",
-        "coingecko_id": "",
+        "coingecko_id": "nengcoin",
         "livecoinwatch_id": "NENG",
         "explorer_url": "http://nengexplorer.mooo.com:3001/",
         "explorer_tx_url": "",
@@ -26195,7 +26195,7 @@
         "type": "Smart Chain",
         "name": "Supernet",
         "coinpaprika_id": "unity-supernet",
-        "coingecko_id": "",
+        "coingecko_id": "supernet",
         "livecoinwatch_id": "",
         "explorer_url": "https://supernet.kmdexplorer.io/",
         "explorer_tx_url": "",
@@ -33018,11 +33018,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
