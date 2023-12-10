@@ -7232,7 +7232,7 @@
         "type": "UTXO",
         "name": "Chips",
         "coinpaprika_id": "chips-chips",
-        "coingecko_id": "",
+        "coingecko_id": "chips",
         "livecoinwatch_id": "__CHIPS",
         "explorer_url": "https://explorer.chips.cash/",
         "explorer_tx_url": "",
@@ -12205,16 +12205,6 @@
                     }
                 ],
                 "ws_url": "electrumx1.fujicoin.org:50005"
-            },
-            {
-                "url": "electrumx2.fujicoin.org:50003",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "motty#8318"
-                    }
-                ],
-                "ws_url": "electrumx2.fujicoin.org:50005"
             }
         ],
         "explorer_block_url": "block/"
@@ -12269,16 +12259,6 @@
                     }
                 ],
                 "ws_url": "electrumx1.fujicoin.org:50005"
-            },
-            {
-                "url": "electrumx2.fujicoin.org:50003",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "motty#8318"
-                    }
-                ],
-                "ws_url": "electrumx2.fujicoin.org:50005"
             }
         ],
         "explorer_block_url": "block/"
@@ -26857,7 +26837,7 @@
         "type": "Smart Chain",
         "name": "Supernet",
         "coinpaprika_id": "unity-supernet",
-        "coingecko_id": "",
+        "coingecko_id": "supernet",
         "livecoinwatch_id": "",
         "explorer_url": "https://supernet.kmdexplorer.io/",
         "explorer_tx_url": "",
