@@ -4556,7 +4556,7 @@
             {
                 "url": "bitchair.io:50001",
                 "protocol": "TCP",
-                "ws_url": "bitexplorer.io:50004",
+                "ws_url": "bitchair.io:50004",
                 "contact": [
                     {
                         "discord": "c4pt#7855"
@@ -15422,16 +15422,6 @@
                 "ws_url": "electrum.maxpuig.com:50004"
             },
             {
-                "url": "fr.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
                 "url": "pl.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -15881,6 +15871,30 @@
                 ]
             },
             {
+                "url": "electrum5.groestlcoin.org:50001",
+                "ws_url": "electrum5.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum9.groestlcoin.org:50001",
+                "ws_url": "electrum9.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
                 "url": "electrum11.groestlcoin.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -16206,6 +16220,30 @@
             {
                 "url": "electrum40.groestlcoin.org:50001",
                 "ws_url": "electrum40.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.groestlcoin.org:50001",
+                "ws_url": "electrum5.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum9.groestlcoin.org:50001",
+                "ws_url": "electrum9.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
