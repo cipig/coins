@@ -20111,7 +20111,7 @@
         "type": "Smart Chain",
         "name": "Marmara Credit Loops",
         "coinpaprika_id": "mcl-marmara-credit-loops",
-        "coingecko_id": "",
+        "coingecko_id": "marmara-credit-loops",
         "livecoinwatch_id": "_MCL",
         "explorer_url": "https://explorer.marmara.io/",
         "explorer_tx_url": "",
@@ -24752,16 +24752,6 @@
                 "url": "electrum01.reddcoin.com:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum01.reddcoin.com:50004"
-            },
-            {
-                "url": "electrum02.reddcoin.com:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum02.reddcoin.com:50004"
-            },
-            {
-                "url": "electrum03.reddcoin.com:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum03.reddcoin.com:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -33504,11 +33494,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
