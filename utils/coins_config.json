@@ -9664,9 +9664,9 @@
         "coin": "DIAC",
         "type": "UTXO",
         "name": "Diabase",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "diac-diabase",
         "coingecko_id": "diabase",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "DIAC",
         "explorer_url": "http://explorer.diabasecoin.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -35294,11 +35294,6 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
