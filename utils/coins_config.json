@@ -739,13 +739,11 @@
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
             },
             {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL",
-                "disable_cert_verification": false,
                 "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ],
@@ -5414,6 +5412,17 @@
         },
         "electrum": [
             {
+                "url": "electrum1.cipig.net:10000",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.cipig.net:10000",
                 "contact": [
                     {
@@ -5434,6 +5443,19 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "electrum1.cipig.net:20000",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30000"
             },
             {
                 "url": "electrum2.cipig.net:20000",
@@ -5507,6 +5529,17 @@
         },
         "electrum": [
             {
+                "url": "electrum1.cipig.net:10000",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.cipig.net:10000",
                 "contact": [
                     {
@@ -5527,6 +5560,19 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "electrum1.cipig.net:20000",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30000"
             },
             {
                 "url": "electrum2.cipig.net:20000",
