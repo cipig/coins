@@ -2372,6 +2372,16 @@
                 "ws_url": "electrum-ca.avn.network:50003"
             },
             {
+                "url": "electrum-eu.avn.network:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ],
+                "ws_url": "electrum-eu.avn.network:50003"
+            },
+            {
                 "url": "electrum-us.avn.network:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -24940,6 +24950,16 @@
                 "url": "electrum01.reddcoin.com:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum01.reddcoin.com:50004"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum02.reddcoin.com:50004"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum03.reddcoin.com:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -28176,19 +28196,6 @@
                     }
                 ],
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
-                "url": "2.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
             }
         ],
         "explorer_block_url": "block/"
@@ -36162,15 +36169,6 @@
             },
             {
                 "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
-                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
