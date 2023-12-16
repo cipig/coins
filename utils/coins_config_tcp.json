@@ -5467,172 +5467,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "BTE": {
-        "coin": "BTE",
-        "type": "UTXO",
-        "name": "Bitweb",
-        "coinpaprika_id": "bte-bitweb",
-        "coingecko_id": "bitweb",
-        "livecoinwatch_id": "_BTE",
-        "explorer_url": "https://explorer.bitwebcore.net/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Bitweb",
-        "rpcport": 1605,
-        "pubtype": 33,
-        "p2shtype": 30,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "web",
-        "txfee": 20000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrumx.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx.bitwebcore.net:20003"
-            },
-            {
-                "url": "electrumx6.scalaris.info:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx6.scalaris.info:20003"
-            },
-            {
-                "url": "electrumx7.scalaris.info:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx7.scalaris.info:20003"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "BTE-segwit": {
-        "coin": "BTE-segwit",
-        "type": "UTXO",
-        "name": "Bitweb",
-        "coinpaprika_id": "bte-bitweb",
-        "coingecko_id": "bitweb",
-        "livecoinwatch_id": "_BTE",
-        "explorer_url": "https://explorer.bitwebcore.net/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Bitweb",
-        "rpcport": 1605,
-        "pubtype": 33,
-        "p2shtype": 30,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "web",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "BTE",
-        "txfee": 20000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrumx.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx.bitwebcore.net:20003"
-            },
-            {
-                "url": "electrumx6.scalaris.info:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx6.scalaris.info:20003"
-            },
-            {
-                "url": "electrumx7.scalaris.info:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx7.scalaris.info:20003"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "BTT-BEP20": {
         "coin": "BTT-BEP20",
         "type": "BEP-20",
@@ -9170,6 +9004,74 @@
                         "github": "diabasecoin"
                     }
                 ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "DIMI": {
+        "coin": "DIMI",
+        "type": "UTXO",
+        "name": "Diminutive Coin",
+        "coinpaprika_id": "dimi-diminutive-coin",
+        "coingecko_id": "diminutive-coin",
+        "livecoinwatch_id": "DIMI",
+        "explorer_url": "https://explorer.diminutivecoin.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Diminutive Coin",
+        "rpcport": 49122,
+        "pubtype": 32,
+        "p2shtype": 30,
+        "wiftype": 181,
+        "isPoS": 1,
+        "txfee": 1000,
+        "segwit": false,
+        "mm2": 1,
+        "mature_confirmations": 75,
+        "required_confirmations": 7,
+        "avg_blocktime": 75,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx1.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    },
+                    {
+                        "twitter": "coin_dimi"
+                    },
+                    {
+                        "reddit": "DiminutiveCoin_DIMI"
+                    },
+                    {
+                        "github": "MadCatMining"
+                    },
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "electrumx1.diminutivecoin.com:50013"
+            },
+            {
+                "url": "electrumx2.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    }
+                ],
+                "ws_url": "electrumx2.diminutivecoin.com:50013"
             }
         ],
         "explorer_block_url": "block/"
@@ -22339,12 +22241,12 @@
             {
                 "url": "pot-duo.ewmcx.net:50012",
                 "protocol": "SSL",
-                "disable_cert_verification": false,
                 "ws_url": "pot-duo.ewmcx.net:50013"
             },
             {
-                "url": "62.171.189.243:50001",
-                "protocol": "TCP"
+                "url": "pot-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "ws_url": "pot-uno.ewmcx.net:50003"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -28268,6 +28170,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "failover.trc-uis.ewmcx.biz:50003"
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "uis-uno.ewmcx.net:50003"
             }
         ],
         "explorer_block_url": "block/"
@@ -31903,6 +31811,10 @@
             {
                 "url": "electrumx1.vanillacash.info:50011",
                 "ws_url": "electrumx1.vanillacash.info:50013"
+            },
+            {
+                "url": "electrumx2.vanillacash.info:50011",
+                "ws_url": "electrumx2.vanillacash.info:50013"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -32762,11 +32674,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
-            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL",
