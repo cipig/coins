@@ -9502,6 +9502,74 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "DIMI": {
+        "coin": "DIMI",
+        "type": "UTXO",
+        "name": "Diminutive Coin",
+        "coinpaprika_id": "dimi-diminutive-coin",
+        "coingecko_id": "diminutive-coin",
+        "livecoinwatch_id": "DIMI",
+        "explorer_url": "https://explorer.diminutivecoin.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Diminutive Coin",
+        "rpcport": 49122,
+        "pubtype": 32,
+        "p2shtype": 30,
+        "wiftype": 181,
+        "isPoS": 1,
+        "txfee": 1000,
+        "segwit": false,
+        "mm2": 1,
+        "mature_confirmations": 75,
+        "required_confirmations": 7,
+        "avg_blocktime": 75,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx1.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    },
+                    {
+                        "twitter": "coin_dimi"
+                    },
+                    {
+                        "reddit": "DiminutiveCoin_DIMI"
+                    },
+                    {
+                        "github": "MadCatMining"
+                    },
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "electrumx1.diminutivecoin.com:50013"
+            },
+            {
+                "url": "electrumx2.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    }
+                ],
+                "ws_url": "electrumx2.diminutivecoin.com:50013"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "DIMI-BEP20": {
         "coin": "DIMI-BEP20",
         "type": "BEP-20",
@@ -23039,8 +23107,12 @@
             {
                 "url": "pot-duo.ewmcx.net:50012",
                 "protocol": "SSL",
-                "disable_cert_verification": false,
                 "ws_url": "pot-duo.ewmcx.net:50013"
+            },
+            {
+                "url": "pot-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "ws_url": "pot-uno.ewmcx.net:50003"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -29269,6 +29341,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "failover.trc-uis.ewmcx.biz:50003"
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "uis-uno.ewmcx.net:50003"
             }
         ],
         "explorer_block_url": "block/"
