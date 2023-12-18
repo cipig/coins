@@ -9007,6 +9007,12 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "failover.dgc.ewmcx.biz:50003"
+            },
+            {
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx.dgc.ewmcx.org:50003"
@@ -31238,6 +31244,15 @@
                     }
                 ],
                 "ws_url": "electrumx2.electraprotocol.eu:50003"
+            },
+            {
+                "url": "electrumx3.electraprotocol.eu:50001",
+                "contact": [
+                    {
+                        "discord": "287952234317348865"
+                    }
+                ],
+                "ws_url": "electrumx3.electraprotocol.eu:50003"
             }
         ],
         "explorer_block_url": "block/"
@@ -32864,6 +32879,11 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
+            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL",

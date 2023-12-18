@@ -8399,6 +8399,10 @@
             {
                 "url": "electrumx.dgc.ewmcx.org:50003",
                 "protocol": "WSS"
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -28403,6 +28407,10 @@
             {
                 "url": "electrumx2.electraprotocol.eu:50003",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrumx3.electraprotocol.eu:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -29847,6 +29855,10 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
+            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
                 "protocol": "WSS"
