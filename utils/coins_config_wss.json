@@ -16298,7 +16298,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "sign_message_prefix": "LBRYcrd Signed Message:\n",
         "fname": "LBRY Credits",
         "rpcport": 9245,
@@ -29643,6 +29643,10 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
+            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
                 "protocol": "WSS"
