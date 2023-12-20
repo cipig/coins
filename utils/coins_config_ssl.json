@@ -13303,6 +13303,16 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
+                "url": "au.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
                 "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -13311,6 +13321,16 @@
                     }
                 ],
                 "ws_url": "electrum.maxpuig.com:50004"
+            },
+            {
+                "url": "fr.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -24732,7 +24752,7 @@
         "segwit": false,
         "bech32_hrp": "sum",
         "mm2": 1,
-        "required_confirmations": 2,
+        "required_confirmations": 8,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -29018,6 +29038,22 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "electrum.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ],
+                "ws_url": "electrum.grms.pw:50004"
+            },
+            {
                 "url": "electrum1.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -29034,7 +29070,7 @@
                 "ws_url": "electrum1.grms.pw:50004"
             },
             {
-                "url": "electrum3.grms.pw:50002",
+                "url": "electrum2.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -29047,7 +29083,7 @@
                         "github": "Miner113"
                     }
                 ],
-                "ws_url": "electrum3.grms.pw:50004"
+                "ws_url": "electrum2.grms.pw:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -31133,6 +31169,11 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
+            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL",
