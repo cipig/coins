@@ -23428,7 +23428,7 @@
         "segwit": false,
         "bech32_hrp": "sum",
         "mm2": 1,
-        "required_confirmations": 2,
+        "required_confirmations": 8,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -27496,11 +27496,15 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "electrum.grms.pw:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum1.grms.pw:50004",
                 "protocol": "WSS"
             },
             {
-                "url": "electrum3.grms.pw:50004",
+                "url": "electrum2.grms.pw:50004",
                 "protocol": "WSS"
             }
         ],
@@ -29643,6 +29647,10 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
+            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
                 "protocol": "WSS"
