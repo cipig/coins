@@ -8494,10 +8494,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.diminutivecoin.com:50013",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrumx2.diminutivecoin.com:50013",
                 "protocol": "WSS"
             }
@@ -9165,10 +9161,6 @@
             },
             {
                 "url": "electrum3.egulden.org:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "lenoir.ecoincore.com:11019",
                 "protocol": "WSS"
             }
         ],
@@ -13672,10 +13664,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "il8p.electrumx.transcenders.name:50003",
-                "protocol": "WSS"
-            },
             {
                 "url": "il9p.electrumx.transcenders.name:50003",
                 "protocol": "WSS"
@@ -24652,6 +24640,44 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "TRC": {
+        "coin": "TRC",
+        "type": "UTXO",
+        "name": "Terracoin",
+        "coinpaprika_id": "trc-terracoin",
+        "coingecko_id": "terracoin",
+        "livecoinwatch_id": "TRC",
+        "explorer_url": "https://chainz.cryptoid.info/trc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Terracoin",
+        "confpath": "USERHOME/.terracoincore/terracoin.conf",
+        "rpcport": 13332,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 10000,
+        "dust": 5460,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/83'",
+        "electrum": [
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50007",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "TRX-BEP20_OLD": {
         "coin": "TRX-BEP20_OLD",
         "type": "BEP-20",
@@ -29520,10 +29546,6 @@
             {
                 "url": "zeta-seed-c.zetacoin.tech:50013",
                 "protocol": "WSS"
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -32337,6 +32359,10 @@
         "electrum": [
             {
                 "url": "coin.crionic.org:50005",
+                "protocol": "WSS"
+            },
+            {
+                "url": "explorer.crionic.org:50005",
                 "protocol": "WSS"
             }
         ],
