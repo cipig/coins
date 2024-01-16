@@ -2146,6 +2146,10 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
+                "url": "electrum-ca.avn.network:50003",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum-eu.avn.network:50003",
                 "protocol": "WSS"
             },
@@ -12638,6 +12642,46 @@
         "nodes": [
             {
                 "url": "https://polygon.llamarpc.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "GRLC": {
+        "coin": "GRLC",
+        "type": "UTXO",
+        "name": "Garlicoin",
+        "coinpaprika_id": "grlc-garlicoin",
+        "coingecko_id": "garlicoin",
+        "livecoinwatch_id": "GRLC",
+        "explorer_url": "https://garlicblocks.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Garlicoin Signed Message:\n",
+        "fname": "Garlicoin",
+        "rpcport": 42068,
+        "pubtype": 38,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "segwit": true,
+        "bech32_hrp": "grlc",
+        "txfee": 100000,
+        "dust": 54600,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 40,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/69420'",
+        "electrum": [
+            {
+                "url": "electrum.maxpuig.com:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"

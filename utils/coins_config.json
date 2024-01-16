@@ -2214,6 +2214,14 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
+                "url": "electrum-ca.avn.network:50001",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ]
+            },
+            {
                 "url": "electrum-eu.avn.network:50001",
                 "contact": [
                     {
@@ -2228,6 +2236,16 @@
                         "email": "contact@avn.network"
                     }
                 ]
+            },
+            {
+                "url": "electrum-ca.avn.network:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ],
+                "ws_url": "electrum-ca.avn.network:50003"
             },
             {
                 "url": "electrum-eu.avn.network:50002",
@@ -14629,6 +14647,15 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
+                "url": "electrum.maxpuig.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "mecs#4770"
+                    }
+                ]
+            },
+            {
                 "url": "electrum.niftybakes.com:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -14636,6 +14663,16 @@
                         "discord": "405566674448810005"
                     }
                 ]
+            },
+            {
+                "url": "electrum.maxpuig.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ],
+                "ws_url": "electrum.maxpuig.com:50004"
             }
         ],
         "explorer_block_url": "block/"
