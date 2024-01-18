@@ -26175,7 +26175,7 @@
         "wiftype": 187,
         "decimals": 6,
         "txfee": 0,
-        "dust": 10000,
+        "dust": 1000,
         "segwit": false,
         "bech32_hrp": "sum",
         "mm2": 1,
@@ -31780,16 +31780,6 @@
                 ]
             },
             {
-                "url": "la.ask.systems:52138",
-                "protocol": "SSL",
-                "ws_url": "la.ask.systems:52140",
-                "contact": [
-                    {
-                        "telegram": "@fsmv0"
-                    }
-                ]
-            },
-            {
                 "url": "xrg_ful.googol.cash:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -32949,11 +32939,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
-            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
