@@ -461,6 +461,29 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "AIBC",
+    "name": "aiblockchain",
+    "fname": "Aiblockchain",
+    "rpcport": 7772,
+    "pubtype": 23,
+    "p2shtype": 23,
+    "wiftype": 176,
+    "txfee": 0,
+    "dust": 5460,
+    "segwit": true,
+    "mm2": 1,
+    "required_confirmations": 11,
+    "avg_blocktime": 30,
+    "protocol": {
+      "type": "UTXO",
+      "bip44": "m/44'/2'/0'/0/0"
+    },
+    "links": {
+      "github": "https://github.com/nickgsh/AiBlockChain",
+      "homepage": "https://aibc.space/"
+    }
+  },
+  {
     "coin": "ANKR-BEP20",
     "name": "ankr_bep20",
     "fname": "Ankr",
@@ -2061,7 +2084,7 @@
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "sign_message_prefix": "Bitcoin Signed Message:\n",
     "required_confirmations": 1,
     "avg_blocktime": 600,
@@ -2175,7 +2198,7 @@
     "bech32_hrp": "web",
     "txfee": 20000,
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 3,
     "avg_blocktime": 60,
     "protocol": {
@@ -2296,7 +2319,7 @@
     "bech32_hrp": "btx",
     "txfee": 20000,
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 3,
     "avg_blocktime": 150,
     "protocol": {
@@ -2580,7 +2603,7 @@
     "segwit": true,
     "bech32_hrp": "cdn",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 2,
     "avg_blocktime": 300,
     "protocol": {
@@ -2612,6 +2635,62 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/34'"
+  },
+  {
+    "coin": "CDS-AVX20",
+    "name": "cds_avx20",
+    "fname": "Crypto Development Services",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "required_confirmations": 3,
+    "avg_blocktime": 2.4,
+    "decimals": 8,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
+      }
+    },
+    "derivation_path": "m/44'/9000'"
+  },
+  {
+    "coin": "CDS-BEP20",
+    "name": "cds_bep20",
+    "fname": "Crypto Development Services",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "CDS-PLG20",
+    "name": "cds_plg20",
+    "fname": "Crypto Development Services",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 8,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
+      }
+    },
+    "derivation_path": "m/44'/966'"
   },
   {
     "coin": "CEL-ERC20",
@@ -2904,6 +2983,24 @@
     "trezor_coin": "Komodo"
   },
   {
+    "coin": "CLP-BEP20",
+    "name": "clp_bep20",
+    "fname": "Crypto Lover Productions",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x3039e86d39A5BCF38E96D78fF93FD0aBe753212c"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "COLX",
     "name": "ColossusXT",
     "fname": "ColossusXT",
@@ -3170,6 +3267,24 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "CST-BEP20",
+    "name": "cst_bep20",
+    "fname": "Crypto Swap Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xcC4b3EA1F25c8772D390dA1DB507832aBE4a9740"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "CUMMIES-BEP20",
     "name": "cummies_bep20",
     "fname": "CumRocket",
@@ -3219,7 +3334,7 @@
     "segwit": true,
     "bech32_hrp": "cy",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 2,
     "avg_blocktime": 60,
     "protocol": {
@@ -3529,7 +3644,7 @@
     "segwit": true,
     "bech32_hrp": "dgb",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 7,
     "avg_blocktime": 15,
     "protocol": {
@@ -4697,7 +4812,7 @@
     "bech32_hrp": "fc",
     "txfee": 0,
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 3,
     "avg_blocktime": 60,
     "protocol": {
@@ -4864,7 +4979,7 @@
     "segwit": true,
     "bech32_hrp": "fc",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 5,
     "avg_blocktime": 60,
     "protocol": {
@@ -6943,7 +7058,7 @@
     "segwit": true,
     "bech32_hrp": "lbc",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 3,
     "avg_blocktime": 150,
     "protocol": {
@@ -6991,7 +7106,7 @@
     "segwit": true,
     "bech32_hrp": "lcc",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 4,
     "avg_blocktime": 150,
     "protocol": {
@@ -7350,7 +7465,7 @@
     "segwit": true,
     "bech32_hrp": "wc",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 2,
     "avg_blocktime": 30,
     "protocol": {
@@ -7475,7 +7590,7 @@
     "segwit": true,
     "bech32_hrp": "ltc",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 2,
     "avg_blocktime": 150,
     "protocol": {
@@ -8134,7 +8249,7 @@
     "segwit": true,
     "bech32_hrp": "mona",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 5,
     "avg_blocktime": 90,
     "protocol": {
@@ -8434,7 +8549,7 @@
     "segwit": true,
     "bech32_hrp": "nc",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 2,
     "avg_blocktime": 600,
     "protocol": {
@@ -9719,7 +9834,7 @@
     "bech32_hrp": "ric",
     "txfee": 0,
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 4,
     "avg_blocktime": 150,
     "protocol": {
@@ -10318,19 +10433,19 @@
     "coin": "SUM",
     "name": "sumcoin",
     "fname": "Sumcoin",
-    "isPoS": 1, 
+    "isPoS": 1,
     "sign_message_prefix": "Sumcoin Signed Message:\n",
     "rpcport": 3332,
-    "pubtype": 63, 
-    "p2shtype": 125, 
-    "wiftype": 187, 
-    "decimals": 6, 
-    "txfee": 0, 
-    "dust": 10000, 
-    "segwit": false, 
+    "pubtype": 63,
+    "p2shtype": 125,
+    "wiftype": 187,
+    "decimals": 6,
+    "txfee": 0,
+    "dust": 10000,
+    "segwit": false,
     "bech32_hrp": "sum",
     "mm2": 1,
-    "required_confirmations": 8,
+    "required_confirmations": 3,
     "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
@@ -10584,7 +10699,7 @@
     "required_confirmations": 5,
     "avg_blocktime": 60,
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "protocol": {
       "type": "UTXO"
     },
@@ -10674,7 +10789,7 @@
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "is_testnet": true,
     "required_confirmations": 0,
     "protocol": {
@@ -12097,7 +12212,7 @@
     "segwit": true,
     "bech32_hrp": "vtc",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 4,
     "avg_blocktime": 150,
     "protocol": {
@@ -12466,7 +12581,7 @@
     "segwit": true,
     "bech32_hrp": "my",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 3,
     "avg_blocktime": 240,
     "protocol": {
@@ -13963,7 +14078,7 @@
     "segwit": true,
     "bech32_hrp": "wv",
     "mm2": 1,
-    "wallet_only": true,
+    "wallet_only": false,
     "required_confirmations": 1,
     "mature_confirmations": 100,
     "avg_blocktime": 600,
