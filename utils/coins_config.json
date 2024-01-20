@@ -26195,11 +26195,6 @@
         },
         "electrum": [
             {
-                "url": "electrum01.reddcoin.com:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum01.reddcoin.com:50004"
-            },
-            {
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum02.reddcoin.com:50004"
@@ -34072,6 +34067,9 @@
         "electrum": [
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
+            },
+            {
+                "url": "electrumx.primecoin.org:50001"
             }
         ],
         "explorer_block_url": "block/"
@@ -35404,6 +35402,11 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
             }
         ],
         "explorer_block_url": "block.dws?"
