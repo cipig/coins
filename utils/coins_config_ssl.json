@@ -14637,6 +14637,29 @@
         },
         "electrum": [
             {
+                "url": "il8p.electrumx.transcenders.name:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ],
+                "ws_url": "il8p.electrumx.transcenders.name:50003"
+            },
+            {
                 "url": "il9p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -22207,16 +22230,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL",
-                "ws_url": "electrumx.live:30010",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "txserver.live:50002",
                 "protocol": "SSL",
                 "ws_url": "txserver.live:30001",
@@ -23313,6 +23326,11 @@
             "homepage": "https://reddcoin.com"
         },
         "electrum": [
+            {
+                "url": "electrum01.reddcoin.com:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum01.reddcoin.com:50004"
+            },
             {
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL",

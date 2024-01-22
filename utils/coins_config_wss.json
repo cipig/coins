@@ -13989,6 +13989,10 @@
         },
         "electrum": [
             {
+                "url": "il8p.electrumx.transcenders.name:50003",
+                "protocol": "WSS"
+            },
+            {
                 "url": "il9p.electrumx.transcenders.name:50003",
                 "protocol": "WSS"
             }
@@ -21181,10 +21185,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:30010",
-                "protocol": "WSS"
-            },
-            {
                 "url": "txserver.live:30001",
                 "protocol": "WSS"
             }
@@ -22113,6 +22113,10 @@
             "homepage": "https://reddcoin.com"
         },
         "electrum": [
+            {
+                "url": "electrum01.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
             {
                 "url": "electrum02.reddcoin.com:50004",
                 "protocol": "WSS"
