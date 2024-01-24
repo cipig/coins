@@ -9158,29 +9158,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.diminutivecoin.com:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    },
-                    {
-                        "twitter": "coin_dimi"
-                    },
-                    {
-                        "reddit": "DiminutiveCoin_DIMI"
-                    },
-                    {
-                        "github": "MadCatMining"
-                    },
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ],
-                "ws_url": "electrumx1.diminutivecoin.com:50013"
-            },
-            {
                 "url": "electrumx2.diminutivecoin.com:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -22207,16 +22184,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL",
-                "ws_url": "electrumx.live:30010",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "txserver.live:50002",
                 "protocol": "SSL",
                 "ws_url": "txserver.live:30001",
@@ -31519,6 +31486,11 @@
                 "url": "zeta-seed-c.zetacoin.tech:50012",
                 "protocol": "SSL",
                 "ws_url": "zeta-seed-c.zetacoin.tech:50013"
+            },
+            {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL",
+                "ws_url": "zeta-seed-d.zetacoin.network:50013"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -34910,19 +34882,6 @@
                     }
                 ],
                 "ws_url": "coin.crionic.org:50005"
-            },
-            {
-                "url": "explorer.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ],
-                "ws_url": "explorer.crionic.org:50005"
             }
         ],
         "explorer_block_url": "block/"
