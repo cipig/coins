@@ -5239,11 +5239,11 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrumx6.scalaris.info:20003",
+                "url": "electrumx1.bitwebcore.net:20003",
                 "protocol": "WSS"
             },
             {
-                "url": "electrumx7.scalaris.info:20003",
+                "url": "electrumx2.bitwebcore.net:20003",
                 "protocol": "WSS"
             }
         ],
@@ -5288,11 +5288,11 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrumx6.scalaris.info:20003",
+                "url": "electrumx1.bitwebcore.net:20003",
                 "protocol": "WSS"
             },
             {
-                "url": "electrumx7.scalaris.info:20003",
+                "url": "electrumx2.bitwebcore.net:20003",
                 "protocol": "WSS"
             }
         ],
@@ -25266,6 +25266,10 @@
         "electrum": [
             {
                 "url": "1.eu.tokel.electrum.dexstats.info:9077",
+                "protocol": "WSS"
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:9077",
                 "protocol": "WSS"
             }
         ],

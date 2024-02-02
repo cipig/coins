@@ -5564,7 +5564,7 @@
                         "email": "mraksoll@gmail.com"
                     },
                     {
-                        "discord": "mraksoll#0596"
+                        "discord": "mraksoll"
                     },
                     {
                         "github": "https://github.com/bitweb-project/electrumx/issues"
@@ -5573,36 +5573,36 @@
                 "ws_url": "electrumx.bitwebcore.net:20003"
             },
             {
-                "url": "electrumx6.scalaris.info:20002",
+                "url": "electrumx1.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
                         "email": "mraksoll@gmail.com"
                     },
                     {
-                        "discord": "mraksoll#0596"
+                        "discord": "mraksoll"
                     },
                     {
                         "github": "https://github.com/bitweb-project/electrumx/issues"
                     }
                 ],
-                "ws_url": "electrumx6.scalaris.info:20003"
+                "ws_url": "electrumx1.bitwebcore.net:20003"
             },
             {
-                "url": "electrumx7.scalaris.info:20002",
+                "url": "electrumx2.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
                         "email": "mraksoll@gmail.com"
                     },
                     {
-                        "discord": "mraksoll#0596"
+                        "discord": "mraksoll"
                     },
                     {
                         "github": "https://github.com/bitweb-project/electrumx/issues"
                     }
                 ],
-                "ws_url": "electrumx7.scalaris.info:20003"
+                "ws_url": "electrumx2.bitwebcore.net:20003"
             }
         ],
         "explorer_block_url": "block/"
@@ -5649,7 +5649,7 @@
                         "email": "mraksoll@gmail.com"
                     },
                     {
-                        "discord": "mraksoll#0596"
+                        "discord": "mraksoll"
                     },
                     {
                         "github": "https://github.com/bitweb-project/electrumx/issues"
@@ -5658,36 +5658,36 @@
                 "ws_url": "electrumx.bitwebcore.net:20003"
             },
             {
-                "url": "electrumx6.scalaris.info:20002",
+                "url": "electrumx1.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
                         "email": "mraksoll@gmail.com"
                     },
                     {
-                        "discord": "mraksoll#0596"
+                        "discord": "mraksoll"
                     },
                     {
                         "github": "https://github.com/bitweb-project/electrumx/issues"
                     }
                 ],
-                "ws_url": "electrumx6.scalaris.info:20003"
+                "ws_url": "electrumx1.bitwebcore.net:20003"
             },
             {
-                "url": "electrumx7.scalaris.info:20002",
+                "url": "electrumx2.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
                         "email": "mraksoll@gmail.com"
                     },
                     {
-                        "discord": "mraksoll#0596"
+                        "discord": "mraksoll"
                     },
                     {
                         "github": "https://github.com/bitweb-project/electrumx/issues"
                     }
                 ],
-                "ws_url": "electrumx7.scalaris.info:20003"
+                "ws_url": "electrumx2.bitwebcore.net:20003"
             }
         ],
         "explorer_block_url": "block/"
@@ -27816,6 +27816,19 @@
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:10077",
                 "contact": [
                     {
@@ -35770,15 +35783,6 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
-            {
-                "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
             {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
