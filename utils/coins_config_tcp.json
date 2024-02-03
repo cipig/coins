@@ -5207,11 +5207,6 @@
         },
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL",
-                "ws_url": "electrumserver01.globalboost.info:50013"
-            },
-            {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL",
                 "ws_url": "electrumserver02.globalboost.info:50013"
@@ -33329,11 +33324,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
-            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL",
