@@ -14178,7 +14178,7 @@
                 "ws_url": "electrum.maxpuig.com:50004"
             },
             {
-                "url": "fr.garlium.crapules.org:50002",
+                "url": "uk.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -14188,12 +14188,11 @@
                 ]
             },
             {
-                "url": "uk.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
+                "url": "electrum.maxpuig.com:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
-                        "discord": "orpheas#1503"
+                        "discord": "mecs#4770"
                     }
                 ]
             }
@@ -25331,6 +25330,86 @@
         ],
         "explorer_block_url": "block/"
     },
+    "RTB": {
+        "coin": "RTB",
+        "type": "Smart Chain",
+        "name": "RideTheBullCoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer1.ridethebullcoin.com",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "RTB",
+        "fname": "RideTheBullCoin",
+        "rpcport": 29403,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrumx1.ridethebullcoin.com:20053",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "rtbadmin@ridethebullcoin.com"
+                    },
+                    {
+                        "github": "RTBCoin"
+                    },
+                    {
+                        "discord": "rtbcoin"
+                    }
+                ],
+                "ws_url": "electrumx1.ridethebullcoin.com:20052"
+            },
+            {
+                "url": "electrumx2.ridethebullcoin.com:20053",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "rtbadmin@ridethebullcoin.com"
+                    },
+                    {
+                        "github": "RTBCoin"
+                    },
+                    {
+                        "discord": "rtbcoin"
+                    }
+                ],
+                "ws_url": "electrumx2.ridethebullcoin.com:20052"
+            },
+            {
+                "url": "electrumx1.ridethebullcoin.com:10002",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "rtbadmin@ridethebullcoin.com"
+                    },
+                    {
+                        "github": "RTBCoin"
+                    },
+                    {
+                        "discord": "rtbcoin"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "RTM": {
         "coin": "RTM",
         "type": "UTXO",
@@ -33253,6 +33332,11 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
+            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
