@@ -2186,6 +2186,10 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
+                "url": "electrum-ca.avn.network:50003",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum-eu.avn.network:50003",
                 "protocol": "WSS"
             },
@@ -22975,6 +22979,10 @@
         },
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
+        "links": {
+            "github": "https://github.com/RTBCoin",
+            "homepage": "https://ridethebullcoin.com"
+        },
         "electrum": [
             {
                 "url": "electrumx1.ridethebullcoin.com:20052",

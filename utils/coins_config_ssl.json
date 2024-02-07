@@ -2170,6 +2170,16 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
+                "url": "electrum-ca.avn.network:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ],
+                "ws_url": "electrum-ca.avn.network:50003"
+            },
+            {
                 "url": "electrum-eu.avn.network:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -13566,16 +13576,6 @@
                         "discord": "orpheas#1503"
                     }
                 ]
-            },
-            {
-                "url": "uk.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -24169,6 +24169,10 @@
         },
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
+        "links": {
+            "github": "https://github.com/RTBCoin",
+            "homepage": "https://ridethebullcoin.com"
+        },
         "electrum": [
             {
                 "url": "electrumx1.ridethebullcoin.com:20053",
