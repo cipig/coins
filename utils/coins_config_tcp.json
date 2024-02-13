@@ -732,6 +732,10 @@
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -5137,6 +5141,10 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
+            },
             {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
@@ -22645,6 +22653,10 @@
             {
                 "url": "pink-one.ewm-cx.net:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "pink-two.ewm-cx.net:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -30829,14 +30841,14 @@
         ],
         "explorer_block_url": "block/"
     },
-    "VPRM": {
-        "coin": "VPRM",
+    "GRMS": {
+        "coin": "GRMS",
         "type": "Smart Chain",
-        "name": "Vaporum",
-        "coinpaprika_id": "vprm-vaporum-coin",
-        "coingecko_id": "vaporum-coin",
-        "livecoinwatch_id": "VPRM",
-        "explorer_url": "http://explorer.vaporumcoin.us/",
+        "name": "GRMS",
+        "coinpaprika_id": "grms-grms",
+        "coingecko_id": "",
+        "livecoinwatch_id": "GRMS",
+        "explorer_url": "https://explorer.grms.pw/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -30845,14 +30857,14 @@
         "currently_enabled": false,
         "wallet_only": false,
         "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "VPRM",
-        "fname": "Vaporum",
-        "rpcport": 51609,
+        "asset": "GRMS",
+        "fname": "GRMS",
+        "rpcport": 21687,
         "txversion": 4,
         "overwintered": 1,
         "mm2": 1,
         "required_confirmations": 5,
-        "avg_blocktime": 30,
+        "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
         },
@@ -30860,13 +30872,49 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrumx1.vaporumcoin.us:50001",
+                "url": "electrum.grms.pw:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
-                        "github": "VaporumCoin"
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
                     }
-                ],
-                "protocol": "TCP"
+                ]
+            },
+            {
+                "url": "electrum1.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -31929,6 +31977,18 @@
             },
             {
                 "url": "electrumx2.neurai.top:50001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "alarm@neurai.org"
+                    },
+                    {
+                        "discord": "456566604809895947"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.neurai.top:50001",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -33199,7 +33259,7 @@
         },
         "electrum": [
             {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL"
             },
             {
