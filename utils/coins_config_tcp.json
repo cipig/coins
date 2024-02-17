@@ -20846,6 +20846,10 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrumx.tamami-foundation.org:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx1.monacoin.ninja:50001",
                 "protocol": "TCP"
             }
@@ -20896,6 +20900,10 @@
         "electrum": [
             {
                 "url": "133.167.67.203:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
             },
             {
@@ -25189,21 +25197,6 @@
         "electrum": [
             {
                 "url": "electrumx1.ridethebullcoin.com:20053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "rtbadmin@ridethebullcoin.com"
-                    },
-                    {
-                        "github": "RTBCoin"
-                    },
-                    {
-                        "discord": "rtbcoin"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.ridethebullcoin.com:20053",
                 "protocol": "SSL",
                 "contact": [
                     {
