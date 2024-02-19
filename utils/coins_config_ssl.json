@@ -31623,10 +31623,6 @@
         },
         "electrum": [
             {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL"
-            },
-            {
                 "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL"
             }
@@ -34044,15 +34040,6 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
-            {
-                "url": "electroncash.de:50004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
             {
                 "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
