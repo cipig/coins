@@ -32028,52 +32028,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "XPM": {
-        "coin": "XPM",
-        "type": "UTXO",
-        "name": "Primecoin",
-        "coinpaprika_id": "xpm-primecoin",
-        "coingecko_id": "primecoin",
-        "livecoinwatch_id": "XPM",
-        "explorer_url": "https://www.blockseek.io/xpm/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "Primecoin",
-        "rpcport": 8332,
-        "pubtype": 23,
-        "p2shtype": 83,
-        "wiftype": 151,
-        "txfee": 0,
-        "dust": 1000000,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/24'",
-        "trezor_coin": "Primecoin",
-        "links": {
-            "github": "https://github.com/primecoin/primecoin",
-            "homepage": "https://primecoin.io"
-        },
-        "electrum": [
-            {
-                "url": "electrumx.mainnet.primecoin.org:50011",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.primecoin.org:50001",
-                "protocol": "TCP"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "XRG": {
         "coin": "XRG",
         "type": "UTXO",
