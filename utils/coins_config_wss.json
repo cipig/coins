@@ -14778,18 +14778,6 @@
                     }
                 ],
                 "protocol": "WSS"
-            },
-            {
-                "url": "electrum2.ilien.io:30069",
-                "contact": [
-                    {
-                        "email": "admin@ilien.io"
-                    },
-                    {
-                        "discord": "siu - Chainmakers#3920"
-                    }
-                ],
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -21581,7 +21569,7 @@
         "derivation_path": "m/44'/119'",
         "electrum": [
             {
-                "url": "electrum01.chainster.org:50003",
+                "url": "electrum02.chainster.org:50003",
                 "contact": [
                     {
                         "discord": "312541186793406465"
@@ -32010,6 +31998,10 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
+            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
                 "protocol": "WSS"
