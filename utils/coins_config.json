@@ -17896,31 +17896,7 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum2.ilien.io:65011",
-                "contact": [
-                    {
-                        "email": "admin@ilien.io"
-                    },
-                    {
-                        "discord": "siu - Chainmakers#3920"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum1.ilien.io:30069",
-                "contact": [
-                    {
-                        "email": "admin@ilien.io"
-                    },
-                    {
-                        "discord": "siu - Chainmakers#3920"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum2.ilien.io:30069",
                 "contact": [
                     {
                         "email": "admin@ilien.io"
@@ -26034,6 +26010,10 @@
         "electrum": [
             {
                 "url": "pink-one.ewm-cx.net:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "pink-two.ewm-cx.net:50001",
                 "protocol": "TCP"
             }
         ],
@@ -38986,6 +38966,48 @@
         ],
         "explorer_block_url": "block/"
     },
+    "FLUX": {
+        "coin": "FLUX",
+        "type": "UTXO",
+        "name": "Flux",
+        "coinpaprika_id": "zel-zelcash",
+        "coingecko_id": "zelcash",
+        "livecoinwatch_id": "_FLUX",
+        "explorer_url": "https://explorer.runonflux.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Flux",
+        "rpcport": 16124,
+        "taddr": 28,
+        "pubtype": 184,
+        "p2shtype": 189,
+        "wiftype": 128,
+        "txversion": 4,
+        "overwintered": 1,
+        "version_group_id": "0x892f2085",
+        "consensus_branch_id": "0x76b809bb",
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/19167'",
+        "electrum": [
+            {
+                "url": "electrumx.runonflux.io:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "FLUX-ERC20": {
         "coin": "FLUX-ERC20",
         "type": "ERC-20",
@@ -41751,21 +41773,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.cointest.com:50001",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx2.cointest.com:50001",
                 "contact": [
                     {
@@ -41779,21 +41786,6 @@
                     }
                 ],
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx1.cointest.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ]
             },
             {
                 "url": "electrumx2.cointest.com:50002",
@@ -41850,21 +41842,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.cointest.com:50001",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx2.cointest.com:50001",
                 "contact": [
                     {
@@ -41878,21 +41855,6 @@
                     }
                 ],
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx1.cointest.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ]
             },
             {
                 "url": "electrumx2.cointest.com:50002",
