@@ -36108,6 +36108,61 @@
         ],
         "explorer_block_url": "block.dws?"
     },
+    "WAF": {
+        "coin": "WAF",
+        "type": "UTXO",
+        "name": "Waifu",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://waifu-explorer.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Waifu Signed Message:\n",
+        "fname": "Waifu",
+        "rpcport": 18332,
+        "pubtype": 73,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "segwit": true,
+        "bech32_hrp": "waf",
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 210,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/waifu-core/waifu-core"
+        },
+        "electrum": [
+            {
+                "url": "waifu-explorer.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "376197863346274307"
+                    }
+                ]
+            },
+            {
+                "url": "waifu-explorer.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "376197863346274307"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "WAVES-BEP20": {
         "coin": "WAVES-BEP20",
         "type": "BEP-20",
@@ -37824,6 +37879,18 @@
             {
                 "url": "88.99.26.209:5036",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx-verge.cloud:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx-verge.cloud:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx-verge.cloud:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -38646,6 +38713,14 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
