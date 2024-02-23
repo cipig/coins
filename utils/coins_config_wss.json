@@ -29865,6 +29865,52 @@
         ],
         "explorer_block_url": "block.dws?"
     },
+    "WAF": {
+        "coin": "WAF",
+        "type": "UTXO",
+        "name": "Waifu",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://waifu-explorer.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Waifu Signed Message:\n",
+        "fname": "Waifu",
+        "rpcport": 18332,
+        "pubtype": 73,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "segwit": true,
+        "bech32_hrp": "waf",
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 210,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/waifu-core/waifu-core"
+        },
+        "electrum": [
+            {
+                "url": "waifu-explorer.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "376197863346274307"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "WAVES-BEP20": {
         "coin": "WAVES-BEP20",
         "type": "BEP-20",
@@ -31311,6 +31357,50 @@
         ],
         "explorer_block_url": "block/"
     },
+    "XVG": {
+        "coin": "XVG",
+        "type": "UTXO",
+        "name": "Verge",
+        "coinpaprika_id": "xvg-verge",
+        "coingecko_id": "verge",
+        "livecoinwatch_id": "XVG",
+        "explorer_url": "https://xvgblockexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "VERGE Signed Message:\n",
+        "fname": "Verge",
+        "isPoS": 1,
+        "rpcport": 20102,
+        "pubtype": 30,
+        "p2shtype": 33,
+        "wiftype": 158,
+        "decimals": 6,
+        "segwit": true,
+        "bech32_hrp": "vg",
+        "txfee": 400000,
+        "dust": 400000,
+        "force_min_relay_fee": true,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 30,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/77'",
+        "electrum": [
+            {
+                "url": "electrumx-verge.cloud:50004",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "XVG"
+    },
     "XVS-BEP20": {
         "coin": "XVS-BEP20",
         "type": "BEP-20",
@@ -31948,6 +32038,45 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
+    },
+    "ZET": {
+        "coin": "ZET",
+        "type": "UTXO",
+        "name": "Zetacoin",
+        "coinpaprika_id": "zet-zetacoin",
+        "coingecko_id": "zetacoin",
+        "livecoinwatch_id": "ZET",
+        "explorer_url": "https://chainz.cryptoid.info/zet/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Zetacoin Signed Message:\n",
+        "fname": "Zetacoin",
+        "isPoS": 1,
+        "rpcport": 22014,
+        "pubtype": 20,
+        "p2shtype": 85,
+        "wiftype": 153,
+        "txfee": 100000,
+        "dust": 100000,
+        "mm2": 1,
+        "mature_confirmations": 500,
+        "required_confirmations": 7,
+        "avg_blocktime": 45,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "ZIL-BEP20": {
         "coin": "ZIL-BEP20",
