@@ -24433,10 +24433,6 @@
             {
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL"
-            },
-            {
-                "url": "electrum03.reddcoin.com:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -27733,6 +27729,15 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "1.eu.thc.electrum.dexstats.info:10020",
+                "contact": [
+                    {
+                        "discord": "CHMEX#0686"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
                 "contact": [
                     {
@@ -27825,6 +27830,18 @@
         "electrum": [
             {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -33420,10 +33437,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL"
-            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
