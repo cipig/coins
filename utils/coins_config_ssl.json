@@ -12859,52 +12859,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "GLC": {
-        "coin": "GLC",
-        "type": "UTXO",
-        "name": "Goldcoin",
-        "coinpaprika_id": "glc-goldcoin",
-        "coingecko_id": "goldcoin",
-        "livecoinwatch_id": "GLC",
-        "explorer_url": "https://chainz.cryptoid.info/glc/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Goldcoin (GLC) Signed Message:\n",
-        "fname": "Goldcoin",
-        "rpcport": 8122,
-        "pubtype": 32,
-        "p2shtype": 5,
-        "wiftype": 160,
-        "segwit": false,
-        "txfee": 100000,
-        "dust": 54600,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 120,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "links": {
-            "github": "https://github.com/goldcoin/goldcoin",
-            "homepage": "https://www.goldcoinproject.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.netseed.net:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum2.netseed.net:50002",
-                "protocol": "SSL"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
     "GLEEC": {
         "coin": "GLEEC",
         "type": "Smart Chain",
@@ -25235,11 +25189,6 @@
         "electrum": [
             {
                 "url": "sumpos.electrum-sum.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
-            {
-                "url": "sumpos2.electrum-sum.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
             }
