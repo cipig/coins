@@ -35465,7 +35465,8 @@
                 "protocol": "TCP"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "VIA"
     },
     "VITE-BEP20": {
         "coin": "VITE-BEP20",
@@ -38687,6 +38688,14 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
