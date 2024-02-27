@@ -13088,6 +13088,10 @@
             {
                 "url": "electrum1.netseed.net:50003",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.netseed.net:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -13778,18 +13782,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum11.groestlcoin.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": false,
@@ -13804,6 +13796,18 @@
             },
             {
                 "url": "electrum12.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum13.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
