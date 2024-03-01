@@ -8970,6 +8970,68 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "DIAC": {
+        "coin": "DIAC",
+        "type": "UTXO",
+        "name": "Diabase",
+        "coinpaprika_id": "diac-diabase",
+        "coingecko_id": "diabase",
+        "livecoinwatch_id": "DIAC",
+        "explorer_url": "http://explorer.diabasecoin.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Diabase",
+        "confpath": "USERHOME/.diabasecore/diabase.conf",
+        "rpcport": 7676,
+        "pubtype": 76,
+        "p2shtype": 16,
+        "wiftype": 204,
+        "txfee": 1000,
+        "force_min_relay_fee": true,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 90,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/5'",
+        "links": {
+            "github": "https://github.com/diabasecoin/diabase",
+            "homepage": "https://www.diabasecoin.com"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:20072",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20072",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "DIMI": {
         "coin": "DIMI",
         "type": "UTXO",
