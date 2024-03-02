@@ -11128,7 +11128,7 @@
         "wiftype": 158,
         "txfee": 0,
         "force_min_relay_fee": true,
-        "dust": 100000000,
+        "dust": 1000000,
         "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 60,
@@ -38435,14 +38435,6 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
