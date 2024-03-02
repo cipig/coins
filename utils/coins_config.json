@@ -778,6 +778,24 @@
         },
         "electrum": [
             {
+                "url": "aby-ex-four.ewmci.online:50011",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "aby-ex-four.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -785,6 +803,15 @@
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
+            },
+            {
+                "url": "aby-ex-four.ewmci.online:50013",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             },
             {
                 "url": "elec-seeder-one.artbytecoin.org:50013",
@@ -18510,6 +18537,24 @@
         },
         "electrum": [
             {
+                "url": "il8p-ex-five.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "il8p-ex-five.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -18550,6 +18595,15 @@
                     },
                     {
                         "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il8p-ex-five.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
                     }
                 ]
             },
@@ -19897,8 +19951,7 @@
                 }
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "EUR"
+        "explorer_block_url": "block/"
     },
     "JEUR-PLG20": {
         "coin": "JEUR-PLG20",
@@ -19949,8 +20002,7 @@
                 "url": "https://polygon.llamarpc.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "EUR"
+        "explorer_block_url": "block/"
     },
     "JGBP-BEP20": {
         "coin": "JGBP-BEP20",
@@ -36815,6 +36867,10 @@
                 ]
             },
             {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum1.cipig.net:30073",
                 "protocol": "WSS",
                 "contact": [
@@ -36825,6 +36881,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -36886,6 +36946,10 @@
                 ]
             },
             {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum1.cipig.net:30073",
                 "protocol": "WSS",
                 "contact": [
@@ -36896,6 +36960,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -40216,11 +40284,46 @@
                 "protocol": "TCP"
             },
             {
+                "url": "zet-ex-three.ewmci.online:50011",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "zeta-seed-c.zetacoin.tech:50012",
                 "protocol": "SSL"
             },
             {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50013",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "zeta-seed-d.zetacoin.network:50013",
                 "protocol": "WSS"
             }
         ],
@@ -43389,6 +43492,15 @@
         "electrum": [
             {
                 "url": "electroncash.de:50004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
