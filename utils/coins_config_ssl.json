@@ -29257,6 +29257,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -29316,6 +29320,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -34059,6 +34067,15 @@
         "electrum": [
             {
                 "url": "electroncash.de:50004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
                 "contact": [
                     {

@@ -24612,7 +24612,23 @@
         },
         "electrum": [
             {
+                "url": "198.50.223.25:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "198.50.223.27:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "46.229.238.187:57001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.nmc.dotbit.zone:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx4.nmc.dotbit.zone:50001",
                 "protocol": "TCP"
             },
             {
@@ -24664,7 +24680,23 @@
         },
         "electrum": [
             {
+                "url": "198.50.223.25:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "198.50.223.27:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "46.229.238.187:57001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.nmc.dotbit.zone:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx4.nmc.dotbit.zone:50001",
                 "protocol": "TCP"
             },
             {
@@ -35017,6 +35049,10 @@
                 ]
             },
             {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum3.cipig.net:30073",
                 "protocol": "WSS",
                 "contact": [
@@ -35027,6 +35063,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -35088,6 +35128,10 @@
                 ]
             },
             {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum3.cipig.net:30073",
                 "protocol": "WSS",
                 "contact": [
@@ -35098,6 +35142,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -41423,6 +41471,15 @@
         "electrum": [
             {
                 "url": "electroncash.de:50004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
                 "contact": [
                     {

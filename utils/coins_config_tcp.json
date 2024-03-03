@@ -21394,7 +21394,11 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "46.229.238.187:57001",
+                "url": "198.50.223.25:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "198.50.223.27:50001",
                 "protocol": "TCP"
             }
         ],
@@ -21446,7 +21450,11 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "46.229.238.187:57001",
+                "url": "198.50.223.25:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "198.50.223.27:50001",
                 "protocol": "TCP"
             }
         ],
@@ -30639,6 +30647,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -30698,6 +30710,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -35778,6 +35794,15 @@
         "electrum": [
             {
                 "url": "electroncash.de:50004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
