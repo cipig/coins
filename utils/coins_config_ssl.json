@@ -29257,10 +29257,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -29320,10 +29316,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -35029,7 +35021,7 @@
         "txfee": 1000000,
         "mm2": 1,
         "required_confirmations": 3,
-        "avg_blocktime": 1,
+        "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
         },
