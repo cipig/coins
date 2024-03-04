@@ -3971,6 +3971,74 @@
         "explorer_block_url": "block/",
         "forex_id": "IDR"
     },
+    "BLK": {
+        "coin": "BLK",
+        "type": "UTXO",
+        "name": "BlackCoin",
+        "coinpaprika_id": "blk-blackcoin",
+        "coingecko_id": "blackcoin",
+        "livecoinwatch_id": "BLK",
+        "explorer_url": "https://chainz.cryptoid.info/blk/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "BlackCoin Signed Message:\n",
+        "fname": "BlackCoin",
+        "isPoS": 1,
+        "rpcport": 15715,
+        "pubtype": 25,
+        "p2shtype": 85,
+        "wiftype": 153,
+        "txfee": 100000,
+        "dust": 100000,
+        "segwit": true,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "check_utxo_maturity": true,
+        "mature_confirmations": 500,
+        "avg_blocktime": 66,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/10'",
+        "electrum": [
+            {
+                "url": "electrum1.blackcoin.nl:10002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.blackcoin.nl:20002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.blackcoin.nl:30002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "BLK-BEP20": {
         "coin": "BLK-BEP20",
         "type": "BEP-20",
@@ -4017,6 +4085,120 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "tBLK": {
+        "coin": "tBLK",
+        "type": "UTXO",
+        "name": "BlackCoin Testnet",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.blackcoin.nl/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "BlackCoin Testnet",
+        "isPoS": 1,
+        "rpcport": 25715,
+        "pubtype": 111,
+        "p2shtype": 196,
+        "wiftype": 239,
+        "txfee": 100000,
+        "segwit": true,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "check_utxo_maturity": true,
+        "mature_confirmations": 10,
+        "avg_blocktime": 66,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.blackcoin.nl:10012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.blackcoin.nl:20012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.blackcoin.nl:30012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BLOCX": {
+        "coin": "BLOCX",
+        "type": "UTXO",
+        "name": "BLOCX.",
+        "coinpaprika_id": "blocx-blocx",
+        "coingecko_id": "blocx-2",
+        "livecoinwatch_id": "BLOCX",
+        "explorer_url": "https://explorer.blocx.space/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkCoin Signed Message:\n",
+        "fname": "BLOCX.",
+        "rpcport": 12973,
+        "pubtype": 25,
+        "p2shtype": 26,
+        "wiftype": 153,
+        "segwit": false,
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 90,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/BLOCXTECH/BLOCX",
+            "homepage": "https://blocx.tech"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.blocx.space:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum2.blocx.space:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum3.blocx.space:50002",
+                "protocol": "SSL"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "BNB": {
