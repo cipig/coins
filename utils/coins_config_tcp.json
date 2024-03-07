@@ -24480,6 +24480,10 @@
             {
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -26549,11 +26553,6 @@
                 "url": "sumpos.electrum-sum.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
-            },
-            {
-                "url": "sumpos2.electrum-sum.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block/"
@@ -27132,9 +27131,9 @@
         "fallback_swap_contract": "0x25bF2AAB8749AD2e4360b3e0B738f3Cd700C4D68",
         "nodes": [
             {
-                "url": "https://smartbch.fountainhead.cash/mainnet",
+                "url": "https://rpc.smartbch.org",
                 "contact": {
-                    "email": "blockparty-sh@yandex.com"
+                    "email": "contact@smartbch.org"
                 }
             },
             {
