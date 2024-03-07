@@ -30705,7 +30705,17 @@
                 "disable_cert_verification": false
             },
             {
+                "url": "sumpos2.electrum-sum.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "sumpos.electrum-sum.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": false
+            },
+            {
+                "url": "sumpos2.electrum-sum.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             }
@@ -39092,9 +39102,12 @@
         "derivation_path": "m/44'/19167'",
         "electrum": [
             {
-                "url": "electrumx.runonflux.io:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
+                "url": "electrumx.runonflux.io:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.runonflux.io:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/",
