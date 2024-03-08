@@ -29360,6 +29360,21 @@
                 ]
             },
             {
+                "url": "electrumx2.ridethebullcoin.com:10002",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "rtbadmin@ridethebullcoin.com"
+                    },
+                    {
+                        "github": "RTBCoin"
+                    },
+                    {
+                        "discord": "rtbcoin"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.ridethebullcoin.com:20053",
                 "protocol": "SSL",
                 "contact": [
@@ -29375,7 +29390,37 @@
                 ]
             },
             {
+                "url": "electrumx2.ridethebullcoin.com:20053",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "rtbadmin@ridethebullcoin.com"
+                    },
+                    {
+                        "github": "RTBCoin"
+                    },
+                    {
+                        "discord": "rtbcoin"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.ridethebullcoin.com:20052",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "rtbadmin@ridethebullcoin.com"
+                    },
+                    {
+                        "github": "RTBCoin"
+                    },
+                    {
+                        "discord": "rtbcoin"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.ridethebullcoin.com:20052",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -35481,10 +35526,6 @@
                 ]
             },
             {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum3.cipig.net:30073",
                 "protocol": "WSS",
                 "contact": [
@@ -35495,10 +35536,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -35560,10 +35597,6 @@
                 ]
             },
             {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum3.cipig.net:30073",
                 "protocol": "WSS",
                 "contact": [
@@ -35574,10 +35607,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
