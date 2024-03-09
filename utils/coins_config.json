@@ -30867,7 +30867,17 @@
                 "disable_cert_verification": false
             },
             {
+                "url": "sumpos2.electrum-sum.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "sumpos.electrum-sum.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": false
+            },
+            {
+                "url": "sumpos2.electrum-sum.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             }
@@ -35529,6 +35539,10 @@
                 ]
             },
             {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum3.cipig.net:30073",
                 "protocol": "WSS",
                 "contact": [
@@ -35539,6 +35553,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -35600,6 +35618,10 @@
                 ]
             },
             {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum3.cipig.net:30073",
                 "protocol": "WSS",
                 "contact": [
@@ -35610,6 +35632,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
