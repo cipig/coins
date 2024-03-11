@@ -23919,6 +23919,54 @@
         ],
         "explorer_block_url": "block.dws?"
     },
+    "MINU-BEP20": {
+        "coin": "MINU-BEP20",
+        "type": "BEP-20",
+        "name": "Minu",
+        "coinpaprika_id": "minu-minu",
+        "coingecko_id": "minu",
+        "livecoinwatch_id": "_____MINU",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Minu",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0xf48f91df403976060cC05dBbf8A0901b09fdeFd4"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0xf48f91df403976060cC05dBbf8A0901b09fdeFd4",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
     "MIR-ERC20": {
         "coin": "MIR-ERC20",
         "type": "ERC-20",
@@ -35875,10 +35923,6 @@
                 ]
             },
             {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum3.cipig.net:30073",
                 "protocol": "WSS",
                 "contact": [
@@ -35889,10 +35933,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -35954,10 +35994,6 @@
                 ]
             },
             {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum3.cipig.net:30073",
                 "protocol": "WSS",
                 "contact": [
@@ -35968,10 +36004,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -39243,10 +39275,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50013",
-                "protocol": "WSS"
             },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
