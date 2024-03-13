@@ -7858,6 +7858,85 @@
         ],
         "explorer_block_url": "block/"
     },
+    "CRT-QRC20": {
+        "coin": "CRT-QRC20",
+        "type": "QRC-20",
+        "name": "CRT Token",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.qtum.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "CRT Token",
+        "rpcport": 3889,
+        "pubtype": 58,
+        "p2shtype": 50,
+        "wiftype": 128,
+        "segwit": false,
+        "txfee": 0,
+        "dust": 72800,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "mature_confirmations": 2000,
+        "avg_blocktime": 32,
+        "protocol": {
+            "type": "QRC20",
+            "protocol_data": {
+                "platform": "QTUM",
+                "contract_address": "0x0f80aa32ba51e0acf171e106a1cfcd1eb9a9c3a5"
+            }
+        },
+        "derivation_path": "m/44'/2301'",
+        "contract_address": "0x0f80aa32ba51e0acf171e106a1cfcd1eb9a9c3a5",
+        "parent_coin": "QTUM",
+        "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
+        "fallback_swap_contract": "0x2f754733acd6d753731c00fee32cb484551cc15d",
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:30050",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:30050",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:30050",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "CRV-ERC20": {
         "coin": "CRV-ERC20",
         "type": "ERC-20",
@@ -32626,10 +32705,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50013",
-                "protocol": "WSS"
             },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
