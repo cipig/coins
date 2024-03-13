@@ -37732,5 +37732,62 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
+    },
+    "MEWC": {
+        "coin": "MEWC",
+        "type": "UTXO",
+        "name": "Meowcoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://mewc.cryptoscope.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Meowcoin Signed Message:\n",
+        "fname": "Meowcoin",
+        "rpcport": 9766,
+        "pubtype": 60,
+        "p2shtype": 122,
+        "wiftype": 128,
+        "segwit": false,
+        "txfee": 1000000,
+        "dust": 1000000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/1669'",
+        "links": {
+            "github": "https://github.com/Meowcoin-Foundation/Meowcoin",
+            "homepage": "https://www.mewccrypto.com/"
+        },
+        "electrum": [
+            {
+                "url": "meowcoinelectrum.xyz:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            },
+            {
+                "url": "meowelectrum.xyz:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
     }
 }
