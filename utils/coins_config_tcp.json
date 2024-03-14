@@ -21997,13 +21997,8 @@
         },
         "electrum": [
             {
-                "url": "nmc2.bitcoins.sk:57002",
+                "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrumx1.nmc.dotbit.zone:50001",
-                "protocol": "TCP",
                 "contact": [
                     {
                         "github": "https://github.com/namecoin/electrum-nmc/issues"
@@ -22011,8 +22006,17 @@
                 ]
             },
             {
-                "url": "electrumx2.nmc.dotbit.zone:50001",
-                "protocol": "TCP",
+                "url": "electrumx2.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "github": "https://github.com/namecoin/electrum-nmc/issues"
@@ -22063,13 +22067,8 @@
         },
         "electrum": [
             {
-                "url": "nmc2.bitcoins.sk:57002",
+                "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrumx1.nmc.dotbit.zone:50001",
-                "protocol": "TCP",
                 "contact": [
                     {
                         "github": "https://github.com/namecoin/electrum-nmc/issues"
@@ -22077,8 +22076,17 @@
                 ]
             },
             {
-                "url": "electrumx2.nmc.dotbit.zone:50001",
-                "protocol": "TCP",
+                "url": "electrumx2.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "github": "https://github.com/namecoin/electrum-nmc/issues"
@@ -31384,6 +31392,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -31443,6 +31455,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
