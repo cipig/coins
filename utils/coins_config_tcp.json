@@ -13830,15 +13830,11 @@
         },
         "electrum": [
             {
-                "url": "electrum1.netseed.net:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum2.netseed.net:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrum1.netseed.net:50001",
+                "url": "electrum2.netseed.net:50001",
                 "protocol": "TCP"
             }
         ],
@@ -32832,6 +32828,18 @@
                         "discord": "456566604809895947"
                     }
                 ]
+            },
+            {
+                "url": "electrumx3.neurai.top:50001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "alarm@neurai.org"
+                    },
+                    {
+                        "discord": "456566604809895947"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -34117,12 +34125,12 @@
                 ]
             },
             {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL"
             },
             {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL"
+                "url": "207.180.252.200:50011",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -37684,11 +37692,11 @@
                 ]
             },
             {
-                "url": "electrum3.kiirocoin.org:50002",
-                "protocol": "SSL",
+                "url": "electrum1.kiirocoin.org:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                        "discord": "1155906841625239684"
                     }
                 ]
             }
