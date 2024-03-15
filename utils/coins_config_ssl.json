@@ -4476,10 +4476,6 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum2.blocx.space:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum3.blocx.space:50002",
                 "protocol": "SSL"
             }
@@ -13646,6 +13642,10 @@
         },
         "electrum": [
             {
+                "url": "electrum1.netseed.net:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum2.netseed.net:50002",
                 "protocol": "SSL"
             }
@@ -21847,9 +21847,31 @@
         },
         "electrum": [
             {
-                "url": "nmc2.bitcoins.sk:57002",
+                "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -21895,9 +21917,31 @@
         },
         "electrum": [
             {
-                "url": "nmc2.bitcoins.sk:57002",
+                "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -31186,10 +31230,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -31249,10 +31289,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -32433,6 +32469,18 @@
             },
             {
                 "url": "electrumx2.neurai.top:50001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "alarm@neurai.org"
+                    },
+                    {
+                        "discord": "456566604809895947"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.neurai.top:50001",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -33698,6 +33746,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "zeta-seed-d.zetacoin.network:50012",
@@ -37221,6 +37273,15 @@
         "electrum": [
             {
                 "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
