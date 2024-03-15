@@ -4926,10 +4926,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum2.blocx.space:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum3.blocx.space:50001",
                 "protocol": "TCP"
             },
@@ -4938,19 +4934,11 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum2.blocx.space:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum3.blocx.space:50002",
                 "protocol": "SSL"
             },
             {
                 "url": "electrum1.blocx.space:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum2.blocx.space:50004",
                 "protocol": "WSS"
             },
             {
@@ -15781,12 +15769,24 @@
         },
         "electrum": [
             {
+                "url": "electrum1.netseed.net:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum2.netseed.net:50001",
                 "protocol": "TCP"
             },
             {
+                "url": "electrum1.netseed.net:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum2.netseed.net:50002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "electrum1.netseed.net:50003",
+                "protocol": "WSS"
             },
             {
                 "url": "electrum2.netseed.net:50003",
@@ -36132,10 +36132,6 @@
                 ]
             },
             {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum3.cipig.net:30073",
                 "protocol": "WSS",
                 "contact": [
@@ -36146,10 +36142,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -36211,10 +36203,6 @@
                 ]
             },
             {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum3.cipig.net:30073",
                 "protocol": "WSS",
                 "contact": [
@@ -36225,10 +36213,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -39508,6 +39492,10 @@
                 ]
             },
             {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL"
             },
@@ -39519,6 +39507,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
             },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
@@ -44054,7 +44046,25 @@
                 ]
             },
             {
+                "url": "electrum3.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrum1.kiirocoin.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {

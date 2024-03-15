@@ -4398,10 +4398,6 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum2.blocx.space:50004",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum3.blocx.space:50004",
                 "protocol": "WSS"
             }
@@ -13409,6 +13405,10 @@
             "homepage": "https://www.goldcoinproject.org"
         },
         "electrum": [
+            {
+                "url": "electrum1.netseed.net:50003",
+                "protocol": "WSS"
+            },
             {
                 "url": "electrum2.netseed.net:50003",
                 "protocol": "WSS"
@@ -30109,10 +30109,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -30172,10 +30168,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -32721,6 +32713,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
             },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
@@ -35910,6 +35906,15 @@
         "electrum": [
             {
                 "url": "electrum1.kiirocoin.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {

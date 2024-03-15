@@ -4296,10 +4296,6 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum2.blocx.space:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum3.blocx.space:50002",
                 "protocol": "SSL"
             }
@@ -13209,6 +13205,10 @@
             "homepage": "https://www.goldcoinproject.org"
         },
         "electrum": [
+            {
+                "url": "electrum1.netseed.net:50002",
+                "protocol": "SSL"
+            },
             {
                 "url": "electrum2.netseed.net:50002",
                 "protocol": "SSL"
@@ -30018,10 +30018,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -30081,10 +30077,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -32464,6 +32456,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "zeta-seed-d.zetacoin.network:50012",
@@ -35888,6 +35884,15 @@
         "electrum": [
             {
                 "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
