@@ -4926,6 +4926,10 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum2.blocx.space:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum3.blocx.space:50001",
                 "protocol": "TCP"
             },
@@ -4934,11 +4938,19 @@
                 "protocol": "SSL"
             },
             {
+                "url": "electrum2.blocx.space:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum3.blocx.space:50002",
                 "protocol": "SSL"
             },
             {
                 "url": "electrum1.blocx.space:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.blocx.space:50004",
                 "protocol": "WSS"
             },
             {
