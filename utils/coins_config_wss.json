@@ -29905,10 +29905,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -29968,10 +29964,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -32502,6 +32494,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
             },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
@@ -35330,7 +35326,7 @@
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
-                "url": "https://cosmos.komodo.earth/"
+                "url": "https://cosmos-rpc.w3coins.io"
             }
         ],
         "explorer_block_url": "block/",
@@ -35368,12 +35364,6 @@
         "rpc_urls": [
             {
                 "url": "https://rpc-irisnet-ia.cosmosia.notional.ventures"
-            },
-            {
-                "url": "https://rpc-iris.keplr.app"
-            },
-            {
-                "url": "https://rpc.irishub-1.irisnet.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -35450,12 +35440,6 @@
         "rpc_urls": [
             {
                 "url": "https://rpc-irisnet-ia.cosmosia.notional.ventures"
-            },
-            {
-                "url": "https://rpc-iris.keplr.app"
-            },
-            {
-                "url": "https://rpc.irishub-1.irisnet.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -35634,18 +35618,6 @@
         "electrum": [
             {
                 "url": "electrum1-mainnet.evrmorecoin.org:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "hans_schm1dt@protonmail.com"
-                    },
-                    {
-                        "discord": "Hans_Schmidt#0745"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2-mainnet.evrmorecoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
