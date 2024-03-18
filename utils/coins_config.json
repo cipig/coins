@@ -7409,11 +7409,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "mumbai.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "oakland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -7440,11 +7435,6 @@
             },
             {
                 "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "mumbai.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -7514,11 +7504,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "mumbai.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "oakland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -7545,11 +7530,6 @@
             },
             {
                 "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "mumbai.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -8019,18 +7999,6 @@
         },
         "derivation_path": "m/44'/682'",
         "electrum": [
-            {
-                "url": "electrum.shorelinecrypto.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
-            },
             {
                 "url": "electrum1.mooo.com:10007",
                 "contact": [
@@ -24459,6 +24427,10 @@
         },
         "electrum": [
             {
+                "url": "133.167.67.203:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
             },
@@ -24511,6 +24483,10 @@
             "homepage": "https://monacoin.org"
         },
         "electrum": [
+            {
+                "url": "133.167.67.203:50001",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
@@ -43332,7 +43308,10 @@
         "derivation_path": "m/44'/566'",
         "rpc_urls": [
             {
-                "url": "https://iris.komodo.earth/"
+                "url": "https://rpc-irisnet-ia.cosmosia.notional.ventures"
+            },
+            {
+                "url": "https://rpc-iris.keplr.app"
             },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
@@ -43411,7 +43390,10 @@
         "parent_coin": "IRIS",
         "rpc_urls": [
             {
-                "url": "https://iris.komodo.earth/"
+                "url": "https://rpc-irisnet-ia.cosmosia.notional.ventures"
+            },
+            {
+                "url": "https://rpc-iris.keplr.app"
             },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
