@@ -12449,15 +12449,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.fujicoin.org:50003",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "motty#8318"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.fujicoin.org:50003",
                 "protocol": "SSL",
                 "contact": [
@@ -12467,7 +12458,7 @@
                 ]
             },
             {
-                "url": "electrumx1.fujicoin.org:50001",
+                "url": "electrumx2.fujicoin.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -12520,15 +12511,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.fujicoin.org:50003",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "motty#8318"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.fujicoin.org:50003",
                 "protocol": "SSL",
                 "contact": [
@@ -12538,7 +12520,7 @@
                 ]
             },
             {
-                "url": "electrumx1.fujicoin.org:50001",
+                "url": "electrumx2.fujicoin.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -31672,6 +31654,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -31731,6 +31717,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "via-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -34419,12 +34409,12 @@
                 ]
             },
             {
-                "url": "zeta-seed-d.zetacoin.network:50012",
+                "url": "zeta-seed-c.zetacoin.tech:50012",
                 "protocol": "SSL"
             },
             {
-                "url": "207.180.252.200:50011",
-                "protocol": "TCP"
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
