@@ -31173,8 +31173,7 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrum.grms.pw:50002",
-                "protocol": "SSL",
+                "url": "electrum.grms.pw:17485",
                 "contact": [
                     {
                         "email": "contact@grms.pw"
@@ -31185,11 +31184,11 @@
                     {
                         "github": "Miner113"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             },
             {
-                "url": "electrum1.grms.pw:50002",
-                "protocol": "SSL",
+                "url": "electrum1.grms.pw:17485",
                 "contact": [
                     {
                         "email": "contact@grms.pw"
@@ -31200,11 +31199,11 @@
                     {
                         "github": "Miner113"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             },
             {
-                "url": "electrum2.grms.pw:50002",
-                "protocol": "SSL",
+                "url": "electrum2.grms.pw:17485",
                 "contact": [
                     {
                         "email": "contact@grms.pw"
@@ -31215,7 +31214,8 @@
                     {
                         "github": "Miner113"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -33665,12 +33665,12 @@
                 ]
             },
             {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL"
             },
             {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL"
+                "url": "207.180.252.200:50011",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
