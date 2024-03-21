@@ -21024,10 +21024,6 @@
         "derivation_path": "m/44'/192'",
         "electrum": [
             {
-                "url": "188.166.117.139:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "88.99.26.209:5140",
                 "protocol": "TCP"
             }
@@ -21073,10 +21069,6 @@
         },
         "derivation_path": "m/44'/192'",
         "electrum": [
-            {
-                "url": "188.166.117.139:50001",
-                "protocol": "TCP"
-            },
             {
                 "url": "88.99.26.209:5140",
                 "protocol": "TCP"
@@ -36151,24 +36143,6 @@
             {
                 "url": "88.99.26.209:5028",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.javerity.com:5885",
-                "contact": [
-                    {
-                        "discord": "cruelnovo#4936"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.javerity.com:5887",
-                "contact": [
-                    {
-                        "discord": "cruelnovo#4936"
-                    }
-                ],
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -36218,24 +36192,6 @@
             {
                 "url": "88.99.26.209:5028",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.javerity.com:5885",
-                "contact": [
-                    {
-                        "discord": "cruelnovo#4936"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.javerity.com:5887",
-                "contact": [
-                    {
-                        "discord": "cruelnovo#4936"
-                    }
-                ],
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
