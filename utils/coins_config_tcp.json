@@ -713,15 +713,6 @@
         },
         "electrum": [
             {
-                "url": "aby-ex-four.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -31304,6 +31295,15 @@
             {
                 "url": "88.99.26.209:5028",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.javerity.com:5885",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -31352,6 +31352,15 @@
         "electrum": [
             {
                 "url": "88.99.26.209:5028",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.javerity.com:5885",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ],
                 "protocol": "TCP"
             }
         ],
