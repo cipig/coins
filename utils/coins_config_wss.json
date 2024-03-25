@@ -1154,15 +1154,6 @@
                         "github": "nickgsh"
                     }
                 ]
-            },
-            {
-                "url": "aibcelectrum.com:50002",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "nick@gshny.com"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -28299,6 +28290,11 @@
                 "url": "uno-bkp.coinmunity.gold:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -32233,10 +32229,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50013",
-                "protocol": "WSS"
             },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
