@@ -30900,7 +30900,7 @@
         "name": "RideTheBullCoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "RTB",
         "explorer_url": "https://explorer1.ridethebullcoin.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -34440,6 +34440,11 @@
             {
                 "url": "failover.trc-uis.ewmcx.biz:50006",
                 "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50007",
+                "protocol": "WSS",
                 "disable_cert_verification": true
             }
         ],
