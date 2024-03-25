@@ -29353,29 +29353,29 @@
         ],
         "explorer_block_url": "block/"
     },
-    "tvARRR": {
-        "coin": "tvARRR",
+    "vARRR": {
+        "coin": "vARRR",
         "type": "Smart Chain",
-        "name": "vARRR (testnet)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://testex.verus.io/",
+        "name": "vARRR",
+        "coinpaprika_id": "arrr-pirate",
+        "coingecko_id": "pirate-chain",
+        "livecoinwatch_id": "ARRR",
+        "explorer_url": "https://varrrexplorer.piratechain.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
         "active": false,
-        "is_testnet": true,
+        "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "vARRR",
-        "fname": "vARRR (testnet)",
-        "rpcport": 27772,
+        "fname": "vARRR",
+        "rpcport": 20778,
         "txversion": 4,
         "overwintered": 1,
         "mm2": 1,
-        "required_confirmations": 1,
+        "required_confirmations": 3,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -29384,7 +29384,7 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "fr1.cipig.net:30066",
+                "url": "electrum1.cipig.net:30009",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -29394,42 +29394,21 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "tvDEX": {
-        "coin": "tvDEX",
-        "type": "Smart Chain",
-        "name": "vDEX (testnet)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://testex.verus.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": true,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "vDEX",
-        "fname": "vDEX (testnet)",
-        "rpcport": 27778,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 1,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
+            },
             {
-                "url": "fr1.cipig.net:30072",
+                "url": "electrum2.cipig.net:30009",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:30009",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -32254,6 +32233,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
             },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
