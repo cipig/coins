@@ -3296,12 +3296,20 @@
                 "protocol": "WSS"
             },
             {
-                "url": "bch.soul-dev.com:50004",
+                "url": "cashnode.bch.ninja:50004",
                 "protocol": "WSS"
             },
             {
-                "url": "cashnode.bch.ninja:50004",
-                "protocol": "WSS"
+                "url": "electrum3.cipig.net:30055",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/",
