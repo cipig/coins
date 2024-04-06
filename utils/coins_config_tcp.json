@@ -680,6 +680,45 @@
         ],
         "explorer_block_url": "block/"
     },
+    "ABY": {
+        "coin": "ABY",
+        "type": "UTXO",
+        "name": "ArtByte",
+        "coinpaprika_id": "aby-artbyte",
+        "coingecko_id": "artbyte",
+        "livecoinwatch_id": "ABY",
+        "explorer_url": "https://chainz.cryptoid.info/aby/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "ArtByte",
+        "isPoS": 1,
+        "rpcport": 9262,
+        "pubtype": 28,
+        "p2shtype": 85,
+        "wiftype": 153,
+        "txfee": 100000,
+        "dust": 100000,
+        "mm2": 1,
+        "check_utxo_maturity": true,
+        "mature_confirmations": 550,
+        "required_confirmations": 7,
+        "avg_blocktime": 45,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "ADA-BEP20": {
         "coin": "ADA-BEP20",
         "type": "BEP-20",
@@ -3344,20 +3383,12 @@
                 "protocol": "SSL"
             },
             {
-                "url": "cashnode.bch.ninja:50002",
+                "url": "bch.soul-dev.com:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrum3.cipig.net:20055",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
+                "url": "cashnode.bch.ninja:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -7016,18 +7047,6 @@
             },
             {
                 "url": "electrum1.mooo.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum2.mooo.com:10007",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -21314,18 +21333,6 @@
                     }
                 ],
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrum2.mooo.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -27782,10 +27789,6 @@
                     }
                 ],
                 "protocol": "TCP"
-            },
-            {
-                "url": "testnet.aranguren.org:51001",
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -27846,10 +27849,6 @@
                         "discord": "cipi#4502"
                     }
                 ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "testnet.aranguren.org:51001",
                 "protocol": "TCP"
             }
         ],
