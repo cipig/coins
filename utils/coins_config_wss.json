@@ -7239,6 +7239,54 @@
         ],
         "explorer_block_url": "block/"
     },
+    "CLAM": {
+        "coin": "CLAM",
+        "type": "UTXO",
+        "name": "Clams",
+        "coinpaprika_id": "clam-clams",
+        "coingecko_id": "clams",
+        "livecoinwatch_id": "CLAM",
+        "explorer_url": "https://chainz.cryptoid.info/clam/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Clam Signed Message:\n",
+        "fname": "Clams",
+        "isPoS": 1,
+        "rpcport": 30174,
+        "pubtype": 137,
+        "p2shtype": 13,
+        "wiftype": 133,
+        "segwit": false,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/23'",
+        "links": {
+            "github": "https://github.com/nochowderforyou/clams",
+            "homepage": "http://clamclient.com"
+        },
+        "electrum": [
+            {
+                "url": "clam-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "CLP-BEP20": {
         "coin": "CLP-BEP20",
         "type": "BEP-20",
