@@ -2990,6 +2990,30 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "CLAM",
+    "name": "clams",
+    "fname": "Clams",
+    "isPoS": 1,
+    "rpcport": 30174,
+    "pubtype": 137,
+    "p2shtype": 13,
+    "wiftype": 133,
+    "segwit": false,
+    "txfee": 10000,
+    "mm2": 1,
+    "sign_message_prefix": "Clam Signed Message:\n",
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/23'",
+    "links": {
+      "github": "https://github.com/nochowderforyou/clams",
+      "homepage": "http://clamclient.com"
+    }
+  },
+  {
     "coin": "CLC",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "CLC",
@@ -3195,6 +3219,30 @@
       }
     },
     "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "CRT-QRC20",
+    "name": "qtum",
+    "fname": "CRT Token",
+    "rpcport": 3889,
+    "pubtype": 58,
+    "p2shtype": 50,
+    "wiftype": 128,
+    "segwit": false,
+    "txfee": 0,
+    "dust": 72800,
+    "mm2": 1,
+    "required_confirmations": 3,
+    "mature_confirmations": 2000,
+    "avg_blocktime": 32,
+    "protocol": {
+      "type": "QRC20",
+      "protocol_data": {
+        "platform": "QTUM",
+        "contract_address": "0x0f80aa32ba51e0acf171e106a1cfcd1eb9a9c3a5"
+      }
+    },
+    "derivation_path": "m/44'/2301'"
   },
   {
     "coin": "CRV-ERC20",
@@ -3665,7 +3713,7 @@
     "pubtype": 30,
     "p2shtype": 63,
     "wiftype": 128,
-    "txfee": 100000,
+    "txfee": 10000000,
     "segwit": true,
     "bech32_hrp": "dgb",
     "mm2": 1,
@@ -3691,7 +3739,7 @@
     "pubtype": 30,
     "p2shtype": 63,
     "wiftype": 128,
-    "txfee": 100000,
+    "txfee": 10000000,
     "segwit": true,
     "bech32_hrp": "dgb",
     "address_format": {
@@ -6893,6 +6941,60 @@
     "links": {
       "homepage": "https://kcc.io"
     }
+  },
+  {
+    "coin": "KIP0002",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "KIP0002",
+    "fname": "KIP0002",
+    "rpcport": 46856,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "wallet_only": true,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
+  {
+    "coin": "KIP0003",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "KIP0003",
+    "fname": "KIP0003",
+    "rpcport": 46866,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "wallet_only": true,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
+  {
+    "coin": "KIP0004",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "KIP0004",
+    "fname": "KIP0004",
+    "rpcport": 46876,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "wallet_only": true,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
   },
   {
     "coin": "KMD",
@@ -12216,7 +12318,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 3,
+    "required_confirmations": 6,
     "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
@@ -14469,6 +14571,7 @@
     "txversion": 4,
     "overwintered": 1,
     "avg_blocktime": 60,
+    "is_testnet": true,
     "mm2": 1,
     "protocol": {
       "type": "ZHTLC",
