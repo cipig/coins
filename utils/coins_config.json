@@ -2082,17 +2082,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "failover.aur.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "electrumx.aur.ewmcx.info:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "failover.aur.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -11971,11 +11961,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "holland.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -11987,11 +11972,6 @@
             },
             {
                 "url": "electrum3.egulden.org:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "holland.ecoincore.com:11019",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -29867,6 +29847,21 @@
                 ]
             },
             {
+                "url": "electrumx2.ridethebullcoin.com:10002",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "rtbadmin@ridethebullcoin.com"
+                    },
+                    {
+                        "github": "RTBCoin"
+                    },
+                    {
+                        "discord": "rtbcoin"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.ridethebullcoin.com:20053",
                 "protocol": "SSL",
                 "contact": [
@@ -29882,7 +29877,37 @@
                 ]
             },
             {
+                "url": "electrumx2.ridethebullcoin.com:20053",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "rtbadmin@ridethebullcoin.com"
+                    },
+                    {
+                        "github": "RTBCoin"
+                    },
+                    {
+                        "discord": "rtbcoin"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.ridethebullcoin.com:20052",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "rtbadmin@ridethebullcoin.com"
+                    },
+                    {
+                        "github": "RTBCoin"
+                    },
+                    {
+                        "discord": "rtbcoin"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.ridethebullcoin.com:20052",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -37712,6 +37737,10 @@
             {
                 "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.primecoin.org:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -39578,6 +39607,10 @@
         },
         "derivation_path": "m/44'/19167'",
         "electrum": [
+            {
+                "url": "electrumx.runonflux.io:50001",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP"
