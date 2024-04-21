@@ -10094,11 +10094,6 @@
                 "url": "electrum3.egulden.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "lenoir.ecoincore.com:11019",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -23496,10 +23491,6 @@
         },
         "electrum": [
             {
-                "url": "electrum01.reddcoin.com:50004",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum03.reddcoin.com:50004",
                 "protocol": "WSS"
             }
@@ -35139,15 +35130,6 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrumx1.actioncoin.com:20001",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "support@actioncoin.com"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.actioncoin.com:20001",
                 "protocol": "WSS",
                 "contact": [
@@ -35594,15 +35576,6 @@
         "electrum": [
             {
                 "url": "electrum1.kiirocoin.org:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
