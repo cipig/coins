@@ -1919,11 +1919,6 @@
                 "url": "electrumx.aur.ewmcx.info:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "failover.aur.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -9979,7 +9974,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "holland.ecoincore.com:11017",
+                "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -24437,6 +24432,21 @@
         "electrum": [
             {
                 "url": "electrumx1.ridethebullcoin.com:20053",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "rtbadmin@ridethebullcoin.com"
+                    },
+                    {
+                        "github": "RTBCoin"
+                    },
+                    {
+                        "discord": "rtbcoin"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.ridethebullcoin.com:20053",
                 "protocol": "SSL",
                 "contact": [
                     {
