@@ -23570,6 +23570,15 @@
         },
         "electrum": [
             {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
                 "url": "txserver.live:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -23579,7 +23588,7 @@
                 ]
             },
             {
-                "url": "txserver.live:50001",
+                "url": "electrumx.live:50010",
                 "protocol": "TCP",
                 "contact": [
                     {
