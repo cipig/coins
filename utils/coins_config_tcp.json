@@ -1969,11 +1969,6 @@
                 "url": "electrumx.aur.ewmcx.info:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "failover.aur.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -10501,11 +10496,6 @@
         },
         "derivation_path": "m/44'/78'",
         "electrum": [
-            {
-                "url": "electrum1.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
             {
                 "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
@@ -27897,6 +27887,10 @@
                     }
                 ],
                 "protocol": "TCP"
+            },
+            {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -27957,6 +27951,10 @@
                         "discord": "cipi#4502"
                     }
                 ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "testnet.aranguren.org:51001",
                 "protocol": "TCP"
             }
         ],
