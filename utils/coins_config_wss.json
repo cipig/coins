@@ -1969,11 +1969,6 @@
                 "url": "electrumx.aur.ewmcx.info:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "failover.aur.ewmcx.biz:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -9439,16 +9434,6 @@
                         "discord": "[MadCatMining]#0677"
                     }
                 ]
-            },
-            {
-                "url": "electrumx2.diminutivecoin.com:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -14844,28 +14829,6 @@
         "electrum": [
             {
                 "url": "il8p.electrumx.transcenders.name:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
-                    }
-                ]
-            },
-            {
-                "url": "il9p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -22529,6 +22492,15 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "electrumx.live:30010",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
             {
                 "url": "txserver.live:30001",
                 "protocol": "WSS",
@@ -35157,6 +35129,15 @@
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
         "electrum": [
+            {
+                "url": "electrumx1.actioncoin.com:20001",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ]
+            },
             {
                 "url": "electrumx2.actioncoin.com:20001",
                 "protocol": "WSS",

@@ -2082,17 +2082,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "failover.aur.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "electrumx.aur.ewmcx.info:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "failover.aur.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -7318,16 +7308,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "seattle.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "holland.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -7339,11 +7319,6 @@
             },
             {
                 "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -7413,16 +7388,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "seattle.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "holland.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -7434,11 +7399,6 @@
             },
             {
                 "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -10997,16 +10957,6 @@
                 ]
             },
             {
-                "url": "electrumx2.diminutivecoin.com:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx1.diminutivecoin.com:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
@@ -11025,16 +10975,6 @@
                     },
                     {
                         "discord": "[MadCatMining]#0677"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.diminutivecoin.com:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
                     }
                 ]
             }
@@ -17990,51 +17930,7 @@
                 ]
             },
             {
-                "url": "il9p.electrumx.transcenders.name:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
-                    }
-                ]
-            },
-            {
                 "url": "il8p.electrumx.transcenders.name:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
-                    }
-                ]
-            },
-            {
-                "url": "il9p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -27399,6 +27295,15 @@
         },
         "electrum": [
             {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -27408,8 +27313,26 @@
                 ]
             },
             {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
                 "url": "txserver.live:50002",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.live:30010",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -43176,6 +43099,15 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "electrumx1.actioncoin.com:10001",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx2.actioncoin.com:10001",
                 "contact": [
                     {
@@ -43185,8 +43117,26 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrumx1.actioncoin.com:30001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx2.actioncoin.com:30001",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.actioncoin.com:20001",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "email": "support@actioncoin.com"
