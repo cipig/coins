@@ -1969,6 +1969,11 @@
                 "url": "electrumx.aur.ewmcx.info:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "failover.aur.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -29990,8 +29995,7 @@
                 ]
             }
         ],
-        "explorer_block_url": "block/",
-        "binance_id": "VIA"
+        "explorer_block_url": "block/"
     },
     "VIA-segwit": {
         "coin": "VIA-segwit",
@@ -30049,8 +30053,7 @@
                 ]
             }
         ],
-        "explorer_block_url": "block/",
-        "binance_id": "VIA"
+        "explorer_block_url": "block/"
     },
     "VITE-BEP20": {
         "coin": "VITE-BEP20",
