@@ -2082,7 +2082,17 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "failover.aur.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrumx.aur.ewmcx.info:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "failover.aur.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -3646,10 +3656,6 @@
                 "protocol": "SSL"
             },
             {
-                "url": "cashnode.bch.ninja:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum3.cipig.net:20055",
                 "protocol": "SSL",
                 "contact": [
@@ -3667,10 +3673,6 @@
             },
             {
                 "url": "bch.soul-dev.com:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "cashnode.bch.ninja:50004",
                 "protocol": "WSS"
             },
             {
