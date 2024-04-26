@@ -4201,7 +4201,7 @@
                 ]
             },
             {
-                "url": "electrum2.blackcoin.nl:20002",
+                "url": "electrum3.blackcoin.nl:30002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "contact": [
@@ -4211,14 +4211,13 @@
                 ]
             },
             {
-                "url": "electrum3.blackcoin.nl:30002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
+                "url": "electrum1.blackcoin.nl:10001",
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4314,7 +4313,7 @@
                 ]
             },
             {
-                "url": "electrum2.blackcoin.nl:20012",
+                "url": "electrum3.blackcoin.nl:30012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -4324,14 +4323,13 @@
                 ]
             },
             {
-                "url": "electrum3.blackcoin.nl:30012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
+                "url": "electrum1.blackcoin.nl:10011",
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -6527,17 +6525,7 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
-                "url": "chicago.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "holland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "lenoir.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -6582,17 +6570,7 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
-                "url": "chicago.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "holland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "lenoir.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -8383,136 +8361,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "CY": {
-        "coin": "CY",
-        "type": "UTXO",
-        "name": "Cyberyen",
-        "coinpaprika_id": "cy-cyberyen-c",
-        "coingecko_id": "cyberyen",
-        "livecoinwatch_id": "CY",
-        "explorer_url": "https://explorer.cyberyen.org/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Cyberyen Signed Message:\n",
-        "fname": "Cyberyen",
-        "rpcport": 58382,
-        "pubtype": 28,
-        "p2shtype": 77,
-        "wiftype": 156,
-        "txfee": 0,
-        "segwit": true,
-        "bech32_hrp": "cy",
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/802'",
-        "links": {
-            "github": "https://github.com/cyberyen/cyberyen",
-            "homepage": "https://cyberyen.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum02.cyberyen.work:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "ruaxxx@ruaxxx.com"
-                    },
-                    {
-                        "discord": "ruaxxx#3151"
-                    }
-                ]
-            },
-            {
-                "url": "electrum03.cyberyen.work:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "ruaxxx@ruaxxx.com"
-                    },
-                    {
-                        "discord": "ruaxxx#3151"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "CY-segwit": {
-        "coin": "CY-segwit",
-        "type": "UTXO",
-        "name": "Cyberyen",
-        "coinpaprika_id": "cy-cyberyen-c",
-        "coingecko_id": "cyberyen",
-        "livecoinwatch_id": "CY",
-        "explorer_url": "https://explorer.cyberyen.org/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Cyberyen Signed Message:\n",
-        "fname": "Cyberyen",
-        "rpcport": 58382,
-        "pubtype": 28,
-        "p2shtype": 77,
-        "wiftype": 156,
-        "txfee": 0,
-        "segwit": true,
-        "bech32_hrp": "cy",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "CY",
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/802'",
-        "links": {
-            "github": "https://github.com/cyberyen/cyberyen",
-            "homepage": "https://cyberyen.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum02.cyberyen.work:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "ruaxxx@ruaxxx.com"
-                    },
-                    {
-                        "discord": "ruaxxx#3151"
-                    }
-                ]
-            },
-            {
-                "url": "electrum03.cyberyen.work:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "ruaxxx@ruaxxx.com"
-                    },
-                    {
-                        "discord": "ruaxxx#3151"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "DAI-AVX20": {
         "coin": "DAI-AVX20",
         "type": "AVX-20",
@@ -9469,11 +9317,11 @@
     "DPC": {
         "coin": "DPC",
         "type": "UTXO",
-        "name": "Dpowcoin",
+        "name": "Dualpowcoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.dpowcore.org/",
+        "explorer_url": "https://explorerdpc.bitwebcore.net/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -9481,7 +9329,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Dpowcoin",
+        "fname": "Dualpowcoin",
         "rpcport": 42002,
         "pubtype": 55,
         "p2shtype": 28,
@@ -9497,7 +9345,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx.dpowcore.org:22002",
+                "url": "electrumxdpc.bitwebcore.net:22002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -9512,7 +9360,7 @@
                 ]
             },
             {
-                "url": "electrumx1.dpowcore.org:22002",
+                "url": "electrumxdpc1.bitwebcore.net:22002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -9527,7 +9375,7 @@
                 ]
             },
             {
-                "url": "electrumx2.dpowcore.org:22002",
+                "url": "electrumxdpc2.bitwebcore.net:22002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -30915,7 +30763,7 @@
                 ]
             },
             {
-                "url": "e2.validitytech.com:11002",
+                "url": "e3.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -30925,14 +30773,13 @@
                 ]
             },
             {
-                "url": "e3.validitytech.com:11002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
+                "url": "e1.validitytech.com:11001",
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
