@@ -1949,11 +1949,6 @@
                 "url": "electrumx.aur.ewmcx.info:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "failover.aur.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4063,6 +4058,16 @@
         "derivation_path": "m/44'/10'",
         "electrum": [
             {
+                "url": "electrum1.blackcoin.nl:10002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -4165,6 +4170,16 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "electrum1.blackcoin.nl:10012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
             {
                 "url": "electrum2.blackcoin.nl:20012",
                 "protocol": "SSL",
@@ -4945,10 +4960,6 @@
         },
         "derivation_path": "m/44'/664'",
         "electrum": [
-            {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
-            },
             {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
@@ -9812,17 +9823,6 @@
                 "ws-url": "big-parrot-60.doi.works:50004"
             },
             {
-                "url": "itchy-jellyfish-89.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "itchy-jellyfish-89.doi.works:50004"
-            },
-            {
                 "url": "pink-deer-69.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -9832,6 +9832,17 @@
                     }
                 ],
                 "ws-url": "pink-deer-69.doi.works:50004"
+            },
+            {
+                "url": "ugly-bird-70.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "example_username"
+                    }
+                ],
+                "ws-url": "ugly-bird-70.doi.works:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -29805,6 +29816,16 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "e1.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
             {
                 "url": "e2.validitytech.com:11002",
                 "protocol": "SSL",

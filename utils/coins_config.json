@@ -2112,17 +2112,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "failover.aur.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "electrumx.aur.ewmcx.info:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "failover.aur.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -4527,6 +4517,15 @@
         "derivation_path": "m/44'/10'",
         "electrum": [
             {
+                "url": "electrum1.blackcoin.nl:10001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20001",
                 "contact": [
                     {
@@ -4545,6 +4544,16 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum1.blackcoin.nl:10002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -4557,6 +4566,16 @@
             {
                 "url": "electrum3.blackcoin.nl:30002",
                 "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.blackcoin.nl:10004",
+                "protocol": "WSS",
                 "disable_cert_verification": false,
                 "contact": [
                     {
@@ -4668,6 +4687,15 @@
         },
         "electrum": [
             {
+                "url": "electrum1.blackcoin.nl:10011",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20011",
                 "contact": [
                     {
@@ -4686,6 +4714,16 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum1.blackcoin.nl:10012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -4698,6 +4736,16 @@
             {
                 "url": "electrum3.blackcoin.nl:30012",
                 "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.blackcoin.nl:10014",
+                "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
                     {
@@ -5544,10 +5592,6 @@
         },
         "derivation_path": "m/44'/664'",
         "electrum": [
-            {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
-            },
             {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
@@ -11634,17 +11678,6 @@
                     }
                 ],
                 "ws-url": "big-parrot-60.doi.works:50004"
-            },
-            {
-                "url": "itchy-jellyfish-89.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "itchy-jellyfish-89.doi.works:50004"
             },
             {
                 "url": "pink-deer-69.doi.works:50002",
@@ -22763,10 +22796,6 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum8.getlynx.io:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum9.getlynx.io:50002",
                 "protocol": "SSL"
             },
@@ -29994,8 +30023,16 @@
         "derivation_path": "m/44'/10226'",
         "electrum": [
             {
+                "url": "x1.raptoreum.com:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "x2.raptoreum.com:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "x1.raptoreum.com:50004",
+                "protocol": "WSS"
             },
             {
                 "url": "x2.raptoreum.com:50004",
@@ -35802,6 +35839,15 @@
         },
         "electrum": [
             {
+                "url": "e1.validitytech.com:11001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "e2.validitytech.com:11001",
                 "contact": [
                     {
@@ -35820,6 +35866,16 @@
                 "protocol": "TCP"
             },
             {
+                "url": "e1.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "e2.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -35832,6 +35888,16 @@
             {
                 "url": "e3.validitytech.com:11002",
                 "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "e1.validitytech.com:11004",
+                "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
                     {
