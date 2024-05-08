@@ -1999,11 +1999,6 @@
                 "url": "electrumx.aur.ewmcx.info:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "failover.aur.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4239,6 +4234,16 @@
         "derivation_path": "m/44'/10'",
         "electrum": [
             {
+                "url": "electrum1.blackcoin.nl:10002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -4257,15 +4262,6 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.blackcoin.nl:20001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4351,6 +4347,16 @@
         },
         "electrum": [
             {
+                "url": "electrum1.blackcoin.nl:10012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -4369,15 +4375,6 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.blackcoin.nl:20011",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -5186,10 +5183,6 @@
         },
         "derivation_path": "m/44'/664'",
         "electrum": [
-            {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
-            },
             {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
@@ -10314,17 +10307,6 @@
                 "ws-url": "big-parrot-60.doi.works:50004"
             },
             {
-                "url": "itchy-jellyfish-89.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "itchy-jellyfish-89.doi.works:50004"
-            },
-            {
                 "url": "pink-deer-69.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -10334,6 +10316,17 @@
                     }
                 ],
                 "ws-url": "pink-deer-69.doi.works:50004"
+            },
+            {
+                "url": "ugly-bird-70.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "example_username"
+                    }
+                ],
+                "ws-url": "ugly-bird-70.doi.works:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -25800,6 +25793,10 @@
         "derivation_path": "m/44'/10226'",
         "electrum": [
             {
+                "url": "x1.raptoreum.com:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "x2.raptoreum.com:50001",
                 "protocol": "TCP"
             }
@@ -31101,6 +31098,16 @@
         },
         "electrum": [
             {
+                "url": "e1.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "e2.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -31119,15 +31126,6 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
-            },
-            {
-                "url": "e2.validitytech.com:11001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"

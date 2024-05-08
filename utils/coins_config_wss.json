@@ -1999,11 +1999,6 @@
                 "url": "electrumx.aur.ewmcx.info:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "failover.aur.ewmcx.biz:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4156,6 +4151,16 @@
         "derivation_path": "m/44'/10'",
         "electrum": [
             {
+                "url": "electrum1.blackcoin.nl:10004",
+                "protocol": "WSS",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20004",
                 "protocol": "WSS",
                 "disable_cert_verification": false,
@@ -4258,6 +4263,16 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "electrum1.blackcoin.nl:10014",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
             {
                 "url": "electrum2.blackcoin.nl:20014",
                 "protocol": "WSS",
@@ -24636,6 +24651,10 @@
         "derivation_path": "m/44'/10226'",
         "electrum": [
             {
+                "url": "x1.raptoreum.com:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "x2.raptoreum.com:50004",
                 "protocol": "WSS"
             }
@@ -29840,6 +29859,16 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "e1.validitytech.com:11004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
             {
                 "url": "e2.validitytech.com:11004",
                 "protocol": "WSS",
