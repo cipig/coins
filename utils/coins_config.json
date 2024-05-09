@@ -2248,7 +2248,17 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "failover.aur.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrumx.aur.ewmcx.info:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "failover.aur.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -41768,6 +41778,10 @@
         },
         "derivation_path": "m/44'/19167'",
         "electrum": [
+            {
+                "url": "electrumx.runonflux.io:50001",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP"
