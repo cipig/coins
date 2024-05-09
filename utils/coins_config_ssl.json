@@ -1949,6 +1949,11 @@
                 "url": "electrumx.aur.ewmcx.info:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "failover.aur.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4961,6 +4966,10 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             }
@@ -6151,17 +6160,17 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
+                "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "holland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "mumbai.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34333",
+                "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -6206,17 +6215,17 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
+                "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "holland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "mumbai.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34333",
+                "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -7016,6 +7025,54 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "CLAM": {
+        "coin": "CLAM",
+        "type": "UTXO",
+        "name": "Clams",
+        "coinpaprika_id": "clam-clams",
+        "coingecko_id": "clams",
+        "livecoinwatch_id": "CLAM",
+        "explorer_url": "https://chainz.cryptoid.info/clam/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Clam Signed Message:\n",
+        "fname": "Clams",
+        "isPoS": 1,
+        "rpcport": 30174,
+        "pubtype": 137,
+        "p2shtype": 13,
+        "wiftype": 133,
+        "segwit": false,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/23'",
+        "links": {
+            "github": "https://github.com/nochowderforyou/clams",
+            "homepage": "http://clamclient.com"
+        },
+        "electrum": [
+            {
+                "url": "clam-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "CLP-BEP20": {
         "coin": "CLP-BEP20",
@@ -31553,48 +31610,6 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
-    },
-    "XVC": {
-        "coin": "XVC",
-        "type": "UTXO",
-        "name": "VanillaCash",
-        "coinpaprika_id": "xvc-vcash",
-        "coingecko_id": "vcash",
-        "livecoinwatch_id": "XVC",
-        "explorer_url": "https://chainz.cryptoid.info/xvc/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "VanillaCash",
-        "isPoS": 1,
-        "rpcport": 48888,
-        "pubtype": 18,
-        "p2shtype": 30,
-        "wiftype": 181,
-        "txfee": 1000,
-        "dust": 10000,
-        "mm2": 1,
-        "required_confirmations": 7,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "xvc-ex-seven.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "XVC-BEP20": {
         "coin": "XVC-BEP20",
