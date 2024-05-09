@@ -22924,6 +22924,10 @@
                 "protocol": "SSL"
             },
             {
+                "url": "electrum8.getlynx.io:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum9.getlynx.io:50002",
                 "protocol": "SSL"
             },
@@ -27459,15 +27463,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -27477,26 +27472,8 @@
                 ]
             },
             {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "txserver.live:50002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.live:30010",
-                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
