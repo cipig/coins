@@ -6986,6 +6986,18 @@
                     }
                 ],
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.mooo.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -10403,6 +10415,17 @@
                 "ws-url": "big-parrot-60.doi.works:50004"
             },
             {
+                "url": "itchy-jellyfish-89.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "example_username"
+                    }
+                ],
+                "ws-url": "itchy-jellyfish-89.doi.works:50004"
+            },
+            {
                 "url": "pink-deer-69.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -10412,17 +10435,6 @@
                     }
                 ],
                 "ws-url": "pink-deer-69.doi.works:50004"
-            },
-            {
-                "url": "ugly-bird-70.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "ugly-bird-70.doi.works:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -21586,6 +21598,18 @@
         "electrum": [
             {
                 "url": "electrum.shorelinecrypto.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.mooo.com:10001",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
