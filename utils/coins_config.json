@@ -25014,6 +25014,18 @@
         "derivation_path": "m/44'/681'",
         "electrum": [
             {
+                "url": "electrum.shorelinecrypto.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum1.mooo.com:10001",
                 "contact": [
                     {
@@ -39838,10 +39850,6 @@
             {
                 "url": "electrumx.runonflux.io:50001",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx2.runonflux.io:50001",
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/",
@@ -42520,15 +42528,6 @@
         "electrum": [
             {
                 "url": "electroncash.de:50004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
-                "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
