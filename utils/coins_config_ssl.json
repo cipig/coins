@@ -28235,11 +28235,6 @@
         },
         "electrum": [
             {
-                "url": "failover.trc-uis.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
-            {
                 "url": "uis-uno.ewmcx.net:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
@@ -36048,6 +36043,65 @@
                 "contact": [
                     {
                         "discord": "Meowmancer#2099"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "ZOIN": {
+        "coin": "ZOIN",
+        "type": "UTXO",
+        "name": "ZoinCommunity",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "http://zoincommunity.com:3001/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Zoincoin Signed Message:\n",
+        "fname": "ZoinCommunity",
+        "rpcport": 8256,
+        "pubtype": 80,
+        "p2shtype": 53,
+        "wiftype": 208,
+        "segwit": false,
+        "txfee": 1000000,
+        "dust": 1000000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/60'",
+        "links": {
+            "github": "https://github.com/seopub/zoincomumity",
+            "homepage": "http://zoincommunity.com/"
+        },
+        "electrum": [
+            {
+                "url": "electrum.zoincommunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "github": "https://github.com/seopub/electrumx_zoin/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.zoincommunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "github": "https://github.com/seopub/electrumx_zoin/issues"
                     }
                 ]
             }
