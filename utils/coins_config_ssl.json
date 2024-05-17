@@ -36061,7 +36061,7 @@
         "dust": 1000000,
         "mm2": 1,
         "required_confirmations": 3,
-        "avg_blocktime": 60,
+        "avg_blocktime": 150,
         "protocol": {
             "type": "UTXO"
         },
@@ -36071,16 +36071,6 @@
             "homepage": "http://zoincommunity.com/"
         },
         "electrum": [
-            {
-                "url": "electrum.zoincommunity.com:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "github": "https://github.com/seopub/electrumx_zoin/issues"
-                    }
-                ]
-            },
             {
                 "url": "electrum.zoincommunity.com:50002",
                 "protocol": "SSL",

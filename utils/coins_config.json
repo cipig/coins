@@ -13868,7 +13868,34 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
+                "url": "electrumx.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
                 "url": "electrumx01.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
+                "url": "electrumx02.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
+                "url": "electrumx03.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -39850,6 +39877,10 @@
             {
                 "url": "electrumx.runonflux.io:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.runonflux.io:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/",
@@ -44214,7 +44245,7 @@
         "dust": 1000000,
         "mm2": 1,
         "required_confirmations": 3,
-        "avg_blocktime": 60,
+        "avg_blocktime": 150,
         "protocol": {
             "type": "UTXO"
         },
@@ -44236,26 +44267,6 @@
             {
                 "url": "electrum.zoincommunity.com:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "github": "https://github.com/seopub/electrumx_zoin/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.zoincommunity.com:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "github": "https://github.com/seopub/electrumx_zoin/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.zoincommunity.com:50004",
-                "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
                     {
