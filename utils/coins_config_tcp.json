@@ -10545,11 +10545,6 @@
                 "url": "electrum1.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "electrum3.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -21596,18 +21591,6 @@
         },
         "derivation_path": "m/44'/681'",
         "electrum": [
-            {
-                "url": "electrum.shorelinecrypto.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
-            },
             {
                 "url": "electrum1.mooo.com:10001",
                 "contact": [
