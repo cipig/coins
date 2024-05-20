@@ -30069,21 +30069,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.ridethebullcoin.com:10002",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "rtbadmin@ridethebullcoin.com"
-                    },
-                    {
-                        "github": "RTBCoin"
-                    },
-                    {
-                        "discord": "rtbcoin"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.ridethebullcoin.com:10002",
                 "protocol": "TCP",
                 "contact": [
@@ -30099,8 +30084,8 @@
                 ]
             },
             {
-                "url": "electrumx1.ridethebullcoin.com:20053",
-                "protocol": "SSL",
+                "url": "electrumx1.ridethebullcoin.com:10002",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "email": "rtbadmin@ridethebullcoin.com"
@@ -30129,8 +30114,8 @@
                 ]
             },
             {
-                "url": "electrumx1.ridethebullcoin.com:20052",
-                "protocol": "WSS",
+                "url": "electrumx1.ridethebullcoin.com:20053",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "rtbadmin@ridethebullcoin.com"
@@ -30145,6 +30130,21 @@
             },
             {
                 "url": "electrumx2.ridethebullcoin.com:20052",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "rtbadmin@ridethebullcoin.com"
+                    },
+                    {
+                        "github": "RTBCoin"
+                    },
+                    {
+                        "discord": "rtbcoin"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.ridethebullcoin.com:20052",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -34273,8 +34273,18 @@
         },
         "electrum": [
             {
+                "url": "failover.trc-uis.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "uis-uno.ewmcx.net:50002",
                 "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50003",
+                "protocol": "WSS",
                 "disable_cert_verification": false
             },
             {
@@ -34742,8 +34752,18 @@
         },
         "electrum": [
             {
+                "url": "uno-bkp.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-bkp.coinmunity.gold:50003",
+                "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
@@ -39501,6 +39521,10 @@
                 ]
             },
             {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "zet-ex-three.ewmci.online:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -39510,8 +39534,8 @@
                 ]
             },
             {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL"
+                "url": "zeta-seed-d.zetacoin.network:50013",
+                "protocol": "WSS"
             },
             {
                 "url": "zet-ex-three.ewmci.online:50013",
@@ -39521,10 +39545,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
