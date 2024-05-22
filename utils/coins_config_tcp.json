@@ -6998,6 +6998,18 @@
                     }
                 ],
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.mooo.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -21619,6 +21631,18 @@
                     }
                 ],
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.mooo.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -34169,10 +34193,6 @@
         },
         "electrum": [
             {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL"
-            },
-            {
                 "url": "zet-ex-three.ewmci.online:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -34180,6 +34200,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "207.180.252.200:50011",
@@ -37187,6 +37211,18 @@
         },
         "electrum": [
             {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -37201,18 +37237,6 @@
             {
                 "url": "electrum4.runebase.io:50002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.runebase.io:50001",
-                "protocol": "TCP",
                 "contact": [
                     {
                         "email": "support@runebase.io"
