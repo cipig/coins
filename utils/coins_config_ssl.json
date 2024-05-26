@@ -778,16 +778,21 @@
         },
         "electrum": [
             {
+                "url": "aby-ex-four.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             }
         ],
@@ -10365,15 +10370,15 @@
                 "ws-url": "big-parrot-60.doi.works:50004"
             },
             {
-                "url": "pink-deer-69.doi.works:50002",
+                "url": "itchy-jellyfish-89.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "github": "https://github.com/namecoin/electrum-nmc/issues",
+                        "github": "https://github.com/doichain/electrum-doi/issues",
                         "twitter": "example_username"
                     }
                 ],
-                "ws-url": "pink-deer-69.doi.works:50004"
+                "ws-url": "itchy-jellyfish-89.doi.works:50004"
             },
             {
                 "url": "pink-deer-69.doi.works:50002",
@@ -10481,6 +10486,11 @@
         "electrum": [
             {
                 "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -15378,6 +15388,15 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "il8p-ex-five.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
             {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
@@ -26054,21 +26073,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.ridethebullcoin.com:20053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "rtbadmin@ridethebullcoin.com"
-                    },
-                    {
-                        "github": "RTBCoin"
-                    },
-                    {
-                        "discord": "rtbcoin"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.ridethebullcoin.com:20053",
                 "protocol": "SSL",
                 "contact": [
@@ -29822,6 +29826,11 @@
         },
         "electrum": [
             {
+                "url": "failover.trc-uis.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "uis-uno.ewmcx.net:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
@@ -30321,6 +30330,11 @@
             "homepage": "https://unobtanium.uno"
         },
         "electrum": [
+            {
+                "url": "uno-bkp.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
             {
                 "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
@@ -33450,6 +33464,48 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "XVC": {
+        "coin": "XVC",
+        "type": "UTXO",
+        "name": "VanillaCash",
+        "coinpaprika_id": "xvc-vcash",
+        "coingecko_id": "vcash",
+        "livecoinwatch_id": "XVC",
+        "explorer_url": "https://chainz.cryptoid.info/xvc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "VanillaCash",
+        "isPoS": 1,
+        "rpcport": 48888,
+        "pubtype": 18,
+        "p2shtype": 30,
+        "wiftype": 181,
+        "txfee": 1000,
+        "dust": 10000,
+        "mm2": 1,
+        "required_confirmations": 7,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "xvc-ex-seven.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "XVC-BEP20": {
         "coin": "XVC-BEP20",
         "type": "BEP-20",
@@ -34324,10 +34380,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -37345,6 +37397,18 @@
         },
         "electrum": [
             {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -37807,7 +37871,7 @@
         "type": "UTXO",
         "name": "Evrmore Coin",
         "coinpaprika_id": "evr-evrmore",
-        "coingecko_id": "",
+        "coingecko_id": "evrmore",
         "livecoinwatch_id": "_EVR",
         "explorer_url": "https://evr.cryptoscope.io/",
         "explorer_tx_url": "tx/?txid=",
@@ -37897,15 +37961,6 @@
             "homepage": "https://kiirocoin.org"
         },
         "electrum": [
-            {
-                "url": "electrum1.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
             {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",

@@ -742,16 +742,21 @@
         },
         "electrum": [
             {
+                "url": "aby-ex-four.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             }
         ],
@@ -7094,6 +7099,18 @@
                     }
                 ],
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.mooo.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -10544,15 +10561,15 @@
                 "ws-url": "big-parrot-60.doi.works:50004"
             },
             {
-                "url": "pink-deer-69.doi.works:50002",
+                "url": "itchy-jellyfish-89.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "github": "https://github.com/namecoin/electrum-nmc/issues",
+                        "github": "https://github.com/doichain/electrum-doi/issues",
                         "twitter": "example_username"
                     }
                 ],
-                "ws-url": "pink-deer-69.doi.works:50004"
+                "ws-url": "itchy-jellyfish-89.doi.works:50004"
             },
             {
                 "url": "pink-deer-69.doi.works:50002",
@@ -10672,6 +10689,11 @@
         "electrum": [
             {
                 "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -15533,6 +15555,15 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "il8p-ex-five.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
             {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
@@ -22025,6 +22056,18 @@
                     }
                 ],
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.mooo.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -23531,6 +23574,10 @@
         "electrum": [
             {
                 "url": "pink-one.ewm-cx.net:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "pink-two.ewm-cx.net:50001",
                 "protocol": "TCP"
             }
         ],
@@ -26258,21 +26305,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.ridethebullcoin.com:20053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "rtbadmin@ridethebullcoin.com"
-                    },
-                    {
-                        "github": "RTBCoin"
-                    },
-                    {
-                        "discord": "rtbcoin"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.ridethebullcoin.com:20053",
                 "protocol": "SSL",
                 "contact": [
@@ -26288,7 +26320,7 @@
                 ]
             },
             {
-                "url": "electrumx1.ridethebullcoin.com:10002",
+                "url": "electrumx2.ridethebullcoin.com:10002",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -30046,6 +30078,11 @@
         },
         "electrum": [
             {
+                "url": "failover.trc-uis.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "uis-uno.ewmcx.net:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
@@ -30521,6 +30558,11 @@
             "homepage": "https://unobtanium.uno"
         },
         "electrum": [
+            {
+                "url": "uno-bkp.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
             {
                 "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
@@ -32267,57 +32309,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "VPRM": {
-        "coin": "VPRM",
-        "type": "Smart Chain",
-        "name": "Vaporum",
-        "coinpaprika_id": "vprm-vaporum-coin",
-        "coingecko_id": "vaporum-coin",
-        "livecoinwatch_id": "VPRM",
-        "explorer_url": "http://explorer.vaporumcoin.us/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "VPRM",
-        "fname": "Vaporum",
-        "rpcport": 51609,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 30,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrumx1.vaporumcoin.us:50001",
-                "contact": [
-                    {
-                        "github": "VaporumCoin"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx2.vaporumcoin.us:50001",
-                "contact": [
-                    {
-                        "github": "VaporumCoin"
-                    }
-                ],
-                "protocol": "TCP"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "VTC": {
         "coin": "VTC",
         "type": "UTXO",
@@ -33865,6 +33856,15 @@
         },
         "electrum": [
             {
+                "url": "xvc-ex-seven.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.vanillacash.info:50011",
                 "protocol": "TCP"
             },
@@ -34739,12 +34739,17 @@
                 ]
             },
             {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL"
-            },
-            {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50011",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -37754,6 +37759,18 @@
         },
         "electrum": [
             {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -37768,18 +37785,6 @@
             {
                 "url": "electrum4.runebase.io:50002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.runebase.io:50001",
-                "protocol": "TCP",
                 "contact": [
                     {
                         "email": "support@runebase.io"
@@ -38249,7 +38254,7 @@
         "type": "UTXO",
         "name": "Evrmore Coin",
         "coinpaprika_id": "evr-evrmore",
-        "coingecko_id": "",
+        "coingecko_id": "evrmore",
         "livecoinwatch_id": "_EVR",
         "explorer_url": "https://evr.cryptoscope.io/",
         "explorer_tx_url": "tx/?txid=",
@@ -38352,29 +38357,11 @@
         },
         "electrum": [
             {
-                "url": "electrum1.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.kiirocoin.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "1155906841625239684"
                     }
                 ]
             }
