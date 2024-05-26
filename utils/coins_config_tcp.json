@@ -725,16 +725,21 @@
         },
         "electrum": [
             {
+                "url": "aby-ex-four.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             }
         ],
@@ -5193,15 +5198,15 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumserver01.globalboost.info:50011",
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50011",
                 "protocol": "TCP"
             }
         ],
@@ -15362,6 +15367,15 @@
         },
         "electrum": [
             {
+                "url": "il8p-ex-five.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -23132,6 +23146,10 @@
             {
                 "url": "pink-one.ewm-cx.net:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "pink-two.ewm-cx.net:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -25832,21 +25850,6 @@
         "electrum": [
             {
                 "url": "electrumx2.ridethebullcoin.com:20053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "rtbadmin@ridethebullcoin.com"
-                    },
-                    {
-                        "github": "RTBCoin"
-                    },
-                    {
-                        "discord": "rtbcoin"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx1.ridethebullcoin.com:20053",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -33334,6 +33337,15 @@
         },
         "electrum": [
             {
+                "url": "xvc-ex-seven.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.vanillacash.info:50011",
                 "protocol": "TCP"
             },
@@ -37809,7 +37821,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.kiirocoin.org:50002",
+                "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -37818,7 +37830,7 @@
                 ]
             },
             {
-                "url": "electrum3.kiirocoin.org:50002",
+                "url": "electrum1.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
