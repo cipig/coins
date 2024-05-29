@@ -14096,34 +14096,7 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
-                "url": "electrumx.firo.org:50004"
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
                 "url": "electrumx01.firo.org:50004"
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
-                "url": "electrumx02.firo.org:50004"
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
-                "url": "electrumx03.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -44051,8 +44024,35 @@
         },
         "electrum": [
             {
+                "url": "electrum1.kiirocoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "1155906841625239684"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kiirocoin.org:50004",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
