@@ -12320,22 +12320,22 @@
         "derivation_path": "m/44'/78'",
         "electrum": [
             {
-                "url": "electrum1.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "electrum1.egulden.org:50004",
-                "protocol": "WSS",
+                "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
                 "url": "electrum3.egulden.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum1.egulden.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -14175,15 +14175,6 @@
                     }
                 ],
                 "url": "electrumx02.firo.org:50004"
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
-                "url": "electrumx03.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
