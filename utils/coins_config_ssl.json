@@ -10117,12 +10117,12 @@
         "derivation_path": "m/44'/78'",
         "electrum": [
             {
-                "url": "electrum3.egulden.org:50002",
+                "url": "electrum1.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "electrum1.egulden.org:50002",
+                "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -35218,7 +35218,7 @@
         },
         "electrum": [
             {
-                "url": "electrum2.runebase.io:50002",
+                "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -35230,7 +35230,7 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50002",
+                "url": "electrum2.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {

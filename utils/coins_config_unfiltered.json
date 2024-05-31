@@ -12320,22 +12320,22 @@
         "derivation_path": "m/44'/78'",
         "electrum": [
             {
-                "url": "electrum3.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "electrum1.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "electrum3.egulden.org:50004",
-                "protocol": "WSS",
+                "url": "electrum3.egulden.org:50002",
+                "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
                 "url": "electrum1.egulden.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -14156,7 +14156,34 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
+                "url": "electrumx.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
                 "url": "electrumx01.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
+                "url": "electrumx02.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
+                "url": "electrumx03.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -43601,7 +43628,7 @@
         },
         "electrum": [
             {
-                "url": "electrum2.runebase.io:50001",
+                "url": "electrum3.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -43613,7 +43640,7 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50001",
+                "url": "electrum2.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -43637,7 +43664,7 @@
                 ]
             },
             {
-                "url": "electrum2.runebase.io:50002",
+                "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -43649,7 +43676,7 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50002",
+                "url": "electrum2.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -43673,7 +43700,7 @@
                 ]
             },
             {
-                "url": "electrum2.runebase.io:50004",
+                "url": "electrum3.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -43685,7 +43712,7 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50004",
+                "url": "electrum2.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
