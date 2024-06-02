@@ -11933,7 +11933,25 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
+                "url": "electrumx.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
                 "url": "electrumx01.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
+                "url": "electrumx02.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -22581,7 +22599,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:30010",
+                "url": "txserver.live:30001",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -22590,7 +22608,7 @@
                 ]
             },
             {
-                "url": "txserver.live:30001",
+                "url": "electrumx.live:30010",
                 "protocol": "WSS",
                 "contact": [
                     {
