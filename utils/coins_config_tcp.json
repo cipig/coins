@@ -7199,6 +7199,18 @@
         "derivation_path": "m/44'/682'",
         "electrum": [
             {
+                "url": "electrum.shorelinecrypto.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum1.mooo.com:10007",
                 "contact": [
                     {
@@ -25327,6 +25339,10 @@
             "homepage": "https://reddcoin.com"
         },
         "electrum": [
+            {
+                "url": "electrum01.reddcoin.com:50002",
+                "protocol": "SSL"
+            },
             {
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL"
