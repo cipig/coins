@@ -724,11 +724,6 @@
             {
                 "url": "electrumx-three.artbyte.live:50013",
                 "protocol": "WSS"
-            },
-            {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -1978,11 +1973,6 @@
         "electrum": [
             {
                 "url": "electrumx.aur.ewmcx.info:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "failover.aur.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -5316,15 +5306,6 @@
         "electrum": [
             {
                 "url": "electrum2.btcz.rocks:50004",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum1.btcz.rocks:50004",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -10245,11 +10226,6 @@
                 "url": "electrum1.egulden.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "electrum3.egulden.org:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -11951,7 +11927,25 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
+                "url": "electrumx.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
                 "url": "electrumx01.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
+                "url": "electrumx02.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -22598,15 +22592,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "electrumx.live:30010",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
             {
                 "url": "txserver.live:30001",
                 "protocol": "WSS",
@@ -35180,30 +35165,6 @@
         "electrum": [
             {
                 "url": "electrum3.runebase.io:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.runebase.io:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum4.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
