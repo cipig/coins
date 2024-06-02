@@ -728,9 +728,11 @@
           "time": 1652512363,
           "hash": "44797f3bb78323a7717007f1e289a3689e0b5b3433385dbd8e6f6a1700000000",
           "sapling_tree": "01e40c26f4a28071535b95ae637d30a209531e92a33de0a649e51183771025fd0f016cdc51442fcb328d047a709dc0f41e0173953404711045b3ef3036d7fd4151271501d6c94c5ce6787826af809aaee83768c4b7d4f02c8dc2d24cf60ed5f127a5d730018a752ea9d9efb3e1ac0e6e705ac9f7f9863cfa8f612ad43802175338d8d7cc6000000001fc3542434eff03075ea5f0a64f1dfb2f042d281b1a057e9f6c765b533ce51219013ad9484b1e901e62b93e7538f913dcb27695380c3bc579e79f5cc900f28e596e0001431da5f01fe11d58300134caf5ac76e0b1b7486fd02425dd8871bca4afa94d4b01bb39de1c1d10a25ce0cc775bc74b6b0f056c28639e7c5b7651bb8460060085530000000001732ddf661e68c9e335599bb0b18b048d2f1c06b20eabd18239ad2f3cc45fa910014496bab5eedab205b5f2a206bd1db30c5bc8bc0c1914a102f87010f3431be21a0000010b5fd8e7610754075f936463780e85841f3ab8ca2978f9afdf7c2c250f16a75f01db56bc66eb1cd54ec6861e5cf24af2f4a17991556a52ca781007569e95b9842401c03877ecdd98378b321250640a1885604d675aaa50380e49da8cfa6ff7deaf15"
-        }
+        },
+        "z_derivation_path": "m/32'/133'"
       }
     },
+    "derivation_path": "m/44'/133'",
     "required_confirmations": 2,
     "requires_notarization": true
   },
@@ -3893,7 +3895,7 @@
     "segwit": false,
     "mm2": 1,
     "mature_confirmations": 75,
-    "required_confirmations": 7,
+    "required_confirmations": 4,
     "avg_blocktime": 75,
     "protocol": {
       "type": "UTXO"
@@ -10990,6 +10992,101 @@
     }
   },
   {
+    "coin": "SYN-ERC20",
+    "name": "syn_erc20",
+    "fname": "Synapse",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x0f2D719407FdBeFF09D87557AbB7232601FD9F29"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "SYN-BEP20",
+    "name": "syn_bep20",
+    "fname": "Synapse",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xa4080f1778e69467E905B8d6F72f6e441f9e9484"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "SYN-PLG20",
+    "name": "syn_plg20",
+    "fname": "Synapse",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xf8F9efC0db77d8881500bb06FF5D6ABc3070E695"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "SYN-AVX20",
+    "name": "syn_avx20",
+    "fname": "Synapse",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 2.4,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x1f1E7c893855525b303f99bDF5c3c05Be09ca251"
+      }
+    },
+    "derivation_path": "m/44'/9000'"
+  },
+  {
+    "coin": "SYN-FTM20",
+    "name": "syn_ftm20",
+    "fname": "Synapse",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0xE55e19Fb4F2D85af758950957714292DAC1e25B2"
+      }
+    },
+    "derivation_path": "m/44'/1007'"
+  },
+  {
     "coin": "SYS",
     "name": "syscoin",
     "fname": "Syscoin",
@@ -13225,7 +13322,7 @@
     "txfee": 1000,
     "dust": 10000,
     "mm2": 1,
-    "required_confirmations": 7,
+    "required_confirmations": 4,
     "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
@@ -14636,9 +14733,11 @@
             28,
             189
           ]
-        }
+        },
+        "z_derivation_path": "m/32'/133'"
       }
     },
+    "derivation_path": "m/44'/133'",
     "required_confirmations": 3
   },
   {
