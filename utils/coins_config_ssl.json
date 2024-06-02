@@ -4004,6 +4004,7 @@
         "wallet_only": false,
         "fname": "BIDR",
         "rpcport": 80,
+        "chain_id": 56,
         "mm2": 1,
         "avg_blocktime": 3,
         "required_confirmations": 3,
@@ -30020,6 +30021,7 @@
         "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 15,
+        "chain_id": 1,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -35561,6 +35563,7 @@
         "wallet_only": false,
         "avg_blocktime": 7,
         "fname": "IRISnet",
+        "chain_id": 6688,
         "mm2": 1,
         "protocol": {
             "type": "TENDERMINT",
