@@ -14122,34 +14122,7 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
-                "url": "electrumx.firo.org:50004"
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
                 "url": "electrumx01.firo.org:50004"
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
-                "url": "electrumx02.firo.org:50004"
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
-                "url": "electrumx03.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -40325,11 +40298,11 @@
         "derivation_path": "m/44'/19167'",
         "electrum": [
             {
-                "url": "electrumx2.runonflux.io:50001",
+                "url": "electrumx.runonflux.io:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.runonflux.io:50001",
+                "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP"
             }
         ],
