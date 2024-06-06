@@ -84,9 +84,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -349,9 +346,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -399,9 +393,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -756,9 +747,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -819,17 +807,17 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             },
             {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
                 "url": "aby-ex-four.ewmci.online:50013",
@@ -841,17 +829,17 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
                 "protocol": "WSS"
             },
             {
                 "url": "electrumx-three.artbyte.live:50013",
                 "protocol": "WSS"
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -1179,9 +1167,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -1297,9 +1282,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -1408,15 +1390,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.aipowergrid.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "482101557383528448"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.aipowergrid.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -1426,8 +1399,8 @@
                 ]
             },
             {
-                "url": "electrumx1.aipowergrid.io:50004",
-                "protocol": "WSS",
+                "url": "electrumx1.aipowergrid.io:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "482101557383528448"
@@ -1436,6 +1409,15 @@
             },
             {
                 "url": "electrumx2.aipowergrid.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "482101557383528448"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.aipowergrid.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -1600,9 +1582,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -1820,9 +1799,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -1986,9 +1962,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -2316,9 +2289,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -2789,9 +2759,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -3485,9 +3452,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -3753,9 +3717,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -4012,9 +3973,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -4478,9 +4436,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -4713,9 +4668,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -5755,9 +5707,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -6063,9 +6012,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -6113,9 +6059,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -7164,9 +7107,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -7603,9 +7543,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -7720,9 +7657,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -8312,9 +8246,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -8428,9 +8359,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -9028,9 +8956,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -9188,9 +9113,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -9644,9 +9566,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -9804,9 +9723,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -10210,9 +10126,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -10912,9 +10825,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -11312,9 +11222,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -11362,9 +11269,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -13823,9 +13727,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -14358,9 +14259,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -14477,9 +14375,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -14594,9 +14489,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -14718,9 +14610,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -15045,9 +14934,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -16546,9 +16432,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -16917,9 +16800,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -17388,9 +17268,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -17541,9 +17418,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -17710,9 +17584,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -17760,9 +17631,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -18937,9 +18805,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -19244,9 +19109,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -19360,9 +19222,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19678,9 +19537,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -19846,9 +19702,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -20137,9 +19990,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -20187,9 +20037,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -20643,9 +20490,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -20744,9 +20588,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -20852,9 +20693,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -20903,9 +20741,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -21122,9 +20957,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -21173,9 +21005,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -21391,9 +21220,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -21562,9 +21388,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -21613,9 +21436,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -21668,9 +21488,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -21719,9 +21536,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -21774,9 +21588,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -21825,9 +21636,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -21880,9 +21688,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -21931,9 +21736,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -22030,9 +21832,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -22150,9 +21949,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -22200,9 +21996,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -22255,9 +22048,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -22308,9 +22098,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -22359,9 +22146,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -23255,9 +23039,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -23944,9 +23725,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -24098,9 +23876,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -24449,9 +24224,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -24674,9 +24446,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -25584,9 +25353,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -25754,9 +25520,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -25839,9 +25602,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -26924,9 +26684,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -27184,9 +26941,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -27821,9 +27575,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -28429,9 +28180,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -28687,9 +28435,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -28808,9 +28553,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -29116,9 +28858,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -29288,9 +29027,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -29604,9 +29340,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -29724,9 +29457,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -29904,9 +29634,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -30103,9 +29830,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -30308,9 +30032,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -30524,9 +30245,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -31639,19 +31357,19 @@
         },
         "electrum": [
             {
-                "url": "electrum01.reddcoin.com:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrum01.reddcoin.com:50004",
-                "protocol": "WSS"
+                "url": "electrum01.reddcoin.com:50002",
+                "protocol": "SSL"
             },
             {
                 "url": "electrum02.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum01.reddcoin.com:50004",
                 "protocol": "WSS"
             }
         ],
@@ -31945,9 +31663,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -32579,9 +32294,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -32695,9 +32407,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -33336,9 +33045,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -33800,9 +33506,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -33902,9 +33605,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -34307,9 +34007,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -34423,9 +34120,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -34985,9 +34679,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -35364,9 +35055,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -36030,9 +35718,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -36340,9 +36025,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -36972,9 +36654,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -37445,9 +37124,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -37617,9 +37293,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -37832,9 +37505,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -38138,9 +37808,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -38638,9 +38305,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -38688,9 +38352,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -39038,9 +38699,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -39852,9 +39510,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -40690,9 +40345,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon-rpc.com"
-            },
-            {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
@@ -41017,9 +40669,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -41401,9 +41050,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -42034,9 +41680,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -42770,9 +42413,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -43535,9 +43175,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
