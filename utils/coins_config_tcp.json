@@ -36,6 +36,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -75,6 +79,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -315,6 +326,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -355,6 +373,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -398,6 +423,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -553,6 +582,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -680,6 +713,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -933,6 +973,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -1031,6 +1075,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -1131,6 +1182,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -1385,6 +1443,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -1537,6 +1602,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -1576,6 +1645,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -1722,6 +1798,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -1962,6 +2045,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -2148,6 +2238,10 @@
         "nodes": [
             {
                 "url": "https://api.avax-test.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avaxt",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avaxt/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -2186,6 +2280,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -2336,6 +2434,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -2911,6 +3016,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -3109,6 +3221,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -3148,6 +3264,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -3191,6 +3314,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -3383,6 +3510,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -3798,6 +3932,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -3983,6 +4124,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -4681,6 +4829,10 @@
         "nodes": [
             {
                 "url": "https://data-seed-prebsc-1-s2.binance.org:8545"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/bnbt",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/bnbt/websocket"
             }
         ],
         "token_address_url": "tokentxns?a=",
@@ -4832,6 +4984,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -5105,6 +5264,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -5145,6 +5311,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -5189,6 +5362,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -5901,6 +6078,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -5991,6 +6175,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -6032,6 +6220,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -6226,6 +6418,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -6326,6 +6525,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -6641,6 +6847,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -6727,6 +6937,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -6827,6 +7044,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -7317,6 +7541,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -7460,6 +7691,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -7653,6 +7891,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -7848,6 +8090,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -7991,6 +8240,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -8172,6 +8428,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -8216,6 +8476,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -8299,6 +8563,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -8625,6 +8896,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -8779,6 +9054,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -8906,6 +9185,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -9203,6 +9489,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -9243,6 +9536,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -11055,6 +11355,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -11291,6 +11598,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -11418,6 +11729,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -11549,6 +11864,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -11650,6 +11972,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -11750,6 +12079,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -11856,6 +12192,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -12150,6 +12493,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -13031,6 +13381,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -13291,6 +13645,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -13333,6 +13694,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -13421,6 +13786,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -13626,6 +13995,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -13986,6 +14362,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -14122,6 +14505,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -14164,6 +14554,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -14267,6 +14661,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -14307,6 +14708,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -14599,6 +15007,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -14746,6 +15158,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -15018,6 +15437,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -15117,6 +15543,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -15409,6 +15842,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -15556,6 +15996,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -15733,6 +16180,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -15773,6 +16227,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -16180,6 +16641,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -16267,6 +16735,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -16359,6 +16834,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -16400,6 +16882,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -16444,6 +16933,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -16592,6 +17085,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -16633,6 +17133,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -16677,6 +17184,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -16823,6 +17334,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -16973,6 +17491,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -17014,6 +17539,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -17057,6 +17589,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -17098,6 +17637,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -17141,6 +17687,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -17182,6 +17735,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -17225,6 +17785,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -17266,6 +17833,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -17310,6 +17884,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -17350,6 +17928,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -17451,6 +18036,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -17491,6 +18083,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -17534,6 +18133,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -17576,6 +18182,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -17617,6 +18230,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -18194,6 +18814,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -18236,6 +18863,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -18681,6 +19312,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -18785,6 +19423,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -18885,6 +19530,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -18976,6 +19625,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -19103,6 +19756,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -19304,6 +19964,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -19927,6 +20594,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -20075,6 +20749,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -20150,6 +20831,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -20861,6 +21549,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -21056,6 +21748,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -21160,6 +21859,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -21291,6 +21994,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -21889,6 +22599,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -22367,6 +23084,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -22567,6 +23291,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -22671,6 +23402,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -22952,6 +23690,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -23103,6 +23848,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -23379,6 +24131,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -23482,6 +24241,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -23635,6 +24401,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -23781,6 +24554,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -23941,6 +24721,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -24135,6 +24922,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -25180,6 +25974,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -25604,6 +26405,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -25703,6 +26511,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -26208,6 +27023,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -26391,6 +27213,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -26546,6 +27372,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -26629,6 +27459,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -26718,6 +27555,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -26889,6 +27733,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -26980,6 +27828,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -27019,6 +27871,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -27119,6 +27978,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -27285,6 +28151,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -27440,6 +28310,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -27567,6 +28441,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -27912,6 +28793,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -27954,6 +28842,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -27998,6 +28890,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -28364,6 +29260,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -28633,6 +29536,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -29084,6 +29994,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -29172,6 +30086,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -29433,6 +30354,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -29477,6 +30402,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -29604,6 +30533,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -29757,6 +30693,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -29841,6 +30784,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -29940,6 +30887,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -29982,6 +30936,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -30220,6 +31178,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -30313,6 +31278,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -30354,6 +31323,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -30507,6 +31480,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -30679,6 +31656,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -30719,6 +31703,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -30916,6 +31907,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -31044,6 +32039,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -31126,6 +32128,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -31167,6 +32173,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -31673,6 +32683,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -32276,6 +33293,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -32436,6 +33460,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -32528,6 +33556,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -32567,6 +33599,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -32891,6 +33930,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -33427,6 +34473,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
+            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -33784,6 +34837,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -33939,6 +34996,10 @@
             },
             {
                 "url": "https://fantom-pokt.nodies.app"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/ftm",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -34022,6 +35083,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -34477,6 +35545,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/avax",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
         "explorer_block_url": "block/"
@@ -34580,6 +35652,13 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/matic",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
+            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -37629,7 +38708,8 @@
                 "url": "https://cosmos.komodo.earth/"
             },
             {
-                "url": "https://cosmos.blockpi.network/rpc/v1/public"
+                "url": "https://block-proxy.komodo.earth/rpc/atom/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/atom/websocket"
             }
         ],
         "explorer_block_url": "block/",
