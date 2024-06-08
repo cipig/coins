@@ -7316,18 +7316,6 @@
         "derivation_path": "m/44'/682'",
         "electrum": [
             {
-                "url": "electrum.shorelinecrypto.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum1.mooo.com:10007",
                 "contact": [
                     {
@@ -7341,6 +7329,18 @@
             },
             {
                 "url": "electrum2.mooo.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum.shorelinecrypto.com:10007",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -10517,6 +10517,48 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/",
         "binance_id": "DOGE"
+    },
+    "DOGEC": {
+        "coin": "DOGEC",
+        "type": "UTXO",
+        "name": "DogeCash",
+        "coinpaprika_id": "dogec-dogecash",
+        "coingecko_id": "dogecash",
+        "livecoinwatch_id": "DOGEC",
+        "explorer_url": "https://explorer.dogecash.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkNet Signed Message:\n",
+        "fname": "DogeCash",
+        "rpcport": 56750,
+        "pubtype": 30,
+        "p2shtype": 19,
+        "wiftype": 122,
+        "txfee": 10000,
+        "dust": 5460,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/385'",
+        "links": {
+            "github": "https://github.com/dogecash/dogecash",
+            "homepage": "https://dogecash.net"
+        },
+        "electrum": [
+            {
+                "url": "dogec-one.ewm-cx.com:50006",
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "DOGEDASH-BEP20": {
         "coin": "DOGEDASH-BEP20",
@@ -22225,18 +22267,6 @@
         "derivation_path": "m/44'/681'",
         "electrum": [
             {
-                "url": "electrum.shorelinecrypto.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum1.mooo.com:10001",
                 "contact": [
                     {
@@ -22250,6 +22280,18 @@
             },
             {
                 "url": "electrum2.mooo.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum.shorelinecrypto.com:10001",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -22570,13 +22612,31 @@
         },
         "electrum": [
             {
-                "url": "nmc2.bitcoins.sk:57002",
+                "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
             },
             {
-                "url": "nmc2.bitcoins.sk:57001",
-                "protocol": "TCP"
+                "url": "electrumx2.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -22622,13 +22682,31 @@
         },
         "electrum": [
             {
-                "url": "nmc2.bitcoins.sk:57002",
+                "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
             },
             {
-                "url": "nmc2.bitcoins.sk:57001",
-                "protocol": "TCP"
+                "url": "electrumx2.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.nmc.dotbit.zone:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
