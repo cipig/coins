@@ -5785,6 +5785,21 @@
         },
         "electrum": [
             {
+                "url": "electrumx1.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
@@ -5801,21 +5816,6 @@
             },
             {
                 "url": "electrumx2.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx1.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -5867,6 +5867,21 @@
         },
         "electrum": [
             {
+                "url": "electrumx1.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
@@ -5883,21 +5898,6 @@
             },
             {
                 "url": "electrumx2.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx1.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -32558,6 +32558,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 45000,
+            "erc20_payment": 85000,
+            "erc20_receiver_spend": 60000,
+            "erc20_sender_refund": 60000
+        },
         "contract_address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
