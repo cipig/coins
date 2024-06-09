@@ -7066,17 +7066,17 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
-                "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "lenoir.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
                 "url": "miami.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "mumbai.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -7121,17 +7121,17 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
-                "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "lenoir.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
                 "url": "miami.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "mumbai.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -9491,6 +9491,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 50000,
+            "erc20_payment": 90000,
+            "erc20_receiver_spend": 65000,
+            "erc20_sender_refund": 65000
+        },
         "contract_address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -32337,6 +32343,12 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 120000,
+            "erc20_receiver_spend": 65000,
+            "erc20_sender_refund": 65000
+        },
         "contract_address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
