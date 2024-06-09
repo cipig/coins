@@ -6689,7 +6689,7 @@
                 ]
             },
             {
-                "url": "electrumx1.bitwebcore.net:20002",
+                "url": "electrumx2.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -6704,7 +6704,7 @@
                 ]
             },
             {
-                "url": "electrumx2.bitwebcore.net:20002",
+                "url": "electrumx1.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -6734,7 +6734,7 @@
                 ]
             },
             {
-                "url": "electrumx1.bitwebcore.net:20003",
+                "url": "electrumx2.bitwebcore.net:20003",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -6749,7 +6749,7 @@
                 ]
             },
             {
-                "url": "electrumx2.bitwebcore.net:20003",
+                "url": "electrumx1.bitwebcore.net:20003",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -6816,7 +6816,7 @@
                 ]
             },
             {
-                "url": "electrumx1.bitwebcore.net:20002",
+                "url": "electrumx2.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -6831,7 +6831,7 @@
                 ]
             },
             {
-                "url": "electrumx2.bitwebcore.net:20002",
+                "url": "electrumx1.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -6861,7 +6861,7 @@
                 ]
             },
             {
-                "url": "electrumx1.bitwebcore.net:20003",
+                "url": "electrumx2.bitwebcore.net:20003",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -6876,7 +6876,7 @@
                 ]
             },
             {
-                "url": "electrumx2.bitwebcore.net:20003",
+                "url": "electrumx1.bitwebcore.net:20003",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -8657,6 +8657,18 @@
         "derivation_path": "m/44'/682'",
         "electrum": [
             {
+                "url": "electrum.shorelinecrypto.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum1.mooo.com:10007",
                 "contact": [
                     {
@@ -8670,18 +8682,6 @@
             },
             {
                 "url": "electrum2.mooo.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum.shorelinecrypto.com:10007",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -17984,18 +17984,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum22.groestlcoin.org:50001",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum23.groestlcoin.org:50001",
                 "contact": [
                     {
@@ -18033,18 +18021,6 @@
             },
             {
                 "url": "electrum26.groestlcoin.org:50001",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum27.groestlcoin.org:50001",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -18177,6 +18153,30 @@
             },
             {
                 "url": "electrum40.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum22.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum27.groestlcoin.org:50001",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -18358,18 +18358,6 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum22.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum23.groestlcoin.org:50004",
                 "contact": [
                     {
@@ -18407,18 +18395,6 @@
             },
             {
                 "url": "electrum26.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum27.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -18551,6 +18527,30 @@
             },
             {
                 "url": "electrum40.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum22.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum27.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -27118,6 +27118,18 @@
         "derivation_path": "m/44'/681'",
         "electrum": [
             {
+                "url": "electrum.shorelinecrypto.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum1.mooo.com:10001",
                 "contact": [
                     {
@@ -27131,18 +27143,6 @@
             },
             {
                 "url": "electrum2.mooo.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum.shorelinecrypto.com:10001",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
