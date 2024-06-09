@@ -6674,7 +6674,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.bitwebcore.net:20002",
+                "url": "electrumx.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -6689,7 +6689,7 @@
                 ]
             },
             {
-                "url": "electrumx.bitwebcore.net:20002",
+                "url": "electrumx1.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -6719,21 +6719,6 @@
                 ]
             },
             {
-                "url": "electrumx1.bitwebcore.net:20003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.bitwebcore.net:20003",
                 "protocol": "WSS",
                 "contact": [
@@ -6750,6 +6735,21 @@
             },
             {
                 "url": "electrumx2.bitwebcore.net:20003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.bitwebcore.net:20003",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -6801,7 +6801,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.bitwebcore.net:20002",
+                "url": "electrumx.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -6816,7 +6816,7 @@
                 ]
             },
             {
-                "url": "electrumx.bitwebcore.net:20002",
+                "url": "electrumx1.bitwebcore.net:20002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -6846,21 +6846,6 @@
                 ]
             },
             {
-                "url": "electrumx1.bitwebcore.net:20003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.bitwebcore.net:20003",
                 "protocol": "WSS",
                 "contact": [
@@ -6877,6 +6862,21 @@
             },
             {
                 "url": "electrumx2.bitwebcore.net:20003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.bitwebcore.net:20003",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -18124,6 +18124,18 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum27.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum28.groestlcoin.org:50001",
                 "contact": [
                     {
@@ -18257,18 +18269,6 @@
             },
             {
                 "url": "electrum22.groestlcoin.org:50001",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum27.groestlcoin.org:50001",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -18498,6 +18498,18 @@
                 "protocol": "WSS"
             },
             {
+                "url": "electrum27.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum28.groestlcoin.org:50004",
                 "contact": [
                     {
@@ -18631,18 +18643,6 @@
             },
             {
                 "url": "electrum22.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum27.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -38989,9 +38989,9 @@
         "derivation_path": "m/44'/966'",
         "gas_limit": {
             "eth_send_erc20": 45000,
-            "erc20_payment": 85000,
-            "erc20_receiver_spend": 60000,
-            "erc20_sender_refund": 60000
+            "erc20_payment": 90000,
+            "erc20_receiver_spend": 65000,
+            "erc20_sender_refund": 65000
         },
         "contract_address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "parent_coin": "MATIC",
