@@ -32978,6 +32978,15 @@
             {
                 "url": "88.99.26.209:5028",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.javerity.com:5885",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -33026,6 +33035,15 @@
         "electrum": [
             {
                 "url": "88.99.26.209:5028",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.javerity.com:5885",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ],
                 "protocol": "TCP"
             }
         ],
@@ -39069,11 +39087,29 @@
         },
         "electrum": [
             {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kiirocoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "1155906841625239684"
                     }
                 ]
             }
