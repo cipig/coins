@@ -8,6 +8,7 @@ on:
       - 'utils/coins_config_ssl.json'
       - 'utils/coins_config_tcp.json'
       - 'utils/coins_config_wss.json'
+  workflow_dispatch:
 
 jobs:
   update_configs:
