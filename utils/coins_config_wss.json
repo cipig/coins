@@ -803,7 +803,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "electrumx-three.artbyte.live:50013",
+                "url": "elec-seeder-two.artbytecoin.org:50013",
                 "protocol": "WSS"
             }
         ],
@@ -4174,6 +4174,15 @@
             "homepage": "https://bitblocksproject.com"
         },
         "electrum": [
+            {
+                "url": "bbk-ex-three.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
             {
                 "url": "bbk-ex-two.ewmci.online:50003",
                 "protocol": "WSS",
@@ -16521,6 +16530,28 @@
                         "github": "WikiMin3R"
                     }
                 ]
+            },
+            {
+                "url": "il9p.electrumx.transcenders.name:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -19775,6 +19806,104 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "LCC": {
+        "coin": "LCC",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "litecoin-cash",
+        "livecoinwatch_id": "LCC",
+        "explorer_url": "https://chainz.cryptoid.info/lcc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
+        "fname": "Litecoin Cash",
+        "rpcport": 62457,
+        "pubtype": 28,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "decimals": 7,
+        "fork_id": "0x40",
+        "signature_version": "base",
+        "txfee": 20000,
+        "segwit": true,
+        "bech32_hrp": "lcc",
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "electrum": [
+            {
+                "url": "lcc-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
+    "LCC-segwit": {
+        "coin": "LCC-segwit",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "litecoin-cash",
+        "livecoinwatch_id": "LCC",
+        "explorer_url": "https://chainz.cryptoid.info/lcc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
+        "fname": "Litecoin Cash",
+        "rpcport": 62457,
+        "pubtype": 28,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "decimals": 7,
+        "fork_id": "0x40",
+        "signature_version": "base",
+        "txfee": 20000,
+        "segwit": true,
+        "bech32_hrp": "lcc",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "LCC",
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "electrum": [
+            {
+                "url": "lcc-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "LDO-ERC20": {
         "coin": "LDO-ERC20",
@@ -31438,12 +31567,12 @@
         },
         "electrum": [
             {
-                "url": "uis-uno.ewmcx.net:50003",
+                "url": "failover.trc-uis.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             },
             {
-                "url": "failover.trc-uis.ewmcx.biz:50003",
+                "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             }
@@ -39865,7 +39994,7 @@
                 ]
             },
             {
-                "url": "meowcoinelectrumcoms.xyz:50004",
+                "url": "meowelectrum.xyz:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -39874,7 +40003,7 @@
                 ]
             },
             {
-                "url": "meowelectrum.xyz:50004",
+                "url": "meowcoinelectrumcoms.xyz:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
