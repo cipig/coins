@@ -761,7 +761,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "electrumx-three.artbyte.live:50012",
+                "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             }
         ],
@@ -3973,6 +3973,15 @@
         },
         "electrum": [
             {
+                "url": "bbk-ex-three.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "bbk-ex-two.ewmci.online:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -3982,16 +3991,7 @@
                 ]
             },
             {
-                "url": "bbk-ex-two.ewmci.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "bbk-one.ewm-cx.net:50001",
+                "url": "bbk-ex-three.ewmci.online:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -16123,11 +16123,24 @@
                 ]
             },
             {
-                "url": "il8p-ex-five.ewmci.online:50001",
-                "protocol": "TCP",
+                "url": "il9p.electrumx.transcenders.name:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
                 "contact": [
                     {
-                        "discord": "475820011634819072"
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
                     }
                 ]
             }
@@ -19202,8 +19215,26 @@
         "derivation_path": "m/44'/192'",
         "electrum": [
             {
+                "url": "lcc-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "88.99.26.209:5140",
                 "protocol": "TCP"
+            },
+            {
+                "url": "lcc-ex-one.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -19248,8 +19279,26 @@
         "derivation_path": "m/44'/192'",
         "electrum": [
             {
+                "url": "lcc-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "88.99.26.209:5140",
                 "protocol": "TCP"
+            },
+            {
+                "url": "lcc-ex-one.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -30779,12 +30828,12 @@
         },
         "electrum": [
             {
-                "url": "uis-uno.ewmcx.net:50002",
+                "url": "failover.trc-uis.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
             },
             {
-                "url": "failover.trc-uis.ewmcx.biz:50002",
+                "url": "uis-uno.ewmcx.net:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
             }
@@ -39316,7 +39365,7 @@
                 ]
             },
             {
-                "url": "meowcoinelectrumcoms.xyz:50002",
+                "url": "meowelectrum.xyz:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -39325,7 +39374,7 @@
                 ]
             },
             {
-                "url": "meowelectrum.xyz:50002",
+                "url": "meowcoinelectrumcoms.xyz:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
