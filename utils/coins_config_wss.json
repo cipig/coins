@@ -4782,6 +4782,10 @@
             {
                 "url": "electrum2.blocx.live:50004",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum3.blocx.live:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -36349,6 +36353,10 @@
         },
         "electrum": [
             {
+                "url": "zeta-seed-d.zetacoin.network:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "zet-ex-three.ewmci.online:50013",
                 "protocol": "WSS",
                 "contact": [
@@ -36356,10 +36364,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"

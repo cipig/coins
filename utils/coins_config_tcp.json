@@ -4564,8 +4564,8 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum1.blocx.live:50001",
-                "protocol": "TCP"
+                "url": "electrum3.blocx.live:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -35545,6 +35545,10 @@
         },
         "electrum": [
             {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "zet-ex-three.ewmci.online:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -35552,10 +35556,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL"
             },
             {
                 "url": "207.180.252.200:50011",
