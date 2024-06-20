@@ -786,21 +786,16 @@
         },
         "electrum": [
             {
-                "url": "aby-ex-four.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             }
         ],
@@ -25111,7 +25106,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:50012",
+                "url": "txserver.live:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -25120,7 +25115,7 @@
                 ]
             },
             {
-                "url": "txserver.live:50002",
+                "url": "electrumx.live:50012",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -39196,7 +39191,7 @@
                 ]
             },
             {
-                "url": "electrum4.runebase.io:50002",
+                "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -39208,7 +39203,7 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50002",
+                "url": "electrum4.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
