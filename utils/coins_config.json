@@ -798,9 +798,13 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "url": "aby-ex-four.ewmci.online:50012",
                 "protocol": "SSL",
-                "disable_cert_verification": true
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
@@ -811,18 +815,18 @@
                 "protocol": "SSL"
             },
             {
-                "url": "aby-ex-four.ewmci.online:50012",
+                "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "aby-ex-four.ewmci.online:50013",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
@@ -833,13 +837,9 @@
                 "protocol": "WSS"
             },
             {
-                "url": "aby-ex-four.ewmci.online:50013",
+                "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -25056,15 +25056,15 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum7.getlynx.io:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum8.getlynx.io:50002",
                 "protocol": "SSL"
             },
             {
                 "url": "electrum9.getlynx.io:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum7.getlynx.io:50002",
                 "protocol": "SSL"
             },
             {
@@ -25076,15 +25076,15 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum7.getlynx.io:50004",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum8.getlynx.io:50004",
                 "protocol": "WSS"
             },
             {
                 "url": "electrum9.getlynx.io:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum7.getlynx.io:50004",
                 "protocol": "WSS"
             }
         ],
@@ -29982,15 +29982,6 @@
         },
         "electrum": [
             {
-                "url": "txserver.live:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.live:50010",
                 "protocol": "TCP",
                 "contact": [
@@ -30000,8 +29991,8 @@
                 ]
             },
             {
-                "url": "txserver.live:50002",
-                "protocol": "SSL",
+                "url": "txserver.live:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -30018,8 +30009,8 @@
                 ]
             },
             {
-                "url": "txserver.live:30001",
-                "protocol": "WSS",
+                "url": "txserver.live:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -30028,6 +30019,15 @@
             },
             {
                 "url": "electrumx.live:30010",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "txserver.live:30001",
                 "protocol": "WSS",
                 "contact": [
                     {
