@@ -789,9 +789,13 @@
         },
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "url": "aby-ex-four.ewmci.online:50013",
                 "protocol": "WSS",
-                "disable_cert_verification": true
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
@@ -21149,7 +21153,7 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum7.getlynx.io:50004",
+                "url": "electrum8.getlynx.io:50004",
                 "protocol": "WSS"
             }
         ],
@@ -25225,7 +25229,7 @@
         },
         "electrum": [
             {
-                "url": "txserver.live:30001",
+                "url": "electrumx.live:30010",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -25234,7 +25238,7 @@
                 ]
             },
             {
-                "url": "electrumx.live:30010",
+                "url": "txserver.live:30001",
                 "protocol": "WSS",
                 "contact": [
                     {

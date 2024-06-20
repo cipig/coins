@@ -747,9 +747,13 @@
         },
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "url": "aby-ex-four.ewmci.online:50012",
                 "protocol": "SSL",
-                "disable_cert_verification": true
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
@@ -20465,7 +20469,7 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum7.getlynx.io:50002",
+                "url": "electrum8.getlynx.io:50002",
                 "protocol": "SSL"
             }
         ],
@@ -24670,15 +24674,6 @@
         },
         "electrum": [
             {
-                "url": "txserver.live:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.live:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -24688,7 +24683,16 @@
                 ]
             },
             {
-                "url": "txserver.live:50001",
+                "url": "txserver.live:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.live:50010",
                 "protocol": "TCP",
                 "contact": [
                     {
