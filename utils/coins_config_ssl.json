@@ -797,7 +797,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             }
         ],
@@ -5726,6 +5726,166 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "BTE": {
+        "coin": "BTE",
+        "type": "UTXO",
+        "name": "Bitweb",
+        "coinpaprika_id": "bte-bitweb",
+        "coingecko_id": "bitweb",
+        "livecoinwatch_id": "_BTE",
+        "explorer_url": "https://explorer.bitwebcore.net/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Bitweb",
+        "rpcport": 1605,
+        "pubtype": 33,
+        "p2shtype": 30,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "web",
+        "txfee": 20000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BTE-segwit": {
+        "coin": "BTE-segwit",
+        "type": "UTXO",
+        "name": "Bitweb",
+        "coinpaprika_id": "bte-bitweb",
+        "coingecko_id": "bitweb",
+        "livecoinwatch_id": "_BTE",
+        "explorer_url": "https://explorer.bitwebcore.net/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Bitweb",
+        "rpcport": 1605,
+        "pubtype": 33,
+        "p2shtype": 30,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "web",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "BTE",
+        "txfee": 20000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "BTT-BEP20": {
@@ -38781,6 +38941,18 @@
         },
         "electrum": [
             {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -38794,18 +38966,6 @@
             },
             {
                 "url": "electrum4.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
