@@ -40296,7 +40296,17 @@
         },
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrumx2.vaporumcoin.us:50001",
+                "contact": [
+                    {
+                        "github": "VaporumCoin"
+                    }
+                ],
+                "protocol": "TCP"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "VTC": {
@@ -41553,7 +41563,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.neurai.top:50001",
+                "url": "electrumx-dex-01.neuraiexplorer.com:50001",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -41565,7 +41575,7 @@
                 ]
             },
             {
-                "url": "electrumx2.neurai.top:50001",
+                "url": "electrumx-dex-02.neuraiexplorer.com:50001",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -41589,7 +41599,7 @@
                 ]
             },
             {
-                "url": "electrumx1.neurai.top:50002",
+                "url": "electrumx-dex-01.neuraiexplorer.com:50002",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -41601,7 +41611,7 @@
                 ]
             },
             {
-                "url": "electrumx2.neurai.top:50002",
+                "url": "electrumx-dex-02.neuraiexplorer.com:50002",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -41667,11 +41677,11 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.mainnet.primecoin.org:50011",
+                "url": "electrumx.primecoin.org:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.primecoin.org:50001",
+                "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
             }
         ],
