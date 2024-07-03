@@ -46229,21 +46229,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.cointest.com:50001",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx2.cointest.com:50001",
                 "contact": [
                     {
@@ -46259,7 +46244,22 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx1.cointest.com:50002",
+                "url": "electrumx1.cointest.com:50001",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.cointest.com:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -46274,7 +46274,7 @@
                 ]
             },
             {
-                "url": "electrumx2.cointest.com:50002",
+                "url": "electrumx1.cointest.com:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -46328,21 +46328,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.cointest.com:50001",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx2.cointest.com:50001",
                 "contact": [
                     {
@@ -46358,7 +46343,22 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx1.cointest.com:50002",
+                "url": "electrumx1.cointest.com:50001",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.cointest.com:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -46373,7 +46373,7 @@
                 ]
             },
             {
-                "url": "electrumx2.cointest.com:50002",
+                "url": "electrumx1.cointest.com:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
