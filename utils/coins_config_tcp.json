@@ -765,13 +765,13 @@
                 ]
             },
             {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -5688,7 +5688,7 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
-                "url": "electrum1.btcz.rocks:50001",
+                "url": "electrum2.btcz.rocks:50001",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -5697,7 +5697,7 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum2.btcz.rocks:50001",
+                "url": "electrum1.btcz.rocks:50001",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -15054,6 +15054,15 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
+                "url": "electrum.maxpuig.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
                 "url": "uk.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -15064,11 +15073,11 @@
                 ]
             },
             {
-                "url": "electrum.niftybakes.com:50001",
+                "url": "electrum.maxpuig.com:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "discord": "405566674448810005"
+                        "discord": "mecs#4770"
                     }
                 ]
             }
@@ -35125,8 +35134,13 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx2.vanillacash.info:50011",
-                "protocol": "TCP"
+                "url": "xvc-ex-seven.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -39102,18 +39116,6 @@
         },
         "electrum": [
             {
-                "url": "electrum2.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -39126,7 +39128,19 @@
                 ]
             },
             {
-                "url": "electrum2.runebase.io:50001",
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
