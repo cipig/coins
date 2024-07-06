@@ -792,13 +792,13 @@
                 ]
             },
             {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -14941,6 +14941,15 @@
         },
         "derivation_path": "m/44'/69420'",
         "electrum": [
+            {
+                "url": "electrum.maxpuig.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
             {
                 "url": "uk.garlium.crapules.org:50002",
                 "protocol": "SSL",
@@ -38980,7 +38989,7 @@
         },
         "electrum": [
             {
-                "url": "electrum2.runebase.io:50002",
+                "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -38992,7 +39001,7 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50002",
+                "url": "electrum2.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
