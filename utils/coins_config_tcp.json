@@ -765,13 +765,13 @@
                 ]
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -10998,17 +10998,6 @@
         },
         "electrum": [
             {
-                "url": "big-parrot-60.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "big-parrot-60.doi.works:50004"
-            },
-            {
                 "url": "itchy-jellyfish-89.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -11029,6 +11018,17 @@
                     }
                 ],
                 "ws-url": "pink-deer-69.doi.works:50004"
+            },
+            {
+                "url": "big-parrot-60.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "example_username"
+                    }
+                ],
+                "ws-url": "big-parrot-60.doi.works:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -16346,15 +16346,6 @@
         },
         "electrum": [
             {
-                "url": "il8p-ex-five.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -16395,6 +16386,15 @@
                     },
                     {
                         "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il8p-ex-five.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
                     }
                 ]
             }
@@ -25062,15 +25062,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "txserver.live:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -25080,7 +25071,16 @@
                 ]
             },
             {
-                "url": "electrumx.live:50010",
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "txserver.live:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -35134,13 +35134,8 @@
                 "protocol": "TCP"
             },
             {
-                "url": "xvc-ex-seven.ewmci.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
+                "url": "electrumx2.vanillacash.info:50011",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
