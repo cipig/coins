@@ -804,13 +804,13 @@
                 ]
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "aby-ex-four.ewmci.online:50013",
@@ -822,13 +822,13 @@
                 ]
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50013",
-                "protocol": "WSS"
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -13000,17 +13000,6 @@
                 ]
             },
             {
-                "url": "big-parrot-60.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "big-parrot-60.doi.works:50004"
-            },
-            {
                 "url": "itchy-jellyfish-89.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -13031,6 +13020,17 @@
                     }
                 ],
                 "ws-url": "pink-deer-69.doi.works:50004"
+            },
+            {
+                "url": "big-parrot-60.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "example_username"
+                    }
+                ],
+                "ws-url": "big-parrot-60.doi.works:50004"
             },
             {
                 "url": "ugly-bird-70.doi.works:50002",
@@ -19806,15 +19806,6 @@
                 ]
             },
             {
-                "url": "il8p-ex-five.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -19859,8 +19850,8 @@
                 ]
             },
             {
-                "url": "il8p-ex-five.ewmci.online:50003",
-                "protocol": "WSS",
+                "url": "il8p-ex-five.ewmci.online:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -19908,6 +19899,15 @@
                     },
                     {
                         "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il8p-ex-five.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
                     }
                 ]
             }
@@ -30251,15 +30251,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -30269,8 +30260,8 @@
                 ]
             },
             {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL",
+                "url": "electrumx.live:50010",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -30287,8 +30278,8 @@
                 ]
             },
             {
-                "url": "electrumx.live:30010",
-                "protocol": "WSS",
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -30297,6 +30288,15 @@
             },
             {
                 "url": "txserver.live:30001",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.live:30010",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -42122,6 +42122,10 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrumx2.vanillacash.info:50011",
+                "protocol": "TCP"
+            },
+            {
                 "url": "xvc-ex-seven.ewmci.online:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -42129,10 +42133,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "electrumx2.vanillacash.info:50011",
-                "protocol": "TCP"
             },
             {
                 "url": "xvc-ex-seven.ewmci.online:50002",
@@ -42148,6 +42148,10 @@
                 "protocol": "WSS"
             },
             {
+                "url": "electrumx2.vanillacash.info:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "xvc-ex-seven.ewmci.online:50003",
                 "protocol": "WSS",
                 "contact": [
@@ -42155,10 +42159,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "electrumx2.vanillacash.info:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
