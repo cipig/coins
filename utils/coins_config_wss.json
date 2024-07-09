@@ -5816,7 +5816,7 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
-                "url": "electrum1.btcz.rocks:50004",
+                "url": "electrum2.btcz.rocks:50004",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -5825,7 +5825,7 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum2.btcz.rocks:50004",
+                "url": "electrum1.btcz.rocks:50004",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -15113,6 +15113,51 @@
         ],
         "explorer_block_url": "block/"
     },
+    "GRLC": {
+        "coin": "GRLC",
+        "type": "UTXO",
+        "name": "Garlicoin",
+        "coinpaprika_id": "grlc-garlicoin",
+        "coingecko_id": "garlicoin",
+        "livecoinwatch_id": "GRLC",
+        "explorer_url": "https://garlicblocks.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Garlicoin Signed Message:\n",
+        "fname": "Garlicoin",
+        "rpcport": 42068,
+        "pubtype": 38,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "segwit": true,
+        "bech32_hrp": "grlc",
+        "txfee": 100000,
+        "dust": 54600,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 40,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/69420'",
+        "electrum": [
+            {
+                "url": "electrum.maxpuig.com:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "GRLC-ERC20": {
         "coin": "GRLC-ERC20",
         "type": "ERC-20",
@@ -16458,15 +16503,6 @@
         },
         "electrum": [
             {
-                "url": "il8p-ex-five.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "il8p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
@@ -16507,6 +16543,15 @@
                     },
                     {
                         "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il8p-ex-five.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
                     }
                 ]
             }
@@ -25164,7 +25209,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:30010",
+                "url": "txserver.live:30001",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -25173,7 +25218,7 @@
                 ]
             },
             {
-                "url": "txserver.live:30001",
+                "url": "electrumx.live:30010",
                 "protocol": "WSS",
                 "contact": [
                     {
