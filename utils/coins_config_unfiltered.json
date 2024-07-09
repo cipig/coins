@@ -42411,7 +42411,12 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/77'",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrum-verge.cloud:50001",
+                "protocol": "TCP"
+            }
+        ],
         "explorer_block_url": "block/",
         "binance_id": "XVG"
     },
