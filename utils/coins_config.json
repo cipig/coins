@@ -16354,6 +16354,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x1a3acf6D19267E2d3e7f898f42803e90C9219062",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -21621,6 +21627,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xBD1fe73e1f12bD2bc237De9b626F056f21f86427",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -29925,15 +29937,6 @@
         },
         "electrum": [
             {
-                "url": "txserver.live:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.live:50010",
                 "protocol": "TCP",
                 "contact": [
@@ -29943,8 +29946,8 @@
                 ]
             },
             {
-                "url": "txserver.live:50002",
-                "protocol": "SSL",
+                "url": "txserver.live:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -29961,8 +29964,8 @@
                 ]
             },
             {
-                "url": "txserver.live:30001",
-                "protocol": "WSS",
+                "url": "txserver.live:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -29971,6 +29974,15 @@
             },
             {
                 "url": "electrumx.live:30010",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "txserver.live:30001",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -41939,50 +41951,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "XVG": {
-        "coin": "XVG",
-        "type": "UTXO",
-        "name": "Verge",
-        "coinpaprika_id": "xvg-verge",
-        "coingecko_id": "verge",
-        "livecoinwatch_id": "XVG",
-        "explorer_url": "https://xvgblockexplorer.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "VERGE Signed Message:\n",
-        "fname": "Verge",
-        "isPoS": 1,
-        "rpcport": 20102,
-        "pubtype": 30,
-        "p2shtype": 33,
-        "wiftype": 158,
-        "decimals": 6,
-        "segwit": true,
-        "bech32_hrp": "vg",
-        "txfee": 400000,
-        "dust": 400000,
-        "force_min_relay_fee": true,
-        "mm2": 1,
-        "required_confirmations": 10,
-        "avg_blocktime": 30,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/77'",
-        "electrum": [
-            {
-                "url": "88.99.26.209:5036",
-                "protocol": "TCP"
-            }
-        ],
-        "explorer_block_url": "block/",
-        "binance_id": "XVG"
-    },
     "XVS-BEP20": {
         "coin": "XVS-BEP20",
         "type": "BEP-20",
@@ -46271,37 +46239,7 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx1.cointest.com:50001",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx2.cointest.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx1.cointest.com:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -46370,37 +46308,7 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx1.cointest.com:50001",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx2.cointest.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx1.cointest.com:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
