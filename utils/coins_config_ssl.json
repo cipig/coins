@@ -5354,6 +5354,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x4eD141110F6EeeAbA9A1df36d8c26f684d2475Dc",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -6899,7 +6905,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "lenoir.ecoincore.com:34333",
+                "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -6954,7 +6960,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "lenoir.ecoincore.com:34333",
+                "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -15586,6 +15592,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -17689,7 +17701,13 @@
                 "contract_address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c"
             }
         },
-        "derivation_path": "m/44'/60'",
+        "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -18315,6 +18333,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -38904,6 +38928,18 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
             {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
