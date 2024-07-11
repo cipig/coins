@@ -48391,7 +48391,37 @@
             "github": "https://github.com/seopub/zoincomumity",
             "homepage": "http://zoincommunity.com/"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrum.zoincommunity.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/seopub/electrumx_zoin/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.zoincommunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "github": "https://github.com/seopub/electrumx_zoin/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.zoincommunity.com:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "github": "https://github.com/seopub/electrumx_zoin/issues"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     }
 }
