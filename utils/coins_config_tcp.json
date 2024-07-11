@@ -11038,12 +11038,12 @@
         "derivation_path": "m/44'/78'",
         "electrum": [
             {
-                "url": "electrum1.egulden.org:50002",
+                "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "electrum3.egulden.org:50002",
+                "url": "electrum1.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -12861,7 +12861,7 @@
                 ]
             },
             {
-                "url": "electrumx03.firo.org:50001",
+                "url": "electrumx02.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -34642,6 +34642,10 @@
             "homepage": "https://primecoin.io"
         },
         "electrum": [
+            {
+                "url": "electrumx.gemmer.primecoin.org:50011",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
