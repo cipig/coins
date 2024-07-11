@@ -34483,6 +34483,15 @@
             {
                 "url": "lenoir.ecoincore.com:10891",
                 "protocol": "TCP"
+            },
+            {
+                "url": "xmy-two.ewm-cx.net:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -34529,6 +34538,15 @@
             {
                 "url": "lenoir.ecoincore.com:10891",
                 "protocol": "TCP"
+            },
+            {
+                "url": "xmy-two.ewm-cx.net:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -39592,7 +39610,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.kiirocoin.org:50002",
+                "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -39601,7 +39619,7 @@
                 ]
             },
             {
-                "url": "electrum3.kiirocoin.org:50002",
+                "url": "electrum1.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {

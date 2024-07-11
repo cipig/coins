@@ -27472,10 +27472,6 @@
                 ]
             },
             {
-                "url": "nmc2.bitcoins.sk:57001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -27510,11 +27506,6 @@
                         "github": "https://github.com/namecoin/electrum-nmc/issues"
                     }
                 ]
-            },
-            {
-                "url": "nmc2.bitcoins.sk:57002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             },
             {
                 "url": "electrumx1.nmc.dotbit.zone:50004",
@@ -27632,10 +27623,6 @@
                 ]
             },
             {
-                "url": "nmc2.bitcoins.sk:57001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -27670,11 +27657,6 @@
                         "github": "https://github.com/namecoin/electrum-nmc/issues"
                     }
                 ]
-            },
-            {
-                "url": "nmc2.bitcoins.sk:57002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             },
             {
                 "url": "electrumx1.nmc.dotbit.zone:50004",
@@ -40878,6 +40860,15 @@
                 "protocol": "TCP"
             },
             {
+                "url": "xmy-two.ewm-cx.net:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "lenoir.ecoincore.com:10892",
                 "protocol": "SSL"
             },
@@ -40926,6 +40917,15 @@
             {
                 "url": "lenoir.ecoincore.com:10891",
                 "protocol": "TCP"
+            },
+            {
+                "url": "xmy-two.ewm-cx.net:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             },
             {
                 "url": "lenoir.ecoincore.com:10892",
@@ -47434,15 +47434,6 @@
                 ]
             },
             {
-                "url": "electrum1.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -47452,8 +47443,8 @@
                 ]
             },
             {
-                "url": "electrum1.kiirocoin.org:50004",
-                "protocol": "WSS",
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
@@ -47462,6 +47453,15 @@
             },
             {
                 "url": "electrum3.kiirocoin.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
