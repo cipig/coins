@@ -6091,27 +6091,27 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumserver02.globalboost.info:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
+                "url": "electrumserver01.globalboost.info:50011",
+                "protocol": "TCP"
             },
             {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumserver01.globalboost.info:50013",
-                "protocol": "WSS"
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumserver02.globalboost.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumserver01.globalboost.info:50013",
                 "protocol": "WSS"
             }
         ],
@@ -12660,7 +12660,16 @@
             "github": "https://github.com/dogecash/dogecash",
             "homepage": "https://dogecash.net"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "dogec-one.ewm-cx.com:50006",
+                "protocol": "TCP"
+            },
+            {
+                "url": "dogec-one.ewm-cx.com:50008",
+                "protocol": "WSS"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "DOGEDASH-BEP20": {
@@ -41585,10 +41594,6 @@
             {
                 "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.primecoin.org:50001",
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -43590,11 +43595,11 @@
         "derivation_path": "m/44'/19167'",
         "electrum": [
             {
-                "url": "electrumx2.runonflux.io:50001",
+                "url": "electrumx.runonflux.io:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.runonflux.io:50001",
+                "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP"
             }
         ],

@@ -5428,15 +5428,15 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumserver01.globalboost.info:50011",
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50011",
                 "protocol": "TCP"
             }
         ],
@@ -10631,6 +10631,48 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/",
         "binance_id": "DOGE"
+    },
+    "DOGEC": {
+        "coin": "DOGEC",
+        "type": "UTXO",
+        "name": "DogeCash",
+        "coinpaprika_id": "dogec-dogecash",
+        "coingecko_id": "dogecash",
+        "livecoinwatch_id": "DOGEC",
+        "explorer_url": "https://explorer.dogecash.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkNet Signed Message:\n",
+        "fname": "DogeCash",
+        "rpcport": 56750,
+        "pubtype": 30,
+        "p2shtype": 19,
+        "wiftype": 122,
+        "txfee": 10000,
+        "dust": 5460,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/385'",
+        "links": {
+            "github": "https://github.com/dogecash/dogecash",
+            "homepage": "https://dogecash.net"
+        },
+        "electrum": [
+            {
+                "url": "dogec-one.ewm-cx.com:50006",
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "DOGEDASH-BEP20": {
         "coin": "DOGEDASH-BEP20",
@@ -34667,10 +34709,6 @@
             {
                 "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.primecoin.org:50001",
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -36268,11 +36306,11 @@
         "derivation_path": "m/44'/19167'",
         "electrum": [
             {
-                "url": "electrumx2.runonflux.io:50001",
+                "url": "electrumx.runonflux.io:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.runonflux.io:50001",
+                "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP"
             }
         ],
