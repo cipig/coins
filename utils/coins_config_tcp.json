@@ -5334,6 +5334,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x4eD141110F6EeeAbA9A1df36d8c26f684d2475Dc",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -5692,6 +5698,15 @@
         },
         "derivation_path": "m/44'/177'",
         "electrum": [
+            {
+                "url": "electrum1.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "TCP"
+            },
             {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
@@ -6891,7 +6906,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "lenoir.ecoincore.com:34333",
+                "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -6946,7 +6961,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "lenoir.ecoincore.com:34333",
+                "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -15689,6 +15704,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -17689,7 +17710,13 @@
                 "contract_address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c"
             }
         },
-        "derivation_path": "m/44'/60'",
+        "derivation_path": "m/44'/966'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -18272,6 +18299,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -34523,10 +34556,6 @@
                 "protocol": "SSL"
             },
             {
-                "url": "lenoir.ecoincore.com:10891",
-                "protocol": "TCP"
-            },
-            {
                 "url": "xmy-two.ewm-cx.net:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -34534,6 +34563,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "lenoir.ecoincore.com:10891",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -34578,10 +34611,6 @@
                 "protocol": "SSL"
             },
             {
-                "url": "lenoir.ecoincore.com:10891",
-                "protocol": "TCP"
-            },
-            {
                 "url": "xmy-two.ewm-cx.net:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -34589,6 +34618,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "lenoir.ecoincore.com:10891",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -34708,6 +34741,10 @@
             },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.primecoin.org:50001",
                 "protocol": "TCP"
             }
         ],
@@ -39047,6 +39084,18 @@
         },
         "electrum": [
             {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -39059,7 +39108,7 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50001",
+                "url": "electrum2.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
