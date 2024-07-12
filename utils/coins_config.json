@@ -15025,15 +15025,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.firo.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx01.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -15061,13 +15052,13 @@
                 ]
             },
             {
-                "protocol": "WSS",
+                "url": "electrumx.firo.org:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
-                ],
-                "url": "electrumx.firo.org:50004"
+                ]
             },
             {
                 "protocol": "WSS",
@@ -15095,6 +15086,15 @@
                     }
                 ],
                 "url": "electrumx03.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
+                "url": "electrumx.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -41590,10 +41590,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.vanillacash.info:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx2.vanillacash.info:50011",
                 "protocol": "TCP"
             },
@@ -41607,6 +41603,10 @@
                 ]
             },
             {
+                "url": "electrumx1.vanillacash.info:50011",
+                "protocol": "TCP"
+            },
+            {
                 "url": "xvc-ex-seven.ewmci.online:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -41614,10 +41614,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "electrumx1.vanillacash.info:50013",
-                "protocol": "WSS"
             },
             {
                 "url": "electrumx2.vanillacash.info:50013",
@@ -41631,6 +41627,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "electrumx1.vanillacash.info:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
