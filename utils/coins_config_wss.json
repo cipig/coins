@@ -12996,6 +12996,15 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
+                "url": "electrumx.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
                 "url": "electrumx01.firo.org:50004"
             },
             {
@@ -13006,15 +13015,6 @@
                     }
                 ],
                 "url": "electrumx02.firo.org:50004"
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
-                "url": "electrumx03.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -16424,9 +16424,9 @@
         "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 55000,
-            "erc20_payment": 110000,
-            "erc20_receiver_spend": 80000,
-            "erc20_sender_refund": 80000
+            "erc20_payment": 120000,
+            "erc20_receiver_spend": 90000,
+            "erc20_sender_refund": 90000
         },
         "contract_address": "0x554cd6bdD03214b10AafA3e0D4D42De0C5D2937b",
         "parent_coin": "MATIC",

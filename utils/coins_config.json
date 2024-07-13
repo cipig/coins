@@ -12914,6 +12914,17 @@
                 ]
             },
             {
+                "url": "big-parrot-60.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "example_username"
+                    }
+                ],
+                "ws-url": "big-parrot-60.doi.works:50004"
+            },
+            {
                 "url": "itchy-jellyfish-89.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -15025,6 +15036,15 @@
         },
         "electrum": [
             {
+                "url": "electrumx.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx01.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -15052,13 +15072,13 @@
                 ]
             },
             {
-                "url": "electrumx.firo.org:50001",
-                "protocol": "TCP",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
-                ]
+                ],
+                "url": "electrumx.firo.org:50004"
             },
             {
                 "protocol": "WSS",
@@ -15086,15 +15106,6 @@
                     }
                 ],
                 "url": "electrumx03.firo.org:50004"
-            },
-            {
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ],
-                "url": "electrumx.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -19573,9 +19584,9 @@
         "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 55000,
-            "erc20_payment": 110000,
-            "erc20_receiver_spend": 80000,
-            "erc20_sender_refund": 80000
+            "erc20_payment": 120000,
+            "erc20_receiver_spend": 90000,
+            "erc20_sender_refund": 90000
         },
         "contract_address": "0x554cd6bdD03214b10AafA3e0D4D42De0C5D2937b",
         "parent_coin": "MATIC",
