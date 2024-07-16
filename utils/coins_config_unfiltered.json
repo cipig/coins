@@ -815,6 +815,14 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "aby-ex-four.ewmci.online:50013",
                 "protocol": "WSS",
                 "contact": [
@@ -827,6 +835,14 @@
                 "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -6103,27 +6119,27 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver02.globalboost.info:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumserver01.globalboost.info:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumserver02.globalboost.info:50014",
-                "protocol": "SSL"
+                "url": "electrumserver02.globalboost.info:50011",
+                "protocol": "TCP"
             },
             {
                 "url": "electrumserver01.globalboost.info:50014",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumserver02.globalboost.info:50013",
-                "protocol": "WSS"
+                "url": "electrumserver02.globalboost.info:50014",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumserver01.globalboost.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50013",
                 "protocol": "WSS"
             }
         ],
@@ -11623,6 +11639,16 @@
             {
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -18100,6 +18126,18 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum27.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum28.groestlcoin.org:50001",
                 "contact": [
                     {
@@ -18221,18 +18259,6 @@
             },
             {
                 "url": "electrum40.groestlcoin.org:50001",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum27.groestlcoin.org:50001",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -18474,6 +18500,18 @@
                 "protocol": "WSS"
             },
             {
+                "url": "electrum27.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum28.groestlcoin.org:50004",
                 "contact": [
                     {
@@ -18595,18 +18633,6 @@
             },
             {
                 "url": "electrum40.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum27.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -19816,6 +19842,28 @@
                 ]
             },
             {
+                "url": "il9p.electrumx.transcenders.name:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
                 "url": "il8p-ex-five.ewmci.online:50003",
                 "protocol": "WSS",
                 "contact": [
@@ -19826,6 +19874,28 @@
             },
             {
                 "url": "il8p.electrumx.transcenders.name:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il9p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -27109,11 +27179,11 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.tamami-foundation.org:50001",
+                "url": "electrumx1.monacoin.ninja:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx1.monacoin.ninja:50001",
+                "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
             }
         ],
@@ -27166,11 +27236,11 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.tamami-foundation.org:50001",
+                "url": "electrumx1.monacoin.ninja:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx1.monacoin.ninja:50001",
+                "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
             }
         ],
@@ -27880,6 +27950,10 @@
                 ]
             },
             {
+                "url": "nmc2.bitcoins.sk:57001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -27914,6 +27988,11 @@
                         "github": "https://github.com/namecoin/electrum-nmc/issues"
                     }
                 ]
+            },
+            {
+                "url": "nmc2.bitcoins.sk:57002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
                 "url": "electrumx1.nmc.dotbit.zone:50004",
@@ -28031,6 +28110,10 @@
                 ]
             },
             {
+                "url": "nmc2.bitcoins.sk:57001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -28065,6 +28148,11 @@
                         "github": "https://github.com/namecoin/electrum-nmc/issues"
                     }
                 ]
+            },
+            {
+                "url": "nmc2.bitcoins.sk:57002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
                 "url": "electrumx1.nmc.dotbit.zone:50004",
@@ -41425,6 +41513,10 @@
         "derivation_path": "m/44'/90'",
         "electrum": [
             {
+                "url": "lenoir.ecoincore.com:10891",
+                "protocol": "TCP"
+            },
+            {
                 "url": "xmy-two.ewm-cx.net:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -41432,10 +41524,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "lenoir.ecoincore.com:10891",
-                "protocol": "TCP"
             },
             {
                 "url": "lenoir.ecoincore.com:10892",
@@ -41484,6 +41572,10 @@
         "derivation_path": "m/44'/90'",
         "electrum": [
             {
+                "url": "lenoir.ecoincore.com:10891",
+                "protocol": "TCP"
+            },
+            {
                 "url": "xmy-two.ewm-cx.net:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -41491,10 +41583,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "lenoir.ecoincore.com:10891",
-                "protocol": "TCP"
             },
             {
                 "url": "lenoir.ecoincore.com:10892",
@@ -42071,6 +42159,10 @@
         },
         "electrum": [
             {
+                "url": "electrumx1.vanillacash.info:50011",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx2.vanillacash.info:50011",
                 "protocol": "TCP"
             },
@@ -42084,10 +42176,6 @@
                 ]
             },
             {
-                "url": "electrumx1.vanillacash.info:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "xvc-ex-seven.ewmci.online:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -42095,6 +42183,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "electrumx1.vanillacash.info:50013",
+                "protocol": "WSS"
             },
             {
                 "url": "electrumx2.vanillacash.info:50013",
@@ -42108,10 +42200,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "electrumx1.vanillacash.info:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
