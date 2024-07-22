@@ -11103,6 +11103,11 @@
         "derivation_path": "m/44'/78'",
         "electrum": [
             {
+                "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -11829,9 +11834,9 @@
         },
         "derivation_path": "m/44'/60'",
         "gas_limit": {
-            "eth_payment": 100000,
-            "eth_receiver_spend": 200000,
-            "eth_sender_refund": 200000
+            "eth_payment": 1000000,
+            "eth_receiver_spend": 2000000,
+            "eth_sender_refund": 2000000
         },
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
@@ -27099,11 +27104,11 @@
         "derivation_path": "m/44'/10226'",
         "electrum": [
             {
-                "url": "x1.raptoreum.com:50001",
+                "url": "x2.raptoreum.com:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "x2.raptoreum.com:50001",
+                "url": "x1.raptoreum.com:50001",
                 "protocol": "TCP"
             }
         ],
