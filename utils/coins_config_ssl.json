@@ -11020,6 +11020,11 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "electrum3.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -11769,9 +11774,9 @@
         },
         "derivation_path": "m/44'/60'",
         "gas_limit": {
-            "eth_payment": 1000000,
-            "eth_receiver_spend": 2000000,
-            "eth_sender_refund": 2000000
+            "eth_payment": 100000,
+            "eth_receiver_spend": 200000,
+            "eth_sender_refund": 200000
         },
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
@@ -32669,7 +32674,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "Tether",
         "rpcport": 80,
         "mm2": 1,
@@ -32683,6 +32688,12 @@
                 "platform": "ETH-ARB20",
                 "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
             }
+        },
+        "gas_limit": {
+            "eth_send_erc20": 100000,
+            "erc20_payment": 200000,
+            "erc20_receiver_spend": 150000,
+            "erc20_sender_refund": 150000
         },
         "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "parent_coin": "ETH-ARB20",
