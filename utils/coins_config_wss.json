@@ -5823,7 +5823,7 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
-                "url": "electrum1.btcz.rocks:50004",
+                "url": "electrum2.btcz.rocks:50004",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -5832,7 +5832,7 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum2.btcz.rocks:50004",
+                "url": "electrum1.btcz.rocks:50004",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -7542,6 +7542,10 @@
         "nodes": [
             {
                 "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -11918,6 +11922,10 @@
         "nodes": [
             {
                 "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
             }
         ],
         "explorer_block_url": "block/",
@@ -32030,6 +32038,56 @@
         ],
         "explorer_block_url": "block.dws?"
     },
+    "USDC-ARB20": {
+        "coin": "USDC-ARB20",
+        "type": "Arbitrum",
+        "name": "USD Coin",
+        "coinpaprika_id": "usdc-usd-coin",
+        "coingecko_id": "usd-coin",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://arbiscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "USD Coin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 42161,
+        "avg_blocktime": 15,
+        "decimals": 6,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-ARB20",
+                "contract_address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+            }
+        },
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 300000,
+            "erc20_receiver_spend": 250000,
+            "erc20_sender_refund": 250000
+        },
+        "contract_address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "parent_coin": "ETH-ARB20",
+        "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "nodes": [
+            {
+                "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "USDC-AVX20": {
         "coin": "USDC-AVX20",
         "type": "AVX-20",
@@ -32923,6 +32981,10 @@
         "nodes": [
             {
                 "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
             }
         ],
         "explorer_block_url": "block/"
