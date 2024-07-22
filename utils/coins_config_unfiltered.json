@@ -30268,15 +30268,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -30286,8 +30277,8 @@
                 ]
             },
             {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL",
+                "url": "electrumx.live:50010",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -30304,8 +30295,8 @@
                 ]
             },
             {
-                "url": "electrumx.live:30010",
-                "protocol": "WSS",
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -30314,6 +30305,15 @@
             },
             {
                 "url": "txserver.live:30001",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.live:30010",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -38215,9 +38215,9 @@
         },
         "gas_limit": {
             "eth_send_erc20": 150000,
-            "erc20_payment": 300000,
-            "erc20_receiver_spend": 250000,
-            "erc20_sender_refund": 250000
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
         },
         "contract_address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "parent_coin": "ETH-ARB20",
@@ -39116,9 +39116,9 @@
         },
         "gas_limit": {
             "eth_send_erc20": 150000,
-            "erc20_payment": 300000,
-            "erc20_receiver_spend": 250000,
-            "erc20_sender_refund": 250000
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
         },
         "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "parent_coin": "ETH-ARB20",
