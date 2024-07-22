@@ -4546,7 +4546,12 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "gas_limit": {
+        "eth_payment": 100000,
+        "eth_receiver_spend": 200000,
+        "eth_sender_refund": 200000
+    }
   },
   {
     "coin": "ETH-BEP20",
