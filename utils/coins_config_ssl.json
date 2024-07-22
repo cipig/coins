@@ -798,12 +798,11 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             }
         ],
@@ -7639,12 +7638,12 @@
         ],
         "explorer_block_url": "block/"
     },
-    "CHSB-PLG20": {
-        "coin": "CHSB-PLG20",
+    "CHSB-PLG20_OLD": {
+        "coin": "CHSB-PLG20_OLD",
         "type": "Matic",
-        "name": "SwissBorg",
-        "coinpaprika_id": "chsb-swissborg",
-        "coingecko_id": "swissborg",
+        "name": "SwissBorg (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "CHSB",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "tx/",
@@ -7653,8 +7652,8 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "SwissBorg",
+        "wallet_only": true,
+        "fname": "SwissBorg (OLD)",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 137,
@@ -11025,7 +11024,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "electrum1.egulden.org:50002",
+                "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -35155,6 +35154,50 @@
         ],
         "explorer_block_url": "block/"
     },
+    "XVG": {
+        "coin": "XVG",
+        "type": "UTXO",
+        "name": "Verge",
+        "coinpaprika_id": "xvg-verge",
+        "coingecko_id": "verge",
+        "livecoinwatch_id": "XVG",
+        "explorer_url": "https://xvgblockexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "VERGE Signed Message:\n",
+        "fname": "Verge",
+        "isPoS": 1,
+        "rpcport": 20102,
+        "pubtype": 30,
+        "p2shtype": 33,
+        "wiftype": 158,
+        "decimals": 6,
+        "segwit": true,
+        "bech32_hrp": "vg",
+        "txfee": 400000,
+        "dust": 400000,
+        "force_min_relay_fee": true,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 30,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/77'",
+        "electrum": [
+            {
+                "url": "electrumx-verge.cloud:50002",
+                "protocol": "SSL"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "XVG"
+    },
     "XVS-BEP20": {
         "coin": "XVS-BEP20",
         "type": "BEP-20",
@@ -39306,7 +39349,7 @@
                 "url": "https://rpc.osmosis.zone/"
             },
             {
-                "url": "https://osmosis-mainnet-rpc.allthatnode.com:26657/"
+                "url": "https://block-proxy.komodo.earth/rpc/osmo/"
             }
         ],
         "explorer_block_url": "block/",
@@ -39591,15 +39634,6 @@
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
                     }
                 ]
-            },
-            {
-                "url": "electrum1.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -39778,7 +39812,24 @@
         "derivation_path": "m/44'/1'",
         "rpc_urls": [
             {
-                "url": "https://nucleus-rpc.bravo.komodo.earth/"
+                "url": "https://nucleus-rpc.alpha.komodo.earth/",
+                "api_url": "https://nucleus-api.alpha.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.bravo.komodo.earth/",
+                "api_url": "https://nucleus-api.bravo.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.charlie.komodo.earth/",
+                "api_url": "https://nucleus-api.charlie.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.delta.komodo.earth/",
+                "api_url": "https://nucleus-api.delta.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/"
             }
         ],
         "explorer_block_url": "nucleus/blocks/"
@@ -39848,7 +39899,24 @@
         "parent_coin": "NUCLEUSTEST",
         "rpc_urls": [
             {
-                "url": "https://nucleus-rpc.bravo.komodo.earth/"
+                "url": "https://nucleus-rpc.alpha.komodo.earth/",
+                "api_url": "https://nucleus-api.alpha.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.bravo.komodo.earth/",
+                "api_url": "https://nucleus-api.bravo.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.charlie.komodo.earth/",
+                "api_url": "https://nucleus-api.charlie.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.delta.komodo.earth/",
+                "api_url": "https://nucleus-api.delta.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/"
             }
         ],
         "explorer_block_url": "nucleus/blocks/",
@@ -39884,7 +39952,24 @@
         "parent_coin": "NUCLEUSTEST",
         "rpc_urls": [
             {
-                "url": "https://nucleus-rpc.bravo.komodo.earth/"
+                "url": "https://nucleus-rpc.alpha.komodo.earth/",
+                "api_url": "https://nucleus-api.alpha.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.bravo.komodo.earth/",
+                "api_url": "https://nucleus-api.bravo.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.charlie.komodo.earth/",
+                "api_url": "https://nucleus-api.charlie.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/"
+            },
+            {
+                "url": "https://nucleus-rpc.delta.komodo.earth/",
+                "api_url": "https://nucleus-api.delta.komodo.earth/",
+                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/"
             }
         ],
         "explorer_block_url": "nucleus/blocks/",
