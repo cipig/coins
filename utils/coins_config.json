@@ -7051,6 +7051,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
