@@ -42374,8 +42374,16 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum-verge.cloud:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrumx-verge.cloud:50002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "electrum-verge.cloud:50004",
+                "protocol": "WSS"
             },
             {
                 "url": "electrumx-verge.cloud:50004",
