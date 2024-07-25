@@ -18905,18 +18905,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum27.groestlcoin.org:50001",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum28.groestlcoin.org:50001",
                 "contact": [
                     {
@@ -19038,6 +19026,18 @@
             },
             {
                 "url": "electrum40.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum27.groestlcoin.org:50001",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -19279,18 +19279,6 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum27.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum28.groestlcoin.org:50004",
                 "contact": [
                     {
@@ -19412,6 +19400,18 @@
             },
             {
                 "url": "electrum40.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum27.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -28962,6 +28962,18 @@
                     }
                 ],
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.mooo.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -31103,6 +31115,67 @@
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "PEP": {
+        "coin": "PEP",
+        "type": "UTXO",
+        "name": "Pepecoin",
+        "coinpaprika_id": "pepenet-pepecoin",
+        "coingecko_id": "pepecoin-network",
+        "livecoinwatch_id": "_______________________________________PEPE",
+        "explorer_url": "https://pepeexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Pepecoin Signed Message:\n",
+        "fname": "Pepecoin",
+        "rpcport": 33873,
+        "pubtype": 56,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "segwit": false,
+        "txfee": 1000000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/pepecoinppc/pepecoin",
+            "homepage": "https://pepecoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum.pepeblocks.com:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum.pepelum.site:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum.pepeblocks.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum.pepelum.site:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum.pepeblocks.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum.pepelum.site:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -38449,6 +38522,18 @@
                 "protocol": "TCP"
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
@@ -38461,7 +38546,31 @@
                 ]
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:9077",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:9077",
                 "protocol": "WSS",
                 "contact": [
                     {
