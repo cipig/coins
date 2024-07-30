@@ -828,6 +828,11 @@
                 ]
             },
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             },
@@ -839,6 +844,11 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             },
             {
                 "url": "electrumx-three.artbyte.live:50013",
@@ -2493,8 +2503,18 @@
         "derivation_path": "m/44'/85'",
         "electrum": [
             {
+                "url": "electrumx.aur.ewmcx.info:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "failover.aur.ewmcx.biz:50002",
                 "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrumx.aur.ewmcx.info:50003",
+                "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
@@ -7288,7 +7308,28 @@
             "github": "https://github.com/LIMXTEC/BitCore",
             "homepage": "https://bitcore.cc"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "BTX-segwit": {
@@ -7330,7 +7371,28 @@
             "github": "https://github.com/LIMXTEC/BitCore",
             "homepage": "https://bitcore.cc"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "BTX-BEP20": {
@@ -20046,6 +20108,28 @@
                 ]
             },
             {
+                "url": "il9p.electrumx.transcenders.name:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
                 "url": "il8p-ex-five.ewmci.online:50003",
                 "protocol": "WSS",
                 "contact": [
@@ -20056,6 +20140,28 @@
             },
             {
                 "url": "il8p.electrumx.transcenders.name:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il9p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
