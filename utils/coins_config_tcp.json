@@ -8118,6 +8118,52 @@
         ],
         "explorer_block_url": "block.dws?"
     },
+    "CLC": {
+        "coin": "CLC",
+        "type": "Smart Chain",
+        "name": "Collider Coin",
+        "coinpaprika_id": "clc-collider-coin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://clc.explorer.dexstats.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "CLC",
+        "fname": "Collider Coin",
+        "rpcport": 31034,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "requires_notarization": false,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrumx.cryptocollider.com:10001",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ],
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "CLP-BEP20": {
         "coin": "CLP-BEP20",
         "type": "BEP-20",
@@ -8652,7 +8698,7 @@
     "CRV-ERC20": {
         "coin": "CRV-ERC20",
         "type": "ERC-20",
-        "name": "Curve DAO Token",
+        "name": "Curve DAO",
         "coinpaprika_id": "crv-curve-dao-token",
         "coingecko_id": "curve-dao-token",
         "livecoinwatch_id": "CRV",
@@ -8664,7 +8710,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Curve DAO Token",
+        "fname": "Curve DAO",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 1,
@@ -8708,10 +8754,65 @@
         ],
         "explorer_block_url": "block/"
     },
+    "CRV-ARB20": {
+        "coin": "CRV-ARB20",
+        "type": "Arbitrum",
+        "name": "Curve DAO",
+        "coinpaprika_id": "crv-curve-dao-token",
+        "coingecko_id": "curve-dao-token",
+        "livecoinwatch_id": "CRV",
+        "explorer_url": "https://arbiscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Curve DAO",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 42161,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-ARB20",
+                "contract_address": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
+        "contract_address": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978",
+        "parent_coin": "ETH-ARB20",
+        "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "nodes": [
+            {
+                "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "CRV-AVX20": {
         "coin": "CRV-AVX20",
         "type": "AVX-20",
-        "name": "Curve DAO Token",
+        "name": "Curve DAO",
         "coinpaprika_id": "crv-curve-dao-token",
         "coingecko_id": "curve-dao-token",
         "livecoinwatch_id": "CRV",
@@ -8723,7 +8824,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Curve DAO Token",
+        "fname": "Curve DAO",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 43114,
@@ -8756,7 +8857,7 @@
     "CRV-FTM20": {
         "coin": "CRV-FTM20",
         "type": "FTM-20",
-        "name": "Curve DAO Token",
+        "name": "Curve DAO",
         "coinpaprika_id": "crv-curve-dao-token",
         "coingecko_id": "curve-dao-token",
         "livecoinwatch_id": "CRV",
@@ -8768,7 +8869,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Curve DAO Token",
+        "fname": "Curve DAO",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 250,
@@ -8806,7 +8907,7 @@
     "CRV-KRC20": {
         "coin": "CRV-KRC20",
         "type": "KRC-20",
-        "name": "Curve DAO Token",
+        "name": "Curve DAO",
         "coinpaprika_id": "crv-curve-dao-token",
         "coingecko_id": "curve-dao-token",
         "livecoinwatch_id": "CRV",
@@ -8818,7 +8919,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Curve DAO Token",
+        "fname": "Curve DAO",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 321,
@@ -8850,7 +8951,7 @@
     "CRV-PLG20": {
         "coin": "CRV-PLG20",
         "type": "Matic",
-        "name": "Curve DAO Token",
+        "name": "Curve DAO",
         "coinpaprika_id": "crv-curve-dao-token",
         "coingecko_id": "curve-dao-token",
         "livecoinwatch_id": "CRV",
@@ -8862,7 +8963,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Curve DAO Token",
+        "fname": "Curve DAO",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 137,
@@ -15053,6 +15154,61 @@
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "GMX-ARB20": {
+        "coin": "GMX-ARB20",
+        "type": "Arbitrum",
+        "name": "GMX",
+        "coinpaprika_id": "gmx-gmx",
+        "coingecko_id": "gmx",
+        "livecoinwatch_id": "__GMX",
+        "explorer_url": "https://arbiscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "GMX",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 42161,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-ARB20",
+                "contract_address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
+        "contract_address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+        "parent_coin": "ETH-ARB20",
+        "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "nodes": [
+            {
+                "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
