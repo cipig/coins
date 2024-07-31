@@ -18028,6 +18028,61 @@
         ],
         "explorer_block_url": "block/"
     },
+    "GNS-ARB20": {
+        "coin": "GNS-ARB20",
+        "type": "Arbitrum",
+        "name": "Gains Network",
+        "coinpaprika_id": "gns-gains-network",
+        "coingecko_id": "gains-network",
+        "livecoinwatch_id": "GNS",
+        "explorer_url": "https://arbiscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Gains Network",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 42161,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-ARB20",
+                "contract_address": "0x18c11FD286C5EC11c3b683Caa813B77f5163A122"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
+        "contract_address": "0x18c11FD286C5EC11c3b683Caa813B77f5163A122",
+        "parent_coin": "ETH-ARB20",
+        "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "nodes": [
+            {
+                "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "GNS-PLG20": {
         "coin": "GNS-PLG20",
         "type": "Matic",
@@ -19031,6 +19086,61 @@
                     }
                 ],
                 "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "GRT-ARB20": {
+        "coin": "GRT-ARB20",
+        "type": "Arbitrum",
+        "name": "The Graph",
+        "coinpaprika_id": "grt-the-graph",
+        "coingecko_id": "the-graph",
+        "livecoinwatch_id": "GRT",
+        "explorer_url": "https://arbiscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "The Graph",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 42161,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-ARB20",
+                "contract_address": "0x9623063377AD1B27544C965cCd7342f7EA7e88C7"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
+        "contract_address": "0x9623063377AD1B27544C965cCd7342f7EA7e88C7",
+        "parent_coin": "ETH-ARB20",
+        "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+        "nodes": [
+            {
+                "url": "https://arb1.arbitrum.io/rpc"
+            },
+            {
+                "url": "https://arbitrum-one.publicnode.com",
+                "ws_url": "wss://arbitrum-one.publicnode.com"
+            },
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/arb/",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
             }
         ],
         "explorer_block_url": "block/"
