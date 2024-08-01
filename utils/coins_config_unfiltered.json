@@ -4708,6 +4708,15 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "bbk-ex-two.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -6295,27 +6304,27 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumserver02.globalboost.info:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
+                "url": "electrumserver01.globalboost.info:50011",
+                "protocol": "TCP"
             },
             {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumserver01.globalboost.info:50013",
-                "protocol": "WSS"
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumserver02.globalboost.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumserver01.globalboost.info:50013",
                 "protocol": "WSS"
             }
         ],
@@ -18183,6 +18192,16 @@
             {
                 "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
+                "url": "uk.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "orpheas#1503"
@@ -43587,19 +43606,19 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.vanillacash.info:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx2.vanillacash.info:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx1.vanillacash.info:50013",
-                "protocol": "WSS"
+                "url": "electrumx1.vanillacash.info:50011",
+                "protocol": "TCP"
             },
             {
                 "url": "electrumx2.vanillacash.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx1.vanillacash.info:50013",
                 "protocol": "WSS"
             }
         ],
