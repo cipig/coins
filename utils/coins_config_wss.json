@@ -4877,16 +4877,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.blackcoin.nl:10014",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.blackcoin.nl:20014",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
@@ -4898,6 +4888,16 @@
             },
             {
                 "url": "electrum3.blackcoin.nl:30014",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.blackcoin.nl:10014",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -8912,9 +8912,9 @@
         "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 150000,
-            "erc20_payment": 250000,
-            "erc20_receiver_spend": 200000,
-            "erc20_sender_refund": 200000
+            "erc20_payment": 300000,
+            "erc20_receiver_spend": 250000,
+            "erc20_sender_refund": 250000
         },
         "contract_address": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978",
         "parent_coin": "ETH-ARB20",
@@ -15303,9 +15303,9 @@
         "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 150000,
-            "erc20_payment": 250000,
-            "erc20_receiver_spend": 200000,
-            "erc20_sender_refund": 200000
+            "erc20_payment": 300000,
+            "erc20_receiver_spend": 250000,
+            "erc20_sender_refund": 250000
         },
         "contract_address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
         "parent_coin": "ETH-ARB20",
@@ -15528,9 +15528,9 @@
         "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 150000,
-            "erc20_payment": 250000,
-            "erc20_receiver_spend": 200000,
-            "erc20_sender_refund": 200000
+            "erc20_payment": 300000,
+            "erc20_receiver_spend": 250000,
+            "erc20_sender_refund": 250000
         },
         "contract_address": "0x18c11FD286C5EC11c3b683Caa813B77f5163A122",
         "parent_coin": "ETH-ARB20",
@@ -15878,9 +15878,9 @@
         "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 150000,
-            "erc20_payment": 250000,
-            "erc20_receiver_spend": 200000,
-            "erc20_sender_refund": 200000
+            "erc20_payment": 300000,
+            "erc20_receiver_spend": 250000,
+            "erc20_sender_refund": 250000
         },
         "contract_address": "0x9623063377AD1B27544C965cCd7342f7EA7e88C7",
         "parent_coin": "ETH-ARB20",
@@ -19911,18 +19911,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "electrum3.cipig.net:30001",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/",
@@ -23571,9 +23559,9 @@
         "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 150000,
-            "erc20_payment": 250000,
-            "erc20_receiver_spend": 200000,
-            "erc20_sender_refund": 200000
+            "erc20_payment": 300000,
+            "erc20_receiver_spend": 250000,
+            "erc20_sender_refund": 250000
         },
         "contract_address": "0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86",
         "parent_coin": "ETH-ARB20",
@@ -25458,9 +25446,9 @@
         "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 150000,
-            "erc20_payment": 250000,
-            "erc20_receiver_spend": 200000,
-            "erc20_sender_refund": 200000
+            "erc20_payment": 300000,
+            "erc20_receiver_spend": 250000,
+            "erc20_sender_refund": 250000
         },
         "contract_address": "0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8",
         "parent_coin": "ETH-ARB20",
@@ -32653,11 +32641,6 @@
         },
         "electrum": [
             {
-                "url": "failover.trc-uis.ewmcx.biz:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": false
-            },
-            {
                 "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
@@ -35546,9 +35529,9 @@
         "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_erc20": 150000,
-            "erc20_payment": 250000,
-            "erc20_receiver_spend": 200000,
-            "erc20_sender_refund": 200000
+            "erc20_payment": 300000,
+            "erc20_receiver_spend": 250000,
+            "erc20_sender_refund": 250000
         },
         "contract_address": "0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b",
         "parent_coin": "ETH-ARB20",
@@ -40577,7 +40560,7 @@
         },
         "electrum": [
             {
-                "url": "electrum2.runebase.io:50004",
+                "url": "electrum3.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -40589,7 +40572,7 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50004",
+                "url": "electrum2.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -41024,7 +41007,7 @@
         },
         "electrum": [
             {
-                "url": "coin.crionic.org:50005",
+                "url": "explorer.crionic.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -41036,7 +41019,7 @@
                 ]
             },
             {
-                "url": "explorer.crionic.org:50005",
+                "url": "coin.crionic.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {
