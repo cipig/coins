@@ -4877,7 +4877,7 @@
         },
         "electrum": [
             {
-                "url": "electrum2.blackcoin.nl:20014",
+                "url": "electrum1.blackcoin.nl:10014",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -4897,7 +4897,7 @@
                 ]
             },
             {
-                "url": "electrum1.blackcoin.nl:10014",
+                "url": "electrum2.blackcoin.nl:20014",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -13498,7 +13498,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.fujicoin.org:50005",
+                "url": "electrumx2.fujicoin.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -13507,7 +13507,7 @@
                 ]
             },
             {
-                "url": "electrumx2.fujicoin.org:50005",
+                "url": "electrumx1.fujicoin.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -13560,7 +13560,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.fujicoin.org:50005",
+                "url": "electrumx2.fujicoin.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -13569,7 +13569,7 @@
                 ]
             },
             {
-                "url": "electrumx2.fujicoin.org:50005",
+                "url": "electrumx1.fujicoin.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -17066,7 +17066,7 @@
                 ]
             },
             {
-                "url": "il8p.electrumx.transcenders.name:50003",
+                "url": "il9p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -17088,7 +17088,7 @@
                 ]
             },
             {
-                "url": "il9p.electrumx.transcenders.name:50003",
+                "url": "il8p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -19902,6 +19902,18 @@
             },
             {
                 "url": "electrum2.cipig.net:30001",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:30001",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -29872,7 +29884,7 @@
                 ]
             },
             {
-                "url": "electrum2.cipig.net:30005",
+                "url": "electrum3.cipig.net:30005",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -29884,7 +29896,7 @@
                 ]
             },
             {
-                "url": "electrum3.cipig.net:30005",
+                "url": "electrum2.cipig.net:30005",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -32641,7 +32653,7 @@
         },
         "electrum": [
             {
-                "url": "uis-uno.ewmcx.net:50003",
+                "url": "failover.trc-uis.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             }
@@ -41007,7 +41019,7 @@
         },
         "electrum": [
             {
-                "url": "explorer.crionic.org:50005",
+                "url": "coin.crionic.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -41019,7 +41031,7 @@
                 ]
             },
             {
-                "url": "coin.crionic.org:50005",
+                "url": "explorer.crionic.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {
