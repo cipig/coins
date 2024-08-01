@@ -4849,6 +4849,10 @@
                 "protocol": "SSL"
             },
             {
+                "url": "electrum2.blocx.live:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum3.blocx.live:50002",
                 "protocol": "SSL"
             }
@@ -12083,9 +12087,9 @@
         "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_coins": 100000,
-            "eth_payment": 200000,
-            "eth_receiver_spend": 200000,
-            "eth_sender_refund": 200000
+            "eth_payment": 250000,
+            "eth_receiver_spend": 250000,
+            "eth_sender_refund": 250000
         },
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
@@ -19691,6 +19695,18 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "electrum3.cipig.net:20001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/",
@@ -24113,7 +24129,7 @@
         "derivation_path": "m/44'/50'",
         "electrum": [
             {
-                "url": "failover.nvc.ewmcx.biz:50002",
+                "url": "electrumx.nvc.ewmcx.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -24135,7 +24151,7 @@
                 ]
             },
             {
-                "url": "electrumx.nvc.ewmcx.org:50002",
+                "url": "failover.nvc.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -29730,7 +29746,7 @@
                 ]
             },
             {
-                "url": "electrum3.cipig.net:20005",
+                "url": "electrum2.cipig.net:20005",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -29742,7 +29758,7 @@
                 ]
             },
             {
-                "url": "electrum2.cipig.net:20005",
+                "url": "electrum3.cipig.net:20005",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -33003,12 +33019,12 @@
         },
         "electrum": [
             {
-                "url": "uno-main.coinmunity.gold:50002",
+                "url": "uno-bkp.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "uno-bkp.coinmunity.gold:50002",
+                "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -37161,6 +37177,18 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "electrum3.cipig.net:20065",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -40400,7 +40428,7 @@
         },
         "electrum": [
             {
-                "url": "electrum3.runebase.io:50002",
+                "url": "electrum2.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -40412,7 +40440,7 @@
                 ]
             },
             {
-                "url": "electrum2.runebase.io:50002",
+                "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -40968,6 +40996,24 @@
             "homepage": "https://kiirocoin.org"
         },
         "electrum": [
+            {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
             {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",

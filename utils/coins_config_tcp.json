@@ -4801,12 +4801,12 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum3.blocx.live:50002",
+                "url": "electrum2.blocx.live:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrum1.blocx.live:50001",
-                "protocol": "TCP"
+                "url": "electrum3.blocx.live:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -7600,6 +7600,18 @@
         "derivation_path": "m/44'/682'",
         "electrum": [
             {
+                "url": "electrum.shorelinecrypto.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum1.mooo.com:10007",
                 "contact": [
                     {
@@ -7613,18 +7625,6 @@
             },
             {
                 "url": "electrum2.mooo.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum.shorelinecrypto.com:10007",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -12119,9 +12119,9 @@
         "derivation_path": "m/44'/60'",
         "gas_limit": {
             "eth_send_coins": 100000,
-            "eth_payment": 200000,
-            "eth_receiver_spend": 200000,
-            "eth_sender_refund": 200000
+            "eth_payment": 250000,
+            "eth_receiver_spend": 250000,
+            "eth_sender_refund": 250000
         },
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
@@ -13357,7 +13357,7 @@
                 ]
             },
             {
-                "url": "electrumx2.fujicoin.org:50001",
+                "url": "electrumx1.fujicoin.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -13428,7 +13428,7 @@
                 ]
             },
             {
-                "url": "electrumx2.fujicoin.org:50001",
+                "url": "electrumx1.fujicoin.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -15484,11 +15484,11 @@
                 ]
             },
             {
-                "url": "electrum.niftybakes.com:50001",
+                "url": "electrum.maxpuig.com:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "discord": "405566674448810005"
+                        "discord": "mecs#4770"
                     }
                 ]
             }
@@ -19526,7 +19526,8 @@
                 ]
             },
             {
-                "url": "electrum1.cipig.net:10001",
+                "url": "electrum3.cipig.net:20001",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "cipi@komodoplatform.com"
@@ -19534,8 +19535,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "protocol": "TCP"
+                ]
             }
         ],
         "explorer_block_url": "block/",
@@ -24013,7 +24013,7 @@
         "derivation_path": "m/44'/50'",
         "electrum": [
             {
-                "url": "failover.nvc.ewmcx.biz:50002",
+                "url": "electrumx.nvc.ewmcx.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -24035,7 +24035,7 @@
                 ]
             },
             {
-                "url": "electrumx.nvc.ewmcx.org:50002",
+                "url": "failover.nvc.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -29564,7 +29564,7 @@
                 ]
             },
             {
-                "url": "electrum3.cipig.net:20005",
+                "url": "electrum2.cipig.net:20005",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -29576,7 +29576,7 @@
                 ]
             },
             {
-                "url": "electrum2.cipig.net:20005",
+                "url": "electrum3.cipig.net:20005",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -32807,12 +32807,12 @@
         },
         "electrum": [
             {
-                "url": "uno-main.coinmunity.gold:50002",
+                "url": "uno-bkp.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "uno-bkp.coinmunity.gold:50002",
+                "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
@@ -36046,11 +36046,11 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.primecoin.org:50001",
+                "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.mainnet.primecoin.org:50011",
+                "url": "electrumx.primecoin.org:50001",
                 "protocol": "TCP"
             }
         ],
@@ -37222,7 +37222,8 @@
                 ]
             },
             {
-                "url": "electrum1.cipig.net:10065",
+                "url": "electrum3.cipig.net:20065",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "cipi@komodoplatform.com"
@@ -37230,8 +37231,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "protocol": "TCP"
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -37663,6 +37663,10 @@
         },
         "derivation_path": "m/44'/19167'",
         "electrum": [
+            {
+                "url": "electrumx.runonflux.io:50001",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP"
@@ -40401,7 +40405,7 @@
         },
         "electrum": [
             {
-                "url": "electrum3.runebase.io:50002",
+                "url": "electrum2.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -40413,7 +40417,7 @@
                 ]
             },
             {
-                "url": "electrum2.runebase.io:50002",
+                "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -41023,6 +41027,24 @@
             "homepage": "https://kiirocoin.org"
         },
         "electrum": [
+            {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
             {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
