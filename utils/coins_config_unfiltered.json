@@ -5543,7 +5543,12 @@
             "github": "https://github.com/BOLI-Project/BolivarCoin",
             "homepage": "https://bolis.info"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrum2.bolivarcoin.tech:23001",
+                "protocol": "TCP"
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "BONE-ERC20": {
@@ -30752,19 +30757,19 @@
         "derivation_path": "m/44'/81'",
         "electrum": [
             {
-                "url": "pot-duo.ewmcx.net:50012",
-                "protocol": "SSL"
-            },
-            {
                 "url": "pot-uno.ewmcx.net:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "pot-duo.ewmcx.net:50013",
-                "protocol": "WSS"
+                "url": "pot-duo.ewmcx.net:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "pot-uno.ewmcx.net:50003",
+                "protocol": "WSS"
+            },
+            {
+                "url": "pot-duo.ewmcx.net:50013",
                 "protocol": "WSS"
             }
         ],
@@ -44723,6 +44728,10 @@
                 ]
             },
             {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "zet-ex-three.ewmci.online:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -44732,8 +44741,8 @@
                 ]
             },
             {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL"
+                "url": "zeta-seed-d.zetacoin.network:50013",
+                "protocol": "WSS"
             },
             {
                 "url": "zet-ex-three.ewmci.online:50013",
@@ -44743,10 +44752,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
