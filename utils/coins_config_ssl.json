@@ -25668,11 +25668,11 @@
         "derivation_path": "m/44'/81'",
         "electrum": [
             {
-                "url": "pot-duo.ewmcx.net:50012",
+                "url": "pot-uno.ewmcx.net:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "pot-uno.ewmcx.net:50002",
+                "url": "pot-duo.ewmcx.net:50012",
                 "protocol": "SSL"
             }
         ],
@@ -37277,6 +37277,10 @@
         },
         "electrum": [
             {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "zet-ex-three.ewmci.online:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -37284,10 +37288,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
