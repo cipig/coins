@@ -819,26 +819,21 @@
                 ]
             },
             {
-                "url": "aby-ex-four.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             },
             {
-                "url": "aby-ex-four.ewmci.online:50013",
-                "protocol": "WSS",
+                "url": "aby-ex-four.ewmci.online:50012",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -851,8 +846,21 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrumx-three.artbyte.live:50013",
                 "protocol": "WSS"
+            },
+            {
+                "url": "aby-ex-four.ewmci.online:50013",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -5038,7 +5046,26 @@
         "protocol": {
             "type": "UTXO"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "bitexplorer.io:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "c4pt#7855"
+                    }
+                ]
+            },
+            {
+                "url": "bitexplorer.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "c4pt#7855"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "BLK": {
@@ -11096,18 +11123,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.cipig.net:10061",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum2.cipig.net:10061",
                 "contact": [
                     {
@@ -11132,8 +11147,7 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum1.cipig.net:20061",
-                "protocol": "SSL",
+                "url": "electrum1.cipig.net:10061",
                 "contact": [
                     {
                         "email": "cipi@komodoplatform.com"
@@ -11141,7 +11155,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             },
             {
                 "url": "electrum2.cipig.net:20061",
@@ -11168,8 +11183,8 @@
                 ]
             },
             {
-                "url": "electrum1.cipig.net:30061",
-                "protocol": "WSS",
+                "url": "electrum1.cipig.net:20061",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "cipi@komodoplatform.com"
@@ -11193,6 +11208,18 @@
             },
             {
                 "url": "electrum3.cipig.net:30061",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.cipig.net:30061",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -11846,6 +11873,16 @@
             {
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -14054,13 +14091,10 @@
                 "url": "https://etc.etcdesktop.com"
             },
             {
-                "url": "https://geth-at.etc-network.info"
+                "url": "https://rpc.etcinscribe.com"
             },
             {
                 "url": "https://etc.rivet.link"
-            },
-            {
-                "url": "https://besu-at.etc-network.info"
             }
         ],
         "explorer_block_url": "block/",
@@ -18103,15 +18137,6 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
-                "url": "electrum.maxpuig.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "mecs#4770"
-                    }
-                ]
-            },
-            {
                 "url": "electrum.niftybakes.com:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -18121,11 +18146,11 @@
                 ]
             },
             {
-                "url": "electrum.maxpuig.com:50002",
-                "protocol": "SSL",
+                "url": "electrum.maxpuig.com:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
-                        "discord": "orpheas#1503"
+                        "discord": "mecs#4770"
                     }
                 ]
             },
@@ -18133,6 +18158,15 @@
                 "url": "uk.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.maxpuig.com:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "orpheas#1503"
@@ -30700,8 +30734,16 @@
         "derivation_path": "m/44'/81'",
         "electrum": [
             {
+                "url": "pot-duo.ewmcx.net:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "pot-uno.ewmcx.net:50002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "pot-duo.ewmcx.net:50013",
+                "protocol": "WSS"
             },
             {
                 "url": "pot-uno.ewmcx.net:50003",
@@ -32840,7 +32882,32 @@
             "github": "https://github.com/reddcoin-project/reddcoin",
             "homepage": "https://reddcoin.com"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrum01.reddcoin.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum01.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50004",
+                "protocol": "WSS"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "REN-ERC20": {
@@ -43646,8 +43713,16 @@
         },
         "electrum": [
             {
+                "url": "electrumx1.vanillacash.info:50011",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx2.vanillacash.info:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx1.vanillacash.info:50013",
+                "protocol": "WSS"
             },
             {
                 "url": "electrumx2.vanillacash.info:50013",
@@ -45213,11 +45288,11 @@
         "derivation_path": "m/44'/19167'",
         "electrum": [
             {
-                "url": "electrumx.runonflux.io:50001",
+                "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx2.runonflux.io:50001",
+                "url": "electrumx.runonflux.io:50001",
                 "protocol": "TCP"
             }
         ],
@@ -48115,15 +48190,6 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
-                "url": "electroncash.de:50004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
                 "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -48134,6 +48200,15 @@
             },
             {
                 "url": "tbch.loping.net:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "electroncash.de:50004",
                 "protocol": "SSL",
                 "contact": [
                     {
