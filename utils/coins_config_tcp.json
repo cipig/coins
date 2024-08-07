@@ -776,17 +776,22 @@
         },
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL"
+                "url": "aby-ex-four.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -9615,6 +9620,18 @@
         },
         "electrum": [
             {
+                "url": "electrum1.cipig.net:20061",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.cipig.net:20061",
                 "protocol": "SSL",
                 "contact": [
@@ -9628,18 +9645,6 @@
             },
             {
                 "url": "electrum3.cipig.net:20061",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.cipig.net:20061",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -15449,6 +15454,15 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
+                "url": "electrum.maxpuig.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
                 "url": "uk.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -15459,20 +15473,11 @@
                 ]
             },
             {
-                "url": "electrum.maxpuig.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.niftybakes.com:50001",
+                "url": "electrum.maxpuig.com:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "discord": "405566674448810005"
+                        "discord": "mecs#4770"
                     }
                 ]
             }
@@ -34014,64 +34019,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "WWCN-ERC20": {
-        "coin": "WWCN-ERC20",
-        "type": "ERC-20",
-        "name": "Wrapped Widecoin",
-        "coinpaprika_id": "wwcn-wrapped-widecoin",
-        "coingecko_id": "wrapped-widecoin",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Wrapped Widecoin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1,
-        "avg_blocktime": 15,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "ETH",
-                "contract_address": "0x54a3017754BFba73F71F37d893A368814CbFf457"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x54a3017754BFba73F71F37d893A368814CbFf457",
-        "parent_coin": "ETH",
-        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
-        "nodes": [
-            {
-                "url": "https://eth1.cipig.net:18555",
-                "ws_url": "wss://eth1.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth2.cipig.net:18555",
-                "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "vARRR": {
         "coin": "vARRR",
         "type": "Smart Chain",
@@ -37766,11 +37713,11 @@
         "derivation_path": "m/44'/19167'",
         "electrum": [
             {
-                "url": "electrumx2.runonflux.io:50001",
+                "url": "electrumx.runonflux.io:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.runonflux.io:50001",
+                "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP"
             }
         ],
