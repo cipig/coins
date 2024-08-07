@@ -40626,15 +40626,10 @@
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
-                "url": "https://cosmos.komodo.earth/"
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/atom/",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/atom/websocket"
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/atom2/",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/atom2/websocket"
+                "url": "https://cosmos-rpc.alpha.komodo.earth/",
+                "api_url": "https://cosmos-api.alpha.komodo.earth/",
+                "grpc_url": "https://cosmos-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://cosmos-rpc.alpha.komodo.earth/websocket"
             },
             {
                 "url": "https://cosmoshub.rpc.stakin-nodes.com/"
@@ -40676,7 +40671,10 @@
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
-                "url": "https://iris.komodo.earth/"
+                "url": "https://iris-rpc.alpha.komodo.earth/",
+                "api_url": "https://iris-api.alpha.komodo.earth/",
+                "grpc_url": "https://iris-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://iris-rpc.alpha.komodo.earth/websocket"
             },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
@@ -40772,13 +40770,16 @@
                 "url": "https://rpc.osmosis.zone/"
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/osmo/"
-            },
-            {
                 "url": "https://osmosis.rpc.stakin-nodes.com"
             },
             {
                 "url": "https://rpc-osmosis-ia.cosmosia.notional.ventures/"
+            },
+            {
+                "url": "https://osmosis-rpc.alpha.komodo.earth/",
+                "api_url": "https://osmosis-api.alpha.komodo.earth/",
+                "grpc_url": "https://osmosis-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://osmosis-rpc.alpha.komodo.earth/websocket"
             }
         ],
         "explorer_block_url": "block/",
@@ -40815,7 +40816,10 @@
         "parent_coin": "IRIS",
         "rpc_urls": [
             {
-                "url": "https://iris.komodo.earth/"
+                "url": "https://iris-rpc.alpha.komodo.earth/",
+                "api_url": "https://iris-api.alpha.komodo.earth/",
+                "grpc_url": "https://iris-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://iris-rpc.alpha.komodo.earth/websocket"
             },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
@@ -41282,22 +41286,26 @@
             {
                 "url": "https://nucleus-rpc.alpha.komodo.earth/",
                 "api_url": "https://nucleus-api.alpha.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.alpha.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.bravo.komodo.earth/",
                 "api_url": "https://nucleus-api.bravo.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.bravo.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.charlie.komodo.earth/",
                 "api_url": "https://nucleus-api.charlie.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.charlie.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.delta.komodo.earth/",
                 "api_url": "https://nucleus-api.delta.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.delta.komodo.earth/websocket"
             }
         ],
         "explorer_block_url": "nucleus/blocks/"
@@ -41369,22 +41377,26 @@
             {
                 "url": "https://nucleus-rpc.alpha.komodo.earth/",
                 "api_url": "https://nucleus-api.alpha.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.alpha.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.bravo.komodo.earth/",
                 "api_url": "https://nucleus-api.bravo.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.bravo.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.charlie.komodo.earth/",
                 "api_url": "https://nucleus-api.charlie.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.charlie.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.delta.komodo.earth/",
                 "api_url": "https://nucleus-api.delta.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.delta.komodo.earth/websocket"
             }
         ],
         "explorer_block_url": "nucleus/blocks/",
@@ -41422,22 +41434,26 @@
             {
                 "url": "https://nucleus-rpc.alpha.komodo.earth/",
                 "api_url": "https://nucleus-api.alpha.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.alpha.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.alpha.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.bravo.komodo.earth/",
                 "api_url": "https://nucleus-api.bravo.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.bravo.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.bravo.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.charlie.komodo.earth/",
                 "api_url": "https://nucleus-api.charlie.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.charlie.komodo.earth/websocket"
             },
             {
                 "url": "https://nucleus-rpc.delta.komodo.earth/",
                 "api_url": "https://nucleus-api.delta.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/"
+                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/",
+                "ws_url": "wss://nucleus-rpc.delta.komodo.earth/websocket"
             }
         ],
         "explorer_block_url": "nucleus/blocks/",
