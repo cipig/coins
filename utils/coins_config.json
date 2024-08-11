@@ -810,12 +810,39 @@
         },
         "electrum": [
             {
+                "url": "aby-ex-four.ewmci.online:50011",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "aby-ex-four.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             },
             {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
+            },
+            {
+                "url": "aby-ex-four.ewmci.online:50013",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
@@ -4653,6 +4680,15 @@
         },
         "electrum": [
             {
+                "url": "bbk-ex-three.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "bbk-ex-two.ewmci.online:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -4662,8 +4698,26 @@
                 ]
             },
             {
+                "url": "bbk-ex-three.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "bbk-ex-two.ewmci.online:50002",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "bbk-ex-three.ewmci.online:50003",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -9878,7 +9932,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -12385,7 +12439,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -24187,6 +24241,67 @@
         ],
         "explorer_block_url": "block/"
     },
+    "FRC": {
+        "coin": "FRC",
+        "type": "UTXO",
+        "name": "FairCoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.faircoin.tech/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "FairCoin",
+        "rpcport": 9875,
+        "pubtype": 36,
+        "p2shtype": 63,
+        "wiftype": 128,
+        "decimals": 8,
+        "signature_version": "base",
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "frc",
+        "mm2": 1,
+        "required_confirmations": 6,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.faircoin.tech:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "antoinebrulenew@gmail.com"
+                    },
+                    {
+                        "discord": "merlin#7125"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.faircoin.tech:50004",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "antoinebrulenew@gmail.com"
+                    },
+                    {
+                        "discord": "merlin#7125"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "LEO-ERC20": {
         "coin": "LEO-ERC20",
         "type": "ERC-20",
@@ -28649,7 +28764,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -31343,7 +31458,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -31494,7 +31609,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -31645,7 +31760,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -32108,7 +32223,7 @@
         "wiftype": 128,
         "segwit": true,
         "bech32_hrp": "qc",
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "force_min_relay_fee": true,
@@ -32785,6 +32900,15 @@
         "derivation_path": "m/44'/143'",
         "electrum": [
             {
+                "url": "ric-ex-two.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.cipig.net:20074",
                 "protocol": "SSL",
                 "contact": [
@@ -32797,6 +32921,15 @@
                 ]
             },
             {
+                "url": "ric-ex-two.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.cipig.net:30074",
                 "protocol": "WSS",
                 "contact": [
@@ -32805,6 +32938,15 @@
                     },
                     {
                         "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
                     }
                 ]
             }
@@ -32847,6 +32989,15 @@
         "derivation_path": "m/44'/143'",
         "electrum": [
             {
+                "url": "ric-ex-two.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.cipig.net:20074",
                 "protocol": "SSL",
                 "contact": [
@@ -32859,6 +33010,15 @@
                 ]
             },
             {
+                "url": "ric-ex-two.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.cipig.net:30074",
                 "protocol": "WSS",
                 "contact": [
@@ -32867,6 +33027,15 @@
                     },
                     {
                         "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
                     }
                 ]
             }
@@ -43308,7 +43477,7 @@
         "p2shtype": 50,
         "wiftype": 128,
         "segwit": false,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "mm2": 1,
         "required_confirmations": 3,
@@ -44374,6 +44543,33 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50011",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50013",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -44620,7 +44816,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -44937,7 +45133,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -45089,7 +45285,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -45241,7 +45437,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -45393,7 +45589,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -45545,7 +45741,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -45697,7 +45893,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -45849,7 +46045,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
@@ -46001,7 +46197,7 @@
         "required_confirmations": 3,
         "mature_confirmations": 2000,
         "avg_blocktime": 32,
-        "txfee": 0,
+        "txfee": 400000,
         "dust": 72800,
         "protocol": {
             "type": "QRC20",
