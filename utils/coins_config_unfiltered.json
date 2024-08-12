@@ -1449,6 +1449,70 @@
         ],
         "explorer_block_url": "block/"
     },
+    "ANEY": {
+        "coin": "ANEY",
+        "type": "UTXO",
+        "name": "Animal Economy",
+        "coinpaprika_id": "aney-animal-economy",
+        "coingecko_id": "",
+        "livecoinwatch_id": "ANEY",
+        "explorer_url": "https://explorer.aney.one/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Animal Economy",
+        "rpcport": 33500,
+        "pubtype": 23,
+        "p2shtype": 63,
+        "wiftype": 210,
+        "txfee": 100000,
+        "dust": 5460,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/119'",
+        "links": {
+            "github": "https://github.com/Animal-Economy/ANEY",
+            "homepage": "https://aney.one"
+        },
+        "electrum": [
+            {
+                "url": "e1.aney.one:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "telegram": "@SimonCeo"
+                    }
+                ]
+            },
+            {
+                "url": "e1.aney.one:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "telegram": "@SimonCeo"
+                    }
+                ]
+            },
+            {
+                "url": "e1.aney.one:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "telegram": "@SimonCeo"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "ANKR-BEP20": {
         "coin": "ANKR-BEP20",
         "type": "BEP-20",
