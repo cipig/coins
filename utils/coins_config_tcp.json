@@ -785,12 +785,11 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             }
         ],
@@ -5933,6 +5932,15 @@
         },
         "derivation_path": "m/44'/177'",
         "electrum": [
+            {
+                "url": "electrum1.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "TCP"
+            },
             {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
@@ -11483,6 +11491,11 @@
         "derivation_path": "m/44'/78'",
         "electrum": [
             {
+                "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -15576,21 +15589,20 @@
                 ]
             },
             {
-                "url": "uk.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
                 "url": "electrum.maxpuig.com:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
                         "discord": "mecs#4770"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.niftybakes.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "405566674448810005"
                     }
                 ]
             }
@@ -23177,15 +23189,15 @@
         },
         "electrum": [
             {
+                "url": "133.167.67.203:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
             },
             {
                 "url": "electrumx1.monacoin.ninja:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "133.167.67.203:50001",
                 "protocol": "TCP"
             }
         ],
@@ -23234,15 +23246,15 @@
         },
         "electrum": [
             {
+                "url": "133.167.67.203:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
             },
             {
                 "url": "electrumx1.monacoin.ninja:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "133.167.67.203:50001",
                 "protocol": "TCP"
             }
         ],
