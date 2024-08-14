@@ -828,17 +828,17 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             },
             {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
                 "url": "aby-ex-four.ewmci.online:50013",
@@ -850,17 +850,17 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
                 "protocol": "WSS"
             },
             {
                 "url": "electrumx-three.artbyte.live:50013",
                 "protocol": "WSS"
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -6812,6 +6812,15 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
+                "url": "electrum1.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
                     {
@@ -6819,6 +6828,15 @@
                     }
                 ],
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.btcz.rocks:50004",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "WSS"
             },
             {
                 "url": "electrum2.btcz.rocks:50004",
@@ -13518,6 +13536,11 @@
         "derivation_path": "m/44'/78'",
         "electrum": [
             {
+                "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -13525,6 +13548,11 @@
             {
                 "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum1.egulden.org:50004",
+                "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
@@ -18181,16 +18209,6 @@
                 ]
             },
             {
-                "url": "uk.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
                 "url": "electrum.maxpuig.com:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -18455,6 +18473,18 @@
             },
             {
                 "url": "electrum19.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.groestlcoin.org:50001",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -18817,6 +18847,18 @@
             },
             {
                 "url": "electrum19.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -27597,15 +27639,15 @@
         },
         "electrum": [
             {
+                "url": "133.167.67.203:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
             },
             {
                 "url": "electrumx1.monacoin.ninja:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "133.167.67.203:50001",
                 "protocol": "TCP"
             }
         ],
@@ -27654,15 +27696,15 @@
         },
         "electrum": [
             {
+                "url": "133.167.67.203:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
             },
             {
                 "url": "electrumx1.monacoin.ninja:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "133.167.67.203:50001",
                 "protocol": "TCP"
             }
         ],
