@@ -173,6 +173,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x111111111117dC0aa78b770fA6A738034120C302",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -334,6 +341,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -389,6 +397,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -488,6 +497,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xfb6115445Bff7b52FeB98650C87f44907E58f802",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -752,6 +768,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -828,10 +845,6 @@
                 ]
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             },
@@ -839,6 +852,10 @@
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "aby-ex-four.ewmci.online:50013",
@@ -850,10 +867,6 @@
                 ]
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50013",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrumx-three.artbyte.live:50013",
                 "protocol": "WSS"
             },
@@ -861,6 +874,10 @@
                 "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -894,6 +911,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -1182,6 +1200,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -1668,6 +1687,7 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -1789,6 +1809,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xC762043E211571eB34f1ef377e5e8e76914962f9",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -1894,6 +1921,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xB7b31a6BC18e48888545CE79e83E06003bE70930",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -2009,6 +2043,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -2063,6 +2098,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x6F769E65c14Ebd1f68817F5f1DcDb61Cfa2D6f7e",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -2179,6 +2221,7 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -2458,6 +2501,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -2516,6 +2560,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -2770,6 +2815,7 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 43114,
+        "use_access_list": true,
         "required_confirmations": 3,
         "avg_blocktime": 2.4,
         "protocol": {
@@ -2823,6 +2869,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x1CE0c2827e2eF14D5C4f29a091d735A204794041",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -3252,6 +3305,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -3684,6 +3738,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -3782,6 +3843,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -5578,6 +5640,7 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 56,
+        "use_access_list": true,
         "required_confirmations": 3,
         "protocol": {
             "type": "ETH"
@@ -6299,6 +6362,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 120000,
@@ -6750,6 +6814,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -7231,6 +7296,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -7951,6 +8017,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 120000,
@@ -8006,6 +8073,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -8756,6 +8830,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -8862,6 +8937,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -9663,6 +9739,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -9829,6 +9912,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -10260,6 +10344,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -10458,6 +10543,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -10971,6 +11057,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -11170,6 +11257,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -11622,6 +11710,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -12092,6 +12181,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x99956D38059cf7bEDA96Ec91Aa7BB2477E0901DD",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -13206,6 +13302,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -13597,6 +13694,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -13713,6 +13817,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -14111,6 +14216,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -14360,6 +14472,7 @@
             "type": "ETH"
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_coins": 100000,
             "eth_payment": 250000,
@@ -14610,6 +14723,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -14732,6 +14846,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 90000,
             "erc20_payment": 150000,
@@ -14854,6 +14969,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -14981,6 +15097,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -15357,6 +15474,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -15627,6 +15751,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -15976,6 +16101,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 80000,
             "erc20_payment": 140000,
@@ -16099,6 +16225,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -16781,6 +16908,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -17162,6 +17290,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -17311,6 +17440,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x72fF5742319eF07061836F5C924aC6D72c919080",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -17632,6 +17768,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -17788,6 +17925,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -17843,6 +17981,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -17898,6 +18037,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 120000,
@@ -18068,6 +18208,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -18123,6 +18264,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18484,18 +18626,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum2.groestlcoin.org:50001",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum20.groestlcoin.org:50001",
                 "contact": [
                     {
@@ -18724,6 +18854,18 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum2.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum11.groestlcoin.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -18847,18 +18989,6 @@
             },
             {
                 "url": "electrum19.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum2.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -19096,6 +19226,18 @@
                     }
                 ],
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -19130,6 +19272,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -19345,6 +19488,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -19654,6 +19798,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -20254,6 +20399,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 120000,
@@ -20673,6 +20819,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x4d5AC5cc4f8aBdf2EC2Cb986C00C382369f787D4",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -20789,6 +20942,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -20910,6 +21064,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -20966,6 +21121,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -21138,6 +21294,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -21245,6 +21402,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xCB7F1Ef7246D1497b985f7FC45A1A31F04346133",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -21347,6 +21511,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -21403,6 +21568,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x8ca194A3b22077359b5732DE53373D4afC11DeE3",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -21616,6 +21788,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -21672,6 +21845,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x84526c812D8f6c4fD6C1a5B68713AFF50733E772",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -21884,6 +22064,7 @@
             }
         },
         "derivation_path": "m/44'/966'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -22057,6 +22238,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -22157,6 +22345,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -22263,6 +22452,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -22319,6 +22509,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -22521,6 +22712,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -22741,6 +22933,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -22897,6 +23090,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xeA998D307ACA04D4f0A3B3036Aba84AE2E409C0A",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -23735,6 +23935,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x1C954E8fe737F99f68Fa1CCda3e51ebDB291948C",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -23971,6 +24178,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x2aa69E8D25C045B659787BC1f03ce47a388DB6E8",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -24388,6 +24602,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -24925,6 +25140,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -25102,6 +25318,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x66e4d38b20173F509A1fF5d82866949e4fE898da",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -25338,6 +25561,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xE6Ce27025F13f5213bBc560dC275e292965a392F",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -25985,6 +26215,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -26157,6 +26388,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x2B9E7ccDF0F4e5B24757c1E1a80e311E34Cb10c7",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -26234,6 +26472,7 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 137,
+        "use_access_list": true,
         "avg_blocktime": 1.8,
         "required_confirmations": 20,
         "protocol": {
@@ -27317,6 +27556,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -27806,6 +28046,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -28047,6 +28288,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -28337,6 +28579,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -29499,6 +29742,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -29556,6 +29800,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -30153,6 +30398,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -30208,6 +30454,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -30703,6 +30950,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -31372,6 +31620,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 120000,
@@ -31590,6 +31839,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x6f8a06447Ff6FcF75d803135a7de15CE88C1d4ec",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -32091,6 +32347,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xA1434F1FC3F437fa33F7a781E041961C0205B5Da",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -33015,6 +33278,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -33764,6 +34028,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -34427,6 +34692,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -34533,6 +34799,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -34903,6 +35170,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x50B728D8D964fd00C2d0AAD81718b71311feF68a",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -35003,6 +35277,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -35414,6 +35689,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -36087,6 +36363,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -36462,6 +36745,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -37103,6 +37387,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -37418,6 +37703,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -37467,6 +37759,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -37944,6 +38237,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xCE7de646e7208a4Ef112cb6ed5038FA6cC6b12e3",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -37995,6 +38295,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 120000,
@@ -38098,6 +38399,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -39262,6 +39564,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -39377,6 +39686,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -39591,6 +39901,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -39833,6 +40144,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -40240,6 +40552,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -40295,6 +40608,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -40350,6 +40664,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 120000,
@@ -40445,6 +40760,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -40976,6 +41292,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -41348,6 +41665,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -41991,6 +42309,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -42178,6 +42497,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -42383,6 +42703,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -42768,6 +43089,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -42822,6 +43144,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x43C934A845205F0b514417d757d7235B8f53f1B9",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -43231,6 +43560,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -43426,6 +43756,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -43481,6 +43812,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x16939ef78684453bfDFb47825F8a5F714f12623a",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -43876,6 +44214,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -43971,6 +44316,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -44191,6 +44543,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 55000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -44775,6 +45134,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -45262,6 +45622,13 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 80000,
+            "erc20_sender_refund": 80000
+        },
         "contract_address": "0xaFF9084f2374585879e8B434C399E29E80ccE635",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
