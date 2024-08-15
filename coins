@@ -1040,6 +1040,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 43114,
+    "use_access_list": true,
     "required_confirmations": 3,
     "avg_blocktime": 2.4,
     "protocol": {
@@ -1992,6 +1993,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
+    "use_access_list": true,
     "required_confirmations": 3,
     "protocol": {
       "type": "ETH"
@@ -8807,6 +8809,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
+    "use_access_list": true,
     "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
