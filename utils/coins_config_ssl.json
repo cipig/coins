@@ -84,10 +84,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -174,6 +170,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -342,6 +339,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -356,10 +354,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -398,6 +392,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -412,10 +407,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -498,6 +489,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -766,6 +758,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -780,10 +773,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -874,6 +863,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -1163,6 +1153,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -1177,10 +1168,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -1292,10 +1279,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -1552,6 +1535,7 @@
         },
         "derivation_path": "m/44'/966'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -1566,10 +1550,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -1674,6 +1654,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -1786,6 +1767,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -1800,10 +1782,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -1908,6 +1886,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -1963,6 +1942,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -2086,6 +2066,7 @@
         },
         "derivation_path": "m/44'/966'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -2100,10 +2081,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -2294,6 +2271,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -2353,6 +2331,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -2367,10 +2346,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -2653,6 +2628,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -2781,10 +2757,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -2963,6 +2935,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -3357,6 +3330,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -3371,10 +3345,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -3462,6 +3432,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -3647,10 +3618,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -3904,10 +3871,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -4335,10 +4298,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -4521,10 +4480,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -5334,10 +5289,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -5638,10 +5589,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -5678,6 +5625,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 120000,
@@ -5692,10 +5640,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -5978,6 +5922,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -6298,6 +6243,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -6434,10 +6380,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -6892,10 +6834,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -6999,6 +6937,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 120000,
@@ -7013,10 +6952,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -7055,6 +6990,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -7444,10 +7380,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -7559,10 +7491,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -7670,6 +7598,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -7777,6 +7706,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -8034,10 +7964,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -8191,10 +8117,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -8375,6 +8297,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -8548,6 +8471,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -8562,10 +8486,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -8721,10 +8641,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -8908,6 +8824,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -9107,6 +9024,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -9121,10 +9039,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -9573,6 +9487,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -9770,6 +9685,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -9784,10 +9700,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -10111,10 +10023,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -10151,6 +10059,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -10165,10 +10074,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -10469,6 +10374,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -11249,6 +11155,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -11522,6 +11429,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -11645,6 +11553,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -11957,10 +11866,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -11996,6 +11901,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -12501,6 +12407,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -12515,10 +12422,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -12624,6 +12527,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 90000,
             "erc20_payment": 150000,
@@ -12638,10 +12542,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -12747,6 +12647,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -12761,10 +12662,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -12875,6 +12772,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -12889,10 +12787,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -13213,10 +13107,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -13252,6 +13142,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -13416,6 +13307,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -13694,6 +13586,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 80000,
             "erc20_payment": 140000,
@@ -13818,6 +13711,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -14357,6 +14251,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -14371,10 +14266,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -14739,6 +14630,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -14753,10 +14645,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -14846,6 +14734,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -15086,6 +14975,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -15100,10 +14990,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -15243,6 +15129,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -15257,10 +15144,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -15299,6 +15182,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -15355,6 +15239,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 120000,
@@ -15486,10 +15371,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -15526,6 +15407,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -15582,6 +15464,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -15596,10 +15479,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -15854,6 +15733,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -16070,6 +15950,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -16084,10 +15965,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -16380,6 +16257,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -16394,10 +16272,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -16509,10 +16383,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -16818,10 +16688,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -16975,6 +16841,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 120000,
@@ -16989,10 +16856,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17178,10 +17041,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -17225,10 +17084,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17333,6 +17188,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -17456,6 +17312,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -17578,6 +17435,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -17635,6 +17493,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -17700,10 +17559,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -17808,6 +17663,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -17916,6 +17772,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -17930,10 +17787,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18025,6 +17878,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18039,10 +17893,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18082,6 +17932,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18096,10 +17947,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18302,6 +18149,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18316,10 +18164,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18359,6 +18203,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18373,10 +18218,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18578,6 +18419,7 @@
         },
         "derivation_path": "m/44'/966'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18592,10 +18434,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18752,6 +18590,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18766,10 +18605,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18818,10 +18653,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -18859,6 +18690,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18873,10 +18705,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -18925,10 +18753,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -18966,6 +18790,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18980,10 +18805,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -19023,6 +18844,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -19037,10 +18859,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -19089,10 +18907,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -19137,10 +18951,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -19226,6 +19036,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -19240,10 +19051,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -19357,10 +19164,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -19406,10 +19209,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -19447,6 +19246,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -19461,10 +19261,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -19513,10 +19309,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -19563,10 +19355,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -19604,6 +19392,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -20161,6 +19950,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -20175,10 +19965,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -20332,6 +20118,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -20658,6 +20445,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -20672,10 +20460,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -20852,10 +20636,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -21193,6 +20973,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -21207,10 +20988,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -21371,6 +21148,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -21436,10 +21214,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -21614,6 +21388,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -22096,6 +21871,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -22110,10 +21886,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -22269,6 +22041,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -22283,10 +22056,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -22370,10 +22139,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -23315,6 +23080,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -23329,10 +23095,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -23589,10 +23351,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -23695,6 +23453,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -23929,6 +23688,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -24152,6 +23912,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -24166,10 +23927,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -24700,10 +24457,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -24921,10 +24674,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -25027,6 +24776,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -25085,6 +24835,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -25099,10 +24850,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -25219,10 +24966,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -25522,10 +25265,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -25683,6 +25422,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -25697,10 +25437,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -25739,6 +25475,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -26068,6 +25805,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -26082,10 +25820,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -26201,10 +25935,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -26370,10 +26100,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -26535,10 +26261,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -26575,7 +26297,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:50012",
+                "url": "txserver.live:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -26584,7 +26306,7 @@
                 ]
             },
             {
-                "url": "txserver.live:50002",
+                "url": "electrumx.live:50012",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -26692,6 +26414,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 120000,
@@ -26706,10 +26429,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -26911,6 +26630,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -26925,10 +26645,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -27203,6 +26919,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -27711,11 +27428,11 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum02.reddcoin.com:50002",
+                "url": "electrum03.reddcoin.com:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrum03.reddcoin.com:50002",
+                "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL"
             }
         ],
@@ -27999,6 +27716,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -28013,10 +27731,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -28439,10 +28153,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -28545,6 +28255,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -28559,10 +28270,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -29040,6 +28747,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -29054,10 +28762,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -29147,6 +28851,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -29518,6 +29223,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -29532,10 +29238,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -29625,6 +29327,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -29639,10 +29342,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -29965,6 +29664,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -29979,10 +29679,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -30094,10 +29790,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -30562,6 +30254,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -30576,10 +30269,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -30944,6 +30633,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -30958,10 +30648,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -31442,6 +31128,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -31456,10 +31143,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -31702,6 +31385,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -31716,10 +31400,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -31758,6 +31438,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -32131,6 +31812,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -32189,6 +31871,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 120000,
@@ -32293,6 +31976,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -32307,10 +31991,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -32780,10 +32460,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -32948,10 +32624,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -33150,10 +32822,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -33442,6 +33110,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -33456,10 +33125,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -33546,6 +33211,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -33761,6 +33427,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -34001,6 +33668,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -34015,10 +33683,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -34064,10 +33728,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -34406,6 +34066,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -34420,10 +34081,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -34462,6 +34119,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -34518,6 +34176,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 120000,
@@ -34614,6 +34273,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -34945,6 +34605,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -35143,10 +34804,6 @@
                 "gui_auth": true
             },
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -35294,6 +34951,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -35601,6 +35259,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -35615,10 +35274,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -35789,6 +35444,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -35995,6 +35651,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -36009,10 +35666,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -36286,6 +35939,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -36300,10 +35954,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -36341,6 +35991,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -36616,6 +36267,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -36812,6 +36464,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -36826,10 +36479,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -36868,6 +36517,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -37144,6 +36794,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -37246,6 +36897,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -37473,6 +37125,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -37487,10 +37140,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -37898,6 +37547,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -38079,10 +37729,6 @@
             {
                 "url": "https://node.komodo.earth:8080/polygon",
                 "gui_auth": true
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
             },
             {
                 "url": "https://electrum3.cipig.net:18755"
@@ -38268,6 +37914,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
