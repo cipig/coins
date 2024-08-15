@@ -11948,6 +11948,8 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 61,
+        "use_access_list": true,
+        "max_eth_tx_type": 2,
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
@@ -12814,6 +12816,8 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 246,
+        "use_access_list": true,
+        "max_eth_tx_type": 2,
         "required_confirmations": 3,
         "avg_blocktime": 5,
         "protocol": {
@@ -13948,6 +13952,8 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 250,
+        "use_access_list": true,
+        "max_eth_tx_type": 2,
         "required_confirmations": 3,
         "avg_blocktime": 1.8,
         "protocol": {
@@ -19439,6 +19445,8 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 321,
+        "use_access_list": true,
+        "max_eth_tx_type": 2,
         "required_confirmations": 3,
         "avg_blocktime": 3,
         "protocol": {
@@ -23498,6 +23506,8 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 1285,
+        "use_access_list": true,
+        "max_eth_tx_type": 2,
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
@@ -23540,6 +23550,8 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 1284,
+        "use_access_list": true,
+        "max_eth_tx_type": 2,
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
@@ -24992,6 +25004,8 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 1666600000,
+        "use_access_list": true,
+        "max_eth_tx_type": 2,
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
@@ -26297,7 +26311,7 @@
         },
         "electrum": [
             {
-                "url": "txserver.live:50002",
+                "url": "electrumx.live:50012",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -26306,7 +26320,7 @@
                 ]
             },
             {
-                "url": "electrumx.live:50012",
+                "url": "txserver.live:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27428,11 +27442,11 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum03.reddcoin.com:50002",
+                "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrum02.reddcoin.com:50002",
+                "url": "electrum03.reddcoin.com:50002",
                 "protocol": "SSL"
             }
         ],
