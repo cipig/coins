@@ -80,10 +80,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -170,6 +166,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -331,6 +328,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -342,10 +340,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -383,6 +377,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -394,10 +389,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -479,6 +470,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -739,6 +731,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -750,10 +743,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -843,6 +832,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -1118,6 +1108,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -1129,10 +1120,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -1233,10 +1220,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -1544,6 +1527,7 @@
         },
         "derivation_path": "m/44'/966'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -1555,10 +1539,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -1655,6 +1635,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -1763,6 +1744,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -1774,10 +1756,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -1874,6 +1852,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -1929,6 +1908,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -2045,6 +2025,7 @@
         },
         "derivation_path": "m/44'/966'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -2056,10 +2037,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -2249,6 +2226,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -2308,6 +2286,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -2319,10 +2298,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -2597,6 +2572,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -2722,10 +2698,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -2896,6 +2868,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -3315,6 +3288,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -3326,10 +3300,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -3416,6 +3386,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -3587,10 +3558,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -3833,10 +3800,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -4252,10 +4215,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -4444,10 +4403,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -5320,10 +5275,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -5599,10 +5550,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -5639,6 +5586,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 120000,
@@ -5650,10 +5598,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -5939,6 +5883,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -6313,6 +6258,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -6439,10 +6385,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -6885,10 +6827,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -6985,6 +6923,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 120000,
@@ -6996,10 +6935,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -7037,6 +6972,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -7422,10 +7358,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -7525,10 +7457,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -7630,6 +7558,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -7737,6 +7666,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -8051,10 +7981,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -8198,10 +8124,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -8436,6 +8358,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -8602,6 +8525,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -8613,10 +8537,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -8761,10 +8681,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -8940,6 +8856,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -9135,6 +9052,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -9146,10 +9064,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -9583,6 +9497,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -9779,6 +9694,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -9790,10 +9706,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -10091,10 +10003,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -10131,6 +10039,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -10142,10 +10051,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -10442,6 +10347,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -11307,6 +11213,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -11638,6 +11545,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -11754,6 +11662,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -12060,10 +11969,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -12099,6 +12004,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -12596,6 +12502,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -12607,10 +12514,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -12708,6 +12611,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 90000,
             "erc20_payment": 150000,
@@ -12719,10 +12623,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -12820,6 +12720,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -12831,10 +12732,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -12937,6 +12834,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -12948,10 +12846,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -13253,10 +13147,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -13292,6 +13182,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -13517,6 +13408,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -13813,6 +13705,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 80000,
             "erc20_payment": 140000,
@@ -13930,6 +13823,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -14451,6 +14345,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -14462,10 +14357,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -14811,6 +14702,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -14822,10 +14714,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -14957,6 +14845,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -15194,6 +15083,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -15205,10 +15095,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -15347,6 +15233,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -15358,10 +15245,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -15399,6 +15282,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -15455,6 +15339,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 120000,
@@ -15575,10 +15460,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -15615,6 +15496,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -15671,6 +15553,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -15682,10 +15565,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -15974,6 +15853,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -16183,6 +16063,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -16194,10 +16075,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -16468,6 +16345,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -16479,10 +16357,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -16583,10 +16457,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -16879,10 +16749,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -17029,6 +16895,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 120000,
@@ -17040,10 +16907,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -17224,10 +17087,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -17268,10 +17127,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -17368,6 +17223,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -17484,6 +17340,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -17599,6 +17456,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -17656,6 +17514,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -17718,10 +17577,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -17818,6 +17673,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -17926,6 +17782,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -17937,10 +17794,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -18031,6 +17884,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18042,10 +17896,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -18084,6 +17934,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18095,10 +17946,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -18293,6 +18140,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18304,10 +18152,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -18346,6 +18190,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18357,10 +18202,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -18554,6 +18395,7 @@
         },
         "derivation_path": "m/44'/966'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18565,10 +18407,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -18717,6 +18555,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18728,10 +18567,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -18775,10 +18610,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -18816,6 +18647,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18827,10 +18659,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -18874,10 +18702,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -18915,6 +18739,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18926,10 +18751,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -18968,6 +18789,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -18979,10 +18801,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -19026,10 +18844,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -19071,10 +18885,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -19159,6 +18969,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -19170,10 +18981,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -19275,10 +19082,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -19320,10 +19123,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -19361,6 +19160,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -19372,10 +19172,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -19419,10 +19215,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -19465,10 +19257,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -19506,6 +19294,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -20056,6 +19845,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -20067,10 +19857,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -20223,6 +20009,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -20568,6 +20355,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -20579,10 +20367,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -20748,10 +20532,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -21080,6 +20860,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -21091,10 +20872,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -21247,6 +21024,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -21309,10 +21087,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -21472,6 +21246,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -21947,6 +21722,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -21958,10 +21734,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -22109,6 +21881,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -22120,10 +21893,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -22203,10 +21972,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -23127,6 +22892,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -23138,10 +22904,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -23386,10 +23148,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -23595,6 +23353,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -23829,6 +23588,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -24113,6 +23873,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -24124,10 +23885,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -24646,10 +24403,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -24856,10 +24609,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -24955,6 +24704,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -25013,6 +24763,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -25024,10 +24775,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -25133,10 +24880,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -25424,10 +25167,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -25578,6 +25317,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -25589,10 +25329,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -25630,6 +25366,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -26079,6 +25816,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -26090,10 +25828,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -26198,10 +25932,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -26355,10 +26085,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -26509,10 +26235,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -26549,15 +26271,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "txserver.live:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -26567,7 +26280,16 @@
                 ]
             },
             {
-                "url": "electrumx.live:50010",
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "txserver.live:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -26668,6 +26390,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 120000,
@@ -26679,10 +26402,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -26876,6 +26595,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -26887,10 +26607,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -27164,6 +26880,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -27675,11 +27392,11 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum02.reddcoin.com:50002",
+                "url": "electrum03.reddcoin.com:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrum03.reddcoin.com:50002",
+                "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL"
             }
         ],
@@ -27945,6 +27662,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -27956,10 +27674,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -28388,10 +28102,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -28487,6 +28197,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -28498,10 +28209,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -29010,6 +28717,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -29021,10 +28729,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -29113,6 +28817,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -29473,6 +29178,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -29484,10 +29190,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -29576,6 +29278,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -29587,10 +29290,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -29901,6 +29600,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -29912,10 +29612,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -30016,10 +29712,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -30472,6 +30164,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -30483,10 +30176,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -30836,6 +30525,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -30847,10 +30537,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -31312,6 +30998,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -31323,10 +31010,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -31593,6 +31276,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -31604,10 +31288,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -31645,6 +31325,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -32075,6 +31756,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -32133,6 +31815,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 120000,
@@ -32237,6 +31920,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -32248,10 +31932,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -32701,10 +32381,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -32859,10 +32535,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -33050,10 +32722,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -33337,6 +33005,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -33348,10 +33017,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -33441,6 +33106,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -33649,6 +33315,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -33888,6 +33555,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -33899,10 +33567,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -33944,10 +33608,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -34277,6 +33937,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -34288,10 +33949,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -34329,6 +33986,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -34385,6 +34043,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 120000,
@@ -34481,6 +34140,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -34805,6 +34465,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -34985,10 +34646,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
-            {
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
@@ -35136,6 +34793,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -35337,6 +34995,15 @@
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
         "electrum": [
+            {
+                "url": "electrumx1.vaporumcoin.us:50001",
+                "contact": [
+                    {
+                        "github": "VaporumCoin"
+                    }
+                ],
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx2.vaporumcoin.us:50001",
                 "contact": [
@@ -35653,6 +35320,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -35664,10 +35332,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -35823,6 +35487,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 150000,
             "erc20_payment": 300000,
@@ -36025,6 +35690,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -36036,10 +35702,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -36366,6 +36028,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -36377,10 +36040,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -36417,6 +36076,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -36768,6 +36428,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -36950,6 +36611,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -36961,10 +36623,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -37002,6 +36660,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -37290,6 +36949,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -37392,6 +37052,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -37608,6 +37269,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -37619,10 +37281,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -38035,6 +37693,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
@@ -38206,10 +37865,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/matic",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/matic/websocket"
-            },
             {
                 "url": "https://electrum3.cipig.net:18755"
             }
@@ -38433,6 +38088,7 @@
         },
         "derivation_path": "m/44'/60'",
         "use_access_list": true,
+        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 60000,
             "erc20_payment": 110000,
