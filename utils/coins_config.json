@@ -33376,11 +33376,11 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum02.reddcoin.com:50002",
+                "url": "electrum03.reddcoin.com:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrum03.reddcoin.com:50002",
+                "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL"
             },
             {
@@ -33388,11 +33388,11 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum02.reddcoin.com:50004",
+                "url": "electrum03.reddcoin.com:50004",
                 "protocol": "WSS"
             },
             {
-                "url": "electrum03.reddcoin.com:50004",
+                "url": "electrum02.reddcoin.com:50004",
                 "protocol": "WSS"
             }
         ],
@@ -39564,17 +39564,7 @@
                 "disable_cert_verification": false
             },
             {
-                "url": "uis-uno.ewmcx.net:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
-            {
                 "url": "failover.trc-uis.ewmcx.biz:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": false
-            },
-            {
-                "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             }
