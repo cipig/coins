@@ -862,16 +862,16 @@
                 ]
             },
             {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL"
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             },
             {
@@ -884,16 +884,16 @@
                 ]
             },
             {
-                "url": "electrumx-three.artbyte.live:50013",
-                "protocol": "WSS"
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50013",
                 "protocol": "WSS"
             }
         ],
@@ -28630,8 +28630,6 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 1285,
-        "use_access_list": true,
-        "max_eth_tx_type": 2,
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
@@ -31300,10 +31298,6 @@
             {
                 "url": "pink-one.ewm-cx.net:50001",
                 "protocol": "TCP"
-            },
-            {
-                "url": "pink-two.ewm-cx.net:50001",
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -32115,15 +32109,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -32133,8 +32118,8 @@
                 ]
             },
             {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL",
+                "url": "electrumx.live:50010",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -32151,8 +32136,8 @@
                 ]
             },
             {
-                "url": "electrumx.live:30010",
-                "protocol": "WSS",
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -32161,6 +32146,15 @@
             },
             {
                 "url": "txserver.live:30001",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.live:30010",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -33628,6 +33622,10 @@
         },
         "electrum": [
             {
+                "url": "electrum02.reddcoin.com:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum03.reddcoin.com:50002",
                 "protocol": "SSL"
             },
@@ -33636,8 +33634,8 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum02.reddcoin.com:50002",
-                "protocol": "SSL"
+                "url": "electrum02.reddcoin.com:50004",
+                "protocol": "WSS"
             },
             {
                 "url": "electrum03.reddcoin.com:50004",
@@ -33645,10 +33643,6 @@
             },
             {
                 "url": "electrum01.reddcoin.com:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum02.reddcoin.com:50004",
                 "protocol": "WSS"
             }
         ],
@@ -39851,7 +39845,17 @@
                 "disable_cert_verification": false
             },
             {
+                "url": "uis-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "failover.trc-uis.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": false
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             }
@@ -45009,6 +45013,10 @@
         },
         "derivation_path": "m/44'/77'",
         "electrum": [
+            {
+                "url": "88.99.26.209:5036",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrum-verge.cloud:50001",
                 "protocol": "TCP"

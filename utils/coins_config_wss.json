@@ -853,13 +853,13 @@
                 ]
             },
             {
-                "url": "electrumx-three.artbyte.live:50013",
-                "protocol": "WSS"
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -24260,8 +24260,6 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 1285,
-        "use_access_list": true,
-        "max_eth_tx_type": 2,
         "required_confirmations": 3,
         "avg_blocktime": 15,
         "protocol": {
@@ -27075,7 +27073,7 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:30010",
+                "url": "txserver.live:30001",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -27084,7 +27082,7 @@
                 ]
             },
             {
-                "url": "txserver.live:30001",
+                "url": "electrumx.live:30010",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -28216,15 +28214,15 @@
         },
         "electrum": [
             {
+                "url": "electrum02.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum03.reddcoin.com:50004",
                 "protocol": "WSS"
             },
             {
                 "url": "electrum01.reddcoin.com:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum02.reddcoin.com:50004",
                 "protocol": "WSS"
             }
         ],
@@ -33606,6 +33604,11 @@
         "electrum": [
             {
                 "url": "failover.trc-uis.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": false
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             }
