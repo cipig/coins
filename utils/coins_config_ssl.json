@@ -24093,10 +24093,9 @@
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
-            "eth_send_coins": 100000,
-            "eth_payment": 250000,
-            "eth_receiver_spend": 250000,
-            "eth_sender_refund": 250000
+            "eth_payment": 100000,
+            "eth_receiver_spend": 100000,
+            "eth_sender_refund": 100000
         },
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
