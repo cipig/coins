@@ -2653,9 +2653,9 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "BUSD-AVX20",
-    "name": "busd_avx20",
-    "fname": "Binance USD",
+    "coin": "BUSD-AVX20_OLD",
+    "name": "busd_avx20_old",
+    "fname": "Binance USD (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 43114,
@@ -2672,28 +2672,9 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "BUSD-AVX20_OLD",
-    "name": "busd_avx20_old",
+    "coin": "BUSD-MVR20_OLD",
+    "name": "busd_mvr20_old",
     "fname": "Binance USD (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 43114,
-    "required_confirmations": 3,
-    "avg_blocktime": 2.4,
-    "decimals": 18,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "AVAX",
-        "contract_address": "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "BUSD-MVR20",
-    "name": "busd_mvr20",
-    "fname": "Binance USD",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1285,
@@ -2710,9 +2691,9 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "BUSD-ERC20",
-    "name": "busd_erc20",
-    "fname": "Binance USD",
+    "coin": "BUSD-ERC20_OLD",
+    "name": "busd_erc20_old",
+    "fname": "Binance USD (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -2733,9 +2714,9 @@
     }
   },
   {
-    "coin": "BUSD-BEP20",
-    "name": "busd_bep20",
-    "fname": "Binance USD",
+    "coin": "BUSD-BEP20_OLD",
+    "name": "busd_bep20_old",
+    "fname": "Binance USD (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -2751,9 +2732,9 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "BUSD-PLG20",
-    "name": "busd_plg20",
-    "fname": "Binance USD",
+    "coin": "BUSD-PLG20_OLD",
+    "name": "busd_plg20_old",
+    "fname": "Binance USD (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
