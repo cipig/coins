@@ -84,7 +84,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -363,7 +363,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -423,7 +423,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -796,7 +796,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -1198,7 +1198,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -1210,12 +1210,12 @@
         ],
         "explorer_block_url": "block/"
     },
-    "AGIX-ERC20": {
-        "coin": "AGIX-ERC20",
+    "AGIX-ERC20_OLD": {
+        "coin": "AGIX-ERC20_OLD",
         "type": "ERC-20",
-        "name": "SingularityNET",
-        "coinpaprika_id": "agix-singularitynet",
-        "coingecko_id": "singularitynet",
+        "name": "SingularityNET (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "AGIX",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "tx/",
@@ -1225,7 +1225,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "SingularityNET",
+        "fname": "SingularityNET (OLD)",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 1,
@@ -1276,12 +1276,12 @@
         ],
         "explorer_block_url": "block/"
     },
-    "AGIX-PLG20": {
-        "coin": "AGIX-PLG20",
+    "AGIX-PLG20_OLD": {
+        "coin": "AGIX-PLG20_OLD",
         "type": "Matic",
-        "name": "SingularityNET",
-        "coinpaprika_id": "agix-singularitynet",
-        "coingecko_id": "singularitynet",
+        "name": "SingularityNET (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "AGIX",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "tx/",
@@ -1291,7 +1291,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "SingularityNET",
+        "fname": "SingularityNET (OLD)",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 137,
@@ -1316,7 +1316,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -1366,6 +1366,15 @@
         "electrum": [
             {
                 "url": "electrumx1.aipowergrid.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "482101557383528448"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.aipowergrid.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -1585,7 +1594,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -1824,7 +1833,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -2130,7 +2139,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -2402,7 +2411,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -2820,7 +2829,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -3415,7 +3424,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -3695,7 +3704,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -3955,7 +3964,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -4387,7 +4396,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -4578,7 +4587,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -4751,12 +4760,12 @@
         "explorer_block_url": "block/",
         "binance_id": "BCH"
     },
-    "BIDR-BEP20": {
-        "coin": "BIDR-BEP20",
+    "BIDR-BEP20_OLD": {
+        "coin": "BIDR-BEP20_OLD",
         "type": "BEP-20",
-        "name": "BIDR",
-        "coinpaprika_id": "bidr-binanceidr",
-        "coingecko_id": "binanceidr",
+        "name": "BIDR (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "BIDR",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
@@ -4766,7 +4775,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "BIDR",
+        "fname": "BIDR (OLD)",
         "rpcport": 80,
         "chain_id": 56,
         "mm2": 1,
@@ -4799,8 +4808,7 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/",
-        "forex_id": "IDR"
+        "explorer_block_url": "block/"
     },
     "BLK": {
         "coin": "BLK",
@@ -5392,7 +5400,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -5699,7 +5707,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -5759,7 +5767,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -6506,7 +6514,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -6920,7 +6928,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -7047,7 +7055,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -7480,7 +7488,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -7598,7 +7606,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -8078,7 +8086,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -8240,7 +8248,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -8616,7 +8624,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -8778,7 +8786,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -9183,7 +9191,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -9851,7 +9859,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -10179,7 +10187,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -10239,7 +10247,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -12024,7 +12032,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -12591,7 +12599,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -12718,7 +12726,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -12845,7 +12853,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -12977,7 +12985,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -13304,7 +13312,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -14474,7 +14482,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -14860,7 +14868,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -15212,7 +15220,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -15373,7 +15381,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -15605,7 +15613,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -15722,7 +15730,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -16215,7 +16223,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -16529,7 +16537,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -16647,7 +16655,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -16957,7 +16965,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -17134,7 +17142,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -17324,7 +17332,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -17376,7 +17384,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -17858,7 +17866,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -18093,7 +18101,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -18206,7 +18214,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -18267,7 +18275,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -18491,7 +18499,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -18552,7 +18560,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -18775,7 +18783,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -18953,7 +18961,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19006,7 +19014,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19067,7 +19075,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19120,7 +19128,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19181,7 +19189,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19242,7 +19250,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19295,7 +19303,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19348,7 +19356,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19455,7 +19463,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19573,7 +19581,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19625,7 +19633,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19686,7 +19694,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19739,7 +19747,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -19792,7 +19800,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -20413,7 +20421,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -20915,7 +20923,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -21098,7 +21106,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -21457,7 +21465,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -21690,7 +21698,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -22369,7 +22377,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -22546,7 +22554,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -22636,7 +22644,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -22858,12 +22866,12 @@
         "explorer_block_url": "block/",
         "binance_id": "MATIC"
     },
-    "MC-ERC20": {
-        "coin": "MC-ERC20",
+    "MC-ERC20_OLD": {
+        "coin": "MC-ERC20_OLD",
         "type": "ERC-20",
-        "name": "Merit Circle",
-        "coinpaprika_id": "mc-merit-circle",
-        "coingecko_id": "merit-circle",
+        "name": "Merit Circle (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "_MC",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "tx/",
@@ -22873,7 +22881,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Merit Circle",
+        "fname": "Merit Circle (OLD)",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 1,
@@ -22924,12 +22932,12 @@
         ],
         "explorer_block_url": "block/"
     },
-    "MC-BEP20": {
-        "coin": "MC-BEP20",
+    "MC-BEP20_OLD": {
+        "coin": "MC-BEP20_OLD",
         "type": "BEP-20",
-        "name": "Merit Circle",
-        "coinpaprika_id": "mc-merit-circle",
-        "coingecko_id": "merit-circle",
+        "name": "Merit Circle (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "_MC",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
@@ -22939,7 +22947,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Merit Circle",
+        "fname": "Merit Circle (OLD)",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 56,
@@ -23599,7 +23607,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -23860,7 +23868,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -24454,7 +24462,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -24989,7 +24997,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -25053,12 +25061,12 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "OCEAN-BEP20": {
-        "coin": "OCEAN-BEP20",
+    "OCEAN-BEP20_OLD": {
+        "coin": "OCEAN-BEP20_OLD",
         "type": "BEP-20",
-        "name": "Ocean Protocol",
-        "coinpaprika_id": "ocean-ocean-protocol",
-        "coingecko_id": "ocean-protocol",
+        "name": "Ocean Protocol (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "OCEAN",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
@@ -25068,7 +25076,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Ocean Protocol",
+        "fname": "Ocean Protocol (OLD)",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 56,
@@ -25103,12 +25111,12 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "OCEAN-ERC20": {
-        "coin": "OCEAN-ERC20",
+    "OCEAN-ERC20_OLD": {
+        "coin": "OCEAN-ERC20_OLD",
         "type": "ERC-20",
-        "name": "Ocean Protocol",
-        "coinpaprika_id": "ocean-ocean-protocol",
-        "coingecko_id": "ocean-protocol",
+        "name": "Ocean Protocol (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "OCEAN",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "tx/",
@@ -25118,7 +25126,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Ocean Protocol",
+        "fname": "Ocean Protocol (OLD)",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 1,
@@ -25173,12 +25181,12 @@
         ],
         "explorer_block_url": "block/"
     },
-    "OCEAN-PLG20": {
-        "coin": "OCEAN-PLG20",
+    "OCEAN-PLG20_OLD": {
+        "coin": "OCEAN-PLG20_OLD",
         "type": "Matic",
-        "name": "Ocean Protocol",
-        "coinpaprika_id": "ocean-ocean-protocol",
-        "coingecko_id": "ocean-protocol",
+        "name": "Ocean Protocol (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "OCEAN",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "tx/",
@@ -25188,7 +25196,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Ocean Protocol",
+        "fname": "Ocean Protocol (OLD)",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 137,
@@ -25213,7 +25221,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -25398,7 +25406,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -25521,7 +25529,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -25827,7 +25835,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -26008,7 +26016,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -26398,7 +26406,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -26520,7 +26528,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -26690,7 +26698,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -26858,7 +26866,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -27035,7 +27043,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -27258,7 +27266,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -28347,7 +28355,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -28774,7 +28782,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -28900,7 +28908,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -29399,7 +29407,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -29882,7 +29890,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -29993,7 +30001,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -30337,7 +30345,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -30455,7 +30463,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -30941,7 +30949,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -31327,7 +31335,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -31829,7 +31837,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -32093,7 +32101,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -32679,7 +32687,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -33153,7 +33161,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -33326,7 +33334,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -33531,7 +33539,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -33841,7 +33849,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -34406,7 +34414,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -34458,7 +34466,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -34818,7 +34826,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -35546,7 +35554,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -36025,7 +36033,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -36424,7 +36432,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -36719,7 +36727,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -37239,7 +37247,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -37907,7 +37915,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -38503,7 +38511,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
@@ -42798,7 +42806,7 @@
                 "gui_auth": true
             },
             {
-                "url": "https://polygon.rpc.subquery.network/public"
+                "url": "https://polygon.llamarpc.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/matic",
