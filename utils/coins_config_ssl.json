@@ -13191,6 +13191,14 @@
         "links": {
             "homepage": "https://firstdigitallabs.com"
         },
+        "use_access_list": true,
+        "max_eth_tx_type": 2,
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 85000,
+            "erc20_sender_refund": 85000
+        },
         "contract_address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
