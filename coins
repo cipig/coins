@@ -3408,7 +3408,7 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "mm2": 1,
     "required_confirmations": 3,
@@ -4154,7 +4154,7 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "mm2": 1,
     "required_confirmations": 3,
@@ -5012,6 +5012,58 @@
       }
     },
     "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "FDUSD-ERC20",
+    "name": "fdusd_erc20",
+    "fname": "First Digital USD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://firstdigitallabs.com"
+    }
+  },
+  {
+    "coin": "FDUSD-BEP20",
+    "name": "fdusd_bep20",
+    "fname": "First Digital USD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://firstdigitallabs.com"
+    },
+    "use_access_list": true,
+    "max_eth_tx_type": 2,
+    "gas_limit": {
+        "eth_send_erc20": 70000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 85000,
+        "erc20_sender_refund": 85000
+    }
   },
   {
     "coin": "FEI-ERC20",
@@ -7570,60 +7622,6 @@
     }
   },
   {
-    "coin": "KIP0002",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "KIP0002",
-    "fname": "KIP0002",
-    "rpcport": 46856,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "avg_blocktime": 60,
-    "wallet_only": true,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
-    "coin": "KIP0003",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "KIP0003",
-    "fname": "KIP0003",
-    "rpcport": 46866,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "avg_blocktime": 60,
-    "wallet_only": true,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
-    "coin": "KIP0004",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "KIP0004",
-    "fname": "KIP0004",
-    "rpcport": 46876,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "avg_blocktime": 60,
-    "wallet_only": true,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
     "coin": "KMD",
     "name": "komodo",
     "fname": "Komodo",
@@ -9472,7 +9470,7 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "mm2": 1,
     "required_confirmations": 3,
@@ -10458,7 +10456,7 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "mm2": 1,
     "required_confirmations": 3,
@@ -10482,7 +10480,7 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "mm2": 1,
     "required_confirmations": 3,
@@ -10506,7 +10504,7 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "mm2": 1,
     "required_confirmations": 3,
@@ -10635,7 +10633,7 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "qc",
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "mm2": 1,
     "sign_message_prefix": "Qtum Signed Message:\n",
@@ -11073,6 +11071,24 @@
     "txfee": 1000,
     "mm2": 1,
     "confpath": "USERHOME/.raptoreumcore/raptoreum.conf",
+    "required_confirmations": 3,
+    "avg_blocktime": 120,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/10226'"
+  },
+  {
+    "coin": "GRR",
+    "name": "ghostridercoin",
+    "fname": "Ghostridercoin",
+    "rpcport": 15420,
+    "pubtype": 38,
+    "p2shtype": 16,
+    "wiftype": 128,
+    "txfee": 1000,
+    "mm2": 1,
+    "confpath": "USERHOME/.grcoincore/grcoin.conf",
     "required_confirmations": 3,
     "avg_blocktime": 120,
     "protocol": {
@@ -14340,7 +14356,7 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "mm2": 1,
     "required_confirmations": 3,
@@ -14742,7 +14758,7 @@
     "required_confirmations": 3,
     "mature_confirmations": 2000,
     "avg_blocktime": 32,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "protocol": {
       "type": "QRC20",
@@ -14827,7 +14843,7 @@
     "required_confirmations": 3,
     "mature_confirmations": 2000,
     "avg_blocktime": 32,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "protocol": {
       "type": "QRC20",
@@ -14852,7 +14868,7 @@
     "required_confirmations": 3,
     "mature_confirmations": 2000,
     "avg_blocktime": 32,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "protocol": {
       "type": "QRC20",
@@ -14877,7 +14893,7 @@
     "required_confirmations": 3,
     "mature_confirmations": 2000,
     "avg_blocktime": 32,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "protocol": {
       "type": "QRC20",
@@ -14902,7 +14918,7 @@
     "required_confirmations": 3,
     "mature_confirmations": 2000,
     "avg_blocktime": 32,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "protocol": {
       "type": "QRC20",
@@ -14927,7 +14943,7 @@
     "required_confirmations": 3,
     "mature_confirmations": 2000,
     "avg_blocktime": 32,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "protocol": {
       "type": "QRC20",
@@ -14952,7 +14968,7 @@
     "required_confirmations": 3,
     "mature_confirmations": 2000,
     "avg_blocktime": 32,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "protocol": {
       "type": "QRC20",
@@ -14977,7 +14993,7 @@
     "required_confirmations": 3,
     "mature_confirmations": 2000,
     "avg_blocktime": 32,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "protocol": {
       "type": "QRC20",
@@ -15002,7 +15018,7 @@
     "required_confirmations": 3,
     "mature_confirmations": 2000,
     "avg_blocktime": 32,
-    "txfee": 0,
+    "txfee": 400000,
     "dust": 72800,
     "protocol": {
       "type": "QRC20",
@@ -15674,25 +15690,6 @@
       }
     },
     "derivation_path": "m/44'/714'"
-  },
-  {
-    "coin": "VOTE2024",
-    "asset": "VOTE2024",
-    "fname": "VOTE2024",
-    "wallet_only": true,
-    "rpcport": 60916,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "required_confirmations": 1,
-    "requires_notarization": false,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
   },
   {
     "coin": "ZOMBIE",
