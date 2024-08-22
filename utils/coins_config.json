@@ -20299,7 +20299,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "HUSD",
         "rpcport": 80,
         "mm2": 1,
@@ -20365,7 +20365,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "HUSD",
         "rpcport": 80,
         "mm2": 1,
@@ -20409,7 +20409,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "HUSD",
         "rpcport": 80,
         "mm2": 1,
@@ -20453,7 +20453,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "HUSD",
         "rpcport": 80,
         "mm2": 1,
@@ -44009,10 +44009,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.vanillacash.info:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "xvc-ex-seven.ewmci.online:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -44020,6 +44016,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "electrumx1.vanillacash.info:50011",
+                "protocol": "TCP"
             },
             {
                 "url": "xvc-ex-seven.ewmci.online:50002",
@@ -44031,10 +44031,6 @@
                 ]
             },
             {
-                "url": "electrumx1.vanillacash.info:50013",
-                "protocol": "WSS"
-            },
-            {
                 "url": "xvc-ex-seven.ewmci.online:50003",
                 "protocol": "WSS",
                 "contact": [
@@ -44042,6 +44038,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "electrumx1.vanillacash.info:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
