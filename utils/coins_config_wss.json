@@ -853,12 +853,11 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "url": "electrumx-three.artbyte.live:50013",
                 "protocol": "WSS"
             }
         ],
@@ -11623,6 +11622,18 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "electrum2.cipig.net:30052",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -15349,12 +15360,12 @@
         ],
         "explorer_block_url": "block.dws?"
     },
-    "GLEEC": {
-        "coin": "GLEEC",
+    "GLEEC-OLD": {
+        "coin": "GLEEC-OLD",
         "type": "Smart Chain",
-        "name": "Gleec",
-        "coinpaprika_id": "gleec-gleec-coin",
-        "coingecko_id": "gleec-coin",
+        "name": "Gleec (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "GLEEC",
         "explorer_url": "https://gleec.explorer.dexstats.info/",
         "explorer_tx_url": "",
@@ -15366,7 +15377,7 @@
         "wallet_only": false,
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "GLEEC",
-        "fname": "Gleec",
+        "fname": "Gleec (OLD)",
         "rpcport": 23226,
         "txversion": 4,
         "overwintered": 1,
@@ -15406,6 +15417,76 @@
             },
             {
                 "url": "electrum3.cipig.net:30022",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "GLEEC": {
+        "coin": "GLEEC",
+        "type": "Smart Chain",
+        "name": "Gleec",
+        "coinpaprika_id": "gleec-gleec-coin",
+        "coingecko_id": "gleec-coin",
+        "livecoinwatch_id": "GLEEC",
+        "explorer_url": "https://explorer.gleec.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "GLEEC",
+        "fname": "Gleec",
+        "rpcport": 23345,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 4,
+        "requires_notarization": false,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:30025",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:30025",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:30025",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -33490,6 +33571,11 @@
         },
         "electrum": [
             {
+                "url": "failover.trc-uis.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
@@ -37645,6 +37731,10 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "electrumx2.vanillacash.info:50013",
+                "protocol": "WSS"
+            },
             {
                 "url": "xvc-ex-seven.ewmci.online:50003",
                 "protocol": "WSS",
