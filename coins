@@ -5842,7 +5842,13 @@
         "contract_address": "0x6f1D1Ee50846Fcbc3de91723E61cb68CFa6D0E98"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "gas_limit": {
+        "eth_send_erc20": 1000000,
+        "erc20_payment": 1000000,
+        "erc20_receiver_spend": 1000000,
+        "erc20_sender_refund": 1000000
+    }
   },
   {
     "coin": "FXS-FTM20",
