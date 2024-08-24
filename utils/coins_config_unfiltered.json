@@ -4428,10 +4428,6 @@
                 "protocol": "SSL"
             },
             {
-                "url": "bch.soul-dev.com:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum3.cipig.net:20055",
                 "protocol": "SSL",
                 "contact": [
@@ -4444,11 +4440,11 @@
                 ]
             },
             {
-                "url": "bch.imaginary.cash:50004",
-                "protocol": "WSS"
+                "url": "bch.soul-dev.com:50002",
+                "protocol": "SSL"
             },
             {
-                "url": "bch.soul-dev.com:50004",
+                "url": "bch.imaginary.cash:50004",
                 "protocol": "WSS"
             },
             {
@@ -4462,6 +4458,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "bch.soul-dev.com:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -4901,6 +4901,15 @@
             },
             {
                 "url": "bbk-ex-two.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "bbk-one.ewm-cx.net:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -13602,51 +13611,6 @@
         "protocol": {
             "type": "UTXO"
         },
-        "electrum": [
-            {
-                "url": "pink-deer-69.doi.works:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/namecoin/electrum-nmc/issues",
-                        "twitter": "example_username"
-                    }
-                ]
-            },
-            {
-                "url": "big-parrot-60.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "big-parrot-60.doi.works:50004"
-            },
-            {
-                "url": "itchy-jellyfish-89.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "itchy-jellyfish-89.doi.works:50004"
-            },
-            {
-                "url": "pink-deer-69.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/namecoin/electrum-nmc/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "pink-deer-69.doi.works:50004"
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "DUST": {
@@ -17399,6 +17363,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 1000000,
+            "erc20_payment": 1000000,
+            "erc20_receiver_spend": 1000000,
+            "erc20_sender_refund": 1000000
+        },
         "contract_address": "0x6f1D1Ee50846Fcbc3de91723E61cb68CFa6D0E98",
         "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -21016,15 +20986,6 @@
                 ]
             },
             {
-                "url": "il8p-ex-five.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -21069,8 +21030,8 @@
                 ]
             },
             {
-                "url": "il8p-ex-five.ewmci.online:50003",
-                "protocol": "WSS",
+                "url": "il8p-ex-five.ewmci.online:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -21118,6 +21079,15 @@
                     },
                     {
                         "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il8p-ex-five.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
                     }
                 ]
             }
@@ -38515,6 +38485,18 @@
                 "protocol": "TCP"
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
@@ -38527,7 +38509,31 @@
                 ]
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:9077",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:9077",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -49079,6 +49085,15 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
+            {
+                "url": "electroncash.de:50004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
             {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
