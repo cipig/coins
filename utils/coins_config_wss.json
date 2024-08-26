@@ -4085,6 +4085,10 @@
                 "protocol": "WSS"
             },
             {
+                "url": "bch.soul-dev.com:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum3.cipig.net:30055",
                 "protocol": "WSS",
                 "contact": [
@@ -4095,10 +4099,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "bch.soul-dev.com:50004",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -17616,6 +17616,15 @@
         },
         "electrum": [
             {
+                "url": "il8p-ex-five.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "il8p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
@@ -17656,15 +17665,6 @@
                     },
                     {
                         "github": "WikiMin3R"
-                    }
-                ]
-            },
-            {
-                "url": "il8p-ex-five.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
                     }
                 ]
             }
