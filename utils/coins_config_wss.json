@@ -853,11 +853,12 @@
                 ]
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50013",
-                "protocol": "WSS"
+                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             },
             {
-                "url": "electrumx-three.artbyte.live:50013",
+                "url": "elec-seeder-two.artbytecoin.org:50013",
                 "protocol": "WSS"
             }
         ],
@@ -11376,6 +11377,48 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/",
         "binance_id": "DOGE"
+    },
+    "DOGEC": {
+        "coin": "DOGEC",
+        "type": "UTXO",
+        "name": "DogeCash",
+        "coinpaprika_id": "dogec-dogecash",
+        "coingecko_id": "dogecash",
+        "livecoinwatch_id": "DOGEC",
+        "explorer_url": "https://explorer.dogecash.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkNet Signed Message:\n",
+        "fname": "DogeCash",
+        "rpcport": 56750,
+        "pubtype": 30,
+        "p2shtype": 19,
+        "wiftype": 122,
+        "txfee": 10000,
+        "dust": 5460,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/385'",
+        "links": {
+            "github": "https://github.com/dogecash/dogecash",
+            "homepage": "https://dogecash.net"
+        },
+        "electrum": [
+            {
+                "url": "dogec-one.ewm-cx.com:50008",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "DOGEDASH-BEP20": {
         "coin": "DOGEDASH-BEP20",
@@ -37750,6 +37793,10 @@
         },
         "electrum": [
             {
+                "url": "electrumx1.vanillacash.info:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrumx2.vanillacash.info:50013",
                 "protocol": "WSS"
             },
@@ -37761,10 +37808,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "electrumx1.vanillacash.info:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"

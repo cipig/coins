@@ -819,11 +819,12 @@
                 ]
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
-                "url": "electrumx-three.artbyte.live:50012",
+                "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             }
         ],
@@ -11248,6 +11249,48 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/",
         "binance_id": "DOGE"
+    },
+    "DOGEC": {
+        "coin": "DOGEC",
+        "type": "UTXO",
+        "name": "DogeCash",
+        "coinpaprika_id": "dogec-dogecash",
+        "coingecko_id": "dogecash",
+        "livecoinwatch_id": "DOGEC",
+        "explorer_url": "https://explorer.dogecash.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkNet Signed Message:\n",
+        "fname": "DogeCash",
+        "rpcport": 56750,
+        "pubtype": 30,
+        "p2shtype": 19,
+        "wiftype": 122,
+        "txfee": 10000,
+        "dust": 5460,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/385'",
+        "links": {
+            "github": "https://github.com/dogecash/dogecash",
+            "homepage": "https://dogecash.net"
+        },
+        "electrum": [
+            {
+                "url": "dogec-one.ewm-cx.com:50006",
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "DOGEDASH-BEP20": {
         "coin": "DOGEDASH-BEP20",
@@ -37571,17 +37614,12 @@
                 ]
             },
             {
-                "url": "electrumx2.vanillacash.info:50011",
+                "url": "electrumx1.vanillacash.info:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "xvc-ex-seven.ewmci.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
+                "url": "electrumx2.vanillacash.info:50011",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
