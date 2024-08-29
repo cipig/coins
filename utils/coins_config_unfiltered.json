@@ -8923,6 +8923,14 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "use_access_list": true,
+        "max_eth_tx_type": 2,
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 300000,
+            "erc20_receiver_spend": 250000,
+            "erc20_sender_refund": 250000
+        },
         "contract_address": "0x3a8B787f78D775AECFEEa15706D4221B40F345AB",
         "parent_coin": "ETH-ARB20",
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
@@ -11806,7 +11814,7 @@
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
-            "erc20_receiver_spend": 85000,
+            "erc20_receiver_spend": 50000,
             "erc20_sender_refund": 85000
         },
         "contract_address": "0x27f485b62C4A7E635F561A87560Adf5090239E93",
@@ -15950,15 +15958,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.firo.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx01.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -15986,13 +15985,13 @@
                 ]
             },
             {
-                "protocol": "WSS",
+                "url": "electrumx.firo.org:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
-                ],
-                "url": "electrumx.firo.org:50004"
+                ]
             },
             {
                 "protocol": "WSS",
@@ -16020,6 +16019,15 @@
                     }
                 ],
                 "url": "electrumx03.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
+                "url": "electrumx.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
