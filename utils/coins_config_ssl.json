@@ -26931,6 +26931,15 @@
                         "discord": "PRUX-Coin#1668"
                     }
                 ]
+            },
+            {
+                "url": "txserver.live:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -41387,6 +41396,18 @@
         "electrum": [
             {
                 "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
