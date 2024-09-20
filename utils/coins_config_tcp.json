@@ -5752,15 +5752,15 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumserver01.globalboost.info:50011",
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50011",
                 "protocol": "TCP"
             }
         ],
@@ -26188,6 +26188,10 @@
                 "protocol": "SSL"
             },
             {
+                "url": "electrum.pepelum.site:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum.pepeblocks.com:50001",
                 "protocol": "TCP"
             }
@@ -32266,6 +32270,18 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
@@ -32278,7 +32294,7 @@
                 ]
             },
             {
-                "url": "1.eu.tokel.electrum.dexstats.info:10077",
+                "url": "2.eu.tokel.electrum.dexstats.info:10077",
                 "contact": [
                     {
                         "email": "chmex@dexstats.info"
@@ -35875,6 +35891,10 @@
         },
         "electrum": [
             {
+                "url": "88.99.26.209:5028",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.javerity.com:5885",
                 "contact": [
                     {
@@ -35928,6 +35948,10 @@
             "homepage": "https://vertcoin.org"
         },
         "electrum": [
+            {
+                "url": "88.99.26.209:5028",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx.javerity.com:5885",
                 "contact": [
@@ -37706,7 +37730,7 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum-verge.cloud:50001",
+                "url": "88.99.26.209:5036",
                 "protocol": "TCP"
             }
         ],
