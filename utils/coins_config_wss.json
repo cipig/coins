@@ -5903,11 +5903,11 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50013",
+                "url": "electrumserver02.globalboost.info:50013",
                 "protocol": "WSS"
             },
             {
-                "url": "electrumserver02.globalboost.info:50013",
+                "url": "electrumserver01.globalboost.info:50013",
                 "protocol": "WSS"
             }
         ],
@@ -26344,6 +26344,10 @@
             {
                 "url": "electrum.pepeblocks.com:50004",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum.pepelum.site:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -32496,6 +32500,18 @@
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
         "electrum": [
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:9077",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
             {
                 "url": "1.eu.tokel.electrum.dexstats.info:9077",
                 "protocol": "WSS",

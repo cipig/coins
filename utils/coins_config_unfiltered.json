@@ -6509,27 +6509,27 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumserver02.globalboost.info:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
+                "url": "electrumserver01.globalboost.info:50011",
+                "protocol": "TCP"
             },
             {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumserver01.globalboost.info:50013",
-                "protocol": "WSS"
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumserver02.globalboost.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumserver01.globalboost.info:50013",
                 "protocol": "WSS"
             }
         ],
@@ -19347,6 +19347,18 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum38.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum39.groestlcoin.org:50001",
                 "contact": [
                     {
@@ -19360,18 +19372,6 @@
             },
             {
                 "url": "electrum40.groestlcoin.org:50001",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum38.groestlcoin.org:50001",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -19709,6 +19709,18 @@
                 "protocol": "WSS"
             },
             {
+                "url": "electrum38.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum39.groestlcoin.org:50004",
                 "contact": [
                     {
@@ -19722,18 +19734,6 @@
             },
             {
                 "url": "electrum40.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum38.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -31096,11 +31096,23 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum.pepelum.site:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum.pepeblocks.com:50002",
                 "protocol": "SSL"
             },
             {
+                "url": "electrum.pepelum.site:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum.pepeblocks.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum.pepelum.site:50004",
                 "protocol": "WSS"
             }
         ],
@@ -38519,6 +38531,18 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:10077",
                 "contact": [
                     {
@@ -38531,8 +38555,32 @@
                 "protocol": "TCP"
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:9077",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "email": "chmex@dexstats.info"
@@ -42644,6 +42692,10 @@
         },
         "electrum": [
             {
+                "url": "88.99.26.209:5028",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.javerity.com:5885",
                 "contact": [
                     {
@@ -42706,6 +42758,10 @@
             "homepage": "https://vertcoin.org"
         },
         "electrum": [
+            {
+                "url": "88.99.26.209:5028",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx.javerity.com:5885",
                 "contact": [
@@ -44779,6 +44835,10 @@
         },
         "derivation_path": "m/44'/77'",
         "electrum": [
+            {
+                "url": "88.99.26.209:5036",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrum-verge.cloud:50001",
                 "protocol": "TCP"
