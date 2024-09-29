@@ -2533,6 +2533,24 @@
         "derivation_path": "m/44'/85'",
         "electrum": [
             {
+                "url": "electrum1.valhala.is:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "388437778624413706"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.valhala.is:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "388437778624413706"
+                    }
+                ]
+            },
+            {
                 "url": "failover.aur.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -2541,6 +2559,15 @@
                 "url": "electrumx.aur.ewmcx.info:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "electrum1.valhala.is:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "388437778624413706"
+                    }
+                ]
             },
             {
                 "url": "failover.aur.ewmcx.biz:50003",
@@ -4734,15 +4761,6 @@
         },
         "electrum": [
             {
-                "url": "bbk-one.ewm-cx.net:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "bbk-ex-three.ewmci.online:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -4753,6 +4771,15 @@
             },
             {
                 "url": "bbk-ex-two.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "bbk-one.ewm-cx.net:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
