@@ -2347,9 +2347,13 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "electrumx.aur.ewmcx.info:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
+                "url": "electrum1.valhala.is:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "388437778624413706"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -6005,15 +6009,6 @@
         "electrum": [
             {
                 "url": "electrum1.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum2.btcz.rocks:50001",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -26100,10 +26095,6 @@
         "electrum": [
             {
                 "url": "electrum.pepeblocks.com:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum.pepelum.site:50002",
                 "protocol": "SSL"
             },
             {
