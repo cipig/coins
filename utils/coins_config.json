@@ -2556,11 +2556,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "electrumx.aur.ewmcx.info:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "electrum1.valhala.is:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -2571,11 +2566,6 @@
             },
             {
                 "url": "failover.aur.ewmcx.biz:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrumx.aur.ewmcx.info:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -6825,25 +6815,7 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum2.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum1.btcz.rocks:50004",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum2.btcz.rocks:50004",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -30464,23 +30436,11 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum.pepelum.site:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum.pepeblocks.com:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrum.pepelum.site:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum.pepeblocks.com:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum.pepelum.site:50004",
                 "protocol": "WSS"
             }
         ],

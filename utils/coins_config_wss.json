@@ -2416,11 +2416,6 @@
                 "url": "failover.aur.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "electrumx.aur.ewmcx.info:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -6076,15 +6071,6 @@
         "electrum": [
             {
                 "url": "electrum1.btcz.rocks:50004",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum2.btcz.rocks:50004",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -25902,10 +25888,6 @@
         "electrum": [
             {
                 "url": "electrum.pepeblocks.com:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum.pepelum.site:50004",
                 "protocol": "WSS"
             }
         ],
