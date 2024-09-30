@@ -6216,6 +6216,15 @@
                     }
                 ],
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.btcz.rocks:50004",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -12112,8 +12121,7 @@
         "txfee": 100000,
         "dust": 54600,
         "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -23644,8 +23652,7 @@
         "txfee": 100000,
         "dust": 54600,
         "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -27411,7 +27418,7 @@
         },
         "electrum": [
             {
-                "url": "txserver.live:30001",
+                "url": "electrumx.live:30010",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -27420,7 +27427,7 @@
                 ]
             },
             {
-                "url": "electrumx.live:30010",
+                "url": "txserver.live:30001",
                 "protocol": "WSS",
                 "contact": [
                     {
