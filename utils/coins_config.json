@@ -3464,8 +3464,7 @@
         "txfee": 100000,
         "dust": 54600,
         "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
         "avg_blocktime": 30,
         "protocol": {
             "type": "UTXO"
@@ -6949,7 +6948,25 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum2.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum1.btcz.rocks:50004",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.btcz.rocks:50004",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -14111,8 +14128,7 @@
         "txfee": 100000,
         "dust": 54600,
         "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -27430,8 +27446,7 @@
         "txfee": 100000,
         "dust": 54600,
         "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -31980,15 +31995,6 @@
         },
         "electrum": [
             {
-                "url": "txserver.live:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.live:50010",
                 "protocol": "TCP",
                 "contact": [
@@ -31998,8 +32004,8 @@
                 ]
             },
             {
-                "url": "txserver.live:50002",
-                "protocol": "SSL",
+                "url": "txserver.live:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -32016,8 +32022,8 @@
                 ]
             },
             {
-                "url": "txserver.live:30001",
-                "protocol": "WSS",
+                "url": "txserver.live:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -32026,6 +32032,15 @@
             },
             {
                 "url": "electrumx.live:30010",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "txserver.live:30001",
                 "protocol": "WSS",
                 "contact": [
                     {
