@@ -236,6 +236,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -564,6 +572,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -842,17 +858,17 @@
                 ]
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "aby-ex-four.ewmci.online:50013",
@@ -864,17 +880,17 @@
                 ]
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50013",
-                "protocol": "WSS"
+                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             },
             {
                 "url": "electrumx-three.artbyte.live:50013",
                 "protocol": "WSS"
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -1027,6 +1043,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -1137,6 +1161,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -1258,6 +1290,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -1576,6 +1616,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -1696,6 +1744,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -1931,6 +1987,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -2110,6 +2174,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -2587,6 +2659,11 @@
                 ]
             },
             {
+                "url": "electrumx.aur.ewmcx.info:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "failover.aur.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -2599,6 +2676,11 @@
                         "discord": "388437778624413706"
                     }
                 ]
+            },
+            {
+                "url": "electrumx.aur.ewmcx.info:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             },
             {
                 "url": "failover.aur.ewmcx.biz:50003",
@@ -2693,6 +2775,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -3064,6 +3154,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -3340,6 +3438,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -3600,6 +3706,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -3874,6 +3988,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -4088,6 +4210,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -4540,6 +4670,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -4986,6 +5124,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -5195,26 +5341,7 @@
         "protocol": {
             "type": "UTXO"
         },
-        "electrum": [
-            {
-                "url": "bitexplorer.io:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "c4pt#7855"
-                    }
-                ]
-            },
-            {
-                "url": "bitexplorer.io:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "c4pt#7855"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
         "explorer_block_url": "block/"
     },
     "BLK": {
@@ -5717,6 +5844,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -5918,6 +6053,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -6034,6 +6177,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -6153,6 +6304,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -6218,6 +6377,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -7313,6 +7480,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -7692,6 +7867,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -7854,6 +8037,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -8547,6 +8738,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -8664,6 +8863,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -9170,6 +9377,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -9282,6 +9497,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -9738,6 +9961,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -9902,6 +10133,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -10210,6 +10449,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -10632,6 +10879,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -10924,6 +11179,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -11393,6 +11656,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -11462,6 +11733,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -11527,6 +11806,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -12045,6 +12332,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -12380,18 +12675,6 @@
         "electrum": [
             {
                 "url": "electrumx2.dimecoinnetwork.com:50001",
-                "contact": [
-                    {
-                        "email": "developer@dimecoinnetwork.com"
-                    },
-                    {
-                        "discord": "dhop14#9359"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.dimecoinnetwork.com:50001",
                 "contact": [
                     {
                         "email": "developer@dimecoinnetwork.com"
@@ -12846,6 +13129,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -13750,6 +14041,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -13878,6 +14177,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -14056,6 +14363,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -14363,6 +14678,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -14780,6 +15103,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -14900,6 +15231,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -15027,6 +15366,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -15245,6 +15592,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -15373,6 +15728,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -15438,6 +15801,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -15660,6 +16031,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -16290,6 +16669,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -16890,6 +17277,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -17007,6 +17402,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -17278,6 +17681,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -17394,6 +17805,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -18015,6 +18434,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -18406,6 +18833,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -18693,6 +19128,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -19681,6 +20124,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -19897,6 +20348,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -19962,6 +20421,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -20033,6 +20500,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -20154,6 +20629,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -20312,6 +20795,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -20377,6 +20868,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -20578,6 +21077,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -21130,6 +21637,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -21255,6 +21770,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -21377,6 +21900,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -21606,6 +22137,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -22098,6 +22637,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -22373,6 +22920,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -22544,6 +23099,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -23128,6 +23691,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -23800,6 +24371,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -24500,6 +25079,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -24650,34 +25237,7 @@
         "protocol": {
             "type": "UTXO"
         },
-        "electrum": [
-            {
-                "url": "electrumx.faircoin.tech:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "email": "antoinebrulenew@gmail.com"
-                    },
-                    {
-                        "discord": "merlin#7125"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.faircoin.tech:50004",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "email": "antoinebrulenew@gmail.com"
-                    },
-                    {
-                        "discord": "merlin#7125"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
         "explorer_block_url": "block/"
     },
     "LEO-ERC20": {
@@ -24719,6 +25279,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -24831,6 +25399,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -25246,6 +25822,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -25417,6 +26001,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -25487,6 +26079,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -26048,6 +26648,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -26315,6 +26923,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -26577,6 +27193,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -26733,6 +27357,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -26997,6 +27629,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -27220,6 +27860,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -27437,6 +28085,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -27604,6 +28260,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -27975,6 +28639,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -28475,6 +29147,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -29345,6 +30025,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -29597,6 +30285,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -29709,6 +30405,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -29894,6 +30598,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -30101,6 +30813,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -30364,6 +31084,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -30542,6 +31270,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -30662,11 +31398,23 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum.pepelum.site:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum.pepeblocks.com:50002",
                 "protocol": "SSL"
             },
             {
+                "url": "electrum.pepelum.site:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum.pepeblocks.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum.pepelum.site:50004",
                 "protocol": "WSS"
             }
         ],
@@ -30922,6 +31670,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -31046,6 +31802,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -31221,6 +31985,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -31415,6 +32187,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -31523,15 +32303,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -31541,8 +32312,8 @@
                 ]
             },
             {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL",
+                "url": "electrumx.live:50010",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -31559,8 +32330,8 @@
                 ]
             },
             {
-                "url": "electrumx.live:30010",
-                "protocol": "WSS",
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -31569,6 +32340,15 @@
             },
             {
                 "url": "txserver.live:30001",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.live:30010",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -31614,6 +32394,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -31788,6 +32576,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -32468,6 +33264,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -32538,6 +33342,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -32883,6 +33695,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -33093,6 +33913,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -33206,6 +34034,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -33271,6 +34107,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -33906,6 +34750,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -34018,6 +34870,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -34140,6 +35000,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -34210,6 +35078,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -34630,6 +35506,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -35062,6 +35946,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -35385,6 +36277,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -35798,6 +36698,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -36206,6 +37114,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -36569,6 +37485,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -36677,6 +37601,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -37284,6 +38216,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -37400,6 +38340,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -37671,6 +38619,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -38068,6 +39024,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -38499,6 +39463,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -38670,6 +39642,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -39026,6 +40006,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -39138,7 +40126,17 @@
                 "disable_cert_verification": false
             },
             {
+                "url": "uis-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "failover.trc-uis.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": false
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             }
@@ -39225,6 +40223,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -39387,6 +40393,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -39647,14 +40661,6 @@
         },
         "electrum": [
             {
-                "url": "electrum.unobtanium.uno:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum2.unobtanium.uno:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "uno-bkp.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -39863,6 +40869,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -40325,6 +41339,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -40848,6 +41870,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -41378,6 +42408,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -41443,6 +42481,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -42284,6 +43330,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -42405,6 +43459,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -42470,6 +43532,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -42799,6 +43869,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -43062,6 +44140,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -43242,15 +44328,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "xmy-two.ewm-cx.net:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "lenoir.ecoincore.com:10892",
                 "protocol": "SSL"
             },
@@ -43299,15 +44376,6 @@
             {
                 "url": "lenoir.ecoincore.com:10891",
                 "protocol": "TCP"
-            },
-            {
-                "url": "xmy-two.ewm-cx.net:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             },
             {
                 "url": "lenoir.ecoincore.com:10892",
@@ -43659,6 +44727,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -43729,6 +44805,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -44422,6 +45506,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -44695,6 +45787,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -45293,6 +46393,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -45603,6 +46711,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -46952,6 +48068,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -47021,6 +48145,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -47093,6 +48225,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -47164,6 +48304,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -47230,6 +48378,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -47295,6 +48451,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -47366,6 +48530,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -47431,6 +48603,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -47503,6 +48683,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -47572,6 +48760,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -47682,6 +48878,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -47747,6 +48951,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -47817,6 +49029,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -47889,6 +49109,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -47955,6 +49183,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -48020,6 +49256,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -48091,6 +49335,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -48157,6 +49409,14 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -48222,6 +49482,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -48339,6 +49607,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
@@ -49733,18 +51009,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "explorer.crionic.org:50001",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "coin.crionic.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -49757,31 +51021,7 @@
                 ]
             },
             {
-                "url": "explorer.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
                 "url": "coin.crionic.org:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
-                "url": "explorer.crionic.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -49977,15 +51217,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.kiirocoin.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "1155906841625239684"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -50004,15 +51235,6 @@
                 ]
             },
             {
-                "url": "electrum1.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -50023,15 +51245,6 @@
             },
             {
                 "url": "electrum3.kiirocoin.org:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -50615,6 +51828,14 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
             {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
