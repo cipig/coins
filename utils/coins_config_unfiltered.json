@@ -6616,12 +6616,24 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
+                "url": "electrumserver01.globalboost.info:50011",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumserver02.globalboost.info:50011",
                 "protocol": "TCP"
             },
             {
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
+            },
+            {
+                "url": "electrumserver01.globalboost.info:50013",
+                "protocol": "WSS"
             },
             {
                 "url": "electrumserver02.globalboost.info:50013",
@@ -9760,7 +9772,7 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrumx.cryptocollider.com:10001",
+                "url": "v2.cryptocollider.com:10001",
                 "contact": [
                     {
                         "email": "electrumx@cryptocollider.com"
@@ -9770,6 +9782,30 @@
                     }
                 ],
                 "protocol": "TCP"
+            },
+            {
+                "url": "v2.cryptocollider.com:8443",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ]
+            },
+            {
+                "url": "v2.cryptocollider.com:5001",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -21440,18 +21476,6 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrum1.ilien.io:65011",
-                "contact": [
-                    {
-                        "email": "admin@ilien.io"
-                    },
-                    {
-                        "discord": "siu - Chainmakers#3920"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum2.ilien.io:65011",
                 "contact": [
                     {
@@ -21464,7 +21488,19 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum1.ilien.io:30069",
+                "url": "electrum1.ilien.io:65011",
+                "contact": [
+                    {
+                        "email": "admin@ilien.io"
+                    },
+                    {
+                        "discord": "siu - Chainmakers#3920"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.ilien.io:30069",
                 "contact": [
                     {
                         "email": "admin@ilien.io"
@@ -21476,7 +21512,7 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum2.ilien.io:30069",
+                "url": "electrum1.ilien.io:30069",
                 "contact": [
                     {
                         "email": "admin@ilien.io"
