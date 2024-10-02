@@ -5993,6 +5993,10 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
+                "url": "electrumserver01.globalboost.info:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrumserver02.globalboost.info:50013",
                 "protocol": "WSS"
             }
@@ -8524,6 +8528,52 @@
             }
         ],
         "explorer_block_url": "block.dws?"
+    },
+    "CLC": {
+        "coin": "CLC",
+        "type": "Smart Chain",
+        "name": "Collider Coin",
+        "coinpaprika_id": "clc-collider-coin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://clc.explorer.dexstats.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "CLC",
+        "fname": "Collider Coin",
+        "rpcport": 31034,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "requires_notarization": false,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "v2.cryptocollider.com:5001",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "CLP-BEP20": {
         "coin": "CLP-BEP20",
@@ -18019,7 +18069,7 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrum1.ilien.io:30069",
+                "url": "electrum2.ilien.io:30069",
                 "contact": [
                     {
                         "email": "admin@ilien.io"
@@ -18031,7 +18081,7 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum2.ilien.io:30069",
+                "url": "electrum1.ilien.io:30069",
                 "contact": [
                     {
                         "email": "admin@ilien.io"
