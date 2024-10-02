@@ -5340,7 +5340,26 @@
         "protocol": {
             "type": "UTXO"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "bitexplorer.io:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "c4pt#7855"
+                    }
+                ]
+            },
+            {
+                "url": "bitexplorer.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "c4pt#7855"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "BLK": {
@@ -38965,6 +38984,18 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "1.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "2.eu.tokel.electrum.dexstats.info:10077",
                 "contact": [
                     {
@@ -38977,8 +39008,32 @@
                 "protocol": "TCP"
             },
             {
+                "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
                 "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
+                "url": "1.eu.tokel.electrum.dexstats.info:9077",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "email": "chmex@dexstats.info"
@@ -51023,6 +51078,18 @@
                 "protocol": "TCP"
             },
             {
+                "url": "explorer.crionic.org:50001",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "coin.crionic.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -51035,7 +51102,31 @@
                 ]
             },
             {
+                "url": "explorer.crionic.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
+            {
                 "url": "coin.crionic.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
+            {
+                "url": "explorer.crionic.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {
