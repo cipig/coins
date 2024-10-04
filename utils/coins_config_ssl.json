@@ -1382,6 +1382,15 @@
                         "discord": "482101557383528448"
                     }
                 ]
+            },
+            {
+                "url": "electrumx2.aipowergrid.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "482101557383528448"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -26584,6 +26593,10 @@
             {
                 "url": "electrum.pepeblocks.com:50002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "electrum.pepelum.site:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -33868,12 +33881,12 @@
         },
         "electrum": [
             {
-                "url": "failover.trc-uis.ewmcx.biz:50002",
+                "url": "uis-uno.ewmcx.net:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
             },
             {
-                "url": "uis-uno.ewmcx.net:50002",
+                "url": "failover.trc-uis.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
             }
