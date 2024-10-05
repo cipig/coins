@@ -31485,6 +31485,10 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum.pepelum.site:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum.pepeblocks.com:50002",
                 "protocol": "SSL"
             },
@@ -31494,6 +31498,10 @@
             },
             {
                 "url": "electrum.pepeblocks.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum.pepelum.site:50004",
                 "protocol": "WSS"
             }
         ],
@@ -51112,18 +51120,6 @@
         },
         "electrum": [
             {
-                "url": "coin.crionic.org:50001",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "explorer.crionic.org:50001",
                 "contact": [
                     {
@@ -51136,8 +51132,7 @@
                 "protocol": "TCP"
             },
             {
-                "url": "coin.crionic.org:50002",
-                "protocol": "SSL",
+                "url": "coin.crionic.org:50001",
                 "contact": [
                     {
                         "email": "diabatiis@gmail.com"
@@ -51145,7 +51140,8 @@
                     {
                         "discord": "Diabaths#1919"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             },
             {
                 "url": "explorer.crionic.org:50002",
@@ -51160,8 +51156,8 @@
                 ]
             },
             {
-                "url": "coin.crionic.org:50005",
-                "protocol": "WSS",
+                "url": "coin.crionic.org:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "diabatiis@gmail.com"
@@ -51173,6 +51169,18 @@
             },
             {
                 "url": "explorer.crionic.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
+            {
+                "url": "coin.crionic.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {

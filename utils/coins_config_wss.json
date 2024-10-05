@@ -26744,6 +26744,10 @@
             {
                 "url": "electrum.pepeblocks.com:50004",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum.pepelum.site:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -42861,7 +42865,7 @@
         },
         "electrum": [
             {
-                "url": "coin.crionic.org:50005",
+                "url": "explorer.crionic.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -42873,7 +42877,7 @@
                 ]
             },
             {
-                "url": "explorer.crionic.org:50005",
+                "url": "coin.crionic.org:50005",
                 "protocol": "WSS",
                 "contact": [
                     {
