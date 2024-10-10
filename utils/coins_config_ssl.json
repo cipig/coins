@@ -5898,11 +5898,11 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50014",
+                "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumserver02.globalboost.info:50014",
+                "url": "electrumserver01.globalboost.info:50014",
                 "protocol": "SSL"
             }
         ],
@@ -42441,6 +42441,15 @@
             "homepage": "https://kiirocoin.org"
         },
         "electrum": [
+            {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
             {
                 "url": "electrum2.kiirocoin.org:50002",
                 "protocol": "SSL",

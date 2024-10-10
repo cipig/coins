@@ -5997,11 +5997,11 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50013",
+                "url": "electrumserver02.globalboost.info:50013",
                 "protocol": "WSS"
             },
             {
-                "url": "electrumserver02.globalboost.info:50013",
+                "url": "electrumserver01.globalboost.info:50013",
                 "protocol": "WSS"
             }
         ],
@@ -42678,6 +42678,15 @@
             "homepage": "https://kiirocoin.org"
         },
         "electrum": [
+            {
+                "url": "electrum1.kiirocoin.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
             {
                 "url": "electrum2.kiirocoin.org:50004",
                 "protocol": "WSS",
