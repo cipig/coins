@@ -6607,27 +6607,27 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver01.globalboost.info:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumserver02.globalboost.info:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
+                "url": "electrumserver01.globalboost.info:50011",
+                "protocol": "TCP"
             },
             {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumserver01.globalboost.info:50013",
-                "protocol": "WSS"
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumserver02.globalboost.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumserver01.globalboost.info:50013",
                 "protocol": "WSS"
             }
         ],
@@ -46369,16 +46369,6 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/19167'",
-        "electrum": [
-            {
-                "url": "electrumx.runonflux.io:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx2.runonflux.io:50001",
-                "protocol": "TCP"
-            }
-        ],
         "explorer_block_url": "block/",
         "binance_id": "FLUX"
     },
@@ -50850,6 +50840,24 @@
         },
         "electrum": [
             {
+                "url": "electrum1.kiirocoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "1155906841625239684"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -50861,6 +50869,15 @@
             {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kiirocoin.org:50004",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
