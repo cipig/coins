@@ -6607,27 +6607,27 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver02.globalboost.info:50011",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumserver01.globalboost.info:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumserver02.globalboost.info:50014",
-                "protocol": "SSL"
+                "url": "electrumserver02.globalboost.info:50011",
+                "protocol": "TCP"
             },
             {
                 "url": "electrumserver01.globalboost.info:50014",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumserver02.globalboost.info:50013",
-                "protocol": "WSS"
+                "url": "electrumserver02.globalboost.info:50014",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumserver01.globalboost.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50013",
                 "protocol": "WSS"
             }
         ],
@@ -19647,18 +19647,6 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum18.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum19.groestlcoin.org:50004",
                 "contact": [
                     {
@@ -19900,6 +19888,18 @@
             },
             {
                 "url": "electrum40.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum18.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -41954,15 +41954,6 @@
                 "protocol": "TCP"
             },
             {
-                "url": "e3.validitytech.com:11001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "e2.validitytech.com:11001",
                 "contact": [
                     {
@@ -41972,17 +41963,16 @@
                 "protocol": "TCP"
             },
             {
-                "url": "e1.validitytech.com:11002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
+                "url": "e3.validitytech.com:11001",
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             },
             {
-                "url": "e3.validitytech.com:11002",
+                "url": "e1.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -42002,6 +41992,16 @@
                 ]
             },
             {
+                "url": "e3.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "e1.validitytech.com:11004",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
@@ -42012,7 +42012,7 @@
                 ]
             },
             {
-                "url": "e3.validitytech.com:11004",
+                "url": "e2.validitytech.com:11004",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -42022,7 +42022,7 @@
                 ]
             },
             {
-                "url": "e2.validitytech.com:11004",
+                "url": "e3.validitytech.com:11004",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -50493,15 +50493,6 @@
         },
         "electrum": [
             {
-                "url": "electrum.seed.mazanode.com:50001",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx.mazanode.com:50001",
                 "contact": [
                     {
@@ -50523,13 +50514,13 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrum.seed.mazanode.com:50002",
-                "protocol": "SSL",
+                "url": "electrum.seed.mazanode.com:50001",
                 "contact": [
                     {
                         "email": "brian@mazacoin.org"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             },
             {
                 "url": "electrumx.mazanode.com:50002",
@@ -50553,8 +50544,8 @@
                 ]
             },
             {
-                "url": "electrum.seed.mazanode.com:50005",
-                "protocol": "WSS",
+                "url": "electrum.seed.mazanode.com:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "brian@mazacoin.org"
@@ -50579,6 +50570,15 @@
                     },
                     {
                         "discord": "sherm77#5923"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.seed.mazanode.com:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
                     }
                 ]
             }

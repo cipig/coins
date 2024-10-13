@@ -5997,11 +5997,11 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
-                "url": "electrumserver02.globalboost.info:50013",
+                "url": "electrumserver01.globalboost.info:50013",
                 "protocol": "WSS"
             },
             {
-                "url": "electrumserver01.globalboost.info:50013",
+                "url": "electrumserver02.globalboost.info:50013",
                 "protocol": "WSS"
             }
         ],
@@ -35906,7 +35906,7 @@
                 ]
             },
             {
-                "url": "e3.validitytech.com:11004",
+                "url": "e2.validitytech.com:11004",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -35916,7 +35916,7 @@
                 ]
             },
             {
-                "url": "e2.validitytech.com:11004",
+                "url": "e3.validitytech.com:11004",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -42498,15 +42498,6 @@
         },
         "electrum": [
             {
-                "url": "electrum.seed.mazanode.com:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.mazanode.com:50005",
                 "protocol": "WSS",
                 "contact": [
@@ -42524,6 +42515,15 @@
                     },
                     {
                         "discord": "sherm77#5923"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.seed.mazanode.com:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
                     }
                 ]
             }
