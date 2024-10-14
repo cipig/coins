@@ -840,17 +840,17 @@
         },
         "electrum": [
             {
+                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
                 "protocol": "WSS"
             },
             {
                 "url": "electrumx-three.artbyte.live:50013",
                 "protocol": "WSS"
-            },
-            {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -2490,12 +2490,12 @@
                 ]
             },
             {
-                "url": "failover.aur.ewmcx.biz:50003",
+                "url": "electrumx.aur.ewmcx.info:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
-                "url": "electrumx.aur.ewmcx.info:50003",
+                "url": "failover.aur.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -26659,6 +26659,10 @@
             {
                 "url": "electrum.pepeblocks.com:50004",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum.pepelum.site:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -42498,6 +42502,15 @@
         },
         "electrum": [
             {
+                "url": "electrum.seed.mazanode.com:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.mazanode.com:50005",
                 "protocol": "WSS",
                 "contact": [
@@ -42515,15 +42528,6 @@
                     },
                     {
                         "discord": "sherm77#5923"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.seed.mazanode.com:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
                     }
                 ]
             }
