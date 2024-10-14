@@ -800,17 +800,17 @@
         },
         "electrum": [
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             },
             {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
-            },
-            {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -2320,12 +2320,12 @@
                 ]
             },
             {
-                "url": "failover.aur.ewmcx.biz:50002",
+                "url": "electrumx.aur.ewmcx.info:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "electrumx.aur.ewmcx.info:50002",
+                "url": "failover.aur.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -40870,6 +40870,15 @@
         },
         "electrum": [
             {
+                "url": "electrum.seed.mazanode.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.mazanode.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -40887,15 +40896,6 @@
                     },
                     {
                         "discord": "sherm77#5923"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.seed.mazanode.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
                     }
                 ]
             }
