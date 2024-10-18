@@ -6260,7 +6260,7 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
-                "url": "electrum1.btcz.rocks:50004",
+                "url": "electrum2.btcz.rocks:50004",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -6269,7 +6269,7 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum2.btcz.rocks:50004",
+                "url": "electrum1.btcz.rocks:50004",
                 "contact": [
                     {
                         "discord": "VandarGR#6065"
@@ -34538,12 +34538,12 @@
         },
         "electrum": [
             {
-                "url": "uno-bkp.coinmunity.gold:50003",
+                "url": "uno-main.coinmunity.gold:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
             {
-                "url": "uno-main.coinmunity.gold:50003",
+                "url": "uno-bkp.coinmunity.gold:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }

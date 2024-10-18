@@ -34256,12 +34256,12 @@
         },
         "electrum": [
             {
-                "url": "uno-bkp.coinmunity.gold:50002",
+                "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "uno-main.coinmunity.gold:50002",
+                "url": "uno-bkp.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -41442,7 +41442,7 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
-                "url": "electrs.electroncash.de:60002",
+                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -41451,7 +41451,7 @@
                 ]
             },
             {
-                "url": "tbch.loping.net:60002",
+                "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
