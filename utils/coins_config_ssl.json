@@ -6969,6 +6969,42 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
+                "url": "electrum1.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.btcz.rocks:50004",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.btcz.rocks:50004",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum3.btcz.rocks:50001",
                 "contact": [
                     {
@@ -44295,6 +44331,18 @@
             },
             {
                 "url": "electrum-verge.cloud:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx-verge.cloud:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx-verge.cloud:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx-verge.cloud:50004",
                 "protocol": "WSS"
             }
         ],
