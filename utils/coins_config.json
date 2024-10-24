@@ -5634,6 +5634,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/5'",
         "links": {
             "github": "https://github.com/BLOCXTECH/BLOCX",
             "homepage": "https://blocx.tech"
@@ -15973,6 +15974,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/136'",
         "trezor_coin": "Firo",
         "links": {
             "github": "https://github.com/firoorg/firo",
@@ -41469,6 +41471,11 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/634'",
+        "links": {
+            "github": "https://github.com/RadiumCore/Validity",
+            "homepage": "https://validitytech.com"
+        },
         "electrum": [
             {
                 "url": "e1.validitytech.com:11001",
@@ -44399,6 +44406,10 @@
         },
         "derivation_path": "m/44'/77'",
         "electrum": [
+            {
+                "url": "88.99.26.209:5036",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrum-verge.cloud:50001",
                 "protocol": "TCP"
@@ -48877,6 +48888,11 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/658'",
+        "links": {
+            "github": "https://github.com/whiveio/whive",
+            "homepage": "https://www.whive.io"
+        },
         "electrum": [
             {
                 "url": "electrumx1.cointest.com:50001",
@@ -48975,6 +48991,11 @@
         "avg_blocktime": 600,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/658'",
+        "links": {
+            "github": "https://github.com/whiveio/whive",
+            "homepage": "https://www.whive.io"
         },
         "electrum": [
             {
@@ -50026,6 +50047,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/136'",
         "links": {
             "github": "https://github.com/kiirocoin/kiiro",
             "homepage": "https://kiirocoin.org"
