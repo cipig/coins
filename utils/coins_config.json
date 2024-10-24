@@ -7028,6 +7028,24 @@
                     }
                 ],
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrum5.btcz.rocks:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "426842722436120577"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.btcz.rocks:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "426842722436120577"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
