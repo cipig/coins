@@ -19204,30 +19204,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.groestlcoin.org:50001",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum1.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum11.groestlcoin.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -31383,24 +31359,6 @@
                     }
                 ],
                 "protocol": "WSS"
-            },
-            {
-                "url": "electrum02.chainster.org:50001",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum02.chainster.org:50003",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ],
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?",
@@ -35065,7 +35023,80 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/10226'",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrum.electrumx-coin.shop:17488",
+                "contact": [
+                    {
+                        "email": "contact@electrumx-coin.shop"
+                    },
+                    {
+                        "github": "electrumx-coin"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum.electrumx-coin.shop:50008",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@electrumx-coin.shop"
+                    },
+                    {
+                        "github": "electrumx-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.electrumx-coin.shop:50009",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@electrumx-coin.shop"
+                    },
+                    {
+                        "github": "electrumx-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.electrumx-coin.shop:17488",
+                "contact": [
+                    {
+                        "email": "contact@electrumx-coin.shop"
+                    },
+                    {
+                        "github": "electrumx-coin"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.electrumx-coin.shop:50008",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@electrumx-coin.shop"
+                    },
+                    {
+                        "github": "electrumx-coin"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.electrumx-coin.shop:50009",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@electrumx-coin.shop"
+                    },
+                    {
+                        "github": "electrumx-coin"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "RTM-BEP20": {
@@ -51207,80 +51238,7 @@
         },
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum.lupacoin.biz:17487",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum.lupacoin.biz:50005",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.lupacoin.biz:50006",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.lupacoin.biz:17487",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum1.lupacoin.biz:50005",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.lupacoin.biz:50006",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
         "explorer_block_url": "block/"
     },
     "ZOIN": {
