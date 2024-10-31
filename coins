@@ -524,6 +524,7 @@
     "coin": "AIBC",
     "name": "aiblockchain",
     "fname": "Aiblockchain",
+    "sign_message_prefix": "Aiblockchain Signed Message:\n",
     "rpcport": 7772,
     "pubtype": 23,
     "p2shtype": 23,
@@ -531,16 +532,17 @@
     "txfee": 0,
     "dust": 5460,
     "segwit": true,
+    "bech32_hrp": "aibc",
     "mm2": 1,
     "required_confirmations": 11,
     "avg_blocktime": 30,
     "protocol": {
-      "type": "UTXO",
-      "bip44": "m/44'/2'/0'/0/0"
+      "type": "UTXO"
     },
+    "derivation_path": "m/44'/2'",
     "links": {
       "github": "https://github.com/nickgsh/AiBlockChain",
-      "homepage": "https://aibc.space/"
+      "homepage": "https://aibc.space"
     }
   },
   {
@@ -6055,6 +6057,7 @@
     "protocol": {
       "type": "UTXO"
     },
+    "derivation_path": "m/44'/101'",
     "links": {
       "github": "https://github.com/goldcoin/goldcoin",
       "homepage": "https://www.goldcoinproject.org"
@@ -10317,6 +10320,29 @@
     }
   },
   {
+    "coin": "PEP",
+    "name": "pepecoin",
+    "fname": "Pepecoin",
+    "rpcport": 33873,
+    "pubtype": 56,
+    "p2shtype": 22,
+    "wiftype": 158,
+    "segwit": false,
+    "txfee": 1000000,
+    "mm2": 1,
+    "sign_message_prefix": "Pepecoin Signed Message:\n",
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/3434'",
+    "links": {
+      "github": "https://github.com/pepecoinppc/pepecoin",
+      "homepage": "https://pepecoin.org"
+    }
+  },
+  {
     "coin": "PENDLE-ARB20",
     "name": "pendle_arb20",
     "fname": "Pendle",
@@ -12652,7 +12678,8 @@
     "required_confirmations": 0,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/1'"
   },
   {
     "coin": "TESTBTC-segwit",
@@ -12675,7 +12702,8 @@
     "required_confirmations": 0,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/1'"
   },
   {
     "coin": "TEL-ERC20",
@@ -16444,6 +16472,11 @@
     "avg_blocktime": 120,
     "protocol": {
       "type": "UTXO"
+    },
+    "derivation_path": "m/44'/88'",
+    "links": {
+      "github": "https://github.com/runebase/runebase",
+      "homepage": "https://www.runebase.io"
     }
   },
   {
