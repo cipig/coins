@@ -819,6 +819,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Artbyte Signed Message:\n",
         "fname": "ArtByte",
         "isPoS": 1,
         "rpcport": 9262,
@@ -834,6 +835,11 @@
         "avg_blocktime": 45,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/720'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/ArtBytE",
+            "homepage": "https://artbyte.art"
         },
         "electrum": [
             {
@@ -5089,6 +5095,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/1'",
         "electrum": [
             {
                 "url": "electrum1.blackcoin.nl:10012",
@@ -6391,6 +6398,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Bitweb Signed Message:\n",
         "fname": "Bitweb",
         "rpcport": 1605,
         "pubtype": 33,
@@ -10950,6 +10958,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Dpowcoin Signed Message:\n",
         "fname": "Dualpowcoin",
         "rpcport": 42002,
         "pubtype": 55,
@@ -11127,6 +11136,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "DiminutiveCoin Signed Message:\n",
         "fname": "Diminutive Coin",
         "rpcport": 49122,
         "pubtype": 32,
@@ -12092,11 +12102,6 @@
             },
             {
                 "url": "electrum3.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -18123,6 +18128,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "InfiniLooP Signed Message:\n",
         "fname": "InfiniLooP",
         "isPoS": 1,
         "rpcport": 9459,
@@ -18137,6 +18143,11 @@
         "avg_blocktime": 45,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/722'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/InfiniLooP",
+            "homepage": "https://infiniloop.io"
         },
         "electrum": [
             {
@@ -34800,6 +34811,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Unitus Signed Message:\n",
         "fname": "Unitus",
         "rpcport": 50604,
         "pubtype": 68,
@@ -34812,6 +34824,11 @@
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/723'",
+        "links": {
+            "github": "https://github.com/unitusdev/unitus",
+            "homepage": "https://unituscurrency.com"
         },
         "electrum": [
             {
@@ -39002,6 +39019,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Vanillacash Signed Message:\n",
         "fname": "VanillaCash",
         "isPoS": 1,
         "rpcport": 48888,
@@ -39015,6 +39033,11 @@
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/724'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/Vanillacash",
+            "homepage": "https://vanillacash.org"
         },
         "electrum": [
             {
@@ -39963,6 +39986,11 @@
         "avg_blocktime": 45,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/719'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/ZetacoinE",
+            "homepage": "https://zetacoin.io"
         },
         "electrum": [
             {
