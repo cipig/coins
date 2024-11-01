@@ -73,6 +73,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -114,6 +118,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -302,7 +310,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -398,6 +406,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -453,6 +465,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -502,6 +518,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -638,7 +658,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -692,7 +712,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -830,6 +850,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -1115,7 +1139,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -1161,6 +1185,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -1234,7 +1262,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -1284,6 +1312,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -1363,7 +1395,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -1405,6 +1437,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -1672,7 +1708,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -1722,6 +1758,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -1801,7 +1841,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -1914,7 +1954,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -1964,6 +2004,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -2043,7 +2087,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -2101,6 +2145,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -2231,7 +2279,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -2281,6 +2329,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -2622,6 +2674,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -2832,7 +2888,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -2915,6 +2971,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -3134,6 +3194,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -3210,7 +3274,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -3494,7 +3558,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -3762,7 +3826,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -3856,6 +3920,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -4043,7 +4111,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -4097,7 +4165,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -4139,6 +4207,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -4190,6 +4262,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -4266,7 +4342,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -4402,6 +4478,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -4725,7 +4805,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -4869,6 +4949,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -5102,6 +5186,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -5179,7 +5267,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -5920,7 +6008,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -6129,7 +6217,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -6171,6 +6259,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -6254,7 +6346,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -6380,7 +6472,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -6454,7 +6546,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -6497,6 +6589,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -6554,6 +6650,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -6604,6 +6704,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -7578,7 +7682,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -7620,6 +7724,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -7844,6 +7952,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -7967,7 +8079,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -8061,6 +8173,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -8138,7 +8254,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -8189,6 +8305,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -8668,6 +8788,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -8761,6 +8885,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -8838,7 +8966,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -8880,6 +9008,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -8964,7 +9096,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -9081,6 +9213,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -9336,7 +9472,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -9378,6 +9514,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -9457,7 +9597,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -9543,6 +9683,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -9780,6 +9924,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -9916,7 +10064,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -10012,6 +10160,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -10089,7 +10241,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -10175,6 +10327,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -10405,7 +10561,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -10463,6 +10619,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -10508,6 +10668,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -10561,7 +10725,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -10655,6 +10819,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -10834,7 +11002,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -11058,6 +11226,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -11135,7 +11307,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -11247,7 +11419,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -11387,6 +11559,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -11613,7 +11789,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -11690,7 +11866,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -11764,7 +11940,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -11806,6 +11982,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -11861,6 +12041,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -12242,7 +12426,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -12919,6 +13103,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -13042,7 +13230,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -13866,7 +14054,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -14003,7 +14191,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -14188,7 +14376,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -14274,6 +14462,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -14503,7 +14695,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -14550,6 +14742,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -14601,6 +14797,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -14706,7 +14906,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -14849,6 +15049,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -14927,7 +15131,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -14977,6 +15181,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -15056,7 +15264,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -15107,6 +15315,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -15191,7 +15403,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -15242,6 +15454,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -15416,7 +15632,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -15552,7 +15768,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -15626,7 +15842,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -15719,6 +15935,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -15856,7 +16076,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -16494,7 +16714,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -16940,7 +17160,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -17070,7 +17290,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -17196,7 +17416,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -17248,6 +17468,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -17297,6 +17521,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -17402,7 +17630,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -17476,7 +17704,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -17601,7 +17829,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -17651,6 +17879,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -18230,7 +18462,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -18280,6 +18512,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -18438,6 +18674,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -18499,6 +18739,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -18552,6 +18796,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -18629,7 +18877,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -18671,6 +18919,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -18734,6 +18986,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -18783,6 +19039,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -18925,7 +19185,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -19773,6 +20033,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -19818,6 +20082,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -19896,7 +20164,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -19990,6 +20258,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -20120,7 +20392,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -20194,7 +20466,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -20273,7 +20545,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -20323,6 +20595,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -20402,7 +20678,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -20444,6 +20720,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -20567,7 +20847,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -20641,7 +20921,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -20773,6 +21053,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -20850,7 +21134,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -20951,6 +21235,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -21162,6 +21450,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -21207,6 +21499,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -21286,7 +21582,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -21419,7 +21715,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -21550,7 +21846,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -21710,6 +22006,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -21787,7 +22087,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -21948,6 +22248,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -22056,6 +22360,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -22112,6 +22420,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -22162,6 +22474,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -22286,7 +22602,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -22337,6 +22653,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -22395,6 +22715,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -22445,6 +22769,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -22569,7 +22897,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -22619,6 +22947,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -22749,7 +23081,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -22802,6 +23134,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -22848,6 +23184,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -22906,6 +23246,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -22952,6 +23296,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -23010,6 +23358,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -23066,6 +23418,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -23114,6 +23470,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -23160,6 +23520,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -23212,6 +23576,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -23262,6 +23630,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -23341,7 +23713,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -23383,6 +23755,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -23430,6 +23806,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -23488,6 +23868,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -23536,6 +23920,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -23582,6 +23970,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -24021,7 +24413,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -24073,6 +24465,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -24122,6 +24518,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -24696,7 +25096,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -24746,6 +25146,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -24829,7 +25233,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -24871,6 +25275,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -24949,7 +25357,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -24995,6 +25403,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -25098,7 +25510,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -25236,6 +25648,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -25425,7 +25841,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -25528,6 +25944,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -25604,7 +26024,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -25683,7 +26103,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -26251,7 +26671,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -26398,6 +26818,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -26526,7 +26950,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -26576,6 +27000,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -26661,6 +27089,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -26796,7 +27228,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -26961,7 +27393,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -27232,7 +27664,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -27357,7 +27789,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -27454,6 +27886,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -27582,7 +28018,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -27678,6 +28114,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -27758,7 +28198,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -27804,6 +28244,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -27942,6 +28386,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -28139,7 +28587,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -28197,6 +28645,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -28649,7 +29101,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -28743,6 +29195,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -29526,7 +29982,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -29569,6 +30025,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -29754,7 +30214,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -29796,6 +30256,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -29875,7 +30339,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -29986,6 +30450,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -30068,7 +30536,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -30110,6 +30578,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -30155,6 +30627,10 @@
             },
             {
                 "url": "https://api.s0.t.hmny.io"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/harmony",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -30283,7 +30759,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -30421,6 +30897,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -30553,7 +31033,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -30603,6 +31083,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -30728,6 +31212,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -30801,7 +31289,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -30929,7 +31417,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -31042,6 +31530,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -31311,7 +31803,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -31361,6 +31853,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -31444,7 +31940,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -31486,6 +31982,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -31627,7 +32127,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -31669,6 +32169,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -31798,7 +32302,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -31840,6 +32344,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -32006,7 +32514,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -32056,6 +32564,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -32188,7 +32700,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -32282,6 +32794,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -32875,7 +33391,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -32954,7 +33470,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -33306,7 +33822,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -33524,7 +34040,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -33645,7 +34161,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -33719,7 +34235,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -33769,6 +34285,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -34361,7 +34881,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -34403,6 +34923,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -34482,7 +35006,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -34532,6 +35056,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -34611,7 +35139,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -34690,7 +35218,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -35013,7 +35541,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -35114,6 +35642,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -35324,6 +35856,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -35452,7 +35988,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -35506,7 +36042,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -35600,6 +36136,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -35708,6 +36248,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -35784,7 +36328,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -35972,6 +36516,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -36075,7 +36623,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -36125,6 +36673,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -36180,6 +36732,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -36259,7 +36815,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -36301,6 +36857,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -36405,6 +36965,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -36533,7 +37097,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -36587,7 +37151,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -36727,6 +37291,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -36906,7 +37474,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -37023,7 +37591,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -37126,6 +37694,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -37175,6 +37747,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -37228,7 +37804,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -37606,7 +38182,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -37731,7 +38307,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -37781,6 +38357,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -38012,7 +38592,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -38106,6 +38686,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -38347,7 +38931,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -38605,6 +39189,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -38708,6 +39296,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -38785,7 +39377,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -38965,7 +39557,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -39011,6 +39603,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -39064,7 +39660,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -39194,6 +39790,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -39328,7 +39928,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -39370,6 +39970,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -39469,6 +40073,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -39542,7 +40150,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -39584,6 +40192,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -39635,6 +40247,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -39712,7 +40328,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -39902,6 +40518,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -40011,6 +40631,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -40056,6 +40680,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -40101,6 +40729,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -40178,7 +40810,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -40289,7 +40921,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -40475,6 +41107,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -40520,6 +41156,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -40650,7 +41290,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -40750,7 +41390,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -40890,6 +41530,10 @@
                 "url": "https://electrum3.cipig.net:18755"
             },
             {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
+            },
+            {
                 "url": "https://polygon-bor-rpc.publicnode.com"
             },
             {
@@ -40951,6 +41595,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -41004,6 +41652,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -41049,6 +41701,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -41183,7 +41839,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -41725,7 +42381,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -41799,7 +42455,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -41841,6 +42497,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -42537,7 +43197,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -42587,6 +43247,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -42666,7 +43330,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -42740,7 +43404,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -42798,6 +43462,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/arb/",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/arb/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/arbitrum",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -42843,6 +43511,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -42947,7 +43619,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -42997,6 +43669,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -43076,7 +43752,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -43347,7 +44023,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -43398,6 +44074,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -43934,7 +44614,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -44013,7 +44693,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -44064,6 +44744,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -44583,6 +45267,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -44719,7 +45407,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -44773,7 +45461,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -44867,6 +45555,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -45001,7 +45693,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -45533,6 +46225,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -45611,7 +46307,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -45653,6 +46349,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
@@ -45884,7 +46584,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -47240,7 +47940,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -47318,7 +48018,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -47397,7 +48097,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -47476,7 +48176,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -47550,7 +48250,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -47624,7 +48324,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -47702,7 +48402,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -47776,7 +48476,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -47855,7 +48555,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -47933,7 +48633,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -48050,7 +48750,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -48124,7 +48824,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -48202,7 +48902,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -48281,7 +48981,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -48355,7 +49055,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -48429,7 +49129,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -48507,7 +49207,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -48581,7 +49281,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -48655,7 +49355,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -48780,7 +49480,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -50682,7 +51382,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/ethereum",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -50729,6 +51429,10 @@
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -50835,7 +51539,7 @@
             },
             {
                 "url": "https://node.komodo.earth:8080/fantom",
-                "gui_auth": true
+                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/"
@@ -50878,6 +51582,10 @@
         "nodes": [
             {
                 "url": "https://electrum3.cipig.net:18755"
+            },
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "komodo_proxy": true
             },
             {
                 "url": "https://polygon-bor-rpc.publicnode.com"
