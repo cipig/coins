@@ -1,5 +1,19 @@
 [
   {
+    "coin": "TSIA",
+    "asset": "TSIA",
+    "fname": "TSIA",
+    "rpcport": 59842,
+    "mm2": 1,
+    "required_confirmations": 6,
+    "avg_blocktime": 600,
+    "decimals": 24,
+    "derivation_path": "m/44'/1991'",
+    "protocol": {
+      "type": "SIA"
+    }
+  },
+  {
     "coin": "1INCH-AVX20",
     "name": "1inch_avx20",
     "fname": "1Inch",
@@ -14214,24 +14228,6 @@
         "erc20_payment": 110000,
         "erc20_receiver_spend": 85000,
         "erc20_sender_refund": 85000
-    }
-  },
-  {
-    "coin": "VRM",
-    "name": "verium",
-    "fname": "Verium Reserve",
-    "rpcport": 33987,
-    "pubtype": 70,
-    "p2shtype": 132,
-    "wiftype": 198,
-    "txfee": 100000,
-    "force_min_relay_fee": true,
-    "isPoS": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "avg_blocktime": 240,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
