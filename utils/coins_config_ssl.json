@@ -6193,16 +6193,7 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/664'",
-        "electrum": [
-            {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrumserver02.globalboost.info:50014",
-                "protocol": "SSL"
-            }
-        ],
+        "electrum": [],
         "explorer_block_url": "block/"
     },
     "BTC": {
@@ -12258,6 +12249,11 @@
         "electrum": [
             {
                 "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
