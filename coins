@@ -8326,26 +8326,6 @@
     }
   },
   {
-    "coin": "LNC",
-    "name": "lightningcash",
-    "fname": "LightningCash",
-    "rpcport": 9110,
-    "pubtype": 28,
-    "p2shtype": 50,
-    "wiftype": 176,
-    "decimals": 8,
-    "signature_version": "base",
-    "txfee": 10000,
-    "segwit": true,
-    "bech32_hrp": "lnc",
-    "mm2": 1,
-    "required_confirmations": 6,
-    "avg_blocktime": 5,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "FRC",
     "name": "faircoin",
     "fname": "FairCoin",
@@ -12545,23 +12525,6 @@
     "links": {
       "github": "https://github.com/syscoin/syscoin",
       "homepage": "https://syscoin.org"
-    }
-  },
-  {
-    "coin": "SCA",
-    "name": "scalaris",
-    "fname": "Scalaris",
-    "rpcport": 42510,
-    "txversion": 1,
-    "pubtype": 63,
-    "p2shtype": 23,
-    "wiftype": 154,
-    "txfee": 200000,
-    "required_confirmations": 3,
-    "avg_blocktime": 60,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
