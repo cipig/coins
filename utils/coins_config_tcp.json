@@ -12811,10 +12811,10 @@
         "use_access_list": true,
         "max_eth_tx_type": 2,
         "gas_limit": {
-            "eth_send_erc20": 300000,
-            "erc20_payment": 600000,
-            "erc20_receiver_spend": 500000,
-            "erc20_sender_refund": 500000
+            "eth_send_coins": 200000,
+            "eth_payment": 500000,
+            "eth_receiver_spend": 500000,
+            "eth_sender_refund": 500000
         },
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
