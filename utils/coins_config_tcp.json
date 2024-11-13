@@ -11640,6 +11640,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/7070'",
         "electrum": [
             {
                 "url": "big-parrot-60.doi.works:50002",
@@ -11647,7 +11648,7 @@
                 "contact": [
                     {
                         "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
+                        "twitter": "doichain"
                     }
                 ],
                 "ws-url": "big-parrot-60.doi.works:50004"
@@ -11658,7 +11659,7 @@
                 "contact": [
                     {
                         "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
+                        "twitter": "doichain"
                     }
                 ],
                 "ws-url": "itchy-jellyfish-89.doi.works:50004"
@@ -11669,7 +11670,7 @@
                 "contact": [
                     {
                         "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
+                        "twitter": "doichain"
                     }
                 ],
                 "ws-url": "ugly-bird-70.doi.works:50004"
@@ -37474,11 +37475,6 @@
                         "telegram": "@fsmv0"
                     }
                 ]
-            },
-            {
-                "url": "xrg_ful.googol.cash:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block/"
@@ -41713,6 +41709,18 @@
         "electrum": [
             {
                 "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
