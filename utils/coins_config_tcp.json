@@ -850,11 +850,6 @@
                 ]
             },
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             },
@@ -9418,9 +9413,9 @@
         "coinpaprika_id": "cy-cyberyen-c",
         "coingecko_id": "cyberyen",
         "livecoinwatch_id": "CY",
-        "explorer_url": "https://explorer.cyberyen.org/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
+        "explorer_url": "https://cyberyen.work/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -9452,10 +9447,7 @@
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "email": "ruaxxx@ruaxxx.com"
-                    },
-                    {
-                        "discord": "ruaxxx#3151"
+                        "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
                     }
                 ]
             },
@@ -9464,10 +9456,7 @@
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "email": "ruaxxx@ruaxxx.com"
-                    },
-                    {
-                        "discord": "ruaxxx#3151"
+                        "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
                     }
                 ]
             }
@@ -9481,9 +9470,9 @@
         "coinpaprika_id": "cy-cyberyen-c",
         "coingecko_id": "cyberyen",
         "livecoinwatch_id": "CY",
-        "explorer_url": "https://explorer.cyberyen.org/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
+        "explorer_url": "https://cyberyen.work/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -9519,10 +9508,7 @@
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "email": "ruaxxx@ruaxxx.com"
-                    },
-                    {
-                        "discord": "ruaxxx#3151"
+                        "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
                     }
                 ]
             },
@@ -9531,10 +9517,7 @@
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "email": "ruaxxx@ruaxxx.com"
-                    },
-                    {
-                        "discord": "ruaxxx#3151"
+                        "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
                     }
                 ]
             }
@@ -11711,11 +11694,6 @@
         "electrum": [
             {
                 "url": "electrum1.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -17837,28 +17815,6 @@
             },
             {
                 "url": "il8p.electrumx.transcenders.name:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
-                    }
-                ]
-            },
-            {
-                "url": "il9p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
