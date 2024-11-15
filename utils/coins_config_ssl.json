@@ -2374,6 +2374,50 @@
         "explorer_block_url": "block/",
         "binance_id": "ATOM"
     },
+    "AUR": {
+        "coin": "AUR",
+        "type": "UTXO",
+        "name": "Auroracoin",
+        "coinpaprika_id": "aur-auroracoin",
+        "coingecko_id": "auroracoin",
+        "livecoinwatch_id": "AUR",
+        "explorer_url": "https://chainz.cryptoid.info/aur/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "AuroraCoin Signed Message:\n",
+        "fname": "Auroracoin",
+        "rpcport": 12341,
+        "pubtype": 23,
+        "p2shtype": 5,
+        "wiftype": 176,
+        "txfee": 5000,
+        "segwit": false,
+        "bech32_hrp": "aur",
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/85'",
+        "electrum": [
+            {
+                "url": "electrum1.valhala.is:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "388437778624413706"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "AVA-BEP20": {
         "coin": "AVA-BEP20",
         "type": "BEP-20",
