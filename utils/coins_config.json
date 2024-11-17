@@ -30073,6 +30073,14 @@
         "derivation_path": "m/44'/81'",
         "electrum": [
             {
+                "url": "pot-duo.ewmcx.net:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "pot-duo.ewmcx.net:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "pot-uno.ewmcx.net:50002",
                 "protocol": "SSL"
             },
@@ -37904,6 +37912,16 @@
             },
             {
                 "url": "failover.trc-uis.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": false
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             }
