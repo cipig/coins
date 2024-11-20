@@ -27,7 +27,7 @@
         },
         "nodes": [
             {
-                "url": "https://sia-walletd.komodo.earth/"
+                "url": "https://api.siascan.com/anagami/wallet/"
             }
         ],
         "explorer_block_url": "block/"
@@ -13261,6 +13261,16 @@
             },
             {
                 "url": "electrum3.egulden.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "lenoir.ecoincore.com:11019",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
