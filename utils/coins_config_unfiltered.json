@@ -6939,6 +6939,21 @@
         },
         "electrum": [
             {
+                "url": "electrumx.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.bitwebcore.net:20003",
                 "protocol": "WSS",
                 "contact": [
@@ -7055,6 +7070,21 @@
             "homepage": "https://bitwebcore.net"
         },
         "electrum": [
+            {
+                "url": "electrumx.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
             {
                 "url": "electrumx.bitwebcore.net:20003",
                 "protocol": "WSS",
@@ -42266,7 +42296,17 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/90'",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "xmy-two.ewm-cx.net:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "XMY-segwit": {
@@ -42303,7 +42343,17 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/90'",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "xmy-two.ewm-cx.net:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "XNA": {
@@ -48578,30 +48628,6 @@
                     }
                 ],
                 "protocol": "TCP"
-            },
-            {
-                "url": "explorer.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
-                "url": "explorer.crionic.org:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
