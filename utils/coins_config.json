@@ -899,6 +899,24 @@
                 ]
             },
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             },
@@ -7016,36 +7034,6 @@
                         "github": "https://github.com/bitweb-project/electrumx/issues"
                     }
                 ]
-            },
-            {
-                "url": "electrumx2.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.bitwebcore.net:20003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -7136,36 +7124,6 @@
             },
             {
                 "url": "electrumx1.bitwebcore.net:20003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.bitwebcore.net:20003",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -8281,6 +8239,11 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "seattle.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "woolloomooloo.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -8367,6 +8330,11 @@
             },
             {
                 "url": "oakland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
@@ -13228,6 +13196,16 @@
             },
             {
                 "url": "electrum3.egulden.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "holland.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "holland.ecoincore.com:11019",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -30160,6 +30138,14 @@
         "derivation_path": "m/44'/81'",
         "electrum": [
             {
+                "url": "pot-duo.ewmcx.net:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "pot-duo.ewmcx.net:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "pot-uno.ewmcx.net:50002",
                 "protocol": "SSL"
             },
@@ -37991,6 +37977,16 @@
             },
             {
                 "url": "failover.trc-uis.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": false
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             }
