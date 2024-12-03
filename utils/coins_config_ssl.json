@@ -4976,16 +4976,6 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
-            },
-            {
-                "url": "electrum3.blackcoin.nl:30012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -41659,15 +41649,6 @@
             "homepage": "https://kiirocoin.org"
         },
         "electrum": [
-            {
-                "url": "electrum1.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
             {
                 "url": "electrum2.kiirocoin.org:50002",
                 "protocol": "SSL",
