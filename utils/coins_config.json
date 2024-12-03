@@ -9178,6 +9178,76 @@
         ],
         "explorer_block_url": "block.dws?"
     },
+    "CLC": {
+        "coin": "CLC",
+        "type": "Smart Chain",
+        "name": "Collider Coin",
+        "coinpaprika_id": "clc-collider-coin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://clc.explorer.dexstats.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "CLC",
+        "fname": "Collider Coin",
+        "rpcport": 31034,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "requires_notarization": false,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "v2.cryptocollider.com:10001",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "v2.cryptocollider.com:5001",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ]
+            },
+            {
+                "url": "v2.cryptocollider.com:8443",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "CLP-BEP20": {
         "coin": "CLP-BEP20",
         "type": "BEP-20",
@@ -29909,6 +29979,52 @@
         ],
         "explorer_block_url": "block/"
     },
+    "PINK": {
+        "coin": "PINK",
+        "type": "UTXO",
+        "name": "Pinkcoin",
+        "coinpaprika_id": "pink-pinkcoin",
+        "coingecko_id": "pinkcoin",
+        "livecoinwatch_id": "PINK",
+        "explorer_url": "https://chainz.cryptoid.info/pink/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "Pinkcoin Signed Message:\n",
+        "fname": "Pinkcoin",
+        "rpcport": 9135,
+        "isPoS": 1,
+        "pubtype": 3,
+        "p2shtype": 28,
+        "wiftype": 131,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/117'",
+        "links": {
+            "github": "https://github.com/Pink2Dev/Pink2",
+            "homepage": "https://getstarted.with.pink"
+        },
+        "electrum": [
+            {
+                "url": "pink-one.ewm-cx.net:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "pink-two.ewm-cx.net:50001",
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "PIVX": {
         "coin": "PIVX",
         "type": "UTXO",
@@ -39942,6 +40058,35 @@
             },
             {
                 "url": "e2.validitytech.com:11004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "e3.validitytech.com:11001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "e3.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "e3.validitytech.com:11004",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [

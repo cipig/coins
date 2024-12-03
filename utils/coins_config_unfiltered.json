@@ -9324,7 +9324,44 @@
         },
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "v2.cryptocollider.com:10001",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "v2.cryptocollider.com:5001",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ]
+            },
+            {
+                "url": "v2.cryptocollider.com:8443",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "CLP-BEP20": {
@@ -30254,7 +30291,16 @@
             "github": "https://github.com/Pink2Dev/Pink2",
             "homepage": "https://getstarted.with.pink"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "pink-one.ewm-cx.net:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "pink-two.ewm-cx.net:50001",
+                "protocol": "TCP"
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "PIVX": {
@@ -40384,6 +40430,35 @@
             },
             {
                 "url": "e2.validitytech.com:11004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "e3.validitytech.com:11001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "e3.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "e3.validitytech.com:11004",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
