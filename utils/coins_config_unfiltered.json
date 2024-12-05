@@ -938,6 +938,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Artbyte Signed Message:\n",
         "fname": "ArtByte",
         "isPoS": 1,
         "rpcport": 9262,
@@ -952,6 +953,11 @@
         "avg_blocktime": 45,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/720'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/ArtBytE",
+            "homepage": "https://artbyte.art"
         },
         "electrum": [
             {
@@ -1538,6 +1544,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Aiblockchain Signed Message:\n",
         "fname": "Aiblockchain",
         "rpcport": 7772,
         "pubtype": 23,
@@ -1546,16 +1553,17 @@
         "txfee": 0,
         "dust": 5460,
         "segwit": true,
+        "bech32_hrp": "aibc",
         "mm2": 1,
         "required_confirmations": 11,
         "avg_blocktime": 30,
         "protocol": {
-            "type": "UTXO",
-            "bip44": "m/44'/2'/0'/0/0"
+            "type": "UTXO"
         },
+        "derivation_path": "m/44'/2'",
         "links": {
             "github": "https://github.com/nickgsh/AiBlockChain",
-            "homepage": "https://aibc.space/"
+            "homepage": "https://aibc.space"
         },
         "electrum": [
             {
@@ -5927,6 +5935,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/1'",
         "electrum": [
             {
                 "url": "electrum1.blackcoin.nl:10011",
@@ -6047,6 +6056,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/5'",
         "links": {
             "github": "https://github.com/BLOCXTECH/BLOCX",
             "homepage": "https://blocx.tech"
@@ -7607,6 +7617,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Bitweb Signed Message:\n",
         "fname": "Bitweb",
         "rpcport": 1605,
         "pubtype": 33,
@@ -7620,6 +7631,11 @@
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/738'",
+        "links": {
+            "github": "https://github.com/bitweb-project/bitweb",
+            "homepage": "https://bitwebcore.net"
         },
         "electrum": [
             {
@@ -7747,6 +7763,11 @@
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/84'/738'",
+        "links": {
+            "github": "https://github.com/bitweb-project/bitweb",
+            "homepage": "https://bitwebcore.net"
         },
         "electrum": [
             {
@@ -9716,19 +9737,7 @@
         "derivation_path": "m/44'/682'",
         "electrum": [
             {
-                "url": "electrum1.mooo.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum2.mooo.com:10007",
+                "url": "electrum.shorelinecrypto.com:10007",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -13022,6 +13031,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Dpowcoin Signed Message:\n",
         "fname": "Dualpowcoin",
         "rpcport": 42002,
         "pubtype": 55,
@@ -13035,6 +13045,11 @@
         "avg_blocktime": 300,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/739'",
+        "links": {
+            "github": "https://github.com/dpowcore-project/dpowcoin",
+            "homepage": "https://dpowcore.org"
         },
         "electrum": [
             {
@@ -13281,6 +13296,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "DiminutiveCoin Signed Message:\n",
         "fname": "Diminutive Coin",
         "rpcport": 49122,
         "pubtype": 32,
@@ -16745,6 +16761,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/136'",
         "trezor_coin": "Firo",
         "links": {
             "github": "https://github.com/firoorg/firo",
@@ -18759,6 +18776,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/101'",
         "links": {
             "github": "https://github.com/goldcoin/goldcoin",
             "homepage": "https://www.goldcoinproject.org"
@@ -22047,6 +22065,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "InfiniLooP Signed Message:\n",
         "fname": "InfiniLooP",
         "isPoS": 1,
         "rpcport": 9459,
@@ -22061,6 +22080,11 @@
         "avg_blocktime": 45,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/722'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/InfiniLooP",
+            "homepage": "https://infiniloop.io"
         },
         "electrum": [
             {
@@ -30200,6 +30224,18 @@
         "derivation_path": "m/44'/681'",
         "electrum": [
             {
+                "url": "electrum.shorelinecrypto.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum1.mooo.com:10001",
                 "contact": [
                     {
@@ -32507,6 +32543,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/3434'",
         "links": {
             "github": "https://github.com/pepecoinppc/pepecoin",
             "homepage": "https://pepecoin.org"
@@ -39933,6 +39970,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/1'",
         "electrum": [
             {
                 "url": "electrum3.cipig.net:10068",
@@ -40010,6 +40048,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/84'/1'",
         "electrum": [
             {
                 "url": "electrum3.cipig.net:10068",
@@ -41660,6 +41699,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Unitus Signed Message:\n",
         "fname": "Unitus",
         "rpcport": 50604,
         "pubtype": 68,
@@ -41672,6 +41712,11 @@
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/723'",
+        "links": {
+            "github": "https://github.com/unitusdev/unitus",
+            "homepage": "https://unituscurrency.com"
         },
         "electrum": [
             {
@@ -43877,6 +43922,11 @@
         "mature_confirmations": 60,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/634'",
+        "links": {
+            "github": "https://github.com/RadiumCore/Validity",
+            "homepage": "https://validitytech.com"
         },
         "electrum": [
             {
@@ -46825,6 +46875,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Vanillacash Signed Message:\n",
         "fname": "VanillaCash",
         "isPoS": 1,
         "rpcport": 48888,
@@ -46838,6 +46889,11 @@
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/724'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/Vanillacash",
+            "homepage": "https://vanillacash.org"
         },
         "electrum": [
             {
@@ -48090,6 +48146,11 @@
         "avg_blocktime": 45,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/719'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/ZetacoinE",
+            "homepage": "https://zetacoin.io"
         },
         "electrum": [
             {
@@ -51830,6 +51891,11 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/658'",
+        "links": {
+            "github": "https://github.com/whiveio/whive",
+            "homepage": "https://www.whive.io"
+        },
         "electrum": [
             {
                 "url": "electrumx1.cointest.com:50001",
@@ -51898,6 +51964,11 @@
         "avg_blocktime": 600,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/84'/658'",
+        "links": {
+            "github": "https://github.com/whiveio/whive",
+            "homepage": "https://www.whive.io"
         },
         "electrum": [
             {
@@ -52188,6 +52259,11 @@
         "avg_blocktime": 120,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/88'",
+        "links": {
+            "github": "https://github.com/runebase/runebase",
+            "homepage": "https://www.runebase.io"
         },
         "electrum": [
             {
@@ -52962,6 +53038,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/136'",
         "links": {
             "github": "https://github.com/kiirocoin/kiiro",
             "homepage": "https://kiirocoin.org"
