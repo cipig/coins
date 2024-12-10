@@ -885,6 +885,10 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             }
@@ -2459,6 +2463,16 @@
                         "discord": "388437778624413706"
                     }
                 ]
+            },
+            {
+                "url": "electrumx.aur.ewmcx.info:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "failover.aur.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -10841,6 +10855,18 @@
         },
         "electrum": [
             {
+                "url": "electrumx1.dimecoinnetwork.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "developer@dimecoinnetwork.com"
+                    },
+                    {
+                        "discord": "dhop14#9359"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx2.dimecoinnetwork.com:50001",
                 "contact": [
                     {
@@ -17946,6 +17972,28 @@
             },
             {
                 "url": "il8p.electrumx.transcenders.name:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il9p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -38160,6 +38208,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "electrumx1.vanillacash.info:50011",
+                "protocol": "TCP"
             },
             {
                 "url": "electrumx2.vanillacash.info:50011",
