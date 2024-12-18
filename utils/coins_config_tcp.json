@@ -2919,6 +2919,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "DarkCoin Signed Message:\n",
         "fname": "Axe",
         "rpcport": 9337,
         "pubtype": 55,
@@ -41620,6 +41621,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "eCash Signed Message:\n",
         "fname": "eCash",
         "rpcport": 8332,
         "pubtype": 0,
@@ -41641,6 +41643,10 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/1899'",
+        "links": {
+            "github": "https://github.com/Bitcoin-ABC/bitcoin-abc",
+            "homepage": "https://e.cash"
+        },
         "electrum": [
             {
                 "url": "ecash.stackwallet.com:59002",
