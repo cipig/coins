@@ -6475,6 +6475,18 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
+                "url": "electrumserver01.globalboost.info:50011",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumserver01.globalboost.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrumserver02.globalboost.info:50011",
                 "protocol": "TCP"
             },
@@ -8361,16 +8373,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "miami.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -8432,16 +8434,6 @@
             },
             {
                 "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "miami.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "miami.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -13433,6 +13425,16 @@
             },
             {
                 "url": "electrum1.egulden.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -33806,6 +33808,14 @@
         },
         "derivation_path": "m/44'/10226'",
         "electrum": [
+            {
+                "url": "x1.raptoreum.com:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "x1.raptoreum.com:50004",
+                "protocol": "WSS"
+            },
             {
                 "url": "x2.raptoreum.com:50001",
                 "protocol": "TCP"

@@ -792,6 +792,10 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
+                "url": "electrumserver01.globalboost.info:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrumserver02.globalboost.info:50013",
                 "protocol": "WSS"
             }
@@ -1293,11 +1297,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "woolloomooloo.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -1344,11 +1343,6 @@
         "electrum": [
             {
                 "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "miami.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -2419,6 +2413,11 @@
         "electrum": [
             {
                 "url": "electrum1.egulden.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -5447,6 +5446,10 @@
         },
         "derivation_path": "m/44'/10226'",
         "electrum": [
+            {
+                "url": "x1.raptoreum.com:50004",
+                "protocol": "WSS"
+            },
             {
                 "url": "x2.raptoreum.com:50004",
                 "protocol": "WSS"
