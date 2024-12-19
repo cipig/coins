@@ -4505,11 +4505,21 @@
         "electrum": [
             {
                 "url": "electrum.pepeblocks.com:50004",
-                "protocol": "WSS"
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "realmasterkush"
+                    }
+                ]
             },
             {
                 "url": "electrum.pepelum.site:50004",
-                "protocol": "WSS"
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "emgi2"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"

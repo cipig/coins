@@ -29775,27 +29775,57 @@
         "electrum": [
             {
                 "url": "electrum.pepeblocks.com:50001",
-                "protocol": "TCP"
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "realmasterkush"
+                    }
+                ]
             },
             {
                 "url": "electrum.pepeblocks.com:50002",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "realmasterkush"
+                    }
+                ]
             },
             {
                 "url": "electrum.pepeblocks.com:50004",
-                "protocol": "WSS"
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "realmasterkush"
+                    }
+                ]
             },
             {
                 "url": "electrum.pepelum.site:50001",
-                "protocol": "TCP"
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "emgi2"
+                    }
+                ]
             },
             {
                 "url": "electrum.pepelum.site:50002",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "emgi2"
+                    }
+                ]
             },
             {
                 "url": "electrum.pepelum.site:50004",
-                "protocol": "WSS"
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "emgi2"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"

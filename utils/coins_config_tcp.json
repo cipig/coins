@@ -26387,11 +26387,21 @@
         "electrum": [
             {
                 "url": "electrum.pepeblocks.com:50002",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "realmasterkush"
+                    }
+                ]
             },
             {
                 "url": "electrum.pepelum.site:50002",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "emgi2"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
