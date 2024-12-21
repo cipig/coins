@@ -2030,6 +2030,56 @@
         ],
         "explorer_block_url": "block/"
     },
+    "DIME": {
+        "coin": "DIME",
+        "type": "UTXO",
+        "name": "Dimecoin",
+        "coinpaprika_id": "dime-dimecoin",
+        "coingecko_id": "dimecoin",
+        "livecoinwatch_id": "DIME",
+        "explorer_url": "https://chainz.cryptoid.info/dime/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Dimecoin Signed Message:\n",
+        "fname": "Dimecoin",
+        "rpcport": 11931,
+        "pubtype": 15,
+        "p2shtype": 9,
+        "wiftype": 143,
+        "segwit": false,
+        "bech32_hrp": "vx",
+        "txfee": 1000,
+        "decimals": 5,
+        "mm2": 1,
+        "required_confirmations": 6,
+        "avg_blocktime": 64,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/dime-coin/dimecoin/"
+        },
+        "electrum": [
+            {
+                "url": "electrumx1.dimecoinnetwork.com:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "developer@dimecoinnetwork.com"
+                    },
+                    {
+                        "discord": "dhop14#9359"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "DIMI": {
         "coin": "DIMI",
         "type": "UTXO",
@@ -2801,8 +2851,8 @@
         "coin": "GLEEC-OLD",
         "type": "Smart Chain",
         "name": "Gleec (OLD)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
+        "coinpaprika_id": "gleec-gleec-coin",
+        "coingecko_id": "gleec-coin",
         "livecoinwatch_id": "GLEEC",
         "explorer_url": "https://gleec.explorer.dexstats.info/",
         "explorer_tx_url": "",
@@ -8141,6 +8191,68 @@
                     },
                     {
                         "discord": "Diabaths#1919"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "EVR": {
+        "coin": "EVR",
+        "type": "UTXO",
+        "name": "Evrmore Coin",
+        "coinpaprika_id": "evr-evrmore",
+        "coingecko_id": "evrmore",
+        "livecoinwatch_id": "_EVR",
+        "explorer_url": "https://evr.cryptoscope.io/",
+        "explorer_tx_url": "tx/?txid=",
+        "explorer_address_url": "address/?address=",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Evrmore Signed Message:\n",
+        "fname": "Evrmore Coin",
+        "rpcport": 8819,
+        "pubtype": 33,
+        "p2shtype": 92,
+        "wiftype": 128,
+        "segwit": true,
+        "txfee": 1000000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/175'",
+        "links": {
+            "github": "https://github.com/EvrmoreOrg/Evrmore",
+            "homepage": "https://evrmorecoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum1-mainnet.evrmorecoin.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "hans_schm1dt@protonmail.com"
+                    },
+                    {
+                        "discord": "Hans_Schmidt#0745"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2-mainnet.evrmorecoin.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "hans_schm1dt@protonmail.com"
+                    },
+                    {
+                        "discord": "Hans_Schmidt#0745"
                     }
                 ]
             }
