@@ -94,6 +94,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -148,7 +152,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -510,7 +515,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -571,7 +577,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -613,6 +620,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -952,7 +963,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -972,6 +984,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Artbyte Signed Message:\n",
         "fname": "ArtByte",
         "isPoS": 1,
         "rpcport": 9262,
@@ -987,6 +1000,11 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/720'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/ArtBytE",
+            "homepage": "https://artbyte.art"
+        },
         "electrum": [
             {
                 "url": "aby-ex-four.ewmci.online:50012",
@@ -996,6 +1014,11 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
@@ -1245,6 +1268,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -1377,7 +1404,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -1500,7 +1528,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -1732,7 +1761,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -1976,7 +2006,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -2295,7 +2326,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -2582,7 +2614,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -2842,6 +2875,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -2927,6 +2964,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Raven Signed Message:\n",
         "fname": "Avian",
         "rpcport": 7896,
         "pubtype": 60,
@@ -3022,7 +3060,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -3111,6 +3150,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "DarkCoin Signed Message:\n",
         "fname": "Axe",
         "rpcport": 9337,
         "pubtype": 55,
@@ -3684,7 +3724,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -3973,7 +4014,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -4015,6 +4057,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -4250,7 +4296,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -4691,7 +4738,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -4775,15 +4823,6 @@
             {
                 "url": "bbk-ex-two.ewmci.online:50002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "bbk-one.ewm-cx.net:50001",
-                "protocol": "TCP",
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -4896,7 +4935,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -5325,6 +5365,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/1'",
         "electrum": [
             {
                 "url": "electrum1.blackcoin.nl:10012",
@@ -5388,6 +5429,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/5'",
         "links": {
             "github": "https://github.com/BLOCXTECH/BLOCX",
             "homepage": "https://blocx.tech"
@@ -5832,7 +5874,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -6092,7 +6135,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -6136,6 +6180,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -6173,6 +6221,10 @@
         },
         "derivation_path": "m/44'/664'",
         "electrum": [
+            {
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
+            },
             {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
@@ -6281,6 +6333,7 @@
         "wiftype": 153,
         "txfee": 0,
         "segwit": true,
+        "bech32_hrp": "bc",
         "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 30,
@@ -6583,6 +6636,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Bitweb Signed Message:\n",
         "fname": "Bitweb",
         "rpcport": 1605,
         "pubtype": 33,
@@ -6596,6 +6650,11 @@
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/738'",
+        "links": {
+            "github": "https://github.com/bitweb-project/bitweb",
+            "homepage": "https://bitwebcore.net"
         },
         "electrum": [
             {
@@ -6661,6 +6720,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Bitweb Signed Message:\n",
         "fname": "Bitweb",
         "rpcport": 1605,
         "pubtype": 33,
@@ -6678,6 +6738,11 @@
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/84'/738'",
+        "links": {
+            "github": "https://github.com/bitweb-project/bitweb",
+            "homepage": "https://bitwebcore.net"
         },
         "electrum": [
             {
@@ -6968,7 +7033,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -7065,6 +7131,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -7295,7 +7365,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -7427,7 +7498,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -7726,105 +7798,6 @@
         ],
         "explorer_block_url": "block.dws?"
     },
-    "CDS-AVX20": {
-        "coin": "CDS-AVX20",
-        "type": "AVX-20",
-        "name": "Crypto Development Services",
-        "coinpaprika_id": "cds-crypto-development-services",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://snowtrace.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Crypto Development Services",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 43114,
-        "required_confirmations": 3,
-        "avg_blocktime": 2.4,
-        "decimals": 8,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "AVAX",
-                "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5",
-        "parent_coin": "AVAX",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/avax",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "CDS-BEP20": {
-        "coin": "CDS-BEP20",
-        "type": "BEP-20",
-        "name": "Crypto Development Services",
-        "coinpaprika_id": "cds-crypto-development-services",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Crypto Development Services",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "avg_blocktime": 3,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://block-proxy.komodo.earth/rpc/bnb",
-                "ws_url": "wss://block-proxy.komodo.earth/rpc/bnb/websocket"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            },
-            {
-                "url": "https://bsc2.cipig.net:18655",
-                "ws_url": "wss://bsc2.cipig.net:38655"
-            },
-            {
-                "url": "https://bsc3.cipig.net:18655",
-                "ws_url": "wss://bsc3.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
     "CDS-PLG20": {
         "coin": "CDS-PLG20",
         "type": "Matic",
@@ -7851,11 +7824,11 @@
             "type": "ERC20",
             "protocol_data": {
                 "platform": "MATIC",
-                "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
+                "contract_address": "0xF7B5991c676929BF98BF3E2e2e386789BB16912a"
             }
         },
         "derivation_path": "m/44'/60'",
-        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5",
+        "contract_address": "0xF7B5991c676929BF98BF3E2e2e386789BB16912a",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -7873,7 +7846,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -7996,7 +7970,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -8504,7 +8479,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -8671,7 +8647,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -8861,6 +8838,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -9106,7 +9087,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -9273,7 +9255,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -9523,6 +9506,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -9679,7 +9666,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -10017,6 +10005,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -10357,7 +10349,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -10377,6 +10370,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "DarkCoin Signed Message:\n",
         "fname": "Dash",
         "confpath": "USERHOME/.dashcore/dash.conf",
         "rpcport": 9998,
@@ -10706,7 +10700,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -11055,6 +11050,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Dpowcoin Signed Message:\n",
         "fname": "Dualpowcoin",
         "rpcport": 42002,
         "pubtype": 55,
@@ -11068,6 +11064,11 @@
         "avg_blocktime": 300,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/739'",
+        "links": {
+            "github": "https://github.com/dpowcore-project/dpowcoin",
+            "homepage": "https://dpowcore.org"
         },
         "electrum": [
             {
@@ -11133,6 +11134,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "DarkCoin Signed Message:\n",
         "fname": "Diabase",
         "confpath": "USERHOME/.diabasecore/diabase.conf",
         "rpcport": 7676,
@@ -11257,6 +11259,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "DiminutiveCoin Signed Message:\n",
         "fname": "Diminutive Coin",
         "rpcport": 49122,
         "pubtype": 32,
@@ -12120,6 +12123,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Doichain Signed Message:\n",
         "fname": "Doichain",
         "rpcport": 8339,
         "pubtype": 52,
@@ -12727,7 +12731,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -12998,6 +13003,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -13318,7 +13327,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -13450,7 +13460,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -13581,7 +13592,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -13717,7 +13729,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -14199,7 +14212,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -14408,6 +14422,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/136'",
         "trezor_coin": "Firo",
         "links": {
             "github": "https://github.com/firoorg/firo",
@@ -15499,7 +15514,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -15541,6 +15557,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -15902,7 +15922,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -16098,6 +16119,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/101'",
         "links": {
             "github": "https://github.com/goldcoin/goldcoin",
             "homepage": "https://www.goldcoinproject.org"
@@ -16380,7 +16402,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -16550,7 +16573,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -16657,6 +16681,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -16787,7 +16815,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -16905,7 +16934,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -17575,6 +17605,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -17756,7 +17790,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -18145,7 +18180,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -18268,7 +18304,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -18593,7 +18630,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -18779,7 +18817,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -18799,6 +18838,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "InfiniLooP Signed Message:\n",
         "fname": "InfiniLooP",
         "isPoS": 1,
         "rpcport": 9459,
@@ -18813,6 +18853,11 @@
         "avg_blocktime": 45,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/722'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/InfiniLooP",
+            "homepage": "https://infiniloop.io"
         },
         "electrum": [
             {
@@ -18965,7 +19010,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -19018,7 +19064,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -19529,7 +19576,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -19777,7 +19825,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -19895,7 +19944,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -19957,7 +20007,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -20000,6 +20051,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -20189,7 +20244,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -20250,7 +20306,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -20293,6 +20350,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -20482,7 +20543,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -20668,7 +20730,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -20721,7 +20784,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -20783,7 +20847,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -20837,7 +20902,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -20899,7 +20965,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -20961,7 +21028,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -21015,7 +21083,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -21069,7 +21138,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -21112,6 +21182,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -21176,7 +21250,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -21298,7 +21373,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -21351,7 +21427,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -21413,7 +21490,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -21467,7 +21545,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -21521,7 +21600,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -21960,7 +22040,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -22002,6 +22083,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -22479,7 +22564,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -22606,7 +22692,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -22717,6 +22804,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -22973,7 +23064,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -23277,7 +23369,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -23989,7 +24082,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -24175,7 +24269,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -24266,7 +24361,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -24988,6 +25084,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -25223,7 +25323,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -25338,6 +25439,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -25495,7 +25600,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -25548,10 +25654,6 @@
             },
             {
                 "url": "electrumx1.monacoin.ninja:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx3.monacoin.nl:50001",
                 "protocol": "TCP"
             }
         ],
@@ -25609,10 +25711,6 @@
             },
             {
                 "url": "electrumx1.monacoin.ninja:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx3.monacoin.nl:50001",
                 "protocol": "TCP"
             }
         ],
@@ -26421,7 +26519,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -27001,7 +27100,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -27280,7 +27380,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -27474,7 +27575,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -27602,7 +27704,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -27929,7 +28032,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -28119,7 +28223,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -28153,6 +28258,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/3434'",
         "links": {
             "github": "https://github.com/pepecoinppc/pepecoin",
             "homepage": "https://pepecoin.org"
@@ -28620,6 +28726,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "DarkNet Signed Message:\n",
         "fname": "PIVX",
         "rpcport": 51473,
         "pubtype": 30,
@@ -28869,7 +28976,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -28996,7 +29104,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -29171,7 +29280,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -29348,7 +29458,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -29479,7 +29590,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -29711,7 +29823,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -30479,6 +30592,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
+        "sign_message_prefix": "Reddcoin Signed Message:\n",
         "fname": "ReddCoin",
         "isPoSV": 1,
         "rpcport": 45443,
@@ -30836,7 +30950,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -30856,6 +30971,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Riecoin Signed Message:\n",
         "fname": "Riecoin",
         "rpcport": 28332,
         "pubtype": 60,
@@ -30902,6 +31018,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Riecoin Signed Message:\n",
         "fname": "Riecoin",
         "rpcport": 28332,
         "pubtype": 60,
@@ -31254,7 +31371,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -31385,7 +31503,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -31653,8 +31772,7 @@
         "p2shtype": 122,
         "wiftype": 128,
         "segwit": true,
-        "txfee": 1000000,
-        "dust": 1000000,
+        "txfee": 1100000,
         "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
@@ -31889,7 +32007,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -32057,6 +32176,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -32344,7 +32467,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -32460,7 +32584,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -32700,6 +32825,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -32866,7 +32995,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -32927,7 +33057,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -33050,55 +33181,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "SUM": {
-        "coin": "SUM",
-        "type": "UTXO",
-        "name": "Sumcoin",
-        "coinpaprika_id": "sum-sumcoin",
-        "coingecko_id": "sumcoin",
-        "livecoinwatch_id": "SUM",
-        "explorer_url": "https://sumexplorer.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Sumcoin Signed Message:\n",
-        "fname": "Sumcoin",
-        "isPoS": 1,
-        "rpcport": 3332,
-        "pubtype": 63,
-        "p2shtype": 125,
-        "wiftype": 187,
-        "decimals": 6,
-        "txfee": 0,
-        "dust": 10000,
-        "segwit": false,
-        "bech32_hrp": "sum",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/552'",
-        "trezor_coin": "Sumcoin",
-        "links": {
-            "github": "https://github.com/sumcoinlabs/sumcoin",
-            "homepage": "https://www.sumcoin.org"
-        },
-        "electrum": [
-            {
-                "url": "sumpos.electrum-sum.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -33140,6 +33224,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -33473,7 +33561,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -33880,7 +33969,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -33922,6 +34012,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -34391,7 +34485,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -34425,6 +34520,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/1'",
         "electrum": [
             {
                 "url": "electrum3.cipig.net:20068",
@@ -34478,6 +34574,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/84'/1'",
         "electrum": [
             {
                 "url": "electrum3.cipig.net:20068",
@@ -34668,7 +34765,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -35217,6 +35315,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -35333,7 +35435,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -35575,6 +35678,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -35767,7 +35874,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -35949,7 +36057,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -35969,6 +36078,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Unitus Signed Message:\n",
         "fname": "Unitus",
         "rpcport": 50604,
         "pubtype": 68,
@@ -35981,6 +36091,11 @@
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/723'",
+        "links": {
+            "github": "https://github.com/unitusdev/unitus",
+            "homepage": "https://unituscurrency.com"
         },
         "electrum": [
             {
@@ -36033,6 +36148,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -36159,7 +36278,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -36201,6 +36321,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -36481,7 +36605,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -36630,6 +36755,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -36673,6 +36802,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -37056,7 +37189,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -37109,7 +37243,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -37479,7 +37614,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -37588,6 +37724,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -37631,6 +37771,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -37927,6 +38071,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "radium Signed Message:\n",
         "fname": "Validity",
         "confpath": "USERHOME/.Validity/validity.conf",
         "isPoS": 1,
@@ -37943,6 +38088,11 @@
         "mature_confirmations": 120,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/634'",
+        "links": {
+            "github": "https://github.com/RadiumCore/Validity",
+            "homepage": "https://validitytech.com"
         },
         "electrum": [
             {
@@ -38228,7 +38378,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -38519,7 +38670,7 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrum1.grms.pw:50002",
+                "url": "electrum.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -38534,7 +38685,7 @@
                 ]
             },
             {
-                "url": "electrum3.grms.pw:50002",
+                "url": "electrum2.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -38867,7 +39018,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -39108,6 +39260,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -39275,7 +39431,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -39420,6 +39577,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "XEP Signed Message:\n",
         "fname": "Electra Protocol",
         "rpcport": 16816,
         "pubtype": 55,
@@ -39654,7 +39812,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -39736,6 +39895,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Myriadcoin Signed Message:\n",
         "fname": "Myriad",
         "rpcport": 8332,
         "pubtype": 50,
@@ -39779,6 +39939,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Myriadcoin Signed Message:\n",
         "fname": "Myriad",
         "rpcport": 8332,
         "pubtype": 50,
@@ -39926,6 +40087,10 @@
             },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.primecoin.org:50001",
                 "protocol": "TCP"
             }
         ],
@@ -40258,7 +40423,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -40340,6 +40506,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Vanillacash Signed Message:\n",
         "fname": "VanillaCash",
         "isPoS": 1,
         "rpcport": 48888,
@@ -40354,16 +40521,12 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/724'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/Vanillacash",
+            "homepage": "https://vanillacash.org"
+        },
         "electrum": [
-            {
-                "url": "xvc-ex-seven.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
             {
                 "url": "electrumx1.vanillacash.info:50011",
                 "protocol": "TCP"
@@ -40655,6 +40818,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -40950,7 +41117,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -41324,16 +41492,12 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/719'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/ZetacoinE",
+            "homepage": "https://zetacoin.io"
+        },
         "electrum": [
-            {
-                "url": "zet-ex-three.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
@@ -41440,6 +41604,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -41571,7 +41739,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -44189,6 +44358,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
         "fname": "Whive",
         "rpcport": 1867,
         "pubtype": 73,
@@ -44204,6 +44374,11 @@
         "avg_blocktime": 600,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/658'",
+        "links": {
+            "github": "https://github.com/whiveio/whive",
+            "homepage": "https://www.whive.io"
         },
         "electrum": [
             {
@@ -44239,6 +44414,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
         "fname": "Whive",
         "rpcport": 1867,
         "pubtype": 73,
@@ -44258,6 +44434,11 @@
         "avg_blocktime": 600,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/84'/658'",
+        "links": {
+            "github": "https://github.com/whiveio/whive",
+            "homepage": "https://www.whive.io"
         },
         "electrum": [
             {
@@ -44293,6 +44474,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "eCash Signed Message:\n",
         "fname": "eCash",
         "rpcport": 8332,
         "pubtype": 0,
@@ -44314,6 +44496,10 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/1899'",
+        "links": {
+            "github": "https://github.com/Bitcoin-ABC/bitcoin-abc",
+            "homepage": "https://e.cash"
+        },
         "electrum": [
             {
                 "url": "ecash.stackwallet.com:59002",
@@ -44459,6 +44645,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Runebase Signed Message:\n",
         "fname": "Runebase",
         "rpcport": 9432,
         "pubtype": 61,
@@ -44474,6 +44661,11 @@
         "avg_blocktime": 120,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/88'",
+        "links": {
+            "github": "https://github.com/runebase/runebase",
+            "homepage": "https://www.runebase.io"
         },
         "electrum": [
             {
@@ -45050,6 +45242,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/136'",
         "links": {
             "github": "https://github.com/kiirocoin/kiiro",
             "homepage": "https://kiirocoin.org"
@@ -45586,6 +45779,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
@@ -45748,7 +45945,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
