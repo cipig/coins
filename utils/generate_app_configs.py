@@ -26,6 +26,7 @@ BINANCE_DELISTED_COINS = [
     "IRIS",
     "LOOM",
     "MC",
+    "MDX",
     "MIR",
     "NAV",
     "OCEAN",
