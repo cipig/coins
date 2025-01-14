@@ -521,29 +521,28 @@ def parse_coins_repo(electrum_scan_report):
         coins_data = json.load(f)
 
     for item in coins_data:
-        if item["mm2"] == 1:
-            config = CoinConfig(item, electrum_scan_report)
-            config.get_generics()
-            config.get_protocol_info()
-            config.clean_name()
-            config.get_swap_contracts()
-            config.get_electrums()
-            config.get_explorers()
-            config.is_smartchain()
-            config.is_wallet_only()
-            config.get_address_format()
-            config.get_rewards_info()
-            config.get_alias_ticker()
-            config.get_asset()
-            config.get_forex_id()
-            config.get_coinpaprika_id()
-            config.get_coingecko_id()
-            config.get_livecoinwatch_id()
-            config.get_binance_id()
-            config.get_bchd_urls()
-            config.get_hd_info()
-            config.get_links()
-            coins_config.update(config.data)
+        config = CoinConfig(item, electrum_scan_report)
+        config.get_generics()
+        config.get_protocol_info()
+        config.clean_name()
+        config.get_swap_contracts()
+        config.get_electrums()
+        config.get_explorers()
+        config.is_smartchain()
+        config.is_wallet_only()
+        config.get_address_format()
+        config.get_rewards_info()
+        config.get_alias_ticker()
+        config.get_asset()
+        config.get_forex_id()
+        config.get_coinpaprika_id()
+        config.get_coingecko_id()
+        config.get_livecoinwatch_id()
+        config.get_binance_id()
+        config.get_bchd_urls()
+        config.get_hd_info()
+        config.get_links()
+        coins_config.update(config.data)
 
     nodata = []
     for coin in coins_config:
@@ -650,10 +649,10 @@ def filter_tcp(coins_config, coins_config_ssl):
     coins_config_tcp = {}
     for coin in coins_config:
         coins_config_tcp.update({coin: coins_config[coin]})
-        # Omit gui_auth: true nodes - these are web only.
+        # Omit komodo_proxy: true nodes - these are web only.
         if "nodes" in coins_config[coin]:
             coins_config_tcp[coin]["nodes"] = [
-                i for i in coins_config[coin]["nodes"] if "gui_auth" not in i
+                i for i in coins_config[coin]["nodes"] if "komodo_proxy" not in i
             ]
         if "electrum" in coins_config[coin]:
             electrums = []
@@ -662,8 +661,8 @@ def filter_tcp(coins_config, coins_config_ssl):
                 if len(coins_config_ssl[coin]["electrum"]) > 0:
                     electrums = coins_config_ssl[coin]["electrum"]
             for i in coins_config[coin]["electrum"]:
-                if "gui_auth" in i:
-                    if i["gui_auth"] == True:
+                if "komodo_proxy" in i:
+                    if i["komodo_proxy"] == True:
                         continue
                 if item_exists(i, electrums) == False:
                     if "protocol" in i:
@@ -705,7 +704,7 @@ def filter_wss(coins_config):
 
 
 def generate_binance_api_ids(coins_config):
-    mm2_coins = coins_config.keys()
+    kdf_coins = coins_config.keys()
     r = requests.get("https://defi-stats.komodo.earth/api/v3/binance/ticker_price")
     binance_tickers = r.json()
     pairs = []
@@ -727,7 +726,7 @@ def generate_binance_api_ids(coins_config):
 
     api_ids = {}
     known_id_coins = list(set([i[0] for i in known_ids] + [i[1] for i in known_ids]))
-    for coin in mm2_coins:
+    for coin in kdf_coins:
         ticker = coin.split("-")[0]
         if ticker in known_id_coins:
             if ticker not in BINANCE_DELISTED_COINS:
