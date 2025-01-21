@@ -2655,6 +2655,16 @@
                 "url": "electrumx.aur.ewmcx.info:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "failover.aur.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "failover.aur.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -11728,7 +11738,18 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/18'",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "DIA-ERC20": {
@@ -25484,6 +25505,22 @@
         },
         "derivation_path": "m/44'/191'",
         "electrum": [
+            {
+                "url": "electrum5.getlynx.io:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum5.getlynx.io:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum6.getlynx.io:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum6.getlynx.io:50004",
+                "protocol": "WSS"
+            },
             {
                 "url": "electrum7.getlynx.io:50002",
                 "protocol": "SSL"
