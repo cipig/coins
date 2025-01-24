@@ -20062,7 +20062,7 @@
         "overwintered": 1,
         "txfee": 1000,
         "mm2": 1,
-        "required_confirmations": 4,
+        "required_confirmations": 3,
         "requires_notarization": false,
         "avg_blocktime": 60,
         "protocol": {
@@ -33251,8 +33251,8 @@
         "coin": "UIS-OLD",
         "type": "UTXO",
         "name": "Unitus (OLD)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
+        "coinpaprika_id": "uis-unitus",
+        "coingecko_id": "unitus",
         "livecoinwatch_id": "UIS",
         "explorer_url": "https://explorer.unitus.network/",
         "explorer_tx_url": "",
@@ -41900,6 +41900,15 @@
             "homepage": "https://www.mewccrypto.com/"
         },
         "electrum": [
+            {
+                "url": "meowcoinelectrum.xyz:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            },
             {
                 "url": "meowelectrum.xyz:50002",
                 "protocol": "SSL",
