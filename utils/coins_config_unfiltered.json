@@ -9291,7 +9291,35 @@
             "github": "https://github.com/nochowderforyou/clams",
             "homepage": "http://clamclient.com"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "clam-ex-one.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "clam-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "clam-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "CLC": {
@@ -11714,7 +11742,12 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/18'",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "electrumx.dgc.ewmcx.org:50001",
+                "protocol": "TCP"
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "DIA-ERC20": {
@@ -15382,6 +15415,24 @@
                     }
                 ],
                 "url": "electrumx02.firo.org:50004"
+            },
+            {
+                "url": "electrumx03.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ]
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
+                "url": "electrumx03.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
