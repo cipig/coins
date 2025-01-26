@@ -944,16 +944,6 @@
         },
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             },
@@ -2570,16 +2560,6 @@
                         "discord": "388437778624413706"
                     }
                 ]
-            },
-            {
-                "url": "electrumx.aur.ewmcx.info:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrumx.aur.ewmcx.info:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             },
             {
                 "url": "failover.aur.ewmcx.biz:50002",
@@ -9241,6 +9221,30 @@
                 "contact": [
                     {
                         "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20075",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:30075",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
                     }
                 ]
             }
@@ -18535,30 +18539,6 @@
             },
             {
                 "url": "electrum21.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum22.groestlcoin.org:50001",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum22.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
