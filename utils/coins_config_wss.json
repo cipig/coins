@@ -14655,6 +14655,18 @@
                 "protocol": "WSS"
             },
             {
+                "url": "electrum22.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum23.groestlcoin.org:50004",
                 "contact": [
                     {
@@ -30835,6 +30847,11 @@
                 "url": "uno-bkp.coinmunity.gold:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -34256,6 +34273,10 @@
         },
         "derivation_path": "m/44'/77'",
         "electrum": [
+            {
+                "url": "electrum-verge.cloud:50004",
+                "protocol": "WSS"
+            },
             {
                 "url": "electrumx-verge.cloud:50004",
                 "protocol": "WSS"
