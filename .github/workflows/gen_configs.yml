@@ -8,7 +8,8 @@ on:
       - 'utils/coins_config_ssl.json'
       - 'utils/coins_config_tcp.json'
       - 'utils/coins_config_wss.json'
-  workflow_dispatch:
+      - 'utils/coins_config_unfiltered.json'
+      - 'utils/electrum_scan_report.json'
 
 jobs:
   update_configs:
