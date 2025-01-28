@@ -941,6 +941,11 @@
         },
         "electrum": [
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             },
@@ -2450,6 +2455,11 @@
                         "discord": "388437778624413706"
                     }
                 ]
+            },
+            {
+                "url": "electrumx.aur.ewmcx.info:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
                 "url": "failover.aur.ewmcx.biz:50002",
@@ -10262,7 +10272,13 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/18'",
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "DIA-ERC20": {

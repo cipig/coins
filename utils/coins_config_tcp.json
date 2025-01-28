@@ -928,6 +928,11 @@
         },
         "electrum": [
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             },
@@ -2413,6 +2418,11 @@
                         "discord": "388437778624413706"
                     }
                 ]
+            },
+            {
+                "url": "electrumx.aur.ewmcx.info:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
                 "url": "failover.aur.ewmcx.biz:50002",
@@ -10246,6 +10256,11 @@
         },
         "derivation_path": "m/44'/18'",
         "electrum": [
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
             {
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP"
