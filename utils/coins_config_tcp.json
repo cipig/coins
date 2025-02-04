@@ -933,6 +933,10 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL"
             }
@@ -10325,6 +10329,11 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP"
             }
@@ -16244,6 +16253,18 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum22.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum23.groestlcoin.org:50001",
                 "contact": [
                     {
@@ -17656,6 +17677,28 @@
             },
             {
                 "url": "il8p.electrumx.transcenders.name:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
+            },
+            {
+                "url": "il9p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -42049,6 +42092,15 @@
             "homepage": "https://kiirocoin.org"
         },
         "electrum": [
+            {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
             {
                 "url": "electrum2.kiirocoin.org:50002",
                 "protocol": "SSL",
