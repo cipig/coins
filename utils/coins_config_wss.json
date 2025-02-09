@@ -2211,6 +2211,15 @@
         "derivation_path": "m/44'/85'",
         "electrum": [
             {
+                "url": "electrum1.valhala.is:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "388437778624413706"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.aur.ewmcx.info:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -23975,6 +23984,15 @@
         },
         "electrum": [
             {
+                "url": "electrum.pepe.tips:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "squidicuz"
+                    }
+                ]
+            },
+            {
                 "url": "electrum.pepeblocks.com:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -33932,6 +33950,15 @@
                     },
                     {
                         "telegram": "licho92karol"
+                    }
+                ]
+            },
+            {
+                "url": "la.ask.systems:52140",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "telegram": "@fsmv0"
                     }
                 ]
             }
