@@ -2563,6 +2563,15 @@
                 ]
             },
             {
+                "url": "electrum1.valhala.is:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "388437778624413706"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.aur.ewmcx.info:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -5716,6 +5725,49 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/",
         "binance_id": "BNB"
+    },
+    "BOLI": {
+        "coin": "BOLI",
+        "type": "UTXO",
+        "name": "Bolivarcoin",
+        "coinpaprika_id": "boli-bolivarcoin",
+        "coingecko_id": "bolivarcoin",
+        "livecoinwatch_id": "BOLI",
+        "explorer_url": "https://chainz.cryptoid.info/boli/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkCoin Signed Message:\n",
+        "fname": "Bolivarcoin",
+        "confpath": "USERHOME/.bolivarcoincore/bolivarcoin.conf",
+        "rpcport": 3563,
+        "pubtype": 85,
+        "p2shtype": 5,
+        "wiftype": 213,
+        "segwit": false,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 180,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/278'",
+        "links": {
+            "github": "https://github.com/BOLI-Project/BolivarCoin",
+            "homepage": "https://bolis.info"
+        },
+        "electrum": [
+            {
+                "url": "electrum2.bolivarcoin.tech:23001",
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "BONE-ERC20": {
         "coin": "BONE-ERC20",
@@ -30343,6 +30395,33 @@
         },
         "electrum": [
             {
+                "url": "electrum.pepe.tips:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "squidicuz"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.pepe.tips:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "squidicuz"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.pepe.tips:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "squidicuz"
+                    }
+                ]
+            },
+            {
                 "url": "electrum.pepeblocks.com:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -42960,6 +43039,24 @@
                     },
                     {
                         "telegram": "licho92karol"
+                    }
+                ]
+            },
+            {
+                "url": "la.ask.systems:52138",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "telegram": "@fsmv0"
+                    }
+                ]
+            },
+            {
+                "url": "la.ask.systems:52140",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "telegram": "@fsmv0"
                     }
                 ]
             }
