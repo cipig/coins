@@ -7674,7 +7674,7 @@
         "type": "UTXO",
         "name": "Canada eCoin",
         "coinpaprika_id": "cdn-canada-ecoin",
-        "coingecko_id": "",
+        "coingecko_id": "canada-ecoin",
         "livecoinwatch_id": "CDN",
         "explorer_url": "https://chainz.cryptoid.info/cdn/",
         "explorer_tx_url": "tx.dws?",
@@ -7740,7 +7740,7 @@
         "type": "UTXO",
         "name": "Canada eCoin",
         "coinpaprika_id": "cdn-canada-ecoin",
-        "coingecko_id": "",
+        "coingecko_id": "canada-ecoin",
         "livecoinwatch_id": "CDN",
         "explorer_url": "https://chainz.cryptoid.info/cdn/",
         "explorer_tx_url": "tx.dws?",
@@ -34708,6 +34708,52 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "TKL": {
+        "coin": "TKL",
+        "type": "Smart Chain",
+        "name": "Tokel",
+        "coinpaprika_id": "tkl-tokel",
+        "coingecko_id": "tokel",
+        "livecoinwatch_id": "TKL",
+        "explorer_url": "https://explorer.tokel.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "TOKEL",
+        "fname": "Tokel",
+        "rpcport": 29405,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "requires_notarization": true,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "TON-ERC20": {
         "coin": "TON-ERC20",
         "type": "ERC-20",
@@ -38336,6 +38382,69 @@
         ],
         "explorer_block_url": "block/"
     },
+    "GRMS": {
+        "coin": "GRMS",
+        "type": "Smart Chain",
+        "name": "GRMS",
+        "coinpaprika_id": "grms-grms",
+        "coingecko_id": "",
+        "livecoinwatch_id": "GRMS",
+        "explorer_url": "https://explorer.grms.pw/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "GRMS",
+        "fname": "GRMS",
+        "rpcport": 21687,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrum1.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "VTC": {
         "coin": "VTC",
         "type": "UTXO",
@@ -39685,6 +39794,10 @@
             "homepage": "https://primecoin.io"
         },
         "electrum": [
+            {
+                "url": "electrumx.gemmer.primecoin.org:50011",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
@@ -44223,6 +44336,18 @@
             "homepage": "https://www.runebase.io"
         },
         "electrum": [
+            {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
             {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
