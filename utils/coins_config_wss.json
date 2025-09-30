@@ -23373,10 +23373,6 @@
                 "ws_url": "wss://moonriver-rpc.dwellir.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
-            },
-            {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
                 "ws_url": "wss://wss.api.moonriver.moonbeam.network"
             }
@@ -32210,6 +32206,11 @@
             "homepage": "https://unituscurrency.com"
         },
         "electrum": [
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": false
+            },
             {
                 "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS",

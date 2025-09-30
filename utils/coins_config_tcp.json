@@ -24780,10 +24780,6 @@
                 "ws_url": "wss://moonriver-rpc.dwellir.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
-            },
-            {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
                 "ws_url": "wss://wss.api.moonriver.moonbeam.network"
             }
@@ -34267,6 +34263,11 @@
         },
         "electrum": [
             {
+                "url": "failover.trc-uis.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "uis-uno.ewmcx.net:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
@@ -39253,6 +39254,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "207.180.252.200:50011",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
