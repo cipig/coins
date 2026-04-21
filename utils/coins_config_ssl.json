@@ -28886,60 +28886,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "TRMP": {
-        "coin": "TRMP",
-        "type": "UTXO",
-        "name": "TrumPow",
-        "coinpaprika_id": "trmp-trumpow",
-        "coingecko_id": "",
-        "livecoinwatch_id": "_TRMP",
-        "explorer_url": "https://explorer.trumpow.meme/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "TrumPow Signed Message:\n",
-        "fname": "TrumPow",
-        "rpcport": 33883,
-        "pubtype": 65,
-        "p2shtype": 28,
-        "wiftype": 151,
-        "segwit": false,
-        "txfee": 1000000,
-        "dingo_fee": true,
-        "dust": 1000000,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/1707'",
-        "links": {
-            "github": "https://github.com/trumpowppc/trumpow",
-            "homepage": "https://trumpow.meme"
-        },
-        "electrum": [
-            {
-                "url": "electrum-server2.trumpow.meme:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": [
-                            "1157581316175437884",
-                            "1100673536743460894",
-                            "1209163889489616998"
-                        ]
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "QC-QRC20": {
         "coin": "QC-QRC20",
         "type": "QRC-20",
@@ -40981,49 +40927,6 @@
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "FLUX": {
-        "coin": "FLUX",
-        "type": "UTXO",
-        "name": "Flux",
-        "coinpaprika_id": "zel-zelcash",
-        "coingecko_id": "zelcash",
-        "livecoinwatch_id": "_FLUX",
-        "explorer_url": "https://explorer.runonflux.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Zelcash Signed Message:\n",
-        "fname": "Flux",
-        "is_privacy_coin": true,
-        "rpcport": 16124,
-        "taddr": 28,
-        "pubtype": 184,
-        "p2shtype": 189,
-        "wiftype": 128,
-        "txversion": 4,
-        "overwintered": 1,
-        "version_group_id": "0x892f2085",
-        "consensus_branch_id": "0x76b809bb",
-        "txfee": 10000,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 120,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/19167'",
-        "links": {
-            "github": "https://github.com/RunOnFlux/fluxd",
-            "homepage": "https://www.runonflux.io"
-        },
-        "electrum": [],
-        "explorer_block_url": "block/",
-        "binance_id": "FLUX"
     },
     "FLUX-ERC20": {
         "coin": "FLUX-ERC20",
