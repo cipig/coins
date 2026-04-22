@@ -17040,15 +17040,6 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ]
-            },
-            {
-                "url": "electrumx03.firo.org:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -47669,8 +47660,16 @@
             "github": "https://github.com/RunOnFlux/fluxd",
             "homepage": "https://www.runonflux.io"
         },
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "electrumx.runonflux.io:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.runonflux.io:50001",
+                "protocol": "TCP"
+            }
+        ],
         "explorer_block_url": "block/",
         "binance_id": "FLUX"
     },

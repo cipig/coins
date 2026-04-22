@@ -2474,6 +2474,13 @@
               "github": "https://github.com/firoorg/electrumx-firo/issues"
             }
           ]
+        },
+        "electrumx03.firo.org:50004": {
+          "contact": [
+            {
+              "github": "https://github.com/firoorg/electrumx-firo/issues"
+            }
+          ]
         }
       },
       "electrumx.firo.org:50001": {
@@ -2513,7 +2520,8 @@
         "1776101842": "online"
       },
       "electrumx03.firo.org:50004": {
-        "1776101842": "online"
+        "1776101842": "online",
+        "1776823883": "offline"
       }
     }
   },
@@ -2764,19 +2772,22 @@
   "FLUX": {
     "all": {
       "1776101842": "online",
-      "1776737611": "offline"
+      "1776737611": "offline",
+      "1776823883": "online"
     },
     "by_server": {
       "electrumx.runonflux.io:50001": {
         "1776101842": "online",
-        "1776737611": "offline"
+        "1776737611": "offline",
+        "1776823883": "online"
       },
       "electrumx.runonflux.io:50004": {
         "1776101842": "offline"
       },
       "electrumx2.runonflux.io:50001": {
         "1776101842": "online",
-        "1776737611": "offline"
+        "1776737611": "offline",
+        "1776823883": "online"
       },
       "electrumx2.runonflux.io:50004": {
         "1776101842": "offline"
