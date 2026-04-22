@@ -7349,11 +7349,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "miami.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "oakland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -7405,11 +7400,6 @@
         "electrum": [
             {
                 "url": "chicago.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
@@ -10326,15 +10316,6 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
-                "url": "dgc-ex-four.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "failover.dgc.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -10949,15 +10930,6 @@
             },
             {
                 "url": "seed1.dingocoin.com:3342",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
-                    }
-                ]
-            },
-            {
-                "url": "seed2.dingocoin.com:3342",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -14323,15 +14295,6 @@
             "homepage": "https://firo.org"
         },
         "electrum": [
-            {
-                "url": "electrumx.firo.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrumx-firo/issues"
-                    }
-                ]
-            },
             {
                 "url": "electrumx01.firo.org:50002",
                 "protocol": "SSL",
@@ -25677,6 +25640,10 @@
                 "ws_url": "wss://moonbeam-rpc.publicnode.com"
             },
             {
+                "url": "https://moonbeam.drpc.org",
+                "ws_url": "wss://moonbeam.drpc.org"
+            },
+            {
                 "url": "https://rpc.api.moonbeam.network",
                 "ws_url": "wss://wss.api.moonbeam.network"
             }
@@ -35612,11 +35579,6 @@
         },
         "electrum": [
             {
-                "url": "uno-bkp.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL"
             },
@@ -44370,9 +44332,9 @@
         "coin": "VRM",
         "type": "UTXO",
         "name": "Verium Reserve",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "vrm-veriumreserve",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "VRM",
         "explorer_url": "https://verium-explorer.vericonomy.com/",
         "explorer_tx_url": "transaction/",
         "explorer_address_url": "address/",
