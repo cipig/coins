@@ -8645,8 +8645,38 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
+                "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "miami.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "miami.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "oakland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "woolloomooloo.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "woolloomooloo.ecoincore.com:34335",
+                "protocol": "WSS",
                 "disable_cert_verification": true
             }
         ],
@@ -8690,8 +8720,38 @@
         "derivation_path": "m/84'/34'",
         "electrum": [
             {
+                "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "miami.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "miami.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "oakland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "woolloomooloo.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "woolloomooloo.ecoincore.com:34335",
+                "protocol": "WSS",
                 "disable_cert_verification": true
             }
         ],
@@ -41395,6 +41455,16 @@
             "homepage": "https://unobtanium.uno"
         },
         "electrum": [
+            {
+                "url": "uno-bkp.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-bkp.coinmunity.gold:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
             {
                 "url": "uno-ex-one.ewmci.online:50001",
                 "protocol": "TCP"
