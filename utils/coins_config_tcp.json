@@ -1413,12 +1413,6 @@
                 "ws_url": "wss://base-rpc.publicnode.com"
             },
             {
-                "url": "https://base.public.blockpi.network/v1/rpc/public"
-            },
-            {
-                "url": "https://mainnet.base.org"
-            },
-            {
                 "url": "https://rpc.sentio.xyz/base"
             }
         ],
@@ -6712,6 +6706,16 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
                 "contact": [
@@ -6791,6 +6795,16 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
@@ -6979,12 +6993,6 @@
             {
                 "url": "https://base-rpc.publicnode.com",
                 "ws_url": "wss://base-rpc.publicnode.com"
-            },
-            {
-                "url": "https://base.public.blockpi.network/v1/rpc/public"
-            },
-            {
-                "url": "https://mainnet.base.org"
             },
             {
                 "url": "https://rpc.sentio.xyz/base"
@@ -10305,6 +10313,44 @@
         "explorer_block_url": "block/",
         "binance_id": "DGB"
     },
+    "DGC": {
+        "coin": "DGC",
+        "type": "UTXO",
+        "name": "Digitalcoin",
+        "coinpaprika_id": "dgc-digitalcoin",
+        "coingecko_id": "digitalcoin",
+        "livecoinwatch_id": "DGC",
+        "explorer_url": "https://chainz.cryptoid.info/dgc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Digitalcoin Signed Message:\n",
+        "fname": "Digitalcoin",
+        "rpcport": 7998,
+        "pubtype": 30,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 36,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/18'",
+        "electrum": [
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "DIA-ERC20": {
         "coin": "DIA-ERC20",
         "type": "ERC-20",
@@ -12839,12 +12885,6 @@
                 "ws_url": "wss://base-rpc.publicnode.com"
             },
             {
-                "url": "https://base.public.blockpi.network/v1/rpc/public"
-            },
-            {
-                "url": "https://mainnet.base.org"
-            },
-            {
                 "url": "https://rpc.sentio.xyz/base"
             }
         ],
@@ -13118,12 +13158,6 @@
             {
                 "url": "https://base-rpc.publicnode.com",
                 "ws_url": "wss://base-rpc.publicnode.com"
-            },
-            {
-                "url": "https://base.public.blockpi.network/v1/rpc/public"
-            },
-            {
-                "url": "https://mainnet.base.org"
             },
             {
                 "url": "https://rpc.sentio.xyz/base"
@@ -27130,9 +27164,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -30786,12 +30817,6 @@
                 "ws_url": "wss://base-rpc.publicnode.com"
             },
             {
-                "url": "https://base.public.blockpi.network/v1/rpc/public"
-            },
-            {
-                "url": "https://mainnet.base.org"
-            },
-            {
                 "url": "https://rpc.sentio.xyz/base"
             }
         ],
@@ -33575,12 +33600,6 @@
                 "ws_url": "wss://base-rpc.publicnode.com"
             },
             {
-                "url": "https://base.public.blockpi.network/v1/rpc/public"
-            },
-            {
-                "url": "https://mainnet.base.org"
-            },
-            {
                 "url": "https://rpc.sentio.xyz/base"
             }
         ],
@@ -34514,12 +34533,6 @@
             {
                 "url": "https://base-rpc.publicnode.com",
                 "ws_url": "wss://base-rpc.publicnode.com"
-            },
-            {
-                "url": "https://base.public.blockpi.network/v1/rpc/public"
-            },
-            {
-                "url": "https://mainnet.base.org"
             },
             {
                 "url": "https://rpc.sentio.xyz/base"
@@ -35798,12 +35811,6 @@
             {
                 "url": "https://base-rpc.publicnode.com",
                 "ws_url": "wss://base-rpc.publicnode.com"
-            },
-            {
-                "url": "https://base.public.blockpi.network/v1/rpc/public"
-            },
-            {
-                "url": "https://mainnet.base.org"
             },
             {
                 "url": "https://rpc.sentio.xyz/base"
@@ -39241,12 +39248,6 @@
                 "ws_url": "wss://base-rpc.publicnode.com"
             },
             {
-                "url": "https://base.public.blockpi.network/v1/rpc/public"
-            },
-            {
-                "url": "https://mainnet.base.org"
-            },
-            {
                 "url": "https://rpc.sentio.xyz/base"
             }
         ],
@@ -40310,12 +40311,6 @@
             {
                 "url": "https://base-rpc.publicnode.com",
                 "ws_url": "wss://base-rpc.publicnode.com"
-            },
-            {
-                "url": "https://base.public.blockpi.network/v1/rpc/public"
-            },
-            {
-                "url": "https://mainnet.base.org"
             },
             {
                 "url": "https://rpc.sentio.xyz/base"
