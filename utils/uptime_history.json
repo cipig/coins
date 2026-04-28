@@ -1479,7 +1479,8 @@
   },
   "DEV": {
     "all": {
-      "1777321392": "offline"
+      "1777321392": "offline",
+      "1777343888": "online"
     },
     "by_server": {
       "_metadata": {
@@ -1527,13 +1528,16 @@
         }
       },
       "api.dogecoinev.com:50001": {
-        "1777321392": "offline"
+        "1777321392": "offline",
+        "1777343888": "online"
       },
       "api.dogecoinev.com:50002": {
-        "1777321392": "offline"
+        "1777321392": "offline",
+        "1777343888": "online"
       },
       "api.dogecoinev.com:50003": {
-        "1777321392": "offline"
+        "1777321392": "offline",
+        "1777343888": "online"
       },
       "api2.dogecoinev.com:50001": {
         "1777321392": "offline"
@@ -1837,6 +1841,20 @@
             }
           ]
         },
+        "elecx2.dingocoin.com:3341": {
+          "contact": [
+            {
+              "discord": "115619332448321541"
+            }
+          ]
+        },
+        "elecx2.dingocoin.com:3342": {
+          "contact": [
+            {
+              "discord": "115619332448321541"
+            }
+          ]
+        },
         "seed2.dingocoin.com:3339": {
           "contact": [
             {
@@ -1859,6 +1877,20 @@
           ]
         },
         "seed4.dingocoin.com:3339": {
+          "contact": [
+            {
+              "discord": "115619332448321541"
+            }
+          ]
+        },
+        "seed4.dingocoin.com:3341": {
+          "contact": [
+            {
+              "discord": "115619332448321541"
+            }
+          ]
+        },
+        "seed4.dingocoin.com:3342": {
           "contact": [
             {
               "discord": "115619332448321541"
@@ -1895,6 +1927,12 @@
       },
       "elecx2.dingocoin.com:3339": {
         "1777321392": "offline"
+      },
+      "elecx2.dingocoin.com:3341": {
+        "1777343888": "offline"
+      },
+      "elecx2.dingocoin.com:3342": {
+        "1777343888": "offline"
       },
       "elecx2.kmsoftware.org:3339": {
         "1777321392": "online"
@@ -1934,6 +1972,12 @@
       },
       "seed4.dingocoin.com:3339": {
         "1777321392": "offline"
+      },
+      "seed4.dingocoin.com:3341": {
+        "1777343888": "offline"
+      },
+      "seed4.dingocoin.com:3342": {
+        "1777343888": "offline"
       },
       "seed5.dingocoin.com:3339": {
         "1777321392": "online"
@@ -5177,7 +5221,8 @@
     "all": {},
     "by_server": {
       "https://1rpc.io/one": {
-        "1777321392": "offline"
+        "1777321392": "offline",
+        "1777343888": "online"
       },
       "https://api.harmony.one": {
         "1777321392": "online"
@@ -5912,8 +5957,34 @@
       "2.eu.tokel.electrum.dexstats.info:10077": {
         "1777321392": "offline"
       },
+      "2.eu.tokel.electrum.dexstats.info:11077": {
+        "1777343888": "offline"
+      },
+      "2.eu.tokel.electrum.dexstats.info:9077": {
+        "1777343888": "offline"
+      },
       "_metadata": {
         "2.eu.tokel.electrum.dexstats.info:10077": {
+          "contact": [
+            {
+              "email": "chmex@dexstats.info"
+            },
+            {
+              "discord": "chmex#0686"
+            }
+          ]
+        },
+        "2.eu.tokel.electrum.dexstats.info:11077": {
+          "contact": [
+            {
+              "email": "chmex@dexstats.info"
+            },
+            {
+              "discord": "chmex#0686"
+            }
+          ]
+        },
+        "2.eu.tokel.electrum.dexstats.info:9077": {
           "contact": [
             {
               "email": "chmex@dexstats.info"
