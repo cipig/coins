@@ -5062,7 +5062,7 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "ETH",
-        "contract_address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f"
+        "contract_address": "0x39b8B6385416f4cA36a20319F70D28621895279D"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -5081,12 +5081,48 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "POL",
+        "contract_address": "0xE0aEa583266584DafBB3f9C3211d5588c73fEa8d"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "EURE-ERC20_OLD",
+    "name": "eure_erc20_old",
+    "fname": "Monerium EUR (OLD)",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "EURE-PLG20_OLD",
+    "name": "eure_plg20_old",
+    "fname": "Monerium EUR (OLD)",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "POL",
         "contract_address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6"
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 90000,
       "erc20_payment": 150000,
