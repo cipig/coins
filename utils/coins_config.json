@@ -17279,6 +17279,33 @@
         },
         "electrum": [
             {
+                "url": "electrumx1.fujicoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.fujicoin.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx2.fujicoin.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -17349,6 +17376,33 @@
             "homepage": "https://fujicoin.org"
         },
         "electrum": [
+            {
+                "url": "electrumx1.fujicoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.fujicoin.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ]
+            },
             {
                 "url": "electrumx2.fujicoin.org:50001",
                 "protocol": "TCP",
