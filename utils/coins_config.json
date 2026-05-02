@@ -12178,8 +12178,18 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/18'",
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "DIA-ERC20": {
