@@ -10703,6 +10703,11 @@
                 "url": "electrum1.egulden.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -31493,6 +31498,10 @@
                 "protocol": "WSS"
             },
             {
+                "url": "uis-ex-one.ewmci.online:50003",
+                "protocol": "WSS"
+            },
+            {
                 "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS"
             }
@@ -34596,6 +34605,16 @@
         "derivation_path": "m/44'/90'",
         "electrum": [
             {
+                "url": "xmy-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "xmy-ex-two.ewmci.online:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
@@ -34644,6 +34663,16 @@
         },
         "derivation_path": "m/84'/90'",
         "electrum": [
+            {
+                "url": "xmy-ex-one.ewmci.online:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
             {
                 "url": "xmy-ex-two.ewmci.online:50003",
                 "protocol": "WSS",
