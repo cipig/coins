@@ -11055,6 +11055,24 @@
                         "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
                     }
                 ]
+            },
+            {
+                "url": "electrum03.cyberyen.work:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrum03.cyberyen.work:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -11110,6 +11128,24 @@
             },
             {
                 "url": "electrum02.cyberyen.work:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrum03.cyberyen.work:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrum03.cyberyen.work:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -51868,9 +51904,9 @@
         "coinpaprika_id": "mewc-meowcoin",
         "coingecko_id": "meowcoin",
         "livecoinwatch_id": "MEWC",
-        "explorer_url": "https://mewc.cryptoscope.io/",
-        "explorer_tx_url": "tx/?txid=",
-        "explorer_address_url": "address/?address=",
+        "explorer_url": "https://explorer.mewccrypto.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
