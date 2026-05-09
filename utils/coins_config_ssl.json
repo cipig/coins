@@ -43168,6 +43168,21 @@
                         "twitter": "whiveio"
                     }
                 ]
+            },
+            {
+                "url": "electrumx2.cointest.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -43234,6 +43249,21 @@
                 "url": "electrumx2.cointest.com:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.cointest.com:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "protocol@whive.io"
@@ -43788,9 +43818,6 @@
         "rpc_urls": [
             {
                 "url": "https://osmosis.rpc.stakin-nodes.com"
-            },
-            {
-                "url": "https://rpc.cosmos.directory/osmosis"
             },
             {
                 "url": "https://rpc.osmosis.zone/"
