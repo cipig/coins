@@ -3899,6 +3899,15 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "bbk-ex-two.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -23116,6 +23125,10 @@
                 "ws_url": "wss://moonbeam-rpc.publicnode.com"
             },
             {
+                "url": "https://moonbeam.drpc.org",
+                "ws_url": "wss://moonbeam.drpc.org"
+            },
+            {
                 "url": "https://rpc.api.moonbeam.network",
                 "ws_url": "wss://wss.api.moonbeam.network"
             }
@@ -31807,6 +31820,54 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "UNO": {
+        "coin": "UNO",
+        "type": "UTXO",
+        "name": "Unobtanium",
+        "coinpaprika_id": "uno-unobtanium",
+        "coingecko_id": "unobtanium",
+        "livecoinwatch_id": "UNO",
+        "explorer_url": "https://chainz.cryptoid.info/uno/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Unobtanium Signed Message:\n",
+        "fname": "Unobtanium",
+        "rpcport": 65535,
+        "pubtype": 130,
+        "p2shtype": 30,
+        "wiftype": 224,
+        "txfee": 0,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/92'",
+        "trezor_coin": "Unobtanium",
+        "links": {
+            "github": "https://github.com/unobtanium-official/unobtanium",
+            "homepage": "https://unobtanium.uno"
+        },
+        "electrum": [
+            {
+                "url": "uno-bkp.coinmunity.gold:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "USDC-ARB20": {
         "coin": "USDC-ARB20",
