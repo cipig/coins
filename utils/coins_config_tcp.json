@@ -39467,6 +39467,11 @@
         },
         "electrum": [
             {
+                "url": "electrumx1.vanillacash.info:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrumx2.vanillacash.info:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
