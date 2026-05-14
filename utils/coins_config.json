@@ -12916,35 +12916,6 @@
         },
         "electrum": [
             {
-                "url": "delecx.twinkykms.com:3339",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "405102339612082177"
-                    }
-                ]
-            },
-            {
-                "url": "delecx.twinkykms.com:3341",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "405102339612082177"
-                    }
-                ]
-            },
-            {
-                "url": "delecx.twinkykms.com:3342",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "405102339612082177"
-                    }
-                ]
-            },
-            {
                 "url": "elecx.kmsoftware.org:3339",
                 "protocol": "TCP",
                 "contact": [
@@ -17212,7 +17183,7 @@
         "wiftype": 164,
         "segwit": true,
         "bech32_hrp": "fc",
-        "txfee": 0,
+        "txfee": 10000000,
         "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
@@ -17310,7 +17281,7 @@
             "format": "segwit"
         },
         "orderbook_ticker": "FJC",
-        "txfee": 0,
+        "txfee": 10000000,
         "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
@@ -25299,20 +25270,6 @@
                 "protocol": "WSS"
             },
             {
-                "url": "lbc.electrum2.cipig.net:10067",
-                "protocol": "TCP"
-            },
-            {
-                "url": "lbc.electrum2.cipig.net:20067",
-                "disable_cert_verification": false,
-                "protocol": "SSL"
-            },
-            {
-                "url": "lbc.electrum2.cipig.net:30067",
-                "disable_cert_verification": false,
-                "protocol": "WSS"
-            },
-            {
                 "url": "lbc.electrum3.cipig.net:10067",
                 "protocol": "TCP"
             },
@@ -25377,20 +25334,6 @@
             },
             {
                 "url": "lbc.electrum1.cipig.net:30067",
-                "disable_cert_verification": false,
-                "protocol": "WSS"
-            },
-            {
-                "url": "lbc.electrum2.cipig.net:10067",
-                "protocol": "TCP"
-            },
-            {
-                "url": "lbc.electrum2.cipig.net:20067",
-                "disable_cert_verification": false,
-                "protocol": "SSL"
-            },
-            {
-                "url": "lbc.electrum2.cipig.net:30067",
                 "disable_cert_verification": false,
                 "protocol": "WSS"
             },
@@ -45663,20 +45606,6 @@
             "homepage": "https://vanillacash.org"
         },
         "electrum": [
-            {
-                "url": "electrumx1.vanillacash.info:50011",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx1.vanillacash.info:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrumx1.vanillacash.info:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
             {
                 "url": "electrumx2.vanillacash.info:50011",
                 "protocol": "TCP"

@@ -9657,16 +9657,6 @@
         },
         "electrum": [
             {
-                "url": "delecx.twinkykms.com:3341",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "405102339612082177"
-                    }
-                ]
-            },
-            {
                 "url": "elecx.kmsoftware.org:3341",
                 "protocol": "WSS",
                 "contact": [
@@ -12879,7 +12869,7 @@
         "wiftype": 164,
         "segwit": true,
         "bech32_hrp": "fc",
-        "txfee": 0,
+        "txfee": 10000000,
         "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
@@ -12941,7 +12931,7 @@
             "format": "segwit"
         },
         "orderbook_ticker": "FJC",
-        "txfee": 0,
+        "txfee": 10000000,
         "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
@@ -19544,11 +19534,6 @@
                 "protocol": "WSS"
             },
             {
-                "url": "lbc.electrum2.cipig.net:30067",
-                "disable_cert_verification": false,
-                "protocol": "WSS"
-            },
-            {
                 "url": "lbc.electrum3.cipig.net:30067",
                 "disable_cert_verification": false,
                 "protocol": "WSS"
@@ -19595,11 +19580,6 @@
         "electrum": [
             {
                 "url": "lbc.electrum1.cipig.net:30067",
-                "disable_cert_verification": false,
-                "protocol": "WSS"
-            },
-            {
-                "url": "lbc.electrum2.cipig.net:30067",
                 "disable_cert_verification": false,
                 "protocol": "WSS"
             },
@@ -35150,11 +35130,6 @@
             "homepage": "https://vanillacash.org"
         },
         "electrum": [
-            {
-                "url": "electrumx1.vanillacash.info:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
             {
                 "url": "electrumx2.vanillacash.info:50013",
                 "protocol": "WSS",
