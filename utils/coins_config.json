@@ -29790,6 +29790,10 @@
                 "ws_url": "wss://moonbeam-rpc.publicnode.com"
             },
             {
+                "url": "https://moonbeam.drpc.org",
+                "ws_url": "wss://moonbeam.drpc.org"
+            },
+            {
                 "url": "https://rpc.api.moonbeam.network",
                 "ws_url": "wss://wss.api.moonbeam.network"
             }
@@ -36146,6 +36150,18 @@
             "homepage": "https://raptoreum.com"
         },
         "electrum": [
+            {
+                "url": "x1.raptoreum.com:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "x1.raptoreum.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "x1.raptoreum.com:50004",
+                "protocol": "WSS"
+            },
             {
                 "url": "x2.raptoreum.com:50001",
                 "protocol": "TCP"
