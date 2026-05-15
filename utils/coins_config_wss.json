@@ -19534,6 +19534,11 @@
                 "protocol": "WSS"
             },
             {
+                "url": "lbc.electrum2.cipig.net:30067",
+                "disable_cert_verification": false,
+                "protocol": "WSS"
+            },
+            {
                 "url": "lbc.electrum3.cipig.net:30067",
                 "disable_cert_verification": false,
                 "protocol": "WSS"
@@ -19580,6 +19585,11 @@
         "electrum": [
             {
                 "url": "lbc.electrum1.cipig.net:30067",
+                "disable_cert_verification": false,
+                "protocol": "WSS"
+            },
+            {
+                "url": "lbc.electrum2.cipig.net:30067",
                 "disable_cert_verification": false,
                 "protocol": "WSS"
             },
