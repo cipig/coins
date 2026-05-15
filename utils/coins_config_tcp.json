@@ -21662,6 +21662,11 @@
                 "protocol": "SSL"
             },
             {
+                "url": "lbc.electrum2.cipig.net:20067",
+                "disable_cert_verification": false,
+                "protocol": "SSL"
+            },
+            {
                 "url": "lbc.electrum3.cipig.net:20067",
                 "disable_cert_verification": false,
                 "protocol": "SSL"
@@ -21708,6 +21713,11 @@
         "electrum": [
             {
                 "url": "lbc.electrum1.cipig.net:20067",
+                "disable_cert_verification": false,
+                "protocol": "SSL"
+            },
+            {
+                "url": "lbc.electrum2.cipig.net:20067",
                 "disable_cert_verification": false,
                 "protocol": "SSL"
             },
