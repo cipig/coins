@@ -9666,16 +9666,6 @@
                 ]
             },
             {
-                "url": "elecx1.dingocoin.com:3341",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
-                    }
-                ]
-            },
-            {
                 "url": "elecx2.kmsoftware.org:3341",
                 "protocol": "WSS",
                 "contact": [
@@ -10623,11 +10613,6 @@
         "electrum": [
             {
                 "url": "electrum1.egulden.org:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrum3.egulden.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
@@ -24514,15 +24499,6 @@
                 ]
             },
             {
-                "url": "electrum.pepeblocks.com:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "realmasterkush"
-                    }
-                ]
-            },
-            {
                 "url": "pep.electrum3.cipig.net:30076",
                 "protocol": "WSS",
                 "contact": [
@@ -31811,49 +31787,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "UNO": {
-        "coin": "UNO",
-        "type": "UTXO",
-        "name": "Unobtanium",
-        "coinpaprika_id": "uno-unobtanium",
-        "coingecko_id": "unobtanium",
-        "livecoinwatch_id": "UNO",
-        "explorer_url": "https://chainz.cryptoid.info/uno/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Unobtanium Signed Message:\n",
-        "fname": "Unobtanium",
-        "rpcport": 65535,
-        "pubtype": 130,
-        "p2shtype": 30,
-        "wiftype": 224,
-        "txfee": 0,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 150,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/92'",
-        "trezor_coin": "Unobtanium",
-        "links": {
-            "github": "https://github.com/unobtanium-official/unobtanium",
-            "homepage": "https://unobtanium.uno"
-        },
-        "electrum": [
-            {
-                "url": "uno-main.coinmunity.gold:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
     "USDC-ARB20": {
         "coin": "USDC-ARB20",
         "type": "Arbitrum",
@@ -34648,19 +34581,6 @@
             "homepage": "https://neurai.org"
         },
         "electrum": [
-            {
-                "url": "electrumx-dex-01.neuraiexplorer.com:50002",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ]
-            },
             {
                 "url": "electrumx-dex-02.neuraiexplorer.com:50002",
                 "protocol": "WSS",
