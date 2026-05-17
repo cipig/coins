@@ -10819,8 +10819,28 @@
         },
         "electrum": [
             {
+                "url": "delecx.twinkykms.com:3342",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "405102339612082177"
+                    }
+                ]
+            },
+            {
                 "url": "elecx.kmsoftware.org:3342",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "115619332448321541"
+                    }
+                ]
+            },
+            {
+                "url": "elecx1.dingocoin.com:3342",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "115619332448321541"
@@ -11896,6 +11916,11 @@
                 "url": "electrum1.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -12690,7 +12715,10 @@
         "derivation_path": "m/44'/60'",
         "max_eth_tx_type": 2,
         "swap_gas_fee_policy": "Medium",
-        "estimate_gas_mult": 2,
+        "estimate_gas_mult": 1.3,
+        "gas_limit": {
+            "eth_send_coins": 100000
+        },
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
@@ -35590,7 +35618,8 @@
         "electrum": [
             {
                 "url": "uno-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -43663,6 +43692,12 @@
         "rpc_urls": [
             {
                 "url": "https://osmosis.rpc.stakin-nodes.com"
+            },
+            {
+                "url": "https://rpc.cosmos.directory/osmosis"
+            },
+            {
+                "url": "https://rpc.osmosis.zone/"
             }
         ],
         "explorer_block_url": "block/",
