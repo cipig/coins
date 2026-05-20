@@ -36212,6 +36212,55 @@
         ],
         "explorer_block_url": "block/"
     },
+    "USDC-GNO": {
+        "coin": "USDC-GNO",
+        "type": "Gnosis",
+        "name": "USD Coin",
+        "coinpaprika_id": "usdc-usd-coin",
+        "coingecko_id": "usd-coin",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://gnosisscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "USD Coin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 100,
+        "decimals": 6,
+        "avg_blocktime": 5,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "XDAI",
+                "contract_address": "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0",
+        "parent_coin": "XDAI",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "nodes": [
+            {
+                "url": "https://gnosis-rpc.publicnode.com",
+                "ws_url": "wss://gnosis-rpc.publicnode.com"
+            },
+            {
+                "url": "https://public-gno-mainnet.fastnode.io"
+            },
+            {
+                "url": "https://rpc.gnosischain.com",
+                "ws_url": "wss://rpc.gnosischain.com/wss"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "USDC-PLG20": {
         "coin": "USDC-PLG20",
         "type": "Polygon",
@@ -36242,8 +36291,6 @@
             }
         },
         "derivation_path": "m/44'/60'",
-        "use_access_list": true,
-        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
