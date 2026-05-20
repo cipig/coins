@@ -15449,6 +15449,25 @@
     }
   },
   {
+    "coin": "ZCHF-GNO",
+    "name": "zchf_gno",
+    "fname": "Frankencoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 100,
+    "decimals": 18,
+    "avg_blocktime": 5,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "XDAI",
+        "contract_address": "0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "ZCHF-PLG20",
     "name": "zchf_plg20",
     "fname": "Frankencoin",
