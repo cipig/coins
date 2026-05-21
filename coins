@@ -6303,6 +6303,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "DECKER-GRC20",
+    "name": "decker_grc20",
+    "fname": "Decker",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 11169,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "avg_blocktime": 2.6,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "GLEEC",
+        "contract_address": "0x8611BCb325ddaef2b6C0389C56a865d5dD301c67"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "KMDT-GRC20",
     "name": "kmdt_grc20",
     "fname": "KMD Testnet",
