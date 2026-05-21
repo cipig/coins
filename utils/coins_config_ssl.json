@@ -452,8 +452,6 @@
             }
         },
         "derivation_path": "m/44'/60'",
-        "use_access_list": true,
-        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -514,8 +512,6 @@
             }
         },
         "derivation_path": "m/44'/60'",
-        "use_access_list": true,
-        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -16377,6 +16373,7 @@
                 "chain_id": 11169
             }
         },
+        "max_eth_tx_type": 2,
         "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
         "fallback_swap_contract": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -16517,8 +16514,6 @@
             }
         },
         "derivation_path": "m/44'/60'",
-        "use_access_list": true,
-        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -27399,6 +27394,9 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://1rpc.io/one"
+            },
             {
                 "url": "https://api.harmony.one"
             },
@@ -44222,9 +44220,6 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
-            },
-            {
-                "url": "https://rpc.osmosis.zone/"
             }
         ],
         "explorer_block_url": "block/",
