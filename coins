@@ -165,8 +165,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -192,8 +190,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -6284,6 +6280,7 @@
         "chain_id": 11169
       }
     },
+    "max_eth_tx_type": 2,
     "derivation_path": "m/44'/60'"
   },
   {
@@ -6302,6 +6299,7 @@
         "chain_id": 11169
       }
     },
+    "max_eth_tx_type": 2,
     "derivation_path": "m/44'/60'"
   },
   {
@@ -6361,8 +6359,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
