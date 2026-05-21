@@ -16385,6 +16385,48 @@
         ],
         "explorer_block_url": "block/"
     },
+    "DECKER-GRC20": {
+        "coin": "DECKER-GRC20",
+        "type": "GRC-20",
+        "name": "Decker",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://evm-explorer.gleec.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Decker",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 11169,
+        "decimals": 18,
+        "required_confirmations": 3,
+        "avg_blocktime": 2.6,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "GLEEC",
+                "contract_address": "0x8611BCb325ddaef2b6C0389C56a865d5dD301c67"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x8611BCb325ddaef2b6C0389C56a865d5dD301c67",
+        "parent_coin": "GLEEC",
+        "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
+        "fallback_swap_contract": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
+        "nodes": [
+            {
+                "url": "https://evm-rpc.gleec.com",
+                "ws_url": "wss://evm-ws.gleec.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "KMDT-GRC20": {
         "coin": "KMDT-GRC20",
         "type": "GRC-20",
@@ -44108,9 +44150,6 @@
         },
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
-            {
-                "url": "https://iris-rpc.publicnode.com"
-            },
             {
                 "url": "https://rpc.cosmos.directory/irisnet"
             },
