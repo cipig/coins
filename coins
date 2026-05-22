@@ -301,8 +301,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -462,8 +460,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -631,8 +627,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -744,8 +738,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -851,8 +843,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -966,8 +956,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -1064,9 +1052,6 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 43114,
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
-    "swap_gas_fee_policy": "Medium",
     "required_confirmations": 3,
     "avg_blocktime": 2.4,
     "protocol": {
@@ -1075,11 +1060,13 @@
         "chain_id": 43114
       }
     },
-    "derivation_path": "m/44'/60'",
     "trezor_coin": "Avalanche C-Chain",
     "links": {
       "homepage": "https://www.avax.network/"
-    }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium"
   },
   {
     "coin": "AVAX-BEP20",
@@ -1371,8 +1358,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -2296,8 +2281,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 120000,
@@ -2790,8 +2773,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 120000,
@@ -3407,8 +3388,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -3592,8 +3571,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -3793,8 +3770,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -3904,8 +3879,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -4819,7 +4792,6 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 61,
-    "use_access_list": true,
     "max_eth_tx_type": 2,
     "required_confirmations": 3,
     "avg_blocktime": 15,
@@ -4860,8 +4832,6 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "max_eth_tx_type": 2,
-    "swap_gas_fee_policy": "Medium",
     "sign_message_prefix": "Ethereum Signed Message:\n",
     "required_confirmations": 3,
     "avg_blocktime": 15,
@@ -4872,7 +4842,9 @@
       }
     },
     "trezor_coin": "Ethereum",
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium"
   },
   {
     "coin": "ETH-AVX20",
@@ -4997,8 +4969,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -5185,8 +5155,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -5236,8 +5204,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -5519,8 +5485,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 60000,
       "erc20_payment": 110000,
@@ -5809,8 +5773,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 60000,
       "erc20_payment": 110000,
@@ -5976,8 +5938,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -6125,8 +6085,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -6280,8 +6238,9 @@
         "chain_id": 11169
       }
     },
+    "derivation_path": "m/44'/60'",
     "max_eth_tx_type": 2,
-    "derivation_path": "m/44'/60'"
+    "swap_gas_fee_policy": "Medium"
   },
   {
     "coin": "GLEECT",
@@ -6299,8 +6258,9 @@
         "chain_id": 11169
       }
     },
+    "derivation_path": "m/44'/60'",
     "max_eth_tx_type": 2,
-    "derivation_path": "m/44'/60'"
+    "swap_gas_fee_policy": "Medium"
   },
   {
     "coin": "DECKER-GRC20",
@@ -6440,8 +6400,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -6486,8 +6444,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 60000,
       "erc20_payment": 120000,
@@ -6593,8 +6549,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -6786,8 +6740,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -6938,8 +6890,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -7041,8 +6991,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 120000,
@@ -7408,8 +7356,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -7454,8 +7400,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -7481,8 +7425,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -7565,8 +7507,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -7592,8 +7532,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -7676,8 +7614,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -7741,8 +7677,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -7787,8 +7721,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -7833,8 +7765,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -7860,8 +7790,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -7944,8 +7872,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -8027,8 +7953,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -8189,7 +8113,6 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 321,
-    "use_access_list": true,
     "max_eth_tx_type": 2,
     "required_confirmations": 3,
     "avg_blocktime": 3,
@@ -8341,8 +8264,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -8687,8 +8608,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -8830,8 +8749,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -9234,8 +9151,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -9299,8 +9214,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -9315,9 +9228,6 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
-    "swap_gas_fee_policy": "Medium",
     "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
@@ -9326,11 +9236,13 @@
         "chain_id": 137
       }
     },
-    "derivation_path": "m/44'/60'",
     "trezor_coin": "Polygon",
     "links": {
       "homepage": "https://polygon.technology/"
-    }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium"
   },
   {
     "coin": "POL-ERC20",
@@ -9687,8 +9599,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -9885,12 +9795,11 @@
         "chain_id": 1285
       }
     },
-    "derivation_path": "m/44'/60'",
     "trezor_coin": "Moonriver",
     "links": {
       "homepage": "https://moonbeam.network/networks/moonriver/"
     },
-    "use_access_list": true,
+    "derivation_path": "m/44'/60'",
     "max_eth_tx_type": 2,
     "swap_gas_fee_policy": "Medium",
     "gas_limit": {
@@ -9906,7 +9815,6 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1284,
-    "use_access_list": true,
     "max_eth_tx_type": 2,
     "required_confirmations": 3,
     "avg_blocktime": 15,
@@ -10088,8 +9996,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -10415,8 +10321,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 60000,
       "erc20_payment": 110000,
@@ -10474,7 +10378,6 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1666600000,
-    "use_access_list": true,
     "max_eth_tx_type": 2,
     "required_confirmations": 3,
     "avg_blocktime": 15,
@@ -10553,8 +10456,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -10864,8 +10765,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -11093,8 +10992,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 120000,
@@ -11179,8 +11076,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -11586,8 +11481,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -11822,8 +11715,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -12078,8 +11969,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -12235,8 +12124,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -12281,8 +12168,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -12422,8 +12307,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -12449,8 +12332,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -12616,8 +12497,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -12755,8 +12634,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -12953,8 +12830,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -13018,8 +12893,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -13270,8 +13143,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 60000,
       "erc20_payment": 120000,
@@ -13334,8 +13205,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -13700,8 +13569,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -14054,8 +13921,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -14100,8 +13965,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 60000,
       "erc20_payment": 120000,
@@ -14587,8 +14450,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -14709,8 +14570,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -14771,12 +14630,12 @@
         "chain_id": 100
       }
     },
-    "derivation_path": "m/44'/60'",
-    "max_eth_tx_type": 2,
-    "swap_gas_fee_policy": "Medium",
     "links": {
       "homepage": "https://www.gnosis.io"
-    }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium"
   },
   {
     "coin": "XEP-segwit",
@@ -14861,8 +14720,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -15388,8 +15245,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
