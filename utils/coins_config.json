@@ -13062,33 +13062,6 @@
                 ]
             },
             {
-                "url": "seed2.dingocoin.com:3339",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
-                    }
-                ]
-            },
-            {
-                "url": "seed2.dingocoin.com:3341",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
-                    }
-                ]
-            },
-            {
-                "url": "seed2.dingocoin.com:3342",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
-                    }
-                ]
-            },
-            {
                 "url": "seed3.dingocoin.com:3339",
                 "protocol": "TCP",
                 "contact": [
@@ -13947,37 +13920,8 @@
             "github": "https://github.com/DogecoinEV-Foundation/DogecoinEV",
             "homepage": "https://dogecoinev.com"
         },
-        "electrum": [
-            {
-                "url": "api.dogecoinev.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "1157581316175437884"
-                    }
-                ]
-            },
-            {
-                "url": "api.dogecoinev.com:50002",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "1157581316175437884"
-                    }
-                ]
-            },
-            {
-                "url": "api.dogecoinev.com:50003",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "1157581316175437884"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "MYDOGE": {
@@ -25547,7 +25491,7 @@
         "name": "LitecoinII",
         "coinpaprika_id": "lc2-litecoinii",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "LC2",
         "explorer_url": "https://mempool.litecoinii.org/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -25614,7 +25558,7 @@
         "name": "LitecoinII",
         "coinpaprika_id": "lc2-litecoinii",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "LC2",
         "explorer_url": "https://mempool.litecoinii.org/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -51190,9 +51134,6 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
-            },
-            {
-                "url": "https://rpc.osmosis.zone/"
             }
         ],
         "explorer_block_url": "block/",
