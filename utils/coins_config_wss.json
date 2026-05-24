@@ -27757,6 +27757,10 @@
         },
         "electrum": [
             {
+                "url": "x1.raptoreum.com:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "x2.raptoreum.com:50004",
                 "protocol": "WSS"
             }
@@ -35232,6 +35236,54 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "XVG": {
+        "coin": "XVG",
+        "type": "UTXO",
+        "name": "Verge",
+        "coinpaprika_id": "xvg-verge",
+        "coingecko_id": "verge",
+        "livecoinwatch_id": "XVG",
+        "explorer_url": "https://xvgblockexplorer.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "VERGE Signed Message:\n",
+        "fname": "Verge",
+        "isPoS": 1,
+        "rpcport": 20102,
+        "pubtype": 30,
+        "p2shtype": 33,
+        "wiftype": 158,
+        "decimals": 6,
+        "segwit": true,
+        "bech32_hrp": "vg",
+        "txfee": 200000,
+        "dingo_fee": true,
+        "dust": 200000,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 30,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/77'",
+        "electrum": [
+            {
+                "url": "electrum-verge.cloud:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx-verge.cloud:50004",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "XVG"
     },
     "XVS-BEP20": {
         "coin": "XVS-BEP20",
