@@ -6688,6 +6688,16 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
                 "contact": [
@@ -6767,6 +6777,16 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
@@ -35446,6 +35466,11 @@
             "homepage": "https://unobtanium.uno"
         },
         "electrum": [
+            {
+                "url": "uno-bkp.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
             {
                 "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL",
