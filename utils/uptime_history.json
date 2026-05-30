@@ -735,7 +735,8 @@
         "1779852451": "online"
       },
       "https://bsc3.cipig.net:18655": {
-        "1779852451": "online"
+        "1779852451": "online",
+        "1780109176": "offline"
       },
       "wss://bsc-rpc.publicnode.com": {
         "1779852451": "online"
@@ -744,7 +745,8 @@
         "1779852451": "online"
       },
       "wss://bsc3.cipig.net:38655": {
-        "1779852451": "online"
+        "1779852451": "online",
+        "1780109176": "offline"
       }
     }
   },
@@ -2303,8 +2305,25 @@
   "ETH": {
     "all": {},
     "by_server": {
+      "_metadata": {
+        "https://eth3.cipig.net:18555": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            }
+          ]
+        },
+        "wss://eth3.cipig.net:38555": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            }
+          ]
+        }
+      },
       "https://eth3.cipig.net:18555": {
-        "1779852451": "online"
+        "1779852451": "online",
+        "1780109176": "offline"
       },
       "https://ethereum-rpc.publicnode.com": {
         "1779852451": "online"
@@ -2316,7 +2335,8 @@
         "1779852451": "online"
       },
       "wss://eth3.cipig.net:38555": {
-        "1779852451": "online"
+        "1779852451": "online",
+        "1780109176": "offline"
       },
       "wss://ethereum-rpc.publicnode.com": {
         "1779852451": "online"
@@ -6024,13 +6044,16 @@
         "1779852451": "offline"
       },
       "electrumx2.vanillacash.info:50011": {
-        "1779852451": "offline"
+        "1779852451": "offline",
+        "1780109176": "online"
       },
       "electrumx2.vanillacash.info:50012": {
-        "1779852451": "offline"
+        "1779852451": "offline",
+        "1780109176": "online"
       },
       "electrumx2.vanillacash.info:50013": {
-        "1779852451": "offline"
+        "1779852451": "offline",
+        "1780109176": "online"
       },
       "xvc-ex-seven.ewmci.online:50001": {
         "1779852451": "online"
