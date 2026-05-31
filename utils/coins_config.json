@@ -13012,6 +13012,23 @@
             {
                 "url": "electrumx1.mydogecoin.fun:60003",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrumx2.mydogecoin.fun:60001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "support@mydogecoin.fun"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.mydogecoin.fun:60002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx2.mydogecoin.fun:60003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -32309,8 +32326,32 @@
             "github": "https://github.com/reddcoin-project/reddcoin",
             "homepage": "https://reddcoin.com"
         },
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "electrum01.reddcoin.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum01.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50004",
+                "protocol": "WSS"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "REN-ERC20": {
@@ -47597,6 +47638,42 @@
             "homepage": "https://coin.crionic.org"
         },
         "electrum": [
+            {
+                "url": "coin.crionic.org:50001",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "coin.crionic.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
+            {
+                "url": "coin.crionic.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
             {
                 "url": "explorer.crionic.org:50001",
                 "contact": [
