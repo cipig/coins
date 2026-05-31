@@ -9589,6 +9589,10 @@
             {
                 "url": "electrumx1.mydogecoin.fun:60003",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrumx2.mydogecoin.fun:60003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -24669,6 +24673,61 @@
         ],
         "explorer_block_url": "block/"
     },
+    "RDD": {
+        "coin": "RDD",
+        "type": "UTXO",
+        "name": "ReddCoin",
+        "coinpaprika_id": "rdd-reddcoin",
+        "coingecko_id": "reddcoin",
+        "livecoinwatch_id": "RDD",
+        "explorer_url": "https://live.reddcoin.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "Reddcoin Signed Message:\n",
+        "fname": "ReddCoin",
+        "isPoSV": 1,
+        "rpcport": 45443,
+        "pubtype": 61,
+        "p2shtype": 5,
+        "wiftype": 189,
+        "txversion": 2,
+        "txfee": 100000,
+        "dust": 100000,
+        "segwit": false,
+        "mm2": 1,
+        "mature_confirmations": 30,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/4'",
+        "trezor_coin": "Reddcoin",
+        "links": {
+            "github": "https://github.com/reddcoin-project/reddcoin",
+            "homepage": "https://reddcoin.com"
+        },
+        "electrum": [
+            {
+                "url": "electrum01.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50004",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "REN-ERC20": {
         "coin": "REN-ERC20",
         "type": "ERC-20",
@@ -36009,6 +36068,18 @@
             "homepage": "https://coin.crionic.org"
         },
         "electrum": [
+            {
+                "url": "coin.crionic.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
             {
                 "url": "explorer.crionic.org:50005",
                 "protocol": "WSS",
