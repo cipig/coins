@@ -25708,6 +25708,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://1rpc.io/one"
+            },
+            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -36157,8 +36160,8 @@
         "derivation_path": "m/44'/60'",
         "max_eth_tx_type": 2,
         "swap_gas_fee_policy": "Medium",
-        "base_fee_mult": 1.2,
-        "priority_fee_mult": 1.2,
+        "base_fee_mult": 2,
+        "priority_fee_mult": 2,
         "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
         "fallback_swap_contract": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
         "nodes": [
@@ -41358,6 +41361,18 @@
         "electrum": [
             {
                 "url": "coin.crionic.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
+            {
+                "url": "explorer.crionic.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
