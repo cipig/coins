@@ -29221,6 +29221,52 @@
         ],
         "explorer_block_url": "block/"
     },
+    "RTM": {
+        "coin": "RTM",
+        "type": "UTXO",
+        "name": "Raptoreum",
+        "coinpaprika_id": "rtm-raptoreum",
+        "coingecko_id": "raptoreum",
+        "livecoinwatch_id": "RTM",
+        "explorer_url": "https://explorer.raptoreum.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkCoin Signed Message:\n",
+        "fname": "Raptoreum",
+        "rpcport": 9998,
+        "pubtype": 60,
+        "p2shtype": 16,
+        "wiftype": 128,
+        "txfee": 1000,
+        "mm2": 1,
+        "confpath": "USERHOME/.raptoreumcore/raptoreum.conf",
+        "required_confirmations": 3,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/10226'",
+        "links": {
+            "github": "https://github.com/Raptor3um/Raptoreum",
+            "homepage": "https://raptoreum.com"
+        },
+        "electrum": [
+            {
+                "url": "x1.raptoreum.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "x2.raptoreum.com:50002",
+                "protocol": "SSL"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "RTM-BEP20": {
         "coin": "RTM-BEP20",
         "type": "BEP-20",
@@ -36231,9 +36277,7 @@
         },
         "derivation_path": "m/44'/60'",
         "max_eth_tx_type": 2,
-        "swap_gas_fee_policy": "Medium",
-        "base_fee_mult": 2,
-        "priority_fee_mult": 2,
+        "swap_gas_fee_policy": "High",
         "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
         "fallback_swap_contract": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
         "nodes": [

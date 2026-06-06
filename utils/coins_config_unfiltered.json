@@ -33697,8 +33697,32 @@
             "github": "https://github.com/Raptor3um/Raptoreum",
             "homepage": "https://raptoreum.com"
         },
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "x1.raptoreum.com:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "x1.raptoreum.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "x1.raptoreum.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "x2.raptoreum.com:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "x2.raptoreum.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "x2.raptoreum.com:50004",
+                "protocol": "WSS"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "GRR": {
@@ -41401,9 +41425,7 @@
         },
         "derivation_path": "m/44'/60'",
         "max_eth_tx_type": 2,
-        "swap_gas_fee_policy": "Medium",
-        "base_fee_mult": 2,
-        "priority_fee_mult": 2,
+        "swap_gas_fee_policy": "High",
         "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
         "fallback_swap_contract": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
         "nodes": [
