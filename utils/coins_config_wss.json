@@ -3955,6 +3955,7 @@
             {
                 "url": "bit-e.minethepla.net:50004",
                 "protocol": "WSS",
+                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "def#4726"
@@ -9120,6 +9121,15 @@
             },
             {
                 "url": "seed1.dingocoin.com:3341",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "115619332448321541"
+                    }
+                ]
+            },
+            {
+                "url": "seed2.dingocoin.com:3341",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -22079,6 +22089,27 @@
         "derivation_path": "m/44'/50'",
         "electrum": [
             {
+                "url": "electrumx.nvc.ewmcx.org:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "NovacoinCommunity"
+                    },
+                    {
+                        "github": "novacoin-project"
+                    }
+                ]
+            },
+            {
                 "url": "failover.nvc.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "contact": [
@@ -32572,6 +32603,11 @@
             "homepage": "https://vanillacash.org"
         },
         "electrum": [
+            {
+                "url": "electrumx2.vanillacash.info:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
             {
                 "url": "xvc-ex-seven.ewmci.online:50003",
                 "protocol": "WSS",
