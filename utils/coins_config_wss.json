@@ -9156,15 +9156,6 @@
                 ]
             },
             {
-                "url": "seed2.dingocoin.com:3341",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
-                    }
-                ]
-            },
-            {
                 "url": "seed3.dingocoin.com:3341",
                 "protocol": "WSS",
                 "contact": [
@@ -21701,10 +21692,6 @@
                 "ws_url": "wss://moonbeam-rpc.publicnode.com"
             },
             {
-                "url": "https://moonbeam.drpc.org",
-                "ws_url": "wss://moonbeam.drpc.org"
-            },
-            {
                 "url": "https://rpc.api.moonbeam.network",
                 "ws_url": "wss://wss.api.moonbeam.network"
             }
@@ -22977,6 +22964,15 @@
             "homepage": "https://pepecoin.org"
         },
         "electrum": [
+            {
+                "url": "electrum.pepe.tips:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "squidicuz"
+                    }
+                ]
+            },
             {
                 "url": "electrum.pepeblocks.com:50004",
                 "protocol": "WSS",
@@ -32639,16 +32635,6 @@
                 "url": "electrumx2.vanillacash.info:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "xvc-ex-seven.ewmci.online:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -36794,6 +36780,51 @@
                         "discord": "635448663543644170"
                     }
                 ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "JUMP": {
+        "coin": "JUMP",
+        "type": "UTXO",
+        "name": "Jumpcoin",
+        "coinpaprika_id": "jump-jumpcoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "_JUMP",
+        "explorer_url": "https://explorer.jumpcoin.net/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Jumpcoin Signed Message:\n",
+        "fname": "Jumpcoin",
+        "isPoS": 1,
+        "rpcport": 31240,
+        "pubtype": 43,
+        "p2shtype": 122,
+        "wiftype": 171,
+        "txfee": 10000,
+        "dust": 10000,
+        "mm2": 1,
+        "mature_confirmations": 100,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/278'",
+        "links": {
+            "homepage": "https://jumpcoin.net",
+            "explorer": "https://explorer.jumpcoin.net",
+            "github": "https://github.com/jumpcoin"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.jumpcoin.net:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
