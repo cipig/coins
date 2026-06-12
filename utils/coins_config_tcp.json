@@ -4584,7 +4584,18 @@
         "protocol": {
             "type": "UTXO"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "BCZERO": {
@@ -16216,6 +16227,16 @@
                         "discord": "orpheas#1503"
                     }
                 ]
+            },
+            {
+                "url": "electrum.niftybakes.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "405566674448810005"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -20954,16 +20975,6 @@
         "derivation_path": "m/44'/192'",
         "electrum": [
             {
-                "url": "electrum-lcc.cascoin.net:50002",
-                "disable_cert_verification": true,
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "635448663543644170"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.litecoincash.com.br:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -21024,16 +21035,6 @@
         },
         "derivation_path": "m/84'/192'",
         "electrum": [
-            {
-                "url": "electrum-lcc.cascoin.net:50002",
-                "disable_cert_verification": true,
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "635448663543644170"
-                    }
-                ]
-            },
             {
                 "url": "electrumx.litecoincash.com.br:50002",
                 "protocol": "SSL",
@@ -24469,6 +24470,10 @@
             {
                 "url": "https://moonbeam-rpc.publicnode.com",
                 "ws_url": "wss://moonbeam-rpc.publicnode.com"
+            },
+            {
+                "url": "https://moonbeam.drpc.org",
+                "ws_url": "wss://moonbeam.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonbeam.network",
