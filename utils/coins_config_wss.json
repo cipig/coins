@@ -14301,6 +14301,16 @@
                         "discord": "orpheas#1503"
                     }
                 ]
+            },
+            {
+                "url": "electrum.niftybakes.com:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "405566674448810005"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -18611,16 +18621,6 @@
         "derivation_path": "m/44'/192'",
         "electrum": [
             {
-                "url": "electrum-lcc.cascoin.net:50003",
-                "disable_cert_verification": true,
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "635448663543644170"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.litecoincash.com.br:50003",
                 "protocol": "WSS",
                 "contact": [
@@ -18681,16 +18681,6 @@
         },
         "derivation_path": "m/84'/192'",
         "electrum": [
-            {
-                "url": "electrum-lcc.cascoin.net:50003",
-                "disable_cert_verification": true,
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "635448663543644170"
-                    }
-                ]
-            },
             {
                 "url": "electrumx.litecoincash.com.br:50003",
                 "protocol": "WSS",
@@ -21690,6 +21680,10 @@
             {
                 "url": "https://moonbeam-rpc.publicnode.com",
                 "ws_url": "wss://moonbeam-rpc.publicnode.com"
+            },
+            {
+                "url": "https://moonbeam.drpc.org",
+                "ws_url": "wss://moonbeam.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonbeam.network",
