@@ -7385,6 +7385,26 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
                 "contact": [
@@ -7476,6 +7496,26 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
@@ -12500,6 +12540,33 @@
         },
         "electrum": [
             {
+                "url": "electrumx.doriancoin.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "cloudhax#8411"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.doriancoin.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "cloudhax#8411"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.doriancoin.com:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "cloudhax#8411"
+                    }
+                ]
+            },
+            {
                 "url": "node1.doriancoin.com:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -12598,6 +12665,33 @@
             "homepage": "https://doriancoin.org"
         },
         "electrum": [
+            {
+                "url": "electrumx.doriancoin.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "cloudhax#8411"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.doriancoin.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "cloudhax#8411"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.doriancoin.com:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "cloudhax#8411"
+                    }
+                ]
+            },
             {
                 "url": "node1.doriancoin.com:50001",
                 "protocol": "TCP",
@@ -13980,9 +14074,6 @@
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
             {
-                "url": "https://etc.etcdesktop.com"
-            },
-            {
                 "url": "https://etc.rivet.link"
             },
             {
@@ -14090,9 +14181,6 @@
             {
                 "url": "https://mainnet.gateway.tenderly.co",
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
-            },
-            {
-                "url": "https://public-eth.nownodes.io"
             },
             {
                 "url": "https://rpc.mevblocker.io"
@@ -38378,6 +38466,16 @@
             {
                 "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50003",
+                "protocol": "WSS",
                 "disable_cert_verification": true
             }
         ],
