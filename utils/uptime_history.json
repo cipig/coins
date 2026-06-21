@@ -356,6 +356,13 @@
               "email": "contact@avn.network"
             }
           ]
+        },
+        "electrum-us.avn.network:50001": {
+          "contact": [
+            {
+              "email": "contact@avn.network"
+            }
+          ]
         }
       },
       "electrum-ca.avn.network:50001": {
@@ -377,7 +384,8 @@
         "1781595020": "online"
       },
       "electrum-us.avn.network:50001": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum-us.avn.network:50002": {
         "1781595020": "online"
@@ -1717,14 +1725,49 @@
       "1781595020": "online"
     },
     "by_server": {
+      "_metadata": {
+        "coin.crionic.org:50001": {
+          "contact": [
+            {
+              "email": "diabatiis@gmail.com"
+            },
+            {
+              "discord": "Diabaths#1919"
+            }
+          ]
+        },
+        "coin.crionic.org:50002": {
+          "contact": [
+            {
+              "email": "diabatiis@gmail.com"
+            },
+            {
+              "discord": "Diabaths#1919"
+            }
+          ]
+        },
+        "coin.crionic.org:50005": {
+          "contact": [
+            {
+              "email": "diabatiis@gmail.com"
+            },
+            {
+              "discord": "Diabaths#1919"
+            }
+          ]
+        }
+      },
       "coin.crionic.org:50001": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "coin.crionic.org:50002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "coin.crionic.org:50005": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "explorer.crionic.org:50001": {
         "1781595020": "online"
@@ -2851,10 +2894,12 @@
     },
     "by_server": {
       "electrum1.egulden.org:50002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum1.egulden.org:50004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum2.egulden.org:50002": {
         "1781595020": "offline"
@@ -3923,10 +3968,31 @@
   },
   "KCN": {
     "all": {
-      "1781595020": "online"
+      "1781595020": "online",
+      "1782013499": "offline"
     },
     "by_server": {
       "_metadata": {
+        "electrum1.kcnxp.com:51002": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum1.kcnxp.com:51004": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
         "electrum2.kcnxp.com:51002": {
           "contact": [
             {
@@ -3938,6 +4004,26 @@
           ]
         },
         "electrum2.kcnxp.com:51004": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum3.kcnxp.com:51002": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum3.kcnxp.com:51004": {
           "contact": [
             {
               "email": "jaybitron@gmail.com"
@@ -3966,13 +4052,35 @@
               "discord": "jaybitron"
             }
           ]
+        },
+        "electrum5.kcnxp.com:51002": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum5.kcnxp.com:51004": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
         }
       },
       "electrum1.kcnxp.com:51002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum1.kcnxp.com:51004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum2.kcnxp.com:51002": {
         "1781595020": "offline"
@@ -3981,10 +4089,12 @@
         "1781595020": "offline"
       },
       "electrum3.kcnxp.com:51002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum3.kcnxp.com:51004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum4.kcnxp.com:51002": {
         "1781595020": "offline"
@@ -3993,19 +4103,42 @@
         "1781595020": "offline"
       },
       "electrum5.kcnxp.com:51002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum5.kcnxp.com:51004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       }
     }
   },
   "KCN-segwit": {
     "all": {
-      "1781595020": "online"
+      "1781595020": "online",
+      "1782013499": "offline"
     },
     "by_server": {
       "_metadata": {
+        "electrum1.kcnxp.com:51002": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum1.kcnxp.com:51004": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
         "electrum2.kcnxp.com:51002": {
           "contact": [
             {
@@ -4017,6 +4150,26 @@
           ]
         },
         "electrum2.kcnxp.com:51004": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum3.kcnxp.com:51002": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum3.kcnxp.com:51004": {
           "contact": [
             {
               "email": "jaybitron@gmail.com"
@@ -4045,13 +4198,35 @@
               "discord": "jaybitron"
             }
           ]
+        },
+        "electrum5.kcnxp.com:51002": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum5.kcnxp.com:51004": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
         }
       },
       "electrum1.kcnxp.com:51002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum1.kcnxp.com:51004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum2.kcnxp.com:51002": {
         "1781595020": "offline"
@@ -4060,10 +4235,12 @@
         "1781595020": "offline"
       },
       "electrum3.kcnxp.com:51002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum3.kcnxp.com:51004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum4.kcnxp.com:51002": {
         "1781595020": "offline"
@@ -4072,10 +4249,12 @@
         "1781595020": "offline"
       },
       "electrum5.kcnxp.com:51002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum5.kcnxp.com:51004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       }
     }
   },
@@ -4487,10 +4666,31 @@
   },
   "LCN": {
     "all": {
-      "1781595020": "online"
+      "1781595020": "online",
+      "1782013499": "offline"
     },
     "by_server": {
       "_metadata": {
+        "electrum1.lcnxp.com:52002": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum1.lcnxp.com:52004": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
         "electrum2.lcnxp.com:52002": {
           "contact": [
             {
@@ -4502,6 +4702,26 @@
           ]
         },
         "electrum2.lcnxp.com:52004": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum3.lcnxp.com:52002": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum3.lcnxp.com:52004": {
           "contact": [
             {
               "email": "jaybitron@gmail.com"
@@ -4530,13 +4750,35 @@
               "discord": "jaybitron"
             }
           ]
+        },
+        "electrum5.lcnxp.com:52002": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum5.lcnxp.com:52004": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
         }
       },
       "electrum1.lcnxp.com:52002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum1.lcnxp.com:52004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum2.lcnxp.com:52002": {
         "1781595020": "offline"
@@ -4545,10 +4787,12 @@
         "1781595020": "offline"
       },
       "electrum3.lcnxp.com:52002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum3.lcnxp.com:52004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum4.lcnxp.com:52002": {
         "1781595020": "offline"
@@ -4557,19 +4801,42 @@
         "1781595020": "offline"
       },
       "electrum5.lcnxp.com:52002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum5.lcnxp.com:52004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       }
     }
   },
   "LCN-segwit": {
     "all": {
-      "1781595020": "online"
+      "1781595020": "online",
+      "1782013499": "offline"
     },
     "by_server": {
       "_metadata": {
+        "electrum1.lcnxp.com:52002": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum1.lcnxp.com:52004": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
         "electrum2.lcnxp.com:52002": {
           "contact": [
             {
@@ -4581,6 +4848,26 @@
           ]
         },
         "electrum2.lcnxp.com:52004": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum3.lcnxp.com:52002": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum3.lcnxp.com:52004": {
           "contact": [
             {
               "email": "jaybitron@gmail.com"
@@ -4609,13 +4896,35 @@
               "discord": "jaybitron"
             }
           ]
+        },
+        "electrum5.lcnxp.com:52002": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
+        },
+        "electrum5.lcnxp.com:52004": {
+          "contact": [
+            {
+              "email": "jaybitron@gmail.com"
+            },
+            {
+              "discord": "jaybitron"
+            }
+          ]
         }
       },
       "electrum1.lcnxp.com:52002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum1.lcnxp.com:52004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum2.lcnxp.com:52002": {
         "1781595020": "offline"
@@ -4624,10 +4933,12 @@
         "1781595020": "offline"
       },
       "electrum3.lcnxp.com:52002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum3.lcnxp.com:52004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum4.lcnxp.com:52002": {
         "1781595020": "offline"
@@ -4636,10 +4947,12 @@
         "1781595020": "offline"
       },
       "electrum5.lcnxp.com:52002": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrum5.lcnxp.com:52004": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       }
     }
   },
@@ -6074,10 +6387,12 @@
         "1781595020": "online"
       },
       "electrumx.rxd-radiant.com:50022": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrumx.rxd-radiant.com:50023": {
-        "1781595020": "online"
+        "1781595020": "online",
+        "1782013499": "offline"
       },
       "electrumx2.radiant4people.com:50012": {
         "1781595020": "online"
