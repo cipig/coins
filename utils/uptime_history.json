@@ -649,6 +649,31 @@
       }
     }
   },
+  "BCH2": {
+    "all": {
+      "1783177803": "online"
+    },
+    "by_server": {
+      "electrum.bch2.org:50001": {
+        "1783177803": "online"
+      },
+      "electrum.bch2.org:50002": {
+        "1783177803": "online"
+      },
+      "electrum.bch2.org:50004": {
+        "1783177803": "online"
+      },
+      "electrum2.bch2.org:50001": {
+        "1783177803": "online"
+      },
+      "electrum2.bch2.org:50002": {
+        "1783177803": "online"
+      },
+      "electrum2.bch2.org:50004": {
+        "1783177803": "online"
+      }
+    }
+  },
   "BCZERO": {
     "all": {
       "1783175594": "online"
@@ -5583,7 +5608,8 @@
     "all": {},
     "by_server": {
       "https://1rpc.io/one": {
-        "1783175594": "online"
+        "1783175594": "online",
+        "1783177803": "offline"
       },
       "https://api.harmony.one": {
         "1783175594": "online"
@@ -6835,10 +6861,12 @@
         "1783175594": "online"
       },
       "uno-ex-one.ewmci.online:50001": {
-        "1783175594": "offline"
+        "1783175594": "offline",
+        "1783177803": "online"
       },
       "uno-ex-one.ewmci.online:50002": {
-        "1783175594": "offline"
+        "1783175594": "offline",
+        "1783177803": "online"
       },
       "uno-ex-one.ewmci.online:50003": {
         "1783175594": "offline"
@@ -7189,7 +7217,8 @@
         "1783175594": "online"
       },
       "wss://rpc.gnosischain.com/wss": {
-        "1783175594": "offline"
+        "1783175594": "offline",
+        "1783177803": "online"
       }
     }
   },
