@@ -4379,6 +4379,69 @@
         "explorer_block_url": "block/",
         "binance_id": "BCH"
     },
+    "BCH2": {
+        "coin": "BCH2",
+        "type": "UTXO",
+        "name": "Bitcoin Cash II",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.bch2.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
+        "fname": "Bitcoin Cash II",
+        "rpcport": 8342,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 1000,
+        "segwit": false,
+        "fork_id": "0x40",
+        "address_format": {
+            "format": "cashaddress",
+            "network": "bitcoincashii"
+        },
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "BTC"
+        },
+        "derivation_path": "m/44'/145'",
+        "trezor_coin": "Bitcoin Cash",
+        "links": {
+            "github": "https://github.com/Bitcoin-II",
+            "homepage": "https://bch2.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum.bch2.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "dev@bitcoincashii.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.bch2.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "dev@bitcoincashii.org"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "BEAMX-BEP20": {
         "coin": "BEAMX-BEP20",
         "type": "BEP-20",
@@ -25331,9 +25394,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -33242,6 +33302,11 @@
         "electrum": [
             {
                 "url": "uno-bkp.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
