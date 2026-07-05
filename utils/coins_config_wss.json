@@ -1786,8 +1786,8 @@
             }
         },
         "derivation_path": "m/44'/141'",
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
+        "requires_notarization": false,
         "checkpoint_height": 1900000,
         "checkpoint_blocktime": 1652512363,
         "electrum": [
@@ -9116,16 +9116,6 @@
                 ]
             },
             {
-                "url": "elecx1.dingocoin.com:3341",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
-                    }
-                ]
-            },
-            {
                 "url": "seed1.dingocoin.com:3341",
                 "protocol": "WSS",
                 "contact": [
@@ -10283,18 +10273,6 @@
         },
         "derivation_path": "m/44'/41'",
         "electrum": [
-            {
-                "url": "emc2.electrum1.cipig.net:30062",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
             {
                 "url": "emc2.electrum2.cipig.net:30062",
                 "protocol": "WSS",
@@ -36506,15 +36484,6 @@
         "electrum": [
             {
                 "url": "cat-electrum1.tbtechvn.com:52001",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "349778454872588299"
-                    }
-                ]
-            },
-            {
-                "url": "cat-electrum2.tbtechvn.com:52001",
                 "protocol": "WSS",
                 "contact": [
                     {

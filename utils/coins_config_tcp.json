@@ -2095,8 +2095,8 @@
             }
         },
         "derivation_path": "m/44'/141'",
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
+        "requires_notarization": false,
         "checkpoint_height": 1900000,
         "checkpoint_blocktime": 1652512363,
         "electrum": [
@@ -10333,16 +10333,6 @@
                 ]
             },
             {
-                "url": "elecx1.dingocoin.com:3342",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
-                    }
-                ]
-            },
-            {
                 "url": "seed1.dingocoin.com:3342",
                 "protocol": "SSL",
                 "contact": [
@@ -11643,18 +11633,6 @@
         },
         "derivation_path": "m/44'/41'",
         "electrum": [
-            {
-                "url": "emc2.electrum1.cipig.net:20062",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
             {
                 "url": "emc2.electrum2.cipig.net:20062",
                 "protocol": "SSL",
@@ -25483,6 +25461,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://1rpc.io/one"
+            },
+            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -33400,11 +33381,6 @@
         "electrum": [
             {
                 "url": "uno-bkp.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
@@ -41875,15 +41851,6 @@
         "electrum": [
             {
                 "url": "cat-electrum1.tbtechvn.com:51001",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "349778454872588299"
-                    }
-                ]
-            },
-            {
-                "url": "cat-electrum2.tbtechvn.com:51001",
                 "protocol": "SSL",
                 "contact": [
                     {
