@@ -5177,6 +5177,7 @@
             {
                 "url": "bitnet.outsidethebox.top:50002",
                 "protocol": "SSL",
+                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "def#4726"
@@ -5186,6 +5187,7 @@
             {
                 "url": "bitnet.outsidethebox.top:50004",
                 "protocol": "WSS",
+                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "def#4726"
@@ -26045,10 +26047,6 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -48244,7 +48242,8 @@
             },
             {
                 "url": "electrum1.jumpcoin.net:50002",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
                 "url": "electrum1.jumpcoin.net:50003",
