@@ -1418,13 +1418,16 @@
         "1783284102": "online"
       },
       "cat-electrum2.tbtechvn.com:50001": {
-        "1783284102": "offline"
+        "1783284102": "offline",
+        "1783293782": "online"
       },
       "cat-electrum2.tbtechvn.com:51001": {
-        "1783284102": "offline"
+        "1783284102": "offline",
+        "1783293782": "online"
       },
       "cat-electrum2.tbtechvn.com:52001": {
-        "1783284102": "offline"
+        "1783284102": "offline",
+        "1783293782": "online"
       }
     }
   },
@@ -5477,6 +5480,61 @@
       }
     }
   },
+  "MWC": {
+    "all": {
+      "1783293782": "online"
+    },
+    "by_server": {
+      "_metadata": {
+        "electrum.minersworld.org:50004": {
+          "contact": [
+            {
+              "discord": "danny_utxo"
+            }
+          ]
+        },
+        "electrum2.minersworld.org:50001": {
+          "contact": [
+            {
+              "discord": "danny_utxo"
+            }
+          ]
+        },
+        "electrum2.minersworld.org:50002": {
+          "contact": [
+            {
+              "discord": "danny_utxo"
+            }
+          ]
+        },
+        "electrum2.minersworld.org:50004": {
+          "contact": [
+            {
+              "discord": "danny_utxo"
+            }
+          ]
+        }
+      },
+      "electrum.minersworld.org:50001": {
+        "1783293782": "online"
+      },
+      "electrum.minersworld.org:50002": {
+        "1783293782": "online"
+      },
+      "electrum.minersworld.org:50004": {
+        "1783293782": "offline"
+      },
+      "electrum2.minersworld.org:50001": {
+        "1783293782": "offline"
+      },
+      "electrum2.minersworld.org:50002": {
+        "1783293782": "offline"
+      },
+      "electrum2.minersworld.org:50004": {
+        "1783293782": "offline"
+      }
+    }
+  },
   "MYDOGE": {
     "all": {
       "1783284102": "online"
@@ -5832,7 +5890,8 @@
       },
       "https://polygon.gateway.tenderly.co": {
         "1783284102": "online",
-        "1783289760": "offline"
+        "1783289760": "offline",
+        "1783293782": "online"
       },
       "wss://pol3.cipig.net:38755": {
         "1783284102": "offline"
