@@ -5639,6 +5639,11 @@
         },
         "electrum": [
             {
+                "url": "bsty-main.coinmunity.gold:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrumserver01.globalboost.info:50014",
                 "protocol": "SSL"
             }
