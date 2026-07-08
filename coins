@@ -6197,26 +6197,6 @@
     "swap_gas_fee_policy": "Medium"
   },
   {
-    "coin": "GLEECT",
-    "name": "gleect",
-    "fname": "Gleec Testnet",
-    "is_testnet": true,
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 11169,
-    "required_confirmations": 3,
-    "avg_blocktime": 2.6,
-    "protocol": {
-      "type": "ETH",
-      "protocol_data": {
-        "chain_id": 11169
-      }
-    },
-    "derivation_path": "m/44'/60'",
-    "max_eth_tx_type": 2,
-    "swap_gas_fee_policy": "Medium"
-  },
-  {
     "coin": "DECKER-GRC20",
     "name": "decker_grc20",
     "fname": "Decker",
@@ -6231,26 +6211,6 @@
       "protocol_data": {
         "platform": "GLEEC",
         "contract_address": "0x8611BCb325ddaef2b6C0389C56a865d5dD301c67"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "KMDT-GRC20",
-    "name": "kmdt_grc20",
-    "fname": "KMD Testnet",
-    "is_testnet": true,
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 11169,
-    "decimals": 18,
-    "required_confirmations": 3,
-    "avg_blocktime": 2.6,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "GLEECT",
-        "contract_address": "0xB749CEC294d460ae75ec4efEe227fE0baFcb6ACd"
       }
     },
     "derivation_path": "m/44'/60'"
