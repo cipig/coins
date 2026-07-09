@@ -4638,7 +4638,28 @@
         "protocol": {
             "type": "UTXO"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
+                "url": "bitnet.outsidethebox.top:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "BCZERO": {
@@ -10155,6 +10176,28 @@
             "homepage": "https://diminutivecoin.com"
         },
         "electrum": [
+            {
+                "url": "electrumx1.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    },
+                    {
+                        "twitter": "coin_dimi"
+                    },
+                    {
+                        "reddit": "DiminutiveCoin_DIMI"
+                    },
+                    {
+                        "github": "MadCatMining"
+                    },
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "electrumx2.diminutivecoin.com:50012",
                 "protocol": "SSL",
@@ -33541,6 +33584,11 @@
             },
             {
                 "url": "uno-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
