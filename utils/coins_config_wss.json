@@ -8959,6 +8959,28 @@
         },
         "electrum": [
             {
+                "url": "electrumx1.diminutivecoin.com:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    },
+                    {
+                        "twitter": "coin_dimi"
+                    },
+                    {
+                        "reddit": "DiminutiveCoin_DIMI"
+                    },
+                    {
+                        "github": "MadCatMining"
+                    },
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx2.diminutivecoin.com:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
@@ -29436,6 +29458,11 @@
         "electrum": [
             {
                 "url": "uno-bkp.coinmunity.gold:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             }
