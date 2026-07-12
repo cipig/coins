@@ -466,6 +466,27 @@
     },
     "by_server": {
       "_metadata": {
+        "bbk-ex-two.ewmci.online:50001": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
+        "bbk-ex-two.ewmci.online:50002": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
+        "bbk-ex-two.ewmci.online:50003": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
         "bbk-one.ewm-cx.net:50001": {
           "contact": [
             {
@@ -484,13 +505,16 @@
         "1783523104": "online"
       },
       "bbk-ex-two.ewmci.online:50001": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "bbk-ex-two.ewmci.online:50002": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "bbk-ex-two.ewmci.online:50003": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "bbk-one.ewm-cx.net:50001": {
         "1783523104": "offline"
@@ -797,7 +821,8 @@
       },
       "bitnet.outsidethebox.top:50002": {
         "1783523104": "offline",
-        "1783564622": "online"
+        "1783564622": "online",
+        "1783867286": "offline"
       },
       "bitnet.outsidethebox.top:50004": {
         "1783523104": "offline"
@@ -843,6 +868,29 @@
       "1783523104": "online"
     },
     "by_server": {
+      "_metadata": {
+        "electrum3.blackcoin.nl:30001": {
+          "contact": [
+            {
+              "discord": "michelvankessel#7656"
+            }
+          ]
+        },
+        "electrum3.blackcoin.nl:30002": {
+          "contact": [
+            {
+              "discord": "michelvankessel#7656"
+            }
+          ]
+        },
+        "electrum3.blackcoin.nl:30004": {
+          "contact": [
+            {
+              "discord": "michelvankessel#7656"
+            }
+          ]
+        }
+      },
       "electrum1.blackcoin.nl:10001": {
         "1783523104": "online"
       },
@@ -862,13 +910,16 @@
         "1783523104": "online"
       },
       "electrum3.blackcoin.nl:30001": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "electrum3.blackcoin.nl:30002": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "electrum3.blackcoin.nl:30004": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       }
     }
   },
@@ -2182,7 +2233,8 @@
         "1783523104": "offline"
       },
       "electrumx.dgc.ewmcx.org:50003": {
-        "1783523104": "offline"
+        "1783523104": "offline",
+        "1783867286": "online"
       },
       "failover.dgc.ewmcx.biz:50002": {
         "1783523104": "online"
@@ -2524,13 +2576,16 @@
         "1783523104": "offline"
       },
       "elecx1.dingocoin.com:3339": {
-        "1783523104": "offline"
+        "1783523104": "offline",
+        "1783867286": "online"
       },
       "elecx1.dingocoin.com:3341": {
-        "1783523104": "offline"
+        "1783523104": "offline",
+        "1783867286": "online"
       },
       "elecx1.dingocoin.com:3342": {
-        "1783523104": "offline"
+        "1783523104": "offline",
+        "1783867286": "online"
       },
       "elecx2.dingocoin.com:3339": {
         "1783523104": "offline"
@@ -3789,6 +3844,65 @@
       },
       "electrumx2.hypercoin.network:50003": {
         "1783523104": "online"
+      }
+    }
+  },
+  "HTH": {
+    "all": {
+      "1783867286": "offline"
+    },
+    "by_server": {
+      "_metadata": {
+        "electrum.wattxchange.app:50002": {
+          "contact": [
+            {
+              "email": "admin@wattxchange.app"
+            }
+          ]
+        },
+        "electrum.wattxchange.app:50004": {
+          "contact": [
+            {
+              "email": "admin@wattxchange.app"
+            }
+          ]
+        },
+        "electrumx.hth.foundation:50001": {
+          "contact": [
+            {
+              "discord": "nucash"
+            }
+          ]
+        },
+        "electrumx.hth.foundation:50002": {
+          "contact": [
+            {
+              "discord": "nucash"
+            }
+          ]
+        },
+        "electrumx.hth.foundation:50004": {
+          "contact": [
+            {
+              "discord": "nucash"
+            }
+          ]
+        }
+      },
+      "electrum.wattxchange.app:50002": {
+        "1783867286": "offline"
+      },
+      "electrum.wattxchange.app:50004": {
+        "1783867286": "offline"
+      },
+      "electrumx.hth.foundation:50001": {
+        "1783867286": "offline"
+      },
+      "electrumx.hth.foundation:50002": {
+        "1783867286": "offline"
+      },
+      "electrumx.hth.foundation:50004": {
+        "1783867286": "offline"
       }
     }
   },
@@ -5578,10 +5692,12 @@
         "1783523104": "online"
       },
       "electrum3.nav.community:40002": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "electrum3.nav.community:40004": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "electrum4.nav.community:40002": {
         "1783523104": "offline"
@@ -6216,39 +6332,133 @@
   },
   "RIN": {
     "all": {
-      "1783523104": "online"
+      "1783523104": "online",
+      "1783867286": "offline"
     },
     "by_server": {
+      "_metadata": {
+        "peer1.rincoin.net:50002": {
+          "contact": [
+            {
+              "email": "takologi@proton.me"
+            },
+            {
+              "discord": "tk.lg"
+            }
+          ]
+        },
+        "peer1.rincoin.net:50004": {
+          "contact": [
+            {
+              "email": "takologi@proton.me"
+            },
+            {
+              "discord": "tk.lg"
+            }
+          ]
+        },
+        "peer2.rincoin.net:50002": {
+          "contact": [
+            {
+              "email": "takologi@proton.me"
+            },
+            {
+              "discord": "tk.lg"
+            }
+          ]
+        },
+        "peer2.rincoin.net:50004": {
+          "contact": [
+            {
+              "email": "takologi@proton.me"
+            },
+            {
+              "discord": "tk.lg"
+            }
+          ]
+        }
+      },
       "peer1.rincoin.net:50002": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "peer1.rincoin.net:50004": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "peer2.rincoin.net:50002": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "peer2.rincoin.net:50004": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       }
     }
   },
   "RIN-segwit": {
     "all": {
-      "1783523104": "online"
+      "1783523104": "online",
+      "1783867286": "offline"
     },
     "by_server": {
+      "_metadata": {
+        "peer1.rincoin.net:50002": {
+          "contact": [
+            {
+              "email": "takologi@proton.me"
+            },
+            {
+              "discord": "tk.lg"
+            }
+          ]
+        },
+        "peer1.rincoin.net:50004": {
+          "contact": [
+            {
+              "email": "takologi@proton.me"
+            },
+            {
+              "discord": "tk.lg"
+            }
+          ]
+        },
+        "peer2.rincoin.net:50002": {
+          "contact": [
+            {
+              "email": "takologi@proton.me"
+            },
+            {
+              "discord": "tk.lg"
+            }
+          ]
+        },
+        "peer2.rincoin.net:50004": {
+          "contact": [
+            {
+              "email": "takologi@proton.me"
+            },
+            {
+              "discord": "tk.lg"
+            }
+          ]
+        }
+      },
       "peer1.rincoin.net:50002": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "peer1.rincoin.net:50004": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "peer2.rincoin.net:50002": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "peer2.rincoin.net:50004": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       }
     }
   },
@@ -7122,20 +7332,55 @@
   },
   "VRM": {
     "all": {
-      "1783523104": "online"
+      "1783523104": "online",
+      "1783867286": "offline"
     },
     "by_server": {
+      "_metadata": {
+        "electrumx-vrm1.vericonomy.com:51002": {
+          "contact": [
+            {
+              "email": "dev@vericonomy.com"
+            }
+          ]
+        },
+        "electrumx-vrm1.vericonomy.com:51004": {
+          "contact": [
+            {
+              "email": "dev@vericonomy.com"
+            }
+          ]
+        },
+        "electrumx-vrm2.vericonomy.com:52002": {
+          "contact": [
+            {
+              "email": "dev@vericonomy.com"
+            }
+          ]
+        },
+        "electrumx-vrm2.vericonomy.com:52004": {
+          "contact": [
+            {
+              "email": "dev@vericonomy.com"
+            }
+          ]
+        }
+      },
       "electrumx-vrm1.vericonomy.com:51002": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "electrumx-vrm1.vericonomy.com:51004": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "electrumx-vrm2.vericonomy.com:52002": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       },
       "electrumx-vrm2.vericonomy.com:52004": {
-        "1783523104": "online"
+        "1783523104": "online",
+        "1783867286": "offline"
       }
     }
   },
