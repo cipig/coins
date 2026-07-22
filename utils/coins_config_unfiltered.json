@@ -5250,6 +5250,15 @@
                 ]
             },
             {
+                "url": "bitn-electrumx.wattxchange.app:50014",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "nucash"
+                    }
+                ]
+            },
+            {
                 "url": "bitnet.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -14375,9 +14384,6 @@
             },
             {
                 "url": "https://etc.rivet.link"
-            },
-            {
-                "url": "https://rpc.etcinscribe.com"
             }
         ],
         "explorer_block_url": "block/",
@@ -28197,6 +28203,14 @@
                 "url": "electrum2.nav.community:40004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.nav.community:40002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum3.nav.community:40004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -29153,8 +29167,26 @@
             "github": "https://github.com/NewYorkCoinNYC/newyorkcoin",
             "homepage": "https://newyorkcoin.online"
         },
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "electrum.newyorkcoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "admin@newyorkcoin.online"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.newyorkcoin.online:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "admin@newyorkcoin.online"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "NYC-BEP20": {
