@@ -3159,6 +3159,25 @@
       }
     }
   },
+  "FIVETRAT": {
+    "all": {
+      "1785236053": "online"
+    },
+    "by_server": {
+      "electrum1.5trat.net:443": {
+        "1785236053": "online"
+      },
+      "electrum1.5trat.net:50002": {
+        "1785236053": "online"
+      },
+      "electrum2.5trat.net:443": {
+        "1785236053": "online"
+      },
+      "electrum2.5trat.net:50002": {
+        "1785236053": "online"
+      }
+    }
+  },
   "FIX": {
     "all": {
       "1785182459": "online"
@@ -5525,10 +5544,12 @@
         "1785182459": "online"
       },
       "electrum3.nav.community:40002": {
-        "1785182459": "offline"
+        "1785182459": "offline",
+        "1785236053": "online"
       },
       "electrum3.nav.community:40004": {
-        "1785182459": "offline"
+        "1785182459": "offline",
+        "1785236053": "online"
       },
       "electrum4.nav.community:40002": {
         "1785182459": "offline"
@@ -5712,7 +5733,8 @@
       },
       "https://rpc.cosmos.directory/osmosis": {
         "1785182459": "online",
-        "1785204613": "offline"
+        "1785204613": "offline",
+        "1785236053": "online"
       },
       "https://rpc.osmosis.zone/": {
         "1785182459": "online"

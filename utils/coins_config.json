@@ -28111,6 +28111,14 @@
                 "url": "electrum2.nav.community:40004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.nav.community:40002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum3.nav.community:40004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -47611,6 +47619,9 @@
                 "url": "https://osmosis.rpc.stakin-nodes.com"
             },
             {
+                "url": "https://rpc.cosmos.directory/osmosis"
+            },
+            {
                 "url": "https://rpc.osmosis.zone/"
             }
         ],
@@ -48889,10 +48900,10 @@
         ],
         "explorer_block_url": "block.dws?"
     },
-    "5TRAT": {
-        "coin": "5TRAT",
+    "FIVETRAT": {
+        "coin": "FIVETRAT",
         "type": "UTXO",
-        "name": "5tratum Coin",
+        "name": "5TRAT Coin",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -48905,7 +48916,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "sign_message_prefix": "Bitcoin Signed Message:\n",
-        "fname": "5tratum Coin",
+        "fname": "5TRAT Coin",
         "rpcport": 57576,
         "pubtype": 125,
         "p2shtype": 80,
