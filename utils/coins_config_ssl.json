@@ -4715,6 +4715,16 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bitn-electrumx.wattxchange.app:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -41263,9 +41273,6 @@
         "rpc_urls": [
             {
                 "url": "https://osmosis.rpc.stakin-nodes.com"
-            },
-            {
-                "url": "https://rpc.cosmos.directory/osmosis"
             },
             {
                 "url": "https://rpc.osmosis.zone/"
