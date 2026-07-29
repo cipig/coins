@@ -7597,6 +7597,26 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
                 "contact": [
@@ -7688,6 +7708,26 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
