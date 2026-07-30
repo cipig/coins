@@ -3040,7 +3040,7 @@
         "coinpaprika_id": "axe-axe",
         "coingecko_id": "axe",
         "livecoinwatch_id": "AXE",
-        "explorer_url": "https://axe-explorer.arcpool.com/",
+        "explorer_url": "https://explorer.axe-1.zelcore.io/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -5222,16 +5222,6 @@
                 ]
             },
             {
-                "url": "bit-e.minethepla.net:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bitn-electrumx.wattxchange.app:50011",
                 "contact": [
                     {
@@ -6896,24 +6886,6 @@
         },
         "derivation_path": "m/44'/177'",
         "electrum": [
-            {
-                "url": "electrum1.btcz.rocks:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "517255090633965586"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.btcz.rocks:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "517255090633965586"
-                    }
-                ]
-            },
             {
                 "url": "electrum2.btcz.rocks:50002",
                 "protocol": "SSL",
@@ -43927,80 +43899,8 @@
             "github": "https://github.com/zcash/zcash",
             "homepage": "https://z.cash"
         },
-        "electrum": [
-            {
-                "url": "zec.electrum1.cipig.net:10058",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "zec.electrum1.cipig.net:20058",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "zec.electrum1.cipig.net:30058",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "zec.electrum2.cipig.net:10058",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "zec.electrum2.cipig.net:20058",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "zec.electrum2.cipig.net:30058",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/",
         "binance_id": "ZEC"
     },
@@ -48971,7 +48871,7 @@
             "network": "5trat"
         },
         "mm2": 1,
-        "required_confirmations": 12,
+        "required_confirmations": 2,
         "mature_confirmations": 100,
         "avg_blocktime": 300,
         "protocol": {
