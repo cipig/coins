@@ -860,8 +860,8 @@
       }
     },
     "derivation_path": "m/44'/141'",
-    "required_confirmations": 2,
-    "requires_notarization": true
+    "required_confirmations": 5,
+    "requires_notarization": false
   },
   {
     "coin": "ARRR-BEP20",
@@ -1765,6 +1765,36 @@
       }
     },
     "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "BCH2",
+    "name": "bch2",
+    "fname": "Bitcoin Cash II",
+    "rpcport": 8342,
+    "pubtype": 0,
+    "p2shtype": 5,
+    "wiftype": 128,
+    "txfee": 1000,
+    "segwit": false,
+    "fork_id": "0x40",
+    "address_format": {
+      "format": "cashaddress",
+      "network": "bitcoincashii"
+    },
+    "mm2": 1,
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
+    "required_confirmations": 3,
+    "avg_blocktime": 600,
+    "protocol": {
+      "type": "UTXO",
+      "chain_variant": "BTC"
+    },
+    "derivation_path": "m/44'/145'",
+    "trezor_coin": "Bitcoin Cash",
+    "links": {
+      "github": "https://github.com/Bitcoin-II",
+      "homepage": "https://bch2.org"
+    }
   },
   {
     "coin": "BEAMX-BEP20",
@@ -4349,6 +4379,31 @@
     "links": {
       "github": "https://github.com/wojakcoinproj/wojakcore",
       "homepage": "https://wojakcoin.cash"
+    }
+  },
+  {
+    "coin": "MWC",
+    "name": "minersworldcoin",
+    "fname": "MinersWorldCoin",
+    "sign_message_prefix": "MinersWorldCoin Signed Message:\n",
+    "rpcport": 5579,
+    "pubtype": 20,
+    "p2shtype": 10,
+    "wiftype": 123,
+    "txfee": 100000,
+    "dust": 100000,
+    "segwit": true,
+    "bech32_hrp": "mwc",
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 120,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/5579'",
+    "links": {
+      "github": "https://github.com/Miners-World-Coin-MWC/MinersWorldCoin",
+      "homepage": "https://minersworld.org"
     }
   },
   {
@@ -11361,7 +11416,7 @@
     "derivation_path": "m/44'/9555'",
     "links": {
       "github": "https://github.com/Rin-coin/rincoin",
-      "homepage": "https://rincoin.net"
+      "homepage": "https://rincoin.tech"
     }
   },
   {
@@ -11391,7 +11446,7 @@
     "derivation_path": "m/84'/9555'",
     "links": {
       "github": "https://github.com/Rin-coin/rincoin",
-      "homepage": "https://rincoin.net"
+      "homepage": "https://rincoin.tech"
     }
   },
   {
@@ -16991,6 +17046,66 @@
       "homepage": "https://jumpcoin.net",
       "explorer": "https://explorer.jumpcoin.net",
       "github": "https://github.com/jumpcoin"
+    }
+  },
+  {
+    "coin": "CAT",
+    "name": "catcoin",
+    "fname": "Catcoin",
+    "sign_message_prefix": "Catcoin Signed Message:\n",
+    "isPoS": 0,
+    "rpcport": 9332,
+    "pubtype": 21,
+    "p2shtype": 88,
+    "wiftype": 149,
+    "txfee": 1000000,
+    "dust": 5431,
+    "segwit": false,
+    "mm2": 1,
+    "decimals": 8,
+    "required_confirmations": 3,
+    "avg_blocktime": 600,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/760'",
+    "links": {
+      "homepage": "https://catcoin.org",
+      "explorer": "https://chainz.cryptoid.info/cat/",
+      "github": "https://github.com/CatcoinCore"
+    }
+  },
+  {
+    "coin": "FIVETRAT",
+    "name": "fivetrat",
+    "fname": "5TRAT Coin",
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
+    "rpcport": 57576,
+    "pubtype": 125,
+    "p2shtype": 80,
+    "wiftype": 181,
+    "txfee": 1000,
+    "dust": 1000,
+    "decimals": 8,
+    "segwit": false,
+    "fork_id": "0x40",
+    "address_format": {
+      "format": "cashaddress",
+      "network": "5trat"
+    },
+    "mm2": 1,
+    "wallet_only": false,
+    "required_confirmations": 2,
+    "mature_confirmations": 100,
+    "avg_blocktime": 300,
+    "protocol": {
+      "type": "UTXO",
+      "chain_variant": "BTC"
+    },
+    "derivation_path": "m/44'/5755'",
+    "links": {
+      "github": "https://github.com/WillItMod/5trat-core",
+      "homepage": "https://5trat.com"
     }
   }
 ]
