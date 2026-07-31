@@ -3981,6 +3981,16 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bitn-electrumx.wattxchange.app:50014",
                 "protocol": "WSS",
                 "contact": [
