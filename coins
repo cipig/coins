@@ -29,44 +29,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "ILNF-PLG20",
-    "name": "ilnf_plg20",
-    "fname": "Ilien Fuel",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "POL",
-        "contract_address": "0xaFf5Ed00c57b0E0c22123dbA28Cb6A5B26651Bbd"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "ILNF-BEP20",
-    "name": "ilnf_bep20",
-    "fname": "Ilien Fuel",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 18,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x0D6e16c7066421607F8D334D6C02A48031fc2Eba"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "1INCH-BEP20",
     "name": "1inch_bep20",
     "fname": "1Inch",
@@ -4636,25 +4598,6 @@
     }
   },
   {
-    "coin": "EILN-ERC20",
-    "name": "eiln_erc20",
-    "fname": "eIlien",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "decimals": 18,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0xb0DBa4BD6b6C4fC9A1263D8C19A57A6BdD740A52"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "ELF-BEP20",
     "name": "elf_bep20",
     "fname": "aelf",
@@ -6965,87 +6908,6 @@
     }
   },
   {
-    "coin": "ILN",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "ILN",
-    "fname": "Ilien",
-    "is_privacy_coin": true,
-    "rpcport": 12986,
-    "pubtype": 60,
-    "p2shtype": 85,
-    "wiftype": 188,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "p2p": 12985,
-    "magic": "feb4cb23",
-    "nSPV": "5.9.102.210, 5.9.253.195, 5.9.253.196, 5.9.253.197, 5.9.253.198, 5.9.253.199, 5.9.253.200, 5.9.253.201, 5.9.253.202, 5.9.253.203",
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
-    "coin": "ILN-BEP20",
-    "name": "iln_bep20",
-    "fname": "Ilien",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 18,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0xb49a312677BA1E80DDe23C17E46E80B3E86b533d"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "ILN-PLG20",
-    "name": "iln_plg20",
-    "fname": "Ilien",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "POL",
-        "contract_address": "0x2bAa79e7C13C302210436455925E68aD8fA687F0"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "ILNSW-PLG20",
-    "name": "ilnsw_plg20",
-    "fname": "Ilien Swap",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "POL",
-        "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "ILV-ERC20",
     "name": "ilv_erc20",
     "fname": "Illuvium",
@@ -8171,27 +8033,6 @@
       }
     },
     "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "KOIN",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "KOIN",
-    "fname": "Koinon",
-    "is_privacy_coin": true,
-    "rpcport": 10702,
-    "pubtype": 60,
-    "p2shtype": 85,
-    "wiftype": 188,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
   },
   {
     "coin": "KSM-BEP20",
