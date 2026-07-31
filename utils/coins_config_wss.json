@@ -45,107 +45,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "ILNF-PLG20": {
-        "coin": "ILNF-PLG20",
-        "type": "Polygon",
-        "name": "Ilien Fuel",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Ilien Fuel",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 18,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "POL",
-                "contract_address": "0xaFf5Ed00c57b0E0c22123dbA28Cb6A5B26651Bbd"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xaFf5Ed00c57b0E0c22123dbA28Cb6A5B26651Bbd",
-        "parent_coin": "POL",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "ILNF-BEP20": {
-        "coin": "ILNF-BEP20",
-        "type": "BEP-20",
-        "name": "Ilien Fuel",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Ilien Fuel",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "decimals": 18,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0x0D6e16c7066421607F8D334D6C02A48031fc2Eba"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x0D6e16c7066421607F8D334D6C02A48031fc2Eba",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
     "1INCH-BEP20": {
         "coin": "1INCH-BEP20",
         "type": "BEP-20",
@@ -5282,6 +5181,15 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
+                "url": "electrum1.btcz.rocks:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "517255090633965586"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.btcz.rocks:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -8700,6 +8608,11 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
+                "url": "electrumx.dgc.ewmcx.org:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "failover.dgc.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -10280,52 +10193,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "EILN-ERC20": {
-        "coin": "EILN-ERC20",
-        "type": "ERC-20",
-        "name": "eIlien",
-        "coinpaprika_id": "eiln-e-ilien",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "eIlien",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1,
-        "decimals": 18,
-        "avg_blocktime": 15,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "ETH",
-                "contract_address": "0xb0DBa4BD6b6C4fC9A1263D8C19A57A6BdD740A52"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xb0DBa4BD6b6C4fC9A1263D8C19A57A6BdD740A52",
-        "parent_coin": "ETH",
-        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            {
-                "url": "https://ethereum-rpc.publicnode.com",
-                "ws_url": "wss://ethereum-rpc.publicnode.com"
-            },
-            {
-                "url": "https://mainnet.gateway.tenderly.co",
-                "ws_url": "wss://mainnet.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "ELF-BEP20": {
         "coin": "ELF-BEP20",
         "type": "BEP-20",
@@ -10428,6 +10295,52 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "EMC2": {
+        "coin": "EMC2",
+        "type": "UTXO",
+        "name": "Einsteinium",
+        "coinpaprika_id": "emc2-einsteinium",
+        "coingecko_id": "einsteinium",
+        "livecoinwatch_id": "EMC2",
+        "explorer_url": "https://chainz.cryptoid.info/emc2/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Einsteinium Signed Message:\n",
+        "fname": "Einsteinium",
+        "rpcport": 41879,
+        "pubtype": 33,
+        "p2shtype": 5,
+        "wiftype": 176,
+        "txfee": 100000,
+        "dust": 54600,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/41'",
+        "electrum": [
+            {
+                "url": "emc2.electrum1.cipig.net:30062",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "ENJ-ERC20": {
         "coin": "ENJ-ERC20",
@@ -15411,161 +15324,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "ILN-BEP20": {
-        "coin": "ILN-BEP20",
-        "type": "BEP-20",
-        "name": "Ilien",
-        "coinpaprika_id": "iln-ilien9195",
-        "coingecko_id": "",
-        "livecoinwatch_id": "ILN",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Ilien",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "decimals": 18,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0xb49a312677BA1E80DDe23C17E46E80B3E86b533d"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xb49a312677BA1E80DDe23C17E46E80B3E86b533d",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "ILN-PLG20": {
-        "coin": "ILN-PLG20",
-        "type": "Polygon",
-        "name": "Ilien",
-        "coinpaprika_id": "iln-ilien9195",
-        "coingecko_id": "",
-        "livecoinwatch_id": "ILN",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Ilien",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 18,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "POL",
-                "contract_address": "0x2bAa79e7C13C302210436455925E68aD8fA687F0"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x2bAa79e7C13C302210436455925E68aD8fA687F0",
-        "parent_coin": "POL",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "ILNSW-PLG20": {
-        "coin": "ILNSW-PLG20",
-        "type": "Polygon",
-        "name": "Ilien Swap",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Ilien Swap",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 18,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "POL",
-                "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213",
-        "parent_coin": "POL",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "ILV-ERC20": {
         "coin": "ILV-ERC20",
         "type": "ERC-20",
@@ -18429,67 +18187,6 @@
             {
                 "url": "https://avalanche.drpc.org",
                 "ws_url": "wss://avalanche.drpc.org"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "KOIN": {
-        "coin": "KOIN",
-        "type": "Smart Chain",
-        "name": "Koinon",
-        "coinpaprika_id": "koin-koinon",
-        "coingecko_id": "koinon",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://block.koinon.cloud/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "KOIN",
-        "fname": "Koinon",
-        "is_privacy_coin": true,
-        "rpcport": 10702,
-        "pubtype": 60,
-        "p2shtype": 85,
-        "wiftype": 188,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "koin.electrum1.cipig.net:30024",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "koin.electrum2.cipig.net:30024",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
