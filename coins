@@ -8024,27 +8024,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "KOIN",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "KOIN",
-    "fname": "Koinon",
-    "is_privacy_coin": true,
-    "rpcport": 10702,
-    "pubtype": 60,
-    "p2shtype": 85,
-    "wiftype": 188,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
     "coin": "KSM-BEP20",
     "name": "ksm_bep20",
     "fname": "Kusama",
