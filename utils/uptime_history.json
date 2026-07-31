@@ -3075,14 +3075,23 @@
   "ETC": {
     "all": {},
     "by_server": {
+      "https://0xrpc.io/etc": {
+        "1785539364": "online"
+      },
       "https://etc.etcdesktop.com": {
         "1785182459": "online"
       },
       "https://etc.rivet.link": {
         "1785182459": "online"
       },
+      "https://geth-at.etc-network.info": {
+        "1785539364": "offline"
+      },
       "https://rpc.etcinscribe.com": {
         "1785182459": "offline"
+      },
+      "wss://0xrpc.io/etc": {
+        "1785539364": "online"
       }
     }
   },
@@ -5742,7 +5751,8 @@
       "https://1rpc.io/one": {
         "1785182459": "offline",
         "1785183257": "online",
-        "1785457831": "offline"
+        "1785457831": "offline",
+        "1785539364": "online"
       },
       "https://api.harmony.one": {
         "1785182459": "online"
@@ -5777,6 +5787,27 @@
     },
     "by_server": {
       "_metadata": {
+        "electrum.pepeblocks.com:50001": {
+          "contact": [
+            {
+              "discord": "realmasterkush"
+            }
+          ]
+        },
+        "electrum.pepeblocks.com:50002": {
+          "contact": [
+            {
+              "discord": "realmasterkush"
+            }
+          ]
+        },
+        "electrum.pepeblocks.com:50004": {
+          "contact": [
+            {
+              "discord": "realmasterkush"
+            }
+          ]
+        },
         "pep.electrum3.cipig.net:20076": {
           "contact": [
             {
@@ -5808,13 +5839,16 @@
         "1785182459": "online"
       },
       "electrum.pepeblocks.com:50001": {
-        "1785182459": "online"
+        "1785182459": "online",
+        "1785539364": "offline"
       },
       "electrum.pepeblocks.com:50002": {
-        "1785182459": "online"
+        "1785182459": "online",
+        "1785539364": "offline"
       },
       "electrum.pepeblocks.com:50004": {
-        "1785182459": "online"
+        "1785182459": "online",
+        "1785539364": "offline"
       },
       "pep.electrum3.cipig.net:20076": {
         "1785182459": "offline"
