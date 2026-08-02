@@ -5702,18 +5702,6 @@
         },
         "electrum": [
             {
-                "url": "btc.electrum1.cipig.net:20000",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
                 "url": "btc.electrum2.cipig.net:20000",
                 "protocol": "SSL",
                 "contact": [
@@ -5772,18 +5760,6 @@
             "homepage": "https://bitcoin.org"
         },
         "electrum": [
-            {
-                "url": "btc.electrum1.cipig.net:20000",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
             {
                 "url": "btc.electrum2.cipig.net:20000",
                 "protocol": "SSL",
@@ -25561,9 +25537,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -25787,6 +25760,15 @@
                 "contact": [
                     {
                         "discord": "squidicuz"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.pepeblocks.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "realmasterkush"
                     }
                 ]
             }
