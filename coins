@@ -638,32 +638,6 @@
     }
   },
   {
-    "coin": "APE-BEP20_OLD",
-    "name": "ape_bep20_old",
-    "fname": "ApeCoin (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 56,
-    "decimals": 18,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0xC762043E211571eB34f1ef377e5e8e76914962f9"
-      }
-    },
-    "derivation_path": "m/44'/60'",
-    "gas_limit": {
-      "eth_send_erc20": 60000,
-      "erc20_payment": 110000,
-      "erc20_receiver_spend": 85000,
-      "erc20_sender_refund": 85000
-    }
-  },
-  {
     "coin": "APE-PLG20",
     "name": "ape_plg20",
     "fname": "ApeCoin",
@@ -2537,25 +2511,6 @@
       "homepage": "https://bitcoingold.site",
       "homepage2": "https://btgscoin.site"
     }
-  },
-  {
-    "coin": "BTT-BEP20",
-    "name": "btt_bep20",
-    "fname": "BitTorrent (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 56,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x8595F9dA7b868b1822194fAEd312235E43007b49"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "BTTC-BEP20",
@@ -5934,26 +5889,6 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0xd1d2Eb1B1e90B638588728b4130137D262C87cae"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "GALA-ERC20_OLD",
-    "name": "gala_erc20_old",
-    "fname": "Gala (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 1,
-    "decimals": 8,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -11864,25 +11799,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "SPACE-AVX20_OLD",
-    "name": "space_avx20_old",
-    "fname": "Space Token (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 43114,
-    "required_confirmations": 3,
-    "avg_blocktime": 2.4,
-    "decimals": 18,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "AVAX",
-        "contract_address": "0x09211Dc67f9fe98Fb7bBB91Be0ef05f4a12FA2b2"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "SPACE-AVX20",
     "name": "space_avx20",
     "fname": "Space Token",
@@ -11915,25 +11831,6 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x9E1170c12FDDd3B00FEc42ddF4C942565D9Be577"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "SPACE-PLG20_OLD",
-    "name": "space_plg20_old",
-    "fname": "Space Token (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0xB53Ec4aCe420a62Cfb75aFdEba600D284777cd65"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -12689,25 +12586,6 @@
     }
   },
   {
-    "coin": "TRX-BEP20_OLD",
-    "name": "trx_bep20_old",
-    "fname": "TRON (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 56,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "TRX-BEP20",
     "name": "trx_bep20",
     "fname": "TRON",
@@ -13320,26 +13198,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "USDC-AVX20_OLD",
-    "name": "usdc_avx20_old",
-    "fname": "USD Coin (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 43114,
-    "required_confirmations": 3,
-    "avg_blocktime": 2.4,
-    "decimals": 6,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "AVAX",
-        "contract_address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "USDC-ERC20",
     "name": "usdc_erc20",
     "fname": "USD Coin",
@@ -13634,26 +13492,6 @@
       "erc20_receiver_spend": 90000,
       "erc20_sender_refund": 90000
     }
-  },
-  {
-    "coin": "USDT-AVX20_OLD",
-    "name": "usdt_avx20_old",
-    "fname": "Tether (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 43114,
-    "required_confirmations": 3,
-    "avg_blocktime": 2.4,
-    "decimals": 6,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "AVAX",
-        "contract_address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "USDT-BEP20",
