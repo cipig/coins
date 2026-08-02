@@ -2210,7 +2210,6 @@
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
-    "wallet_only": false,
     "sign_message_prefix": "Bitcoin Signed Message:\n",
     "required_confirmations": 1,
     "avg_blocktime": 600,
@@ -2336,7 +2335,6 @@
     "bech32_hrp": "web",
     "txfee": 20000,
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 3,
     "avg_blocktime": 60,
     "protocol": {
@@ -2484,7 +2482,6 @@
     "bech32_hrp": "btx",
     "txfee": 20000,
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 3,
     "avg_blocktime": 150,
     "protocol": {
@@ -2699,7 +2696,6 @@
     "segwit": true,
     "bech32_hrp": "cdn",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 2,
     "avg_blocktime": 300,
     "protocol": {
@@ -3431,7 +3427,6 @@
     "segwit": true,
     "bech32_hrp": "cy",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 2,
     "avg_blocktime": 60,
     "protocol": {
@@ -3673,7 +3668,6 @@
     "segwit": true,
     "bech32_hrp": "dgb",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 7,
     "avg_blocktime": 15,
     "protocol": {
@@ -3791,7 +3785,6 @@
     "bech32_hrp": "dpc",
     "txfee": 10000,
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 6,
     "avg_blocktime": 300,
     "protocol": {
@@ -4056,7 +4049,6 @@
     "segwit": true,
     "bech32_hrp": "dsv",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 2,
     "avg_blocktime": 150,
     "protocol": {
@@ -5493,7 +5485,6 @@
     "segwit": true,
     "bech32_hrp": "fc",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 5,
     "avg_blocktime": 60,
     "protocol": {
@@ -5700,26 +5691,6 @@
         "contract_address": "0xd1d2Eb1B1e90B638588728b4130137D262C87cae"
       }
     },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "GALA-BEP20",
-    "name": "gala_bep20",
-    "fname": "Gala",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 18,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x7dDEE176F665cD201F93eEDE625770E2fD911990"
-      }
-    },
-    "wallet_only": true,
     "derivation_path": "m/44'/60'"
   },
   {
@@ -7255,7 +7226,6 @@
     "segwit": true,
     "bech32_hrp": "lbc",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 3,
     "avg_blocktime": 150,
     "protocol": {
@@ -7359,7 +7329,6 @@
     "segwit": true,
     "bech32_hrp": "lcc",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 4,
     "avg_blocktime": 150,
     "protocol": {
@@ -7901,7 +7870,6 @@
     "segwit": true,
     "bech32_hrp": "ltc",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 2,
     "avg_blocktime": 150,
     "protocol": {
@@ -8554,7 +8522,6 @@
     "segwit": true,
     "bech32_hrp": "mona",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 5,
     "avg_blocktime": 90,
     "protocol": {
@@ -8887,7 +8854,6 @@
     "segwit": true,
     "bech32_hrp": "nc",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 2,
     "avg_blocktime": 600,
     "protocol": {
@@ -10270,7 +10236,6 @@
     "bech32_hrp": "ric",
     "txfee": 10000,
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 4,
     "avg_blocktime": 150,
     "protocol": {
@@ -10319,7 +10284,6 @@
     "segwit": true,
     "bech32_hrp": "rin",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 2,
     "avg_blocktime": 60,
     "protocol": {
@@ -11338,7 +11302,6 @@
     "required_confirmations": 5,
     "avg_blocktime": 60,
     "mm2": 1,
-    "wallet_only": false,
     "protocol": {
       "type": "UTXO"
     },
@@ -12906,7 +12869,6 @@
     "segwit": true,
     "bech32_hrp": "vtc",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 4,
     "avg_blocktime": 150,
     "protocol": {
@@ -13325,7 +13287,6 @@
     "segwit": true,
     "bech32_hrp": "my",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 3,
     "avg_blocktime": 240,
     "protocol": {
@@ -14960,7 +14921,6 @@
     "segwit": true,
     "bech32_hrp": "wv",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 1,
     "mature_confirmations": 100,
     "avg_blocktime": 600,
@@ -15482,7 +15442,6 @@
     "segwit": true,
     "bech32_hrp": "cas",
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 6,
     "avg_blocktime": 150,
     "protocol": {
@@ -15589,7 +15548,6 @@
       "network": "5trat"
     },
     "mm2": 1,
-    "wallet_only": false,
     "required_confirmations": 2,
     "mature_confirmations": 100,
     "avg_blocktime": 300,
