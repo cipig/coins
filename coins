@@ -2960,50 +2960,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "CHSB-ERC20",
-    "name": "chsb_erc20",
-    "fname": "SwissBorg (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 1,
-    "decimals": 8,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0xba9d4199faB4f26eFE3551D490E3821486f135Ba"
-      }
-    },
-    "derivation_path": "m/44'/60'",
-    "trezor_coin": "SwissBorg",
-    "links": {
-      "homepage": "https://swissborg.com"
-    }
-  },
-  {
-    "coin": "CHSB-PLG20",
-    "name": "chsb_plg20",
-    "fname": "SwissBorg (OLD)",
-    "wallet_only": true,
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 8,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x67Ce67ec4fCd4aCa0Fcb738dD080b2a21ff69D75"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "CHZ-ERC20",
     "name": "chz_erc20",
     "fname": "Chiliz",
