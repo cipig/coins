@@ -360,63 +360,6 @@
     }
   },
   {
-    "coin": "AGEUR-AVX20",
-    "name": "ageur_avx20",
-    "fname": "agEUR",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 43114,
-    "decimals": 18,
-    "avg_blocktime": 2.4,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "AVAX",
-        "contract_address": "0xAEC8318a9a59bAEb39861d10ff6C7f7bf1F96C57"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "AGEUR-ERC20",
-    "name": "ageur_erc20",
-    "fname": "agEUR",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "decimals": 18,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "AGEUR-PLG20",
-    "name": "ageur_plg20",
-    "fname": "agEUR",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "AIPG",
     "name": "aipowergrid",
     "fname": "AI Power Grid",
