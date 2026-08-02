@@ -1,14 +1,22 @@
 [
   {
-    "url": "electrumx.hth.foundation:50002",
+    "url": "electrum.hth.foundation:50002",
     "protocol": "SSL",
-    "ws_url": "electrumx.hth.foundation:50004",
+    "ws_url": "electrum.hth.foundation:50004",
     "contact": [
       { "discord": "nucash" }
     ]
   },
   {
-    "url": "electrumx.hth.foundation:50001",
+    "url": "electrumx.wattxchange.app:50002",
+    "protocol": "SSL",
+    "ws_url": "electrumx.wattxchange.app:50004",
+    "contact": [
+      { "discord": "nucash" }
+    ]
+  },
+  {
+    "url": "electrum.hth.foundation:50001",
     "contact": [
       { "discord": "nucash" }
     ]
