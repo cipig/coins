@@ -1914,15 +1914,18 @@
       },
       "btc.electrum1.cipig.net:10000": {
         "1755770395": "online",
-        "1785539720": "offline"
+        "1785539720": "offline",
+        "1785714457": "online"
       },
       "btc.electrum1.cipig.net:20000": {
         "1755770395": "online",
-        "1785539720": "offline"
+        "1785539720": "offline",
+        "1785714457": "online"
       },
       "btc.electrum1.cipig.net:30000": {
         "1755770395": "online",
-        "1785539720": "offline"
+        "1785539720": "offline",
+        "1785714457": "online"
       },
       "btc.electrum2.cipig.net:10000": {
         "1755770395": "online"
@@ -2016,15 +2019,18 @@
       },
       "btc.electrum1.cipig.net:10000": {
         "1755770395": "online",
-        "1785539720": "offline"
+        "1785539720": "offline",
+        "1785714457": "online"
       },
       "btc.electrum1.cipig.net:20000": {
         "1755770395": "online",
-        "1785539720": "offline"
+        "1785539720": "offline",
+        "1785714457": "online"
       },
       "btc.electrum1.cipig.net:30000": {
         "1755770395": "online",
-        "1785539720": "offline"
+        "1785539720": "offline",
+        "1785714457": "online"
       },
       "btc.electrum2.cipig.net:10000": {
         "1755770395": "online"
@@ -3489,13 +3495,15 @@
         "1774368443": "online",
         "1774987573": "offline",
         "1776100016": "online",
-        "1776831960": "offline"
+        "1776831960": "offline",
+        "1785714457": "online"
       },
       "electrumx.dgc.ewmcx.org:50002": {
         "1755770395": "online",
         "1766366022": "offline",
         "1766452233": "online",
-        "1769476724": "offline"
+        "1769476724": "offline",
+        "1785714457": "online"
       },
       "electrumx.dgc.ewmcx.org:50003": {
         "1755770395": "offline",
@@ -3541,10 +3549,51 @@
   },
   "DIAC": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1785714457": "offline"
     },
     "by_server": {
       "_metadata": {
+        "diac.electrum1.cipig.net:20072": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
+        "diac.electrum1.cipig.net:30072": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
+        "diac.electrum2.cipig.net:20072": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
+        "diac.electrum2.cipig.net:30072": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
         "electrumx1.diabasecoin.com:10002": {
           "contact": [
             {
@@ -3561,16 +3610,20 @@
         }
       },
       "diac.electrum1.cipig.net:20072": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1785714457": "offline"
       },
       "diac.electrum1.cipig.net:30072": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1785714457": "offline"
       },
       "diac.electrum2.cipig.net:20072": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1785714457": "offline"
       },
       "diac.electrum2.cipig.net:30072": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1785714457": "offline"
       },
       "electrumx1.diabasecoin.com:10002": {
         "1755770395": "offline"
@@ -4882,7 +4935,8 @@
       },
       "https://public-eth.nownodes.io": {
         "1780899085": "online",
-        "1785645516": "offline"
+        "1785645516": "offline",
+        "1785714457": "online"
       },
       "https://rpc.fullsend.to": {
         "1770607407": "online"
@@ -6663,6 +6717,28 @@
       },
       "https://http-mainnet-node.huobichain.com": {
         "1755770395": "offline"
+      }
+    }
+  },
+  "HTH": {
+    "all": {
+      "1785714457": "online"
+    },
+    "by_server": {
+      "electrum.hth.foundation:50001": {
+        "1785714457": "online"
+      },
+      "electrum.hth.foundation:50002": {
+        "1785714457": "online"
+      },
+      "electrum.hth.foundation:50004": {
+        "1785714457": "online"
+      },
+      "electrumx.wattxchange.app:50002": {
+        "1785714457": "online"
+      },
+      "electrumx.wattxchange.app:50004": {
+        "1785714457": "online"
       }
     }
   },
@@ -9956,7 +10032,8 @@
         "1784339488": "offline",
         "1784635178": "online",
         "1785550129": "offline",
-        "1785636317": "online"
+        "1785636317": "online",
+        "1785714457": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -10008,7 +10085,8 @@
         "1783305166": "offline",
         "1783476129": "online",
         "1783993904": "offline",
-        "1784339488": "online"
+        "1784339488": "online",
+        "1785714457": "offline"
       },
       "wss://osmosis-rpc.alpha.komodo.earth/websocket": {
         "1755770395": "online",
@@ -11306,10 +11384,71 @@
   },
   "SPACECOIN": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1785714457": "offline"
     },
     "by_server": {
       "_metadata": {
+        "spacecoin.electrum1.cipig.net:10011": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
+        "spacecoin.electrum1.cipig.net:20011": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
+        "spacecoin.electrum1.cipig.net:30011": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
+        "spacecoin.electrum2.cipig.net:10011": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
+        "spacecoin.electrum2.cipig.net:20011": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
+        "spacecoin.electrum2.cipig.net:30011": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
         "spacecoin.electrum3.cipig.net:10011": {
           "contact": [
             {
@@ -11342,22 +11481,28 @@
         }
       },
       "spacecoin.electrum1.cipig.net:10011": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1785714457": "offline"
       },
       "spacecoin.electrum1.cipig.net:20011": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1785714457": "offline"
       },
       "spacecoin.electrum1.cipig.net:30011": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1785714457": "offline"
       },
       "spacecoin.electrum2.cipig.net:10011": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1785714457": "offline"
       },
       "spacecoin.electrum2.cipig.net:20011": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1785714457": "offline"
       },
       "spacecoin.electrum2.cipig.net:30011": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1785714457": "offline"
       },
       "spacecoin.electrum3.cipig.net:10011": {
         "1755770395": "online",
@@ -12732,7 +12877,8 @@
         "1784339488": "online",
         "1784635178": "offline",
         "1784733566": "online",
-        "1785636317": "offline"
+        "1785636317": "offline",
+        "1785714457": "online"
       }
     }
   },
