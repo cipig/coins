@@ -14470,9 +14470,6 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://public-eth.nownodes.io"
-            },
-            {
                 "url": "https://rpc.mevblocker.io"
             }
         ],
@@ -43977,7 +43974,7 @@
         "txversion": 4,
         "overwintered": 1,
         "version_group_id": "0x892f2085",
-        "consensus_branch_id": "0x5437f330",
+        "consensus_branch_id": "0x37a5165b",
         "txfee": 100000,
         "mm2": 1,
         "required_confirmations": 3,
@@ -43991,8 +43988,44 @@
             "github": "https://github.com/zcash/zcash",
             "homepage": "https://z.cash"
         },
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "zec.electrum1.cipig.net:10058",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "zec.electrum1.cipig.net:20058",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "zec.electrum1.cipig.net:30058",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/",
         "binance_id": "ZEC"
     },
