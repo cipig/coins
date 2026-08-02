@@ -2395,7 +2395,7 @@
         "coinpaprika_id": "axe-axe",
         "coingecko_id": "axe",
         "livecoinwatch_id": "AXE",
-        "explorer_url": "https://axe-explorer.arcpool.com/",
+        "explorer_url": "https://explorer.axe-1.zelcore.io/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -5041,18 +5041,6 @@
         },
         "electrum": [
             {
-                "url": "btc.electrum1.cipig.net:30000",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
                 "url": "btc.electrum2.cipig.net:30000",
                 "protocol": "WSS",
                 "contact": [
@@ -5111,18 +5099,6 @@
             "homepage": "https://bitcoin.org"
         },
         "electrum": [
-            {
-                "url": "btc.electrum1.cipig.net:30000",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
             {
                 "url": "btc.electrum2.cipig.net:30000",
                 "protocol": "WSS",
@@ -6299,7 +6275,12 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
-                "url": "miami.ecoincore.com:34335",
+                "url": "lenoir.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "mumbai.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -6349,7 +6330,12 @@
         "derivation_path": "m/84'/34'",
         "electrum": [
             {
-                "url": "miami.ecoincore.com:34335",
+                "url": "lenoir.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "mumbai.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -8639,6 +8625,10 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
+                "url": "electrumx.dgc.ewmcx.org:50003",
+                "protocol": "WSS"
+            },
+            {
                 "url": "failover.dgc.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -10405,18 +10395,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "emc2.electrum2.cipig.net:30062",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -10577,6 +10555,50 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
+    },
+    "ETC": {
+        "coin": "ETC",
+        "type": "Ethereum Classic",
+        "name": "Ethereum Classic",
+        "coinpaprika_id": "etc-ethereum-classic",
+        "coingecko_id": "ethereum-classic",
+        "livecoinwatch_id": "ETC",
+        "explorer_url": "https://blockscout.com/etc/mainnet/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Ethereum Classic",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 61,
+        "max_eth_tx_type": 2,
+        "required_confirmations": 3,
+        "avg_blocktime": 15,
+        "protocol": {
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 61
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "trezor_coin": "Ethereum Classic",
+        "links": {
+            "homepage": "https://ethereumclassic.org"
+        },
+        "swap_contract_address": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
+        "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
+        "nodes": [
+            {
+                "url": "https://0xrpc.io/etc",
+                "ws_url": "wss://0xrpc.io/etc"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "ETC"
     },
     "ETC-BEP20": {
         "coin": "ETC-BEP20",
@@ -15310,6 +15332,68 @@
         ],
         "explorer_block_url": "block/"
     },
+    "IL8P": {
+        "coin": "IL8P",
+        "type": "UTXO",
+        "name": "InfiniLooP",
+        "coinpaprika_id": "il8p-infiniloop",
+        "coingecko_id": "",
+        "livecoinwatch_id": "IL8P",
+        "explorer_url": "https://chainz.cryptoid.info/il8p/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "InfiniLooP Signed Message:\n",
+        "fname": "InfiniLooP",
+        "isPoS": 1,
+        "rpcport": 9459,
+        "pubtype": 33,
+        "p2shtype": 85,
+        "wiftype": 153,
+        "txfee": 100000,
+        "dust": 100000,
+        "mm2": 1,
+        "mature_confirmations": 500,
+        "required_confirmations": 7,
+        "avg_blocktime": 45,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/722'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/InfiniLooP",
+            "homepage": "https://infiniloop.io"
+        },
+        "electrum": [
+            {
+                "url": "il9p.electrumx.transcenders.name:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "ILN-BEP20": {
         "coin": "ILN-BEP20",
         "type": "BEP-20",
@@ -18286,67 +18370,6 @@
             {
                 "url": "https://avalanche.drpc.org",
                 "ws_url": "wss://avalanche.drpc.org"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "KOIN": {
-        "coin": "KOIN",
-        "type": "Smart Chain",
-        "name": "Koinon",
-        "coinpaprika_id": "koin-koinon",
-        "coingecko_id": "koinon",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://block.koinon.cloud/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "KOIN",
-        "fname": "Koinon",
-        "is_privacy_coin": true,
-        "rpcport": 10702,
-        "pubtype": 60,
-        "p2shtype": 85,
-        "wiftype": 188,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "koin.electrum1.cipig.net:30024",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "koin.electrum2.cipig.net:30024",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -33328,7 +33351,7 @@
         "txversion": 4,
         "overwintered": 1,
         "version_group_id": "0x892f2085",
-        "consensus_branch_id": "0x5437f330",
+        "consensus_branch_id": "0x37a5165b",
         "txfee": 100000,
         "mm2": 1,
         "required_confirmations": 3,
@@ -33345,18 +33368,6 @@
         "electrum": [
             {
                 "url": "zec.electrum1.cipig.net:30058",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "zec.electrum2.cipig.net:30058",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -36964,5 +36975,70 @@
             }
         ],
         "explorer_block_url": "block.dws?"
+    },
+    "FIVETRAT": {
+        "coin": "FIVETRAT",
+        "type": "UTXO",
+        "name": "5TRAT Coin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer1.5trat.net/explorer/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
+        "fname": "5TRAT Coin",
+        "rpcport": 57576,
+        "pubtype": 125,
+        "p2shtype": 80,
+        "wiftype": 181,
+        "txfee": 1000,
+        "dust": 1000,
+        "decimals": 8,
+        "segwit": false,
+        "fork_id": "0x40",
+        "address_format": {
+            "format": "cashaddress",
+            "network": "5trat"
+        },
+        "mm2": 1,
+        "required_confirmations": 2,
+        "mature_confirmations": 100,
+        "avg_blocktime": 300,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "BTC"
+        },
+        "derivation_path": "m/44'/5755'",
+        "links": {
+            "github": "https://github.com/WillItMod/5trat-core",
+            "homepage": "https://5trat.com"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.5trat.net:443",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "axebench.app@gmail.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.5trat.net:443",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "axebench.app@gmail.com"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
     }
 }
