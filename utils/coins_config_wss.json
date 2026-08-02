@@ -1317,59 +1317,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "APE-BEP20_OLD": {
-        "coin": "APE-BEP20_OLD",
-        "type": "BEP-20",
-        "name": "ApeCoin (OLD)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "APE",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "ApeCoin (OLD)",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "decimals": 18,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0xC762043E211571eB34f1ef377e5e8e76914962f9"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "gas_limit": {
-            "eth_send_erc20": 60000,
-            "erc20_payment": 110000,
-            "erc20_receiver_spend": 85000,
-            "erc20_sender_refund": 85000
-        },
-        "contract_address": "0xC762043E211571eB34f1ef377e5e8e76914962f9",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
     "APE-PLG20": {
         "coin": "APE-PLG20",
         "type": "Polygon",
@@ -3981,6 +3928,16 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bitn-electrumx.wattxchange.app:50014",
                 "protocol": "WSS",
                 "contact": [
@@ -5450,52 +5407,6 @@
                 "protocol": "WSS"
             }
         ],
-        "explorer_block_url": "block/"
-    },
-    "BTT-BEP20": {
-        "coin": "BTT-BEP20",
-        "type": "BEP-20",
-        "name": "BitTorrent (OLD)",
-        "coinpaprika_id": "btt-bittorrent",
-        "coingecko_id": "bittorrent-old",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "BitTorrent (OLD)",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0x8595F9dA7b868b1822194fAEd312235E43007b49"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x8595F9dA7b868b1822194fAEd312235E43007b49",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
     "BTTC-BEP20": {
@@ -13076,52 +12987,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "GALA-ERC20_OLD": {
-        "coin": "GALA-ERC20_OLD",
-        "type": "ERC-20",
-        "name": "Gala (OLD)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "GALA",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "Gala (OLD)",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1,
-        "decimals": 8,
-        "avg_blocktime": 15,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "ETH",
-                "contract_address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
-        "parent_coin": "ETH",
-        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            {
-                "url": "https://ethereum-rpc.publicnode.com",
-                "ws_url": "wss://ethereum-rpc.publicnode.com"
-            },
-            {
-                "url": "https://mainnet.gateway.tenderly.co",
-                "ws_url": "wss://mainnet.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "GALA-BEP20": {
         "coin": "GALA-BEP20",
         "type": "BEP-20",
@@ -18246,6 +18111,11 @@
                 "url": "lbc.electrum1.cipig.net:30067",
                 "disable_cert_verification": false,
                 "protocol": "WSS"
+            },
+            {
+                "url": "lbc.electrum2.cipig.net:30067",
+                "disable_cert_verification": false,
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -18289,6 +18159,11 @@
         "electrum": [
             {
                 "url": "lbc.electrum1.cipig.net:30067",
+                "disable_cert_verification": false,
+                "protocol": "WSS"
+            },
+            {
+                "url": "lbc.electrum2.cipig.net:30067",
                 "disable_cert_verification": false,
                 "protocol": "WSS"
             }
@@ -26459,52 +26334,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "SPACE-AVX20_OLD": {
-        "coin": "SPACE-AVX20_OLD",
-        "type": "AVX-20",
-        "name": "Space Token (OLD)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "__SPACE",
-        "explorer_url": "https://snowtrace.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Space Token (OLD)",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 43114,
-        "required_confirmations": 3,
-        "avg_blocktime": 2.4,
-        "decimals": 18,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "AVAX",
-                "contract_address": "0x09211Dc67f9fe98Fb7bBB91Be0ef05f4a12FA2b2"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x09211Dc67f9fe98Fb7bBB91Be0ef05f4a12FA2b2",
-        "parent_coin": "AVAX",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://avalanche-c-chain-rpc.publicnode.com",
-                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
-            },
-            {
-                "url": "https://avalanche.drpc.org",
-                "ws_url": "wss://avalanche.drpc.org"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "SPACE-AVX20": {
         "coin": "SPACE-AVX20",
         "type": "AVX-20",
@@ -26595,60 +26424,6 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "SPACE-PLG20_OLD": {
-        "coin": "SPACE-PLG20_OLD",
-        "type": "Polygon",
-        "name": "Space Token (OLD)",
-        "coinpaprika_id": "space-space-token",
-        "coingecko_id": "space-token-bsc",
-        "livecoinwatch_id": "__SPACE",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Space Token (OLD)",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 18,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "POL",
-                "contract_address": "0xB53Ec4aCe420a62Cfb75aFdEba600D284777cd65"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xB53Ec4aCe420a62Cfb75aFdEba600D284777cd65",
-        "parent_coin": "POL",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "SPACE-PLG20": {
@@ -28180,53 +27955,6 @@
         ],
         "explorer_block_url": "block.dws?"
     },
-    "TRX-BEP20_OLD": {
-        "coin": "TRX-BEP20_OLD",
-        "type": "BEP-20",
-        "name": "TRON (OLD)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "TRX",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "TRON (OLD)",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/",
-        "binance_id": "TRX"
-    },
     "TRX-BEP20": {
         "coin": "TRX-BEP20",
         "type": "BEP-20",
@@ -29436,52 +29164,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "USDC-AVX20_OLD": {
-        "coin": "USDC-AVX20_OLD",
-        "type": "AVX-20",
-        "name": "USD Coin (OLD)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "USDC",
-        "explorer_url": "https://snowtrace.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "USD Coin (OLD)",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 43114,
-        "required_confirmations": 3,
-        "avg_blocktime": 2.4,
-        "decimals": 6,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "AVAX",
-                "contract_address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
-        "parent_coin": "AVAX",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://avalanche-c-chain-rpc.publicnode.com",
-                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
-            },
-            {
-                "url": "https://avalanche.drpc.org",
-                "ws_url": "wss://avalanche.drpc.org"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "USDC-ERC20": {
         "coin": "USDC-ERC20",
         "type": "ERC-20",
@@ -30072,52 +29754,6 @@
             "erc20_sender_refund": 90000
         },
         "contract_address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
-        "parent_coin": "AVAX",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://avalanche-c-chain-rpc.publicnode.com",
-                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
-            },
-            {
-                "url": "https://avalanche.drpc.org",
-                "ws_url": "wss://avalanche.drpc.org"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "USDT-AVX20_OLD": {
-        "coin": "USDT-AVX20_OLD",
-        "type": "AVX-20",
-        "name": "Tether (OLD)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "USDT",
-        "explorer_url": "https://snowtrace.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "Tether (OLD)",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 43114,
-        "required_confirmations": 3,
-        "avg_blocktime": 2.4,
-        "decimals": 6,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "AVAX",
-                "contract_address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
         "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
