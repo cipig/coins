@@ -368,31 +368,6 @@
     }
   },
   {
-    "coin": "AIPG",
-    "name": "aipowergrid",
-    "fname": "AI Power Grid",
-    "sign_message_prefix": "Aipg Signed Message:\n",
-    "rpcport": 9788,
-    "pubtype": 23,
-    "p2shtype": 23,
-    "wiftype": 128,
-    "segwit": true,
-    "txfee": 1000000,
-    "dust": 1000000,
-    "mm2": 1,
-    "required_confirmations": 6,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO",
-      "chain_variant": "RVN"
-    },
-    "derivation_path": "m/44'/2686'",
-    "links": {
-      "github": "https://github.com/AIPowerGrid/AI-Power-Grid-Core",
-      "homepage": "aipowergrid.io"
-    }
-  },
-  {
     "coin": "AIPG-BASE",
     "name": "aipg_base",
     "fname": "AI Power Grid",
@@ -409,7 +384,11 @@
         "contract_address": "0xa1c0deCaFE3E9Bf06A5F29B7015CD373a9854608"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "github": "https://github.com/AIPowerGrid/AI-Power-Grid-Core",
+      "homepage": "aipowergrid.io"
+    }
   },
   {
     "coin": "ANEY",
