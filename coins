@@ -5570,31 +5570,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "FXS-MVR20",
-    "name": "fxs_mvr20",
-    "fname": "Frax Share",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1285,
-    "decimals": 18,
-    "avg_blocktime": 6,
-    "required_confirmations": 6,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MOVR",
-        "contract_address": "0x6f1D1Ee50846Fcbc3de91723E61cb68CFa6D0E98"
-      }
-    },
-    "derivation_path": "m/44'/60'",
-    "gas_limit": {
-      "eth_send_erc20": 1000000,
-      "erc20_payment": 1000000,
-      "erc20_receiver_spend": 1000000,
-      "erc20_sender_refund": 1000000
-    }
-  },
-  {
     "coin": "GALA-ERC20",
     "name": "gala_erc20",
     "fname": "Gala",
@@ -8527,6 +8502,7 @@
     "fname": "Moonriver",
     "rpcport": 80,
     "mm2": 1,
+    "wallet_only": true,
     "chain_id": 1285,
     "required_confirmations": 6,
     "avg_blocktime": 6,
@@ -8555,6 +8531,7 @@
     "fname": "Moonbeam",
     "rpcport": 80,
     "mm2": 1,
+    "wallet_only": true,
     "chain_id": 1284,
     "max_eth_tx_type": 2,
     "required_confirmations": 3,
