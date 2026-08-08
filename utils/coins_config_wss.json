@@ -12180,7 +12180,7 @@
         "coin": "FXS-ERC20",
         "type": "ERC-20",
         "name": "Frax Share",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "fxs-frax-share",
         "coingecko_id": "frax-share",
         "livecoinwatch_id": "FXS",
         "explorer_url": "https://etherscan.io/",
@@ -12226,7 +12226,7 @@
         "coin": "FXS-PLG20",
         "type": "Polygon",
         "name": "Frax Share",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "fxs-frax-share",
         "coingecko_id": "frax-share",
         "livecoinwatch_id": "FXS",
         "explorer_url": "https://polygonscan.com/",
@@ -12280,7 +12280,7 @@
         "coin": "FXS-AVX20",
         "type": "AVX-20",
         "name": "Frax Share",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "fxs-frax-share",
         "coingecko_id": "frax-share",
         "livecoinwatch_id": "FXS",
         "explorer_url": "https://snowtrace.io/",
@@ -12318,62 +12318,6 @@
             {
                 "url": "https://avalanche.drpc.org",
                 "ws_url": "wss://avalanche.drpc.org"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "FXS-MVR20": {
-        "coin": "FXS-MVR20",
-        "type": "Moonriver",
-        "name": "Frax Share",
-        "coinpaprika_id": "",
-        "coingecko_id": "frax-share",
-        "livecoinwatch_id": "FXS",
-        "explorer_url": "https://moonriver.moonscan.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Frax Share",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1285,
-        "decimals": 18,
-        "avg_blocktime": 6,
-        "required_confirmations": 6,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MOVR",
-                "contract_address": "0x6f1D1Ee50846Fcbc3de91723E61cb68CFa6D0E98"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "gas_limit": {
-            "eth_send_erc20": 1000000,
-            "erc20_payment": 1000000,
-            "erc20_receiver_spend": 1000000,
-            "erc20_sender_refund": 1000000
-        },
-        "contract_address": "0x6f1D1Ee50846Fcbc3de91723E61cb68CFa6D0E98",
-        "parent_coin": "MOVR",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://moonriver-rpc.publicnode.com",
-                "ws_url": "wss://moonriver-rpc.publicnode.com"
-            },
-            {
-                "url": "https://moonriver.api.onfinality.io/public",
-                "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
-            },
-            {
-                "url": "https://rpc.api.moonriver.moonbeam.network",
-                "ws_url": "wss://wss.api.moonriver.moonbeam.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -19198,7 +19142,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "Moonriver",
         "rpcport": 80,
         "mm2": 1,
@@ -19256,7 +19200,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "Moonbeam",
         "rpcport": 80,
         "mm2": 1,
