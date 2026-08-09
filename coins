@@ -8473,6 +8473,47 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "MORPHO-ERC20",
+    "name": "morpho_erc20",
+    "fname": "Morpho",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://morpho.org"
+    }
+  },
+  {
+    "coin": "MORPHO-BASE",
+    "name": "morpho_base",
+    "fname": "Morpho",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "MOVR",
     "name": "moonriver",
     "fname": "Moonriver",
