@@ -10636,6 +10636,28 @@
     }
   },
   {
+    "coin": "SKY-ERC20",
+    "name": "sky_erc20",
+    "fname": "Sky",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x56072C95FAA701256059aa122697B133aDEd9279"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://sky.money"
+    }
+  },
+  {
     "coin": "SNX-AVX20",
     "name": "snx_avx20",
     "fname": "Synthetix",
