@@ -23796,6 +23796,55 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "SKY-ERC20": {
+        "coin": "SKY-ERC20",
+        "type": "ERC-20",
+        "name": "Sky",
+        "coinpaprika_id": "sky-sky",
+        "coingecko_id": "sky",
+        "livecoinwatch_id": "__________SKY",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Sky",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x56072C95FAA701256059aa122697B133aDEd9279"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "links": {
+            "homepage": "https://sky.money"
+        },
+        "contract_address": "0x56072C95FAA701256059aa122697B133aDEd9279",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "nodes": [
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "SNX-AVX20": {
         "coin": "SNX-AVX20",
         "type": "AVX-20",
