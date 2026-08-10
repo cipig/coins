@@ -5387,25 +5387,6 @@
     }
   },
   {
-    "coin": "STFIRO-ERC20",
-    "name": "firo_erc20",
-    "fname": "StakedFIRO",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
-    "decimals": 8,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x160B1E5aaBFD70B2FC40Af815014925D71CEEd7E"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "FLO",
     "name": "flo",
     "fname": "Florincoin",
