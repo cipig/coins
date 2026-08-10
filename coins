@@ -14573,25 +14573,6 @@
     }
   },
   {
-    "coin": "DX-ERC20",
-    "name": "dx_erc20",
-    "fname": "DxChain",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 15,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x973e52691176d36453868D9d86572788d27041A9"
-      }
-    },
-    "decimals": 18,
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "STORJ-ERC20",
     "name": "storj_erc20",
     "fname": "Storj",
