@@ -12959,6 +12959,61 @@
         ],
         "explorer_block_url": "block/"
     },
+    "ENS-ERC20": {
+        "coin": "ENS-ERC20",
+        "type": "ERC-20",
+        "name": "Ethereum Name Service",
+        "coinpaprika_id": "ens-ethereum-name-service",
+        "coingecko_id": "ethereum-name-service",
+        "livecoinwatch_id": "ENS",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Ethereum Name Service",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "links": {
+            "homepage": "https://ens.domains"
+        },
+        "contract_address": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "nodes": [
+            {
+                "url": "https://eth1.lava.build"
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
+            },
+            {
+                "url": "https://rpc.mevblocker.io"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "EOS-BEP20": {
         "coin": "EOS-BEP20",
         "type": "BEP-20",

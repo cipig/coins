@@ -72,25 +72,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "GNEISS-ERC20",
-    "name": "gneiss_erc20",
-    "fname": "GNEISS",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
-    "decimals": 8,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x5da3E93faB0580bD7a532A741aC5F886376EFF46"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "1INCH-KRC20",
     "name": "1inch_krc20",
     "fname": "1Inch",
@@ -124,25 +105,6 @@
       "protocol_data": {
         "platform": "POL",
         "contract_address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "PGX-PLG20",
-    "name": "pegaxy_stone",
-    "fname": "Pegaxy Stone",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "POL",
-        "contract_address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -5824,6 +5786,25 @@
     }
   },
   {
+    "coin": "GNEISS-ERC20",
+    "name": "gneiss_erc20",
+    "fname": "GNEISS",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "decimals": 8,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x5da3E93faB0580bD7a532A741aC5F886376EFF46"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "GNO-ERC20",
     "name": "gno_erc20",
     "fname": "Gnosis",
@@ -9102,6 +9083,25 @@
     "links": {
       "homepage": "https://www.pepe.vip"
     }
+  },
+  {
+    "coin": "PGX-PLG20",
+    "name": "pegaxy_stone",
+    "fname": "Pegaxy Stone",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "PINK",
@@ -12580,6 +12580,28 @@
     "links": {
       "github": "https://github.com/vertcoin-project/vertcoin-core",
       "homepage": "https://vertcoin.org"
+    }
+  },
+  {
+    "coin": "VVV-BASE",
+    "name": "vvv_base",
+    "fname": "Venice Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://venice.ai"
     }
   },
   {
