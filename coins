@@ -13010,6 +13010,47 @@
     }
   },
   {
+    "coin": "VIRTUAL-ERC20",
+    "name": "virtual_erc20",
+    "fname": "Virtuals Protocol",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x44ff8620b8cA30902395A7bD3F2407e1A091BF73"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://www.virtuals.io"
+    }
+  },
+  {
+    "coin": "VIRTUAL-BASE",
+    "name": "virtual_base",
+    "fname": "Virtuals Protocol",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "VITE-BEP20",
     "name": "vite_bep20",
     "fname": "Vite",
