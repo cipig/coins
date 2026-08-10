@@ -9378,25 +9378,6 @@
     }
   },
   {
-    "coin": "POWR-PLG20",
-    "name": "powr_plg20",
-    "fname": "Power Ledger",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 6,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x0AaB8DC887D34f00D50E19aee48371a941390d14"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "PPC",
     "name": "peercoin",
     "fname": "Peercoin",
@@ -10260,25 +10241,6 @@
     "links": {
       "homepage": "http://iex.ec/"
     }
-  },
-  {
-    "coin": "RLC-PLG20",
-    "name": "rlc_plg20",
-    "fname": "iExec RLC",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 9,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0xbe662058e00849C3Eef2AC9664f37fEfdF2cdbFE"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "RNDR-ERC20",
