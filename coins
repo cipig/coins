@@ -1220,25 +1220,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "BAND-PLG20",
-    "name": "band_plg20",
-    "fname": "Band Protocol",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0xA8b1E0764f85f53dfe21760e8AfE5446D82606ac"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "BAT-AVX20",
     "name": "bat_avx20",
     "fname": "Basic Attention Token",
@@ -1441,25 +1422,6 @@
       "github": "https://github.com/Bitcoin-ABC/bitcoin-abc",
       "homepage": "https://www.bitcoincash.org"
     }
-  },
-  {
-    "coin": "JOY-PLG20",
-    "name": "joy_plg20",
-    "fname": "Joystick.club",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x218645F85Ff27FC456ef46c3CdacBF5c40B2F9E8"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "JKC",
@@ -2629,25 +2591,6 @@
     }
   },
   {
-    "coin": "CASE-BEP20",
-    "name": "case_bep20",
-    "fname": "Case Token",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 8,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x5cafe85d8983f61C059df359c504F1Bab8009e9e"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "CDN",
     "name": "canadaecoin",
     "fname": "Canada eCoin",
@@ -3542,24 +3485,6 @@
     }
   },
   {
-    "coin": "DDD-ERC20",
-    "name": "ddd_erc20",
-    "fname": "Scry.info",
-    "required_confirmations": 3,
-    "avg_blocktime": 15,
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x9F5F3CFD7a32700C93F971637407ff17b91c7342"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "DENT-ERC20",
     "name": "dent_erc20",
     "fname": "Dent",
@@ -4196,24 +4121,6 @@
     }
   },
   {
-    "coin": "DOGEDASH-BEP20",
-    "name": "dogedash_bep20",
-    "fname": "Doge Dash",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x7AE5709c585cCFB3e61fF312EC632C21A5F03F70"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "DOGGY-BEP20",
     "name": "doggy_bep20",
     "fname": "Doggy",
@@ -4451,25 +4358,6 @@
       "protocol_data": {
         "platform": "KCS",
         "contract_address": "0x6e2D990C8e718E7b6D86ed08eBf0FF2dEc05253B"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "ENJ-PLG20",
-    "name": "enj_plg20",
-    "fname": "Enjin Coin",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x7eC26842F195c852Fa843bB9f6D8B583a274a157"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -4996,25 +4884,6 @@
     }
   },
   {
-    "coin": "EXN-BEP20",
-    "name": "exn_bep20",
-    "fname": "Expoin",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 8,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0xc88f6F4C400321FAd5c26d574f9933a991011360"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "FDUSD-ERC20",
     "name": "fdusd_erc20",
     "fname": "First Digital USD",
@@ -5342,24 +5211,6 @@
     }
   },
   {
-    "coin": "FJC-BEP20",
-    "name": "fjc_bep20",
-    "fname": "Fujicoin",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0xd4451a8eE7D0978c60651a114b742Fa8d5857CDf"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "FJCB-BEP20",
     "name": "fjcb_bep20",
     "fname": "FJCB Fujicoin",
@@ -5454,25 +5305,6 @@
       "erc20_receiver_spend": 110000,
       "erc20_sender_refund": 110000
     }
-  },
-  {
-    "coin": "STFIRO-ERC20",
-    "name": "firo_erc20",
-    "fname": "StakedFIRO",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "avg_blocktime": 15,
-    "required_confirmations": 3,
-    "decimals": 8,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x160B1E5aaBFD70B2FC40Af815014925D71CEEd7E"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "FLO",
@@ -6404,28 +6236,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "GURU-BEP20",
-    "name": "guru_bep20",
-    "fname": "MobilityGuru",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 18,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0xc166A8dd8e48355774ac95933f746b57A724A464"
-      }
-    },
-    "derivation_path": "m/44'/60'",
-    "links": {
-      "homepage": "https://mobilityguru.org"
-    }
-  },
-  {
     "coin": "GUSD-ERC20",
     "name": "gusd_erc20",
     "fname": "Gemini Dollar",
@@ -6868,24 +6678,6 @@
       "erc20_receiver_spend": 85000,
       "erc20_sender_refund": 85000
     }
-  },
-  {
-    "coin": "JDB-BEP20",
-    "name": "jdb_bep20",
-    "fname": "Jeet Detector Bot",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "JPYC-AVX20",
@@ -7550,25 +7342,6 @@
     }
   },
   {
-    "coin": "LEO-PLG20",
-    "name": "leo_plg20",
-    "fname": "LEO Token",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x06D02e9D62A13fC76BB229373FB3BBBD1101D2fC"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "LINK-ERC20",
     "name": "link_erc20",
     "fname": "Chainlink",
@@ -7750,25 +7523,6 @@
       "erc20_receiver_spend": 85000,
       "erc20_sender_refund": 85000
     }
-  },
-  {
-    "coin": "LRC-PLG20",
-    "name": "lrc_plg20",
-    "fname": "Loopring",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x84e1670F61347CDaeD56dcc736FB990fBB47ddC1"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "LEASH-ERC20",
@@ -9196,25 +8950,6 @@
     }
   },
   {
-    "coin": "OMG-PLG20",
-    "name": "omg_plg20",
-    "fname": "OMG Network",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x62414D03084EeB269E18C970a21f45D2967F0170"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "ONE",
     "name": "harmony",
     "fname": "Harmony",
@@ -9625,25 +9360,6 @@
     "links": {
       "homepage": "https://powerledger.io"
     }
-  },
-  {
-    "coin": "POWR-PLG20",
-    "name": "powr_plg20",
-    "fname": "Power Ledger",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 6,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x0AaB8DC887D34f00D50E19aee48371a941390d14"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "PPC",
@@ -10511,25 +10227,6 @@
     }
   },
   {
-    "coin": "RLC-PLG20",
-    "name": "rlc_plg20",
-    "fname": "iExec RLC",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 9,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0xbe662058e00849C3Eef2AC9664f37fEfdF2cdbFE"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "RNDR-ERC20",
     "name": "rndr_erc20",
     "fname": "Render",
@@ -11137,25 +10834,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "SRM-PLG20",
-    "name": "srm_plg20",
-    "fname": "Serum",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 6,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x6Bf2eb299E51Fc5DF30Dec81D9445dDe70e3F185"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "SUI-BEP20",
     "name": "sui_bep20",
     "fname": "Sui",
@@ -11744,25 +11422,6 @@
     },
     "derivation_path": "m/44'/141'",
     "trezor_coin": "Komodo"
-  },
-  {
-    "coin": "THC-BEP20",
-    "name": "thc_bep20",
-    "fname": "HempCoin",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 18,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0xBD9a8CA934e673b874937761D7CFa7084ecBdd53"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "TKL",
@@ -12950,25 +12609,6 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x3C4B6E6e1eA3D4863700D7F76b36B7f3D3f13E3d"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "VGX-PLG20",
-    "name": "vgx_plg20",
-    "fname": "Voyager",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 8,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x054c42b6414747F5263b4A86f21B1aFAD00326Bf"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -14451,25 +14091,6 @@
     }
   },
   {
-    "coin": "ZRX-PLG20",
-    "name": "zrx_plg20",
-    "fname": "0x",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x5559Edb74751A0edE9DeA4DC23aeE72cCA6bE3D5"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "INK-QRC20",
     "name": "qtum",
     "fname": "INK",
@@ -14767,25 +14388,6 @@
     "links": {
       "homepage": "http://www.cybervein.org"
     }
-  },
-  {
-    "coin": "DX-ERC20",
-    "name": "dx_erc20",
-    "fname": "DxChain",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 15,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x973e52691176d36453868D9d86572788d27041A9"
-      }
-    },
-    "decimals": 18,
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "STORJ-ERC20",
@@ -15215,42 +14817,6 @@
       "github": "https://github.com/Bitcoin-ABC/bitcoin-abc",
       "homepage": "https://e.cash"
     }
-  },
-  {
-    "coin": "SIBM-BEP20",
-    "name": "sibm_bep20",
-    "fname": "SibMining",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0xee8EE60503fd0a735cC972A08E3a5B2026DDCe47"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "ZINU-BEP20",
-    "name": "zinu_bep20",
-    "fname": "Zombie Inu",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "RUNES",
