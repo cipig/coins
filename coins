@@ -7541,25 +7541,6 @@
     }
   },
   {
-    "coin": "LRC-PLG20",
-    "name": "lrc_plg20",
-    "fname": "Loopring",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x84e1670F61347CDaeD56dcc736FB990fBB47ddC1"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "LEASH-ERC20",
     "name": "leash_erc20",
     "fname": "Doge Killer",
