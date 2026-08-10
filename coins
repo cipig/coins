@@ -4684,6 +4684,66 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "ETHFI-ERC20",
+    "name": "ethfi_erc20",
+    "fname": "Ether.fi",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://www.ether.fi"
+    }
+  },
+  {
+    "coin": "ETHFI-ARB20",
+    "name": "ethfi_arb20",
+    "fname": "Ether.fi",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x7189fb5B6504bbfF6a852B13B7B82a3c118fDc27"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "ETHFI-BASE",
+    "name": "ethfi_base",
+    "fname": "Ether.fi",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0x6C240DDA6b5c336DF09A4D011139beAAa1eA2Aa2"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "EURC-AVX20",
     "name": "eurc_avx20",
     "fname": "EURC",
