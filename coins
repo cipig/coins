@@ -1414,25 +1414,6 @@
     }
   },
   {
-    "coin": "JOY-PLG20",
-    "name": "joy_plg20",
-    "fname": "Joystick.club",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 1.8,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "POL",
-        "contract_address": "0x218645F85Ff27FC456ef46c3CdacBF5c40B2F9E8"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "JKC",
     "name": "junkcoin",
     "fname": "JunkCoin",
@@ -6277,28 +6258,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "GURU-BEP20",
-    "name": "guru_bep20",
-    "fname": "MobilityGuru",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 18,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0xc166A8dd8e48355774ac95933f746b57A724A464"
-      }
-    },
-    "derivation_path": "m/44'/60'",
-    "links": {
-      "homepage": "https://mobilityguru.org"
-    }
-  },
-  {
     "coin": "GUSD-ERC20",
     "name": "gusd_erc20",
     "fname": "Gemini Dollar",
@@ -6741,24 +6700,6 @@
       "erc20_receiver_spend": 85000,
       "erc20_sender_refund": 85000
     }
-  },
-  {
-    "coin": "JDB-BEP20",
-    "name": "jdb_bep20",
-    "fname": "Jeet Detector Bot",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "JPYC-AVX20",
