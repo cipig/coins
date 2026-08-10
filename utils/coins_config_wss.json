@@ -2583,60 +2583,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "BAND-PLG20": {
-        "coin": "BAND-PLG20",
-        "type": "Matic",
-        "name": "Band Protocol",
-        "coinpaprika_id": "band-band-protocol",
-        "coingecko_id": "band-protocol",
-        "livecoinwatch_id": "BAND",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Band Protocol",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 18,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MATIC",
-                "contract_address": "0xA8b1E0764f85f53dfe21760e8AfE5446D82606ac"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xA8b1E0764f85f53dfe21760e8AfE5446D82606ac",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "BAT-AVX20": {
         "coin": "BAT-AVX20",
         "type": "AVX-20",
@@ -3061,60 +3007,6 @@
         ],
         "explorer_block_url": "block/",
         "binance_id": "BCH"
-    },
-    "JOY-PLG20": {
-        "coin": "JOY-PLG20",
-        "type": "Matic",
-        "name": "Joystick.club",
-        "coinpaprika_id": "",
-        "coingecko_id": "joystick-club",
-        "livecoinwatch_id": "JOY",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Joystick.club",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 18,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MATIC",
-                "contract_address": "0x218645F85Ff27FC456ef46c3CdacBF5c40B2F9E8"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x218645F85Ff27FC456ef46c3CdacBF5c40B2F9E8",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
     },
     "BBK": {
         "coin": "BBK",
@@ -5749,53 +5641,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "CASE-BEP20": {
-        "coin": "CASE-BEP20",
-        "type": "BEP-20",
-        "name": "Case Token",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Case Token",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "decimals": 8,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0x5cafe85d8983f61C059df359c504F1Bab8009e9e"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x5cafe85d8983f61C059df359c504F1Bab8009e9e",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
     "CDN": {
         "coin": "CDN",
         "type": "UTXO",
@@ -7715,51 +7560,6 @@
         "explorer_block_url": "block/",
         "binance_id": "DASH"
     },
-    "DDD-ERC20": {
-        "coin": "DDD-ERC20",
-        "type": "ERC-20",
-        "name": "Scry.info",
-        "coinpaprika_id": "ddd-scryinfo",
-        "coingecko_id": "scry-info",
-        "livecoinwatch_id": "DDD",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Scry.info",
-        "required_confirmations": 3,
-        "avg_blocktime": 15,
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "ETH",
-                "contract_address": "0x9F5F3CFD7a32700C93F971637407ff17b91c7342"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x9F5F3CFD7a32700C93F971637407ff17b91c7342",
-        "parent_coin": "ETH",
-        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            {
-                "url": "https://ethereum-rpc.publicnode.com",
-                "ws_url": "wss://ethereum-rpc.publicnode.com"
-            },
-            {
-                "url": "https://mainnet.gateway.tenderly.co",
-                "ws_url": "wss://mainnet.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "DENT-ERC20": {
         "coin": "DENT-ERC20",
         "type": "ERC-20",
@@ -9223,52 +9023,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "DOGEDASH-BEP20": {
-        "coin": "DOGEDASH-BEP20",
-        "type": "BEP-20",
-        "name": "Doge Dash",
-        "coinpaprika_id": "dogedash-doge-dash",
-        "coingecko_id": "doge-dash",
-        "livecoinwatch_id": "DOGEDASH",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Doge Dash",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0x7AE5709c585cCFB3e61fF312EC632C21A5F03F70"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x7AE5709c585cCFB3e61fF312EC632C21A5F03F70",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
     "DOGGY-BEP20": {
         "coin": "DOGGY-BEP20",
         "type": "BEP-20",
@@ -9747,60 +9501,6 @@
             {
                 "url": "https://mainnet.gateway.tenderly.co",
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "ENJ-PLG20": {
-        "coin": "ENJ-PLG20",
-        "type": "Matic",
-        "name": "Enjin Coin",
-        "coinpaprika_id": "enj-enjin-coin",
-        "coingecko_id": "enjincoin",
-        "livecoinwatch_id": "ENJ",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Enjin Coin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 18,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MATIC",
-                "contract_address": "0x7eC26842F195c852Fa843bB9f6D8B583a274a157"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x7eC26842F195c852Fa843bB9f6D8B583a274a157",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -10947,53 +10647,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "EXN-BEP20": {
-        "coin": "EXN-BEP20",
-        "type": "BEP-20",
-        "name": "Expoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Expoin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "decimals": 8,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0xc88f6F4C400321FAd5c26d574f9933a991011360"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xc88f6F4C400321FAd5c26d574f9933a991011360",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
     "FDUSD-ERC20": {
         "coin": "FDUSD-ERC20",
         "type": "ERC-20",
@@ -11763,52 +11416,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "FJC-BEP20": {
-        "coin": "FJC-BEP20",
-        "type": "BEP-20",
-        "name": "Fujicoin",
-        "coinpaprika_id": "fjc-fujicoin",
-        "coingecko_id": "fujicoin",
-        "livecoinwatch_id": "FJC",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Fujicoin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0xd4451a8eE7D0978c60651a114b742Fa8d5857CDf"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xd4451a8eE7D0978c60651a114b742Fa8d5857CDf",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
     "FJCB-BEP20": {
         "coin": "FJCB-BEP20",
         "type": "BEP-20",
@@ -12025,52 +11632,6 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "STFIRO-ERC20": {
-        "coin": "STFIRO-ERC20",
-        "type": "ERC-20",
-        "name": "StakedFIRO",
-        "coinpaprika_id": "",
-        "coingecko_id": "stakehound",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "StakedFIRO",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1,
-        "avg_blocktime": 15,
-        "required_confirmations": 3,
-        "decimals": 8,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "ETH",
-                "contract_address": "0x160B1E5aaBFD70B2FC40Af815014925D71CEEd7E"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x160B1E5aaBFD70B2FC40Af815014925D71CEEd7E",
-        "parent_coin": "ETH",
-        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            {
-                "url": "https://ethereum-rpc.publicnode.com",
-                "ws_url": "wss://ethereum-rpc.publicnode.com"
-            },
-            {
-                "url": "https://mainnet.gateway.tenderly.co",
-                "ws_url": "wss://mainnet.gateway.tenderly.co"
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "FLOW-BEP20": {
@@ -13629,7 +13190,7 @@
         "coin": "GRLC-ERC20",
         "type": "ERC-20",
         "name": "Garlicoin",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "grlc-garlicoin",
         "coingecko_id": "garlicoin",
         "livecoinwatch_id": "GRLC",
         "explorer_url": "https://etherscan.io/",
@@ -13675,7 +13236,7 @@
         "coin": "GRLC-BEP20",
         "type": "BEP-20",
         "name": "Garlicoin",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "grlc-garlicoin",
         "coingecko_id": "garlicoin",
         "livecoinwatch_id": "GRLC",
         "explorer_url": "https://bscscan.com/",
@@ -14067,56 +13628,6 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             }
         ],
-        "explorer_block_url": "block/"
-    },
-    "GURU-BEP20": {
-        "coin": "GURU-BEP20",
-        "type": "BEP-20",
-        "name": "MobilityGuru",
-        "coinpaprika_id": "guru-mobilityguru-token",
-        "coingecko_id": "",
-        "livecoinwatch_id": "_GURU",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "MobilityGuru",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "decimals": 18,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0xc166A8dd8e48355774ac95933f746b57A724A464"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "links": {
-            "homepage": "https://mobilityguru.org"
-        },
-        "contract_address": "0xc166A8dd8e48355774ac95933f746b57A724A464",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
     "GUSD-ERC20": {
@@ -15191,52 +14702,6 @@
             "erc20_sender_refund": 85000
         },
         "contract_address": "0x15669CF161946C09a8B207650BfBB00e3d8A2E3E",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "JDB-BEP20": {
-        "coin": "JDB-BEP20",
-        "type": "BEP-20",
-        "name": "Jeet Detector Bot",
-        "coinpaprika_id": "jdb-jeet-detector-bot",
-        "coingecko_id": "jeet-detector-bot",
-        "livecoinwatch_id": "JDB",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Jeet Detector Bot",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -16846,60 +16311,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "LEO-PLG20": {
-        "coin": "LEO-PLG20",
-        "type": "Matic",
-        "name": "LEO Token",
-        "coinpaprika_id": "leo-leo-token",
-        "coingecko_id": "leo-token",
-        "livecoinwatch_id": "LEO",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "LEO Token",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 18,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MATIC",
-                "contract_address": "0x06D02e9D62A13fC76BB229373FB3BBBD1101D2fC"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x06D02e9D62A13fC76BB229373FB3BBBD1101D2fC",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "LINK-ERC20": {
         "coin": "LINK-ERC20",
         "type": "ERC-20",
@@ -17290,60 +16701,6 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "LRC-PLG20": {
-        "coin": "LRC-PLG20",
-        "type": "Matic",
-        "name": "Loopring",
-        "coinpaprika_id": "lrc-loopring",
-        "coingecko_id": "loopring",
-        "livecoinwatch_id": "LRC",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Loopring",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 18,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MATIC",
-                "contract_address": "0x84e1670F61347CDaeD56dcc736FB990fBB47ddC1"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x84e1670F61347CDaeD56dcc736FB990fBB47ddC1",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "LEASH-ERC20": {
@@ -20324,60 +19681,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "OMG-PLG20": {
-        "coin": "OMG-PLG20",
-        "type": "Matic",
-        "name": "OMG Network",
-        "coinpaprika_id": "omg-omg-network",
-        "coingecko_id": "omisego",
-        "livecoinwatch_id": "OMG",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "OMG Network",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 18,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MATIC",
-                "contract_address": "0x62414D03084EeB269E18C970a21f45D2967F0170"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x62414D03084EeB269E18C970a21f45D2967F0170",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "ONT-BEP20": {
         "coin": "ONT-BEP20",
         "type": "BEP-20",
@@ -21168,60 +20471,6 @@
             {
                 "url": "https://mainnet.gateway.tenderly.co",
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "POWR-PLG20": {
-        "coin": "POWR-PLG20",
-        "type": "Matic",
-        "name": "Power Ledger",
-        "coinpaprika_id": "powr-power-ledger",
-        "coingecko_id": "power-ledger",
-        "livecoinwatch_id": "POWR",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Power Ledger",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 6,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MATIC",
-                "contract_address": "0x0AaB8DC887D34f00D50E19aee48371a941390d14"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x0AaB8DC887D34f00D50E19aee48371a941390d14",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -23124,60 +22373,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "RLC-PLG20": {
-        "coin": "RLC-PLG20",
-        "type": "Matic",
-        "name": "iExec RLC",
-        "coinpaprika_id": "rlc-iexec-rlc",
-        "coingecko_id": "iexec-rlc",
-        "livecoinwatch_id": "RLC",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "iExec RLC",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 9,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MATIC",
-                "contract_address": "0xbe662058e00849C3Eef2AC9664f37fEfdF2cdbFE"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xbe662058e00849C3Eef2AC9664f37fEfdF2cdbFE",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "RNDR-ERC20": {
         "coin": "RNDR-ERC20",
         "type": "ERC-20",
@@ -24544,60 +23739,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "SRM-PLG20": {
-        "coin": "SRM-PLG20",
-        "type": "Matic",
-        "name": "Serum",
-        "coinpaprika_id": "srm-serum",
-        "coingecko_id": "serum",
-        "livecoinwatch_id": "SRM",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Serum",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 6,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MATIC",
-                "contract_address": "0x6Bf2eb299E51Fc5DF30Dec81D9445dDe70e3F185"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x6Bf2eb299E51Fc5DF30Dec81D9445dDe70e3F185",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "SUI-BEP20": {
         "coin": "SUI-BEP20",
         "type": "BEP-20",
@@ -25724,53 +24865,6 @@
             "erc20_sender_refund": 85000
         },
         "contract_address": "0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "THC-BEP20": {
-        "coin": "THC-BEP20",
-        "type": "BEP-20",
-        "name": "HempCoin",
-        "coinpaprika_id": "thc-hempcoin",
-        "coingecko_id": "hempcoin-thc",
-        "livecoinwatch_id": "THC",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "HempCoin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "decimals": 18,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0xBD9a8CA934e673b874937761D7CFa7084ecBdd53"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xBD9a8CA934e673b874937761D7CFa7084ecBdd53",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -28271,60 +27365,6 @@
             {
                 "url": "https://mainnet.gateway.tenderly.co",
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "VGX-PLG20": {
-        "coin": "VGX-PLG20",
-        "type": "Matic",
-        "name": "Voyager",
-        "coinpaprika_id": "ethos-ethos",
-        "coingecko_id": "ethos",
-        "livecoinwatch_id": "VGX",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Voyager",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 8,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MATIC",
-                "contract_address": "0x054c42b6414747F5263b4A86f21B1aFAD00326Bf"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x054c42b6414747F5263b4A86f21B1aFAD00326Bf",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -31475,60 +30515,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "ZRX-PLG20": {
-        "coin": "ZRX-PLG20",
-        "type": "Matic",
-        "name": "0x",
-        "coinpaprika_id": "zrx-0x",
-        "coingecko_id": "0x",
-        "livecoinwatch_id": "ZRX",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "0x",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 18,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MATIC",
-                "contract_address": "0x5559Edb74751A0edE9DeA4DC23aeE72cCA6bE3D5"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x5559Edb74751A0edE9DeA4DC23aeE72cCA6bE3D5",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "INK-QRC20": {
         "coin": "INK-QRC20",
         "type": "QRC-20",
@@ -32098,52 +31084,6 @@
             "homepage": "http://www.cybervein.org"
         },
         "contract_address": "0xBe428c3867F05deA2A89Fc76a102b544eaC7f772",
-        "parent_coin": "ETH",
-        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            {
-                "url": "https://ethereum-rpc.publicnode.com",
-                "ws_url": "wss://ethereum-rpc.publicnode.com"
-            },
-            {
-                "url": "https://mainnet.gateway.tenderly.co",
-                "ws_url": "wss://mainnet.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "DX-ERC20": {
-        "coin": "DX-ERC20",
-        "type": "ERC-20",
-        "name": "DxChain",
-        "coinpaprika_id": "dx-dxchain-token",
-        "coingecko_id": "dxchain",
-        "livecoinwatch_id": "DX",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "DxChain",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 15,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "ETH",
-                "contract_address": "0x973e52691176d36453868D9d86572788d27041A9"
-            }
-        },
-        "decimals": 18,
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x973e52691176d36453868D9d86572788d27041A9",
         "parent_coin": "ETH",
         "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
         "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
@@ -32881,98 +31821,6 @@
         ],
         "explorer_block_url": "block/",
         "binance_id": "XEC"
-    },
-    "SIBM-BEP20": {
-        "coin": "SIBM-BEP20",
-        "type": "BEP-20",
-        "name": "SibMining",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "SibMining",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0xee8EE60503fd0a735cC972A08E3a5B2026DDCe47"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xee8EE60503fd0a735cC972A08E3a5B2026DDCe47",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "ZINU-BEP20": {
-        "coin": "ZINU-BEP20",
-        "type": "BEP-20",
-        "name": "Zombie Inu",
-        "coinpaprika_id": "zombie-inu",
-        "coingecko_id": "zinu-zombie-inu",
-        "livecoinwatch_id": "ZINU",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Zombie Inu",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
     },
     "RUNES": {
         "coin": "RUNES",
