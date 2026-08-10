@@ -6770,24 +6770,6 @@
     }
   },
   {
-    "coin": "JDB-BEP20",
-    "name": "jdb_bep20",
-    "fname": "Jeet Detector Bot",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "JPYC-AVX20",
     "name": "jpyc_avx20",
     "fname": "JPY Coin",
