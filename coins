@@ -4159,24 +4159,6 @@
     }
   },
   {
-    "coin": "DOGEDASH-BEP20",
-    "name": "dogedash_bep20",
-    "fname": "Doge Dash",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x7AE5709c585cCFB3e61fF312EC632C21A5F03F70"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "DOGGY-BEP20",
     "name": "doggy_bep20",
     "fname": "Doggy",
