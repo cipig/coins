@@ -6355,62 +6355,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "CASE-BEP20": {
-        "coin": "CASE-BEP20",
-        "type": "BEP-20",
-        "name": "Case Token",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Case Token",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "decimals": 8,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0x5cafe85d8983f61C059df359c504F1Bab8009e9e"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x5cafe85d8983f61C059df359c504F1Bab8009e9e",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-dataseed1.ninicoin.io"
-            },
-            {
-                "url": "https://bsc-dataseed2.defibit.io"
-            },
-            {
-                "url": "https://bsc-dataseed3.bnbchain.org"
-            },
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
     "CDN": {
         "coin": "CDN",
         "type": "UTXO",
@@ -10291,61 +10235,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "DOGEDASH-BEP20": {
-        "coin": "DOGEDASH-BEP20",
-        "type": "BEP-20",
-        "name": "Doge Dash",
-        "coinpaprika_id": "dogedash-doge-dash",
-        "coingecko_id": "doge-dash",
-        "livecoinwatch_id": "DOGEDASH",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Doge Dash",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0x7AE5709c585cCFB3e61fF312EC632C21A5F03F70"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x7AE5709c585cCFB3e61fF312EC632C21A5F03F70",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-dataseed1.ninicoin.io"
-            },
-            {
-                "url": "https://bsc-dataseed2.defibit.io"
-            },
-            {
-                "url": "https://bsc-dataseed3.bnbchain.org"
-            },
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
     "DOGGY-BEP20": {
         "coin": "DOGGY-BEP20",
         "type": "BEP-20",
@@ -12303,62 +12192,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "EXN-BEP20": {
-        "coin": "EXN-BEP20",
-        "type": "BEP-20",
-        "name": "Expoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Expoin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "decimals": 8,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0xc88f6F4C400321FAd5c26d574f9933a991011360"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xc88f6F4C400321FAd5c26d574f9933a991011360",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-dataseed1.ninicoin.io"
-            },
-            {
-                "url": "https://bsc-dataseed2.defibit.io"
-            },
-            {
-                "url": "https://bsc-dataseed3.bnbchain.org"
-            },
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
     "FDUSD-ERC20": {
         "coin": "FDUSD-ERC20",
         "type": "ERC-20",
@@ -13186,61 +13019,6 @@
                 ]
             }
         ],
-        "explorer_block_url": "block/"
-    },
-    "FJC-BEP20": {
-        "coin": "FJC-BEP20",
-        "type": "BEP-20",
-        "name": "Fujicoin",
-        "coinpaprika_id": "fjc-fujicoin",
-        "coingecko_id": "fujicoin",
-        "livecoinwatch_id": "FJC",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Fujicoin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0xd4451a8eE7D0978c60651a114b742Fa8d5857CDf"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xd4451a8eE7D0978c60651a114b742Fa8d5857CDf",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-dataseed1.ninicoin.io"
-            },
-            {
-                "url": "https://bsc-dataseed2.defibit.io"
-            },
-            {
-                "url": "https://bsc-dataseed3.bnbchain.org"
-            },
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
     "FJCB-BEP20": {
@@ -36474,58 +36252,6 @@
             "homepage": "http://www.cybervein.org"
         },
         "contract_address": "0xBe428c3867F05deA2A89Fc76a102b544eaC7f772",
-        "parent_coin": "ETH",
-        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            {
-                "url": "https://eth1.lava.build"
-            },
-            {
-                "url": "https://ethereum-rpc.publicnode.com",
-                "ws_url": "wss://ethereum-rpc.publicnode.com"
-            },
-            {
-                "url": "https://mainnet.gateway.tenderly.co",
-                "ws_url": "wss://mainnet.gateway.tenderly.co"
-            },
-            {
-                "url": "https://rpc.mevblocker.io"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "DX-ERC20": {
-        "coin": "DX-ERC20",
-        "type": "ERC-20",
-        "name": "DxChain",
-        "coinpaprika_id": "dx-dxchain-token",
-        "coingecko_id": "dxchain",
-        "livecoinwatch_id": "DX",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "DxChain",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 15,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "ETH",
-                "contract_address": "0x973e52691176d36453868D9d86572788d27041A9"
-            }
-        },
-        "decimals": 18,
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x973e52691176d36453868D9d86572788d27041A9",
         "parent_coin": "ETH",
         "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
         "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
