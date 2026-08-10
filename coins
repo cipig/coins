@@ -4475,6 +4475,28 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "ENS-ERC20",
+    "name": "ens_erc20",
+    "fname": "Ethereum Name Service",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://ens.domains"
+    }
+  },
+  {
     "coin": "EOS-BEP20",
     "name": "eos_bep20",
     "fname": "EOS",
