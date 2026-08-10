@@ -3473,24 +3473,6 @@
     }
   },
   {
-    "coin": "DDD-ERC20",
-    "name": "ddd_erc20",
-    "fname": "Scry.info",
-    "required_confirmations": 3,
-    "avg_blocktime": 15,
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x9F5F3CFD7a32700C93F971637407ff17b91c7342"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "DENT-ERC20",
     "name": "dent_erc20",
     "fname": "Dent",
@@ -14920,42 +14902,6 @@
       "github": "https://github.com/Bitcoin-ABC/bitcoin-abc",
       "homepage": "https://e.cash"
     }
-  },
-  {
-    "coin": "SIBM-BEP20",
-    "name": "sibm_bep20",
-    "fname": "SibMining",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0xee8EE60503fd0a735cC972A08E3a5B2026DDCe47"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "ZINU-BEP20",
-    "name": "zinu_bep20",
-    "fname": "Zombie Inu",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "RUNES",
