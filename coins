@@ -8829,6 +8829,28 @@
     }
   },
   {
+    "coin": "ONDO-ERC20",
+    "name": "ondo_erc20",
+    "fname": "Ondo",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://ondo.finance"
+    }
+  },
+  {
     "coin": "ONE",
     "name": "harmony",
     "fname": "Harmony",
