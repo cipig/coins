@@ -3386,6 +3386,16 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bitn-electrumx.wattxchange.app:50014",
                 "protocol": "WSS",
                 "contact": [
@@ -24462,6 +24472,18 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "sys.electrum2.cipig.net:30064",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -24510,6 +24532,18 @@
         "electrum": [
             {
                 "url": "sys.electrum1.cipig.net:30064",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "sys.electrum2.cipig.net:30064",
                 "protocol": "WSS",
                 "contact": [
                     {
