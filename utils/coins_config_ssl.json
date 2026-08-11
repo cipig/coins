@@ -225,58 +225,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "GNEISS-ERC20": {
-        "coin": "GNEISS-ERC20",
-        "type": "ERC-20",
-        "name": "GNEISS",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "GNEISS",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1,
-        "avg_blocktime": 15,
-        "required_confirmations": 3,
-        "decimals": 8,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "ETH",
-                "contract_address": "0x5da3E93faB0580bD7a532A741aC5F886376EFF46"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x5da3E93faB0580bD7a532A741aC5F886376EFF46",
-        "parent_coin": "ETH",
-        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            {
-                "url": "https://eth1.lava.build"
-            },
-            {
-                "url": "https://ethereum-rpc.publicnode.com",
-                "ws_url": "wss://ethereum-rpc.publicnode.com"
-            },
-            {
-                "url": "https://mainnet.gateway.tenderly.co",
-                "ws_url": "wss://mainnet.gateway.tenderly.co"
-            },
-            {
-                "url": "https://rpc.mevblocker.io"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "1INCH-KRC20": {
         "coin": "1INCH-KRC20",
         "type": "KRC-20",
@@ -352,60 +300,6 @@
         },
         "derivation_path": "m/44'/60'",
         "contract_address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co",
-                "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "PGX-PLG20": {
-        "coin": "PGX-PLG20",
-        "type": "Matic",
-        "name": "Pegaxy Stone",
-        "coinpaprika_id": "",
-        "coingecko_id": "pegaxy-stone",
-        "livecoinwatch_id": "PGX",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Pegaxy Stone",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 18,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "MATIC",
-                "contract_address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -3652,7 +3546,7 @@
         "coin": "BBK-BEP20",
         "type": "BEP-20",
         "name": "BitBlocks",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "bbk-bitblocks",
         "coingecko_id": "",
         "livecoinwatch_id": "BBK",
         "explorer_url": "https://bscscan.com/",
@@ -3708,7 +3602,7 @@
         "coin": "BBK-PLG20",
         "type": "Matic",
         "name": "BitBlocks",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "bbk-bitblocks",
         "coingecko_id": "",
         "livecoinwatch_id": "BBK",
         "explorer_url": "https://polygonscan.com/",
@@ -14736,6 +14630,58 @@
         ],
         "explorer_block_url": "block/"
     },
+    "GNEISS-ERC20": {
+        "coin": "GNEISS-ERC20",
+        "type": "ERC-20",
+        "name": "GNEISS",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "GNEISS",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "decimals": 8,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x5da3E93faB0580bD7a532A741aC5F886376EFF46"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x5da3E93faB0580bD7a532A741aC5F886376EFF46",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "nodes": [
+            {
+                "url": "https://eth1.lava.build"
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
+            },
+            {
+                "url": "https://rpc.mevblocker.io"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "GNO-ERC20": {
         "coin": "GNO-ERC20",
         "type": "ERC-20",
@@ -23103,6 +23049,60 @@
         ],
         "explorer_block_url": "block/"
     },
+    "PGX-PLG20": {
+        "coin": "PGX-PLG20",
+        "type": "Matic",
+        "name": "Pegaxy Stone",
+        "coinpaprika_id": "",
+        "coingecko_id": "pegaxy-stone",
+        "livecoinwatch_id": "PGX",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Pegaxy Stone",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 18,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
+                "contract_address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://pol3.cipig.net:18755",
+                "ws_url": "wss://pol3.cipig.net:38755"
+            },
+            {
+                "url": "https://polygon-bor-rpc.publicnode.com",
+                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
+            },
+            {
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "PIVX": {
         "coin": "PIVX",
         "type": "UTXO",
@@ -27811,6 +27811,109 @@
         ],
         "explorer_block_url": "block/"
     },
+    "SYRUP-ERC20": {
+        "coin": "SYRUP-ERC20",
+        "type": "ERC-20",
+        "name": "Maple Finance",
+        "coinpaprika_id": "syrup-syrup-token",
+        "coingecko_id": "syrup",
+        "livecoinwatch_id": "SYRUP",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Maple Finance",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "links": {
+            "homepage": "https://maple.finance"
+        },
+        "contract_address": "0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "nodes": [
+            {
+                "url": "https://eth1.lava.build"
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
+            },
+            {
+                "url": "https://rpc.mevblocker.io"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "SYRUP-BASE": {
+        "coin": "SYRUP-BASE",
+        "type": "Base",
+        "name": "Maple Finance",
+        "coinpaprika_id": "syrup-syrup-token",
+        "coingecko_id": "syrup",
+        "livecoinwatch_id": "SYRUP",
+        "explorer_url": "https://basescan.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Maple Finance",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 8453,
+        "decimals": 18,
+        "avg_blocktime": 0.2,
+        "required_confirmations": 10,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-BASE",
+                "contract_address": "0x688AEe022AA544f150678B8E5720b6b96a9E9a2F"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x688AEe022AA544f150678B8E5720b6b96a9E9a2F",
+        "parent_coin": "ETH-BASE",
+        "swap_contract_address": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+        "fallback_swap_contract": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+        "nodes": [
+            {
+                "url": "https://base-rpc.publicnode.com",
+                "ws_url": "wss://base-rpc.publicnode.com"
+            },
+            {
+                "url": "https://base.public.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://mainnet.base.org"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "SYS": {
         "coin": "SYS",
         "type": "UTXO",
@@ -31984,6 +32087,57 @@
         ],
         "explorer_block_url": "block.dws?"
     },
+    "VVV-BASE": {
+        "coin": "VVV-BASE",
+        "type": "Base",
+        "name": "Venice Token",
+        "coinpaprika_id": "vvv-venice-token",
+        "coingecko_id": "venice-token",
+        "livecoinwatch_id": "_VVV",
+        "explorer_url": "https://basescan.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Venice Token",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 8453,
+        "decimals": 18,
+        "avg_blocktime": 0.2,
+        "required_confirmations": 10,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-BASE",
+                "contract_address": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "links": {
+            "homepage": "https://venice.ai"
+        },
+        "contract_address": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
+        "parent_coin": "ETH-BASE",
+        "swap_contract_address": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+        "fallback_swap_contract": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+        "nodes": [
+            {
+                "url": "https://base-rpc.publicnode.com",
+                "ws_url": "wss://base-rpc.publicnode.com"
+            },
+            {
+                "url": "https://base.public.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://mainnet.base.org"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "WAVES-BEP20": {
         "coin": "WAVES-BEP20",
         "type": "BEP-20",
@@ -32845,11 +32999,59 @@
         ],
         "explorer_block_url": "block/"
     },
+    "XCN-BASE": {
+        "coin": "XCN-BASE",
+        "type": "Base",
+        "name": "Onyxcoin",
+        "coinpaprika_id": "xcn-chain",
+        "coingecko_id": "chain-2",
+        "livecoinwatch_id": "XCN",
+        "explorer_url": "https://basescan.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Onyxcoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 8453,
+        "decimals": 18,
+        "avg_blocktime": 0.2,
+        "required_confirmations": 10,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-BASE",
+                "contract_address": "0x9c632E6Aaa3eA73f91554f8A3cB2ED2F29605e0C"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x9c632E6Aaa3eA73f91554f8A3cB2ED2F29605e0C",
+        "parent_coin": "ETH-BASE",
+        "swap_contract_address": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+        "fallback_swap_contract": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+        "nodes": [
+            {
+                "url": "https://base-rpc.publicnode.com",
+                "ws_url": "wss://base-rpc.publicnode.com"
+            },
+            {
+                "url": "https://base.public.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://mainnet.base.org"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "XCN-BEP20": {
         "coin": "XCN-BEP20",
         "type": "BEP-20",
         "name": "Onyxcoin",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "xcn-chain",
         "coingecko_id": "chain-2",
         "livecoinwatch_id": "XCN",
         "explorer_url": "https://bscscan.com/",
@@ -33132,7 +33334,7 @@
         "coin": "XIDR-PLG20",
         "type": "Matic",
         "name": "StraitsX Indonesian Rupiah",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "xidr-straitsx-indonesia-rupiah",
         "coingecko_id": "straitsx-indonesia-rupiah",
         "livecoinwatch_id": "XIDR",
         "explorer_url": "https://polygonscan.com/",
