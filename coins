@@ -11105,6 +11105,47 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "SYRUP-ERC20",
+    "name": "syrup_erc20",
+    "fname": "Maple Finance",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://maple.finance"
+    }
+  },
+  {
+    "coin": "SYRUP-BASE",
+    "name": "syrup_base",
+    "fname": "Maple Finance",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0x688AEe022AA544f150678B8E5720b6b96a9E9a2F"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "SYS",
     "name": "syscoin",
     "fname": "Syscoin",
