@@ -12917,6 +12917,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "XCN-BASE",
+    "name": "xcn_base",
+    "fname": "Onyxcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0x9c632E6Aaa3eA73f91554f8A3cB2ED2F29605e0C"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "XCN-BEP20",
     "name": "xcn_bep20",
     "fname": "Onyxcoin",
