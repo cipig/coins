@@ -25930,7 +25930,7 @@
         "segwit": true,
         "txfee": 1000000,
         "mm2": 1,
-        "required_confirmations": 3,
+        "required_confirmations": 4,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO",
@@ -25943,6 +25943,18 @@
             "homepage": "https://ravencoin.org"
         },
         "electrum": [
+            {
+                "url": "rvn.electrum1.cipig.net:20051",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
             {
                 "url": "rvn.electrum2.cipig.net:20051",
                 "protocol": "SSL",
@@ -33983,6 +33995,11 @@
             "homepage": "https://vanillacash.org"
         },
         "electrum": [
+            {
+                "url": "electrumx2.vanillacash.info:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
             {
                 "url": "xvc-ex-seven.ewmci.online:50002",
                 "protocol": "SSL",
