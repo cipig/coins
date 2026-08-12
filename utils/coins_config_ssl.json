@@ -25863,6 +25863,59 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "RVN": {
+        "coin": "RVN",
+        "type": "UTXO",
+        "name": "RavenCoin",
+        "coinpaprika_id": "rvn-ravencoin",
+        "coingecko_id": "ravencoin",
+        "livecoinwatch_id": "RVN",
+        "explorer_url": "https://ravencoin.network/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Raven Signed Message:\n",
+        "fname": "RavenCoin",
+        "rpcport": 8766,
+        "pubtype": 60,
+        "p2shtype": 122,
+        "wiftype": 128,
+        "segwit": true,
+        "txfee": 1000000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "RVN"
+        },
+        "derivation_path": "m/44'/175'",
+        "trezor_coin": "Ravencoin",
+        "links": {
+            "github": "https://github.com/RavenProject/Ravencoin",
+            "homepage": "https://ravencoin.org"
+        },
+        "electrum": [
+            {
+                "url": "rvn.electrum2.cipig.net:20051",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "RVN"
+    },
     "RXD": {
         "coin": "RXD",
         "type": "UTXO",
