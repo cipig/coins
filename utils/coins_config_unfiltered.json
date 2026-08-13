@@ -12598,6 +12598,16 @@
                 "url": "electrum1.egulden.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.egulden.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -17905,6 +17915,30 @@
             },
             {
                 "url": "electrum1.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum2.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -30695,42 +30729,6 @@
             },
             {
                 "url": "rvn.electrum1.cipig.net:30051",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "rvn.electrum2.cipig.net:10051",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "rvn.electrum2.cipig.net:20051",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "rvn.electrum2.cipig.net:30051",
                 "protocol": "WSS",
                 "contact": [
                     {
