@@ -3770,6 +3770,14 @@
                 ]
             },
             {
+                "url": "bch.imaginary.cash:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "bch.imaginary.cash:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "bch.soul-dev.com:50002",
                 "protocol": "SSL"
             },
@@ -29760,6 +29768,18 @@
             {
                 "url": "x1.raptoreum.com:50004",
                 "protocol": "WSS"
+            },
+            {
+                "url": "x2.raptoreum.com:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "x2.raptoreum.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "x2.raptoreum.com:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -42442,6 +42462,9 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
+            },
+            {
+                "url": "https://rpc.osmosis.zone/"
             }
         ],
         "explorer_block_url": "block/",
