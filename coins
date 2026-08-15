@@ -15248,4 +15248,30 @@
       "homepage": "https://5trat.com"
     }
   }
+,
+  {
+    "coin": "BLOZ",
+    "name": "blockzero",
+    "fname": "Blockzero",
+    "rpcport": 8332,
+    "pubtype": 25,
+    "p2shtype": 85,
+    "wiftype": 153,
+    "txversion": 2,
+    "txfee": 10000,
+    "segwit": true,
+    "bech32_hrp": "bz",
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
+    "mm2": 1,
+    "required_confirmations": 2,
+    "mature_confirmations": 100,
+    "avg_blocktime": 600,
+    "protocol": {
+      "type": "UTXO",
+      "chain_variant": "BTC"
+    },
+    "links": {
+      "github": "https://github.com/Rexemre/blockzero-core"
+    }
+  }
 ]
