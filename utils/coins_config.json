@@ -5112,6 +5112,95 @@
         ],
         "explorer_block_url": "block/"
     },
+    "BLOZ": {
+        "coin": "BLOZ",
+        "type": "UTXO",
+        "name": "Blockzero",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.bloz.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
+        "fname": "Blockzero",
+        "rpcport": 8332,
+        "pubtype": 25,
+        "p2shtype": 85,
+        "wiftype": 153,
+        "txversion": 2,
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "bz",
+        "derivation_path": "m/44'/0'",
+        "mm2": 1,
+        "required_confirmations": 2,
+        "mature_confirmations": 100,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "BTC"
+        },
+        "links": {
+            "github": "https://github.com/Rexemre/blockzero-core"
+        },
+        "electrum": [
+            {
+                "url": "electrum-bloz.pinco-labs.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@pinco-labs.com"
+                    },
+                    {
+                        "discord": "pinco0966"
+                    }
+                ]
+            },
+            {
+                "url": "electrum-bloz.pinco-labs.com:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@pinco-labs.com"
+                    },
+                    {
+                        "discord": "pinco0966"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2-bloz.pinco-labs.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@pinco-labs.com"
+                    },
+                    {
+                        "discord": "pinco0966"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2-bloz.pinco-labs.com:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "contact@pinco-labs.com"
+                    },
+                    {
+                        "discord": "pinco0966"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "BNB": {
         "coin": "BNB",
         "type": "BEP-20",
@@ -43253,8 +43342,44 @@
             "github": "https://github.com/diabaths/Crionic-Coin",
             "homepage": "https://coin.crionic.org"
         },
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "explorer.crionic.org:50001",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "explorer.crionic.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
+            {
+                "url": "explorer.crionic.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "NITO": {
