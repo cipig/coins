@@ -3959,24 +3959,6 @@
         },
         "electrum": [
             {
-                "url": "bit-e.outsidethebox.top:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bit-e.outsidethebox.top:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bitn-electrumx.wattxchange.app:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -33740,11 +33722,6 @@
                 "url": "electrumx1.vanillacash.info:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "electrumx2.vanillacash.info:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -37026,6 +37003,10 @@
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
+                "url": "https://cosmos-rpc.publicnode.com",
+                "ws_url": "wss://cosmos-rpc.publicnode.com/websocket"
+            },
+            {
                 "url": "https://rpc.cosmos.directory/cosmoshub"
             }
         ],
@@ -37169,13 +37150,17 @@
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
+                "url": "https://osmosis-rpc.publicnode.com",
+                "ws_url": "wss://osmosis-rpc.publicnode.com/websocket"
+            },
+            {
                 "url": "https://osmosis.rpc.stakin-nodes.com"
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
             },
             {
-                "url": "https://rpc.osmosis.zone/"
+                "url": "https://rpc.osmosis.zone"
             }
         ],
         "explorer_block_url": "block/",
