@@ -26571,8 +26571,17 @@
         "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [],
-        "delisted": true,
+        "nodes": [
+            {
+                "url": "https://api.harmony.one"
+            },
+            {
+                "url": "https://api.s0.t.hmny.io"
+            },
+            {
+                "url": "https://one-mainnet-s0.gateway.tatum.io"
+            }
+        ],
         "explorer_block_url": "block/",
         "binance_id": "ONE"
     },
@@ -41410,6 +41419,33 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50011",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50013",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
