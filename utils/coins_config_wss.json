@@ -29299,11 +29299,6 @@
                 "url": "electrumx1.vanillacash.info:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "electrumx2.vanillacash.info:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -31972,6 +31967,10 @@
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
+                "url": "https://cosmos-rpc.publicnode.com",
+                "ws_url": "wss://cosmos-rpc.publicnode.com/websocket"
+            },
+            {
                 "url": "https://rpc.cosmos.directory/cosmoshub"
             }
         ],
@@ -32106,13 +32105,17 @@
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
+                "url": "https://osmosis-rpc.publicnode.com",
+                "ws_url": "wss://osmosis-rpc.publicnode.com/websocket"
+            },
+            {
                 "url": "https://osmosis.rpc.stakin-nodes.com"
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
             },
             {
-                "url": "https://rpc.osmosis.zone/"
+                "url": "https://rpc.osmosis.zone"
             }
         ],
         "explorer_block_url": "block/",
