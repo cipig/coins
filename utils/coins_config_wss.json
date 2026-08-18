@@ -3386,6 +3386,15 @@
         },
         "electrum": [
             {
+                "url": "bit-e.outsidethebox.top:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bitn-electrumx.wattxchange.app:50014",
                 "protocol": "WSS",
                 "contact": [
@@ -19908,15 +19917,6 @@
             "homepage": "https://flopcoin.net"
         },
         "electrum": [
-            {
-                "url": "flop-electrum.wattxchange.app:443",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "technovision"
-                    }
-                ]
-            },
             {
                 "url": "flop-electrum.wattxchange.app:443",
                 "protocol": "WSS",
