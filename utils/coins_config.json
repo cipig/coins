@@ -3788,14 +3788,6 @@
                 ]
             },
             {
-                "url": "bch.imaginary.cash:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "bch.imaginary.cash:50004",
-                "protocol": "WSS"
-            },
-            {
                 "url": "bch.soul-dev.com:50002",
                 "protocol": "SSL"
             },
@@ -4434,15 +4426,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "bit-e.outsidethebox.top:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
             {
                 "url": "bitn-electrumx.wattxchange.app:50011",
                 "contact": [
@@ -6188,6 +6171,24 @@
             },
             {
                 "url": "electrum2.btcz.rocks:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "517255090633965586"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.btcz.rocks:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "517255090633965586"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.btcz.rocks:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -24602,10 +24603,6 @@
         },
         "electrum": [
             {
-                "url": "133.167.67.203:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
             },
@@ -24662,10 +24659,6 @@
             "homepage": "https://monacoin.org"
         },
         "electrum": [
-            {
-                "url": "133.167.67.203:50001",
-                "protocol": "TCP"
-            },
             {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
@@ -30503,18 +30496,6 @@
             "homepage": "https://raptoreum.com"
         },
         "electrum": [
-            {
-                "url": "x1.raptoreum.com:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "x1.raptoreum.com:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "x1.raptoreum.com:50004",
-                "protocol": "WSS"
-            },
             {
                 "url": "x2.raptoreum.com:50001",
                 "protocol": "TCP"
