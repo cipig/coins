@@ -25,6 +25,7 @@ BINANCE_DELISTED_COINS = [
     "BIDR",
     "BTT",
     "BUSD",
+    "DENT",
     "ELF",
     "FIRO",
     "GFT",
@@ -32,10 +33,12 @@ BINANCE_DELISTED_COINS = [
     "IRIS",
     "KMD",
     "LOOM",
+    "LRC",
     "MATIC",
     "MC",
     "MDX",
     "MIR",
+    "MLN",
     "NAV",
     "OCEAN",
     "OMG",
@@ -45,8 +48,12 @@ BINANCE_DELISTED_COINS = [
     "REP",
     "SNT",
     "SRM",
+    "SXP",
+    "SYS",
+    "UTK",
     "VGX",
     "VIA",
+    "VITE",
     "WAVES",
     "YFII",
 ]
@@ -393,7 +400,7 @@ class CoinConfig:
             elif self.ticker.endswith("-BEP20"):
                 return "BNB"
             elif self.ticker.endswith("-PLG20"):
-                return "MATIC"
+                return "POL"
             elif self.ticker.endswith("-TRC20"):
                 return "TRXT" if self.is_testnet else "TRX"
             elif self.ticker.endswith("-AVX20"):
@@ -484,7 +491,7 @@ class CoinConfig:
                     if x not in self.electrum_scan_report[coin]:
                         continue
                     for k, v in self.electrum_scan_report[coin][x].items():
-                        is_server_online = (v["last_connection"] > 0 and current_time_local - v["last_connection"] < 604800)  # 1 week grace period
+                        is_server_online = (v["last_connection"] > 0 and current_time_local - v["last_connection"] < 172800)  # 2 days grace period
                         
                         if is_server_online:
                             for electrum in electrums:
