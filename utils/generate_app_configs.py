@@ -392,7 +392,7 @@ class CoinConfig:
         For token coins, this returns the parent chain coin.
         """
         # For token coins, we need to check parent chain status
-        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-ARB20", "-AVX20", "-GRC20", "-TRC20")):
+        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-KRC20", "-ARB20", "-AVX20", "-GRC20", "-TRC20")):
             if self.ticker.endswith("-QRC20"):
                 return "tQTUM" if self.is_testnet else "QTUM"
             elif self.ticker.endswith("-ERC20"):
@@ -401,6 +401,8 @@ class CoinConfig:
                 return "BNB"
             elif self.ticker.endswith("-PLG20"):
                 return "POL"
+            elif self.ticker.endswith("-KRC20"):
+                return "KCS"
             elif self.ticker.endswith("-TRC20"):
                 return "TRXT" if self.is_testnet else "TRX"
             elif self.ticker.endswith("-AVX20"):
