@@ -5317,6 +5317,15 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
+                "url": "electrum1.btcz.rocks:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "517255090633965586"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.btcz.rocks:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -35517,6 +35526,15 @@
             "homepage": "https://zetacoin.io"
         },
         "electrum": [
+            {
+                "url": "zet-ex-four.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
             {
                 "url": "zet-ex-three.ewmci.online:50012",
                 "protocol": "SSL",
