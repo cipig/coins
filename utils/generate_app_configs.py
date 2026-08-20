@@ -33,8 +33,8 @@ BINANCE_DELISTED_COINS = [
     "IRIS",
     "KMD",
     "LOOM",
-    "MATIC",
     "LRC",
+    "MATIC",
     "MC",
     "MDX",
     "MIR",
@@ -400,7 +400,7 @@ class CoinConfig:
             elif self.ticker.endswith("-BEP20"):
                 return "BNB"
             elif self.ticker.endswith("-PLG20"):
-                return "MATIC"
+                return "POL"
             elif self.ticker.endswith("-TRC20"):
                 return "TRXT" if self.is_testnet else "TRX"
             elif self.ticker.endswith("-AVX20"):
