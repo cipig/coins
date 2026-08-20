@@ -6403,6 +6403,24 @@
         "derivation_path": "m/44'/177'",
         "electrum": [
             {
+                "url": "electrum1.btcz.rocks:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "517255090633965586"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.btcz.rocks:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "517255090633965586"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.btcz.rocks:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -21242,35 +21260,8 @@
             "github": "https://github.com/litecoinII-project/litecoinII",
             "homepage": "https://litecoinii.org"
         },
-        "electrum": [
-            {
-                "url": "electrum01.lc2.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "1480198007939923999"
-                    }
-                ]
-            },
-            {
-                "url": "electrum01.lc2.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "1480198007939923999"
-                    }
-                ]
-            },
-            {
-                "url": "electrum01.lc2.online:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "1480198007939923999"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "LC2-segwit": {
@@ -21313,35 +21304,8 @@
             "github": "https://github.com/litecoinII-project/litecoinII",
             "homepage": "https://litecoinii.org"
         },
-        "electrum": [
-            {
-                "url": "electrum01.lc2.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "1480198007939923999"
-                    }
-                ]
-            },
-            {
-                "url": "electrum01.lc2.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "1480198007939923999"
-                    }
-                ]
-            },
-            {
-                "url": "electrum01.lc2.online:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "1480198007939923999"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "LCC": {
@@ -35151,14 +35115,6 @@
                 "protocol": "WSS"
             },
             {
-                "url": "uis-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "uis-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
-            },
-            {
                 "url": "uis-uno.ewmcx.net:50002",
                 "protocol": "SSL"
             },
@@ -41516,6 +41472,24 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zet-ex-four.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-four.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             },
             {
                 "url": "zet-ex-three.ewmci.online:50011",
