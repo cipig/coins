@@ -3427,10 +3427,6 @@
                 ]
             },
             {
-                "url": "bch.imaginary.cash:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "bch.soul-dev.com:50002",
                 "protocol": "SSL"
             },
@@ -5327,6 +5323,15 @@
             },
             {
                 "url": "electrum2.btcz.rocks:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "517255090633965586"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.btcz.rocks:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -21049,10 +21054,6 @@
         },
         "electrum": [
             {
-                "url": "133.167.67.203:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
             },
@@ -21105,10 +21106,6 @@
             "homepage": "https://monacoin.org"
         },
         "electrum": [
-            {
-                "url": "133.167.67.203:50001",
-                "protocol": "TCP"
-            },
             {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
@@ -26049,10 +26046,6 @@
             "homepage": "https://raptoreum.com"
         },
         "electrum": [
-            {
-                "url": "x1.raptoreum.com:50002",
-                "protocol": "SSL"
-            },
             {
                 "url": "x2.raptoreum.com:50002",
                 "protocol": "SSL"
