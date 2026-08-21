@@ -4435,6 +4435,26 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
+                "url": "bit-e.minethepla.net:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bit-e.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -30523,6 +30543,18 @@
         },
         "electrum": [
             {
+                "url": "x1.raptoreum.com:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "x1.raptoreum.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "x1.raptoreum.com:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "x2.raptoreum.com:50001",
                 "protocol": "TCP"
             },
@@ -38339,10 +38371,6 @@
             },
             {
                 "url": "https://public-gno-mainnet.fastnode.io"
-            },
-            {
-                "url": "https://rpc.gnosischain.com",
-                "ws_url": "wss://rpc.gnosischain.com/wss"
             }
         ],
         "explorer_block_url": "block/"

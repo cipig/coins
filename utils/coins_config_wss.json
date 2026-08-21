@@ -3386,6 +3386,16 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bit-e.outsidethebox.top:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -22911,6 +22921,10 @@
         },
         "electrum": [
             {
+                "url": "x1.raptoreum.com:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "x2.raptoreum.com:50004",
                 "protocol": "WSS"
             }
@@ -28943,10 +28957,6 @@
             {
                 "url": "https://gnosis-rpc.publicnode.com",
                 "ws_url": "wss://gnosis-rpc.publicnode.com"
-            },
-            {
-                "url": "https://rpc.gnosischain.com",
-                "ws_url": "wss://rpc.gnosischain.com/wss"
             }
         ],
         "explorer_block_url": "block/"
