@@ -21077,6 +21077,10 @@
         },
         "electrum": [
             {
+                "url": "133.167.67.203:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
             },
@@ -21129,6 +21133,10 @@
             "homepage": "https://monacoin.org"
         },
         "electrum": [
+            {
+                "url": "133.167.67.203:50001",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
@@ -33238,6 +33246,10 @@
             },
             {
                 "url": "https://public-gno-mainnet.fastnode.io"
+            },
+            {
+                "url": "https://rpc.gnosischain.com",
+                "ws_url": "wss://rpc.gnosischain.com/wss"
             }
         ],
         "explorer_block_url": "block/"
