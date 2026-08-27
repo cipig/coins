@@ -924,6 +924,13 @@
             }
           ]
         },
+        "bitcoinii.ddns.net:50009": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
+        },
         "bitcoinii.ddns.net:50010": {
           "contact": [
             {
@@ -977,10 +984,12 @@
       "bitcoinii.ddns.net:50008": {
         "1771824489": "online",
         "1773700082": "offline",
-        "1773964971": "online"
+        "1773964971": "online",
+        "1787812356": "offline"
       },
       "bitcoinii.ddns.net:50009": {
-        "1771824489": "online"
+        "1771824489": "online",
+        "1787812356": "offline"
       },
       "bitcoinii.ddns.net:50010": {
         "1771824489": "online",
@@ -1052,6 +1061,13 @@
             }
           ]
         },
+        "bitcoinii.ddns.net:50009": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
+        },
         "bitcoinii.ddns.net:50010": {
           "contact": [
             {
@@ -1105,10 +1121,12 @@
       "bitcoinii.ddns.net:50008": {
         "1771824489": "online",
         "1773700082": "offline",
-        "1773964971": "online"
+        "1773964971": "online",
+        "1787812356": "offline"
       },
       "bitcoinii.ddns.net:50009": {
-        "1771824489": "online"
+        "1771824489": "online",
+        "1787812356": "offline"
       },
       "bitcoinii.ddns.net:50010": {
         "1771824489": "online",
@@ -1477,7 +1495,8 @@
         "1783866516": "online",
         "1785981319": "offline",
         "1786015276": "online",
-        "1787385150": "offline"
+        "1787385150": "offline",
+        "1787812356": "online"
       },
       "bit-e.minethepla.net:50004": {
         "1768093005": "offline",
@@ -5356,11 +5375,29 @@
       "1785539720": "online"
     },
     "by_server": {
+      "_metadata": {
+        "electrum1.5trat.net:443": {
+          "contact": [
+            {
+              "email": "axebench.app@gmail.com"
+            }
+          ]
+        },
+        "electrum1.5trat.net:50002": {
+          "contact": [
+            {
+              "email": "axebench.app@gmail.com"
+            }
+          ]
+        }
+      },
       "electrum1.5trat.net:443": {
-        "1785539720": "online"
+        "1785539720": "online",
+        "1787812356": "offline"
       },
       "electrum1.5trat.net:50002": {
-        "1785539720": "online"
+        "1785539720": "online",
+        "1787812356": "offline"
       },
       "electrum2.5trat.net:443": {
         "1785539720": "online"
@@ -7676,13 +7713,13 @@
       "electrum1.kiirocoin.org:50002": {
         "1787446530": "online"
       },
-      "electrum1.kiirocoin.org:50004": {
-        "1756167205": "online"
-      },
+      "electrum1.kiirocoin.org:50004": {},
       "electrum2.kiirocoin.org:50002": {
         "1787446530": "online"
       },
-      "electrum2.kiirocoin.org:50004": {},
+      "electrum2.kiirocoin.org:50004": {
+        "1787812356": "online"
+      },
       "electrum3.kiirocoin.org:50002": {
         "1787446530": "online"
       },
@@ -9603,14 +9640,17 @@
   },
   "NAV": {
     "all": {
-      "1786994756": "offline"
+      "1786994756": "offline",
+      "1787812356": "online"
     },
     "by_server": {
       "electrum2.nav.community:40002": {
-        "1786994756": "offline"
+        "1786994756": "offline",
+        "1787812356": "online"
       },
       "electrum2.nav.community:40004": {
-        "1786994756": "offline"
+        "1786994756": "offline",
+        "1787812356": "online"
       },
       "electrum3.nav.community:40002": {
         "1782787373": "offline",
@@ -9619,7 +9659,8 @@
         "1784733566": "online",
         "1785981319": "offline",
         "1786015276": "online",
-        "1786994756": "offline"
+        "1786994756": "offline",
+        "1787812356": "online"
       },
       "electrum3.nav.community:40004": {
         "1782787373": "offline",
@@ -9628,7 +9669,8 @@
         "1784733566": "online",
         "1785981319": "offline",
         "1786015276": "online",
-        "1786994756": "offline"
+        "1786994756": "offline",
+        "1787812356": "online"
       },
       "electrum4.nav.community:40002": {
         "1787446530": "offline"
@@ -10245,7 +10287,6 @@
         }
       },
       "electrumx.nvc.ewmcx.org:50002": {
-        "1756167205": "online",
         "1766366022": "offline",
         "1766452233": "online",
         "1770168231": "offline",
@@ -10254,7 +10295,6 @@
         "1780368879": "online"
       },
       "electrumx.nvc.ewmcx.org:50003": {
-        "1756167205": "online",
         "1766366022": "offline",
         "1766452233": "online",
         "1770168231": "offline",
@@ -10628,7 +10668,8 @@
   },
   "PIVX": {
     "all": {
-      "1787446530": "online"
+      "1787446530": "online",
+      "1787812356": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -10677,24 +10718,30 @@
       },
       "electrum01.chainster.org:50001": {
         "1767483691": "offline",
-        "1769130853": "online"
+        "1769130853": "online",
+        "1787812356": "offline"
       },
       "electrum01.chainster.org:50002": {
         "1767483691": "offline",
-        "1769130853": "online"
+        "1769130853": "online",
+        "1787812356": "offline"
       },
       "electrum01.chainster.org:50003": {
         "1767483691": "offline",
-        "1769130853": "online"
+        "1769130853": "online",
+        "1787812356": "offline"
       },
       "electrum02.chainster.org:50001": {
-        "1763165598": "online"
+        "1763165598": "online",
+        "1787812356": "offline"
       },
       "electrum02.chainster.org:50002": {
-        "1763165598": "online"
+        "1763165598": "online",
+        "1787812356": "offline"
       },
       "electrum02.chainster.org:50003": {
-        "1763165598": "online"
+        "1763165598": "online",
+        "1787812356": "offline"
       }
     }
   },
@@ -13787,7 +13834,8 @@
     },
     "by_server": {
       "159.69.73.223:5036": {
-        "1787446530": "online"
+        "1787446530": "online",
+        "1787812356": "offline"
       },
       "electrum-verge.cloud:50001": {
         "1781923413": "offline",
