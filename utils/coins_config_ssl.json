@@ -3233,16 +3233,6 @@
         },
         "electrum": [
             {
-                "url": "bitcoinii.ddns.net:50009",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "1391871602127540236"
-                    }
-                ]
-            },
-            {
                 "url": "infra1.bitcoin-ii.org:50009",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -3295,16 +3285,6 @@
             "homepage": "https://bitcoin-ii.org"
         },
         "electrum": [
-            {
-                "url": "bitcoinii.ddns.net:50009",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "1391871602127540236"
-                    }
-                ]
-            },
             {
                 "url": "infra1.bitcoin-ii.org:50009",
                 "protocol": "SSL",
@@ -3968,8 +3948,9 @@
         },
         "electrum": [
             {
-                "url": "bit-e.outsidethebox.top:50002",
+                "url": "bit-e.minethepla.net:50002",
                 "protocol": "SSL",
+                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "def#4726"
@@ -21387,6 +21368,52 @@
         "explorer_block_url": "block/",
         "binance_id": "GLMR"
     },
+    "NAV": {
+        "coin": "NAV",
+        "type": "UTXO",
+        "name": "Navcoin",
+        "coinpaprika_id": "nav-navcoin",
+        "coingecko_id": "nav-coin",
+        "livecoinwatch_id": "NAV",
+        "explorer_url": "https://www.navexplorer.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Navcoin Signed Message:\n",
+        "fname": "Navcoin",
+        "isPoS": 1,
+        "txversion": 3,
+        "confpath": "USERHOME/.navcoin4/navcoin.conf",
+        "rpcport": 44444,
+        "pubtype": 53,
+        "p2shtype": 85,
+        "wiftype": 150,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 30,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "BTC"
+        },
+        "derivation_path": "m/44'/130'",
+        "electrum": [
+            {
+                "url": "electrum2.nav.community:40002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.nav.community:40002",
+                "protocol": "SSL"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "NAV-BEP20": {
         "coin": "NAV-BEP20",
         "type": "BEP-20",
@@ -23220,61 +23247,6 @@
         },
         "electrum": [],
         "explorer_block_url": "block.dws?"
-    },
-    "PIVX": {
-        "coin": "PIVX",
-        "type": "UTXO",
-        "name": "PIVX",
-        "coinpaprika_id": "pivx-pivx",
-        "coingecko_id": "pivx",
-        "livecoinwatch_id": "PIVX",
-        "explorer_url": "https://chainz.cryptoid.info/pivx/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "DarkNet Signed Message:\n",
-        "fname": "PIVX",
-        "is_privacy_coin": true,
-        "rpcport": 51473,
-        "pubtype": 30,
-        "p2shtype": 13,
-        "wiftype": 212,
-        "txfee": 100000,
-        "dust": 5460,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO",
-            "chain_variant": "PIVX"
-        },
-        "derivation_path": "m/44'/119'",
-        "electrum": [
-            {
-                "url": "electrum01.chainster.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
-            },
-            {
-                "url": "electrum02.chainster.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?",
-        "binance_id": "PIVX"
     },
     "PND": {
         "coin": "PND",
@@ -38475,15 +38447,6 @@
             "homepage": "https://5trat.com"
         },
         "electrum": [
-            {
-                "url": "electrum1.5trat.net:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "axebench.app@gmail.com"
-                    }
-                ]
-            },
             {
                 "url": "electrum2.5trat.net:50002",
                 "protocol": "SSL",
