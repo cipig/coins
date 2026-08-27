@@ -3490,25 +3490,6 @@
         },
         "electrum": [
             {
-                "url": "bitcoinii.ddns.net:50008",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "1391871602127540236"
-                    }
-                ]
-            },
-            {
-                "url": "bitcoinii.ddns.net:50009",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "1391871602127540236"
-                    }
-                ]
-            },
-            {
                 "url": "infra1.bitcoin-ii.org:50008",
                 "protocol": "TCP",
                 "contact": [
@@ -3580,25 +3561,6 @@
             "homepage": "https://bitcoin-ii.org"
         },
         "electrum": [
-            {
-                "url": "bitcoinii.ddns.net:50008",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "1391871602127540236"
-                    }
-                ]
-            },
-            {
-                "url": "bitcoinii.ddns.net:50009",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "1391871602127540236"
-                    }
-                ]
-            },
             {
                 "url": "infra1.bitcoin-ii.org:50008",
                 "protocol": "TCP",
@@ -4435,8 +4397,18 @@
         },
         "electrum": [
             {
-                "url": "bit-e.outsidethebox.top:50002",
+                "url": "bit-e.minethepla.net:50002",
                 "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
+                "url": "bit-e.outsidethebox.top:50004",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "def#4726"
@@ -25032,8 +25004,26 @@
             "chain_variant": "BTC"
         },
         "derivation_path": "m/44'/130'",
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "electrum2.nav.community:40002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum2.nav.community:40004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum3.nav.community:40002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum3.nav.community:40004",
+                "protocol": "WSS"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "NAV-BEP20": {
@@ -27175,62 +27165,8 @@
             "chain_variant": "PIVX"
         },
         "derivation_path": "m/44'/119'",
-        "electrum": [
-            {
-                "url": "electrum01.chainster.org:50001",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum01.chainster.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
-            },
-            {
-                "url": "electrum01.chainster.org:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
-            },
-            {
-                "url": "electrum02.chainster.org:50001",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum02.chainster.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
-            },
-            {
-                "url": "electrum02.chainster.org:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block.dws?",
         "binance_id": "PIVX"
     },
@@ -39756,10 +39692,6 @@
         "derivation_path": "m/44'/77'",
         "electrum": [
             {
-                "url": "159.69.73.223:5036",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum-verge.cloud:50001",
                 "protocol": "TCP"
             },
@@ -44776,24 +44708,6 @@
             "homepage": "https://5trat.com"
         },
         "electrum": [
-            {
-                "url": "electrum1.5trat.net:443",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "axebench.app@gmail.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.5trat.net:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "axebench.app@gmail.com"
-                    }
-                ]
-            },
             {
                 "url": "electrum2.5trat.net:443",
                 "protocol": "WSS",
