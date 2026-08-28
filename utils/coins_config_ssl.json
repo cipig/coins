@@ -3233,6 +3233,16 @@
         },
         "electrum": [
             {
+                "url": "bitcoinii.ddns.net:50009",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "1391871602127540236"
+                    }
+                ]
+            },
+            {
                 "url": "infra1.bitcoin-ii.org:50009",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -3285,6 +3295,16 @@
             "homepage": "https://bitcoin-ii.org"
         },
         "electrum": [
+            {
+                "url": "bitcoinii.ddns.net:50009",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "1391871602127540236"
+                    }
+                ]
+            },
             {
                 "url": "infra1.bitcoin-ii.org:50009",
                 "protocol": "SSL",
@@ -3951,6 +3971,15 @@
                 "url": "bit-e.minethepla.net:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
+                "url": "bit-e.outsidethebox.top:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "def#4726"
@@ -23247,6 +23276,61 @@
         },
         "electrum": [],
         "explorer_block_url": "block.dws?"
+    },
+    "PIVX": {
+        "coin": "PIVX",
+        "type": "UTXO",
+        "name": "PIVX",
+        "coinpaprika_id": "pivx-pivx",
+        "coingecko_id": "pivx",
+        "livecoinwatch_id": "PIVX",
+        "explorer_url": "https://chainz.cryptoid.info/pivx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkNet Signed Message:\n",
+        "fname": "PIVX",
+        "is_privacy_coin": true,
+        "rpcport": 51473,
+        "pubtype": 30,
+        "p2shtype": 13,
+        "wiftype": 212,
+        "txfee": 100000,
+        "dust": 5460,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "PIVX"
+        },
+        "derivation_path": "m/44'/119'",
+        "electrum": [
+            {
+                "url": "electrum01.chainster.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "312541186793406465"
+                    }
+                ]
+            },
+            {
+                "url": "electrum02.chainster.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "312541186793406465"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?",
+        "binance_id": "PIVX"
     },
     "PND": {
         "coin": "PND",
