@@ -5224,6 +5224,16 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:30069",
                 "protocol": "WSS",
                 "contact": [
@@ -5291,6 +5301,16 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:30069",
                 "protocol": "WSS",
@@ -19819,6 +19839,15 @@
         },
         "electrum": [
             {
+                "url": "electrum.pepe.tips:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "squidicuz"
+                    }
+                ]
+            },
+            {
                 "url": "electrum.pepeblocks.com:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -32197,6 +32226,18 @@
         "electrum": [
             {
                 "url": "electrum2.runebase.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.runebase.io:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
