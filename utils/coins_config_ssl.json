@@ -33930,6 +33930,11 @@
         },
         "electrum": [
             {
+                "url": "electrumx2.vanillacash.info:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "xvc-ex-seven.ewmci.online:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
