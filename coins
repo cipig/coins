@@ -12470,6 +12470,66 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "USDS-ERC20",
+    "name": "usds_erc20",
+    "fname": "USDS",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xdC035D45d973E3EC169d2276DDab16f1e407384F"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://sky.money"
+    }
+  },
+  {
+    "coin": "USDS-BASE",
+    "name": "usds_base",
+    "fname": "USDS",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "USDS-ARB20",
+    "name": "usds_arb20",
+    "fname": "USDS",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x6491c05A82219b8D1479057361ff1654749b876b"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "USDT-KRC20",
     "name": "usdt_krc20",
     "fname": "Tether",
