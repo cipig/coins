@@ -10958,6 +10958,66 @@
     }
   },
   {
+    "coin": "SUSDS-ERC20",
+    "name": "susds_erc20",
+    "fname": "Savings USDS",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://sky.money"
+    }
+  },
+  {
+    "coin": "SUSDS-BASE",
+    "name": "susds_base",
+    "fname": "Savings USDS",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0x5875eEE11Cf8398102FdAd704C9E96607675467a"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "SUSDS-ARB20",
+    "name": "susds_arb20",
+    "fname": "Savings USDS",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0xdDb46999F8891663a8F2828d25298f70416d7610"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "SUSHI-AVX20",
     "name": "sushi_avx20",
     "fname": "Sushi",
