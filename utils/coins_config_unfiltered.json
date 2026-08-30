@@ -26268,8 +26268,26 @@
             "github": "https://github.com/NewYorkCoinNYC/newyorkcoin",
             "homepage": "https://newyorkcoin.online"
         },
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "electrum.newyorkcoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "admin@newyorkcoin.online"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.newyorkcoin.online:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "admin@newyorkcoin.online"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "NYC-BEP20": {
@@ -39999,6 +40017,18 @@
             "homepage": "https://vanillacash.org"
         },
         "electrum": [
+            {
+                "url": "electrumx1.vanillacash.info:50011",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx1.vanillacash.info:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx1.vanillacash.info:50013",
+                "protocol": "WSS"
+            },
             {
                 "url": "electrumx2.vanillacash.info:50011",
                 "protocol": "TCP"
