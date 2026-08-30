@@ -11235,6 +11235,29 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "TAO",
+    "name": "bittensor",
+    "fname": "Bittensor",
+    "rpcport": 80,
+    "mm2": 1,
+    "wallet_only": true,
+    "chain_id": 964,
+    "required_confirmations": 3,
+    "avg_blocktime": 12,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 964
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://www.bittensor.com"
+    }
+  },
+  {
     "coin": "TAZ-BEP20",
     "name": "taz_bep20",
     "fname": "Taz",
