@@ -28533,7 +28533,8 @@
                 "url": "https://rpc.blockmachine.io"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "TAO"
     },
     "TAZ-BEP20": {
         "coin": "TAZ-BEP20",
@@ -38203,6 +38204,18 @@
                 "contact": [
                     {
                         "email": "brian@mazacoin.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.mazacha.in:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
                     }
                 ]
             }
