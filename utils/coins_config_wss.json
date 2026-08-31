@@ -3396,15 +3396,6 @@
                 ]
             },
             {
-                "url": "bit-e.outsidethebox.top:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bitn-electrumx.wattxchange.app:50014",
                 "protocol": "WSS",
                 "contact": [
@@ -26640,11 +26631,6 @@
                 "url": "uno-bkp.coinmunity.gold:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "uno-main.coinmunity.gold:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -33009,6 +32995,9 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
+            },
+            {
+                "url": "https://rpc.osmosis.zone"
             }
         ],
         "explorer_block_url": "block/",
@@ -33857,7 +33846,7 @@
         "name": "PCoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "__PCN",
         "explorer_url": "https://explorer.pc.am/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -33923,7 +33912,7 @@
         "name": "PCoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "__PCN",
         "explorer_url": "https://explorer.pc.am/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
