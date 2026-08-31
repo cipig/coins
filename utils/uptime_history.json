@@ -745,6 +745,13 @@
             }
           ]
         },
+        "bit-e.minethepla.net:50004": {
+          "contact": [
+            {
+              "discord": "def#4726"
+            }
+          ]
+        },
         "bit-e.outsidethebox.top:50004": {
           "contact": [
             {
@@ -756,10 +763,12 @@
       "bit-e.minethepla.net:50002": {
         "1788126562": "online",
         "1788176537": "offline",
-        "1788178448": "online"
+        "1788178448": "online",
+        "1788205161": "offline"
       },
       "bit-e.minethepla.net:50004": {
-        "1788126562": "online"
+        "1788126562": "online",
+        "1788205161": "offline"
       },
       "bit-e.outsidethebox.top:50002": {
         "1788126562": "online"
@@ -2879,6 +2888,9 @@
   "ETH": {
     "all": {},
     "by_server": {
+      "https://eth.api.pocket.network": {
+        "1788205161": "online"
+      },
       "https://ethereum-rpc.publicnode.com": {
         "1788126562": "online"
       },
@@ -2890,7 +2902,11 @@
       },
       "https://rpc.mevblocker.io": {
         "1788126562": "online",
-        "1788199742": "offline"
+        "1788199742": "offline",
+        "1788205161": "online"
+      },
+      "wss://eth.api.pocket.network": {
+        "1788205161": "online"
       },
       "wss://ethereum-rpc.publicnode.com": {
         "1788126562": "online"
@@ -4196,6 +4212,13 @@
               "discord": "635448663543644170"
             }
           ]
+        },
+        "lcc-ex-one.ewmci.online:50002": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
         }
       },
       "electrum-lcc.cascoin.net:50002": {
@@ -4217,7 +4240,8 @@
         "1788126562": "online"
       },
       "lcc-ex-one.ewmci.online:50002": {
-        "1788126562": "online"
+        "1788126562": "online",
+        "1788205161": "offline"
       },
       "lcc-ex-one.ewmci.online:50003": {
         "1788126562": "online"
@@ -4243,6 +4267,13 @@
               "discord": "635448663543644170"
             }
           ]
+        },
+        "lcc-ex-one.ewmci.online:50002": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
         }
       },
       "electrum-lcc.cascoin.net:50002": {
@@ -4264,7 +4295,8 @@
         "1788126562": "online"
       },
       "lcc-ex-one.ewmci.online:50002": {
-        "1788126562": "online"
+        "1788126562": "online",
+        "1788205161": "offline"
       },
       "lcc-ex-one.ewmci.online:50003": {
         "1788126562": "online"
@@ -5255,44 +5287,6 @@
   },
   "PCN": {
     "all": {
-      "1788126562": "online"
-    },
-    "by_server": {
-      "electrum1.pc.am:50002": {
-        "1788126562": "online"
-      },
-      "electrum1.pc.am:50004": {
-        "1788126562": "online"
-      },
-      "electrum2.pc.am:50002": {
-        "1788126562": "online"
-      },
-      "electrum2.pc.am:50004": {
-        "1788126562": "online"
-      }
-    }
-  },
-  "PCN-segwit": {
-    "all": {
-      "1788126562": "online"
-    },
-    "by_server": {
-      "electrum1.pc.am:50002": {
-        "1788126562": "online"
-      },
-      "electrum1.pc.am:50004": {
-        "1788126562": "online"
-      },
-      "electrum2.pc.am:50002": {
-        "1788126562": "online"
-      },
-      "electrum2.pc.am:50004": {
-        "1788126562": "online"
-      }
-    }
-  },
-  "PCN": {
-    "all": {
       "1788178541": "online"
     },
     "by_server": {
@@ -6032,7 +6026,8 @@
       },
       "https://rpc.smartbch.org": {
         "1788126562": "online",
-        "1788199742": "offline"
+        "1788199742": "offline",
+        "1788205161": "online"
       },
       "https://smartbch.greyh.at": {
         "1788126562": "online"
