@@ -11147,9 +11147,6 @@
             },
             {
                 "url": "https://rpc.fullsend.to"
-            },
-            {
-                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/",
@@ -27966,14 +27963,6 @@
         "fallback_swap_contract": "0x25bF2AAB8749AD2e4360b3e0B738f3Cd700C4D68",
         "nodes": [
             {
-                "url": "https://rpc.smartbch.org",
-                "contact": [
-                    {
-                        "email": "contact@smartbch.org"
-                    }
-                ]
-            },
-            {
                 "url": "https://smartbch.greyh.at",
                 "contact": [
                     {
@@ -28492,7 +28481,7 @@
     },
     "TAO": {
         "coin": "TAO",
-        "type": "ETH",
+        "type": "Bittensor",
         "name": "Bittensor",
         "coinpaprika_id": "tao-bittensor",
         "coingecko_id": "bittensor",
@@ -31051,6 +31040,50 @@
             {
                 "url": "https://polygon.gateway.tenderly.co",
                 "ws_url": "wss://polygon.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "USDC-TAO": {
+        "coin": "USDC-TAO",
+        "type": "Bittensor",
+        "name": "USD Coin",
+        "coinpaprika_id": "usdc-usd-coin",
+        "coingecko_id": "usd-coin",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://evm.tao.app/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "USD Coin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 964,
+        "decimals": 6,
+        "avg_blocktime": 12,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "TAO",
+                "contract_address": "0xB833E8137FEDf80de7E908dc6fea43a029142F20"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xB833E8137FEDf80de7E908dc6fea43a029142F20",
+        "parent_coin": "TAO",
+        "swap_contract_address": "0x0000000000000000000000000000000000000000",
+        "fallback_swap_contract": "0x0000000000000000000000000000000000000000",
+        "nodes": [
+            {
+                "url": "https://lite.chain.opentensor.ai"
+            },
+            {
+                "url": "https://rpc.blockmachine.io"
             }
         ],
         "explorer_block_url": "block/"
