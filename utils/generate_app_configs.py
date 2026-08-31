@@ -167,6 +167,7 @@ class CoinConfig:
             "QTUM": "QRC-20",
             "RBTC": "RSK Smart Bitcoin",
             "SBCH": "SmartBCH",
+            "TAO": "Bittensor",
             "TRX": "TRX",
             "XDAI": "Gnosis",
             "ATOM": "TENDERMINT",
@@ -391,7 +392,7 @@ class CoinConfig:
         For token coins, this returns the parent chain coin.
         """
         # For token coins, we need to check parent chain status
-        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-KRC20", "-ARB20", "-AVX20", "-GRC20", "-TRC20")):
+        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-KRC20", "-ARB20", "-AVX20", "-GRC20", "-TAO", "-TRC20")):
             if self.ticker.endswith("-QRC20"):
                 return "tQTUM" if self.is_testnet else "QTUM"
             elif self.ticker.endswith("-ERC20"):
@@ -414,6 +415,8 @@ class CoinConfig:
                 return "ETH-BASE"
             elif self.ticker.endswith("-GNO"):
                 return "XDAI"
+            elif self.ticker.endswith("-TAO"):
+                return "TAO"
         
         # For electrum coins, use the actual coin name (with segwit handling)
         coin = self.ticker.replace("-segwit", "")

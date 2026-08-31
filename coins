@@ -12474,6 +12474,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "USDC-TAO",
+    "name": "usdc_tao",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 964,
+    "decimals": 6,
+    "avg_blocktime": 12,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "TAO",
+        "contract_address": "0xB833E8137FEDf80de7E908dc6fea43a029142F20"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "USDD-BEP20",
     "name": "usdd_bep20",
     "fname": "USDD",
