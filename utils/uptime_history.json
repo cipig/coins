@@ -288,7 +288,8 @@
         "1788126562": "online",
         "1788126966": "offline",
         "1788164529": "online",
-        "1788178448": "offline"
+        "1788178448": "offline",
+        "1788199742": "online"
       }
     }
   },
@@ -2888,7 +2889,8 @@
         "1788126562": "online"
       },
       "https://rpc.mevblocker.io": {
-        "1788126562": "online"
+        "1788126562": "online",
+        "1788199742": "offline"
       },
       "wss://ethereum-rpc.publicnode.com": {
         "1788126562": "online"
@@ -5981,8 +5983,18 @@
   "SBCH": {
     "all": {},
     "by_server": {
+      "_metadata": {
+        "https://rpc.smartbch.org": {
+          "contact": [
+            {
+              "email": "contact@smartbch.org"
+            }
+          ]
+        }
+      },
       "https://rpc.smartbch.org": {
-        "1788126562": "online"
+        "1788126562": "online",
+        "1788199742": "offline"
       },
       "https://smartbch.greyh.at": {
         "1788126562": "online"
@@ -6525,6 +6537,17 @@
       },
       "https://rpc-mainnet.kcc.network": {
         "1788126562": "online"
+      }
+    }
+  },
+  "USDC-TAO": {
+    "all": {},
+    "by_server": {
+      "https://lite.chain.opentensor.ai": {
+        "1788199742": "online"
+      },
+      "https://rpc.blockmachine.io": {
+        "1788199742": "online"
       }
     }
   },
