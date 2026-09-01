@@ -18043,8 +18043,9 @@
                 ]
             },
             {
-                "url": "lcc-ex-one.ewmci.online:50001",
-                "protocol": "TCP",
+                "url": "lcc-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -18103,8 +18104,9 @@
                 ]
             },
             {
-                "url": "lcc-ex-one.ewmci.online:50001",
-                "protocol": "TCP",
+                "url": "lcc-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -28628,8 +28630,8 @@
         "links": {
             "homepage": "https://www.bittensor.com"
         },
-        "swap_contract_address": "0x0000000000000000000000000000000000000000",
-        "fallback_swap_contract": "0x0000000000000000000000000000000000000000",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
                 "url": "https://lite.chain.opentensor.ai"
@@ -31183,7 +31185,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "USD Coin",
         "rpcport": 80,
         "mm2": 1,
@@ -31201,8 +31203,8 @@
         "derivation_path": "m/44'/60'",
         "contract_address": "0xB833E8137FEDf80de7E908dc6fea43a029142F20",
         "parent_coin": "TAO",
-        "swap_contract_address": "0x0000000000000000000000000000000000000000",
-        "fallback_swap_contract": "0x0000000000000000000000000000000000000000",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
                 "url": "https://lite.chain.opentensor.ai"
