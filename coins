@@ -11383,6 +11383,29 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "TAO",
+    "name": "bittensor",
+    "fname": "Bittensor",
+    "rpcport": 80,
+    "mm2": 1,
+    "wallet_only": true,
+    "chain_id": 964,
+    "required_confirmations": 3,
+    "avg_blocktime": 12,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 964
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://www.bittensor.com"
+    }
+  },
+  {
     "coin": "TAZ-BEP20",
     "name": "taz_bep20",
     "fname": "Taz",
@@ -12446,6 +12469,26 @@
       "protocol_data": {
         "platform": "MATIC",
         "contract_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "USDC-TAO",
+    "name": "usdc_tao",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "wallet_only": true,
+    "chain_id": 964,
+    "decimals": 6,
+    "avg_blocktime": 12,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "TAO",
+        "contract_address": "0xB833E8137FEDf80de7E908dc6fea43a029142F20"
       }
     },
     "derivation_path": "m/44'/60'"
