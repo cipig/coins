@@ -6818,6 +6818,48 @@
     }
   },
   {
+    "coin": "KITE-ERC20",
+    "name": "kite_erc20",
+    "fname": "Kite",
+    "rpcport": 80,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x118B70dF4F06Fa5678E7d543e6066e028C8ea0c0"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://gokite.ai"
+    }
+  },
+  {
+    "coin": "KITE-BEP20",
+    "name": "kite_bep20",
+    "fname": "Kite",
+    "rpcport": 80,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.45,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x904567252D8F48555b7447c67dCA23F0372E16be"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://gokite.ai"
+    }
+  },
+  {
     "coin": "KMD",
     "name": "komodo",
     "fname": "Komodo",
