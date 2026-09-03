@@ -5074,50 +5074,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "BSTY": {
-        "coin": "BSTY",
-        "type": "UTXO",
-        "name": "GlobalBoost-Y",
-        "coinpaprika_id": "bsty-globalboost-y",
-        "coingecko_id": "globalboost",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://insight.globalboost.info/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "GlobalBoost Signed Message:\n",
-        "fname": "GlobalBoost-Y",
-        "rpcport": 8225,
-        "pubtype": 77,
-        "p2shtype": 139,
-        "wiftype": 208,
-        "txfee": 200000,
-        "segwit": true,
-        "bech32_hrp": "gb",
-        "mm2": 1,
-        "required_confirmations": 1,
-        "avg_blocktime": 600,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/664'",
-        "links": {
-            "github": "https://github.com/GlobalBoost/GlobalBoost-Y",
-            "homepage": "https://globalboo.st"
-        },
-        "electrum": [
-            {
-                "url": "bsty-main.coinmunity.gold:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "BTC": {
         "coin": "BTC",
         "type": "UTXO",
@@ -16083,6 +16039,55 @@
         ],
         "explorer_block_url": "block/"
     },
+    "HYPE": {
+        "coin": "HYPE",
+        "type": "HyperEVM",
+        "name": "Hyperliquid",
+        "coinpaprika_id": "hype-hyperliquid",
+        "coingecko_id": "hyperliquid",
+        "livecoinwatch_id": "______HYPE",
+        "explorer_url": "https://hyperevmscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "Hyperliquid",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 999,
+        "required_confirmations": 5,
+        "avg_blocktime": 1,
+        "protocol": {
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 999
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "max_eth_tx_type": 2,
+        "swap_gas_fee_policy": "Medium",
+        "links": {
+            "homepage": "https://hyperfoundation.org"
+        },
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://hyperliquid.drpc.org",
+                "ws_url": "wss://hyperliquid.drpc.org"
+            },
+            {
+                "url": "https://rpc.hyperlend.finance"
+            },
+            {
+                "url": "https://rpc.hypurrscan.io"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "IDRT-ERC20": {
         "coin": "IDRT-ERC20",
         "type": "ERC-20",
@@ -23049,15 +23054,6 @@
                         "discord": "squidicuz"
                     }
                 ]
-            },
-            {
-                "url": "electrum.pepeblocks.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "realmasterkush"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -26231,10 +26227,6 @@
         "electrum": [
             {
                 "url": "x1.raptoreum.com:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "x2.raptoreum.com:50002",
                 "protocol": "SSL"
             }
         ],
@@ -31103,6 +31095,54 @@
             {
                 "url": "https://rpc.gnosischain.com",
                 "ws_url": "wss://rpc.gnosischain.com/wss"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "USDC-HYPE": {
+        "coin": "USDC-HYPE",
+        "type": "HyperEVM",
+        "name": "USD Coin",
+        "coinpaprika_id": "usdc-usd-coin",
+        "coingecko_id": "usd-coin",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://hyperevmscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "USD Coin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 999,
+        "decimals": 6,
+        "avg_blocktime": 1,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "HYPE",
+                "contract_address": "0xb88339CB7199b77E23DB6E890353E22632Ba630f"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+        "parent_coin": "HYPE",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://hyperliquid.drpc.org",
+                "ws_url": "wss://hyperliquid.drpc.org"
+            },
+            {
+                "url": "https://rpc.hyperlend.finance"
+            },
+            {
+                "url": "https://rpc.hypurrscan.io"
             }
         ],
         "explorer_block_url": "block/"
