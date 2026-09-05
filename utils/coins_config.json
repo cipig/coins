@@ -26974,6 +26974,33 @@
                         "discord": "squidicuz"
                     }
                 ]
+            },
+            {
+                "url": "electrum.pepeblocks.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "realmasterkush"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.pepeblocks.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "realmasterkush"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.pepeblocks.com:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "realmasterkush"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -30766,6 +30793,18 @@
             },
             {
                 "url": "x1.raptoreum.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "x2.raptoreum.com:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "x2.raptoreum.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "x2.raptoreum.com:50004",
                 "protocol": "WSS"
             }
         ],
@@ -35526,12 +35565,32 @@
         },
         "electrum": [
             {
+                "url": "uno-bkp.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-bkp.coinmunity.gold:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "uno-ex-one.ewmci.online:50001",
                 "protocol": "TCP"
             },
             {
                 "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50003",
+                "protocol": "WSS",
                 "disable_cert_verification": true
             }
         ],
@@ -39028,9 +39087,6 @@
             {
                 "url": "https://gnosis-rpc.publicnode.com",
                 "ws_url": "wss://gnosis-rpc.publicnode.com"
-            },
-            {
-                "url": "https://public-gno-mainnet.fastnode.io"
             },
             {
                 "url": "https://rpc.gnosischain.com",

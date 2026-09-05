@@ -23054,6 +23054,15 @@
                         "discord": "squidicuz"
                     }
                 ]
+            },
+            {
+                "url": "electrum.pepeblocks.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "realmasterkush"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -26227,6 +26236,10 @@
         "electrum": [
             {
                 "url": "x1.raptoreum.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "x2.raptoreum.com:50002",
                 "protocol": "SSL"
             }
         ],
@@ -30727,7 +30740,17 @@
         },
         "electrum": [
             {
+                "url": "uno-bkp.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "uno-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -33847,9 +33870,6 @@
             {
                 "url": "https://gnosis-rpc.publicnode.com",
                 "ws_url": "wss://gnosis-rpc.publicnode.com"
-            },
-            {
-                "url": "https://public-gno-mainnet.fastnode.io"
             },
             {
                 "url": "https://rpc.gnosischain.com",
