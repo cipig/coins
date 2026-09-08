@@ -8342,6 +8342,28 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "MNT",
+    "name": "mantle",
+    "fname": "Mantle",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 5000,
+    "required_confirmations": 5,
+    "avg_blocktime": 2,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 5000
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://group.mantle.xyz"
+    }
+  },
+  {
     "coin": "MONA",
     "name": "monacoin",
     "fname": "MonaCoin",
@@ -12281,6 +12303,25 @@
       "protocol_data": {
         "platform": "HYPE",
         "contract_address": "0xb88339CB7199b77E23DB6E890353E22632Ba630f"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "USDC-MNT",
+    "name": "usdc_mnt",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 5000,
+    "decimals": 6,
+    "avg_blocktime": 2,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MNT",
+        "contract_address": "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9"
       }
     },
     "derivation_path": "m/44'/60'"
