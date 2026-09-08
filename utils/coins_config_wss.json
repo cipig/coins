@@ -5796,7 +5796,17 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
+                "url": "holland.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "lenoir.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "miami.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -5851,7 +5861,17 @@
         "derivation_path": "m/84'/34'",
         "electrum": [
             {
+                "url": "holland.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "lenoir.ecoincore.com:34335",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "miami.ecoincore.com:34335",
                 "protocol": "WSS",
                 "disable_cert_verification": true
             },
@@ -27174,11 +27194,6 @@
                 "url": "uno-bkp.coinmunity.gold:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "uno-main.coinmunity.gold:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -30708,10 +30723,6 @@
             "homepage": "https://vanillacash.org"
         },
         "electrum": [
-            {
-                "url": "electrumx1.vanillacash.info:50013",
-                "protocol": "WSS"
-            },
             {
                 "url": "electrumx2.vanillacash.info:50013",
                 "protocol": "WSS"
