@@ -16114,6 +16114,9 @@
                 "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
+                "url": "https://rpc.hyperlend.finance"
+            },
+            {
                 "url": "https://rpc.hypurrscan.io"
             }
         ],
@@ -20137,7 +20140,8 @@
                 "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "POL"
     },
     "POL-ERC20": {
         "coin": "POL-ERC20",
@@ -20194,7 +20198,8 @@
                 "url": "https://rpc.mevblocker.io"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "POL"
     },
     "MATIC-BEP20": {
         "coin": "MATIC-BEP20",
@@ -20255,8 +20260,7 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/",
-        "binance_id": "MATIC"
+        "explorer_block_url": "block/"
     },
     "MATIC-ERC20": {
         "coin": "MATIC-ERC20",
@@ -20313,8 +20317,7 @@
                 "url": "https://rpc.mevblocker.io"
             }
         ],
-        "explorer_block_url": "block/",
-        "binance_id": "MATIC"
+        "explorer_block_url": "block/"
     },
     "MCL": {
         "coin": "MCL",
@@ -34573,7 +34576,8 @@
                 "url": "https://rpc.plasma.to"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "XPL"
     },
     "XPM": {
         "coin": "XPM",
