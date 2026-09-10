@@ -8467,6 +8467,29 @@
     }
   },
   {
+    "coin": "MON",
+    "name": "monad",
+    "fname": "Monad",
+    "rpcport": 80,
+    "mm2": 1,
+    "wallet_only": true,
+    "chain_id": 143,
+    "required_confirmations": 5,
+    "avg_blocktime": 0.3,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 143
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://monad.xyz"
+    }
+  },
+  {
     "coin": "MONA",
     "name": "monacoin",
     "fname": "MonaCoin",
@@ -12555,6 +12578,26 @@
       "protocol_data": {
         "platform": "MNT",
         "contract_address": "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "USDC-MON",
+    "name": "usdc_mon",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "wallet_only": true,
+    "chain_id": 143,
+    "decimals": 6,
+    "avg_blocktime": 0.3,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MON",
+        "contract_address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603"
       }
     },
     "derivation_path": "m/44'/60'"
