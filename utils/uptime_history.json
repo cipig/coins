@@ -2389,7 +2389,8 @@
         "1782268723": "offline",
         "1782787373": "online",
         "1784339488": "offline",
-        "1784635178": "online"
+        "1784635178": "online",
+        "1789040395": "offline"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1774987573": "offline",
@@ -2407,7 +2408,8 @@
         "1782268723": "offline",
         "1782787373": "online",
         "1784339488": "offline",
-        "1784635178": "online"
+        "1784635178": "online",
+        "1789040395": "offline"
       },
       "btx.electrum1.cipig.net:20069": {
         "1764854330": "online"
@@ -2486,7 +2488,8 @@
         "1782268723": "offline",
         "1782787373": "online",
         "1784339488": "offline",
-        "1784635178": "online"
+        "1784635178": "online",
+        "1789040395": "offline"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1774987573": "offline",
@@ -2504,7 +2507,8 @@
         "1782268723": "offline",
         "1782787373": "online",
         "1784339488": "offline",
-        "1784635178": "online"
+        "1784635178": "online",
+        "1789040395": "offline"
       },
       "btx.electrum1.cipig.net:20069": {
         "1764854330": "online"
@@ -3690,7 +3694,6 @@
         "1785539720": "online"
       },
       "failover.dgc.ewmcx.biz:50002": {
-        "1757463228": "online",
         "1766366022": "offline",
         "1766452233": "online",
         "1770168231": "offline",
@@ -3705,7 +3708,6 @@
         "1780972393": "online"
       },
       "failover.dgc.ewmcx.biz:50003": {
-        "1757463228": "online",
         "1766366022": "offline",
         "1766452233": "online",
         "1770168231": "offline",
@@ -6859,12 +6861,8 @@
           ]
         }
       },
-      "electrum1.groestlcoin.org:50001": {
-        "1757463228": "online"
-      },
-      "electrum1.groestlcoin.org:50004": {
-        "1757463228": "online"
-      },
+      "electrum1.groestlcoin.org:50001": {},
+      "electrum1.groestlcoin.org:50004": {},
       "electrum2.groestlcoin.org:50001": {
         "1786545229": "offline",
         "1786583994": "online"
@@ -6953,7 +6951,8 @@
       "https://rpc.hyperlend.finance": {
         "1788866319": "offline",
         "1788872666": "online",
-        "1788949752": "offline"
+        "1788949752": "offline",
+        "1789040395": "online"
       },
       "https://rpc.hypurrscan.io": {
         "1788866319": "online"
@@ -9416,7 +9415,8 @@
         "1788949752": "online"
       },
       "https://mantle.drpc.org": {
-        "1788949752": "offline"
+        "1788949752": "offline",
+        "1789040395": "offline"
       },
       "https://rpc-mantle.blockmachine.io": {
         "1788949752": "online"
@@ -9426,6 +9426,23 @@
       },
       "wss://mantle-rpc.publicnode.com": {
         "1788949752": "online"
+      }
+    }
+  },
+  "MON": {
+    "all": {},
+    "by_server": {
+      "https://monad-mainnet-rpc.spidernode.net": {
+        "1789040395": "online"
+      },
+      "https://rpc-mainnet.monadinfra.com": {
+        "1789040395": "online"
+      },
+      "https://rpc.monad.xyz": {
+        "1789040395": "online"
+      },
+      "https://rpc3.monad.xyz": {
+        "1789040395": "online"
       }
     }
   },
@@ -13168,18 +13185,14 @@
       "el0.verus.io:17486": {
         "1787446530": "online"
       },
-      "el0.verus.io:17488": {
-        "1757463228": "online"
-      },
+      "el0.verus.io:17488": {},
       "el1.verus.io:17485": {
         "1787446530": "online"
       },
       "el1.verus.io:17486": {
         "1787446530": "online"
       },
-      "el1.verus.io:17488": {
-        "1757463228": "online"
-      },
+      "el1.verus.io:17488": {},
       "el2.verus.io:17485": {
         "1787446530": "online"
       },
@@ -13787,6 +13800,20 @@
       },
       "electrumx3.neurai.top:50002": {
         "1772144114": "offline"
+      }
+    }
+  },
+  "XPL": {
+    "all": {},
+    "by_server": {
+      "https://9745.rpc.thirdweb.com": {
+        "1789040395": "online"
+      },
+      "https://plasma-mainnet.gateway.tatum.io": {
+        "1789040395": "online"
+      },
+      "https://rpc.plasma.to": {
+        "1789040395": "online"
       }
     }
   },
