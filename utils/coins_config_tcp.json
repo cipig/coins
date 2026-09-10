@@ -3983,16 +3983,6 @@
         },
         "electrum": [
             {
-                "url": "bit-e.minethepla.net:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bit-e.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -5934,6 +5924,16 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
                 "contact": [
@@ -6001,6 +6001,16 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
@@ -9563,6 +9573,16 @@
         },
         "electrum": [
             {
+                "url": "delecx.twinkykms.com:3342",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "405102339612082177"
+                    }
+                ]
+            },
+            {
                 "url": "elecx1.dingocoin.com:3342",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -10106,15 +10126,6 @@
             "homepage": "https://wojakcoin.cash"
         },
         "electrum": [
-            {
-                "url": "electrum1.wojakcoin.cash:50102",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "danny_utxo"
-                    }
-                ]
-            },
             {
                 "url": "electrum2.wojakcoin.cash:50002",
                 "protocol": "SSL",
@@ -12874,16 +12885,6 @@
                         "email": "support@fixedcoin.org"
                     }
                 ]
-            },
-            {
-                "url": "electrumx.nitopool.fr:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "email": "support@nitopool.fr"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -12937,16 +12938,6 @@
                 "contact": [
                     {
                         "email": "support@fixedcoin.org"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.nitopool.fr:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "email": "support@nitopool.fr"
                     }
                 ]
             }
@@ -16112,7 +16103,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "Hyperliquid",
         "rpcport": 80,
         "mm2": 1,
@@ -16131,8 +16122,8 @@
         "links": {
             "homepage": "https://hyperfoundation.org"
         },
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
                 "url": "https://hyperliquid.drpc.org",
@@ -21287,7 +21278,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "Mantle",
         "rpcport": 80,
         "mm2": 1,
@@ -21306,8 +21297,8 @@
         "links": {
             "homepage": "https://group.mantle.xyz"
         },
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
                 "url": "https://mantle-rpc.publicnode.com",
@@ -21340,7 +21331,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "Monad",
         "rpcport": 80,
         "mm2": 1,
@@ -21359,8 +21350,8 @@
         "links": {
             "homepage": "https://monad.xyz"
         },
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
@@ -28873,7 +28864,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "Bittensor",
         "rpcport": 80,
         "mm2": 1,
@@ -28892,8 +28883,8 @@
         "links": {
             "homepage": "https://www.bittensor.com"
         },
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "swap_contract_address": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
+        "fallback_swap_contract": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
         "nodes": [
             {
                 "url": "https://lite.chain.opentensor.ai"
@@ -31333,7 +31324,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "USD Coin",
         "rpcport": 80,
         "mm2": 1,
@@ -31351,8 +31342,8 @@
         "derivation_path": "m/44'/60'",
         "contract_address": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
         "parent_coin": "HYPE",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
                 "url": "https://hyperliquid.drpc.org",
@@ -31381,7 +31372,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "USD Coin",
         "rpcport": 80,
         "mm2": 1,
@@ -31399,8 +31390,8 @@
         "derivation_path": "m/44'/60'",
         "contract_address": "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9",
         "parent_coin": "MNT",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
                 "url": "https://mantle-rpc.publicnode.com",
@@ -31433,7 +31424,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "USD Coin",
         "rpcport": 80,
         "mm2": 1,
@@ -31451,8 +31442,8 @@
         "derivation_path": "m/44'/60'",
         "contract_address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
         "parent_coin": "MON",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
@@ -31597,7 +31588,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "USD Coin",
         "rpcport": 80,
         "mm2": 1,
@@ -31615,8 +31606,8 @@
         "derivation_path": "m/44'/60'",
         "contract_address": "0xB833E8137FEDf80de7E908dc6fea43a029142F20",
         "parent_coin": "TAO",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "swap_contract_address": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
+        "fallback_swap_contract": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
         "nodes": [
             {
                 "url": "https://lite.chain.opentensor.ai"
@@ -31641,7 +31632,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "USD Coin",
         "rpcport": 80,
         "mm2": 1,
@@ -31659,8 +31650,8 @@
         "derivation_path": "m/44'/60'",
         "contract_address": "0x2d661C89D812261039AF9764eceaAee884f5F67F",
         "parent_coin": "XPL",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
                 "url": "https://9745.rpc.thirdweb.com"
@@ -32614,16 +32605,6 @@
             },
             {
                 "url": "e2.validitytech.com:11002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
-                "url": "e3.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -34717,7 +34698,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "Plasma",
         "rpcport": 80,
         "mm2": 1,
@@ -34736,8 +34717,8 @@
         "links": {
             "homepage": "https://www.plasma.org"
         },
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
                 "url": "https://9745.rpc.thirdweb.com"
@@ -35289,6 +35270,16 @@
             "homepage": "https://vanillacash.org"
         },
         "electrum": [
+            {
+                "url": "electrumx1.vanillacash.info:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrumx2.vanillacash.info:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
             {
                 "url": "xvc-ex-seven.ewmci.online:50002",
                 "protocol": "SSL",
@@ -36580,15 +36571,6 @@
         "electrum": [
             {
                 "url": "zet-ex-four.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "zet-ex-three.ewmci.online:50012",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -38963,19 +38945,6 @@
                         "discord": "biigbang0001"
                     }
                 ]
-            },
-            {
-                "url": "electrum1.nitopool.fr:50003",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "email": "biigbang0001@zemzar.net"
-                    },
-                    {
-                        "discord": "biigbang0001"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -39024,19 +38993,6 @@
         "electrum": [
             {
                 "url": "electrum1.nito.network:50003",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "email": "biigbang0001@zemzar.net"
-                    },
-                    {
-                        "discord": "biigbang0001"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.nitopool.fr:50003",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "contact": [
