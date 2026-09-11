@@ -37431,6 +37431,35 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
+            },
+            {
+                "url": "e3.validitytech.com:11001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "e3.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "e3.validitytech.com:11004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -42286,8 +42315,12 @@
             "github": "https://github.com/RunOnFlux/fluxd",
             "homepage": "https://www.runonflux.io"
         },
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "electrumx2.runonflux.io:50001",
+                "protocol": "TCP"
+            }
+        ],
         "explorer_block_url": "block/",
         "binance_id": "FLUX"
     },
