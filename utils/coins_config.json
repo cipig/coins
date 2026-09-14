@@ -4450,38 +4450,11 @@
         },
         "electrum": [
             {
-                "url": "bit-e.outsidethebox.top:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bitn-electrumx.wattxchange.app:50011",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "bitn-electrumx.wattxchange.app:50012",
+                "url": "bit-e.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "bitn-electrumx.wattxchange.app:50014",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "nucash"
+                        "discord": "def#4726"
                     }
                 ]
             },
@@ -13287,7 +13260,7 @@
                 "url": "https://etc.etcdesktop.com"
             },
             {
-                "url": "https://ethereum-classic-mainnet.gateway.tatum.io"
+                "url": "https://rpc.etcmc.xyz"
             }
         ],
         "explorer_block_url": "block/",
@@ -18808,53 +18781,8 @@
             "github": "https://github.com/HTHcoin/helpthehomelesscoin",
             "homepage": "https://hth.foundation"
         },
-        "electrum": [
-            {
-                "url": "electrum.hth.foundation:50001",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum.hth.foundation:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.hth.foundation:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.wattxchange.app:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.wattxchange.app:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "HYPE": {
@@ -26318,26 +26246,8 @@
             "github": "https://github.com/NewYorkCoinNYC/newyorkcoin",
             "homepage": "https://newyorkcoin.online"
         },
-        "electrum": [
-            {
-                "url": "electrum.newyorkcoin.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "admin@newyorkcoin.online"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.newyorkcoin.online:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "admin@newyorkcoin.online"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block.dws?"
     },
     "NYC-BEP20": {
@@ -26712,13 +26622,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://1rpc.io/one"
+            },
+            {
                 "url": "https://api.harmony.one"
             },
             {
                 "url": "https://api.s0.t.hmny.io"
-            },
-            {
-                "url": "https://one-mainnet-s0.gateway.tatum.io"
             }
         ],
         "explorer_block_url": "block/",
@@ -36368,7 +36278,7 @@
                 "url": "https://9745.rpc.thirdweb.com"
             },
             {
-                "url": "https://plasma-mainnet.gateway.tatum.io"
+                "url": "https://plasma.api.onfinality.io/public"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -37124,7 +37034,7 @@
                 "url": "https://9745.rpc.thirdweb.com"
             },
             {
-                "url": "https://plasma-mainnet.gateway.tatum.io"
+                "url": "https://plasma.api.onfinality.io/public"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -39976,9 +39886,6 @@
         "nodes": [
             {
                 "url": "https://9745.rpc.thirdweb.com"
-            },
-            {
-                "url": "https://plasma-mainnet.gateway.tatum.io"
             },
             {
                 "url": "https://rpc.plasma.to"
