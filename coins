@@ -6442,6 +6442,28 @@
     }
   },
   {
+    "coin": "HYPE",
+    "name": "hyper",
+    "fname": "Hyperliquid",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 999,
+    "required_confirmations": 5,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 999
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://hyperfoundation.org"
+    }
+  },
+  {
     "coin": "IDRT-ERC20",
     "name": "idrt_erc20",
     "fname": "Rupiah Token",
@@ -6905,6 +6927,50 @@
     "trezor_coin": "KCC",
     "links": {
       "homepage": "https://kcc.io"
+    }
+  },
+  {
+    "coin": "KITE-ERC20",
+    "name": "kite_erc20",
+    "fname": "Kite",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x118B70dF4F06Fa5678E7d543e6066e028C8ea0c0"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://gokite.ai"
+    }
+  },
+  {
+    "coin": "KITE-BEP20",
+    "name": "kite_bep20",
+    "fname": "Kite",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.45,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x904567252D8F48555b7447c67dCA23F0372E16be"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://gokite.ai"
     }
   },
   {
@@ -8375,6 +8441,50 @@
       }
     },
     "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "MNT",
+    "name": "mantle",
+    "fname": "Mantle",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 5000,
+    "required_confirmations": 5,
+    "avg_blocktime": 2,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 5000
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://group.mantle.xyz"
+    }
+  },
+  {
+    "coin": "MON",
+    "name": "monad",
+    "fname": "Monad",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 143,
+    "required_confirmations": 5,
+    "avg_blocktime": 0.3,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 143
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://monad.xyz"
+    }
   },
   {
     "coin": "MONA",
@@ -11383,6 +11493,28 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "TAO",
+    "name": "bittensor",
+    "fname": "Bittensor",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 964,
+    "required_confirmations": 3,
+    "avg_blocktime": 12,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 964
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://www.bittensor.com"
+    }
+  },
+  {
     "coin": "TAZ-BEP20",
     "name": "taz_bep20",
     "fname": "Taz",
@@ -12407,6 +12539,63 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "USDC-HYPE",
+    "name": "usdc_hype",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 999,
+    "decimals": 6,
+    "avg_blocktime": 1,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "HYPE",
+        "contract_address": "0xb88339CB7199b77E23DB6E890353E22632Ba630f"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "USDC-MNT",
+    "name": "usdc_mnt",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 5000,
+    "decimals": 6,
+    "avg_blocktime": 2,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MNT",
+        "contract_address": "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "USDC-MON",
+    "name": "usdc_mon",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 143,
+    "decimals": 6,
+    "avg_blocktime": 0.3,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MON",
+        "contract_address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "USDC-PLG20",
     "name": "usdc_plg20",
     "fname": "USD Coin",
@@ -12446,6 +12635,44 @@
       "protocol_data": {
         "platform": "MATIC",
         "contract_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "USDC-TAO",
+    "name": "usdc_tao",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 964,
+    "decimals": 6,
+    "avg_blocktime": 12,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "TAO",
+        "contract_address": "0xB833E8137FEDf80de7E908dc6fea43a029142F20"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "USDC-XPL",
+    "name": "usdc_xpl",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 9745,
+    "decimals": 6,
+    "avg_blocktime": 1,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "XPL",
+        "contract_address": "0x2d661C89D812261039AF9764eceaAee884f5F67F"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -12722,6 +12949,25 @@
     "links": {
       "homepage": "https://tether.to"
     }
+  },
+  {
+    "coin": "USDT-XPL",
+    "name": "usdt_xpl",
+    "fname": "Tether",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 143,
+    "decimals": 6,
+    "avg_blocktime": 1,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "XPL",
+        "contract_address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "UTOPIA-BEP20",
@@ -13644,6 +13890,28 @@
     "links": {
       "github": "https://github.com/NeuraiProject/Neurai",
       "homepage": "https://neurai.org"
+    }
+  },
+  {
+    "coin": "XPL",
+    "name": "plasma",
+    "fname": "Plasma",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 9745,
+    "required_confirmations": 5,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 9745
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://www.plasma.org"
     }
   },
   {
