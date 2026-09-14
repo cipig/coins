@@ -21242,7 +21242,7 @@
             },
             {
                 "url": "https://mantle.drpc.org",
-                "ws_url": "https://mantle.drpc.org"
+                "ws_url": "wss://mantle.drpc.org"
             },
             {
                 "url": "https://rpc-mantle.blockmachine.io"
@@ -21664,6 +21664,9 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://lb.routeme.sh/rpc/evm/1285"
+            },
             {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
@@ -31347,7 +31350,7 @@
             },
             {
                 "url": "https://mantle.drpc.org",
-                "ws_url": "https://mantle.drpc.org"
+                "ws_url": "wss://mantle.drpc.org"
             },
             {
                 "url": "https://rpc-mantle.blockmachine.io"
@@ -38769,6 +38772,9 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
+            },
+            {
+                "url": "https://rpc.osmosis.zone"
             }
         ],
         "explorer_block_url": "block/",
