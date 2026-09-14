@@ -9752,6 +9752,47 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "PYUSD-ERC20",
+    "name": "pyusd_erc20",
+    "fname": "PayPal USD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 6,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd"
+    }
+  },
+  {
+    "coin": "PYUSD-ARB20",
+    "name": "pyusd_arb20",
+    "fname": "PayPal USD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 6,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x46850aD61C2B7d64d08c9C754F45254596696984"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "SHIB-BEP20",
     "name": "shib_bep20",
     "fname": "Shiba Inu",
