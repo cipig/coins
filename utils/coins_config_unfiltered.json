@@ -4509,6 +4509,15 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bit-e.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -5739,7 +5748,8 @@
                 "ws_url": "wss://gnosis-rpc.publicnode.com"
             },
             {
-                "url": "https://public-gno-mainnet.fastnode.io"
+                "url": "https://gnosis.api.pocket.network",
+                "ws_url": "wss://gnosis.api.pocket.network"
             },
             {
                 "url": "https://rpc.gnosischain.com",
@@ -13489,7 +13499,7 @@
                 "url": "https://etc.etcdesktop.com"
             },
             {
-                "url": "https://ethereum-classic-mainnet.gateway.tatum.io"
+                "url": "https://rpc.etcmc.xyz"
             }
         ],
         "explorer_block_url": "block/",
@@ -14383,7 +14393,8 @@
                 "ws_url": "wss://gnosis-rpc.publicnode.com"
             },
             {
-                "url": "https://public-gno-mainnet.fastnode.io"
+                "url": "https://gnosis.api.pocket.network",
+                "ws_url": "wss://gnosis.api.pocket.network"
             },
             {
                 "url": "https://rpc.gnosischain.com",
@@ -16825,7 +16836,8 @@
                 "ws_url": "wss://gnosis-rpc.publicnode.com"
             },
             {
-                "url": "https://public-gno-mainnet.fastnode.io"
+                "url": "https://gnosis.api.pocket.network",
+                "ws_url": "wss://gnosis.api.pocket.network"
             },
             {
                 "url": "https://rpc.gnosischain.com",
@@ -17873,7 +17885,8 @@
                 "ws_url": "wss://gnosis-rpc.publicnode.com"
             },
             {
-                "url": "https://public-gno-mainnet.fastnode.io"
+                "url": "https://gnosis.api.pocket.network",
+                "ws_url": "wss://gnosis.api.pocket.network"
             },
             {
                 "url": "https://rpc.gnosischain.com",
@@ -19125,11 +19138,11 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://hyperliquid-json-rpc.stakely.io"
-            },
-            {
                 "url": "https://hyperliquid.drpc.org",
                 "ws_url": "wss://hyperliquid.drpc.org"
+            },
+            {
+                "url": "https://hyperliquid.rpc.blxrbdn.com"
             },
             {
                 "url": "https://rpc.hyperliquid.xyz/evm"
@@ -25071,7 +25084,7 @@
             },
             {
                 "url": "https://mantle.drpc.org",
-                "ws_url": "https://mantle.drpc.org"
+                "ws_url": "wss://mantle.drpc.org"
             },
             {
                 "url": "https://rpc-mantle.blockmachine.io"
@@ -25548,6 +25561,9 @@
             {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://public.1rpc.io/glmr"
             }
         ],
         "explorer_block_url": "block/",
@@ -26953,13 +26969,13 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://1rpc.io/one"
+            },
+            {
                 "url": "https://api.harmony.one"
             },
             {
                 "url": "https://api.s0.t.hmny.io"
-            },
-            {
-                "url": "https://one-mainnet-s0.gateway.tatum.io"
             }
         ],
         "explorer_block_url": "block/",
@@ -36511,7 +36527,8 @@
                 "ws_url": "wss://gnosis-rpc.publicnode.com"
             },
             {
-                "url": "https://public-gno-mainnet.fastnode.io"
+                "url": "https://gnosis.api.pocket.network",
+                "ws_url": "wss://gnosis.api.pocket.network"
             },
             {
                 "url": "https://rpc.gnosischain.com",
@@ -36556,11 +36573,11 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://hyperliquid-json-rpc.stakely.io"
-            },
-            {
                 "url": "https://hyperliquid.drpc.org",
                 "ws_url": "wss://hyperliquid.drpc.org"
+            },
+            {
+                "url": "https://hyperliquid.rpc.blxrbdn.com"
             },
             {
                 "url": "https://rpc.hyperliquid.xyz/evm"
@@ -36612,7 +36629,7 @@
             },
             {
                 "url": "https://mantle.drpc.org",
-                "ws_url": "https://mantle.drpc.org"
+                "ws_url": "wss://mantle.drpc.org"
             },
             {
                 "url": "https://rpc-mantle.blockmachine.io"
@@ -36870,7 +36887,7 @@
                 "url": "https://9745.rpc.thirdweb.com"
             },
             {
-                "url": "https://plasma-mainnet.gateway.tatum.io"
+                "url": "https://plasma.api.onfinality.io/public"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -37626,7 +37643,7 @@
                 "url": "https://9745.rpc.thirdweb.com"
             },
             {
-                "url": "https://plasma-mainnet.gateway.tatum.io"
+                "url": "https://plasma.api.onfinality.io/public"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -39847,6 +39864,10 @@
                 "ws_url": "wss://gnosis-rpc.publicnode.com"
             },
             {
+                "url": "https://gnosis.api.pocket.network",
+                "ws_url": "wss://gnosis.api.pocket.network"
+            },
+            {
                 "url": "https://rpc.gnosischain.com",
                 "ws_url": "wss://rpc.gnosischain.com/wss"
             }
@@ -40468,9 +40489,6 @@
         "nodes": [
             {
                 "url": "https://9745.rpc.thirdweb.com"
-            },
-            {
-                "url": "https://plasma-mainnet.gateway.tatum.io"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -42130,7 +42148,8 @@
                 "ws_url": "wss://gnosis-rpc.publicnode.com"
             },
             {
-                "url": "https://public-gno-mainnet.fastnode.io"
+                "url": "https://gnosis.api.pocket.network",
+                "ws_url": "wss://gnosis.api.pocket.network"
             },
             {
                 "url": "https://rpc.gnosischain.com",
