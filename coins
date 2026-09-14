@@ -12207,6 +12207,50 @@
     }
   },
   {
+    "coin": "USD1-ERC20",
+    "name": "usd1_erc20",
+    "fname": "USD1",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://worldlibertyfinancial.com"
+    }
+  },
+  {
+    "coin": "USD1-BEP20",
+    "name": "usd1_bep20",
+    "fname": "USD1",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.45,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://worldlibertyfinancial.com"
+    }
+  },
+  {
     "coin": "USDC-ARB20",
     "name": "usdc_arb20",
     "fname": "USD Coin",
