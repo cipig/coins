@@ -7167,7 +7167,8 @@
       "wss://rpc.gnosischain.com/wss": {
         "1789427154": "offline",
         "1789442850": "online",
-        "1789479149": "offline"
+        "1789479149": "offline",
+        "1789479706": "online"
       }
     }
   },
@@ -7396,8 +7397,23 @@
       "1789427154": "online"
     },
     "by_server": {
+      "_metadata": {
+        "fulcrum.ergon.network:52140": {
+          "contact": [
+            {
+              "email": "licho@ergon.moe"
+            },
+            {
+              "telegram": "licho92karol"
+            }
+          ]
+        }
+      },
       "blackie.c3-soft.com:52138": {
         "1789427154": "offline"
+      },
+      "fulcrum.ergon.network:52140": {
+        "1789479706": "offline"
       },
       "la.ask.systems:52138": {
         "1789427154": "online"
