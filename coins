@@ -10327,7 +10327,29 @@
     "derivation_path": "m/44'/60'",
     "trezor_coin": "IEx.ec",
     "links": {
-      "homepage": "http://iex.ec/"
+      "homepage": "http://iex.ec"
+    }
+  },
+  {
+    "coin": "RLUSD-ERC20",
+    "name": "rlusd_erc20",
+    "fname": "Ripple USD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://ripple.com/products/stablecoin"
     }
   },
   {
