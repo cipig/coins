@@ -3446,6 +3446,16 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bit-e.outsidethebox.top:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -34410,6 +34420,9 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
+            },
+            {
+                "url": "https://rpc.osmosis.zone"
             }
         ],
         "explorer_block_url": "block/",
