@@ -4270,6 +4270,85 @@
     "derivation_path": "m/44'/41'"
   },
   {
+    "coin": "ENA-ERC20",
+    "name": "ena_erc20",
+    "fname": "Ethena",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x57e114B691Db790C35207b2e685D4A43181e6061"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://ethena.fi"
+    }
+  },
+  {
+    "coin": "ENA-ARB20",
+    "name": "ena_arb20",
+    "fname": "Ethena",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "ENA-BASE",
+    "name": "ena_base",
+    "fname": "Ethena",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  { 
+    "coin": "ENA-MNT",
+    "name": "ena_mnt",
+    "fname": "Ethena",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 5000,
+    "decimals": 18,
+    "avg_blocktime": 2,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20", 
+      "protocol_data": {
+        "platform": "MNT",
+        "contract_address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "ENJ-ERC20",
     "name": "enj_erc20",
     "fname": "Enjin Coin",
