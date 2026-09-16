@@ -174,6 +174,7 @@ class CoinConfig:
             "TAO": "Bittensor",
             "TRX": "TRX",
             "XDAI": "Gnosis",
+            "XDC": "XDC",
             "XPL": "Plasma",
             "ATOM": "TENDERMINT",
             "OSMO": "TENDERMINT",
@@ -397,7 +398,7 @@ class CoinConfig:
         For token coins, this returns the parent chain coin.
         """
         # For token coins, we need to check parent chain status
-        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-KRC20", "-ARB20", "-AVX20", "-GRC20", "-HYPE", "-MON", "-MNT", "-TAO", "-TRC20", "-XPL")):
+        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-KRC20", "-ARB20", "-AVX20", "-GRC20", "-HYPE", "-MON", "-MNT", "-TAO", "-TRC20", "-XDC", "-XPL")):
             if self.ticker.endswith("-QRC20"):
                 return "tQTUM" if self.is_testnet else "QTUM"
             elif self.ticker.endswith("-ERC20"):
@@ -428,6 +429,8 @@ class CoinConfig:
                 return "MON"
             elif self.ticker.endswith("-TAO"):
                 return "TAO"
+            elif self.ticker.endswith("-XDC"):
+                return "XDC"
             elif self.ticker.endswith("-XPL"):
                 return "XPL"
 
