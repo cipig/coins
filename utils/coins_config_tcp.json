@@ -3983,25 +3983,6 @@
         },
         "electrum": [
             {
-                "url": "bit-e.minethepla.net:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bit-e.outsidethebox.top:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bitnet.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -10085,54 +10066,6 @@
                 "contact": [
                     {
                         "discord": "cloudhax#8411"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "WJK": {
-        "coin": "WJK",
-        "type": "UTXO",
-        "name": "WojakCoin",
-        "coinpaprika_id": "wjk-wojakcoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "WJK",
-        "explorer_url": "https://explorer.wojakcoin.cash/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "WojakCoin Signed Message:\n",
-        "fname": "WojakCoin",
-        "rpcport": 20760,
-        "pubtype": 73,
-        "p2shtype": 5,
-        "wiftype": 201,
-        "segwit": false,
-        "txfee": 100000,
-        "dust": 100000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 120,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/20760'",
-        "links": {
-            "github": "https://github.com/wojakcoinproj/wojakcore",
-            "homepage": "https://wojakcoin.cash"
-        },
-        "electrum": [
-            {
-                "url": "electrum2.wojakcoin.cash:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "danny_utxo"
                     }
                 ]
             }
@@ -18428,212 +18361,6 @@
         ],
         "explorer_block_url": "block.dws?"
     },
-    "LCN": {
-        "coin": "LCN",
-        "type": "UTXO",
-        "name": "Lyncoin",
-        "coinpaprika_id": "lcn-lyncoin",
-        "coingecko_id": "lyncoin",
-        "livecoinwatch_id": "LCN",
-        "explorer_url": "https://lcnxp.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "sign_message_prefix": "Lyncoin Signed Message:\n",
-        "fname": "Lyncoin",
-        "rpcport": 5053,
-        "pubtype": 234,
-        "p2shtype": 55,
-        "wiftype": 126,
-        "segwit": true,
-        "bech32_hrp": "lc",
-        "txfee": 1000,
-        "decimals": 8,
-        "mm2": 1,
-        "required_confirmations": 10,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/0'",
-        "trezor_coin": "Lyncoin",
-        "links": {
-            "github": "https://github.com/lyncoin/lyncoin",
-            "homepage": "https://lyncoin.com"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum4.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "LCN-segwit": {
-        "coin": "LCN-segwit",
-        "type": "UTXO",
-        "name": "Lyncoin",
-        "coinpaprika_id": "lcn-lyncoin",
-        "coingecko_id": "lyncoin",
-        "livecoinwatch_id": "LCN",
-        "explorer_url": "https://lcnxp.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "sign_message_prefix": "Lyncoin Signed Message:\n",
-        "fname": "Lyncoin",
-        "rpcport": 5053,
-        "pubtype": 234,
-        "p2shtype": 55,
-        "wiftype": 126,
-        "segwit": true,
-        "bech32_hrp": "lc",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "LCN",
-        "txfee": 1000,
-        "decimals": 8,
-        "mm2": 1,
-        "required_confirmations": 10,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/84'/0'",
-        "trezor_coin": "Lyncoin",
-        "links": {
-            "github": "https://github.com/lyncoin/lyncoin",
-            "homepage": "https://lyncoin.com"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum4.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "LCN-BEP20": {
         "coin": "LCN-BEP20",
         "type": "BEP-20",
@@ -26747,10 +26474,6 @@
         },
         "electrum": [
             {
-                "url": "x1.raptoreum.com:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "x2.raptoreum.com:50002",
                 "protocol": "SSL"
             }
@@ -32069,6 +31792,57 @@
         ],
         "explorer_block_url": "block/"
     },
+    "USDC-XDC": {
+        "coin": "USDC-XDC",
+        "type": "XDC",
+        "name": "USD Coin",
+        "coinpaprika_id": "usdc-usd-coin",
+        "coingecko_id": "usd-coin",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://xdcscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "USD Coin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 50,
+        "decimals": 6,
+        "avg_blocktime": 2,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "XDC",
+                "contract_address": "0xfA2958CB79b0491CC627c1557F441eF849Ca8eb1"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xfA2958CB79b0491CC627c1557F441eF849Ca8eb1",
+        "parent_coin": "XDC",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://rpc.ankr.com/xdc"
+            },
+            {
+                "url": "https://rpc.xdc.network"
+            },
+            {
+                "url": "https://rpc.xinfin.network"
+            },
+            {
+                "url": "https://rpc1.xinfin.network",
+                "ws_url": "wss://ews.xinfin.network/ws"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "USDC-XPL": {
         "coin": "USDC-XPL",
         "type": "Plasma",
@@ -35187,6 +34961,58 @@
             {
                 "url": "https://rpc.gnosischain.com",
                 "ws_url": "wss://rpc.gnosischain.com/wss"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "XDC": {
+        "coin": "XDC",
+        "type": "XDC",
+        "name": "XDC Network",
+        "coinpaprika_id": "xdc-xdc-network",
+        "coingecko_id": "xdce-crowd-sale",
+        "livecoinwatch_id": "XDC",
+        "explorer_url": "https://xdcscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "XDC Network",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 50,
+        "required_confirmations": 5,
+        "avg_blocktime": 2,
+        "protocol": {
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 50
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "max_eth_tx_type": 2,
+        "swap_gas_fee_policy": "Medium",
+        "links": {
+            "homepage": "https://xinfin.org"
+        },
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://rpc.ankr.com/xdc"
+            },
+            {
+                "url": "https://rpc.xdc.network"
+            },
+            {
+                "url": "https://rpc.xinfin.network"
+            },
+            {
+                "url": "https://rpc1.xinfin.network",
+                "ws_url": "wss://ews.xinfin.network/ws"
             }
         ],
         "explorer_block_url": "block/"
@@ -39740,6 +39566,9 @@
             },
             {
                 "url": "https://osmosis.rpc.stakin-nodes.com"
+            },
+            {
+                "url": "https://rpc.cosmos.directory/osmosis"
             },
             {
                 "url": "https://rpc.osmosis.zone"
