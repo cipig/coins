@@ -1757,6 +1757,25 @@
       }
     }
   },
+  "BLOZ-segwit": {
+    "all": {
+      "1789591041": "online"
+    },
+    "by_server": {
+      "electrum-bloz.pinco-labs.com:50002": {
+        "1789591041": "online"
+      },
+      "electrum-bloz.pinco-labs.com:50004": {
+        "1789591041": "online"
+      },
+      "electrum2-bloz.pinco-labs.com:50002": {
+        "1789591041": "online"
+      },
+      "electrum2-bloz.pinco-labs.com:50004": {
+        "1789591041": "online"
+      }
+    }
+  },
   "BNB": {
     "all": {},
     "by_server": {
@@ -6435,7 +6454,8 @@
     "all": {},
     "by_server": {
       "https://lb.routeme.sh/rpc/evm/1284": {
-        "1789402484": "offline"
+        "1789402484": "offline",
+        "1789591041": "online"
       },
       "https://moonbeam-rpc.publicnode.com": {
         "1771131362": "online",
@@ -6470,7 +6490,8 @@
         "1762321286": "offline"
       },
       "https://public.1rpc.io/glmr": {
-        "1789402484": "online"
+        "1789402484": "online",
+        "1789591041": "offline"
       },
       "https://rpc.api.moonbeam.network": {
         "1786392764": "offline"
@@ -13871,7 +13892,8 @@
         "1788015270": "offline",
         "1788058432": "online",
         "1788364910": "offline",
-        "1788374109": "online"
+        "1788374109": "online",
+        "1789591041": "offline"
       }
     }
   },
