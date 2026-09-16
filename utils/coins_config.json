@@ -4450,37 +4450,9 @@
         },
         "electrum": [
             {
-                "url": "bit-e.minethepla.net:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bit-e.minethepla.net:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bit-e.outsidethebox.top:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bit-e.outsidethebox.top:50004",
-                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "def#4726"
@@ -12085,35 +12057,8 @@
             "github": "https://github.com/wojakcoinproj/wojakcore",
             "homepage": "https://wojakcoin.cash"
         },
-        "electrum": [
-            {
-                "url": "electrum2.wojakcoin.cash:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "danny_utxo"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.wojakcoin.cash:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "danny_utxo"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.wojakcoin.cash:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "danny_utxo"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "MWC": {
@@ -21661,128 +21606,8 @@
             "github": "https://github.com/lyncoin/lyncoin",
             "homepage": "https://lyncoin.com"
         },
-        "electrum": [
-            {
-                "url": "electrum1.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum4.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum4.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "LCN-segwit": {
@@ -21826,128 +21651,8 @@
             "github": "https://github.com/lyncoin/lyncoin",
             "homepage": "https://lyncoin.com"
         },
-        "electrum": [
-            {
-                "url": "electrum1.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum4.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum4.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.lcnxp.com:52002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.lcnxp.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "LCN-BEP20": {
@@ -31159,18 +30864,6 @@
         },
         "electrum": [
             {
-                "url": "x1.raptoreum.com:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "x1.raptoreum.com:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "x1.raptoreum.com:50004",
-                "protocol": "WSS"
-            },
-            {
                 "url": "x2.raptoreum.com:50001",
                 "protocol": "TCP"
             },
@@ -36779,6 +36472,57 @@
         ],
         "explorer_block_url": "block/"
     },
+    "USDC-XDC": {
+        "coin": "USDC-XDC",
+        "type": "XDC",
+        "name": "USD Coin",
+        "coinpaprika_id": "usdc-usd-coin",
+        "coingecko_id": "usd-coin",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://xdcscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "USD Coin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 50,
+        "decimals": 6,
+        "avg_blocktime": 2,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "XDC",
+                "contract_address": "0xfA2958CB79b0491CC627c1557F441eF849Ca8eb1"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xfA2958CB79b0491CC627c1557F441eF849Ca8eb1",
+        "parent_coin": "XDC",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://rpc.ankr.com/xdc"
+            },
+            {
+                "url": "https://rpc.xdc.network"
+            },
+            {
+                "url": "https://rpc.xinfin.network"
+            },
+            {
+                "url": "https://rpc1.xinfin.network",
+                "ws_url": "wss://ews.xinfin.network/ws"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "USDC-XPL": {
         "coin": "USDC-XPL",
         "type": "Plasma",
@@ -40267,6 +40011,58 @@
             {
                 "url": "https://rpc.gnosischain.com",
                 "ws_url": "wss://rpc.gnosischain.com/wss"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "XDC": {
+        "coin": "XDC",
+        "type": "XDC",
+        "name": "XDC Network",
+        "coinpaprika_id": "xdc-xdc-network",
+        "coingecko_id": "xdce-crowd-sale",
+        "livecoinwatch_id": "XDC",
+        "explorer_url": "https://xdcscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "XDC Network",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 50,
+        "required_confirmations": 5,
+        "avg_blocktime": 2,
+        "protocol": {
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 50
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "max_eth_tx_type": 2,
+        "swap_gas_fee_policy": "Medium",
+        "links": {
+            "homepage": "https://xinfin.org"
+        },
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://rpc.ankr.com/xdc"
+            },
+            {
+                "url": "https://rpc.xdc.network"
+            },
+            {
+                "url": "https://rpc.xinfin.network"
+            },
+            {
+                "url": "https://rpc1.xinfin.network",
+                "ws_url": "wss://ews.xinfin.network/ws"
             }
         ],
         "explorer_block_url": "block/"
@@ -45402,6 +45198,9 @@
             },
             {
                 "url": "https://osmosis.rpc.stakin-nodes.com"
+            },
+            {
+                "url": "https://rpc.cosmos.directory/osmosis"
             },
             {
                 "url": "https://rpc.osmosis.zone"
