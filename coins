@@ -13129,6 +13129,25 @@
     }
   },
   {
+    "coin": "USDT-HYPE",
+    "name": "usdt_hype",
+    "fname": "Tether",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 999,
+    "decimals": 6,
+    "avg_blocktime": 1,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "HYPE",
+        "contract_address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "USDT-XPL",
     "name": "usdt_xpl",
     "fname": "Tether",
@@ -13583,6 +13602,25 @@
       "github": "https://github.com/WrappedBTC",
       "homepage": "https://wbtc.network"
     }
+  },
+  {
+    "coin": "WBTC-MON",
+    "name": "wbtc_mon",
+    "fname": "Wrapped Bitcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 143,
+    "decimals": 8,
+    "avg_blocktime": 0.3,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MON",
+        "contract_address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "WBTC-PLG20",
