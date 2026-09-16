@@ -778,7 +778,8 @@
         }
       },
       "bit-e.minethepla.net:50002": {
-        "1789575383": "offline"
+        "1789575383": "offline",
+        "1789577330": "online"
       },
       "bit-e.minethepla.net:50004": {
         "1789575383": "online"
@@ -892,6 +893,25 @@
       },
       "electrum2-bloz.pinco-labs.com:50004": {
         "1789575383": "online"
+      }
+    }
+  },
+  "BLOZ-segwit": {
+    "all": {
+      "1789577330": "online"
+    },
+    "by_server": {
+      "electrum-bloz.pinco-labs.com:50002": {
+        "1789577330": "online"
+      },
+      "electrum-bloz.pinco-labs.com:50004": {
+        "1789577330": "online"
+      },
+      "electrum2-bloz.pinco-labs.com:50002": {
+        "1789577330": "online"
+      },
+      "electrum2-bloz.pinco-labs.com:50004": {
+        "1789577330": "online"
       }
     }
   },
@@ -5262,7 +5282,8 @@
     "by_server": {
       "https://lb.routeme.sh/rpc/evm/1285": {
         "1789575383": "offline",
-        "1789575687": "online"
+        "1789575687": "online",
+        "1789577330": "offline"
       },
       "https://moonriver.api.onfinality.io/public": {
         "1789575383": "online"
@@ -7614,7 +7635,8 @@
         "1789575383": "online"
       },
       "https://plasma.api.onfinality.io/public": {
-        "1789575383": "offline"
+        "1789575383": "offline",
+        "1789577330": "online"
       },
       "https://rpc.plasma.to": {
         "1789575383": "online"
