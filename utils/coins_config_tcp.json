@@ -4047,6 +4047,15 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bit-e.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -21758,6 +21767,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://lb.routeme.sh/rpc/evm/1285"
+            },
+            {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
             }
@@ -35908,9 +35920,6 @@
         "nodes": [
             {
                 "url": "https://9745.rpc.thirdweb.com"
-            },
-            {
-                "url": "https://plasma.api.onfinality.io/public"
             },
             {
                 "url": "https://rpc.plasma.to"
