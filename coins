@@ -12845,6 +12845,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "USDC-XDC",
+    "name": "usdc_xdc",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 50,
+    "decimals": 6,
+    "avg_blocktime": 2,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "XDC",
+        "contract_address": "0xfA2958CB79b0491CC627c1557F441eF849Ca8eb1"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "USDC-XPL",
     "name": "usdc_xpl",
     "fname": "USD Coin",
@@ -14075,6 +14094,28 @@
     "derivation_path": "m/44'/60'",
     "max_eth_tx_type": 2,
     "swap_gas_fee_policy": "Medium"
+  },
+  {
+    "coin": "XDC",
+    "name": "xdc",
+    "fname": "XDC Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 50,
+    "required_confirmations": 5,
+    "avg_blocktime": 2,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 50
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://xinfin.org"
+    }
   },
   {
     "coin": "XEP-segwit",
