@@ -12168,8 +12168,62 @@
             "github": "https://github.com/wojakcoinproj/wojakcore",
             "homepage": "https://wojakcoin.cash"
         },
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "electrum1.wojakcoin.cash:50101",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "danny_utxo"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.wojakcoin.cash:50102",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "danny_utxo"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.wojakcoin.cash:50104",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "danny_utxo"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.wojakcoin.cash:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "danny_utxo"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.wojakcoin.cash:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "danny_utxo"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.wojakcoin.cash:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "danny_utxo"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "MWC": {
@@ -19118,6 +19172,13 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
+                "url": "https://hyperliquid.drpc.org",
+                "ws_url": "wss://hyperliquid.drpc.org"
+            },
+            {
+                "url": "https://hyperliquid.rpc.blxrbdn.com"
+            },
+            {
                 "url": "https://rpc.hyperliquid.xyz/evm"
             },
             {
@@ -25232,6 +25293,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://lb.routeme.sh/rpc/evm/1285"
+            },
+            {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
             }
@@ -25275,9 +25339,6 @@
         "swap_contract_address": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
-            {
-                "url": "https://lb.routeme.sh/rpc/evm/1284"
-            },
             {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
@@ -30970,6 +31031,18 @@
             "homepage": "https://raptoreum.com"
         },
         "electrum": [
+            {
+                "url": "x1.raptoreum.com:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "x1.raptoreum.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "x1.raptoreum.com:50004",
+                "protocol": "WSS"
+            },
             {
                 "url": "x2.raptoreum.com:50001",
                 "protocol": "TCP"
