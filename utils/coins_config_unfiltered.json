@@ -25539,9 +25539,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://lb.routeme.sh/rpc/evm/1285"
-            },
-            {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
             }
@@ -25586,11 +25583,11 @@
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
             {
-                "url": "https://lb.routeme.sh/rpc/evm/1284"
-            },
-            {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://public.1rpc.io/glmr"
             }
         ],
         "explorer_block_url": "block/",
@@ -26995,6 +26992,9 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://1rpc.io/one"
+            },
             {
                 "url": "https://api.harmony.one"
             },
@@ -38423,6 +38423,57 @@
         ],
         "explorer_block_url": "block/"
     },
+    "USDT-HYPE": {
+        "coin": "USDT-HYPE",
+        "type": "HyperEVM",
+        "name": "Tether",
+        "coinpaprika_id": "usdt-tether",
+        "coingecko_id": "tether",
+        "livecoinwatch_id": "USDT",
+        "explorer_url": "https://hyperevmscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Tether",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 999,
+        "decimals": 6,
+        "avg_blocktime": 1,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "HYPE",
+                "contract_address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "parent_coin": "HYPE",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://hyperliquid.drpc.org",
+                "ws_url": "wss://hyperliquid.drpc.org"
+            },
+            {
+                "url": "https://hyperliquid.rpc.blxrbdn.com"
+            },
+            {
+                "url": "https://rpc.hyperliquid.xyz/evm"
+            },
+            {
+                "url": "https://rpc.hypurrscan.io"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "USDT-XPL": {
         "coin": "USDT-XPL",
         "type": "Plasma",
@@ -39837,6 +39888,56 @@
         ],
         "explorer_block_url": "block/"
     },
+    "WBTC-MON": {
+        "coin": "WBTC-MON",
+        "type": "Monad",
+        "name": "Wrapped Bitcoin",
+        "coinpaprika_id": "wbtc-wrapped-bitcoin",
+        "coingecko_id": "wrapped-bitcoin",
+        "livecoinwatch_id": "WBTC",
+        "explorer_url": "https://monadscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Wrapped Bitcoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 143,
+        "decimals": 8,
+        "avg_blocktime": 0.3,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MON",
+                "contract_address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+        "parent_coin": "MON",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://monad-mainnet-rpc.spidernode.net"
+            },
+            {
+                "url": "https://rpc-mainnet.monadinfra.com"
+            },
+            {
+                "url": "https://rpc.monad.xyz"
+            },
+            {
+                "url": "https://rpc3.monad.xyz"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "WBTC-PLG20": {
         "coin": "WBTC-PLG20",
         "type": "Matic",
@@ -40481,6 +40582,53 @@
             },
             {
                 "url": "https://public-arb-mainnet.fastnode.io"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "XAUT-XPL": {
+        "coin": "XAUT-XPL",
+        "type": "Plasma",
+        "name": "Tether Gold",
+        "coinpaprika_id": "xaut-tether-gold",
+        "coingecko_id": "tether-gold",
+        "livecoinwatch_id": "XAUT",
+        "explorer_url": "https://plasmascan.to/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Tether Gold",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 9745,
+        "decimals": 6,
+        "avg_blocktime": 1,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "XPL",
+                "contract_address": "0x1B64B9025EEbb9A6239575dF9Ea4b9Ac46D4d193"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x1B64B9025EEbb9A6239575dF9Ea4b9Ac46D4d193",
+        "parent_coin": "XPL",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://9745.rpc.thirdweb.com"
+            },
+            {
+                "url": "https://plasma.api.onfinality.io/public"
+            },
+            {
+                "url": "https://rpc.plasma.to"
             }
         ],
         "explorer_block_url": "block/"
@@ -41360,6 +41508,9 @@
         "nodes": [
             {
                 "url": "https://9745.rpc.thirdweb.com"
+            },
+            {
+                "url": "https://plasma.api.onfinality.io/public"
             },
             {
                 "url": "https://rpc.plasma.to"
