@@ -5411,6 +5411,28 @@
     }
   },
   {
+    "coin": "FLR",
+    "name": "flr",
+    "fname": "Flare",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 14,
+    "required_confirmations": 5,
+    "avg_blocktime": 1.2,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 14
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://flare.network"
+    }
+  },
+  {
     "coin": "FTC",
     "name": "feathercoin",
     "fname": "Feathercoin",
@@ -13127,6 +13149,25 @@
     "links": {
       "homepage": "https://tether.to"
     }
+  },
+  {
+    "coin": "USDT-FLR",
+    "name": "usdt_flr",
+    "fname": "Tether",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 14,
+    "decimals": 6,
+    "avg_blocktime": 1.2,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FLR",
+        "contract_address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "USDT-HYPE",
