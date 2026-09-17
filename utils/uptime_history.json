@@ -3241,6 +3241,29 @@
       }
     }
   },
+  "FLR": {
+    "all": {},
+    "by_server": {
+      "https://flare-api.flare.network/ext/C/rpc": {
+        "1789649025": "online"
+      },
+      "https://flare.rpc.thirdweb.com": {
+        "1789649025": "online"
+      },
+      "https://rpc.au.cc/flare": {
+        "1789649025": "online"
+      },
+      "https://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/rpc": {
+        "1789649025": "online"
+      },
+      "wss://flare-api.flare.network/ext/C/ws": {
+        "1789649025": "online"
+      },
+      "wss://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/ws": {
+        "1789649025": "online"
+      }
+    }
+  },
   "FLUX": {
     "all": {
       "1789630927": "online"
@@ -3514,7 +3537,8 @@
         "1789630927": "online"
       },
       "https://public.1rpc.io/glmr": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "wss://moonbeam.api.onfinality.io/public-ws": {
         "1789630927": "online"
@@ -4423,7 +4447,8 @@
   },
   "LCN": {
     "all": {
-      "1789630927": "offline"
+      "1789630927": "offline",
+      "1789649025": "online"
     },
     "by_server": {
       "_metadata": {
@@ -4529,40 +4554,51 @@
         }
       },
       "electrum1.lcnxp.com:52002": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum1.lcnxp.com:52004": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum2.lcnxp.com:52002": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum2.lcnxp.com:52004": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum3.lcnxp.com:52002": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum3.lcnxp.com:52004": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum4.lcnxp.com:52002": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum4.lcnxp.com:52004": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum5.lcnxp.com:52002": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum5.lcnxp.com:52004": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       }
     }
   },
   "LCN-segwit": {
     "all": {
-      "1789630927": "offline"
+      "1789630927": "offline",
+      "1789649025": "online"
     },
     "by_server": {
       "_metadata": {
@@ -4668,34 +4704,44 @@
         }
       },
       "electrum1.lcnxp.com:52002": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum1.lcnxp.com:52004": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum2.lcnxp.com:52002": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum2.lcnxp.com:52004": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum3.lcnxp.com:52002": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum3.lcnxp.com:52004": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum4.lcnxp.com:52002": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum4.lcnxp.com:52004": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum5.lcnxp.com:52002": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "electrum5.lcnxp.com:52004": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       }
     }
   },
@@ -5637,7 +5683,8 @@
     "all": {},
     "by_server": {
       "https://1rpc.io/one": {
-        "1789630927": "offline"
+        "1789630927": "offline",
+        "1789649025": "online"
       },
       "https://api.harmony.one": {
         "1789630927": "online"
@@ -7014,6 +7061,29 @@
       }
     }
   },
+  "USDT-FLR": {
+    "all": {},
+    "by_server": {
+      "https://flare-api.flare.network/ext/C/rpc": {
+        "1789649025": "online"
+      },
+      "https://flare.rpc.thirdweb.com": {
+        "1789649025": "online"
+      },
+      "https://rpc.au.cc/flare": {
+        "1789649025": "online"
+      },
+      "https://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/rpc": {
+        "1789649025": "online"
+      },
+      "wss://flare-api.flare.network/ext/C/ws": {
+        "1789649025": "online"
+      },
+      "wss://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/ws": {
+        "1789649025": "online"
+      }
+    }
+  },
   "USDT-KRC20": {
     "all": {},
     "by_server": {
@@ -7607,7 +7677,8 @@
         "1789630927": "online"
       },
       "https://plasma.api.onfinality.io/public": {
-        "1789630927": "online"
+        "1789630927": "online",
+        "1789649025": "offline"
       },
       "https://rpc.plasma.to": {
         "1789630927": "online"
