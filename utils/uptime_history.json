@@ -3539,7 +3539,8 @@
       "https://public.1rpc.io/glmr": {
         "1789630927": "offline",
         "1789649025": "online",
-        "1789649963": "offline"
+        "1789649963": "offline",
+        "1789655463": "online"
       },
       "wss://moonbeam.api.onfinality.io/public-ws": {
         "1789630927": "online"
@@ -3802,7 +3803,8 @@
         "1789630927": "online"
       },
       "https://hyperliquid.rpc.blxrbdn.com": {
-        "1789630927": "online"
+        "1789630927": "online",
+        "1789655463": "offline"
       },
       "https://rpc.hyperliquid.xyz/evm": {
         "1789630927": "online"
@@ -5353,7 +5355,8 @@
     "by_server": {
       "https://lb.routeme.sh/rpc/evm/1285": {
         "1789630927": "offline",
-        "1789649963": "online"
+        "1789649963": "online",
+        "1789655463": "offline"
       },
       "https://moonriver.api.onfinality.io/public": {
         "1789630927": "online"
@@ -5715,7 +5718,8 @@
         "1789630927": "online"
       },
       "https://rpc.osmosis.zone": {
-        "1789630927": "online"
+        "1789630927": "online",
+        "1789655463": "offline"
       },
       "wss://osmosis-rpc.publicnode.com/websocket": {
         "1789630927": "online"
@@ -7061,11 +7065,17 @@
       "https://rpc.xdc.network": {
         "1789630927": "online"
       },
+      "https://rpc.xdcrpc.com": {
+        "1789655463": "offline"
+      },
       "https://rpc1.xinfin.network": {
         "1789630927": "online"
       },
       "wss://ews.xinfin.network/ws": {
         "1789630927": "online"
+      },
+      "wss://rpc.xdcrpc.com/ws": {
+        "1789655463": "offline"
       }
     }
   },
@@ -7490,11 +7500,17 @@
       "https://rpc.xdc.network": {
         "1789630927": "online"
       },
+      "https://rpc.xdcrpc.com": {
+        "1789655463": "offline"
+      },
       "https://rpc1.xinfin.network": {
         "1789630927": "online"
       },
       "wss://ews.xinfin.network/ws": {
         "1789630927": "online"
+      },
+      "wss://rpc.xdcrpc.com/ws": {
+        "1789655463": "offline"
       }
     }
   },
@@ -7686,7 +7702,8 @@
       },
       "https://plasma.api.onfinality.io/public": {
         "1789630927": "online",
-        "1789649025": "offline"
+        "1789649025": "offline",
+        "1789655463": "online"
       },
       "https://rpc.plasma.to": {
         "1789630927": "online"

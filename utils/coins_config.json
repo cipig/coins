@@ -19239,9 +19239,6 @@
                 "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
-                "url": "https://hyperliquid.rpc.blxrbdn.com"
-            },
-            {
                 "url": "https://rpc.hyperliquid.xyz/evm"
             },
             {
@@ -25596,9 +25593,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://lb.routeme.sh/rpc/evm/1285"
-            },
-            {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
             }
@@ -25645,6 +25639,9 @@
             {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://public.1rpc.io/glmr"
             }
         ],
         "explorer_block_url": "block/",
@@ -36995,10 +36992,6 @@
             },
             {
                 "url": "https://rpc.xdc.network"
-            },
-            {
-                "url": "https://rpc1.xinfin.network",
-                "ws_url": "wss://ews.xinfin.network/ws"
             }
         ],
         "explorer_block_url": "block/"
@@ -40739,10 +40732,6 @@
             },
             {
                 "url": "https://rpc.xdc.network"
-            },
-            {
-                "url": "https://rpc1.xinfin.network",
-                "ws_url": "wss://ews.xinfin.network/ws"
             }
         ],
         "explorer_block_url": "block/"
@@ -41372,6 +41361,9 @@
         "nodes": [
             {
                 "url": "https://9745.rpc.thirdweb.com"
+            },
+            {
+                "url": "https://plasma.api.onfinality.io/public"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -45881,9 +45873,6 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
-            },
-            {
-                "url": "https://rpc.osmosis.zone"
             }
         ],
         "explorer_block_url": "block/",
