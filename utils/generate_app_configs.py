@@ -159,6 +159,7 @@ class CoinConfig:
             "ETH-ARB20": "Arbitrum",
             "ETH-BASE": "Base",
             "EWT": "EWT",
+            "FLR": "Flare",
             "GLMR": "Moonbeam",
             "HYPE": "HyperEVM",
             "KCS": "KRC-20",
@@ -397,7 +398,7 @@ class CoinConfig:
         For token coins, this returns the parent chain coin.
         """
         # For token coins, we need to check parent chain status
-        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-KRC20", "-ARB20", "-AVX20", "-GRC20", "-HYPE", "-MON", "-MNT", "-TAO", "-TRC20", "-XDC", "-XPL")):
+        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-KRC20", "-ARB20", "-AVX20", "-GRC20", "-FLR", "-HYPE", "-MON", "-MNT", "-TAO", "-TRC20", "-XDC", "-XPL")):
             if self.ticker.endswith("-QRC20"):
                 return "tQTUM" if self.is_testnet else "QTUM"
             elif self.ticker.endswith("-ERC20"):
@@ -416,6 +417,8 @@ class CoinConfig:
                 return "ETH-ARB20"
             elif self.ticker.endswith("-GRC20"):
                 return "GLEEC"
+            elif self.ticker.endswith("-FLR"):
+                return "FLR"
             elif self.ticker.endswith("-HYPE"):
                 return "HYPE"
             elif self.ticker.endswith("-BASE"):
