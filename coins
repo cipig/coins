@@ -13036,6 +13036,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "USDT-MON",
+    "name": "usdt_mon",
+    "fname": "Tether",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 143,
+    "decimals": 6,
+    "avg_blocktime": 0.3,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MON",
+        "contract_address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "USDT-PLG20",
     "name": "usdt_plg20",
     "fname": "Tether",
