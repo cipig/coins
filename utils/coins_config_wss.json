@@ -3255,15 +3255,6 @@
                         "email": "dev@bitcoincashii.org"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.bch2.org:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "dev@bitcoincashii.org"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -34816,6 +34807,9 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
+            },
+            {
+                "url": "https://rpc.osmosis.zone"
             }
         ],
         "explorer_block_url": "block/",

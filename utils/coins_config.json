@@ -4238,15 +4238,6 @@
                         "email": "dev@bitcoincashii.org"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.bch2.org:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "dev@bitcoincashii.org"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -19239,6 +19230,9 @@
                 "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
+                "url": "https://hyperliquid.rpc.blxrbdn.com"
+            },
+            {
                 "url": "https://rpc.hyperliquid.xyz/evm"
             },
             {
@@ -25593,6 +25587,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://lb.routeme.sh/rpc/evm/1285"
+            },
+            {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
             }
@@ -25639,9 +25636,6 @@
             {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
-            },
-            {
-                "url": "https://public.1rpc.io/glmr"
             }
         ],
         "explorer_block_url": "block/",
@@ -41363,9 +41357,6 @@
                 "url": "https://9745.rpc.thirdweb.com"
             },
             {
-                "url": "https://plasma.api.onfinality.io/public"
-            },
-            {
                 "url": "https://rpc.plasma.to"
             }
         ],
@@ -45873,6 +45864,9 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
+            },
+            {
+                "url": "https://rpc.osmosis.zone"
             }
         ],
         "explorer_block_url": "block/",
