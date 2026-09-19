@@ -22112,9 +22112,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://lb.routeme.sh/rpc/evm/1285"
-            },
-            {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
             }
@@ -22159,14 +22156,8 @@
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
             {
-                "url": "https://lb.routeme.sh/rpc/evm/1284"
-            },
-            {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
-            },
-            {
-                "url": "https://public.1rpc.io/glmr"
             }
         ],
         "explorer_block_url": "block/",
@@ -32571,6 +32562,10 @@
             },
             {
                 "url": "https://rpc.xdc.network"
+            },
+            {
+                "url": "https://rpc.xdcrpc.com",
+                "ws_url": "wss://rpc.xdcrpc.com/ws"
             }
         ],
         "explorer_block_url": "block/"
@@ -35933,6 +35928,10 @@
             },
             {
                 "url": "https://rpc.xdc.network"
+            },
+            {
+                "url": "https://rpc.xdcrpc.com",
+                "ws_url": "wss://rpc.xdcrpc.com/ws"
             }
         ],
         "explorer_block_url": "block/"
@@ -40489,6 +40488,9 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
+            },
+            {
+                "url": "https://rpc.osmosis.zone"
             }
         ],
         "explorer_block_url": "block/",
