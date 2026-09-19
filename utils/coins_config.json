@@ -25880,6 +25880,9 @@
             {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://public.1rpc.io/glmr"
             }
         ],
         "explorer_block_url": "block/",
@@ -38422,6 +38425,56 @@
             },
             {
                 "url": "https://rpc-mainnet.kcc.network"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "USDT-MON": {
+        "coin": "USDT-MON",
+        "type": "Monad",
+        "name": "Tether",
+        "coinpaprika_id": "usdt-tether",
+        "coingecko_id": "tether",
+        "livecoinwatch_id": "USDT",
+        "explorer_url": "https://monadscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Tether",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 143,
+        "decimals": 6,
+        "avg_blocktime": 0.3,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MON",
+                "contract_address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
+        "parent_coin": "MON",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://monad-mainnet-rpc.spidernode.net"
+            },
+            {
+                "url": "https://rpc-mainnet.monadinfra.com"
+            },
+            {
+                "url": "https://rpc.monad.xyz"
+            },
+            {
+                "url": "https://rpc3.monad.xyz"
             }
         ],
         "explorer_block_url": "block/"
