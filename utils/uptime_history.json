@@ -801,7 +801,8 @@
         "1789737782": "online"
       },
       "bit-e.outsidethebox.top:50004": {
-        "1789737782": "offline"
+        "1789737782": "offline",
+        "1789786635": "online"
       },
       "bitn-electrumx.wattxchange.app:50011": {
         "1789737782": "offline"
@@ -2944,7 +2945,8 @@
     "all": {},
     "by_server": {
       "https://0xrpc.io/etc": {
-        "1789737782": "online"
+        "1789737782": "online",
+        "1789786635": "offline"
       },
       "https://etc.etcdesktop.com": {
         "1789737782": "online"
@@ -2953,7 +2955,8 @@
         "1789737782": "online"
       },
       "wss://0xrpc.io/etc": {
-        "1789737782": "online"
+        "1789737782": "online",
+        "1789786635": "offline"
       }
     }
   },
@@ -5477,7 +5480,8 @@
     "all": {},
     "by_server": {
       "https://1rpc.io/one": {
-        "1789737782": "online"
+        "1789737782": "online",
+        "1789786635": "offline"
       },
       "https://api.harmony.one": {
         "1789737782": "online"
@@ -5925,7 +5929,8 @@
         "1789737782": "online"
       },
       "ric-ex-two.ewmci.online:50002": {
-        "1789737782": "offline"
+        "1789737782": "offline",
+        "1789786635": "online"
       },
       "ric-ex-two.ewmci.online:50003": {
         "1789737782": "online"
@@ -5988,7 +5993,8 @@
         "1789737782": "online"
       },
       "ric-ex-two.ewmci.online:50002": {
-        "1789737782": "offline"
+        "1789737782": "offline",
+        "1789786635": "online"
       },
       "ric-ex-two.ewmci.online:50003": {
         "1789737782": "online"
@@ -7484,7 +7490,8 @@
         "1789737782": "online"
       },
       "https://plasma.api.onfinality.io/public": {
-        "1789737782": "online"
+        "1789737782": "online",
+        "1789786635": "offline"
       },
       "https://rpc.plasma.to": {
         "1789737782": "online"
@@ -7518,8 +7525,23 @@
       "1789737782": "online"
     },
     "by_server": {
+      "_metadata": {
+        "fulcrum.ergon.network:52140": {
+          "contact": [
+            {
+              "email": "licho@ergon.moe"
+            },
+            {
+              "telegram": "licho92karol"
+            }
+          ]
+        }
+      },
       "blackie.c3-soft.com:52138": {
         "1789737782": "offline"
+      },
+      "fulcrum.ergon.network:52140": {
+        "1789786635": "offline"
       },
       "la.ask.systems:52138": {
         "1789737782": "online"
