@@ -4441,6 +4441,15 @@
                 ]
             },
             {
+                "url": "bit-e.outsidethebox.top:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bitnet.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -13522,10 +13531,6 @@
         "swap_contract_address": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
-            {
-                "url": "https://0xrpc.io/etc",
-                "ws_url": "wss://0xrpc.io/etc"
-            },
             {
                 "url": "https://etc.etcdesktop.com"
             },
@@ -26966,9 +26971,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -30141,6 +30143,16 @@
                 ]
             },
             {
+                "url": "ric-ex-two.ewmci.online:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "ric-ex-two.ewmci.online:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
@@ -30241,6 +30253,16 @@
             {
                 "url": "ric-ex-two.ewmci.online:50001",
                 "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -41312,9 +41334,6 @@
         "nodes": [
             {
                 "url": "https://9745.rpc.thirdweb.com"
-            },
-            {
-                "url": "https://plasma.api.onfinality.io/public"
             },
             {
                 "url": "https://rpc.plasma.to"
