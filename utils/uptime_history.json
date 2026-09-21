@@ -7172,6 +7172,25 @@
       }
     }
   },
+  "WAM": {
+    "all": {
+      "1790014951": "online"
+    },
+    "by_server": {
+      "electrum.wamcoin.org:50002": {
+        "1790014951": "online"
+      },
+      "electrum.wamcoin.org:50004": {
+        "1790014951": "online"
+      },
+      "electrum2.wamcoin.org:50002": {
+        "1790014951": "online"
+      },
+      "electrum2.wamcoin.org:50004": {
+        "1790014951": "online"
+      }
+    }
+  },
   "WHIVE": {
     "all": {
       "1789977238": "online"
@@ -7467,7 +7486,8 @@
       "https://plasma.api.onfinality.io/public": {
         "1789977238": "online",
         "1789978624": "offline",
-        "1789978965": "online"
+        "1789978965": "online",
+        "1790014951": "offline"
       },
       "https://rpc.plasma.to": {
         "1789977238": "online"
