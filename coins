@@ -364,28 +364,6 @@
     }
   },
   {
-    "coin": "ANEY",
-    "name": "aney",
-    "fname": "Animal Economy",
-    "rpcport": 33500,
-    "pubtype": 23,
-    "p2shtype": 63,
-    "wiftype": 210,
-    "txfee": 100000,
-    "dust": 5460,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/119'",
-    "links": {
-      "github": "https://github.com/Animal-Economy/ANEY",
-      "homepage": "https://aney.one"
-    }
-  },
-  {
     "coin": "ANKR-BEP20",
     "name": "ankr_bep20",
     "fname": "Ankr",
@@ -3020,21 +2998,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "COLX",
-    "name": "ColossusXT",
-    "fname": "ColossusXT",
-    "rpcport": 51473,
-    "pubtype": 30,
-    "p2shtype": 13,
-    "wiftype": 212,
-    "txfee": 1000000000,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/1999'"
-  },
-  {
     "coin": "COMP-AVX20",
     "name": "comp_avx20",
     "fname": "Compound",
@@ -5432,26 +5395,6 @@
       "erc20_payment": 140000,
       "erc20_receiver_spend": 110000,
       "erc20_sender_refund": 110000
-    }
-  },
-  {
-    "coin": "FLO",
-    "name": "flo",
-    "fname": "Florincoin",
-    "rpcport": 7313,
-    "pubtype": 35,
-    "p2shtype": 8,
-    "wiftype": 176,
-    "txfee": 100000,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/216'",
-    "trezor_coin": "Flo",
-    "links": {
-      "github": "https://github.com/floblockchain/flo",
-      "homepage": "https://flo.cash"
     }
   },
   {
@@ -8978,28 +8921,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "NINJA",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "NINJA",
-    "fname": "Ninja",
-    "is_privacy_coin": true,
-    "rpcport": 8427,
-    "pubtype": 60,
-    "p2shtype": 85,
-    "wiftype": 188,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "delisted": true,
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
     "coin": "NMC",
     "name": "namecoin",
     "fname": "Namecoin",
@@ -10778,24 +10699,6 @@
       "github": "https://github.com/Raptor3um/Raptoreum",
       "homepage": "https://raptoreum.com"
     }
-  },
-  {
-    "coin": "GRR",
-    "name": "ghostridercoin",
-    "fname": "Ghostridercoin",
-    "rpcport": 15420,
-    "pubtype": 38,
-    "p2shtype": 16,
-    "wiftype": 128,
-    "txfee": 1000,
-    "mm2": 1,
-    "confpath": "USERHOME/.grcoincore/grcoin.conf",
-    "required_confirmations": 3,
-    "avg_blocktime": 120,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/10226'"
   },
   {
     "coin": "RTM-BEP20",
@@ -15256,32 +15159,6 @@
       "github": "https://github.com/0xProject",
       "homepage": "https://0xproject.com"
     }
-  },
-  {
-    "coin": "INK-QRC20",
-    "name": "qtum",
-    "fname": "INK",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 32,
-    "txfee": 400000,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "chain_variant": "QTUM",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0xfe59cbc1704e89a698571413a81f0de9d8f00c69"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 9,
-    "derivation_path": "m/44'/2301'"
   },
   {
     "coin": "FLUX",
