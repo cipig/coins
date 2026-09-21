@@ -5975,6 +5975,16 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
                 "contact": [
@@ -6042,6 +6052,16 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
@@ -9345,18 +9365,6 @@
             "github": "https://github.com/dime-coin/dimecoin/"
         },
         "electrum": [
-            {
-                "url": "electrumx1.dimecoinnetwork.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "developer@dimecoinnetwork.com"
-                    },
-                    {
-                        "discord": "dhop14#9359"
-                    }
-                ]
-            },
             {
                 "url": "electrumx2.dimecoinnetwork.com:50002",
                 "protocol": "SSL",
@@ -13654,9 +13662,6 @@
             },
             {
                 "url": "https://flare.rpc.thirdweb.com"
-            },
-            {
-                "url": "https://rpc.au.cc/flare"
             },
             {
                 "url": "https://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/rpc",
@@ -21568,9 +21573,6 @@
                 "ws_url": "wss://mantle.drpc.org"
             },
             {
-                "url": "https://rpc-mantle.blockmachine.io"
-            },
-            {
                 "url": "https://rpc.mantle.xyz"
             }
         ],
@@ -21988,6 +21990,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://lb.routeme.sh/rpc/evm/1285"
+            },
+            {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
             }
@@ -22031,6 +22036,9 @@
         "swap_contract_address": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
+            {
+                "url": "https://lb.routeme.sh/rpc/evm/1284"
+            },
             {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
@@ -33535,9 +33543,6 @@
             },
             {
                 "url": "https://flare.rpc.thirdweb.com"
-            },
-            {
-                "url": "https://rpc.au.cc/flare"
             },
             {
                 "url": "https://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/rpc",
