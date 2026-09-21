@@ -15161,32 +15161,6 @@
     }
   },
   {
-    "coin": "INK-QRC20",
-    "name": "qtum",
-    "fname": "INK",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 32,
-    "txfee": 400000,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "chain_variant": "QTUM",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0xfe59cbc1704e89a698571413a81f0de9d8f00c69"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 9,
-    "derivation_path": "m/44'/2301'"
-  },
-  {
     "coin": "FLUX",
     "name": "flux",
     "fname": "Flux",
