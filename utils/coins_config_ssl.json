@@ -3974,6 +3974,16 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bit-e.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -16369,6 +16379,9 @@
                 "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
+                "url": "https://hyperliquid.rpc.blxrbdn.com"
+            },
+            {
                 "url": "https://rpc.hyperliquid.xyz/evm"
             },
             {
@@ -21991,9 +22004,6 @@
             {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
-            },
-            {
-                "url": "https://public.1rpc.io/glmr"
             }
         ],
         "explorer_block_url": "block/",
@@ -36095,9 +36105,6 @@
         "nodes": [
             {
                 "url": "https://9745.rpc.thirdweb.com"
-            },
-            {
-                "url": "https://plasma.api.onfinality.io/public"
             },
             {
                 "url": "https://rpc.plasma.to"
