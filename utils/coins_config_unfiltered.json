@@ -676,24 +676,6 @@
         },
         "electrum": [
             {
-                "url": "aby-ex-three.ewmci.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "aby-ex-three.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -4518,8 +4500,8 @@
                 ]
             },
             {
-                "url": "bit-e.outsidethebox.top:50002",
-                "protocol": "SSL",
+                "url": "bit-e.minethepla.net:50004",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "def#4726"
@@ -18466,6 +18448,33 @@
                         "discord": "orpheas#1503"
                     }
                 ]
+            },
+            {
+                "url": "electrum.niftybakes.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "405566674448810005"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.niftybakes.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "405566674448810005"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.niftybakes.com:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "405566674448810005"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -20546,32 +20555,8 @@
                 ]
             },
             {
-                "url": "electrum1.kcnxp.com:51004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.kcnxp.com:51002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.kcnxp.com:51004",
-                "protocol": "WSS",
                 "contact": [
                     {
                         "email": "jaybitron@gmail.com"
@@ -20594,18 +20579,6 @@
                 ]
             },
             {
-                "url": "electrum3.kcnxp.com:51004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
                 "url": "electrum4.kcnxp.com:51002",
                 "protocol": "SSL",
                 "contact": [
@@ -20618,32 +20591,8 @@
                 ]
             },
             {
-                "url": "electrum4.kcnxp.com:51004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
                 "url": "electrum5.kcnxp.com:51002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.kcnxp.com:51004",
-                "protocol": "WSS",
                 "contact": [
                     {
                         "email": "jaybitron@gmail.com"
@@ -20711,32 +20660,8 @@
                 ]
             },
             {
-                "url": "electrum1.kcnxp.com:51004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.kcnxp.com:51002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.kcnxp.com:51004",
-                "protocol": "WSS",
                 "contact": [
                     {
                         "email": "jaybitron@gmail.com"
@@ -20759,18 +20684,6 @@
                 ]
             },
             {
-                "url": "electrum3.kcnxp.com:51004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
                 "url": "electrum4.kcnxp.com:51002",
                 "protocol": "SSL",
                 "contact": [
@@ -20783,32 +20696,8 @@
                 ]
             },
             {
-                "url": "electrum4.kcnxp.com:51004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
                 "url": "electrum5.kcnxp.com:51002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "jaybitron@gmail.com"
-                    },
-                    {
-                        "discord": "jaybitron"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.kcnxp.com:51004",
-                "protocol": "WSS",
                 "contact": [
                     {
                         "email": "jaybitron@gmail.com"
@@ -41905,6 +41794,9 @@
         "nodes": [
             {
                 "url": "https://9745.rpc.thirdweb.com"
+            },
+            {
+                "url": "https://plasma.api.onfinality.io/public"
             },
             {
                 "url": "https://rpc.plasma.to"
