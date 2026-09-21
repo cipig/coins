@@ -353,28 +353,6 @@
     }
   },
   {
-    "coin": "ANEY",
-    "name": "aney",
-    "fname": "Animal Economy",
-    "rpcport": 33500,
-    "pubtype": 23,
-    "p2shtype": 63,
-    "wiftype": 210,
-    "txfee": 100000,
-    "dust": 5460,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/119'",
-    "links": {
-      "github": "https://github.com/Animal-Economy/ANEY",
-      "homepage": "https://aney.one"
-    }
-  },
-  {
     "coin": "ANKR-BEP20",
     "name": "ankr_bep20",
     "fname": "Ankr",
@@ -2951,21 +2929,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "COLX",
-    "name": "ColossusXT",
-    "fname": "ColossusXT",
-    "rpcport": 51473,
-    "pubtype": 30,
-    "p2shtype": 13,
-    "wiftype": 212,
-    "txfee": 1000000000,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/1999'"
-  },
-  {
     "coin": "COMP-AVX20",
     "name": "comp_avx20",
     "fname": "Compound",
@@ -5363,26 +5326,6 @@
       "erc20_payment": 140000,
       "erc20_receiver_spend": 110000,
       "erc20_sender_refund": 110000
-    }
-  },
-  {
-    "coin": "FLO",
-    "name": "flo",
-    "fname": "Florincoin",
-    "rpcport": 7313,
-    "pubtype": 35,
-    "p2shtype": 8,
-    "wiftype": 176,
-    "txfee": 100000,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/216'",
-    "trezor_coin": "Flo",
-    "links": {
-      "github": "https://github.com/floblockchain/flo",
-      "homepage": "https://flo.cash"
     }
   },
   {
@@ -8868,28 +8811,6 @@
       }
     },
     "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "NINJA",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "NINJA",
-    "fname": "Ninja",
-    "is_privacy_coin": true,
-    "rpcport": 8427,
-    "pubtype": 60,
-    "p2shtype": 85,
-    "wiftype": 188,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "delisted": true,
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
   },
   {
     "coin": "NMC",
