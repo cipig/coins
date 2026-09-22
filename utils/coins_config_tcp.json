@@ -3993,6 +3993,15 @@
                 ]
             },
             {
+                "url": "bit-e.outsidethebox.top:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bitnet.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -39673,6 +39682,64 @@
         ],
         "explorer_block_url": "block/"
     },
+    "WAM": {
+        "coin": "WAM",
+        "type": "UTXO",
+        "name": "WAM Coin",
+        "coinpaprika_id": "wam-wam",
+        "coingecko_id": "",
+        "livecoinwatch_id": "WAM",
+        "explorer_url": "https://explorer.wamcoin.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "WAM Coin Signed Message:\n",
+        "fname": "WAM Coin",
+        "rpcport": 9554,
+        "pubtype": 73,
+        "p2shtype": 135,
+        "wiftype": 190,
+        "segwit": true,
+        "bech32_hrp": "wam",
+        "txfee": 20000,
+        "dust": 546,
+        "mm2": 1,
+        "required_confirmations": 15,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/5718349'",
+        "links": {
+            "github": "https://github.com/wam-coin-official/wam-coin",
+            "homepage": "https://wamcoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum.wamcoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "wam.coin.official@proton.me"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.wamcoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "wam.coin.official@proton.me"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "WHIVE": {
         "coin": "WHIVE",
         "type": "UTXO",
@@ -40100,9 +40167,6 @@
         },
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/irisnet"
-            },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
             }
