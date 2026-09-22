@@ -188,7 +188,6 @@ class CoinConfig:
             "tQTUM": "QRC-20",
             "IRISTEST": "TENDERMINT",
             "NUCLEUSTEST": "TENDERMINT",
-            "POLTEST": "Polygon",
             "TRXT": "TRX",
         }
         self.coin_type = coin_data["protocol"]["type"]
