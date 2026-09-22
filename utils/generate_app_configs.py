@@ -466,7 +466,7 @@ class CoinConfig:
                 if self.ticker.find(i) > -1:
                     return i.replace("IBC_", "")
 
-        if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM", "SIA"]:
+        if self.coin_type not in ["UTXO", "ZHTLC", "QTUM", "SIA"]:
             if self.data[self.ticker]["is_testnet"]:
                 key_list = list(self.testnet_protocols.keys())
                 value_list = list(self.testnet_protocols.values())
