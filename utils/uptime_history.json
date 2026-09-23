@@ -6573,6 +6573,9 @@
   "TAO": {
     "all": {},
     "by_server": {
+      "https://lb.routeme.sh/rpc/evm/964": {
+        "1790138521": "offline"
+      },
       "https://lite.chain.opentensor.ai": {
         "1790133385": "online"
       },
@@ -6948,6 +6951,9 @@
   "USDC-TAO": {
     "all": {},
     "by_server": {
+      "https://lb.routeme.sh/rpc/evm/964": {
+        "1790138521": "offline"
+      },
       "https://lite.chain.opentensor.ai": {
         "1790133385": "online"
       },
@@ -7611,10 +7617,14 @@
         "1790133385": "online"
       },
       "https://plasma.api.onfinality.io/public": {
-        "1790133385": "online"
+        "1790133385": "online",
+        "1790138521": "offline"
       },
       "https://rpc.plasma.to": {
         "1790133385": "online"
+      },
+      "https://rpc.swiftnodes.io/rpc/plasma": {
+        "1790138521": "online"
       }
     }
   },
@@ -7645,8 +7655,23 @@
       "1790133385": "online"
     },
     "by_server": {
+      "_metadata": {
+        "fulcrum.ergon.network:52140": {
+          "contact": [
+            {
+              "email": "licho@ergon.moe"
+            },
+            {
+              "telegram": "licho92karol"
+            }
+          ]
+        }
+      },
       "blackie.c3-soft.com:52138": {
         "1790133385": "offline"
+      },
+      "fulcrum.ergon.network:52140": {
+        "1790138521": "offline"
       },
       "la.ask.systems:52138": {
         "1790133385": "online"
