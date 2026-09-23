@@ -3599,54 +3599,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "HRC": {
-        "coin": "HRC",
-        "type": "UTXO",
-        "name": "Hypercoin",
-        "coinpaprika_id": "hrc-hypercoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "__HRC",
-        "explorer_url": "https://explorer.hypercoin.network/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Hypercoin Signed Message:\n",
-        "fname": "Hypercoin",
-        "rpcport": 8992,
-        "pubtype": 0,
-        "p2shtype": 5,
-        "wiftype": 128,
-        "txfee": 0,
-        "segwit": true,
-        "bech32_hrp": "hc",
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/1935'",
-        "trezor_coin": "Hypercoin",
-        "links": {
-            "github": "https://github.com/hypercoin-prj/hypercoin",
-            "homepage": "https://hypercoin.network"
-        },
-        "electrum": [
-            {
-                "url": "electrumx1.hypercoin.network:50003",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrumx2.hypercoin.network:50003",
-                "protocol": "WSS"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "BLK": {
         "coin": "BLK",
         "type": "UTXO",
@@ -5844,6 +5796,117 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "CAS": {
+        "coin": "CAS",
+        "type": "UTXO",
+        "name": "Cascoin",
+        "coinpaprika_id": "cas-cascoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://casplorer.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Cascoin Signed Message:\n",
+        "fname": "Cascoin",
+        "rpcport": 62457,
+        "pubtype": 40,
+        "p2shtype": 50,
+        "wiftype": 188,
+        "decimals": 7,
+        "fork_id": "0x40",
+        "signature_version": "base",
+        "txfee": 0,
+        "segwit": true,
+        "bech32_hrp": "cas",
+        "mm2": 1,
+        "required_confirmations": 6,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/6363'",
+        "links": {
+            "github": "https://github.com/casraw/cascoin",
+            "homepage": "https://cascoin.net"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.cascoin.net:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "635448663543644170"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cascoin.net:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "635448663543644170"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "CAT": {
+        "coin": "CAT",
+        "type": "UTXO",
+        "name": "Catcoin",
+        "coinpaprika_id": "cat-catcoin",
+        "coingecko_id": "catcoin",
+        "livecoinwatch_id": "________________________CAT",
+        "explorer_url": "https://chainz.cryptoid.info/cat/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Catcoin Signed Message:\n",
+        "fname": "Catcoin",
+        "isPoS": 0,
+        "rpcport": 9332,
+        "pubtype": 21,
+        "p2shtype": 88,
+        "wiftype": 149,
+        "txfee": 1000000,
+        "dust": 5431,
+        "segwit": false,
+        "mm2": 1,
+        "decimals": 8,
+        "required_confirmations": 3,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/760'",
+        "links": {
+            "homepage": "https://catcoin.org",
+            "explorer": "https://chainz.cryptoid.info/cat/",
+            "github": "https://github.com/CatcoinCore"
+        },
+        "electrum": [
+            {
+                "url": "cat-electrum2.tbtechvn.com:52001",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "349778454872588299"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "CDN": {
         "coin": "CDN",
         "type": "UTXO",
@@ -6964,6 +7027,59 @@
             {
                 "url": "https://polygon.drpc.org",
                 "ws_url": "wss://polygon.drpc.org"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "CRNC": {
+        "coin": "CRNC",
+        "type": "UTXO",
+        "name": "CrionicCoin",
+        "coinpaprika_id": "crnc-crionic",
+        "coingecko_id": "crionic",
+        "livecoinwatch_id": "CRNC",
+        "explorer_url": "https://crncexplorer.nostrweb.gleeze.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Crioniccoin Signed Message:\n",
+        "fname": "CrionicCoin",
+        "rpcport": 4466,
+        "pubtype": 28,
+        "p2shtype": 45,
+        "wiftype": 176,
+        "decimals": 8,
+        "signature_version": "base",
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "crnc",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 20,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "links": {
+            "github": "https://github.com/diabaths/Crionic-Coin",
+            "homepage": "https://coin.crionic.org"
+        },
+        "electrum": [
+            {
+                "url": "explorer.crionic.org:50005",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -12177,6 +12293,53 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "FLOP": {
+        "coin": "FLOP",
+        "type": "UTXO",
+        "name": "Flopcoin",
+        "coinpaprika_id": "flop-flopcoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "FLOP",
+        "explorer_url": "https://explorer.flopcoin.net/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Flopcoin Signed Message:\n",
+        "fname": "Flopcoin",
+        "rpcport": 32552,
+        "pubtype": 35,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "segwit": false,
+        "txfee": 1000000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/3'",
+        "links": {
+            "github": "https://github.com/Flopcoin/Flopcoin",
+            "homepage": "https://flopcoin.net"
+        },
+        "electrum": [
+            {
+                "url": "flop-electrum.wattxchange.app:443",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "nucash"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "FLOW-BEP20": {
         "coin": "FLOW-BEP20",
         "type": "BEP-20",
@@ -14686,14 +14849,14 @@
         ],
         "explorer_block_url": "block/"
     },
-    "HYPE": {
-        "coin": "HYPE",
-        "type": "HyperEVM",
-        "name": "Hyperliquid",
-        "coinpaprika_id": "hype-hyperliquid",
-        "coingecko_id": "hyperliquid",
-        "livecoinwatch_id": "______HYPE",
-        "explorer_url": "https://hyperevmscan.io/",
+    "HRC": {
+        "coin": "HRC",
+        "type": "UTXO",
+        "name": "Hypercoin",
+        "coinpaprika_id": "hrc-hypercoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "__HRC",
+        "explorer_url": "https://explorer.hypercoin.network/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -14701,30 +14864,35 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Hyperliquid",
-        "rpcport": 80,
+        "sign_message_prefix": "Hypercoin Signed Message:\n",
+        "fname": "Hypercoin",
+        "rpcport": 8992,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 0,
+        "segwit": true,
+        "bech32_hrp": "hc",
         "mm2": 1,
-        "chain_id": 999,
-        "required_confirmations": 5,
-        "avg_blocktime": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 60,
         "protocol": {
-            "type": "ETH",
-            "protocol_data": {
-                "chain_id": 999
-            }
+            "type": "UTXO"
         },
-        "derivation_path": "m/44'/60'",
-        "max_eth_tx_type": 2,
-        "swap_gas_fee_policy": "Medium",
+        "derivation_path": "m/44'/1935'",
+        "trezor_coin": "Hypercoin",
         "links": {
-            "homepage": "https://hyperfoundation.org"
+            "github": "https://github.com/hypercoin-prj/hypercoin",
+            "homepage": "https://hypercoin.network"
         },
-        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "nodes": [
+        "electrum": [
             {
-                "url": "https://hyperliquid.drpc.org",
-                "ws_url": "wss://hyperliquid.drpc.org"
+                "url": "electrumx1.hypercoin.network:50003",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx2.hypercoin.network:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -19159,6 +19327,49 @@
         ],
         "explorer_block_url": "block/"
     },
+    "MON": {
+        "coin": "MON",
+        "type": "Monad",
+        "name": "Monad",
+        "coinpaprika_id": "mon-monad",
+        "coingecko_id": "monad",
+        "livecoinwatch_id": "_________MON",
+        "explorer_url": "https://monadscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Monad",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 143,
+        "required_confirmations": 5,
+        "avg_blocktime": 0.3,
+        "protocol": {
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 143
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "max_eth_tx_type": 2,
+        "swap_gas_fee_policy": "Medium",
+        "links": {
+            "homepage": "https://monad.xyz"
+        },
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://monad-rpc.huginn.tech",
+                "ws_url": "wss://wss.monad-rpc.huginn.tech"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "MONA": {
         "coin": "MONA",
         "type": "UTXO",
@@ -20627,14 +20838,14 @@
         ],
         "explorer_block_url": "block/"
     },
-    "FLOP": {
-        "coin": "FLOP",
+    "PCN": {
+        "coin": "PCN",
         "type": "UTXO",
-        "name": "Flopcoin",
-        "coinpaprika_id": "flop-flopcoin",
+        "name": "PCoin",
+        "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "FLOP",
-        "explorer_url": "https://explorer.flopcoin.net/",
+        "livecoinwatch_id": "__PCN",
+        "explorer_url": "https://explorer.pc.am/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -20642,32 +20853,121 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "Flopcoin Signed Message:\n",
-        "fname": "Flopcoin",
-        "rpcport": 32552,
-        "pubtype": 35,
-        "p2shtype": 22,
-        "wiftype": 158,
-        "segwit": false,
-        "txfee": 1000000,
+        "sign_message_prefix": "PCoin Signed Message:\n",
+        "fname": "PCoin",
+        "rpcport": 9443,
+        "pubtype": 55,
+        "p2shtype": 56,
+        "wiftype": 183,
+        "txversion": 2,
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "pc",
         "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
+        "required_confirmations": 2,
+        "mature_confirmations": 100,
+        "avg_blocktime": 600,
         "protocol": {
-            "type": "UTXO"
+            "type": "UTXO",
+            "chain_variant": "BTC"
         },
-        "derivation_path": "m/44'/3'",
+        "derivation_path": "m/44'/9444'",
         "links": {
-            "github": "https://github.com/Flopcoin/Flopcoin",
-            "homepage": "https://flopcoin.net"
+            "github": "https://github.com/pars5555/pcoin",
+            "homepage": "https://pc.am"
         },
         "electrum": [
             {
-                "url": "flop-electrum.wattxchange.app:443",
+                "url": "electrum1.pc.am:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
-                        "discord": "nucash"
+                        "email": "pcoin@pc.am"
+                    },
+                    {
+                        "github": "pars5555"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.pc.am:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "pcoin@pc.am"
+                    },
+                    {
+                        "github": "pars5555"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "PCN-segwit": {
+        "coin": "PCN-segwit",
+        "type": "UTXO",
+        "name": "PCoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "__PCN",
+        "explorer_url": "https://explorer.pc.am/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "PCoin Signed Message:\n",
+        "fname": "PCoin",
+        "rpcport": 9443,
+        "pubtype": 55,
+        "p2shtype": 56,
+        "wiftype": 183,
+        "txversion": 2,
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "pc",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "PCN",
+        "mm2": 1,
+        "required_confirmations": 2,
+        "mature_confirmations": 100,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "BTC"
+        },
+        "derivation_path": "m/84'/9444'",
+        "links": {
+            "github": "https://github.com/pars5555/pcoin",
+            "homepage": "https://pc.am"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.pc.am:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "pcoin@pc.am"
+                    },
+                    {
+                        "github": "pars5555"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.pc.am:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "pcoin@pc.am"
+                    },
+                    {
+                        "github": "pars5555"
                     }
                 ]
             }
@@ -28029,6 +28329,48 @@
         ],
         "explorer_block_url": "block/"
     },
+    "USDC-MON": {
+        "coin": "USDC-MON",
+        "type": "Monad",
+        "name": "USD Coin",
+        "coinpaprika_id": "usdc-usd-coin",
+        "coingecko_id": "usd-coin",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://monadscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "USD Coin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 143,
+        "decimals": 6,
+        "avg_blocktime": 0.3,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MON",
+                "contract_address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "parent_coin": "MON",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://monad-rpc.huginn.tech",
+                "ws_url": "wss://wss.monad-rpc.huginn.tech"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "USDC-PLG20": {
         "coin": "USDC-PLG20",
         "type": "Polygon",
@@ -28600,6 +28942,48 @@
         ],
         "explorer_block_url": "block/"
     },
+    "USDE-MON": {
+        "coin": "USDE-MON",
+        "type": "Monad",
+        "name": "Ethena USDe",
+        "coinpaprika_id": "usde-ethena-usde",
+        "coingecko_id": "ethena-usde",
+        "livecoinwatch_id": "__USDE",
+        "explorer_url": "https://monadscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Ethena USDe",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 143,
+        "decimals": 18,
+        "avg_blocktime": 0.3,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MON",
+                "contract_address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "parent_coin": "MON",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://monad-rpc.huginn.tech",
+                "ws_url": "wss://wss.monad-rpc.huginn.tech"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "USDP-ERC20": {
         "coin": "USDP-ERC20",
         "type": "ERC-20",
@@ -28833,6 +29217,48 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "USDT-MON": {
+        "coin": "USDT-MON",
+        "type": "Monad",
+        "name": "Tether",
+        "coinpaprika_id": "usdt-tether",
+        "coingecko_id": "tether",
+        "livecoinwatch_id": "USDT",
+        "explorer_url": "https://monadscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Tether",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 143,
+        "decimals": 6,
+        "avg_blocktime": 0.3,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MON",
+                "contract_address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
+        "parent_coin": "MON",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://monad-rpc.huginn.tech",
+                "ws_url": "wss://wss.monad-rpc.huginn.tech"
             }
         ],
         "explorer_block_url": "block/"
@@ -30100,6 +30526,48 @@
             {
                 "url": "https://mainnet.gateway.tenderly.co",
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "WBTC-MON": {
+        "coin": "WBTC-MON",
+        "type": "Monad",
+        "name": "Wrapped Bitcoin",
+        "coinpaprika_id": "wbtc-wrapped-bitcoin",
+        "coingecko_id": "wrapped-bitcoin",
+        "livecoinwatch_id": "WBTC",
+        "explorer_url": "https://monadscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Wrapped Bitcoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 143,
+        "decimals": 8,
+        "avg_blocktime": 0.3,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MON",
+                "contract_address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+        "parent_coin": "MON",
+        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+        "nodes": [
+            {
+                "url": "https://monad-rpc.huginn.tech",
+                "ws_url": "wss://wss.monad-rpc.huginn.tech"
             }
         ],
         "explorer_block_url": "block/"
@@ -34558,6 +35026,9 @@
             {
                 "url": "https://cosmos-rpc.publicnode.com",
                 "ws_url": "wss://cosmos-rpc.publicnode.com/websocket"
+            },
+            {
+                "url": "https://rpc.cosmos.directory/cosmoshub"
             }
         ],
         "explorer_block_url": "block/",
@@ -34812,59 +35283,6 @@
                     },
                     {
                         "discord": "sherm77#5923"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "CRNC": {
-        "coin": "CRNC",
-        "type": "UTXO",
-        "name": "CrionicCoin",
-        "coinpaprika_id": "crnc-crionic",
-        "coingecko_id": "crionic",
-        "livecoinwatch_id": "CRNC",
-        "explorer_url": "https://crncexplorer.nostrweb.gleeze.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Crioniccoin Signed Message:\n",
-        "fname": "CrionicCoin",
-        "rpcport": 4466,
-        "pubtype": 28,
-        "p2shtype": 45,
-        "wiftype": 176,
-        "decimals": 8,
-        "signature_version": "base",
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "crnc",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 20,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/192'",
-        "links": {
-            "github": "https://github.com/diabaths/Crionic-Coin",
-            "homepage": "https://coin.crionic.org"
-        },
-        "electrum": [
-            {
-                "url": "explorer.crionic.org:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
                     }
                 ]
             }
@@ -35549,66 +35967,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "CAS": {
-        "coin": "CAS",
-        "type": "UTXO",
-        "name": "Cascoin",
-        "coinpaprika_id": "cas-cascoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://casplorer.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Cascoin Signed Message:\n",
-        "fname": "Cascoin",
-        "rpcport": 62457,
-        "pubtype": 40,
-        "p2shtype": 50,
-        "wiftype": 188,
-        "decimals": 7,
-        "fork_id": "0x40",
-        "signature_version": "base",
-        "txfee": 0,
-        "segwit": true,
-        "bech32_hrp": "cas",
-        "mm2": 1,
-        "required_confirmations": 6,
-        "avg_blocktime": 150,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/6363'",
-        "links": {
-            "github": "https://github.com/casraw/cascoin",
-            "homepage": "https://cascoin.net"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.cascoin.net:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "635448663543644170"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cascoin.net:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "635448663543644170"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "JUMP": {
         "coin": "JUMP",
         "type": "UTXO",
@@ -35653,57 +36011,6 @@
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "CAT": {
-        "coin": "CAT",
-        "type": "UTXO",
-        "name": "Catcoin",
-        "coinpaprika_id": "cat-catcoin",
-        "coingecko_id": "catcoin",
-        "livecoinwatch_id": "________________________CAT",
-        "explorer_url": "https://chainz.cryptoid.info/cat/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Catcoin Signed Message:\n",
-        "fname": "Catcoin",
-        "isPoS": 0,
-        "rpcport": 9332,
-        "pubtype": 21,
-        "p2shtype": 88,
-        "wiftype": 149,
-        "txfee": 1000000,
-        "dust": 5431,
-        "segwit": false,
-        "mm2": 1,
-        "decimals": 8,
-        "required_confirmations": 3,
-        "avg_blocktime": 600,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/760'",
-        "links": {
-            "homepage": "https://catcoin.org",
-            "explorer": "https://chainz.cryptoid.info/cat/",
-            "github": "https://github.com/CatcoinCore"
-        },
-        "electrum": [
-            {
-                "url": "cat-electrum2.tbtechvn.com:52001",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "349778454872588299"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "FIVETRAT": {
         "coin": "FIVETRAT",
@@ -35764,142 +36071,6 @@
                 "contact": [
                     {
                         "email": "axebench.app@gmail.com"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "PCN": {
-        "coin": "PCN",
-        "type": "UTXO",
-        "name": "PCoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "__PCN",
-        "explorer_url": "https://explorer.pc.am/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "PCoin Signed Message:\n",
-        "fname": "PCoin",
-        "rpcport": 9443,
-        "pubtype": 55,
-        "p2shtype": 56,
-        "wiftype": 183,
-        "txversion": 2,
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "pc",
-        "mm2": 1,
-        "required_confirmations": 2,
-        "mature_confirmations": 100,
-        "avg_blocktime": 600,
-        "protocol": {
-            "type": "UTXO",
-            "chain_variant": "BTC"
-        },
-        "derivation_path": "m/44'/9444'",
-        "links": {
-            "github": "https://github.com/pars5555/pcoin",
-            "homepage": "https://pc.am"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.pc.am:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "pcoin@pc.am"
-                    },
-                    {
-                        "github": "pars5555"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.pc.am:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "pcoin@pc.am"
-                    },
-                    {
-                        "github": "pars5555"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "PCN-segwit": {
-        "coin": "PCN-segwit",
-        "type": "UTXO",
-        "name": "PCoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "__PCN",
-        "explorer_url": "https://explorer.pc.am/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "PCoin Signed Message:\n",
-        "fname": "PCoin",
-        "rpcport": 9443,
-        "pubtype": 55,
-        "p2shtype": 56,
-        "wiftype": 183,
-        "txversion": 2,
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "pc",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "PCN",
-        "mm2": 1,
-        "required_confirmations": 2,
-        "mature_confirmations": 100,
-        "avg_blocktime": 600,
-        "protocol": {
-            "type": "UTXO",
-            "chain_variant": "BTC"
-        },
-        "derivation_path": "m/84'/9444'",
-        "links": {
-            "github": "https://github.com/pars5555/pcoin",
-            "homepage": "https://pc.am"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.pc.am:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "pcoin@pc.am"
-                    },
-                    {
-                        "github": "pars5555"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.pc.am:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "pcoin@pc.am"
-                    },
-                    {
-                        "github": "pars5555"
                     }
                 ]
             }
