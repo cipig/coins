@@ -668,67 +668,6 @@
             }
         }
     },
-    "BKC": {
-        "nodes_total_all": 9,
-        "nodes_working_all": 0,
-        "tcp": {
-            "electrumx1.briskcoin.org:50001": {
-                "last_connection": 1765110193,
-                "result": "Name or service not known",
-                "ssl_days_left": -1
-            },
-            "electrumx2.briskcoin.org:50001": {
-                "last_connection": 1765110193,
-                "result": "Name or service not known",
-                "ssl_days_left": -1
-            },
-            "electrumx3.briskcoin.org:50001": {
-                "last_connection": 1765110193,
-                "result": "Name or service not known",
-                "ssl_days_left": -1
-            }
-        },
-        "ssl": {
-            "electrumx1.briskcoin.org:50002": {
-                "last_connection": 1765110193,
-                "result": "Name or service not known",
-                "ssl_days_left": -1,
-                "ssl_error": "[Errno -2] Name or service not known"
-            },
-            "electrumx2.briskcoin.org:50002": {
-                "last_connection": 1765110193,
-                "result": "Name or service not known",
-                "ssl_days_left": -1,
-                "ssl_error": "[Errno -2] Name or service not known"
-            },
-            "electrumx3.briskcoin.org:50002": {
-                "last_connection": 1765110193,
-                "result": "Name or service not known",
-                "ssl_days_left": -1,
-                "ssl_error": "[Errno -2] Name or service not known"
-            }
-        },
-        "wss": {
-            "electrumx1.briskcoin.org:50003": {
-                "last_connection": 1757307568,
-                "result": "Name or service not known",
-                "ssl_days_left": -1,
-                "ssl_error": "[Errno -2] Name or service not known"
-            },
-            "electrumx2.briskcoin.org:50003": {
-                "last_connection": 1765110193,
-                "result": "Name or service not known",
-                "ssl_days_left": -1,
-                "ssl_error": "[Errno -2] Name or service not known"
-            },
-            "electrumx3.briskcoin.org:50003": {
-                "last_connection": 1765110193,
-                "result": "Name or service not known",
-                "ssl_days_left": -1,
-                "ssl_error": "[Errno -2] Name or service not known"
-            }
-        }
-    },
     "BLK": {
         "nodes_total_all": 9,
         "nodes_working_all": 9,
@@ -825,33 +764,6 @@
         },
         "ssl": {},
         "wss": {}
-    },
-    "BONC": {
-        "nodes_total_all": 3,
-        "nodes_working_all": 0,
-        "tcp": {
-            "electrum.bonkscoin.io:50001": {
-                "last_connection": 1761145310,
-                "result": "Name or service not known",
-                "ssl_days_left": -1
-            }
-        },
-        "ssl": {
-            "electrum.bonkscoin.io:50003": {
-                "last_connection": 1761145310,
-                "result": "Name or service not known",
-                "ssl_days_left": -1,
-                "ssl_error": "[Errno -2] Name or service not known"
-            }
-        },
-        "wss": {
-            "electrum.bonkscoin.io:50002": {
-                "last_connection": 1761145310,
-                "result": "Name or service not known",
-                "ssl_days_left": -1,
-                "ssl_error": "[Errno -2] Name or service not known"
-            }
-        }
     },
     "BSTY": {
         "nodes_total_all": 9,
