@@ -5117,7 +5117,11 @@
     "all": {},
     "by_server": {
       "https://monad-mainnet-rpc.spidernode.net": {
-        "1790176943": "offline"
+        "1790176943": "offline",
+        "1790179144": "online"
+      },
+      "https://monad-rpc.huginn.tech": {
+        "1790179144": "online"
       },
       "https://rpc-mainnet.monadinfra.com": {
         "1790176943": "online"
@@ -5127,6 +5131,9 @@
       },
       "https://rpc3.monad.xyz": {
         "1790176943": "online"
+      },
+      "wss://wss.monad-rpc.huginn.tech": {
+        "1790179144": "online"
       }
     }
   },
@@ -7534,7 +7541,8 @@
     "all": {},
     "by_server": {
       "https://9745.rpc.thirdweb.com": {
-        "1790176943": "offline"
+        "1790176943": "offline",
+        "1790179144": "online"
       },
       "https://plasma.api.onfinality.io/public": {
         "1790176943": "offline"
