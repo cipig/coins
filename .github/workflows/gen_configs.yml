@@ -61,6 +61,17 @@ jobs:
         shell: bash
         run: ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
 
+      - name: Stage generated files (Bypass gitignore)
+        shell: bash
+        run: |
+          git add -f utils/coins_config*.json
+          git add -f utils/electrum_scan_report.json
+          git add -f utils/scan_summary.json
+          git add -f utils/spritemap.json
+          git add -f utils/spritemap.png
+          git add -f utils/uptime_history.json
+          git add -f icons/
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v8
         with:

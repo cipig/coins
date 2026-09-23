@@ -3,3 +3,14 @@
 coins_updated
 spritemap_unmatched_report.json
 venv
+
+# Ignore generated configurations and reports
+utils/coins_config*.json
+utils/electrum_scan_report.json
+utils/scan_summary.json
+utils/spritemap.json
+utils/spritemap.png
+utils/uptime_history.json
+
+# Ignore all generated icons
+icons/
