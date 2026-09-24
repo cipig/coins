@@ -22239,6 +22239,9 @@
             {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://public.1rpc.io/glmr"
             }
         ],
         "explorer_block_url": "block/",
@@ -27178,6 +27181,10 @@
         "electrum": [
             {
                 "url": "x1.raptoreum.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "x2.raptoreum.com:50002",
                 "protocol": "SSL"
             }
         ],
@@ -36600,6 +36607,9 @@
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
+            {
+                "url": "https://9745.rpc.thirdweb.com"
+            },
             {
                 "url": "https://rpc.plasma.to"
             },
