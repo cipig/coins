@@ -7585,10 +7585,12 @@
       "https://9745.rpc.thirdweb.com": {
         "1790190717": "offline",
         "1790218637": "online",
-        "1790287049": "offline"
+        "1790287049": "offline",
+        "1790306012": "online"
       },
       "https://plasma.api.onfinality.io/public": {
-        "1790190717": "offline"
+        "1790190717": "offline",
+        "1790306012": "online"
       },
       "https://rpc.plasma.to": {
         "1790190717": "online"
@@ -7625,8 +7627,23 @@
       "1790190717": "online"
     },
     "by_server": {
+      "_metadata": {
+        "fulcrum.ergon.network:52140": {
+          "contact": [
+            {
+              "email": "licho@ergon.moe"
+            },
+            {
+              "telegram": "licho92karol"
+            }
+          ]
+        }
+      },
       "blackie.c3-soft.com:52138": {
         "1790190717": "offline"
+      },
+      "fulcrum.ergon.network:52140": {
+        "1790306012": "offline"
       },
       "la.ask.systems:52138": {
         "1790190717": "online"
