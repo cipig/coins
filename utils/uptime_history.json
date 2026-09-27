@@ -691,6 +691,13 @@
     },
     "by_server": {
       "_metadata": {
+        "bit-e.minethepla.net:50004": {
+          "contact": [
+            {
+              "discord": "def#4726"
+            }
+          ]
+        },
         "bit-e.outsidethebox.top:50004": {
           "contact": [
             {
@@ -724,7 +731,8 @@
         "1790190717": "online"
       },
       "bit-e.minethepla.net:50004": {
-        "1790190717": "online"
+        "1790190717": "online",
+        "1790479538": "offline"
       },
       "bit-e.outsidethebox.top:50002": {
         "1790190717": "online"
@@ -882,13 +890,15 @@
         "1790190717": "online"
       },
       "electrumserver02.globalboost.info:50011": {
-        "1790190717": "offline"
+        "1790190717": "offline",
+        "1790479538": "online"
       },
       "electrumserver02.globalboost.info:50013": {
         "1790190717": "offline"
       },
       "electrumserver02.globalboost.info:50014": {
-        "1790190717": "offline"
+        "1790190717": "offline",
+        "1790479538": "online"
       }
     }
   },
@@ -1608,17 +1618,53 @@
   },
   "CLC": {
     "all": {
-      "1790190717": "online"
+      "1790190717": "online",
+      "1790479538": "offline"
     },
     "by_server": {
+      "_metadata": {
+        "v2.cryptocollider.com:10001": {
+          "contact": [
+            {
+              "email": "electrumx@cryptocollider.com"
+            },
+            {
+              "discord": "collider#6160"
+            }
+          ]
+        },
+        "v2.cryptocollider.com:5001": {
+          "contact": [
+            {
+              "email": "electrumx@cryptocollider.com"
+            },
+            {
+              "discord": "collider#6160"
+            }
+          ]
+        },
+        "v2.cryptocollider.com:8443": {
+          "contact": [
+            {
+              "email": "electrumx@cryptocollider.com"
+            },
+            {
+              "discord": "collider#6160"
+            }
+          ]
+        }
+      },
       "v2.cryptocollider.com:10001": {
-        "1790190717": "online"
+        "1790190717": "online",
+        "1790479538": "offline"
       },
       "v2.cryptocollider.com:5001": {
-        "1790190717": "online"
+        "1790190717": "online",
+        "1790479538": "offline"
       },
       "v2.cryptocollider.com:8443": {
-        "1790190717": "online"
+        "1790190717": "online",
+        "1790479538": "offline"
       }
     }
   },
@@ -3145,17 +3191,37 @@
   },
   "FLOP": {
     "all": {
-      "1790190717": "online"
+      "1790190717": "online",
+      "1790479538": "offline"
     },
     "by_server": {
+      "_metadata": {
+        "electrumx1.flopcoin.net:10004": {
+          "contact": [
+            {
+              "discord": "technovision"
+            }
+          ]
+        },
+        "flop-electrum.wattxchange.app:443": {
+          "contact": [
+            {
+              "discord": "nucash"
+            }
+          ]
+        }
+      },
       "electrumx1.flopcoin.net:10001": {
-        "1790190717": "online"
+        "1790190717": "online",
+        "1790479538": "offline"
       },
       "electrumx1.flopcoin.net:10004": {
-        "1790190717": "online"
+        "1790190717": "online",
+        "1790479538": "offline"
       },
       "flop-electrum.wattxchange.app:443": {
-        "1790190717": "online"
+        "1790190717": "online",
+        "1790479538": "offline"
       }
     }
   },
@@ -7587,7 +7653,8 @@
         "1790218637": "online",
         "1790287049": "offline",
         "1790306012": "online",
-        "1790378164": "offline"
+        "1790378164": "offline",
+        "1790479538": "online"
       },
       "https://plasma.api.onfinality.io/public": {
         "1790190717": "offline",

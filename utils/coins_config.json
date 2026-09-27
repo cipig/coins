@@ -4533,16 +4533,6 @@
                 ]
             },
             {
-                "url": "bit-e.minethepla.net:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bit-e.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -5907,6 +5897,14 @@
             },
             {
                 "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50011",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             }
         ],
@@ -8826,46 +8824,8 @@
         },
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "v2.cryptocollider.com:10001",
-                "contact": [
-                    {
-                        "email": "electrumx@cryptocollider.com"
-                    },
-                    {
-                        "discord": "collider#6160"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "v2.cryptocollider.com:5001",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "electrumx@cryptocollider.com"
-                    },
-                    {
-                        "discord": "collider#6160"
-                    }
-                ]
-            },
-            {
-                "url": "v2.cryptocollider.com:8443",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "electrumx@cryptocollider.com"
-                    },
-                    {
-                        "discord": "collider#6160"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "CLP-BEP20": {
@@ -16569,30 +16529,8 @@
             "github": "https://github.com/Flopcoin/Flopcoin",
             "homepage": "https://flopcoin.net"
         },
-        "electrum": [
-            {
-                "url": "electrumx1.flopcoin.net:10001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx1.flopcoin.net:10004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "technovision"
-                    }
-                ]
-            },
-            {
-                "url": "flop-electrum.wattxchange.app:443",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "FLOW-BEP20": {
@@ -43159,6 +43097,9 @@
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
+            {
+                "url": "https://9745.rpc.thirdweb.com"
+            },
             {
                 "url": "https://plasma.api.onfinality.io/public"
             },
