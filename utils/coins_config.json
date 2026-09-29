@@ -4523,6 +4523,15 @@
         },
         "electrum": [
             {
+                "url": "bit-e.outsidethebox.top:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bit-e.outsidethebox.top:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -26629,14 +26638,8 @@
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
             {
-                "url": "https://lb.routeme.sh/rpc/evm/1284"
-            },
-            {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
-            },
-            {
-                "url": "https://public.1rpc.io/glmr"
             }
         ],
         "explorer_block_url": "block/",
@@ -28183,9 +28186,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://1rpc.io/one"
-            },
             {
                 "url": "https://api.harmony.one"
             },
@@ -44872,7 +44872,7 @@
         "overwintered": 1,
         "version_group_id": "0x892f2085",
         "consensus_branch_id": "0x37a5165b",
-        "txfee": 50000,
+        "txfee": 70000,
         "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 75,
