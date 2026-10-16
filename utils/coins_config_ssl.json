@@ -300,6 +300,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "A29 (GRC20)",
         "contract_address": "0x08E8F49921C9650f13473cCadb948B3cf3C6c4F9",
         "parent_coin": "GLEEC",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -3490,6 +3491,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "B-CASH (GRC20)",
         "contract_address": "0x90E100a7fdad752c97ae5B5F2De76EbacfA5f6b5",
         "parent_coin": "GLEEC",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -4222,6 +4224,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "Buggyra Coin Zero (GRC20)",
         "contract_address": "0x48579AE77db4f0Ec8A747919e670a74fd71Bb783",
         "parent_coin": "GLEEC",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -15123,6 +15126,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "Gleec",
         "max_eth_tx_type": 2,
         "swap_gas_fee_policy": "Medium",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -15165,6 +15169,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "KMD Testnet (GRC20)",
         "contract_address": "0xB749CEC294d460ae75ec4efEe227fE0baFcb6ACd",
         "parent_coin": "GLEECT",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -18074,6 +18079,212 @@
         ],
         "explorer_block_url": "block/"
     },
+    "KCN": {
+        "coin": "KCN",
+        "type": "UTXO",
+        "name": "Kylacoin",
+        "coinpaprika_id": "kcn-kylacoin",
+        "coingecko_id": "kylacoin",
+        "livecoinwatch_id": "KCN",
+        "explorer_url": "https://kcnxp.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "Kylacoin Signed Message:\n",
+        "fname": "Kylacoin",
+        "rpcport": 5110,
+        "pubtype": 28,
+        "p2shtype": 26,
+        "wiftype": 65,
+        "segwit": true,
+        "bech32_hrp": "kc",
+        "txfee": 1000,
+        "decimals": 12,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/0'",
+        "trezor_coin": "Kylacoin",
+        "links": {
+            "github": "https://github.com/kylacoin/kylacoin",
+            "homepage": "https://kylacoin.com"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "KCN-segwit": {
+        "coin": "KCN-segwit",
+        "type": "UTXO",
+        "name": "Kylacoin",
+        "coinpaprika_id": "kcn-kylacoin",
+        "coingecko_id": "kylacoin",
+        "livecoinwatch_id": "KCN",
+        "explorer_url": "https://kcnxp.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "Kylacoin Signed Message:\n",
+        "fname": "Kylacoin",
+        "rpcport": 5110,
+        "pubtype": 28,
+        "p2shtype": 26,
+        "wiftype": 65,
+        "segwit": true,
+        "bech32_hrp": "kc",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "KCN",
+        "txfee": 1000,
+        "decimals": 12,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/84'/0'",
+        "trezor_coin": "Kylacoin",
+        "links": {
+            "github": "https://github.com/kylacoin/kylacoin",
+            "homepage": "https://kylacoin.com"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.kcnxp.com:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "KCN-BEP20": {
         "coin": "KCN-BEP20",
         "type": "BEP-20",
@@ -18631,6 +18842,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "Komodo (GRC20)",
         "contract_address": "0x3341acA97C71E12A80D1e01D8c86bE93ba669752",
         "parent_coin": "GLEEC",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -21453,6 +21665,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "Mandala (GRC20)",
         "contract_address": "0xcF53f0Efe6967259E582335502D3E17Fe8720FB8",
         "parent_coin": "GLEEC",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -22771,6 +22984,9 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://lb.routeme.sh/rpc/evm/1285"
+            },
             {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
@@ -26788,6 +27004,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "Raphael (GRC20)",
         "contract_address": "0x37C66A3855e23F80fA8073937B486d9f99619D3c",
         "parent_coin": "GLEEC",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -30609,9 +30826,6 @@
         "fallback_swap_contract": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
         "nodes": [
             {
-                "url": "https://lb.routeme.sh/rpc/evm/964"
-            },
-            {
                 "url": "https://lite.chain.opentensor.ai"
             },
             {
@@ -33610,9 +33824,6 @@
         "swap_contract_address": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
         "fallback_swap_contract": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
         "nodes": [
-            {
-                "url": "https://lb.routeme.sh/rpc/evm/964"
-            },
             {
                 "url": "https://lite.chain.opentensor.ai"
             },
@@ -38201,15 +38412,6 @@
             {
                 "url": "electrumx2.vanillacash.info:50012",
                 "protocol": "SSL"
-            },
-            {
-                "url": "xvc-ex-seven.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
