@@ -4404,9 +4404,9 @@
         "coin": "BLOZ",
         "type": "UTXO",
         "name": "Blockzero",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "bloz-block-zero",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "BLOZ",
         "explorer_url": "https://explorer.bloz.org/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -4469,9 +4469,9 @@
         "coin": "BLOZ-segwit",
         "type": "UTXO",
         "name": "Blockzero",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "bloz-block-zero",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "BLOZ",
         "explorer_url": "https://explorer.bloz.org/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -22836,9 +22836,6 @@
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
             {
-                "url": "https://lb.routeme.sh/rpc/evm/1284"
-            },
-            {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
             }
@@ -37702,9 +37699,6 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://9745.rpc.thirdweb.com"
-            },
-            {
                 "url": "https://plasma.api.onfinality.io/public"
             },
             {
@@ -40999,9 +40993,9 @@
         "coin": "WAM",
         "type": "UTXO",
         "name": "WAM Coin",
-        "coinpaprika_id": "wam-wam",
+        "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "WAM",
+        "livecoinwatch_id": "",
         "explorer_url": "https://explorer.wamcoin.org/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
