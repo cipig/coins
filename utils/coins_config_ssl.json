@@ -7207,6 +7207,18 @@
                         "discord": "honglu69#5911"
                     }
                 ]
+            },
+            {
+                "url": "electrum2.mooo.com:10008",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -22263,6 +22275,10 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
+                "url": "https://gm.monad.at.htw.tech",
+                "ws_url": "wss://gm.monad.at.htw.tech"
+            },
+            {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
             {
@@ -22274,9 +22290,6 @@
             },
             {
                 "url": "https://rpc.monad.xyz"
-            },
-            {
-                "url": "https://rpc3.monad.xyz"
             }
         ],
         "explorer_block_url": "block/"
@@ -22624,6 +22637,10 @@
             {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -23969,13 +23986,14 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
                 "url": "https://api.s0.t.hmny.io"
+            },
+            {
+                "url": "https://harmony-0.drpc.org",
+                "ws_url": "wss://harmony-0.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -31280,6 +31298,14 @@
             },
             {
                 "url": "https://tron.api.pocket.network"
+            },
+            {
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
+            },
+            {
+                "url": "https://tron.rpc.sentio.xyz",
+                "ws_url": "wss://tron.rpc.sentio.xyz"
             }
         ],
         "explorer_block_url": "#/block/",
@@ -31324,7 +31350,12 @@
                 "url": "https://tron.api.pocket.network"
             },
             {
-                "url": "https://tron.rpc.sentio.xyz"
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
+            },
+            {
+                "url": "https://tron.rpc.sentio.xyz",
+                "ws_url": "wss://tron.rpc.sentio.xyz"
             }
         ],
         "explorer_block_url": "#/block/"
@@ -33269,6 +33300,10 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
+                "url": "https://gm.monad.at.htw.tech",
+                "ws_url": "wss://gm.monad.at.htw.tech"
+            },
+            {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
             {
@@ -33280,9 +33315,6 @@
             },
             {
                 "url": "https://rpc.monad.xyz"
-            },
-            {
-                "url": "https://rpc3.monad.xyz"
             }
         ],
         "explorer_block_url": "block/"
@@ -33536,6 +33568,10 @@
             },
             {
                 "url": "https://plasma.api.onfinality.io/public"
+            },
+            {
+                "url": "https://plasma.drpc.org",
+                "ws_url": "wss://plasma.drpc.org"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -34020,6 +34056,10 @@
                 "url": "https://plasma.api.onfinality.io/public"
             },
             {
+                "url": "https://plasma.drpc.org",
+                "ws_url": "wss://plasma.drpc.org"
+            },
+            {
                 "url": "https://rpc.plasma.to"
             },
             {
@@ -34116,6 +34156,10 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
+                "url": "https://gm.monad.at.htw.tech",
+                "ws_url": "wss://gm.monad.at.htw.tech"
+            },
+            {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
             {
@@ -34127,9 +34171,6 @@
             },
             {
                 "url": "https://rpc.monad.xyz"
-            },
-            {
-                "url": "https://rpc3.monad.xyz"
             }
         ],
         "explorer_block_url": "block/"
@@ -34487,6 +34528,10 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
+                "url": "https://gm.monad.at.htw.tech",
+                "ws_url": "wss://gm.monad.at.htw.tech"
+            },
+            {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
             {
@@ -34498,9 +34543,6 @@
             },
             {
                 "url": "https://rpc.monad.xyz"
-            },
-            {
-                "url": "https://rpc3.monad.xyz"
             }
         ],
         "explorer_block_url": "block/"
@@ -34938,6 +34980,10 @@
             },
             {
                 "url": "https://plasma.api.onfinality.io/public"
+            },
+            {
+                "url": "https://plasma.drpc.org",
+                "ws_url": "wss://plasma.drpc.org"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -35985,6 +36031,10 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
+                "url": "https://gm.monad.at.htw.tech",
+                "ws_url": "wss://gm.monad.at.htw.tech"
+            },
+            {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
             {
@@ -35996,9 +36046,6 @@
             },
             {
                 "url": "https://rpc.monad.xyz"
-            },
-            {
-                "url": "https://rpc3.monad.xyz"
             }
         ],
         "explorer_block_url": "block/"
@@ -36694,6 +36741,10 @@
             },
             {
                 "url": "https://plasma.api.onfinality.io/public"
+            },
+            {
+                "url": "https://plasma.drpc.org",
+                "ws_url": "wss://plasma.drpc.org"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -37460,9 +37511,6 @@
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
-            {
-                "url": "https://9745.rpc.thirdweb.com"
-            },
             {
                 "url": "https://plasma.api.onfinality.io/public"
             },

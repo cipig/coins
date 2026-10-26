@@ -1312,13 +1312,16 @@
         "1792993807": "online"
       },
       "electrum2.mooo.com:10007": {
-        "1792993807": "offline"
+        "1792993807": "offline",
+        "1793026562": "online"
       },
       "electrum2.mooo.com:10008": {
-        "1792993807": "offline"
+        "1792993807": "offline",
+        "1793026562": "online"
       },
       "electrum2.mooo.com:10009": {
-        "1792993807": "offline"
+        "1792993807": "offline",
+        "1793026562": "online"
       }
     }
   },
@@ -2863,7 +2866,8 @@
         "1792993807": "offline"
       },
       "electrumx2.runonflux.io:50001": {
-        "1792993807": "offline"
+        "1792993807": "offline",
+        "1793026562": "online"
       },
       "electrumx2.runonflux.io:50004": {
         "1792993807": "offline"
@@ -4112,6 +4116,9 @@
   "MON": {
     "all": {},
     "by_server": {
+      "https://gm.monad.at.htw.tech": {
+        "1793026562": "online"
+      },
       "https://monad-mainnet-rpc.spidernode.net": {
         "1792993807": "online"
       },
@@ -4126,6 +4133,9 @@
       },
       "https://rpc3.monad.xyz": {
         "1792993807": "online"
+      },
+      "wss://gm.monad.at.htw.tech": {
+        "1793026562": "offline"
       },
       "wss://wss.monad-rpc.huginn.tech": {
         "1792993807": "online"
@@ -4185,8 +4195,14 @@
       "https://moonriver.api.onfinality.io/public": {
         "1792993807": "online"
       },
+      "https://moonriver.drpc.org": {
+        "1793026562": "online"
+      },
       "wss://moonriver.api.onfinality.io/public-ws": {
         "1792993807": "online"
+      },
+      "wss://moonriver.drpc.org": {
+        "1793026562": "online"
       }
     }
   },
@@ -4554,6 +4570,12 @@
       },
       "https://api.s0.t.hmny.io": {
         "1792993807": "online"
+      },
+      "https://harmony-0.drpc.org": {
+        "1793026562": "online"
+      },
+      "wss://harmony-0.drpc.org": {
+        "1793026562": "online"
       }
     }
   },
@@ -5466,8 +5488,18 @@
       "https://tron.api.pocket.network": {
         "1792993807": "online"
       },
+      "https://tron.drpc.org": {
+        "1793026562": "online"
+      },
       "https://tron.rpc.sentio.xyz": {
-        "1792993807": "offline"
+        "1792993807": "offline",
+        "1793026562": "online"
+      },
+      "wss://tron.drpc.org": {
+        "1793026562": "online"
+      },
+      "wss://tron.rpc.sentio.xyz": {
+        "1793026562": "online"
       }
     }
   },
@@ -6266,16 +6298,23 @@
     "all": {},
     "by_server": {
       "https://9745.rpc.thirdweb.com": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1793026562": "offline"
       },
       "https://plasma.api.onfinality.io/public": {
         "1792993807": "online"
+      },
+      "https://plasma.drpc.org": {
+        "1793026562": "offline"
       },
       "https://rpc.plasma.to": {
         "1792993807": "online"
       },
       "https://rpc.swiftnodes.io/rpc/plasma": {
         "1792993807": "online"
+      },
+      "wss://plasma.drpc.org": {
+        "1793026562": "offline"
       }
     }
   },
