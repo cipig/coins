@@ -1640,42 +1640,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "arrr.electrum2.cipig.net:10008",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "arrr.electrum2.cipig.net:20008",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "arrr.electrum2.cipig.net:30008",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -4497,29 +4461,20 @@
         },
         "electrum": [
             {
-                "url": "bitn-electrumx.wattxchange.app:50011",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "bitn-electrumx.wattxchange.app:50012",
+                "url": "bit-e.minethepla.net:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "discord": "nucash"
+                        "discord": "def#4726"
                     }
                 ]
             },
             {
-                "url": "bitn-electrumx.wattxchange.app:50014",
+                "url": "bit-e.outsidethebox.top:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
-                        "discord": "nucash"
+                        "discord": "def#4726"
                     }
                 ]
             }
@@ -7024,6 +6979,26 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
                 "contact": [
@@ -7115,6 +7090,26 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
@@ -10702,6 +10697,42 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
+                "url": "electrum1.getlynx.io:8002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.getlynx.io:8003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.getlynx.io:8002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.getlynx.io:8003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP"
             },
@@ -13571,6 +13602,9 @@
             },
             {
                 "url": "https://rpc.etcmc.xyz"
+            },
+            {
+                "url": "https://rpc.swiftnodes.io/rpc/etc"
             }
         ],
         "explorer_block_url": "block/",
@@ -19684,53 +19718,8 @@
             "github": "https://github.com/HTHcoin/helpthehomelesscoin",
             "homepage": "https://hth.foundation"
         },
-        "electrum": [
-            {
-                "url": "electrum.hth.foundation:50001",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum.hth.foundation:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.hth.foundation:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.wattxchange.app:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.wattxchange.app:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "HYPE": {
@@ -19987,6 +19976,42 @@
             "homepage": "https://infiniloop.io"
         },
         "electrum": [
+            {
+                "url": "electrum1.getlynx.io:9452",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.getlynx.io:9453",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.getlynx.io:9452",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.getlynx.io:9453",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
             {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
@@ -24251,44 +24276,40 @@
         "derivation_path": "m/44'/191'",
         "electrum": [
             {
-                "url": "electrum5.getlynx.io:50002",
-                "protocol": "SSL"
+                "url": "electrum1.getlynx.io:22569",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
             },
             {
-                "url": "electrum5.getlynx.io:50004",
-                "protocol": "WSS"
+                "url": "electrum1.getlynx.io:22570",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
             },
             {
-                "url": "electrum6.getlynx.io:50002",
-                "protocol": "SSL"
+                "url": "electrum2.getlynx.io:22569",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
             },
             {
-                "url": "electrum6.getlynx.io:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum7.getlynx.io:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum7.getlynx.io:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum8.getlynx.io:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum8.getlynx.io:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum9.getlynx.io:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum9.getlynx.io:50004",
-                "protocol": "WSS"
+                "url": "electrum2.getlynx.io:22570",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -26280,6 +26301,7 @@
         "derivation_path": "m/44'/60'",
         "max_eth_tx_type": 2,
         "swap_gas_fee_policy": "Medium",
+        "estimate_gas_mult": 1.3,
         "links": {
             "homepage": "https://monad.xyz"
         },
@@ -26291,14 +26313,14 @@
                 "ws_url": "wss://gm.monad.at.htw.tech"
             },
             {
+                "url": "https://infra.originstake.com/monad/evm"
+            },
+            {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
             {
                 "url": "https://monad-rpc.huginn.tech",
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
-            },
-            {
-                "url": "https://rpc-mainnet.monadinfra.com"
             },
             {
                 "url": "https://rpc.monad.xyz"
@@ -26728,6 +26750,9 @@
         "swap_contract_address": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
+            {
+                "url": "https://lb.routeme.sh/rpc/evm/1284"
+            },
             {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
@@ -28269,12 +28294,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
-            },
-            {
                 "url": "https://harmony-0.drpc.org",
                 "ws_url": "wss://harmony-0.drpc.org"
             }
@@ -28675,35 +28694,8 @@
             "github": "https://github.com/pepecoinppc/pepecoin",
             "homepage": "https://pepecoin.org"
         },
-        "electrum": [
-            {
-                "url": "electrum.pepe.tips:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "squidicuz"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.pepe.tips:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "squidicuz"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.pepe.tips:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "squidicuz"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "PENDLE-ARB20": {
@@ -36590,10 +36582,6 @@
             {
                 "url": "https://tron.drpc.org",
                 "ws_url": "wss://tron.drpc.org"
-            },
-            {
-                "url": "https://tron.rpc.sentio.xyz",
-                "ws_url": "wss://tron.rpc.sentio.xyz"
             }
         ],
         "explorer_block_url": "#/block/",
@@ -38604,6 +38592,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
         "parent_coin": "MON",
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
@@ -38614,14 +38608,14 @@
                 "ws_url": "wss://gm.monad.at.htw.tech"
             },
             {
+                "url": "https://infra.originstake.com/monad/evm"
+            },
+            {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
             {
                 "url": "https://monad-rpc.huginn.tech",
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
-            },
-            {
-                "url": "https://rpc-mainnet.monadinfra.com"
             },
             {
                 "url": "https://rpc.monad.xyz"
@@ -38829,11 +38823,11 @@
                 "url": "https://rpc.ankr.com/xdc"
             },
             {
-                "url": "https://rpc.xdc.network"
+                "url": "https://rpc.plugin.global/xdcmainnet",
+                "ws_url": "wss://rpc.plugin.global/ws/xdcmainnet"
             },
             {
-                "url": "https://rpc.xdcrpc.com",
-                "ws_url": "wss://rpc.xdcrpc.com/ws"
+                "url": "https://rpc.xdc.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -38878,10 +38872,6 @@
             },
             {
                 "url": "https://plasma.api.onfinality.io/public"
-            },
-            {
-                "url": "https://plasma.drpc.org",
-                "ws_url": "wss://plasma.drpc.org"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -39366,10 +39356,6 @@
                 "url": "https://plasma.api.onfinality.io/public"
             },
             {
-                "url": "https://plasma.drpc.org",
-                "ws_url": "wss://plasma.drpc.org"
-            },
-            {
                 "url": "https://rpc.plasma.to"
             },
             {
@@ -39460,6 +39446,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
         "parent_coin": "MON",
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
@@ -39470,14 +39462,14 @@
                 "ws_url": "wss://gm.monad.at.htw.tech"
             },
             {
+                "url": "https://infra.originstake.com/monad/evm"
+            },
+            {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
             {
                 "url": "https://monad-rpc.huginn.tech",
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
-            },
-            {
-                "url": "https://rpc-mainnet.monadinfra.com"
             },
             {
                 "url": "https://rpc.monad.xyz"
@@ -39832,6 +39824,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
         "parent_coin": "MON",
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
@@ -39842,14 +39840,14 @@
                 "ws_url": "wss://gm.monad.at.htw.tech"
             },
             {
+                "url": "https://infra.originstake.com/monad/evm"
+            },
+            {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
             {
                 "url": "https://monad-rpc.huginn.tech",
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
-            },
-            {
-                "url": "https://rpc-mainnet.monadinfra.com"
             },
             {
                 "url": "https://rpc.monad.xyz"
@@ -40290,10 +40288,6 @@
             },
             {
                 "url": "https://plasma.api.onfinality.io/public"
-            },
-            {
-                "url": "https://plasma.drpc.org",
-                "ws_url": "wss://plasma.drpc.org"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -41751,6 +41745,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "parent_coin": "MON",
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
@@ -41761,14 +41761,14 @@
                 "ws_url": "wss://gm.monad.at.htw.tech"
             },
             {
+                "url": "https://infra.originstake.com/monad/evm"
+            },
+            {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
             {
                 "url": "https://monad-rpc.huginn.tech",
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
-            },
-            {
-                "url": "https://rpc-mainnet.monadinfra.com"
             },
             {
                 "url": "https://rpc.monad.xyz"
@@ -42469,10 +42469,6 @@
                 "url": "https://plasma.api.onfinality.io/public"
             },
             {
-                "url": "https://plasma.drpc.org",
-                "ws_url": "wss://plasma.drpc.org"
-            },
-            {
                 "url": "https://rpc.plasma.to"
             },
             {
@@ -42737,11 +42733,11 @@
                 "url": "https://rpc.ankr.com/xdc"
             },
             {
-                "url": "https://rpc.xdc.network"
+                "url": "https://rpc.plugin.global/xdcmainnet",
+                "ws_url": "wss://rpc.plugin.global/ws/xdcmainnet"
             },
             {
-                "url": "https://rpc.xdcrpc.com",
-                "ws_url": "wss://rpc.xdcrpc.com/ws"
+                "url": "https://rpc.xdc.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -43336,6 +43332,9 @@
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
+            {
+                "url": "https://9745.rpc.thirdweb.com"
+            },
             {
                 "url": "https://plasma.api.onfinality.io/public"
             },
