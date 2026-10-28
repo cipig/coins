@@ -1414,18 +1414,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "arrr.electrum2.cipig.net:30008",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -3574,11 +3562,11 @@
         },
         "electrum": [
             {
-                "url": "bitn-electrumx.wattxchange.app:50014",
+                "url": "bit-e.outsidethebox.top:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
-                        "discord": "nucash"
+                        "discord": "def#4726"
                     }
                 ]
             }
@@ -5404,6 +5392,16 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:30069",
                 "protocol": "WSS",
                 "contact": [
@@ -5471,6 +5469,16 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:30069",
                 "protocol": "WSS",
@@ -8072,6 +8080,24 @@
         },
         "derivation_path": "m/44'/18'",
         "electrum": [
+            {
+                "url": "electrum1.getlynx.io:8003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.getlynx.io:8003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
             {
                 "url": "electrumx.dgc.ewmcx.org:50003",
                 "protocol": "WSS"
@@ -14941,63 +14967,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "HTH": {
-        "coin": "HTH",
-        "type": "UTXO",
-        "name": "Help The Homeless",
-        "coinpaprika_id": "hth-help-the-homeless-coin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "HTH",
-        "explorer_url": "https://explorer.hthcoin.r4nd0m.us/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "HomelessCoin Signed Message:\n",
-        "fname": "Help The Homeless",
-        "is_privacy_coin": true,
-        "rpcport": 9998,
-        "pubtype": 100,
-        "p2shtype": 40,
-        "wiftype": 228,
-        "txfee": 10000,
-        "dust": 5460,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/231'",
-        "links": {
-            "github": "https://github.com/HTHcoin/helpthehomelesscoin",
-            "homepage": "https://hth.foundation"
-        },
-        "electrum": [
-            {
-                "url": "electrum.hth.foundation:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.wattxchange.app:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "HYPE": {
         "coin": "HYPE",
         "type": "HyperEVM",
@@ -15234,6 +15203,24 @@
             "homepage": "https://infiniloop.io"
         },
         "electrum": [
+            {
+                "url": "electrum1.getlynx.io:9453",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.getlynx.io:9453",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
             {
                 "url": "il8p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
@@ -18506,24 +18493,22 @@
         "derivation_path": "m/44'/191'",
         "electrum": [
             {
-                "url": "electrum5.getlynx.io:50004",
-                "protocol": "WSS"
+                "url": "electrum1.getlynx.io:22570",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
             },
             {
-                "url": "electrum6.getlynx.io:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum7.getlynx.io:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum8.getlynx.io:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum9.getlynx.io:50004",
-                "protocol": "WSS"
+                "url": "electrum2.getlynx.io:22570",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -20139,6 +20124,7 @@
         "derivation_path": "m/44'/60'",
         "max_eth_tx_type": 2,
         "swap_gas_fee_policy": "Medium",
+        "estimate_gas_mult": 1.3,
         "links": {
             "homepage": "https://monad.xyz"
         },
@@ -21942,54 +21928,6 @@
                     },
                     {
                         "github": "pars5555"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "PEP": {
-        "coin": "PEP",
-        "type": "UTXO",
-        "name": "Pepecoin",
-        "coinpaprika_id": "pepenet-pepecoin",
-        "coingecko_id": "pepecoin-network",
-        "livecoinwatch_id": "_______________________________________PEPE",
-        "explorer_url": "https://pepeblocks.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Pepecoin Signed Message:\n",
-        "fname": "Pepecoin",
-        "rpcport": 33873,
-        "pubtype": 56,
-        "p2shtype": 22,
-        "wiftype": 158,
-        "segwit": false,
-        "txfee": 1000000,
-        "dust": 1000000,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/3434'",
-        "links": {
-            "github": "https://github.com/pepecoinppc/pepecoin",
-            "homepage": "https://pepecoin.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum.pepe.tips:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "squidicuz"
                     }
                 ]
             }
@@ -28076,10 +28014,6 @@
             {
                 "url": "https://tron.drpc.org",
                 "ws_url": "wss://tron.drpc.org"
-            },
-            {
-                "url": "https://tron.rpc.sentio.xyz",
-                "ws_url": "wss://tron.rpc.sentio.xyz"
             }
         ],
         "explorer_block_url": "#/block/",
@@ -29713,6 +29647,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
         "parent_coin": "MON",
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
@@ -29879,50 +29819,8 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://rpc.xdcrpc.com",
-                "ws_url": "wss://rpc.xdcrpc.com/ws"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "USDC-XPL": {
-        "coin": "USDC-XPL",
-        "type": "Plasma",
-        "name": "USD Coin",
-        "coinpaprika_id": "usdc-usd-coin",
-        "coingecko_id": "usd-coin",
-        "livecoinwatch_id": "USDC",
-        "explorer_url": "https://plasmascan.to/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "USD Coin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 9745,
-        "decimals": 6,
-        "avg_blocktime": 1,
-        "required_confirmations": 5,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "XPL",
-                "contract_address": "0x2d661C89D812261039AF9764eceaAee884f5F67F"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x2d661C89D812261039AF9764eceaAee884f5F67F",
-        "parent_coin": "XPL",
-        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "nodes": [
-            {
-                "url": "https://plasma.drpc.org",
-                "ws_url": "wss://plasma.drpc.org"
+                "url": "https://rpc.plugin.global/xdcmainnet",
+                "ws_url": "wss://rpc.plugin.global/ws/xdcmainnet"
             }
         ],
         "explorer_block_url": "block/"
@@ -30308,48 +30206,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "USDE-XPL": {
-        "coin": "USDE-XPL",
-        "type": "Plasma",
-        "name": "Ethena USDe",
-        "coinpaprika_id": "usde-ethena-usde",
-        "coingecko_id": "ethena-usde",
-        "livecoinwatch_id": "__USDE",
-        "explorer_url": "https://plasmascan.to/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Ethena USDe",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 9745,
-        "decimals": 18,
-        "avg_blocktime": 1,
-        "required_confirmations": 5,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "XPL",
-                "contract_address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
-        "parent_coin": "XPL",
-        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "nodes": [
-            {
-                "url": "https://plasma.drpc.org",
-                "ws_url": "wss://plasma.drpc.org"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "USDE-MNT": {
         "coin": "USDE-MNT",
         "type": "Mantle",
@@ -30426,6 +30282,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
         "parent_coin": "MON",
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
@@ -30721,6 +30583,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
         "parent_coin": "MON",
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
@@ -31084,48 +30952,6 @@
             {
                 "url": "https://hyperliquid.drpc.org",
                 "ws_url": "wss://hyperliquid.drpc.org"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "USDT-XPL": {
-        "coin": "USDT-XPL",
-        "type": "Plasma",
-        "name": "Tether",
-        "coinpaprika_id": "usdt-tether",
-        "coingecko_id": "tether",
-        "livecoinwatch_id": "USDT",
-        "explorer_url": "https://plasmascan.to/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Tether",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 143,
-        "decimals": 6,
-        "avg_blocktime": 1,
-        "required_confirmations": 5,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "XPL",
-                "contract_address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
-        "parent_coin": "XPL",
-        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "nodes": [
-            {
-                "url": "https://plasma.drpc.org",
-                "ws_url": "wss://plasma.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -32104,6 +31930,12 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "parent_coin": "MON",
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
@@ -32717,48 +32549,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "XAUT-XPL": {
-        "coin": "XAUT-XPL",
-        "type": "Plasma",
-        "name": "Tether Gold",
-        "coinpaprika_id": "xaut-tether-gold",
-        "coingecko_id": "tether-gold",
-        "livecoinwatch_id": "XAUT",
-        "explorer_url": "https://plasmascan.to/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Tether Gold",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 9745,
-        "decimals": 6,
-        "avg_blocktime": 1,
-        "required_confirmations": 5,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "XPL",
-                "contract_address": "0x1B64B9025EEbb9A6239575dF9Ea4b9Ac46D4d193"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x1B64B9025EEbb9A6239575dF9Ea4b9Ac46D4d193",
-        "parent_coin": "XPL",
-        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "nodes": [
-            {
-                "url": "https://plasma.drpc.org",
-                "ws_url": "wss://plasma.drpc.org"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "XCN-ERC20": {
         "coin": "XCN-ERC20",
         "type": "ERC-20",
@@ -32994,8 +32784,8 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://rpc.xdcrpc.com",
-                "ws_url": "wss://rpc.xdcrpc.com/ws"
+                "url": "https://rpc.plugin.global/xdcmainnet",
+                "ws_url": "wss://rpc.plugin.global/ws/xdcmainnet"
             }
         ],
         "explorer_block_url": "block/"
